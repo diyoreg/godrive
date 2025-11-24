@@ -1,0 +1,32 @@
+﻿{
+    "questionId":  1055,
+    "image":  "data/images/q1055.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Hammasi",
+                                                    "F2. 1,2,4,5"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1 ilova: 1.19. “Ikki tomonlama harakatlanish”. Yo\u0027lning (qatnov qismining) qarama-qarshi harakatlanish qismi boshlanishini bildiradi.\nYHQ 1 ilova: 1.6. “Teng ahamiyatli yo\u0027llar kesishuvi”."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. 1,2,4,5"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД приложение № 1: 1.19. Двустороннее движение. Начало участка дороги (проезжей части) с встречным движением.\nПДД приложение № 1: 1.6. Пересечение равнозначных дорог"
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Ҳаммаси",
+                                                     "F2. 1,2,4,5"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1 илова: 1.19. “Икки томонлама ҳаракатланиш”. Йўлнинг (қатнов қисмининг) қарама-қарши ҳаракатланиш қисми бошланишини билдиради.\nЙҲҚ 1 илова: 1.6. “Тенг аҳамиятли йўллар кесишуви”."
+                                 }
+                     }
+}

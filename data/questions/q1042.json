@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  1042,
+    "image":  "data/images/q1042.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu yo\u0027l belgisi qanday nomlanadi?",
+                                    "options":  [
+                                                    "F1. Piyodalarning yo\u0027l yoqasidan yurishi mumkin bo\u0027lgan hudud",
+                                                    "F2. Piyodalarning qatnov qismidan yurishi mumkin bo\u0027lgan hudud",
+                                                    "F3. Piyodalarning trotuardan yurishi mumkin bo\u0027lgan hudud"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 1.35 “Piyodalarning yo\u0027l yoqasidan yurishi mumkin bo\u0027lgan hudud”"
+                                },
+                         "ru":  {
+                                    "text":  "Как называется этот дорожный знак?",
+                                    "options":  [
+                                                    "F1. Зона, где пешеходы могут ходить по обочине",
+                                                    "F2. Зона, где пешеходы могут ходить по проезжей части",
+                                                    "F3. Зона, где пешеходы могут ходить по тротуарам"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 1: 1.35 Территория, где пешеходы могут двигаться по обочине"
+                                },
+                         "uzk":  {
+                                     "text":  "Бу йўл белгиси қандай номланади?",
+                                     "options":  [
+                                                     "F1. Пиёдаларнинг йўл ёқасидан юриши мумкин бўлган ҳудуд",
+                                                     "F2. Пиёдаларнинг қатнов қисмидан юриши мумкин бўлган ҳудуд",
+                                                     "F3. Пиёдаларнинг тротуардан юриши мумкин бўлган ҳудуд"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 1.35 “Пиёдаларнинг йўл ёқасидан юриши мумкин бўлган ҳудуд”"
+                                 }
+                     }
+}

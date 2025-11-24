@@ -1,0 +1,39 @@
+{
+    "questionId": 364,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi joylarda orqa bilan harakatlanish taqiqlanadi?",
+            "options": [
+                "F1. Chorrahalarda, piyodalar o'tish joylarida",
+                "F2. Ko'priklarda, yo'l o'tkazgichlar, estakadalarda va ularning ostida",
+                "F3. Avtomagistrallarda",
+                "F4. Sanab o'tilgan barcha joylarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 9-bobining 63 bandiga asosan orqaga harakatlanish chorrahalarda va Qoidalarning 62- bandiga muvofiq qayrilib olish taqiqlangan joylarda hamda 19-bobining 121-bandiga asosan, avtomagistrallarda orqaga harakatlanish taqiqlanadi.\nYHQ 9-bobi 62-bandiga asosan: Quyidagi joylarda qayrilib olish taqiqlanadi:\npiyodalarning o'tish joylarida;\ntunnellarda;\nko'priklar, yo'l o'tkazgichlar, estakadalar va ularning ostida (tegishli yo'l belgilari bilan bunday manyovrni bajarish ruxsat berilgan yo'l qismlari bundan mustasno);\ntemir yo'l kesishmalarida;\nyo'lning ko'rinishi biror-bir yo'nalishda 100 metrdan kam bo'lgan joylarda."
+        },
+        "ru": {
+            "text": "В каких местах запрещено движение задним ходом?",
+            "options": [
+                "F1. На перекрестках, пешеходных переходах",
+                "F2. На мостах, путепроводах, эстакадах и под ними",
+                "F3. На автомагистралях",
+                "F4. Во всех перечисленных местах"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Aбзацу 2 пункта 63 главы 9 ПДД, движение задним ходом запрещается на перекрестках и в местах, где запрещен разворот согласно пункту 62 Правил а также абзацу 5 пункта 121 главы 19 настоящих Правил, на автомагистралях запрещается движение задним ходом.\nПункта 62 главы 9 ПДД, гласит: Разворот запрещается: - на пешеходных переходах;\n- в тоннелях;\n- на мостах, путепроводах, эстакадах, подвесных мостах и под ними;\n- на железнодорожных переездах;\n- в местах с видимостью дороги хотя бы в одном направлении менее 100 м.\nСоответственно, во всех перечисленных случаях разворот запрещен."
+        },
+        "uzk": {
+            "text": "Қайси жойларда орқа билан ҳаракатланиш тақиқланади?",
+            "options": [
+                "F1. Чорраҳаларда, пиёдалар ўтиш жойларида",
+                "F2. Кўприкларда, йўл ўтказгичлар, эстакадаларда ва уларнинг остида",
+                "F3. Автомагистралларда",
+                "F4. Санаб ўтилган барча жойларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 9-бобининг 63 бандига асосан орқага ҳаракатланиш чорраҳаларда ва Қоидаларнинг 62- бандига мувофиқ қайрилиб олиш тақиқланган жойларда ҳамда 19-бобининг 121-бандига асосан, автомагистралларда орқага ҳаракатланиш тақиқланади.\nЙҲҚ 9-боби 62-бандига асосан: Қуйидаги жойларда қайрилиб олиш тақиқланади:\nпиёдаларнинг ўтиш жойларида;\nтуннелларда;\nкўприклар, йўл ўтказгичлар, эстакадалар ва уларнинг остида (тегишли йўл белгилари билан бундай манёврни бажариш рухсат берилган йўл қисмлари бундан мустасно);\nтемир йўл кесишмаларида;\nйўлнинг кўриниши бирор-бир йўналишда 100 метрдан кам бўлган жойларда."
+        }
+    }
+}

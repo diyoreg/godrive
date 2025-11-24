@@ -1,0 +1,42 @@
+﻿{
+    "questionId":  253,
+    "image":  "data/images/q0253.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Reversiv harakatlanish amalga oshiriladigan harakat bo\u0027laklari chegaralarini belgilash uchun bu yotiq chiziqlarning qay biridan foydalaniladi?",
+                                    "options":  [
+                                                    "F1. 1-chiziq",
+                                                    "F2. 2-chiziq",
+                                                    "F3. 3-chiziq",
+                                                    "F4. 2- va 3-chiziq",
+                                                    "F5. 3- va 4-chiziq"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining oʻn birinchi xatboshisiga asosan: 1.9 — reversiv harakat tashkil etilgan bo\u0027laklarning chegarasini belgilaydi; reversiv harakatlanish amalga oshirilgan yo\u0027llarda (reversiv svetofori o\u0027chirilgan holatda) qarama-qarshi yoʻnalishdagi transport oqimini ajratadi."
+                                },
+                         "ru":  {
+                                    "text":  "Какая из этих линий разметки используется для обозначения границ полос движения, на которых осуществляется реверсивное движение?",
+                                    "options":  [
+                                                    "F1. Линия 1",
+                                                    "F2. Линия 2",
+                                                    "F3. Линия 3",
+                                                    "F4. Линия 2 и 3",
+                                                    "F5. Линия 3 и 4"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Линия 1.9 раздела 1 приложения № 2 к ПДД, обозначает границы полос движения, на которых осуществляется реверсивное движение; разделяет транспортные потоки противоположных направлений (при выключенных реверсивных светофорах) на дорогах, где осуществляется реверсивное движение."
+                                },
+                         "uzk":  {
+                                     "text":  "Реверсив ҳаракатланиш амалга ошириладиган ҳаракат бўлаклари чегараларини белгилаш учун бу ётиқ чизиқларнинг кай биридан фойдаланилади?",
+                                     "options":  [
+                                                     "F1. 1-чизиқ",
+                                                     "F2. 2-чизиқ",
+                                                     "F3. 3-чизиқ",
+                                                     "F4. 2- ва 3-чизиқ",
+                                                     "F5. 3- ва 4-чизиқ"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг ўн биринчи хатбошисига асосан: 1.9 — реверсив ҳаракат ташкил этилган бўлакларнинг чегарасини белгилайди;\nреверсив ҳаракатланиш амалга оширилган йўлларда (реверсив светофори ўчирилган ҳолатда) қарама-қарши йўналишдаги транспорт оқимини ажратади."
+                                 }
+                     }
+}

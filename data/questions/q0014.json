@@ -1,0 +1,39 @@
+{
+    "questionId": 14,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Avtomagistralda quyidagilar taqiqlanadi",
+            "options": [
+                "F1. Qayrilib olish va ajratuvchi mintaqaning texnologik uzilish joylariga kirish",
+                "F2. Orqaga harakatlanish",
+                "F3. «To'xtab turish joyi» yoki «Dam olish joyi» belgilari bo'lgan maxsus maydonchalardan tashqari joyda to'xtash",
+                "F4. Yuqoridagi barcha holatlar"
+            ],
+            "correctAnswer": 4,
+            "explanation": "IzohYHQ 19-bobi 121-bandi: Avtomagistrallarda quyidagilar taqiqlanadi:\npiyodalar, uy hayvonlari, ot-aravalar, velosipedlar, individual harakatlanish vositalari, skuterlar, mopedlar, traktorlar va o'ziyurar uskunalar, texnik tavsifnomasiga yoki holatiga ko'ra tezligi soatiga 40 kilometrdan kam bo'lgan transport vositalarining harakatlanishi;\nyuk avtomobillariga yo'lning chetki chap qatorida harakatlanishi;\n5.15 yoki 6.11 yo'l belgilari bilan belgilangan maxsus to'xtab turish maydonchalaridan boshqa joylarda to'xtash;\najratuvchi mintaqaning texnologik uzilish joylariga kirish va ularda qayrilib olish;\norqaga harakatlanish;\ntransport vositasini o'rganish uchun boshqarish."
+        },
+        "ru": {
+            "text": "На автомагистрали запрещено",
+            "options": [
+                "F1. Разворот и въезд в разрывы разделительной полосы",
+                "F2. Движение задним ходом.",
+                "F3. Остановка вне специальных площадок для стоянки, обозначенных знаком «Место стоянки» или «Место отдыха»",
+                "F4. Все перечисленные действия"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 121 главы 19 ПДД, гласит: На автомагистралях запрещается: - движение пешеходов, домашних животных, гужевых повозок, велосипедов, индивидуальные транспортные средства, скутеры, мопедов, тракторов и самоходных машин, транспортных средств, скорость которых по технической характеристике или их состоянию менее 40 км/ч;\n- движение грузовых автомобилей с разрешенной максимальной массой более 3,5 т по другим полосам, кроме первой и второй;\n- остановка вне специальных площадок для стоянки, обозначенных знаками 5.15 \"Место стоянки\" или 6.11 \"Место отдыха\";\n- разворот и въезд в технологические разрывы разделительной полосы\n - движение задним ходом;\n- учебная езда. Как видно, на автомагистрали запрещены все перечисленные действия."
+        },
+        "uzk": {
+            "text": "Автомагистралда қуйидагилар тақиқланади",
+            "options": [
+                "F1. Қайрилиб олиш ва ажратувчи минтақанинг технологик узилиш жойларига кириш",
+                "F2. Орқага ҳаракатланиш",
+                "F3. «Тўхтаб туриш жойи» ёки «Дам олиш жойи» белгилари бўлган махсус майдончалардан ташқари жойда тўхташ",
+                "F4. Юқоридаги барча ҳолатлар"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ИзоҳЙҲҚ 19-боби 121-банди: Автомагистралларда қуйидагилар тақиқланади:\nпиёдалар, уй ҳайвонлари, от-аравалар, велосипедлар, индивидуал ҳаракатланиш воситалари, скутерлар, мопедлар, тракторлар ва ўзиюрар ускуналар, техник тавсифномасига ёки ҳолатига кўра тезлиги соатига 40 километрдан кам бўлган транспорт воситаларининг ҳаракатланиши;\nюк автомобилларига йўлнинг четки чап қаторида ҳаракатланиши;\n5.15 ёки 6.11 йўл белгилари билан белгиланган махсус тўхтаб туриш майдончаларидан бошқа жойларда тўхташ;\nажратувчи минтақанинг технологик узилиш жойларига кириш ва уларда қайрилиб олиш;\nорқага ҳаракатланиш;\nтранспорт воситасини ўрганиш учун бошқариш."
+        }
+    }
+}

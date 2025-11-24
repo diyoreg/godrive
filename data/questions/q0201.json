@@ -1,0 +1,33 @@
+{
+    "questionId": 201,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yaltirovchi ko'k mayoqcha va unga qo'shimcha maxsus tovushli ishorasi yoqilgan transport vositasi sizga yaqinlashib kelmoqda. Siz shunday transport vositasiga qarshi harakatlanayotgan bo'lsangiz, nima qilishingiz lozim?",
+            "options": [
+                "F1. Yo'l yoqasida yoki qatnov kismining chetida to'xtash",
+                "F2. Mayoqcha ishorasi yoqilgan transport vositasiga halaqit bermasdan yo'l chetidan harakatlanish"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 6-bobi 26-bandiga asosan: Haydovchilar tezkor va maxsus xizmatlarning ko'k yoki qizil yoxud ko'k va qizil rangli yalt-yalt etuvchi mayoqchalar va maxsus tovushli ishorasi yoqilgan holda yaqinlashayotgan transport vositalariga, shuningdek ularning kuzatuvidagi, yaqinni yorituvchi fara chiroqlari yoqilgan transport vositasi (transport vositalari)ga yo'l berishlari shart.\nMazkur turdagi transport vositalarini quvib o'tish taqiqlanadi."
+        },
+        "ru": {
+            "text": "К Вам приближается транспортное средство, на котором включен проблесковый маячок синего цвета и специальный звуковой сигнал. Как Вы должны поступить, если двигаетесь навстречу такому транспортному средству?",
+            "options": [
+                "F1. Остановиться на обочине или у тротуара",
+                "F2. Продолжать движение, не создавая помех транспортному средству с включенными специальными сигналами"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 26 главы 6 ПДД гласит: При приближении транспортных средств оперативных и специальных служб с включенными проблесковым маячком синего или красного или синего и красного цветов и специальным звуковым сигналом, а также сопровождаемого ими транспортного средства (транспортных средств) с включенным ближним светом фар водители обязаны уступить им дорогу для обеспечения их беспрепятственного проезда. Запрещается обгонять данные транспортные средства."
+        },
+        "uzk": {
+            "text": "Ялтировчи кўк маёқча ва унга қўшимча махсус товушли ишораси ёкилган транспорт воситаси сизга яқинлашиб келмоқда. Сиз шундай транспорт воситасига қарши ҳаракатланаётган бўлсангиз, нима қилишингиз лозим?",
+            "options": [
+                "F1. Йўл ёқасида ёки қатнов қисмининг четида тўхташ",
+                "F2. Маëкча ишораси ёкилган транспорт воситасига ҳалақит бермасдан йўл четидан ҳаракатланиш"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 6-боби 26-бандига асосан: Ҳайдовчилар тезкор ва махсус хизматларнинг кўк ёки қизил ёхуд кўк ва қизил рангли ялт-ялт этувчи маёқчалар ва махсус товушли ишораси ёқилган ҳолда яқинлашаётган транспорт воситаларига, шунингдек уларнинг кузатувидаги, яқинни ёритувчи фара чироқлари ёқилган транспорт воситаси (транспорт воситалари)га йўл беришлари шарт.\nМазкур турдаги транспорт воситаларини қувиб ўтиш тақиқланади."
+        }
+    }
+}

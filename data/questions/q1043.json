@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  1043,
+    "image":  "data/images/q1043.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Belgilardan qaysi biri er usti avtomobil quyish joyini bildiradi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 5.15.2 Yer usti avtomobil qo\u0027yish joyi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из указанных знаков обозначает надземная автомобильная стоянка?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 1: 5.15.2 Надземная автомобильная стоянка"
+                                },
+                         "uzk":  {
+                                     "text":  "Белгилардан қайси бири ер усти автомобиль қуйиш жойини билдиради?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 5.15.2 Ер усти автомобил қўйиш жойи."
+                                 }
+                     }
+}

@@ -1,0 +1,39 @@
+{
+    "questionId": 830,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Avtomobillarning bir qator bo'lib harakatlanishi uchun yetarlicha keng bo'lgan, yo'l chiziqlari bilan belgilangan yoki belgilanmagan yo'l qatnov qismining har qanday bo'ylama bo'lagi nima deb ataladi?",
+            "options": [
+                "F1. Qatnov qismi",
+                "F2. Yo'l yoqasi",
+                "F3. Harakatlanish tasmasi",
+                "F4. Yondosh hudud"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 1-ilova Umumiy qoidalar: Harakatlanish bo'lagi — avtomobillarning bir qator bo'lib harakatlanishi uchun yetarlicha keng boʻlgan, yoʻl chiziqlari bilan belgilangan yoki belgilanmagan yo'l qatnov qismining har qanday bo'ylama bo'lagi."
+        },
+        "ru": {
+            "text": "Как называется любая из продольных полос проезжей части, обозначенная или необозначенная дорожной разметкой и имеющая ширину, достаточную для движения автомобилей в один ряд?",
+            "options": [
+                "F1. Проезжная часть",
+                "F2. Обочина дороги",
+                "F3. Полоса дивижения",
+                "F4. Прилегающая территория"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ПДД общие положения: Полоса движения — любая из продольных полос проезжей части, обозначенная или необозначенная дорожной разметкой и имеющая ширину, достаточную для движения автомобилей в один ряд."
+        },
+        "uzk": {
+            "text": "Автомобилларнинг бир қатор бўлиб ҳаракатланиши учун етарлича кенг бўлган, йўл чизиқлари билан белгиланган ёки белгиланмаган йўл қатнов қисмининг ҳар қандай бўйлама бўлаги нима деб аталади?",
+            "options": [
+                "F1. Қатнов қисми",
+                "F2. Йўл ёқаси",
+                "F3. Ҳаракатланиш тасмаси",
+                "F4. Йондош ҳудуд"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 1-илова Умумий қоидалар: Ҳаракатланиш бўлаги — автомобилларнинг бир қатор бўлиб ҳаракатланиши учун етарлича кенг бўлган, йўл чизиқлари билан белгиланган ёки белгиланмаган йўл қатнов қисмининг ҳар қандай бўйлама бўлаги."
+        }
+    }
+}

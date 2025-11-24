@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  570,
+    "image":  "data/images/q0570.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Yo\u0027lning ko\u0027rsatilgan yo\u0027nalishda oxiri berkligini",
+                                                    "F2. Aholi punktlaridagi manzil tomon harakatlanish yo\u0027nalishini",
+                                                    "F3. Balandlikda yoki tezlanish tasmasida qo\u0027shimcha tasmaning tugaganini"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1-ilovasi 5-boʻlimining o\u0027ttiz oltinchi xatboshisiga asosan: 5.19.1. «Oxiri berk yo\u0027l». Yo\u0027lning ko\u0027rsatilgan yo\u0027nalishda oxiri berkligini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Дорогу, не имеющую сквозного проезда",
+                                                    "F2. Направление движения к объекту в населенном пункте",
+                                                    "F3. Конец дополнительном полосы на подъеме или полос"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Знак 5.19.1 раздела 5 приложения № 1 к ПДД, «Тупик». Дорога, не имеющая сквозного проезда."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Йўлнинг кўрсатилган йўналишда охири берклигини",
+                                                     "F2. Аҳоли пунктларидаги манзил томон ҳаракатланиш йўналишини",
+                                                     "F3. Баландликда ёки тезланиш тасмасида қўшимча тасманинг тугаганини"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1-иловаси 5-бўлимининг ўттиз олтинчи хатбошисига асосан: 5.19.1. «Охири берк йўл». Йўлнинг кўрсатилган йўналишда охири берклигини билдиради."
+                                 }
+                     }
+}

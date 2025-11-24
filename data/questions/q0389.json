@@ -1,0 +1,36 @@
+{
+    "questionId": 389,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sirpanchiq yo'lda tormozlardan qanday foydalanish kerak?",
+            "options": [
+                "F1. Ulagichni ajratmay turib sekin tormoz berishi va boshqaruv rulining keskin burishga yo'l qo'ymasligi",
+                "F2. Ulagichni ajratishi va sekin tormoz berishi",
+                "F3. Tormoz tepkisini uzuq-uzuq bosish bilan keskin tormoz berishi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Keskin tormoz berish oqibatida blokirovka boʻlgan g'ildiraklarga rul chambaragining burilishi ta'sir qilmaydi. Sirpanchiq yoʻlda dvigatel orqali, g'ildiraklarni blakirovka qilmasdan tormoz berish samarali tormoz berishga yordam beradi."
+        },
+        "ru": {
+            "text": "Как пользоваться тормозами на скользкой дороге?",
+            "options": [
+                "F1. Плавно тормозить, не выключая сцепления, и не производить резких поворотов рулевым колесом",
+                "F2. Выключить сцепление и плавно тормозить",
+                "F3. Тормозить резким, прерывистым нажатием на педаль тормоза"
+            ],
+            "correctAnswer": 1,
+            "explanation": "На скользкой дороге необходимо плавно тормозить, не выключая сцепления, и не производить резких поворотов рулевым колесом, так как резкие торможение и повороты руля могут вызвать занос автомобиля, а включенное сцепление \"помогает\" замедлить движение (\"торможение двигателем\")."
+        },
+        "uzk": {
+            "text": "Сирпанчиқ йўлда тормозлардан қандай фойдаланиш керак?",
+            "options": [
+                "F1. Улагични ажратмай туриб секин тормоз бериши ва бошқарув рулининг кескин буришга йўл кўймаслиги",
+                "F2. Улагични ажратиши ва секин тормоз бериши",
+                "F3. Тормоз тепкисини узуқ-узуқ босиш билан кескин тормоз бериши"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Кескин тормоз бериш оқибатида блокировка бўлган ғилдиракларга рул чамбарагининг бурилиши таъсир қилмайди. Сирпанчиқ йўлда двигател орқали, ғилдиракларни блакировка қилмасдан тормоз бериш самарали тормоз беришга ёрдам беради."
+        }
+    }
+}

@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  289,
+    "image":  "data/images/q0289.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Yengil avtomobil haydovchisi yo\u0027l berishi kerakmi?",
+                                    "options":  [
+                                                    "F1. Yo\u0027q"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 20-bobi 126-bandiga asosan: Turar joy dahalaridan chiqishda haydovchilar boshqa harakat qatnashchilariga yoʻl berishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Обязан ли водитель легкового автомобиля уступить дорогу?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Информационно-указательный знак 5.39 \"Конец жилой зоны\".\nПункт 126 главы 20 ПДД гласит: При выезде из жилых зон водители должны уступить дорогу другим участникам движения. В данном случае легковой автомобиль выезжает из жилой зоны, соответственно, он должен уступить дорогу другим транспортным средствам."
+                                },
+                         "uzk":  {
+                                     "text":  "Енгил автомобиль ҳайдовчиси йўл бериши керакми?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 20-боби 126-бандига асосан: Турар жой даҳаларидан чиқишда ҳайдовчилар бошқа ҳаракат қатнашчиларига йўл беришлари керак."
+                                 }
+                     }
+}

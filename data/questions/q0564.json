@@ -1,0 +1,42 @@
+{
+    "questionId": 564,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 3 km/s",
+                "F2. 5 km/s",
+                "F3. 8 km/s",
+                "F4. 10 km/s",
+                "F5. 30 km/s"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 18-bobi 118-bandining oʻninchi xatboshisiga asosan, temir yo'l kesishmasiga quyidagi hollarda kirish taqiqlanadi: temir yo'l distansiyasi boshligʻining ruxsatisiz tezligi soatiga 8 kilometrdan kam bo'lgan transport vositalarini harakatlanishi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 3 км/ч",
+                "F2. 5 км/ч",
+                "F3. 8 км/ч",
+                "F4. 10 км/ч",
+                "F5. 30 км/ч"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 118 главы 18 ПДД, гласит: Кроме того, запрешается:  - без разрешения начальника дистанции пути железной дороги движение транспортных средств, скорость которых менее 8 км/ч."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 3 км/с",
+                "F2. 5 км/с",
+                "F3. 8 км/с",
+                "F4. 10 км/с",
+                "F5. 30 км/с"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 18-боби 118-бандининг ўнинчи хатбошисига асосан, темир йўл кесишмасига қуйидаги ҳолларда кириш тақиқланади: темир йўл дистанцияси бошлиғининг рухсатисиз тезлиги соатига 8 километрдан кам бўлган транспорт воситаларини ҳаракатланиши."
+        }
+    }
+}

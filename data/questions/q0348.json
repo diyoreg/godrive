@@ -1,0 +1,42 @@
+﻿{
+    "questionId":  348,
+    "image":  "data/images/q0348.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Agar barcha transport vositalari 80 km/soat tezlik bilan harakat qilsa, haydovchilardan qay biri qoidalar talablarini buzadi?",
+                                    "options":  [
+                                                    "F1. Mototsikl va yuk avtomobilining haydovchilari",
+                                                    "F2. Mototsikl va yengil avtomobilning haydovchilari",
+                                                    "F3. Hamma haydovchilar",
+                                                    "F4. Mototsikl haydovchisi",
+                                                    "F5. Hech kim buzmadi"
+                                                ],
+                                    "correctAnswer":  5,
+                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limi 3.24 belgi talabiga asosan, «Yuqori tezlik cheklangan» belgisi transport vositalarining yuqori tezligini cheklaydi."
+                                },
+                         "ru":  {
+                                    "text":  "Кто из водителей нарушает требования Правил, если все транспортные средства движутся со скоростью 80 км/ч?",
+                                    "options":  [
+                                                    "F1. Водители мотоцикла и грузового автомобиля",
+                                                    "F2. Водители мотоцикла и легкового автомобиля",
+                                                    "F3. Все водители",
+                                                    "F4. Водитель мотоцикла",
+                                                    "F5. Никто не нарушает"
+                                                ],
+                                    "correctAnswer":  5,
+                                    "explanation":  "Tребованию знака 3.24 раздела 3 приложения №1 к ПДД, «Ограничение максимальной скорости» запрещается движение со скоростью (км/ч), превышающей указанную на знаке."
+                                },
+                         "uzk":  {
+                                     "text":  "Агар барча транспорт воситалари 80 км/соат тезлик билан ҳаракат қилса, ҳайдовчилардан қай бири қоидалар талабларини бузади?",
+                                     "options":  [
+                                                     "F1. Мотоцикл ва юк автомобилининг ҳайдовчилари",
+                                                     "F2. Мотоцикл ва енгил автомобилнинг ҳайдовчилари",
+                                                     "F3. Ҳамма ҳайдовчилар",
+                                                     "F4. Мотоцикл ҳайдовчиси",
+                                                     "F5. Хеч ким бузмади"
+                                                 ],
+                                     "correctAnswer":  5,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлими 3.24 белги талабига асосан, «Юқори тезлик чекланган» белгиси транспорт воситаларининг юқори тезлигини чеклайди."
+                                 }
+                     }
+}

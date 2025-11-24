@@ -1,0 +1,36 @@
+{
+    "questionId": 779,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Shatakka olingan avtomobilni avariya ishoralari nosoz bo'lganda transport vositasi qanday belgilanishi kerak?",
+            "options": [
+                "F1. Shatakka olingan transport vositasi orqa tomoniga avariya sababli to'xtash belgisini o'rnatish",
+                "F2. Orqa tumanga qarshi chiroqlarini yoqish",
+                "F3. Gabarit chiroqlarini yoqish"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 8-bobi 52-bandi: Shatakka olingan transport vositasida avariya yorug'lik ishoralari boʻlmasa yoki ular ishlamasa uning orqa tomoniga avariya sababli toʻxtash belgisi o'rnatilishi kerak."
+        },
+        "ru": {
+            "text": "Как следует обозначить буксируемый автомобиль при отсутствии или неисправности аварийной сигнализации?",
+            "options": [
+                "F1. Установить на задней части буксируемого автомобиля знак аварийной остановки",
+                "F2. Включить задний противотуманные фонаре",
+                "F3. Включить габаритные огни"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 52 главы 8 ПДД, гласит: При отсутствии или неисправности аварийной световой сигнализации на буксируемом механическом транспортном средстве на его задней части должен быть закреплён знак аварийной остановки."
+        },
+        "uzk": {
+            "text": "Шатакка олинган автомобилни авария ишоралари носоз бўлганда транспорт воситаси қандай белгиланиши керак?",
+            "options": [
+                "F1. Шатакка олинган транспорт воситаси орқа томонига авария сабабли тўхташ белгисини ўрнатиш",
+                "F2. Орқа туманга қарши чироқларини ёқиш",
+                "F3. Габарит чироқларини ёқиш"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 8-боби 52-банди: Шатакка олинган транспорт воситасида авария ёруғлик ишоралари бўлмаса ёки улар ишламаса унинг орқа томонига авария сабабли тўхташ белгиси ўрнатилиши керак."
+        }
+    }
+}

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoDrive - Вход в систему</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(-45deg, #1e293b, #0f172a, #1a2332, #0d1520);
+            background-size: 400% 400%;
+            animation: gradientShift 12s ease infinite;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Floating abstract shapes */
+        body::before,
+        body::after {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        body::before {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(96, 165, 250, 0.4) 0%, transparent 70%);
+            top: -100px;
+            left: -100px;
+            animation: float 25s ease-in-out infinite;
+        }
+
+        body::after {
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.3) 0%, transparent 70%);
+            bottom: -100px;
+            right: -100px;
+            animation: float 20s ease-in-out infinite reverse;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translate(0, 0) scale(1);
+            }
+            33% {
+                transform: translate(50px, -50px) scale(1.1);
+            }
+            66% {
+                transform: translate(-30px, 30px) scale(0.9);
+            }
+        }
+
+        .login-container {
+            max-width: 450px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+            position: relative;
+            z-index: 10;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+            filter: brightness(0) invert(1);
+            opacity: 0.9;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group label {
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+        }
+
+        .form-group input {
+            padding: 14px 16px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            font-size: 15px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            transition: all 0.2s ease;
+        }
+
+        .form-group input::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #60a5fa;
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.1);
+        }
+
+        .login-button {
+            background: #60a5fa;
+            color: white;
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-top: 10px;
+        }
+
+        .login-button:hover {
+            background: #3b82f6;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 15px rgba(96, 165, 250, 0.3);
+        }
+
+        .login-button:disabled {
+            background: rgba(96, 165, 250, 0.3);
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .status-message {
+            padding: 12px 16px;
+            border-radius: 8px;
+            display: none;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .status-message.success {
+            background: rgba(34, 197, 94, 0.2);
+            color: #86efac;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+
+        .status-message.error {
+            background: rgba(239, 68, 68, 0.2);
+            color: #fca5a5;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .current-user {
+            background: rgba(96, 165, 250, 0.1);
+            border: 1px solid rgba(96, 165, 250, 0.2);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .current-user h4 {
+            color: #60a5fa;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .current-user p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+            margin: 6px 0;
+        }
+
+        .current-user strong {
+            color: white;
+        }
+
+        .current-user span {
+            color: #60a5fa;
+        }
+
+        .logout-button {
+            background: rgba(239, 68, 68, 0.2);
+            color: #fca5a5;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            padding: 10px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 12px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .logout-button:hover {
+            background: rgba(239, 68, 68, 0.3);
+            border-color: rgba(239, 68, 68, 0.5);
+        }
+
+        .dashboard-link {
+            display: inline-block;
+            color: #60a5fa;
+            text-decoration: none;
+            margin-top: 12px;
+            font-size: 14px;
+            transition: color 0.2s ease;
+        }
+
+        .dashboard-link:hover {
+            color: #3b82f6;
+        }
+
+        /* Language Switcher */
+        .language-switcher-login {
+            display: flex;
+            gap: 6px;
+            justify-content: center;
+            margin-top: 24px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .lang-btn-login {
+            background: transparent;
+            color: rgba(255, 255, 255, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn-login:hover {
+            color: rgba(255, 255, 255, 0.9);
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .lang-btn-login.active {
+            background: #60a5fa;
+            color: white;
+            border-color: #60a5fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo-container">
+            <img src="images/textLogo.png" alt="GoDrive" class="logo">
+        </div>
+        <h2 data-translate="title">Вход в систему</h2>
+        
+        <div id="statusMessage" class="status-message"></div>
+
+        <!-- Информация о текущем пользователе -->
+        <div id="currentUserInfo" class="current-user" style="display: none;">
+            <h4 data-translate="welcomeTitle">👤 Добро пожаловать!</h4>
+            <p><strong data-translate="userLabel">Пользователь:</strong> <span id="currentUsername"></span></p>
+            <p><strong data-translate="roleLabel">Роль:</strong> <span id="currentUserRole"></span></p>
+            <button id="logoutButton" class="logout-button" data-translate="logoutButton">Выйти</button>
+            <a href="index.html" class="dashboard-link" data-translate="goToMain">🏠 Перейти на главную</a>
+        </div>
+
+        <!-- Форма входа -->
+        <form id="loginForm" class="login-form">
+            <div class="form-group">
+                <label for="username" data-translate="loginLabel">Логин</label>
+                <input type="text" id="username" name="username" data-translate-placeholder="loginPlaceholder" placeholder="Введите логин" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password" data-translate="passwordLabel">Пароль</label>
+                <input type="password" id="password" name="password" data-translate-placeholder="passwordPlaceholder" placeholder="Введите пароль" required>
+            </div>
+
+            <button type="submit" class="login-button" id="loginButton">
+                <span data-translate="loginButton">Войти</span>
+            </button>
+        </form>
+
+        <!-- Переключатель языков -->
+        <div class="language-switcher-login">
+            <button class="lang-btn-login active" data-lang="uz">O'z</button>
+            <button class="lang-btn-login" data-lang="ru">Ру</button>
+            <button class="lang-btn-login" data-lang="uzk">Ўз</button>
+        </div>
+    </div>
+
+    <!-- Подключаем API клиент -->
+    <script src="js/api-client.js"></script>
+    
+    <script>
+        // Переводы
+        const translations = {
+            uz: {
+                title: "Tizimga kirish",
+                loginLabel: "Login",
+                loginPlaceholder: "Loginni kiriting",
+                passwordLabel: "Parol",
+                passwordPlaceholder: "Parolni kiriting",
+                loginButton: "Kirish",
+                welcomeTitle: "👤 Xush kelibsiz!",
+                userLabel: "Foydalanuvchi:",
+                roleLabel: "Rol:",
+                logoutButton: "Chiqish",
+                goToMain: "🏠 Bosh sahifaga o'tish"
+            },
+            ru: {
+                title: "Вход в систему",
+                loginLabel: "Логин",
+                loginPlaceholder: "Введите логин",
+                passwordLabel: "Пароль",
+                passwordPlaceholder: "Введите пароль",
+                loginButton: "Войти",
+                welcomeTitle: "👤 Добро пожаловать!",
+                userLabel: "Пользователь:",
+                roleLabel: "Роль:",
+                logoutButton: "Выйти",
+                goToMain: "🏠 Перейти на главную"
+            },
+            uzk: {
+                title: "Тизимга кириш",
+                loginLabel: "Логин",
+                loginPlaceholder: "Логинни киритинг",
+                passwordLabel: "Парол",
+                passwordPlaceholder: "Паролни киритинг",
+                loginButton: "Кириш",
+                welcomeTitle: "👤 Хуш келибсиз!",
+                userLabel: "Фойдаланувчи:",
+                roleLabel: "Рол:",
+                logoutButton: "Чиқиш",
+                goToMain: "🏠 Бош саҳифага ўтиш"
+            }
+        };
+
+        let currentLang = localStorage.getItem('language') || 'uz';
+
+        function updateLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('language', lang);
+
+            // Обновление текстов
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (translations[lang][key]) {
+                    element.textContent = translations[lang][key];
+                }
+            });
+
+            // Обновление placeholder'ов
+            document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+                const key = element.getAttribute('data-translate-placeholder');
+                if (translations[lang][key]) {
+                    element.placeholder = translations[lang][key];
+                }
+            });
+
+            // Обновление активной кнопки языка
+            document.querySelectorAll('.lang-btn-login').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+            });
+        }
+
+        // 🎯 Основная логика страницы входа
+        
+        function showStatus(message, type = 'success') {
+            const statusElement = document.getElementById('statusMessage');
+            statusElement.textContent = message;
+            statusElement.className = `status-message ${type}`;
+            statusElement.style.display = 'block';
+
+            // Автоматически скрываем через 5 секунд
+            setTimeout(() => {
+                statusElement.style.display = 'none';
+            }, 5000);
+        }
+
+        function showCurrentUser() {
+            const user = window.api.getCurrentUser();
+            if (user) {
+                document.getElementById('currentUsername').textContent = user.username;
+                document.getElementById('currentUserRole').textContent = user.role || 'user';
+                document.getElementById('currentUserInfo').style.display = 'block';
+                document.getElementById('loginForm').style.display = 'none';
+            }
+        }
+
+        function hideCurrentUser() {
+            document.getElementById('currentUserInfo').style.display = 'none';
+            document.getElementById('loginForm').style.display = 'block';
+        }
+
+
+
+        // 🔐 Выполнение входа
+        async function performLogin(username, password) {
+            console.log('🔐 performLogin вызван:', { username, password: '***' });
+            
+            const loginButton = document.getElementById('loginButton');
+            loginButton.disabled = true;
+            loginButton.textContent = 'Вход...';
+
+            try {
+                console.log('📤 Отправка данных на сервер...');
+                const response = await window.api.login(username, password);
+                console.log('✅ Успешный ответ:', response);
+                
+                showCurrentUser();
+                
+                // Перенаправление сразу без задержки
+                console.log('🔄 Перенаправление на главную...');
+                window.location.href = 'index.html';
+
+            } catch (error) {
+                console.error('❌ Ошибка входа:', error);
+                showStatus(`Ошибка входа: ${error.message}`, 'error');
+            } finally {
+                loginButton.disabled = false;
+                loginButton.textContent = 'Войти';
+            }
+        }
+
+        // 📋 Обработчик формы
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            const username = formData.get('username');
+            const password = formData.get('password');
+
+            // Валидация входных данных
+            if (!username || !password) {
+                showStatus('Ошибка входа: Необходимо указать логин и пароль', 'error');
+                return;
+            }
+
+            if (username.trim() === '' || password.trim() === '') {
+                showStatus('Ошибка входа: Необходимо указать логин и пароль', 'error');
+                return;
+            }
+
+            await performLogin(username.trim(), password.trim());
+        });
+
+        // 🚪 Выход
+        document.getElementById('logoutButton').addEventListener('click', () => {
+            window.api.logout();
+            hideCurrentUser();
+            showStatus('Вы вышли из системы', 'success');
+        });
+
+        // 🔄 Инициализация при загрузке
+        document.addEventListener('DOMContentLoaded', () => {
+            // Применение сохраненного языка
+            updateLanguage(currentLang);
+
+            // Обработчики переключения языка
+            document.querySelectorAll('.lang-btn-login').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    updateLanguage(btn.getAttribute('data-lang'));
+                });
+            });
+
+            // Проверяем авторизацию после небольшой задержки, чтобы API успел загрузиться
+            setTimeout(() => {
+                if (window.api && window.api.isAuthenticated()) {
+                    // Если пользователь уже авторизован, перенаправляем на главную
+                    console.log('🔄 Пользователь уже авторизован, перенаправление на главную...');
+                    window.location.href = 'index.html';
+                }
+            }, 100); // Даем время на загрузку API
+        });
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+    "questionId": 651,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qanday hollarda quvib o'tish taqiqlanadi?",
+            "options": [
+                "F1. Temir yo'l kesishmalarida",
+                "F2. Quvib yoki aylanib o'tayotgan transport vositalarini",
+                "F3. Tepalikning oxirida va yo'lning ko'rinishi cheklangan joylarida",
+                "F4. Sanab o'tilgan barcha hollarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 12-bobi 86-bandiga asosan: Quvib o'tish quyidagi hollarda taqiqlanadi:\ntartibga solingan chorrahalarda;\ntartibga solinmaydigan chorrahalarda asosiy hisoblanmaydigan yo'llarda harakatlanishda;\nko'priklarda, yo'l o'tkazgichlarda, estakadalarda va ularning ostida;\npiyodalar o'tish joylarida;\ntemir yo'l kesishmalarida va ulargacha 100 metrdan kam masofa qolganda;\nquvib yoki aylanib o'tayotgan transport vositalarini;\ntepalikning oxirida va yo'lning ko'rinishi cheklangan joylarida;\n3.20 va 3.22 yo'l belgilari ta’sir oralig'ida."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. На железнодорожных переездах",
+                "F2. Транспортного средства, производящего обгон или объезд",
+                "F3. В конце подъема и на других участках дорог с ограниченной видимостью",
+                "F4. Во всех перечисленных случаях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 86 главы 12 ПДД, гласит: Обгон запрещен:\n— на регулируемых перекрестках с выездом на полосу встречного движения;\n— на нерегулируемых перекрестках при движении по дороге, не являющейся главной;\n— на мостах, путепроводах, эстакадах и под ними;\n— на пешеходных переходах;\n— на железнодорожных переездах и ближе чем за 100 м перед ними;\n— транспортного средства, производящего обгон или объезд;\n— в конце подъема и на других участках дорог с ограниченной видимостью;\n— в зоне действия дорожных знаков 3.20 и 3.22."
+        },
+        "uzk": {
+            "text": "Қандай ҳолларда қувиб ўтиш тақиқланади?",
+            "options": [
+                "F1. Темир йўл кесишмаларида",
+                "F2. Қувиб ёки айланиб ўтаётган транспорт воситаларини",
+                "F3. Тепаликнинг охирида ва йўлнинг кўриниши чекланган жойларида",
+                "F4. Санаб ўтилган барча ҳолларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 12-боби 86-бандига асосан: Қувиб ўтиш қуйидаги ҳолларда тақиқланади:\nтартибга солинган чорраҳаларда;\nтартибга солинмайдиган чорраҳаларда асосий ҳисобланмайдиган йўлларда ҳаракатланишда;\nкўприкларда, йўл ўтказгичларда, эстакадаларда ва уларнинг остида;\nпиёдалар ўтиш жойларида;\nтемир йўл кесишмаларида ва уларгача 100 метрдан кам масофа қолганда;\nқувиб ёки айланиб ўтаётган транспорт воситаларини;\nтепаликнинг охирида ва йўлнинг кўриниши чекланган жойларида;\n3.20 ва 3.22 йўл белгилари таъсир оралиғида."
+        }
+    }
+}

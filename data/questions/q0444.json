@@ -1,0 +1,39 @@
+{
+    "questionId": 444,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Avtomagistralda ajratuvchi mintaqaning uzilishlariga kirishga ruxsat etiladimi?",
+            "options": [
+                "F1. Ruxsat etiladi",
+                "F2. Faqat orqaga burilish uchun ruxsat etiladi, to'la vazni 3,5 tonnadan ortiq bo'lgan yuk avtomobillar bundan mustasno",
+                "F3. Taqiqlanadi",
+                "F4. Belgilangan yo'nalishdagi transport vositalariga ruxsat etiladi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 19-bobi 121-bandining to'rtinchi xatboshisiga asosan, avtomagistrallarda quyidagilar taqiqlanadi: ajratuvchi bo'lakning texnologik uzilish joylariga kirish va qayrilib olish."
+        },
+        "ru": {
+            "text": "Разрешается ли въезд в разрывы разделительной полосы на автомагистрали?",
+            "options": [
+                "F1. Разрешается",
+                "F2. Разрешается только для разворота, кроме водителей грузовых автомобилей полной массой более 3,5 т",
+                "F3. Запрещается",
+                "F4. Разрешается маршрутным транспортным средствам"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 121 главы 19 ПДД, гласит: На автомагистралях запрещается: - разворот и въезд в технологические разрывы разделительной полосы."
+        },
+        "uzk": {
+            "text": "Автомагистралда ажратувчи минтақанинг узилишларига киришга рухсат этиладими?",
+            "options": [
+                "F1. Рухсат этилади",
+                "F2. Фақат орқага бурилиш учун рухсат этилади, тўла вазни 3,5 тоннадан ортиқ бўлган юк автомобиллар бундан мустасно",
+                "F3. Тақиқланади",
+                "F4. Белгиланган йўналишдаги транспорт воситаларига рухсат этилади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 19-боби 121-бандининг тўртинчи хатбошисига асосан, автомагистралларда қуйидагилар тақиқланади: ажратувчи бўлакнинг технологик узилиш жойларига кириш ва қайрилиб олиш."
+        }
+    }
+}

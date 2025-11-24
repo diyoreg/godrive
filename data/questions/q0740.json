@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  740,
+    "image":  "data/images/q0740.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi yo\u0027nalishda harakatlanishni davom ettirishingiz mumkin?",
+                                    "options":  [
+                                                    "F1. Сhapga va orqaga qayrilib olishga",
+                                                    "F2. Faqat chapga",
+                                                    "F3. O\u0027ngga, chapga va orqaga qayrilib olishga"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1 ilova 4.1.6. «Harakatlanish o\u0027ngga yoki chapga». Faqat belgilarda ko\u0027rsatilgan ko\u0027rsatkichlar yo\u0027nalishlarida harakatlanishga ruxsat etiladi. Chapga burilishga ruxsat beruvchi belgilar qayrilib olishga ham ruxsat beradi. (Muayyan kesishmada talab etilgan harakatlanish yo\u0027nalishiga tegishli ko\u0027rsatkichlarning shakli tushirilgan 4.1.1 — 4.1.6 belgilarini qo\u0027llash mumkin).\nYHQ 9-bobi 56-bandi: Haydovchi, aylanma harakatlanish tashkil qilingan chorrahalarga kirish uchun burilishdan boshqa barcha hollarda, o\u0027ngga, chapga burilish yoki qayrilib olishdan oldin shu yo\u0027nalishda harakatlanishi mo\u0027ljallangan qatnov qismining eng chetki holatini egallashi shart."
+                                },
+                         "ru":  {
+                                    "text":  "В каких направлениях Вам можно продолжить движение?",
+                                    "options":  [
+                                                    "F1. Налево и в обратном направлении",
+                                                    "F2. Только направо",
+                                                    "F3. Направо, налево и в обратном направлении"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД приложение №1 4.1.6. «Движение направо или налево». Разрешается движение только в направлениях, указанных на знаках стрелками. Знаки, разрешающие поворот налево, разрешают и разворот."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси йўналишда ҳаракатланишни давом эттиришингиз мумкин?",
+                                     "options":  [
+                                                     "F1. Чапга ва орқага қайрилиб олишга",
+                                                     "F2. Фақат чапга",
+                                                     "F3. Ўнгга, чапга ва орқага қайрилиб олишга"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1 илова 4.1.6. «Ҳаракатланиш ўнгга ёки чапга». Фақат белгиларда кўрсатилган кўрсаткичлар йўналишларида ҳаракатланишга рухсат этилади. Чапга бурилишга рухсат берувчи белгилар қайрилиб олишга ҳам рухсат беради. (Муайян кесишмада талаб этилган ҳаракатланиш йўналишига тегишли кўрсаткичларнинг шакли туширилган 4.1.1 — 4.1.6 белгиларини қўллаш мумкин)."
+                                 }
+                     }
+}

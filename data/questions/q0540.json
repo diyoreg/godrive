@@ -1,0 +1,39 @@
+{
+    "questionId": 540,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qanday shartlarda transport vositalaridan foydalanish taqiqlanadi?",
+            "options": [
+                "F1. Faralar yoritishi buzilgan bo'lsa",
+                "F2. Tashqi yoritish asboblari va yorug'lik qaytargichlar ifloslanganda",
+                "F3. Yoritish asboblari o'rnida mazkur yoritish asboblarining turiga mos kelmaydigan lampalardan foydalanilganda",
+                "F4. Sanab o'tilgan barcha hollarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 3-ilovasi 3-bo'limining 3.2, 3.3. va 3.4-bandlariga asosan: 3.2. Yorituvchi chiroq nurining yo'nalishi buzilgan boʻlsa foydalanish taqiqlanadi. 3.3. Agar tashqi yoritqichlar va nur qaytargichlar belgilangan tartibda ishlamayotgan yoki ifloslangan bo'lsa foydalanish taqiqlanadi. 3.4. Yoritish asboblarida nur sochuvchisi boʻlmasa yoxud tegishli yorug'lik asboblari turiga mos boʻlmagan nur sochuvchi va lampalardan foydalanilgan bo'lsa foydalanish taqiqlanadi."
+        },
+        "ru": {
+            "text": "При каких условиях запрещается эксплуатация транспортных средств?",
+            "options": [
+                "F1. Нарушена регулировка фар",
+                "F2. Загрязнены внешние световые приборы и светоотражатели",
+                "F3. На световых приборах используются лампы, не соответствующие типу данного светового прибора",
+                "F4. При всех перечисленных условиях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пунктам 3.2 - 3.4 раздела 3 приложения № 3 к ПДД: Условия, при которых запрещается эксплуатация транспортных средств: нарушена регулировка фар;\nне работают в установленном режиме или загрязнены внешние световые приборы и световозвращатели;\nна световых приборах отсутствуют рассеиватели либо\nиспользуются рассеиватели и лампы, не соответствующие типу данного светового прибора."
+        },
+        "uzk": {
+            "text": "Қандай шартларда транспорт воситаларидан фойдаланиш тақиқланади?",
+            "options": [
+                "F1. Фаралар ёритиши бузилган бўлса",
+                "F2. Ташқи ёритиш асбоблари ва ёруғлик қайтаргичлар ифлосланганда",
+                "F3. Ёритиш асбоблари ўрнида мазкур ёритиш асбобларининг турига мос келмайдиган лампалардан фойдаланилганда",
+                "F4. Санаб ўтилган барча ҳолларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 3-иловаси 3-бўлимининг 3.2, 3.3. ва 3.4-бандларига асосан: 3.2. Еритувчи чироқ нурининг йўналиши бузилган бўлса фойдаланиш тақиқланади. 3.3. Агар ташқи ёритқичлар ва нур қайтаргичлар белгиланган тартибда ишламаётган ёки ифлосланган бўлса фойдаланиш тақиқланади. 3.4. Еритиш асбобларида нур сочувчиси бўлмаса ёхуд тегишли ёруғлик асбоблари турига мос бўлмаган нур сочувчи ва лампалардан фойдаланилган бўлса фойдаланиш тақиқланади."
+        }
+    }
+}

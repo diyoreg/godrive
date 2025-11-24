@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  878,
+    "image":  "data/images/q0878.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu chorrahada haydovchi orqaga harakatlanib ko\u0027rsatilgan manyovrni bajarishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Taqiqlanadi",
+                                                    "F2. Ruxsat etiladi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 9-bobi 63-bandi: Orqaga harakatlanish chorrahalarda taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли водителю на данном перекрестке выполнять указанный маневр движением задним ходом?",
+                                    "options":  [
+                                                    "F1. Запрещается",
+                                                    "F2. Разрешается"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 63 главы 9 ПДД, гласит: На перекрестках движение задним ходом запрещается."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу чорраҳада ҳайдовчи орқага ҳаракатланиб кўрсатилган манёврни бажаришга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Тақиқланади",
+                                                     "F2. Рухсат этилади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 9-боби 63-банди: Орқага ҳаракатланиш чорраҳаларда тақиқланади."
+                                 }
+                     }
+}

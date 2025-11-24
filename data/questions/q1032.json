@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  1032,
+    "image":  "data/images/q1032.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Bozorlar oldindan",
+                                                    "F2. Maktab va bolalarning dam olish maskanlari oldindan",
+                                                    "F3. Vokzal oldindan"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 1.21. “Bolalar”. Bolalar muassasasi (maktablar, bolalarning dam olish maskanlari va shunga o\u0027xshashlar)ga yaqin yo\u0027lning qatnov qismidan bolalarning chiqib qolish ehtimolini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Перед рынка",
+                                                    "F2. Перед школами и детскими развлекательными центрами",
+                                                    "F3. Перед вокзалом"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: 1.21. Дети. Участок дороги вблизи детского учреждения (школы, места отдыха детей и т. п.), на проезжей части которого возможно появление детей."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Бозорлар олдиндан",
+                                                     "F2. Мактаб ва болаларнинг дам олиш масканлари олдиндан",
+                                                     "F3. Вокзал олдиндан"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 1.21. “Болалар”. Болалар муассасаси (мактаблар, болаларнинг дам олиш масканлари ва шунга ўхшашлар)га яқин йўлнинг қатнов қисмидан болаларнинг чиқиб қолиш эҳтимолини билдиради."
+                                 }
+                     }
+}

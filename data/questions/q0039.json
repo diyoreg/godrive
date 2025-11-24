@@ -1,0 +1,36 @@
+{
+    "questionId": 39,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Suyak singanda qotirib bog'lash uchun nimadan shina sifatida foydalanish eng qulay?",
+            "options": [
+                "F1. Bint",
+                "F2. Gazmol",
+                "F3. Taxta bo'lagi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "IzohSuyaklar singanda shikastlanganda qoʻl yoki oyoqni har qanday qattiq vosita yordamida mustahkamlab, harakatsizlantirish (immobilizatsiya qilish) lozim."
+        },
+        "ru": {
+            "text": "Какой материал лучше подходит для использования в качестве иммобилизирующей шины при переломе костей?",
+            "options": [
+                "F1. Бинт",
+                "F2. Ткань",
+                "F3. Кусок доски"
+            ],
+            "correctAnswer": 3,
+            "explanation": "В качестве иммобилизирующей шины при переломе костей лучше всего подходит кусок доски, т.к. именно твердый материал позволит сломанной кости оставаться в одном положении (не деформироваться) во время транспортировки раненого."
+        },
+        "uzk": {
+            "text": "Суяк синганда қотириб боғлаш учун нимадан шина сифатида фойдаланиш энг қулай?",
+            "options": [
+                "F1. Бинт",
+                "F2. Газмол",
+                "F3. Тахта бўлаги"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ИзоҳСуяклар синганда шикастланганда қўл ёки оёқни ҳар қандай қаттиқ восита ёрдамида мустаҳкамлаб, ҳаракатсизлантириш (иммобилизация қилиш) лозим."
+        }
+    }
+}

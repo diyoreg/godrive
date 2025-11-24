@@ -1,0 +1,36 @@
+{
+    "questionId": 588,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qayerda transport vositalarining to'xtashi va to'xtab turishi taqiqlanadi?",
+            "options": [
+                "F1. Transport vositalari va piyodalarning harakati serqatnov joylarda",
+                "F2. Bir yo'nalishda harakatlanish uchun uchtadan kam tasmaga ega bo'lgan ko'prik, yo'l o'tkazgich va estakadalarning ustida",
+                "F3. Qatnov qismlari kesishmasi chetida 30 metrdan ko'proq, masofa qolganda"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 13-bobi 91-bandining uchinchi xatboshisiga asosan, quyidagi joy va holatlarda to'xtash taqiqlanadi: bir yo'nalishda harakatlanish uchun uchtadan kam tasmaga ega bo'lgan ko'prik, yo'l o'tkazgich va estakadalarning ustida;"
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. В местах с интенсивным движением транспортных средств и пешеходов",
+                "F2. На мостах, эстакадах и путепроводах, имеющих менее 3 полос движения",
+                "F3. На расстоянии более 30 м от края пересекаемой проезжей части дороги"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Aбзацу 3 пункта 91 главы 13 ПДД, гласит: остановка запрещается в следующих местах: — на мостах, эстакадах, путепроводах (если для движения в данном направлении имеется менее трех полос);"
+        },
+        "uzk": {
+            "text": "Қаерда транспорт воситаларининг тўхташи ва тўхтаб туриши тақиқланади?",
+            "options": [
+                "F1. Транспорт воситалари ва пиёдаларнинг ҳаракати серқатнов жойларда",
+                "F2. Бир йўналишда ҳаракатланиш учун учтадан кам тасмага эга бўлган кўприк, йўл ўтказгич ва эстакадаларнинг устида",
+                "F3. Қатнов қисмлари кесишмаси четида 30 метрдан кўпроқ, масофа қолганда"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 13-боби 91-бандининг учинчи хатбошисига асосан, қуйидаги жой ва ҳолатларда тўхташ тақиқланади: бир йўналишда ҳаракатланиш учун учтадан кам тасмага эга бўлган кўприк, йўл ўтказгич ва эстакадаларнинг устида;"
+        }
+    }
+}

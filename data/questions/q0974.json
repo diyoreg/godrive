@@ -1,0 +1,39 @@
+{
+    "questionId": 974,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Tibbiyot qutichasi",
+                "F2. O't o'chirgich",
+                "F3. O'zi yurib ketishidan saqlovchi, g'ildirak diametriga muvofiq (kamida ikkita) tirgak",
+                "F4. Majburiy to'xtaganini bildiruvchi belgi (yoki miltillovchi qizil chiroq)"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 3 ilova 7.10: M3, N2, N3 toifadagi — o'zi yurib ketishidan saqlovchi, g'ildirak diametriga muvofiq (kamida ikkita) tirgak."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Аптечки",
+                "F2. Огнетушителя",
+                "F3. Противооткатного устройства соответствующего диаметру колеса (минимум 2)",
+                "F4. Знака аварийной остановки"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Приложение №3 к ПДД: пункт 7.10 категорий МЗ, N2, N3, — противооткатные упоры (не менее двух) соответствующие диаметру колес автотранспортного средства."
+        },
+        "uzk": {
+            "text": "Тўла вазни 3,5 тоннадан ошмайдиган юк автомобилларини қуйидагилар билан жиҳозланмаган бўлса ҳам фойдаланишга рухсат этилади?",
+            "options": [
+                "F1. Тиббиёт қутичаси",
+                "F2. Ўт ўчиргич",
+                "F3. Ўзи юриб кетишидан сақловчи, ғилдирак диаметрига мувофиқ (камида иккита) тиргак",
+                "F4. Мажбурий тўхтаганини билдирувчи белги (ёки милтилловчи қизил чироқ)"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 3 илова 7.10: М3, N2, N3 тоифадаги — ўзи юриб кетишидан сақловчи, ғилдирак диаметрига мувофиқ (камида иккита) тиргак."
+        }
+    }
+}

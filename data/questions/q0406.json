@@ -1,0 +1,36 @@
+{
+    "questionId": 406,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Ko'krak qafasi shikastlangan yaradorni kerakli joyga qanday eltish kerak?",
+            "options": [
+                "F1. Yaralangan yoni bilan yotgan yoki yarim o'tirgan holda",
+                "F2. Sog' yoni bilan yotgan yoki o'tirgan holda",
+                "F3. Orqasi bilan yoki qorni bilan yotgan holda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Suyak siniqlarining bir-biriga nisbatan qo'zg'almasligini ta'minlash uchun koʻkrak qafasiga bog'ich tarang qilib bog'lanadi. Bu holda nafas olish o'tirgan holatda erkin boʻlgan ko'krak-qursoq diafragma pardasi harakatlari hisobiga amalga oshiriladi."
+        },
+        "ru": {
+            "text": "Как нужно транспортировать раненого с повреждением грудной клетки?",
+            "options": [
+                "F1. Лежа на поврежденном боку или полусидя",
+                "F2. В положении лежа на здоровом боку или сидя",
+                "F3. В положении лежа на спине или на животе"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Чтобы обеспечить неподвижность костных отломков одного относительно другого, нужно наложить тугую повязку на грудную клетку. После этого дыхание\nобеспечивается только за счет движений диафрагмы, которые наиболее свободны в положении сидя."
+        },
+        "uzk": {
+            "text": "Кўкрак қафаси шикастланган ярадорни керакли жойга қандай элтиш керак?",
+            "options": [
+                "F1. Яраланган ëни билан ётган ёки ярим ўтирган ҳолда",
+                "F2. Соғ ёни билан ётган ёки ўтирган ҳолда",
+                "F3. Орқаси билан ёки корни билан ётган ҳолда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Суяк синиқларининг бир-бирига нисбатан қўзғалмаслигини таъминлаш учун кўкрак қафасига боғич таранг қилиб боғланади. Бу ҳолда нафас олиш ўтирган ҳолатда эркин бўлган кўкрак-қурсоқ диафрагма пардаси ҳаракатлари ҳисобига амалга оширилади."
+        }
+    }
+}

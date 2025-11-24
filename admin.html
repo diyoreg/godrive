@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoDrive - Админ панель</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/language-dropdown.css?v=1.1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+        }
+
+        .header h1 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .header-logo {
+            height: 40px;
+            filter: brightness(0) invert(1);
+            opacity: 0.9;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+        .header-logo:hover {
+            opacity: 1;
+        }
+
+        .header-separator {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .header-actions button:not(.lang-btn):not(.globe-btn) {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .header-actions button:not(.lang-btn):not(.globe-btn):hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        .nav-btn.active {
+            background: #60a5fa !important;
+            border-color: #60a5fa !important;
+            color: white !important;
+            cursor: default;
+            pointer-events: none;
+        }
+
+        .logout-btn:hover {
+            background: rgba(239, 68, 68, 0.2) !important;
+            border-color: rgba(239, 68, 68, 0.5) !important;
+        }
+
+        .admin-container {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .admin-section {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+        }
+
+        .admin-section h2 {
+            color: #60a5fa;
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .user-form {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .user-form input {
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            font-size: 14px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            transition: all 0.2s ease;
+        }
+
+        .user-form input::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .user-form input:focus {
+            outline: none;
+            border-color: #60a5fa;
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .user-form button {
+            background: #60a5fa;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            grid-column: span 2;
+        }
+
+        .user-form button:hover {
+            background: #3b82f6;
+        }
+
+        .message {
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            margin-top: 12px;
+            display: none;
+        }
+
+        .message.success {
+            background: rgba(34, 197, 94, 0.2);
+            color: #86efac;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            display: block;
+        }
+
+        .message.error {
+            background: rgba(239, 68, 68, 0.2);
+            color: #fca5a5;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            display: block;
+        }
+
+        .users-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .user-item {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .user-info {
+            color: white;
+        }
+
+        .user-info strong {
+            color: #60a5fa;
+            margin-right: 8px;
+        }
+
+        .user-actions button {
+            background: rgba(239, 68, 68, 0.2);
+            color: #fca5a5;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .user-actions button:hover {
+            background: rgba(239, 68, 68, 0.3);
+            border-color: rgba(239, 68, 68, 0.5);
+        }
+
+        /* Question Editor Styles */
+        .question-editor {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .editor-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .question-selector {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .nav-question-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .nav-question-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        .question-input {
+            width: 80px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .question-label {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+        }
+
+        .language-tabs {
+            display: flex;
+            gap: 4px;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 4px;
+            border-radius: 8px;
+        }
+
+        .lang-tab {
+            background: transparent;
+            color: rgba(255, 255, 255, 0.7);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-tab.active {
+            background: #60a5fa;
+            color: white;
+        }
+
+        .lang-tab:hover:not(.active) {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .editor-content {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 24px;
+        }
+
+        .image-preview {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: fit-content;
+        }
+
+        .image-preview img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .question-form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group label {
+            color: #60a5fa;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .form-group textarea,
+        .form-group select {
+            background: rgba(255, 255, 255, 0.08);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: 'Montserrat', sans-serif;
+            resize: vertical;
+            transition: all 0.2s ease;
+        }
+
+        .form-group select option {
+            background: #1e293b;
+            color: white;
+            padding: 8px;
+        }
+
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #60a5fa;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .options-count {
+            color: #60a5fa;
+            font-size: 13px;
+            font-weight: 400;
+            margin-left: 8px;
+        }
+
+        #optionsContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .option-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .option-number {
+            color: #60a5fa;
+            font-size: 14px;
+            font-weight: 600;
+            min-width: 30px;
+            padding-top: 12px;
+        }
+
+        .option-item textarea {
+            flex: 1;
+        }
+
+        .options-controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .option-control-btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .add-btn {
+            background: #60a5fa;
+            color: white;
+        }
+
+        .add-btn:hover {
+            background: #3b82f6;
+            transform: translateY(-1px);
+        }
+
+        .remove-btn {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .remove-btn:hover {
+            background: rgba(239, 68, 68, 0.3);
+            transform: translateY(-1px);
+        }
+
+        .remove-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .remove-btn:disabled:hover {
+            background: rgba(239, 68, 68, 0.2);
+            transform: none;
+        }
+
+        .form-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-top: 8px;
+        }
+
+        .save-btn {
+            background: rgba(34, 197, 94, 0.2);
+            color: #86efac;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .save-btn:hover {
+            background: rgba(34, 197, 94, 0.3);
+            border-color: rgba(34, 197, 94, 0.5);
+        }
+
+        .save-message {
+            color: #86efac;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 6px;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.2);
+        }
+
+        .save-message.error {
+            color: #fca5a5;
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+        }
+        
+        .save-message.success {
+            color: #86efac;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.2);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>
+                <img src="images/textLogo.png" alt="GoDrive" class="header-logo">
+            </h1>
+            <div class="header-actions">
+                <div class="language-dropdown">
+                    <button class="globe-btn" id="globeBtn">🌐</button>
+                    <div class="language-switcher" id="langSwitcher">
+                        <button class="lang-btn active" data-lang="uz">O'zbekcha</button>
+                        <button class="lang-btn" data-lang="ru">Русский</button>
+                        <button class="lang-btn" data-lang="uzk">Ўзбекча</button>
+                    </div>
+                </div>
+                <button id="backToHome" class="nav-btn" data-translate="mainTitle">Главная</button>
+                <button class="nav-btn active" data-translate="adminPanelTitle">Админ панель</button>
+                <button id="logoutBtn" class="logout-btn" data-translate="logoutButton">Выйти</button>
+            </div>
+        </header>
+        
+        <div class="admin-container">
+            <!-- Добавление нового пользователя -->
+            <div class="admin-section">
+                <h2 data-translate="addUserTitle">Добавить пользователя</h2>
+                <form id="addUserForm" class="user-form">
+                    <input type="text" id="newUsername" data-translate="usernamePlaceholder" placeholder="Логин" required>
+                    <input type="text" id="newUserName" data-translate="displayNamePlaceholder" placeholder="Имя пользователя" required>
+                    <input type="password" id="newPassword" data-translate="passwordPlaceholder" placeholder="Пароль" required>
+                    <button type="submit" data-translate="addUserButton">Добавить пользователя</button>
+                </form>
+                <div id="addUserMessage" class="message"></div>
+            </div>
+            
+            <!-- Список пользователей -->
+            <div class="admin-section">
+                <h2 data-translate="usersListTitle">Список пользователей</h2>
+                <div id="usersList" class="users-list">
+                    <!-- Пользователи будут загружены динамически -->
+                </div>
+            </div>
+
+            <!-- Редактор вопросов -->
+            <div class="admin-section">
+                <h2>Редактор вопросов</h2>
+                <div class="question-editor">
+                    <div class="editor-controls">
+                        <div class="question-selector">
+                            <button id="prevQuestion" class="nav-question-btn">← Предыдущий</button>
+                            <input type="number" id="questionNumber" min="1" max="1130" value="1" class="question-input">
+                            <span class="question-label">из 1130</span>
+                            <button id="nextQuestion" class="nav-question-btn">Следующий →</button>
+                        </div>
+                        <div class="language-tabs">
+                            <button class="lang-tab active" data-lang="uz">O'zbek</button>
+                            <button class="lang-tab" data-lang="ru">Русский</button>
+                            <button class="lang-tab" data-lang="uzk">Ўзбек</button>
+                        </div>
+                    </div>
+
+                    <div class="editor-content">
+                        <div class="image-preview">
+                            <img id="questionImg" src="" alt="Изображение вопроса">
+                        </div>
+                        
+                        <div class="question-form">
+                            <div class="form-group">
+                                <label>Текст вопроса:</label>
+                                <textarea id="questionText" rows="3"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Варианты ответов:
+                                    <span class="options-count">(<span id="optionsCount">4</span> варианта)</span>
+                                </label>
+                                <div id="optionsContainer">
+                                    <!-- Options will be dynamically generated here -->
+                                </div>
+                                <div class="options-controls">
+                                    <button type="button" id="addOptionBtn" class="option-control-btn add-btn">+ Добавить вариант</button>
+                                    <button type="button" id="removeOptionBtn" class="option-control-btn remove-btn">− Удалить последний</button>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Правильный ответ:</label>
+                                <select id="correctAnswer">
+                                    <option value="1">Вариант 1</option>
+                                    <option value="2">Вариант 2</option>
+                                    <option value="3">Вариант 3</option>
+                                    <option value="4">Вариант 4</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Объяснение:</label>
+                                <textarea id="explanation" rows="3"></textarea>
+                            </div>
+
+                            <div class="form-actions">
+                                <button id="saveQuestion" class="save-btn">💾 Сохранить изменения</button>
+                                <div id="saveMessage" class="save-message"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/api-client.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/admin.js"></script>
+    <script>
+        // Инициализация переключателя языков
+        const currentLang = localStorage.getItem('language') || 'uz';
+        
+        function updateLanguage(lang) {
+            localStorage.setItem('language', lang);
+            
+            // Обновление активной кнопки
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+            });
+            
+            // Используем LanguageManager для переводов
+            if (window.LanguageManager) {
+                const langManager = new window.LanguageManager();
+                langManager.setLanguage(lang);
+            } else {
+                // Если нет LanguageManager, перезагружаем страницу
+                window.location.reload();
+            }
+        }
+        
+        // Применение сохраненного языка при загрузке
+        document.addEventListener('DOMContentLoaded', () => {
+            // Logo navigation
+            document.querySelector('.header-logo')?.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            });
+
+            // Globe button dropdown toggle
+            const globeBtn = document.getElementById('globeBtn');
+            const langSwitcher = document.getElementById('langSwitcher');
+            
+            globeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                langSwitcher.classList.toggle('show');
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!langSwitcher.contains(e.target) && e.target !== globeBtn) {
+                    langSwitcher.classList.remove('show');
+                }
+            });
+
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
+                btn.addEventListener('click', () => {
+                    updateLanguage(btn.getAttribute('data-lang'));
+                    langSwitcher.classList.remove('show');
+                });
+            });
+
+            // Initialize Question Editor
+            initQuestionEditor();
+        });
+
+        // Question Editor functionality
+        function initQuestionEditor() {
+            let currentQuestion = 1;
+            let currentLang = 'uz';
+            let questionData = null;
+            let optionsCount = 4;
+
+            const elements = {
+                questionNumber: document.getElementById('questionNumber'),
+                prevBtn: document.getElementById('prevQuestion'),
+                nextBtn: document.getElementById('nextQuestion'),
+                questionImg: document.getElementById('questionImg'),
+                questionText: document.getElementById('questionText'),
+                correctAnswer: document.getElementById('correctAnswer'),
+                explanation: document.getElementById('explanation'),
+                saveBtn: document.getElementById('saveQuestion'),
+                saveMessage: document.getElementById('saveMessage'),
+                optionsContainer: document.getElementById('optionsContainer'),
+                optionsCount: document.getElementById('optionsCount'),
+                addOptionBtn: document.getElementById('addOptionBtn'),
+                removeOptionBtn: document.getElementById('removeOptionBtn')
+            };
+
+            // Render options dynamically
+            function renderOptions() {
+                elements.optionsContainer.innerHTML = '';
+                for (let i = 1; i <= optionsCount; i++) {
+                    const optionItem = document.createElement('div');
+                    optionItem.className = 'option-item';
+                    optionItem.innerHTML = `
+                        <span class="option-number">${i}.</span>
+                        <textarea id="option${i}" rows="2" placeholder="Вариант ${i}"></textarea>
+                    `;
+                    elements.optionsContainer.appendChild(optionItem);
+                }
+                elements.optionsCount.textContent = optionsCount;
+                elements.removeOptionBtn.disabled = optionsCount <= 2;
+                
+                updateCorrectAnswerOptions();
+            }
+
+            // Update correct answer dropdown
+            function updateCorrectAnswerOptions() {
+                elements.correctAnswer.innerHTML = '';
+                for (let i = 1; i <= optionsCount; i++) {
+                    const option = document.createElement('option');
+                    option.value = i;
+                    option.textContent = `Вариант ${i}`;
+                    elements.correctAnswer.appendChild(option);
+                }
+            }
+
+            // Validate options count across languages
+            function validateOptionsCount() {
+                if (!questionData) return { valid: true };
+                
+                const languages = ['uz', 'ru', 'uzk'];
+                const counts = languages.map(lang => 
+                    questionData.translations[lang].options.length
+                );
+                
+                const allSame = counts.every(count => count === counts[0]);
+                
+                if (!allSame) {
+                    return {
+                        valid: false,
+                        message: `⚠️ Разное количество вариантов! uz: ${counts[0]}, ru: ${counts[1]}, uzk: ${counts[2]}`
+                    };
+                }
+                
+                return { valid: true };
+            }
+
+            // Save current language data
+            function saveCurrentLanguageData() {
+                if (!questionData) return;
+                
+                const translation = questionData.translations[currentLang];
+                translation.text = elements.questionText.value;
+                translation.options = [];
+                for (let i = 1; i <= optionsCount; i++) {
+                    const optionElement = document.getElementById(`option${i}`);
+                    translation.options.push(optionElement ? optionElement.value : '');
+                }
+                translation.explanation = elements.explanation.value;
+            }
+
+            // Load current language data
+            function loadCurrentLanguageData() {
+                if (!questionData) return;
+                
+                const translation = questionData.translations[currentLang];
+                elements.questionText.value = translation.text;
+                for (let i = 1; i <= optionsCount; i++) {
+                    const optionElement = document.getElementById(`option${i}`);
+                    if (optionElement) {
+                        optionElement.value = translation.options[i - 1] || '';
+                    }
+                }
+                elements.explanation.value = translation.explanation || '';
+            }
+
+            // Show status message
+            function showStatus(message, type) {
+                elements.saveMessage.textContent = message;
+                elements.saveMessage.className = `save-message ${type}`;
+                setTimeout(() => {
+                    elements.saveMessage.textContent = '';
+                    elements.saveMessage.className = 'save-message';
+                }, 3000);
+            }
+
+            // Add option button
+            elements.addOptionBtn.addEventListener('click', () => {
+                if (optionsCount >= 10) {
+                    showStatus('⚠️ Максимум 10 вариантов', 'error');
+                    return;
+                }
+                
+                saveCurrentLanguageData();
+                
+                optionsCount++;
+                
+                if (questionData) {
+                    ['uz', 'ru', 'uzk'].forEach(lang => {
+                        questionData.translations[lang].options.push('');
+                    });
+                }
+                
+                renderOptions();
+                loadCurrentLanguageData();
+                showStatus(`✓ Добавлен вариант ${optionsCount}`, 'success');
+            });
+
+            // Remove option button
+            elements.removeOptionBtn.addEventListener('click', () => {
+                if (optionsCount <= 2) {
+                    showStatus('⚠️ Минимум 2 варианта', 'error');
+                    return;
+                }
+                
+                const correctAnswer = parseInt(elements.correctAnswer.value);
+                if (correctAnswer === optionsCount) {
+                    showStatus('⚠️ Нельзя удалить правильный ответ! Сначала выберите другой.', 'error');
+                    return;
+                }
+                
+                saveCurrentLanguageData();
+                
+                optionsCount--;
+                
+                if (questionData) {
+                    ['uz', 'ru', 'uzk'].forEach(lang => {
+                        questionData.translations[lang].options.pop();
+                    });
+                }
+                
+                renderOptions();
+                loadCurrentLanguageData();
+                showStatus(`✓ Удален вариант ${optionsCount + 1}`, 'success');
+            });
+
+            // Language tabs
+            document.querySelectorAll('.lang-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    saveCurrentLanguageData();
+                    currentLang = tab.dataset.lang;
+                    document.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    loadCurrentLanguageData();
+                });
+            });
+
+            // Navigation
+            elements.prevBtn.addEventListener('click', () => {
+                if (currentQuestion > 1) {
+                    currentQuestion--;
+                    elements.questionNumber.value = currentQuestion;
+                    loadQuestion(currentQuestion);
+                }
+            });
+
+            elements.nextBtn.addEventListener('click', () => {
+                if (currentQuestion < 1130) {
+                    currentQuestion++;
+                    elements.questionNumber.value = currentQuestion;
+                    loadQuestion(currentQuestion);
+                }
+            });
+
+            elements.questionNumber.addEventListener('change', (e) => {
+                const num = parseInt(e.target.value);
+                if (num >= 1 && num <= 1130) {
+                    currentQuestion = num;
+                    loadQuestion(currentQuestion);
+                } else {
+                    e.target.value = currentQuestion;
+                }
+            });
+
+            // Load question
+            async function loadQuestion(num) {
+                const filename = `q${String(num).padStart(4, '0')}.json`;
+                try {
+                    const response = await fetch(`data/questions/${filename}`);
+                    questionData = await response.json();
+                    
+                    // Validate options count across languages
+                    const validation = validateOptionsCount();
+                    if (!validation.valid) {
+                        showStatus(validation.message, 'error');
+                        return;
+                    }
+                    
+                    // Set options count from loaded data
+                    optionsCount = questionData.translations[currentLang].options.length;
+                    renderOptions();
+                    
+                    // Set image
+                    elements.questionImg.src = questionData.image;
+                    
+                    // Load translation data
+                    loadCurrentLanguageData();
+                    elements.correctAnswer.value = questionData.translations[currentLang].correctAnswer;
+                    
+                    elements.saveMessage.textContent = '';
+                } catch (error) {
+                    console.error('Ошибка загрузки вопроса:', error);
+                    showStatus('✗ Ошибка загрузки вопроса', 'error');
+                }
+            }
+
+            // Save question
+            elements.saveBtn.addEventListener('click', async () => {
+                if (!questionData) return;
+                
+                // Save current language data
+                saveCurrentLanguageData();
+                
+                // Final validation before saving
+                const validation = validateOptionsCount();
+                if (!validation.valid) {
+                    showStatus(validation.message, 'error');
+                    return;
+                }
+                
+                // Update correct answer for all languages
+                const correctAnswerValue = parseInt(elements.correctAnswer.value);
+                ['uz', 'ru', 'uzk'].forEach(lang => {
+                    questionData.translations[lang].correctAnswer = correctAnswerValue;
+                });
+                
+                // Validate correct answer is within range
+                if (correctAnswerValue > optionsCount) {
+                    showStatus('⚠️ Правильный ответ указывает на несуществующий вариант', 'error');
+                    return;
+                }
+                
+                // Save to server
+                try {
+                    const filename = `q${String(currentQuestion).padStart(4, '0')}.json`;
+                    console.log('Отправка данных:', { filename, data: questionData });
+                    
+                    const response = await fetch('/api/save-question', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            filename: filename,
+                            data: questionData
+                        })
+                    });
+                    
+                    console.log('Статус ответа:', response.status, response.statusText);
+                    
+                    if (!response.ok) {
+                        const errorText = await response.text();
+                        console.error('Ошибка сервера:', errorText);
+                        showStatus(`✗ Ошибка ${response.status}: ${response.statusText}`, 'error');
+                        return;
+                    }
+                    
+                    const result = await response.json();
+                    console.log('Результат сохранения:', result);
+                    
+                    if (result.success) {
+                        showStatus('✓ Сохранено успешно!', 'success');
+                    } else {
+                        showStatus('✗ ' + result.message, 'error');
+                    }
+                } catch (error) {
+                    console.error('Ошибка сохранения:', error);
+                    showStatus('✗ Ошибка сохранения: ' + error.message, 'error');
+                }
+            });
+
+            // Initialize
+            renderOptions();
+            loadQuestion(1);
+        }
+    </script>
+</body>
+</html>

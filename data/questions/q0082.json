@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  82,
+    "image":  "data/images/q0082.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Avtomobillarga qaysi yo\u0027nalishda harakatlanishga ruxsat etiladi?",
+                                    "options":  [
+                                                    "F1. Qizil avtomobilga - to\u0027g\u0027riga, ko\u0027k avtomobilga - to\u0027g\u0027riga va chapga",
+                                                    "F2. Qizil va ko\u0027k avtomobilga - to\u0027g\u0027riga",
+                                                    "F3. Qizil avtomobilga – to\u0027g\u0027riga, ko\u0027kka - chapga va qayrilib olishga"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 10-bobi 67-bandining uchinchi xatboshisiga asosan: Bir yo\u0027nalishdagi uch va undan ortiq tasmali har qanday yo\u0027lda chetki chap qatorni harakat serqatnovligi sababli boshqa bo\u0027laklar band bo\u0027lgan hollarda, shuningdek, quvib o\u0027tish, chapga burilish yoki qayrilib olishga, yuk avtomobillariga faqat chapga burilish yoki qayrilib olish uchun chetki chap qatorni egallashga ruxsat etiladi.\nBoshqa hollarda yuk avtomobillariga yo\u0027lning chetki chap qatorida harakatlanish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "В каком направлении разрешается движение автомобилям?",
+                                    "options":  [
+                                                    "F1. Красному автомобилю - прямо, синему автомобилю - прямо и налево",
+                                                    "F2. Красному и синему автомобилям - прямо",
+                                                    "F3. Красному автомобилю - прямо, синему - налево и розворот"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Aбзацу 3 пункта 67 главы 10 ПДД, в населенных пунктах, имеющих для движения в данном направлении три полосы и более, занимать крайнюю левую полосу разрешается только при интенсивном движении, когда заняты другие полосы, а также для обгона, поворота налево или разворота, а грузовым автомобилям — только для поворота налево или разворота."
+                                },
+                         "uzk":  {
+                                     "text":  "Автомобилларга қайси йўналишда ҳаракатланишга рухсат этилади?",
+                                     "options":  [
+                                                     "F1. Қизил автомобилга - тўғрига, кўк автомобилга тўғрига ва чапга",
+                                                     "F2. Қизил ва кўк автомобилга- тўғрига",
+                                                     "F3. Қизил автомобилга - тўғрига, кўкка - чапга ва қайрилиб олишга"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 10-боби 67-бандининг учинчи хатбошисига асосан: Бир йўналишдаги уч ва ундан ортиқ тасмали ҳар қандай йўлда четки чап қаторни ҳаракат серқатновлиги сабабли бошқа бўлаклар банд бўлган ҳолларда, шунингдек, қувиб ўтиш, чапга бурилиш ёки қайрилиб олишга, юк автомобилларига фақат чапга бурилиш ёки қайрилиб олиш учун четки чап қаторни егаллашга рухсат етилади.\nБошқа ҳолларда юк автомобилларига йўлнинг четки чап қаторида ҳаракатланиш тақиқланади."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+{
+    "questionId": 659,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qo'l jarohatlanganda jabrlanuvchining ko'ylagi, kiyimi qanday yechilsa to'g'ri bo'ladi?",
+            "options": [
+                "F1. Kiyim-boshni yechishni jarohatlan qo'ldan boshlash, so'ng sog' qo'lni bo'shatish",
+                "F2. Kiyim-boshni ikkala qoʻldan bir vaqtda yechishish",
+                "F3. Kiyim-boshni yechishni sog' qo'ldan boshlash, so'ng jarohatlan qo'lni bo'shatish"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Shikastlangan qol yoki oyoqni majburiy harakatga solmasdan kiyim yechish imkonini yaratish uchun avval shikastlanmagan, so'ngra shikastlangan qoʻl yoki oyoqdan ehtiyotlik bilan yechiladi."
+        },
+        "ru": {
+            "text": "Как правильно снять с пострадавшего рубашку, пиджак при ранении правой руки?",
+            "options": [
+                "F1. Одежду начинать снимать с больной руки, затем освобождать здоровую руку",
+                "F2. Одежду снимать с обеих рук одновременно",
+                "F3. Одежду начинать снимать со здоровой руки, затем освобождать больную руку"
+            ],
+            "correctAnswer": 3,
+            "explanation": "При ранении правой руки снимать одежду начинать со здоровой руки, а затем освобождают больную руку. Это связано с тем, что больную руку нежелательно двигать, а при снятии рубашки или пиджака руку, с которой начинают снятие, приходится выворачивать."
+        },
+        "uzk": {
+            "text": "Қўл жароҳатланганда жабрланувчининг кўйлаги, кийими қандай ечилса тўғри бўлади?",
+            "options": [
+                "F1. Кийим-бошни ечишни жароҳатланган қўлдан бошлаш, сўнг соғ қўлни бўшатиш",
+                "F2. Кийим-бошни иккала қўлдан бир вактда ечишиш",
+                "F3. Кийим-бошни ечишни соғ қўлдан бошлаш, сўнг жароҳатланган қўлни бўшатиш"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Шикастланган қўл ёки оёқни мажбурий ҳаракатга солмасдан кийим ечиш имконини яратиш учун аввал шикастланмаган, сўнгра шикастланган қўл ёки оёқдан эҳтиётлик билан ечилади."
+        }
+    }
+}

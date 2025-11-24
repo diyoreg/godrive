@@ -1,0 +1,36 @@
+{
+    "questionId": 469,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Avtomobil turg'unligini oshiradi",
+                "F2. Avtomobil turg'unligini kamaytiradi",
+                "F3. Avtomobil turg'unligiga hech qanday ta'sir ko'rsatmaydi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Sirpanchiq yo'lda to'xtatish tepkisini uzuq-uzuq bosib, uzatma va ilashish mexanizmini ajratmagan, dvigatel bilan tormozlanishni ishlatgan hamda g'ildiraklarning blokirovkasi (sirg'anish)ga yo'l qo'ymagan holda to'xtatish lozim."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Повышает устойчивость автомобиля",
+                "F2. Снижает устойчивость автомобиля",
+                "F3. Не оказывает какого-либо влияния на устойчивость автомобиля"
+            ],
+            "correctAnswer": 1,
+            "explanation": "На скользкой дороге следует тормозить прерывистым нажатием на педаль тормоза, не выключая сцепление и передачу, используя торможение двигателем и не допуская блокировки колес (движение «юзом»)."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Автомобиль турғунлигини оширади",
+                "F2. Автомобиль тургунлигини камайтиради",
+                "F3. Автомобиль тургунлигига ҳеч қандай таъсир кўрсатмайди"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Сирпанчиқ йўлда тўхтатиш тепкисини узуқ-узуқ босиб, узатма ва илашиш механизмини ажратмаган, двигател билан тормозланишни ишлатган ҳамда ғилдиракларнинг блокировкаси (сирғаниш)га йўл қўймаган ҳолда тўхтатиш лозим."
+        }
+    }
+}

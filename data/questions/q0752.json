@@ -1,0 +1,36 @@
+{
+    "questionId": 752,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi holatda siz majburiy to'xtashni amalga oshirasiz?",
+            "options": [
+                "F1. Piyodalar o'tish joyi oldida piyodalarga yo'l berish uchun to'xtab",
+                "F2. Texnik nosozlik tufayli yo'lning harakat qismida",
+                "F3. Har ikki sanab o'tilgan holda"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ, Umumiy qoidalar: Majburiy to'xtash — texnik nuqson, tashilayotgan yuk, haydovchi va yo'lovchining holati, yoʻldagi biror toʻsiq tufayli xavf yuzaga kelganda yoxud ob-havo sharoitiga bog'liq holda transport vositasi harakatini toʻxtatish. Haydovchining ushbu xatti-harakati oxirgi zarur chora bo'lib, qoidabuzarlik deb e'tirof etilmaydi."
+        },
+        "ru": {
+            "text": "В каком случае Вы совершите вынужденную остановку?",
+            "options": [
+                "F1. Остановившись непосредственно перед пешеходным переходом, чтобы уступить дорогу пешеходу",
+                "F2. Остановившись на проезжей части из-за технической неисправности автомобиля",
+                "F3. В обоих перечисленных случаях"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД, Общие положения: Вынужденная остановка — прекращение движения транспортного средства по причине технической неисправности или опасности, создаваемой перевозимым грузом, состоянием водителя, пассажира, препятствием на дороге или метеорологическими условиями."
+        },
+        "uzk": {
+            "text": "Қайси ҳолатда сиз мажбурий тўхташни амалга оширасиз?",
+            "options": [
+                "F1. Пиёдалар ўтиш жойи олдида пиёдаларга йўл бериш учун тўхтаб",
+                "F2. Техник носозлик туфайли йўлнинг ҳаракат қисмида",
+                "F3. Ҳар икки санаб ўтилган ҳолда"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ, Умумий қоидалар: Мажбурий тўхташ — техник нуқсон, ташилаётган юк, ҳайдовчи ва йўловчининг ҳолати, йўлдаги бирор тўсиқ туфайли хавф юзага келганда ёхуд об-ҳаво шароитига боғлиқ ҳолда транспорт воситаси ҳаракатини тўхтатиш. Ҳайдовчининг ушбу хатти-ҳаракати охирги зарур чора бўлиб, қоидабузарлик деб эътироф этилмайди."
+        }
+    }
+}

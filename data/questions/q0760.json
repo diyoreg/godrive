@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  760,
+    "image":  "data/images/q0760.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi yo\u0027l belgisi piyodalar yo\u0027lkasini bildiradi?",
+                                    "options":  [
+                                                    "F1. Faqat «Б» va «B»",
+                                                    "F2. Faqat «Б»",
+                                                    "F3. Barchasi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 4.6. «Piyodalar yo\u0027lkasi». Faqat piyodalar yurishiga ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из знаков обозначает пешеходную дорожку?",
+                                    "options":  [
+                                                    "F1. Только «Б» и «В»",
+                                                    "F2. Только «Б»",
+                                                    "F3. Все знаки"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Приложение № 1 к ПДД пункт 4.6.: «Пешеходная дорожка». Разрешается движение только пешеходам."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси йўл белгиси пиёдалар йўлкасини билдиради?",
+                                     "options":  [
+                                                     "F1. Фақат «Б» ва «B»",
+                                                     "F2. Фақат «Б»",
+                                                     "F3. Барчаси"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 4.6. «Пиёдалар йўлкаси». Факат пиёдалар юришига рухсат этилади."
+                                 }
+                     }
+}

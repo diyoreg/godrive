@@ -1,0 +1,39 @@
+{
+    "questionId": 1017,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Bekat maydonchalaridan harakatlanish yo'nalishi bo'ylab qanchadan kam masofada (yetmasdan va o'tib ketib) to'xtash va to'xtab turish taqiqlanadi?",
+            "options": [
+                "F1. 25 metr",
+                "F2. 30 metr",
+                "F3. 15 metr",
+                "F4. 20 metr"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 13-bobi 91-bandi: To'xtash taqiqlanadi: Bekat maydonchalarida, yo'nalishli transport vositalari to'xtash joylarida, jumladan, 1.17 chizig'i bilan belgilangan, ular bo'lmaganda esa yo'nalishli transport vositalari to'xtash joyi belgilari va bekatdan harakatlanish yo'nalishi bo'ylab (etmasdan va o'tib ketib) 15 metrdan kam masofada (yo'nalishli transport vositalari harakatiga xalaqit bermasa yo'lovchilarni chiqarish yoki tushirish uchun to'xtash bundan mustasno)."
+        },
+        "ru": {
+            "text": "На каком расстоянии от остановки по ходу движения (не доезжая и после) запрещается остановка и стоянка?",
+            "options": [
+                "F1. 25 метр",
+                "F2. 30 метр",
+                "F3. 15 метр",
+                "F4. 20 метр"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 9 пункт 91 главы 13 ПДД, гласит: на остановочных площадках, местах остановки маршрутных транспортных средств, в том числе обозначенных дорожной разметкой 1.17 и ближе 15 м от них с обеих сторон по ходу движения, при их отсутствии — от указателя места остановки маршрутных транспортных средств (кроме остановки для посадки или высадки пассажиров, если это не создаст помех движению маршрутных транспортных средств)."
+        },
+        "uzk": {
+            "text": "Бекат майдончаларидан ҳаракатланиш йўналиши бўйлаб қанчадан кам масофада (етмасдан ва ўтиб кетиб) тўхташ ва тўхтаб туриш тақиқланади?",
+            "options": [
+                "F1. 25 метр",
+                "F2. 30 метр",
+                "F3. 15 метр",
+                "F4. 20 метр"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 13-боби 91-банди: Тўхташ тақиқланади: Бекат майдончаларида, йўналишли транспорт воситалари тўхташ жойларида, жумладан, 1.17 чизиғи билан белгиланган, улар бўлмаганда эса йўналишли транспорт воситалари тўхташ жойи белгилари ва бекатдан ҳаракатланиш йўналиши бўйлаб (этмасдан ва ўтиб кетиб) 15 метрдан кам масофада (йўналишли транспорт воситалари ҳаракатига халақит бермаса йўловчиларни чиқариш ёки тушириш учун тўхташ бундан мустасно)."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "questionId": 269,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Avtotransport vositasida bo'lgan tibbiyot qutichasiga kiruvchi 5% li yod eritmasi (yod nastoykasi) nima uchun qo'llanildi?",
+            "options": [
+                "F1. Yara atrofidagi terini ishlash uchun",
+                "F2. Yara qattiq chirk olganda yaraning butun yuzasiga surtish uchun",
+                "F3. Kuchli ishkor keltirib chiqaruvchi birinchi darajali kimyoviy kuyishda teriga surtish uchun"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Yod nastoykasi jarohat ichida to'qimaning kimyoviy shikastlanishiga olib keladi. Ushbu qorishma surilganda terining tashqi qatlami shikastlanmaydi, balki foydali ravishda dezinfeksiya qilinadi va bu jarayonni bog'ʻlashdan avval amalga oshirish kerak."
+        },
+        "ru": {
+            "text": "Для чего применяется 5% раствор йода (настойка йода), входящий в комплект аптечки, которой оснащены автотранспортные средства?",
+            "options": [
+                "F1. Для обработки кожи вокруг раны",
+                "F2. Для смазывания всей поверхности раны при сильном загрязнении раны",
+                "F3. Для смазывания кожи при химических ожогах первой степени, вызванных крепкой щелочью"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Раствор йода вызывает химическое повреждение ткани внутри раны. Наружный слой кожи не повреждается при смазывании этим раствором, но эффективно дезинфицируется, что необходимо перед наложением марлевой повязки."
+        },
+        "uzk": {
+            "text": "Автотранспорт воситасида бўлган тиббиёт қутичасига кирувчи 5% ли йод эритмаси (йод настойкаси) нима учун қўлланилди?",
+            "options": [
+                "F1. Яра атрофидаги терини ишлаш учун",
+                "F2. Яра ўта даражада ифлосланганда яранинг бутун юзасига суртиш учун",
+                "F3. Кучли ишқор келтириб чиқарувчи биринчи даражали кимёвий куйишда терига суртиш учун"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Йод настойкаси жароҳат ичида тўқиманинг кимёвий шикастланишига олиб келади. Ушбу қоришма сурилганда терининг ташқи қатлами шикастланмайди, балки фойдали равишда дезинфекция қилинади ва бу жараённи боғлашдан аввал амалга ошириш керак."
+        }
+    }
+}

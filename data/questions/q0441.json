@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  441,
+    "image":  "data/images/q0441.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ro\u0027paradan kelayotgan avtomobil haydovchisi qanday yo\u0027l tutishi kerak?",
+                                    "options":  [
+                                                    "F1. Yo\u0027l yoqasida to\u0027xtashi",
+                                                    "F2. Yalt-yalt etuvchi chiroq mayoqchasi yoqilgan avtomobiliga xalaqit bermasdan harakatni davom ettirishi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 6-bobi 26-bandiga asosan: Haydovchilar tezkor va maxsus xizmatlarning ko\u0027k yoki qizil yoxud ko\u0027k va qizil rangli yalt-yalt etuvchi mayoqchalar va maxsus tovushli ishorasi yoqilgan holda yaqinlashayotgan transport vositalariga, shuningdek ularning kuzatuvidagi, yaqinni yorituvchi fara chiroqlari yoqilgan transport vositasi (transport vositalari)ga yo\u0027l berishlari shart.\nMazkur turdagi transport vositalarini quvib o\u0027tish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Как должен поступить водитель встречного автомобиля в данной ситуации?",
+                                    "options":  [
+                                                    "F1. Остановиться на обочине",
+                                                    "F2. Продолжить движение, не создавая помех автомобилю с включенными проблесковыми маячками"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункту 26 главы 6 ПДД, гласит: При приближении транспортных средств оперативных и специальных служб с включенными проблесковым маячком синего или красного или синего и красного цветов и специальным звуковым сигналом, а также сопровождаемого ими транспортного средства (транспортных средств) с включенным ближним светом фар водители обязаны уступить им дорогу для обеспечения их беспрепятственного проезда. Запрещается обгонять данные транспортные средства."
+                                },
+                         "uzk":  {
+                                     "text":  "Рўпарадан келаётган автомобиль ҳайдовчиси қандай йўл тутиши керак?",
+                                     "options":  [
+                                                     "F1. Йўл ёқасида тўхташи",
+                                                     "F2. Ялт-Ялт этувчи чирок маёкчаси ёкилган автомобилига халақит бермасдан ҳаракатни давом эттириши"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 6-боби 26-бандига асосан: Ҳайдовчилар тезкор ва махсус хизматларнинг кўк ёки қизил ёхуд кўк ва қизил рангли ялт-ялт этувчи маёқчалар ва махсус товушли ишораси ёқилган ҳолда яқинлашаётган транспорт воситаларига, шунингдек уларнинг кузатувидаги, яқинни ёритувчи фара чироқлари ёқилган транспорт воситаси (транспорт воситалари)га йўл беришлари шарт.\nМазкур турдаги транспорт воситаларини қувиб ўтиш тақиқланади."
+                                 }
+                     }
+}

@@ -1,0 +1,39 @@
+{
+    "questionId": 519,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Kim o'quv yurtlarida boshqarishni o'rgatish huquqiga ega?",
+            "options": [
+                "F1. Haydashni o'rgatish huquqini beruvchi xujjatlari bo'lgan haydashni o'rgatuvchi yo'riqchi",
+                "F2. Tajribali haydovchi",
+                "F3. 3 yillik ishlagan davri bo'lgan haydovchi",
+                "F4. 5 yil haydovchilik ishlagan davriga ega bo'lgan 1 va 2-toifa haydovchilar"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 25-bobi 148-bandiga asosan: Avtomototransport vositasini yoki shahar elektr transportini boshqarish boʻyicha amaliy mashg'ulotlar instruktori boshqarishni o'rgatish huquqini beruvchi hujjatga, shuningdek tegishli toifadagi transport vositasini boshqarish huquqini beruvchi guvohnomaga ega bo'lishi kerak."
+        },
+        "ru": {
+            "text": "Кто имеет право обучать вождению в учебных организациях?",
+            "options": [
+                "F1. Мастер обучения вождению, имеющий документы на право обучения вождению",
+                "F2. Опытный водитель",
+                "F3. Водитель со стажем 3 года",
+                "F4. Водитель 1-го и 2-го класса, имеющий водительский стаж 5 лет"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункт 148 главы 25 ПДД, гласит: Инструктор практических занятий по управлению автомототранспортным средством или средством городского электрическокого транспорта должен иметь при себе документы на право обучения вождению, а также удостоверение на право управления транспортным средством соответствующей категории."
+        },
+        "uzk": {
+            "text": "Ким ўқув юртларида бошқаришни ўргатиш ҳуқуқига эга?",
+            "options": [
+                "F1. Ҳайдашни ўргатиш ҳуқуқини берувчи хужжатлари бўлган ҳайдашни ўргатувчи йўриқчи",
+                "F2. Тажрибали ҳайдовчи",
+                "F3. 3 йиллик ишлаган даври бўлган ҳайдовчи",
+                "F4. 5 йил ҳайдовчилик ишлаган даврига эга бўлган 1-ва 2-тоифа ҳайдовчилар"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 25-боби 148-бандига асосан: Автомототранспорт воситасини ёки шаҳар электр транспортини бошқариш бўйича амалий машғулотлар инструктори бошқаришни ўргатиш ҳуқуқини берувчи ҳужжатга, шунингдек тегишли тоифадаги транспорт воситасини бошқариш ҳуқуқини берувчи гувоҳномага эга бўлиши керак."
+        }
+    }
+}

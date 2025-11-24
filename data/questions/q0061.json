@@ -1,0 +1,39 @@
+{
+    "questionId": 61,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi javobda yo'lovchilar uchun chiqish va tushish maydonchasi bo'lmagan sharoitdagi yo'lovchilar chiqish va tushish joylari to'liq ko'rsatilgan?",
+            "options": [
+                "F1. Qatnov qismi yoki trotuar tomonidan",
+                "F2. Trotuar tomonidan",
+                "F3. Yo'l yoqasida yoki qatnov qismi tomonidan",
+                "F4. Trotuar yoki yo'l yoqasi tomonidan"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 5-bobi 23-bandiga asosan: Yo'lovchilar transport vositasiga Faqatu toʻla to'xtagandan soʻng trotuar yoki yo'l yoqasi tomondan chiqishga va tushishga majburdirlar. Yo'lovchilarning transport vositalaridan trotuar yoki yoʻl yoqasi tomondan tushishi yoki ularga chiqishining iloji bo'lmagan hollarda, agar bu harakat xavf tug'dirmasa yoki boshqa yoʻl harakati qatnashchilariga xalaqit bermasa yo'lning qatnov qismi tomonidan amalga oshirilishi mumkin."
+        },
+        "ru": {
+            "text": "В каком ответе наиболее полно указаны места посадки и высадки пассажиров при отсутствии посадочной площадки?",
+            "options": [
+                "F1. На проезжей части или тротуаре",
+                "F2. На тротуаре",
+                "F3. На обочине или на проезжей части",
+                "F4. Со стороны тротуара или обочины"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 23 главы 5 ПДД, гласит: Пассажиры обязаны производить посадку и высадку со стороны тротуара ИЛИ обочины и только после полной остановки транспортного средства. Если посадка и высадка невозможны со стороны тротуара или обочины, они могут осуществляться со стороны проезжей части при условии, что это будет безопасно и не создаст помех другим участникам движения."
+        },
+        "uzk": {
+            "text": "Қайси жавобда йўловчилар учун чиқиш ва тушиш майдончаси бўлмаган шароитдаги йўловчилар чиқиш ва тушиш жойлари тўлиқ кўрсатилган?",
+            "options": [
+                "F1. Қатнов қисми ëки тротуар томонидан",
+                "F2. Тротуар томонидан",
+                "F3. Йўл ёқасида ёки қатнов қисми томонидан",
+                "F4. Тротуар ёки йўл ёкаси томонидан"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 5-боби 23-бандига асосан: Йўловчилар транспорт воситасига фақат у тўла тўхтагандан сўнг тротуар ёки йўл ёқаси томондан чиқишга ва тушишга мажбурдирлар. Иуловчиларнинг транспорт воситаларидан тротуар ёки йўл ёқаси томондан тушиши ёки уларга чиқишининг иложи бўлмаган ҳолларда, агар бу ҳаракат хавф туғдирмаса ёки бошқа йўл ҳаракати қатнашчиларига халақит бермаса йўлнинг қатнов қисми томонидан амалга оширилиши мумкин."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "questionId": 48,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Chorrahada aylanma harakatlanish tashkil qilingan. Siz yaqinlashib kelayotgan yo'lning qatnov qismi ikkita harakat bo'lagiga ega. Chorrahaga kirishda burilish uchun Siz qaysi tasmani egallashingiz lozim?",
+            "options": [
+                "F1. O'ng tasmani",
+                "F2. Chap tasmani",
+                "F3. O'ng yoki chap tasmani"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 9-bobi 56-bandi: Haydovchi, aylanma harakatlanish tashkil qilingan chorrahalarga kirish uchun burilishdan boshqa barcha hollarda, haydovchi o'ngga, chapga burilishi yoki qayrilib olishdan oldinroq shu yo'nalishda harakatlanishi uchun mo'ljallangan qatnov qismining eng chetki holatni egallashi shart."
+        },
+        "ru": {
+            "text": "На перекрестке организовано круговое движение. Проезжая часть, по которой вы подъезжаете к перекрестку, имеет две полосы для движения. Какую полосу Вы обязаны занять для поворота при въезде на перекресток?",
+            "options": [
+                "F1. Правую полосу",
+                "F2. Левую полосу",
+                "F3. Правую или левую полосу"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 56 главы 9 ПДД, гласит: Перед поворотом направо, налево или разворотом водитель обязан заблаговременно занять соответствующее крайнее положение на проезжей части, предназначенной для движения в данном направлении, кроме случаев, когда совершается поворот при въезде на перекресток с круговым движением. То есть при въезде на перекресток с круговым движением не нужно занимать крайнее положение и в данном случае можно двигаться по правой или левой полосе."
+        },
+        "uzk": {
+            "text": "Чорраҳада айланма ҳаракатланиш ташкил қилинган. Сиз яқинлашиб келаётган йўлнинг қатнов қисми иккита ҳаракат бўлагига эга. чорраҳага киришда бурилиш учун Сиз қайси тасмани эгаллашингиз лозим?",
+            "options": [
+                "F1. Ўнг тасмани",
+                "F2. Чап тасмани",
+                "F3. Ўнг ёки чап тасмани"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 9-боби 56-банди: Ҳайдовчи, айланма ҳаракатланиш ташкил қилинган чорраҳаларга кириш учун бурилишдан бошқа барча ҳолларда, ҳайдовчи ўнгга, чапга бурилиши ёки қайрилиб олишдан олдинроқ шу йўналишда ҳаракатланиши учун мўлжалланган қатнов қисмининг энг четки ҳолатни эгаллаши шарт."
+        }
+    }
+}

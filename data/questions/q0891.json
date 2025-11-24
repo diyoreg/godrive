@@ -1,0 +1,36 @@
+{
+    "questionId": 891,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Tik nishablikda dvigatel bilan tormozlashda qiyalikka nisbatan qanday uzatma tanlanadi?",
+            "options": [
+                "F1. Nishablik qancha qiya bo'lsa uzatma pog'onasi shuncha past tanlanadi",
+                "F2. Pog'onalarni nishablikka aloqasi yo'q",
+                "F3. Nishablik qancha qiya bo'lsa uzatma pog'onasi shuncha yuqori tanlanadi"
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        "ru": {
+            "text": "При торможении двигателем на крутых спусках какая передача выбирается в зависимости от уклона?",
+            "options": [
+                "F1. Чем круче уклон, тем ниже выбирается передача",
+                "F2. Выбор передачи не зависит от крутизны спуска",
+                "F3. Чем круче уклон, тем выше выбирается передача"
+            ],
+            "correctAnswer": 1,
+            "explanation": ""
+        },
+        "uzk": {
+            "text": "Тик нишабликда двигатель билан тормозлашда қияликка нисбатан қандай узатма танланади?",
+            "options": [
+                "F1. Нишаблик қанча қия бўлса узатма поғонаси шунча паст танланади",
+                "F2. Поғоналарни нишабликка алоқаси йўқ",
+                "F3. Нишаблик қанча қия бўлса узатма поғонаси шунча юқори танланади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Бундай самарали тормозлаш усулини механик узатмали автомобилларда ҳайдовчи тик нишабликларда қўллаши мумкин, ёки автоматлаштирилган узатмада қўл билан бошқариш тизимига ўтиш мақсадга мувофиқдир."
+        }
+    }
+}

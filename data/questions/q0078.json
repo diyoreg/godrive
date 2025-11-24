@@ -1,0 +1,33 @@
+{
+    "questionId": 78,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Kunduzgi vaqtda yaqinni yorituvchi fara chirogʻini yoqish ogohlantirish ishorasi bo'ladimi?",
+            "options": [
+                "F1. Bo'ladi",
+                "F2. Bo'lmaydi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 8-bobi 44-bandiga asosan, quyidagilar ogohlantiruvchi ishoralar hisoblanadi: burilishni koʻrsatadigan miltillovchi chiroq yoki qo'l bilan beriladigan ishoralar;\ntovushli ishoralar;\nchiroqlarning yoqib o'chirilishi;\nkunduz kuni yaqinni yorituvchi chiroqlarning yoqilishi."
+        },
+        "ru": {
+            "text": "Является ли включение ближнего света фар в дневное время предупредительным сигналом?",
+            "options": [
+                "F1. Является",
+                "F2. Не является"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 44 главы 8 ПДД, гласит: Предупредительными сигналами являются: - сигналы, подаваемые мигаюшими указателями поворотов или рукой;\n- звуковые сигналы;\n- переключение света фар;\n- включение ближнего света фар в дневное время."
+        },
+        "uzk": {
+            "text": "Кундузги вақтда яқинни ёритувчи фара чироғини ёкиш огоҳлантириш ишораси бўладими?",
+            "options": [
+                "F1. Бўлади",
+                "F2. Бўлмайди"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 8-боби 44-бандига асосан, қуйидагилар огоҳлантирувчи ишоралар ҳисобланади: бурилишни кўрсатадиган милтилловчи чироқ ёки қўл билан бериладиган ишоралар;\nтовушли ишоралар;\nчироқларнинг ёқиб ўчирилиши;\nкундуз куни яқинни ёритувчи чироқларнинг ёқилиши."
+        }
+    }
+}

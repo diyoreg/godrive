@@ -1,0 +1,36 @@
+{
+    "questionId": 260,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sanab o'tilgan qaysi xollarda transport vositasidan foydalanish mumkin?",
+            "options": [
+                "F1. Faralar nurining yo'nalishi buzilgan",
+                "F2. Ishlab chiqarilishi to'xtatilgan yengil avtomobillarga boshqa turdagi va rusmdagi transport vositalarining tashqi yoritgichlari o'rnatilgan",
+                "F3. Tashqi yoritgichlar va nur qaytargichlar belgilangan tartibda ishlamaydi yoki ifloslangan"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 3-ilovasi 3-bo'limining 3.1-bandiga asosan: Tashqi yoritqichlar soni, turi, joylashuvi va ishlash tartibi transport vositasining konstruksiyasi talabiga mos kelmasa. Ishlab chiqarilishi toʻxtatilgan yengil avtomobillarga boshqa turdagi va rusumdagi transport vositalarining tashqi yoritqichlarini oʻrnatishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "В каком из указанных случаев разрешается эксплуатация транспортных средств ?",
+            "options": [
+                "F1. Нарушена регулировка фар",
+                "F2. На легковых автомобилях, снятых с производства, установлены фары и габаритные фонари от автомобилей других марок",
+                "F3. Не работает в установленном режиме или загрязнены внешные световые прибры"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункту 3.1. приложения № 3 к ПДД, Количество, тип, расположение и режим работы внешних световых приборов не соответствуют требованиям конструкции транспортного средства. На легковых автомобилях, снятых с производства, допускается установка внешних световых приборов от автомобилей других марок и моделей."
+        },
+        "uzk": {
+            "text": "Санаб ўтилган қайси холларда транспорт воситасидан фойдаланиш мумкин?",
+            "options": [
+                "F1. Фаралар нурининг йўналиши бузилган",
+                "F2. Ишлаб чикарилиши тўхтатилган енгил автомобилларга бошқа турдаги ва русмдаги транспорт воситаларининг ташқи ёритгичлари ўрнатилган",
+                "F3. Ташқи ёритгичлар ва нур қайтаргичлар белгиланган тартибда ишламайди ёки ифлосланган"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 3-иловаси 3-бўлимининг 3.1-бандига асосан: Ташқи ёритқичлар сони, тури, жойлашуви ва ишлаш тартиби транспорт воситасининг конструкцияси талабига мос келмаса. Ишлаб чиқарилиши тўхтатилган енгил автомобилларга бошқа турдаги ва русумдаги транспорт воситаларининг ташқи ёритқичларини ўрнатишга рухсат этилади."
+        }
+    }
+}

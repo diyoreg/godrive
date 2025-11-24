@@ -1,0 +1,36 @@
+{
+    "questionId": 239,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Toliqish haydovchining diqqati va e'tiboriga qanday ta'sir qiladi?",
+            "options": [
+                "F1. Haydovchining diqqat va e'tiboriga ta'sir qilmaydi",
+                "F2. Haydovchining diqqat va e'tibori pasayadi",
+                "F3. Haydovchining diqqat va e'tibori oshadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Toliqish haydovchining diqqati va e'tiboriga qanday ta'sir qiladi? Haydovchining diqqat va e'tiboriga ta'sir qilmaydi Toliqishning fiziologik mohiyati organizmning ish intensivligini kamaytirish yoki to'xtatish zarurligi hamda xabar berishdan iborat bo'lib, u charchash hissiyoti tarzida seziladi. Toliqish natijasida haydovchi favqulodda harakatlarga tayyorligini yoʻqotadi, ya'ni yoʻl transport hodisasi ehtimolini ko'payishiga olib keluvchi hushyorlik kamayishi yuzaga keladi. Psixologik nuqtai nazardan hushyorlik-bu markaziy nerv tizimining doimiy oʻzgaruvchan yo'l - transport holatlariga nisbatan zarur, 02 vaqtida hamda to'g'ri harakatlarni kechiktirmay amalga oshirish uchun tayyorlik darajasidir."
+        },
+        "ru": {
+            "text": "Как влияет утомление на внимание и реакцию водителя?",
+            "options": [
+                "F1. Не влияет на внимание и реакцию водителя",
+                "F2. Внимание и реакция водителя снижаются",
+                "F3. Внимание и реакция водителя повышаются"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Субъективно утомление ощущается как чувство усталости, физиологическая сущность которого заключается в сигнализации организма о необходимости прекратить или снизить интенсивность работы. В результате утомления водитель теряет готовность к экстренному действию, т.е. происходит снижение бдительности, что чт в свою очередь значительно повышает вероятность дорожного происшествия. С психологической точки зрения бдительность - это степень готовности центральной нервной системы осуществлять нужную работу по отображению постоянно меняющейся дорожно-транспортной ситуации и по обеспечению своевременных и правильных ответных действий на эту обстановку."
+        },
+        "uzk": {
+            "text": "Толиқиш ҳайдовчининг диққати ва эътиборига қандай таъсир қилади?",
+            "options": [
+                "F1. Ҳайдовчининг диққат ва эътиборига таъсир килмайди",
+                "F2. Ҳайдовчининг диккат ва эътибори пасаяди",
+                "F3. Ҳайдовчининг диққат ва эътибори ошади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Толиқишнинг физиологик моҳияти организмнинг иш интенсивлигини камайтириш ёки тўхтатиш зарурлиги ҳамда хабар беришдан иборат бўлиб, учарчаш ҳиссиёти тарзида сезилади. Толиқиш натижасида ҳайдовчи фавқулодда ҳаракатларга тайёрлигини йўқотади, яъни йўл транспорт ҳодисаси эҳтимолини кўпайишига олиб келувчи ҳушёрлик камайиши юзага келади. Психологик нуқтаи назардан ҳушёрлик-бу марказий нерв тизимининг доимий ўзгарувчан йўл – транспорт ҳолатларига нисбатан зарур, ўз вақтида ҳамда тўғри ҳаракатларни кечиктирмай амалга ошириш учун тайёрлик даражасидир."
+        }
+    }
+}

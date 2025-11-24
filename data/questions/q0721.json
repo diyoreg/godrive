@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  721,
+    "image":  "data/images/q0721.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan belgilardan qaysi biri yo\u0027lning ko\u0027rinish masofasi cheklangan joylarida majburan to\u0027xtagan transport vositalarini belgilash uchun qo\u0027llaniladi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 8-bobi 51-bandi: Transport vositasi to\u0027satdan to\u0027xtab qolganda, zudlik bilan avariya yorug\u0027lik ishorasini yoqish, agar u ishlamasa, avariya sababli to\u0027xtash belgisini darhol o\u0027rnatish kerak. Avariya sababli to\u0027xtash belgisi quyidagi hollarda qo\u0027llaniladi:\nyo\u0027l-transport hodisasi sodir bo\u0027lganda;\nto\u0027xtash taqiqlangan joylarda va ko\u0027rinishi cheklangan joylarda majburiy to\u0027xtaganda;\nUshbu belgi boshqa haydovchilarni xavfli vaziyat haqida o\u0027z vaqtida ogohlantirish imkonini beradigan masofada o\u0027rnatilishi kerak. Bu masofa aholi punktlarida transport vositasidan 15 metr, aholi punktlaridan tashqaridagi joylarda esa 30 metrdan kam bo\u0027lmasligi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак используется для обозначения транспортного средства при вынужденной остановке в местах, где с учетом условий видимости оно не может быть своевременно замечено другими водителями?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 51 главы 8 ПДД, гласит: При остановке транспортного средства и включении аварийной световой сигнализации, а также при ее неисправности или отсутствии знак аварийной остановки должен быть незамедлительно выставлен: при дорожно-транспортном происшествии;\nпри вынужденной остановке в местах, где она запрещена, и там, где с учётом условий видимости транспортное средство не может быть своевременно замечено другими водителями."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган белгилардан қайси бири йўлнинг кўриниш масофаси чекланган жойларида мажбуран тўхтаган транспорт воситаларини белгилаш учун қўлланилади?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 8-боби 51-банди: Транспорт воситаси тўсатдан тўхтаб қолганда, зудлик билан авария ёруғлик ишорасини ёқиш, агар у ишламаса, авария сабабли тўхташ белгисини дарҳол ўрнатиш керак. Aвария сабабли тўхташ белгиси қуйидаги ҳолларда қўлланилади:\nйўл-транспорт ҳодисаси содир бўлганда;\nтўхташ тақиқланган жойларда ва кўриниши чекланган жойларда мажбурий тўхтаганда;\nУшбу белги бошқа ҳайдовчиларни хавфли вазият ҳақида ўз вақтида огоҳлантириш имконини берадиган масофада ўрнатилиши керак. Бу масофа аҳоли пунктларида транспорт воситасидан 15 метр, аҳоли пунктларидан ташқаридаги жойларда еса 30 метрдан кам бўлмаслиги керак."
+                                 }
+                     }
+}

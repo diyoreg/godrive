@@ -1,0 +1,39 @@
+{
+    "questionId": 429,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Manyovr vaqtida haydovchi har doim ogohlantiruvchi ishora berishi kerakmi?",
+            "options": [
+                "F1. Faqat uning orqasida boshqa transport vositasi harakatlanayotgan bo'lsa",
+                "F2. Faqat uning transport vositasi burilishni ko'rsatuvchi chiroqlar bilan jihozlangan bo'lsa",
+                "F3. Faqat serqatnov harakatli yo'lda",
+                "F4. Faqat u harakatning boshqa ishtirokchilarini chalg'itmagan hollarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 8-bobi 46-bandining birinchi va ikkinchi xatboshlariga asosan: Burilish ko'rsatgichi yoki 4011 bilan berilayotgan ishora manyovrni bajarishdan oldinroq berilishi va uni tugallagach, darhol to'xtatilishi kerak (qo'l bilan berilayotgan ishorani manyovrni bevosita bajarishdan oldin tugallash mumkin). Ishoralar boshqa yo'l harakati qatnashchilarini chalg'itmasligi kerak."
+        },
+        "ru": {
+            "text": "Должен ли водитель при маневре всегда подавать предупредительные сигналы?",
+            "options": [
+                "F1. Только в случае, если за ним движется другое транспортное средство",
+                "F2. Только в случае, если его транспортное средство имеет указатели поворотов",
+                "F3. Только на дороге с интенсивным движением",
+                "F4. Сигнал не подается в случаях, когда он может ввести в заблуждение других участников движения"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункту 46 главы 8 ПДД, гласит: Подача сигнала указателями поворотов или рукой должна производиться заблаговременно до начала выполнения маневра и прекращаться немедленно после его завершения (подача сигнала рукой может быть закончена непосредственно перед выполнением маневра). Подаваемый сигнал не должен вводить в заблуждение других участников дорожного движения. Подача предупредительного сигнала не дает водителю право на первоочередное движение и не освобождает его от принятия необходимых мер предосторожности. Если предупредительный сигнал может ввести в заблуждение других участников движения, он не должен производиться."
+        },
+        "uzk": {
+            "text": "Манёвр вақтида ҳайдовчи ҳар доим огоҳлантирувчи ишора бериши керакми?",
+            "options": [
+                "F1. Фақат унинг орқасида бошқа транспорт воситаси ҳаракатланаётган бўлса",
+                "F2. Фақат унинг транспорт воситаси бурилишни кўрсатувчи чироқлар билан жиҳозланган бўлса",
+                "F3. Фақат серқатнов ҳаракатли йўлда",
+                "F4. Фақат у ҳаракатнинг бошқа иштирокчиларини чалғитмаган ҳолларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 8-боби 46-бандининг биринчи ва иккинчи хатбошларига асосан: Бурилиш кўрсатгичи ёки қўл билан берилаётган ишора манёврни бажаришдан олдинроқ берилиши ва уни тугаллагач, дарҳол тўхтатилиши керак (қўл билан берилаётган ишорани манёврни бевосита бажаришдан олдин тугаллаш мумкин). Ишоралар бошқа йўл ҳаракати қатнашчиларини чалғитмаслиги керак."
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "questionId": 200,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yuk avtomobilining yukxonasida qancha miqdorda odamlarni tashishga ruxsat etiladi?",
+            "options": [
+                "F1. 20 nafar kishidan ortiq emas",
+                "F2. Tashilayotgan odamlar soni, o'tirish uchun jihozlangan o'rindiqlar miqdoridan ortiq bo'lmasligi kerak",
+                "F3. Haydovchining xohishiga ko'ra",
+                "F4. Ma'muriyatning ko'rsatmasiga ko'ra"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 26-bobi 154-bandiga asosan: Yuk avtomobilining yukxonasida, shuningdek shaharlararo, sayyohlik, ekskursiya yoki tog'li yoʻnalishlarda va bolalar guruhini tashkiliy tashishda tashilayotgan odamlar soni o'tirish uchun jihozlangan o'rindiqlar sonidan oshmasligi kerak."
+        },
+        "ru": {
+            "text": "Какое количество людей разрешается перевозить в кузове грузового автомобиля?",
+            "options": [
+                "F1. Не более 20 человек",
+                "F2. Число перевозимых людей не должно превышать количество оборудованных для сидения мест",
+                "F3. По усмотрению водителя",
+                "F4. По указанию администрации"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 154 главы 26 ПДД гласит: Число перевозимых людей не должно превышать количество оборудованных для сиденья мест."
+        },
+        "uzk": {
+            "text": "Юк автомобилининг юкхонасида қанча миқдорда одамларни ташишга рухсат этилади?",
+            "options": [
+                "F1. 20 нафар кишидан ортиқ эмас",
+                "F2. Ташилаётган одамлар сони, ўтириш учун жиҳозланган ўриндиқлар миқдоридан ортиқ бўлмаслиги керак",
+                "F3. Ҳайдовчининг хоҳишига кўра",
+                "F4. Маъмуриятнинг кўрсатмасига кўра"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 26-боби 154-бандига асосан: Юк автомобилининг юкхонасида, шунингдек шаҳарлараро, сайёҳлик, экскурсия ёки тоғли йўналишларда ва болалар гуруҳини ташкилий ташишда ташилаётган одамлар сони ўтириш учун жиҳозланган ўриндиқлар сонидан ошмаслиги керак."
+        }
+    }
+}

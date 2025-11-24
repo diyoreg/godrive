@@ -1,0 +1,36 @@
+{
+    "questionId": 489,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Jabrlanuvchining yurak faoliyati yoki nafas olishi to'xtaganda, unga qanday ketma-ketlikda birinchi yordam ko'rsatish zarur?",
+            "options": [
+                "F1. Yurakni massaj qilish, nafas yo'llarini bo'shatish, sun'iy nafas oldirish",
+                "F2. Sun'iy nafas oldirish, yurakni ustidan massaj qilish, nafas yo'llarini bo'shatish",
+                "F3. Nafas yo'llarini bo'shatish, sun'iy nafas oldirish va yurakni ustidan massaj qilish"
+            ],
+            "correctAnswer": 3,
+            "explanation": "O'pkaning sun'iy ventilyasiyasi samarali boʻlishi uchun nafas olish yo'llariga havoning erkin o'tishini ta'minlash zarur. Og'iz bo'shlig'i shilliq qon, qusuq va boshqa jismlardan xoli ekanligiga ishonch hosil qilish kerak. To'qimalarga kislorod kelishi va qon aylanishini ta'minlash uchun орКада kislorod kelishini kuchaytirish bilan birga yurak urish faoliyatini qayta tiklashga darhol kirishish lozim."
+        },
+        "ru": {
+            "text": "В какой последовательности необходимо оказывать первую помощь пострадавшему при прекращении у него сердечной деятельности и дыхания?",
+            "options": [
+                "F1. Выполнить массаж сердца, освободить дыхательные пути, проводить искусственное дыхание",
+                "F2. Проводить искусственное дыхание, наружный массаж сердца, освободить дыхательные пути",
+                "F3. Освободить дыхательные пути, проводить искусственное дыхание и наружный массаж сердца"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Для того чтобы искусственная вентиляция легких была эффективна, необходимо обеспечить свободное прохождение воздуха по дыхательным путям. Нужно убедиться, что полость рта свободна от слизи, крови, рвотных масс и каких-либо предметов. Усилив приток кислорода в легкие, необходимо сразу приступать к восстановлению сердечной деятельности, тем самым обеспечивая движение крови и поступление кислорода к тканям."
+        },
+        "uzk": {
+            "text": "Жабрланувчининг юрак фаолияти ёки нафас олиши тўхтаганда, унга қандай кетма-кетликда биринчи ёрдам кўрсатиш зарур?",
+            "options": [
+                "F1. Юракни массаж килиш, нафас йўлларини бўшатиш, сунъий нафас олдириш",
+                "F2. Сунъий нафас олдириш, юракни устидан массаж килиш, нафас йўлларини бўшатиш",
+                "F3. Нафас йўлларини бўшатиш, сунъий нафас олдириш ва юракни устидан массаж килиш"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Ўпканинг сунъий вентиляцияси самарали бўлиши учун нафас олиш йўлларига ҳавонинг эркин ўтишини таъминлаш зарур. Оғиз бўшлиғи шиллиқ қон, қусуқ ва бошқа жисмлардан холи эканлигига ишонч ҳосил қилиш керак. Тўқималарга кислород келиши ва қон айланишини таъминлаш учун ўпкага кислород келишини кучайтириш билан бирга юрак уриш фаолиятини қайта тиклашга дарҳол киришиш лозим."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  582,
+    "image":  "data/images/q0582.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Yo\u0027naltirgichlar bilan belgilangan yo\u0027nalishlarning qaysi biridan harakatlanishga ruxsat etiladi?",
+                                    "options":  [
+                                                    "F1. «А» va «Б»",
+                                                    "F2. «Б» va «В»",
+                                                    "F3. «А» va «В»"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 3-boʻlimining qirq ikkinchi xatboshisiga asosan: 3.18.1 belgisi qatnov qismlarining qaysi kesishmasi oldiga o\u0027rnatilsa, shu kesishmaga tatbiq etiladi. Izoh: 3.18.1 belgisi qayrilib olishni taqiqlamaydi."
+                                },
+                         "ru":  {
+                                    "text":  "По какому пути, из числа обозначенных стрелками, разрешено движение?",
+                                    "options":  [
+                                                    "F1. «А» и «Б»",
+                                                    "F2. «Б» и «В»",
+                                                    "F3. «A» и «B»"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Запрешаюший знак 3.18.2 \"Поворот налево запрещен\". Действие знаков 3.18.1, 3.18.2 распространяется на пересечение проезжих частей, перед которыми установлен знак."
+                                },
+                         "uzk":  {
+                                     "text":  "Йўналтиргичлар билан белгиланган йўналишларнинг қайси биридан ҳаракатланишга рухсат этилади?",
+                                     "options":  [
+                                                     "F1. «А» ва «Б»",
+                                                     "F2. «Б» ва «В»",
+                                                     "F3. «A» ва «B»"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг қирқ иккинчи хатбошисига асосан: 3.18.1 белгиси қатнов қисмларининг қайси кесишмаси олдига ўрнатилса, шу кесишмага татбиқ этилади. Изоҳ: 3.18.1 белгиси қайрилиб олишни тақиқламайди."
+                                 }
+                     }
+}

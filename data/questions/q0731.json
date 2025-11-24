@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  731,
+    "image":  "data/images/q0731.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Barcha yo\u0027nalishlarda",
+                                                    "F2. Faqat to\u0027g\u0027riga",
+                                                    "F3. To\u0027g\u0027riga va o\u0027ngga"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 4.1.1. «Harakatlanish to\u0027g\u0027riga», 7.4.1 belgi bilan o\u0027rnatilgan yoʻl belgisining ta\u0027siri yuk tashuvchi, shu jumladan, tirkamali, toʻla vazni 3,5 tonnadan ortiq bo\u0027lgan transport vositalariga."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Во всех направлениях",
+                                                    "F2. Только прямо",
+                                                    "F3. Прямо и направо"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: 4.1.1. «Движение прямо», Дорожный знак 7.4.1 распространяет действие знака на грузовые автомобили, в том числе и с прицепом, с разрешенной максимальной массой более 3,5 т."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Барча йўналишларда",
+                                                     "F2. Фақат тўғрига",
+                                                     "F3. Тўғрига ва ўнгга"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 4.1.1. «Харакатланиш тўғрига», 7.4.1 белги билан ўрнатилган йўл белгисининг таъсири юк ташувчи, шу жумладан, тиркамали, тўла вазни 3,5 тоннадан ортиқ бўлган транспорт воситаларига."
+                                 }
+                     }
+}

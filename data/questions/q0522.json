@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  522,
+    "image":  "data/images/q0522.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Faqat avtomobil haydovchisiga",
+                                                    "F2. Faqat avtomobil va mototsikl haydovchilariga",
+                                                    "F3. Barcha transport vositalarining haydovchilariga",
+                                                    "F4. Faqat avtomobil va avtobus haydovchilariga"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 4-bo\u0027limining oʻn to\u0027rtinchi xatboshisiga asosan: 4.4. «Engil avtomobillar harakati». yengil avtomobillar, avtobus, mototsikllar, belgilangan yo\u0027nalishli transport vositalari va ruxsat etilgan to\u0027la vazni 3,5 tonnadan oshmaydigan yuk avtomobillari harakatlanishiga ruxsat etilishini bildiradi. Belgining ta\u0027sir oraligʻida yashovchi va ishlovchi fuqarolarga tegishli, ularga va korxonalarga xizmat ko\u0027rsatuvchi transport vositalariga bu belgi tatbiq etilmaydi. Bunday hollarda transport vositalari belgilangan joyga eng yaqin chorrahadan kirib yoki chiqib ketishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Только водителю автомобиля",
+                                                    "F2. Только водителям автомобиля и мотоцикла",
+                                                    "F3. Водителям всех транспортных средств",
+                                                    "F4. Только водителям автомобиля и автобуса"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Предписывающий знак 4.4 \"Движение легковых автомобилей\". Разрешается движение легковых автомобилей, автобусов, мотоциклов и грузовых автомобилей, разрешенная максимальная масса которых не превышает 3,5 т. В данном случае легковому автомобилю, мотоциклу и автобусу разрешено движение при знаке 4.4."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Фақат автомобиль ҳайдовчисига",
+                                                     "F2. Фақат автомобиль ва мотоцикл ҳайдовчиларига",
+                                                     "F3. Барча транспорт воситаларининг ҳайдовчиларига",
+                                                     "F4. Фақат автомобиль ва автобус ҳайдовчиларига"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 4-бўлимининг ўн тўртинчи хатбошисига асосан: 4.4. «Енгил автомобиллар харакати». Енгил автомобиллар, автобус, мотоцикллар, белгиланган йўналишли транспорт воситалари ва рухсат этилган тўла вазни 3,5 тоннадан ошмайдиган юк автомобиллари ҳаракатланишига рухсат этилишини билдиради. Белгининг таъсир оралиғида яшовчи ва ишловчи фуқароларга тегишли, уларга ва корхоналарга хизмат кўрсатувчи транспорт воситаларига бу белги татбиқ этилмайди. Бундай ҳолларда транспорт воситалари белгиланган жойга энг яқин чорраҳадан кириб ёки чиқиб кетишлари керак."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  1101,
+    "image":  "data/images/q1101.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027k rangli yalt-yalt etuvchi mayoqchalari va maxsus tovushli ishorasi yoqilgan maxsus transport vositasi chorrahani nechanchi bo\u0027lib kesib o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Oxirgi",
+                                                    "F2. Birinchi",
+                                                    "F3. Ikkinchi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 6-bobi 26-bandiga asosan:Haydovchilar tezkor va maxsus xizmatlarning ko\u0027k yoki qizil yoxud ko\u0027k va qizil rangli yalt-yalt etuvchi mayoqchalar va maxsus tovushli ishorasi yoqilgan holda yaqinlashayotgan transport vositalariga, shuningdek ularning kuzatuvidagi, yaqinni yorituvchi fara chiroqlari yoqilgan transport vositasi (transport vositalari)ga yo\u0027l berishlari shart.\nMazkur turdagi transport vositalarini quvib o\u0027tish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Последним",
+                                                    "F2. Первым",
+                                                    "F3. Вторым"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункту 26 главы 6 ПДД, При приближении транспортных средств оперативных и специальных служб с включенными проблесковым маячком синего или красного или синего и красного цветов и специальным звуковым сигналом, а также сопровождаемого ими транспортного средства (транспортных средств) с включенным ближним светом фар водители обязаны уступить им дорогу для обеспечения их беспрепятственного проезда. Запрещается обгонять данные транспортные средства."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўк рангли ялт-ялт этувчи маёқчалари ва махсус товушли ишораси ёқилган махсус транспорт воситаси чорраҳани нечанчи бўлиб кесиб ўтади?",
+                                     "options":  [
+                                                     "F1. Охирги",
+                                                     "F2. Биринчи",
+                                                     "F3. Иккинчи"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 6-боби 26-бандига асосан: Ҳайдовчилар тезкор ва махсус хизматларнинг кўк ёки қизил ёхуд кўк ва қизил рангли ялт-ялт этувчи маёқчалар ва махсус товушли ишораси ёқилган ҳолда яқинлашаётган транспорт воситаларига, шунингдек уларнинг кузатувидаги, яқинни ёритувчи фара чироқлари ёқилган транспорт воситаси (транспорт воситалари)га йўл беришлари шарт.\nМазкур турдаги транспорт воситаларини қувиб ўтиш тақиқланади."
+                                 }
+                     }
+}

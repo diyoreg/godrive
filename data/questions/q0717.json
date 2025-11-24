@@ -1,0 +1,36 @@
+{
+    "questionId": 717,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yo'lning sirpanchiq qismida rul chambaragini keskin burganda hosil bo'ladigan sirpanishning oldini olish uchun haydovchi qanday ehtiyot choralarini ko'rishi kerak?",
+            "options": [
+                "F1. Rul chambaragini zudlik bilan sirpanayotgan tomonga burish va tezda avtomobilni harakat yo'nalishini to'g'irlab olish",
+                "F2. Ilashmani uzish",
+                "F3. Tormoz tepkisini bosish"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Rul chambaragini zudlik bilan sirpanayotgan tomonga burish va tezda avtomobilni harakat yo'nalishini to'g'irlab olish."
+        },
+        "ru": {
+            "text": "Что следует предпринять водителю для предотвращения опасных последствий заноса автомобиля при резком повороте рулевого колеса на скользкой дороге?",
+            "options": [
+                "F1. Быстро, но плавно повернуть рулевое колесо в сторону заноса, затем опережающим воздействием на рулевое колесо выровнять траекторию движения автомобиля",
+                "F2. Выключить сцепление",
+                "F3. Нажать на педаль тормоза"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Быстро, но плавно повернуть рулевое колесо в сторону заноса, затем опережающим воздействием на рулевое колесо выровнять траекторию движения автомобиля."
+        },
+        "uzk": {
+            "text": "Йўлнинг сирпанчиқ қисмида рул чамбарагини кескин бурганда ҳосил бўладиган сирпанишнинг олдини олиш учун ҳайдовчи қандай эҳтиёт чораларини кўриши керак?",
+            "options": [
+                "F1. Рул чамбарагини зудлик билан сирпанаётган томонга буриш ва тезда автомобилни ҳаракат йўналишини тўғирлаб олиш",
+                "F2. Илашмани узиш",
+                "F3. Тормоз тепкисини босиш"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Рул чамбарагини зудлик билан сирпанаётган томонга буриш ва тезда автомобилни ҳаракат йўналишини тўғирлаб олиш."
+        }
+    }
+}

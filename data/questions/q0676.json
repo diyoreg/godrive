@@ -1,0 +1,42 @@
+{
+    "questionId": 676,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yengil avtomobilning oldingi o'rindig'ida bolalarni ushlab turuvchi maxsus qurilma o'rnatilmagan bo'lsa, ularni tashish qaysi yoshdan ruxsat etiladi?",
+            "options": [
+                "F1. 5 yosh",
+                "F2. 6 yosh",
+                "F3. 8 yosh",
+                "F4. 10 yosh",
+                "F5. 12 yosh"
+            ],
+            "correctAnswer": 5,
+            "explanation": "YHQ 26-bobi 159-bandining beshinchi xatboshisiga asosan, odamlarni tashish quyidagi hollarda taqiqlanadi: 12 yoshga to'lmagan bolalarni mototsiklning orqa o'rindig'ida, shuningdek bolalarni ushlab turuvchi maxsus qurilma o'rnatilmagan transport vositasining old o'rindig'ida."
+        },
+        "ru": {
+            "text": "С какого возраста разрешается перевозить детей на переднем сиденьи легкового автомобиля, не оборудованного специальным детским сиденьем?",
+            "options": [
+                "F1. 5 лет",
+                "F2. 6 лет",
+                "F3. 8 лет",
+                "F4. 10 лет",
+                "F5. 12 лет"
+            ],
+            "correctAnswer": 5,
+            "explanation": "Aбзацу 5 пункта 159 главы 26 ПДД, гласит: Запрещается перевозить людей в следующих случаях: - запрещается перевозить детей до 12 лет на заднем сиденье мотоцикла, а также на переднем сиденье транспортного средства при отсутствии специального детского удерживающего устройства;"
+        },
+        "uzk": {
+            "text": "Енгил автомобилнинг олдинги ўриндиғида болаларни ушлаб турувчи махсус қурилма ўрнатилмаган бўлса, уларни ташиш қайси ёшдан рухсат этилади?",
+            "options": [
+                "F1. 5 ёш",
+                "F2. 6 ёш",
+                "F3. 8 ёш",
+                "F4. 10 ёш",
+                "F5. 12 ёш"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ЙҲҚ 26-боби 159-бандининг бешинчи хатбошисига асосан, одамларни ташиш қуйидаги ҳолларда тақиқланади: 12 ёшга тўлмаган болаларни мотоциклнинг орқа ўриндиғида, шунингдек болаларни ушлаб турувчи махсус қурилма ўрнатилмаган транспорт воситасининг олд ўриндиғида."
+        }
+    }
+}

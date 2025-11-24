@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  948,
+    "image":  "data/images/q0948.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Chap tomondagi yondosh hududdan foydalanib qayrilib olishning ko\u0027rsatilgan qaysi usuli harakat xavfsizligini ta\u0027minlaydi?",
+                                    "options":  [
+                                                    "F1. Faqat o\u0027ng tomondagi rasmda",
+                                                    "F2. Ikkisida ham",
+                                                    "F3. Faqat chap tomondagi rasmda"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Eng maqbul va xavfsiz qayrilib olish o\u0027ng tomondagi suratda ko\u0027rsatilgan. Bunday vaziyatda koʻrish maydoni keng va kam harakat talab etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Только на правом рисунке",
+                                                    "F2. На обоих рисунках",
+                                                    "F3. Только на левом рисунке"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Наиболее рациональный и безопасный способ разворота в показанных ситуациях - на правом рисунке. Он позволяет лучше просматривать проезжую часть и требует меньше времени для разворота."
+                                },
+                         "uzk":  {
+                                     "text":  "Чап томондаги ёндош ҳудуддан фойдаланиб қайрилиб олишнинг кўрсатилган қайси усули ҳаракат хавфсизлигини таъминлайди?",
+                                     "options":  [
+                                                     "F1. Фақат ўнг томондаги расмда",
+                                                     "F2. Иккисида ҳам",
+                                                     "F3. Фақат чап томондаги расмда"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "Энг макбул ва хавфсиз кайрилиб олиш ўнг томондаги суратда кўрсатилган. Бундай вазиятда кўриш майдони кенг ва кам ҳаракат талаб этилади."
+                                 }
+                     }
+}

@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  227,
+    "image":  "data/images/q0227.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Haydovchi quyidagi holatda o\u0027ng tomondan o\u0027zib o\u0027tishi mumkinmi?",
+                                    "options":  [
+                                                    "F1. Yo\u0027q"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 12-bobi 83-bandiga asosan: Bir yo\u0027nalishda harakatlanayotgan relssiz transport vositalarini har ikki tomonidan o\u0027zib ketishga ruxsat beriladi. Biroq chapga burilish ishorasini berib, burilishga kirishgan transport vositasini o\u0027zib ketish o\u0027ng tomondan amalga oshiriladi."
+                                },
+                         "ru":  {
+                                    "text":  "Имеет ли право водитель совершить опережение с правой стороны в данной ситуации?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 83 главы 12 ПДД гласит: Опережение безрельсовое транспортное средство разрешается с обеих стороны. Однако опережение транспортного средства, водитель которого подал сигнал поворота налево и приступил к выполнению маневра, производится с правой стороны. В данном случае водитель первого автомобиля подал сигнал левого поворота и приступил в выполнению маневра, соответственно, опережение с правой стороны разрешен."
+                                },
+                         "uzk":  {
+                                     "text":  "Ҳайдовчи қуйидаги ҳолатда ўнг томондан ўзиб ўтиши мумкинми?",
+                                     "options":  [
+                                                     "F1. Йўқ."
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 12-боби 83-бандига асосан: Бир йўналишда ҳаракатланаётган релссиз транспорт воситаларини ҳар икки томонидан ўзиб кетишга рухсат берилади. Бироқ чапга бурилиш ишорасини бериб, бурилишга киришган транспорт воситасини ўзиб кетиш ўнг томондан амалга оширилади."
+                                 }
+                     }
+}

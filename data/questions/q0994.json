@@ -1,0 +1,36 @@
+{
+    "questionId": 994,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qatnov qismi yo'l chiziqlari bilan ajratilgan bo'lsa haydovchilar qanday holatlarda qat'iy tasmalar bo'yicha harakatlanishlari kerak?",
+            "options": [
+                "F1. Faqat harakatlanish tasmalari uzluksiz sidirg'a chiziqlar bilan ajratilgan bo'lsa",
+                "F2. Faqat harakatlanish serqatnov bo'lganda",
+                "F3. Barcha holatlarda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 10-bobi 70-bandi: Agar qatnov qismi yoʻl chiziqlari bilan tasmalarga ajratilgan bo'lsa, transport vositalarining harakatlanishi qat'iy ravishda belgilangan tasmalarda amalga oshirilishi kerak. Faqat qayta tizilishda uzuq-uzuq chiziqlarni bosib o'tishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "В каких случаях на дорогах, проезжая часть которых разделена линиями разметки, водители обязаны двигаться строго по полосам?",
+            "options": [
+                "F1. Только если полосы движения обозначены сплошными линиями разметки",
+                "F2. Только при интенсивном движении",
+                "F3. Во всех случаях"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 70 главы 10 ПДД, гласит: Если проезжая часть разделена на полосы линиями разметки, движение транспортных средств должно осуществляться строго по полосам. Наезжать на прерывистые линии разметки разрешается только лишь при перестроении."
+        },
+        "uzk": {
+            "text": "Қатнов қисми йўл чизиқлари билан ажратилган бўлса ҳайдовчилар қандай ҳолатларда қатъий тасмалар бўйича ҳаракатланишлари керак?",
+            "options": [
+                "F1. Фақат ҳаракатланиш тасмалари узликсиз сидирға чизиқлар билан ажратилган бўлса",
+                "F2. Фақат ҳаракатланиш серқатнов бўлганда",
+                "F3. Барча ҳолатларда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 10-боби 70-банди: Агар қатнов қисми йўл чизиқлари билан тасмаларга ажратилган бўлса, транспорт воситаларининг ҳаракатланиши қатъий равишда белгиланган тасмаларда амалга оширилиши керак. Фақат қайта тизилишда узуқ-узуқ чизиқларни босиб ўтишга рухсат этилади."
+        }
+    }
+}

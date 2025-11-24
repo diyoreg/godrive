@@ -1,0 +1,36 @@
+{
+    "questionId": 846,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Chap qo'lni yonga cho'zish yoki o'ng qo'lni tirsakdan to'g'ri burchak ostida bukib, yuqoriga ko'tarish ishorasi nimani bildiradi?",
+            "options": [
+                "F1. Chapga burilishni yoki qayrilib olishni",
+                "F2. O'ngga burilishni yoki qayrilib olishni",
+                "F3. To'xtashni"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 8-bobi 45-bandi: Haydovchi harakatlanishni boshlashdan, qayta tizilishdan, burilish (qayrilib olish)dan va to'xtashdan oldin tegishli yo'nalishni ko'rsatuvchi yorug'lik ishoralarini yoqishi, ular bo'lmaganda yoki ishlamaganda qo'l bilan ishoralar berishi shart.\nChapga burilish (qayrilib olish)ni bildiruvchi ishoraga chap qo'lni yonga uzatish yoki o'ng qo'lni tirsakdan to'g'ri burchak ostida bukib, yuqoriga ko'tarish mos keladi.\no'ngga burilish (qayrilib olish)ni bildiruvchi ishoraga o'ng qo'lni yonga uzatish yoki chap qo'lni tirsakdan to'g'ri burchak ostida bukib, yuqoriga ko'tarish mos keladi.\nTo'xtash ishorasi chap yoki o'ng qo'lni yuqoriga ko'tarib beriladi."
+        },
+        "ru": {
+            "text": "О чем предупреждает сигнал вытянутая вытянутая в сторону левая рука либо правая, вытянутая в сторону и согнутая в локте под прямым углом вверх?",
+            "options": [
+                "F1. Повернуть налево или развернуться",
+                "F2. Повернуть направо или развернуться",
+                "F3. Остановиться"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 45 главы 8 ПДД, гласит: Водитель перед началом движения, перестроением, поворотом (разворотом) и остановкой обязан подавать сигналы световыми указателями поворотов соответствующего направления, а если они отсутствуют или неисправны - рукой.\nСигналу левого поворота (разворота) соответствует вытянутая в сторону левая рука либо правая, вытянутая в сторону и согнутая в локте под прямым углом вверх.\nСигналу правого поворота (разворота) соответствует вытянутая в сторону правая рука либо левая, вытянутая в сторону и согнутая в локте под прямым углом вверх. Сигнал остановки подается поднятой вверх левой или правой рукой."
+        },
+        "uzk": {
+            "text": "Чап қўлни ёнга чўзиш ёки ўнг қўлни тирсакдан тўғри бурчак остида букиб, юқорига кўтариш ишораси нимани билдиради?",
+            "options": [
+                "F1. Чапга бурилишни ёки қайрилиб олишни",
+                "F2. Ўнгга бурилишни ёки қайрилиб олишни",
+                "F3. Тўхташни"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 8-боби 45-банди: Ҳайдовчи ҳаракатланишни бошлашдан, қайта тизилишдан, бурилиш (қайрилиб олиш)дан ва тўхташдан олдин тегишли йўналишни кўрсатувчи ёруғлик ишораларини ёқиши, улар бўлмаганда ёки ишламаганда қўл билан ишоралар бериши шарт.\nЧапга бурилиш (қайрилиб олиш)ни билдирувчи ишорага чап қўлни ёнга узатиш ёки ўнг қўлни тирсакдан тўғри бурчак остида букиб, юқорига кўтариш мос келади.\nУнгга бурилиш (қайрилиб олиш) ни билдирувчи ишорага ўнг қўлни ёнга узатиш ёки чап қўлни тирсакдан тўғри бурчак остида букиб, юқорига кўтариш мос келади.\nТўхташ ишораси чап ёки ўнг қўлни юқорига кўтариб берилади."
+        }
+    }
+}

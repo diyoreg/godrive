@@ -1,0 +1,39 @@
+{
+    "questionId": 344,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yo'l o'rtasidagi to'xtash joyida to'xtagan shu yo'nalishdagi tramvayga yaqinlashib qolgan haydovchi nima qilishi kerak?",
+            "options": [
+                "F1. To'xtashi, tramvay eshiklari yopilgandan keyin harakatni davom ettirishi",
+                "F2. Yo'l o'rtasidagi to'xtash joyida turgan shu yo'nalishdagi tramvayga kelayotgan yoki undan uzoqlashayotgan piyodalarga yo'l berishi",
+                "F3. To'xtashi, so'ng tramvay harakatlanganidan keyin harakatni davom ettirishi",
+                "F4. Tramvay to'xtash joyidan nihoyatda ehtiyotkorlik bilan o'tishi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 17-bobi 114-bandiga asosan: Agar yo'lovchilarni tushirish yoki chiqarish qatnov qismida yoki unda joylashgan maydonchada amalga oshirilayotgan bo'lsa, haydovchi bekatda to'xtagan yo'nalishli transport vositasi eshiklari tomon borayotgan yoki undan kelayotgan piyoda(lar)ga yo'l berishi kerak."
+        },
+        "ru": {
+            "text": "Что обязан сделать водитель, приближаясь к трамваю попутного направления, остановившемуся на остановке посередине дороги?",
+            "options": [
+                "F1. Остановиться, затем продолжить движение после закрытия дверей",
+                "F2. Уступить дорогу пешеходам, идущим к стоящему на остановке посередине дороги трамваю попутного направления или от него",
+                "F3. Остановиться;,затем продолжить движение после того, когда трамвай начнет движение",
+                "F4. Проехать трамвайную остановку с особой осторожностью"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункту 114 главы 17 ПДД, гласит: Водитель должен уступить дорогу пешеходам, идущим к дверям стоящего на остановке маршрутного транспортного средства или от него, если посадка и высадка производится с проезжей части или с посадочной площадки, расположенной на ней."
+        },
+        "uzk": {
+            "text": "Йўл ўртасидаги тўхташ жойида тўхтаган шу йўналишдаги трамвайга яқинлашиб қолган ҳайдовчи нима қилиши керак?",
+            "options": [
+                "F1. Тўхташи, трамвай эшиклари ёпилгандан кейин ҳаракатни давом эттириши",
+                "F2. Йўл ўртасидаги тўхташ жойида турган шу йўналишдаги трамвайга келаëтган ёки ундан узоклашаëтган пиёдаларга йўл бериши",
+                "F3. Тўхташи, сўнг трамвай ҳаракатланганидан кейин ҳаракатни давом эттириши",
+                "F4. Трамвай тўхташ жойидан ниҳоятда эҳтиёткорлик билан ўтиши"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 17-боби 114-бандига асосан: Агар йўловчиларни тушириш ёки чиқариш қатнов қисмида ёки унда жойлашган майдончада амалга оширилаётган бўлса, ҳайдовчи бекатда тўхтаган йўналишли транспорт воситаси эшиклари томон бораётган ёки ундан келаётган пиёда (лар)га йўл бериши керак."
+        }
+    }
+}

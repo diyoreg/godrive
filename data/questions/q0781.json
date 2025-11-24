@@ -1,0 +1,33 @@
+{
+    "questionId": 781,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yonlama oraliq masofani tanlashda tezlikning dahli bormi?",
+            "options": [
+                "F1. Yonlama oraliq masofani tanlashni tezlikka aloqasi yo'q",
+                "F2. Tezlik oshganda yonlama oraliq masofani oshirish kerak"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 10-bobi 73-bandi: Haydovchi o'zidan oldinda harakatlanayotgan transport vositasi keskin tormoz berganida to'qnashib ketmaslik kafolatini beradigan darajadagi oraliq masofani, shuningdek yo'l harakati xavfsizligini ta'minlaydigan yonlama oraliq masofani saqlashi kerak."
+        },
+        "ru": {
+            "text": "Зависит ли выбор бокового интервала от скорости движения?",
+            "options": [
+                "F1. Выбор бокового интервала от скорости движения не зависит",
+                "F2. При увеличении скорости движения боковой интервал необходимо увеличить"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 73 главы 10 ПДД, гласит: Водитель должен соблюдать такую дистанцию до движущегося впереди транспортного средства, которая гарантировала бы избежание столкновения в случае его экстренной остановки, а также боковой интервал, обеспечивающий безопасность дорожного движения."
+        },
+        "uzk": {
+            "text": "Ёнлама оралиқ масофани танлашда тезликнинг даҳли борми?",
+            "options": [
+                "F1. Ёнлама оралиқ масофани танлашни тезликка алоқаси йўқ",
+                "F2. Тезлик ошганда ёнлама оралиқ масофани ошириш керак"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 10-боби 73-банди: Ҳайдовчи ўзидан олдинда ҳаракатланаётган транспорт воситаси кескин тормоз берганида тўқнашиб кетмаслик кафолатини берадиган даражадаги оралиқ масофани, шунингдек йўл ҳаракати хавфсизлигини таъминлайдиган ёнлама оралиқ масофани сақлаши керак."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  141,
+    "image":  "data/images/q0141.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Chorraha oldida bu belgi o\u0027rnatilgan bo\u0027lsa, haydovchi qanday yo\u0027l tutishi kerak?",
+                                    "options":  [
+                                                    "F1. Kesishadigan yo\u0027lda transport vositalari bo\u0027lmasa chorrahadan to\u0027xtamay o\u0027tishi",
+                                                    "F2. Chorrahadan o\u0027tishda, ayniqsa, xushyor bo\u0027lishi",
+                                                    "F3. Kesishadigan yo\u0027l bo\u0027ylab harakatlanayotgan transport vositalariga yo\u0027l berish uchun to\u0027xtash chizig\u0027ida to\u0027xtab, u yo\u0027q bo\u0027lsa kesib o\u0027tiladigan qatnov qismi chetida to\u0027xtashi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 2-bo\u0027lim sakkizinchi va toʻqqizinchi xatboshlariga asosan: 2.5. «To\u0027xtamasdan harakatlanish taqiqlangan». To\u0027xtash chizigʻi oldida, agar u boʻlmasa, kesib o\u0027tiladigan qatnov qismining chetida to\u0027xtamasdan harakatlanish taqiqlanadi. Haydovchi kesib o\u0027tilayotgan yo\u0027ldan, asosiy yo\u0027ldan harakatlanayotgan transport vositalariga yo\u0027l berishi kerak. Bu belgi temir yo\u0027l kesishmasi yoki karantin maskanidan oldin o\u0027rnatilishi mumkin. Bunday hollarda haydovchi to\u0027xtash chizig\u0027i oldida, u bo\u0027lmasa, belgi oldida to\u0027xtashi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Если данный знак установлен у перекрестка, то как должен поступить водитель?",
+                                    "options":  [
+                                                    "F1. Если на перекрестке на месте пересечения нет транспортных средств, должен проехать без остановки",
+                                                    "F2. Должен быть осторожным при проезде через перекресток",
+                                                    "F3. Уступить дорогу транспортным средствам, двигающимся по пересекаемой дороге, обязательно остановившись у стоп линии, если ее нет, перед краем пересекаемой проезжей части дороги"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Знак приоритета 2.5 \"Движение без остановки запрещено\". Запрещается движение без остановки перед стоп-линией, а если ее нет - перед краем пересекаемой проезжей части. Водитель должен уступить дорогу транспортным средствам, движущимся по пересекаемой, а при наличии дополнительного знака 7.13 - по главной дороге. Этот знак может быть установлен перед железнодорожным переездом или карантинным постом. В этих случаях водитель должен остановиться перед стоп-линией, а при ее отсутствии - перед знаком. Требуется обязательная остановка перед стоп-линией, а если ее нет - перед краем пересекаемой дороги."
+                                },
+                         "uzk":  {
+                                     "text":  "Чорраҳа олдида бу белги ўрнатилган бўлса, ҳайдовчи қандай йўл тутиши керак?",
+                                     "options":  [
+                                                     "F1. Кесишадиган йўлда транспорт воситалари бўлмаса чорраҳадан тўхтамай ўтиши",
+                                                     "F2. Чорраҳадан ўтишда, айниқса, хушёр бўлиши",
+                                                     "F3. Кесишадиган йўл бўйлаб ҳаракатланаëтган транспорт воситаларига йўл бериш учун тўхташ чизиғида тўхтаб, у йўқ бўлса кесиб ўтиладиган қатнов қисми четида тўхташи"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 2-бўлим саккизинчи ва тўққизинчи хатбошларига асосан: 2.5. «Тухтамасдан ҳаракатланиш тақиқланган. Тўхташ чизиғи олдида, агар у бўлмаса, кесиб ўтиладиган қатнов қисмининг четида тўхтамасдан ҳаракатланиш тақиқланади. Ҳайдовчи кесиб ўтилаётган йўлдан, асосий йўлдан ҳаракатланаётган транспорт воситаларига йўл бериши керак. Бу белги темир йўл кесишмаси ёки карантин масканидан олдин ўрнатилиши мумкин. Бундай ҳолларда ҳайдовчи тўхташ чизиғи олдида, у бўлмаса, белги олдида тўхташи керак."
+                                 }
+                     }
+}

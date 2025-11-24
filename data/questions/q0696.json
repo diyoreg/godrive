@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  696,
+    "image":  "data/images/q0696.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Mazkur tik chiziq nimani bildiradi?",
+                                    "options":  [
+                                                    "F1. Yo\u0027lning kichik radiusli burilishlardagi yo\u0027l chetiga o\u0027rnatilgan to\u0027siqlarning yon yuzalarini bildiradi",
+                                                    "F2. Boshqa joylardagi to\u0027siqlarning yon yuzalarini bildiradi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 2-ilovasi 2-bo\u0027limining yettinchi xatboshisiga asosan: 2.6 — boshqa joylardagi to\u0027siqlarning yon yuzalarini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Что обозначает данная вертикальная разметка?",
+                                    "options":  [
+                                                    "F1. Боковые поверхности ограждения дорог на закруглениях малого радиуса",
+                                                    "F2. Обозначает боковые поверхности ограждений дорог на других участках"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Вертикальная разметка 2.6 - обозначает боковые поверхности ограждения дорог на других участках."
+                                },
+                         "uzk":  {
+                                     "text":  "Мазкур тик чизиқ нимани билдиради?",
+                                     "options":  [
+                                                     "F1. Йўлнинг кичик радиусли бурилишлардаги йўл четига ўрнатилган тўсиқларнинг ён юзаларини билдиради",
+                                                     "F2. Бошқа жойлардаги тўсиқларнинг ён юзаларини билдиради"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 2-иловаси 2-бўлимининг еттинчи хатбошисига асосан: 2.6 — бошқа жойлардаги тўсиқларнинг ён юзаларини билдиради."
+                                 }
+                     }
+}

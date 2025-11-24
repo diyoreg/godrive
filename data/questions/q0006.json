@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  6,
+    "image":  "data/images/q0006.jpg",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi transport vositasining haydovchisi chorrahadan birinchi bo\u0027lib o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Avtomobil va avtobus haydovchisi",
+                                                    "F2. Tramvay haydovchisi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "IzohYHQ 15-bobi 100-bandiga asosan: Svetoforning taqiqlovchi qizil yoki sariq ishorasi bilan bir vaqtda yongan qo\u0027shimcha tarmoqning ko\u0027rsatkichli yashil ishorasi yo\u0027nalishida harakatlanayotgan haydovchi boshqa yo\u0027nalishlardan harakatlanayotgan transport vositalariga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Водители каких транспортных средств проедут перекресток первыми?",
+                                    "options":  [
+                                                    "F1. Водители автомобиля и автобуса",
+                                                    "F2. Водитель трамвая"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 100 главы 15 ПДД, гласит: При движении в направлении зеленой стрелки, включённой в дополнительной секции одновременно с жёлтым или красным сигналом светофора, водитель транспортного средства обязан уступить дорогу транспортным средствам, движущимся с других направлений."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси транспорт воситасининг ҳайдовчиси чорраҳадан биринчи бўлиб ўтади?",
+                                     "options":  [
+                                                     "F1. Автомобиль ва автобус ҳайдовчиси",
+                                                     "F2. Трамвай ҳайдовчиси"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ИзоҳЙҲҚ 15-боби 100-бандига асосан: Светофорнинг тақиқловчи қизил ёки сариқ ишораси билан бир вақтда ёнган қўшимча тармоқнинг кўрсаткичли яшил ишораси йўналишида ҳаракатланаётган ҳайдовчи бошқа йўналишлардан ҳаракатланаётган транспорт воситаларига йўл бериши керак."
+                                 }
+                     }
+}

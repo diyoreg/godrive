@@ -1,0 +1,39 @@
+{
+    "questionId": 157,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Hamma tasmalar band bo'lgan serqatnov harakatlanish vaqtida qayrilib olishga ruxsat etiladimi?",
+            "options": [
+                "F1. Istalgan paytda ruxsat etiladi",
+                "F2. Faqat harakatlanish uchun tasmalari uchtadan kam bo'lmagan yo'llarda ruxsat etiladi",
+                "F3. Taqiqlanadi",
+                "F4. Faqat chorrahalarda ruxsat etiladi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 10-bobi 67-bandining uchinchi xatboshisiga asosan: Bir yo'nalishdagi uch va undan ortiq tasmali har qanday yo'lda chetki chap qatorni harakat serqatnovligi sababli boshqa bo'laklar band bo'lgan hollarda, shuningdek, quvib o'tish, chapga burilish yoki qayrilib olishga, yuk avtomobillariga faqat chapga burilish yoki qayrilib olish uchun chetki chap qatorni egallashga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "При интенсивном движении, когда все полосы заняты, разрешается ли выполнять разворот?",
+            "options": [
+                "F1. Разрешается в любом случае",
+                "F2. Разрешается только на дорогах, где имеется не менее трех полос для движения",
+                "F3. Запрещается",
+                "F4. Разрешается только на перекрестках"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Aбзацу 3 пункта 67 главы 10 ПДД, На любых дорогах, имеющих для движения в данном направлении три полосы и более, занимать крайний левый ряд разрешается только при интенсивном движении, когда заняты другие полосы, а также для обгона, поворота налево или разворота, а грузовым автомобилям — только для поворота налево или разворота."
+        },
+        "uzk": {
+            "text": "Ҳамма тасмалар банд бўлган серқатнов ҳаракатланиш вақтида қайрилиб олишга рухсат этиладими?",
+            "options": [
+                "F1. Исталган пайтда рухсат этилади",
+                "F2. Фақат ҳаракатланиш учун тасмалари учтадан кам бўлмаган йўлларда рухсат этилади",
+                "F3. Тақиқланади",
+                "F4. Фақат чорраҳаларда рухсат этилади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 10-боби 67-бандининг учинчи хатбошисига асосан: Бир йўналишдаги уч ва ундан ортиқ тасмали ҳар қандай йўлда четки чап қаторни ҳаракат серқатновлиги сабабли бошқа бўлаклар банд бўлган ҳолларда, шунингдек, қувиб ўтиш, чапга бурилиш ёки қайрилиб олишга, юк автомобилларига фақат чапга бурилиш ёки қайрилиб олиш учун четки чап қаторни егаллашга рухсат етилади."
+        }
+    }
+}

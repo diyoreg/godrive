@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  787,
+    "image":  "data/images/q0787.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Sizga ko\u0027satilgan joyda yengil avtomobilda to\u0027xtashga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Yo\u0027q"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 13-bobi 91-bandi: Quyidagi joy va holatlarda to\u0027xtash taqiqlanadi: toʻxtagan transport vositasi bilan sidirg\u0027a chiziq (qatnov qismining chetini belgilovchi chiziqdan tashqari), ajratuvchi boʻlak yoki qatnov qismining qarama-qarshi cheti orasidagi masofa 3 metrdan kam bo\u0027lgan joylarda."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешено ли Вам остановиться на легковом автомобиле в указанном месте?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 91 главы 13 ПДД, гласит: Остановка запрещается в следующих местах: в местах, где расстояние между сплошной линией дорожной разметки (кроме обозначающей край проезжей части), разделительной полосой или противоположным краем проезжей части и остановившимся транспортным средством менее 3 м."
+                                },
+                         "uzk":  {
+                                     "text":  "Сизга кўсатилган жойда енгил автомобилда тўхташга рухсат этиладими?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 13-боби 91-банди: Қуйидаги жой ва ҳолатларда тўхташ тақиқланади: тўхтаган транспорт воситаси билан сидирға чизиқ (қатнов қисмининг четини белгиловчи чизиқдан ташқари), ажратувчи бўлак ёки қатнов қисмининг қарама-қарши чети орасидаги масофа 3 метрдан кам бўлган жойларда."
+                                 }
+                     }
+}

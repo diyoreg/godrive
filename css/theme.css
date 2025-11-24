@@ -1,0 +1,310 @@
+/* ========================================
+   GoDrive Design System - Theme Variables
+   ======================================== */
+
+:root {
+    /* === Цвета === */
+    
+    /* Основные цвета фона */
+    --bg-gradient-start: #1e293b;
+    --bg-gradient-end: #0f172a;
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    
+    /* Цвета карточек */
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --card-bg-hover: rgba(255, 255, 255, 0.08);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --card-border-hover: rgba(96, 165, 250, 0.5);
+    
+    /* Акцентные цвета */
+    --accent-primary: #60a5fa;
+    --accent-primary-hover: #3b82f6;
+    --accent-secondary: rgba(96, 165, 250, 0.15);
+    --accent-disabled: rgba(96, 165, 250, 0.3);
+    
+    /* Текстовые цвета */
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --text-accent: #60a5fa;
+    --text-muted: rgba(255, 255, 255, 0.5);
+    
+    /* === Размеры и отступы === */
+    
+    /* Радиусы скругления */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    
+    /* Отступы */
+    --spacing-xs: 8px;
+    --spacing-sm: 12px;
+    --spacing-md: 16px;
+    --spacing-lg: 20px;
+    --spacing-xl: 24px;
+    --spacing-2xl: 32px;
+    --spacing-3xl: 40px;
+    
+    /* Размеры карточек */
+    --card-padding: 24px;
+    --card-gap: 16px;
+    
+    /* === Типографика === */
+    
+    /* Семейство шрифтов */
+    --font-family: 'Montserrat', sans-serif;
+    
+    /* Размеры шрифтов */
+    --font-size-xs: 12px;
+    --font-size-sm: 13px;
+    --font-size-base: 14px;
+    --font-size-md: 15px;
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-2xl: 24px;
+    --font-size-3xl: 28px;
+    
+    /* Веса шрифтов */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    /* Высота строки */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.6;
+    
+    /* === Иконки === */
+    --icon-size-sm: 24px;
+    --icon-size-md: 28px;
+    --icon-size-lg: 32px;
+    --icon-bg-size-sm: 40px;
+    --icon-bg-size-md: 48px;
+    --icon-bg-size-lg: 56px;
+    
+    /* === Кнопки === */
+    --button-padding-sm: 8px 16px;
+    --button-padding-md: 10px 20px;
+    --button-padding-lg: 12px 24px;
+    --button-radius: 8px;
+    
+    /* === Тени === */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+    
+    /* === Переходы === */
+    --transition-fast: 0.15s ease;
+    --transition-base: 0.2s ease;
+    --transition-slow: 0.3s ease;
+    
+    /* === Сетки === */
+    --grid-gap-sm: 16px;
+    --grid-gap-md: 20px;
+    --grid-gap-lg: 24px;
+    
+    /* === Контейнеры === */
+    --container-max-width: 1600px;
+    --container-padding: 20px;
+}
+
+/* ========================================
+   Утилитные классы
+   ======================================== */
+
+/* Градиентный фон */
+.bg-gradient {
+    background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+}
+
+/* Карточка */
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-lg);
+    padding: var(--card-padding);
+    transition: all var(--transition-slow);
+}
+
+.card:hover {
+    background: var(--card-bg-hover);
+    border-color: var(--card-border-hover);
+    transform: translateY(-4px);
+}
+
+.card.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.card.disabled:hover {
+    transform: none;
+    background: var(--card-bg);
+}
+
+/* Кнопки */
+.btn-primary {
+    background: var(--accent-primary);
+    color: var(--text-primary);
+    border: none;
+    padding: var(--button-padding-md);
+    border-radius: var(--button-radius);
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-xs);
+}
+
+.btn-primary:hover {
+    background: var(--accent-primary-hover);
+}
+
+.btn-primary:disabled {
+    background: var(--accent-disabled);
+    cursor: not-allowed;
+}
+
+/* Иконки */
+.icon-container {
+    background: var(--accent-secondary);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container.sm {
+    width: var(--icon-bg-size-sm);
+    height: var(--icon-bg-size-sm);
+    font-size: var(--icon-size-sm);
+}
+
+.icon-container.md {
+    width: var(--icon-bg-size-md);
+    height: var(--icon-bg-size-md);
+    font-size: var(--icon-size-md);
+}
+
+.icon-container.lg {
+    width: var(--icon-bg-size-lg);
+    height: var(--icon-bg-size-lg);
+    font-size: var(--icon-size-lg);
+}
+
+/* Типографика */
+.text-primary {
+    color: var(--text-primary);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+.text-accent {
+    color: var(--text-accent);
+}
+
+.text-muted {
+    color: var(--text-muted);
+}
+
+/* Заголовки */
+.title-xl {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-accent);
+}
+
+.title-lg {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-accent);
+}
+
+.title-md {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-primary);
+}
+
+/* Контейнеры */
+.container {
+    max-width: var(--container-max-width);
+    width: 100%;
+    padding: var(--container-padding);
+    margin: 0 auto;
+}
+
+/* Сетки */
+.grid {
+    display: grid;
+    gap: var(--grid-gap-md);
+}
+
+.grid-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-1 {
+    grid-template-columns: 1fr;
+}
+
+/* Отступы */
+.gap-sm { gap: var(--spacing-sm); }
+.gap-md { gap: var(--spacing-md); }
+.gap-lg { gap: var(--spacing-lg); }
+.gap-xl { gap: var(--spacing-xl); }
+
+/* Flex утилиты */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* Переходы */
+.transition-fast {
+    transition: all var(--transition-fast);
+}
+
+.transition {
+    transition: all var(--transition-base);
+}
+
+.transition-slow {
+    transition: all var(--transition-slow);
+}

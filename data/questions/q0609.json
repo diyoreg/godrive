@@ -1,0 +1,36 @@
+{
+    "questionId": 609,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Haydovchi keskin tormozlashda yuzaga keladigan sirpanishning oldini olish uchun qanday choralar ko'rishi kerak?",
+            "options": [
+                "F1. Tormoz pedalini qattiq bosishga",
+                "F2. Ulagich pedalini bosishga",
+                "F3. Boshlangan tormoz berishni to'xtatishga"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Avtomobilni sirpanchiq yo'lda sirpanishi, orqa g'ildiraklarini blokirovkasi sababli vujudga keladi. Bu holda birinchi navbatda surilish sababini bartaraf etish, ya'ni boshlangan tormozlanishni toʻxtatish lozim. Keyinchalik rul chambaragini surilish tomon burib, harakat yo'nalishini to'g'rilab olish mumkin."
+        },
+        "ru": {
+            "text": "Какие меры должен предпринять водитель, чтобы предотвратить занос при резком торможении?",
+            "options": [
+                "F1. Резко нажать на педаль тормоза",
+                "F2. Нажать на педаль сцепления",
+                "F3. Прекратить начатое торможение"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Занос на скользкой дороге может возникнуть при торможении из-за блокировки задних колес автомобиля. В этом случае необходимо в первую очередь устранить причину заноса, т.е. прекратить начатое торможение. В дальнейшем, поворотом рулевого колеса в сторону заноса, можно выровнять траекторию движения."
+        },
+        "uzk": {
+            "text": "Ҳайдовчи кескин тормозлашда юзага келадиган сирпанишнинг олдини олиш учун қандай чоралар кўриши керак?",
+            "options": [
+                "F1. Тормоз педалини каттик босишга",
+                "F2. Улагич педалини босишга",
+                "F3. Бошланган тормоз беришни тўхтатишга"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Автомобилни сирпанчиқ йўлда сирпаниши, орқа ғилдиракларини блокировкаси сабабли вужудга келади. Бу ҳолда биринчи навбатда сурилиш сабабини бартараф этиш, яъни бошланган тормозланишни тўхтатиш лозим. Кейинчалик рул чамбарагини сурилиш томон буриб, ҳаракат йўналишини тўғрилаб олиш мумкин."
+        }
+    }
+}

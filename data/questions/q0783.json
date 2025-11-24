@@ -1,0 +1,36 @@
+{
+    "questionId": 783,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Avariya (xavf-xatar) ishoralarini yoqish",
+                "F2. Tovushli signal berish",
+                "F3. Boshqa shaxslar yordamidan foydalanish"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 9-bobi 63-bandi: Transport vositasini orqaga harakatlantirishda haydovchi yo'l harakati xavfsizligini ta'minlashi va boshqa yo'l harakati qatnashchilariga xalaqit bermasligi shart. Zarurat tugʻilganda haydovchi boshqa shaxslarning yordamidan foydalanishi kerak."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Включить аварийную сигнализацию",
+                "F2. Подать звуковой сигнал",
+                "F3. Прибегнуть к помощи других лиц"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 63 главы 9 ПДД, гласит: При движении транспортного средства задним ходом водитель должен обеспечить безопасность движения и не создавать помех другим участникам движения. При необходимости водитель должен прибегнуть к помощи других лиц."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Aвария (хавф-хатар) ишораларини ёқиш",
+                "F2. Товушли сигнал бериш",
+                "F3. Бошқа шахслар ёрдамидан фойдаланиш"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 9-боби 63-банди: Транспорт воситасини орқага ҳаракатлантиришда ҳайдовчи йўл ҳаракати хавфсизлигини таъминлаши ва бошқа йўл ҳаракати қатнашчиларига халақит бермаслиги шарт. Зарурат туғилганда ҳайдовчи бошқа шахсларнинг ёрдамидан фойдаланиши керак."
+        }
+    }
+}

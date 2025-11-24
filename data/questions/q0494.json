@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  494,
+    "image":  "data/images/q0494.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Hamma bir vaqtda",
+                                                    "F2. Ko\u0027k, qizil, yashil",
+                                                    "F3. Ko\u0027k ayni vaqtda yashil bilan, qizil",
+                                                    "F4. Qizil, yashil bilan, ko\u0027k"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 16-bobi 105-bandiga asosan: Teng ahamiyatga ega bo\u0027lgan yo\u0027llar kesishgan chorrahada relssiz transport vositasining haydovchisi o\u0027ngdan kelayotgan transport vositalariga yo\u0027l berishi shart."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Все одновременно",
+                                                    "F2. Синий, красный, зеленый",
+                                                    "F3. Синий одновременно с зеленым, красный",
+                                                    "F4. Красный с зеленым, синий"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 105 главы 16 ПДД гласит: На перекрестке равнозначных дорог водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, приближающимся справа.\nВ данном случае все автомобили проедут перекресток одновременно, т.к. ни один из них не является помехой для других."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Ҳамма бир вақтда",
+                                                     "F2. Кўк, қизил, яшил",
+                                                     "F3. Кўк айни вақтда яшил билан, қизил",
+                                                     "F4. Қизил, яшил билан, кўк"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 16-боби 105-бандига асосан: Тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада рельссиз транспорт воситасининг ҳайдовчиси ўнгдан келаётган транспорт воситаларига йўл бериши шарт."
+                                 }
+                     }
+}

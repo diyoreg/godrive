@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  202,
+    "image":  "data/images/q0202.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan belgi ostidagi qo\u0027shimcha axborot belgisi qanday maqsadda o\u0027rnatilgan?",
+                                    "options":  [
+                                                    "F1. Belgining amal qilish hududida foto va video moslamalardan foydalanish ta\u0027qiqlanadi",
+                                                    "F2. DYHXX tomonidan harakat jarayoni foto va video kuzatuviga olingan yo\u0027l qismini bildiradi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1-ilovasi 7-bo\u0027limining o\u0027ttiz ikkinchi xatboshisiga asosan: 7.19. «Foto va video qayd etish». Yoʻl harakati qatnashchilarining harakatlari maxsus avtomatlashtirilgan foto va video qayd etish texnika vositalari orqali qayd etilayotganligini bildiradi. Ogohlantiruvchi, imtiyoz, taqiqlovchi, buyuruvchi va axborot ishora belgilari bilan birgalikda qo\u0027llaniladi."
+                                },
+                         "ru":  {
+                                    "text":  "С какой целью установлен знак дополнительной информации под данным знаком?",
+                                    "options":  [
+                                                    "F1. На протяженности зоны действия знака 3.20 запрещается производить фото- или киносъемки",
+                                                    "F2. Участок дороги где процесс движения контролируется видеонаблюдением органами ГСБДД"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Знаку 7.19 раздела 7 приложения №1 к ПДД, Указывает, что в зоне дорожного знака, с которыми применяется этот знак, может осуществляться фиксация административных правонарушений работающими в автоматическом режиме специальными техническими средствами Фото и видеофиксации."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган белги остидаги қўшимча ахборот белгиси қандай мақсадда ўрнатилган?",
+                                     "options":  [
+                                                     "F1. Белгининг амал қилиш ҳудудида фото ва видео мосламалардан фойдаланиш таъкикланади",
+                                                     "F2. ДЙХХ томонидан ҳаракат жараëни фото ва видео кузатувига олинган йўл қисмини билдиради"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1-иловаси 7-бўлимининг ўттиз иккинчи хатбошисига асосан: 7.19. «Фото ва видео қайд этиш». Иул ҳаракати қатнашчиларининг ҳаракатлари махсус автоматлаштирилган фото ва видео қайд этиш техника воситалари орқали қайд этилаётганлигини билдиради. Огоҳлантирувчи, имтиёз, тақиқловчи, буюрувчи ва ахборот ишора белгилари билан биргаликда қўлланилади."
+                                 }
+                     }
+}

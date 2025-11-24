@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  449,
+    "image":  "data/images/q0449.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "To\u0027xtash qoidasini buzgan hamma haydovchilar qaysi javobda ko\u0027rsatilgan?",
+                                    "options":  [
+                                                    "F1. Qizil avtomobil va mototsikl haydovchilari",
+                                                    "F2. Ko\u0027k avtomobil haydovchisi",
+                                                    "F3. Mototsikl haydovchisi",
+                                                    "F4. Barcha transport vositalarining haydovchilari"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 1-ilovasi 3-boʻlimining o\u0027ttiz birinchi xatboshisiga asosan: 3.27. «To\u0027xtash taqiqlangan». Transport vositalarining to\u0027xtashi va toʻxtab turishi taqiqlanishini bildiradi. \nYHQ 1-ilovasi 7-bo\u0027limining toʻqqizinchi xatboshisiga asosan: 7.2.4 — haydovchilarga ularning 3.27 yo\u0027l belgisi ta\u0027sir doirasida ekanliklari haqida axborot beradi.\nHarakat ikki tomonlama bo\u0027lgan va chiziqlar bilan belgilangan (1.9 yo\u0027l chizig\u0027i bilan belgilanganidan tashqari) uchta tasmali yo\u0027llarda, ikki yo\u0027nalishda harakatlanish uchun mo\u0027ljallangan o\u0027rta qatorga faqat quvib o\u0027tish, aylanib o\u0027tish, chapga burilish va qayrilib olish uchungina chiqishga ruxsat etiladi. Qarama-qarshi yo\u0027nalishda harakatlanish uchun mo\u0027ljallangan chetki chap qatorni egallash taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "В каком ответе указаны водители, нарушившие правила остановки?",
+                                    "options":  [
+                                                    "F1. Водители красного автомобиля и мотоцикла",
+                                                    "F2. Водитель синего автомобиля",
+                                                    "F3. Водитель мотоцикла",
+                                                    "F4. Водители всех транспортных средств"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Запрешаюший знак 3.27 \"Остановка запрешена\", Запрешается остановка и стоянка транспортных средств. Знак дополнительной информации 7.2.4 \"Зона действия\" - информирует водителей о нахождении их в зоне действия знаков.\nПункту 66 главы 10 ПДД, гласит: На дорогах с двусторонним движением, имеющих три полосы (кроме обозначенных разметкой 1.9), на среднюю полосу разрешается выезжать только для обгона, поворота налево, разворота и объезда. Выезжать на крайнюю левую полосу, предназначенную для встречного движения, запрещается."
+                                },
+                         "uzk":  {
+                                     "text":  "Тўхташ қоидасини бузган ҳамма ҳайдовчилар қайси жавобда кўрсатилган?",
+                                     "options":  [
+                                                     "F1. Қизил автомобиль ва мотоцикл ҳайдовчилари",
+                                                     "F2. Кўк автомобиль ҳайдовчиси",
+                                                     "F3. Мотоцикл ҳайдовчиси",
+                                                     "F4. Барча транспорт воситаларининг ҳайдовчилари"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўттиз биринчи хатбошисига асосан: 3.27. «Тухташ тақиқланган». Транспорт воситаларининг тўхташи ва тўхтаб туриши тақиқланишини билдиради.\nЙҲҚ 1-иловаси 7-бўлимининг тўққизинчи хатбошисига асосан: 7.2.4 — ҳайдовчиларга уларнинг 3.27 йўл белгиси таъсир доирасида эканликлари ҳақида ахборот беради.\nЙҲҚ 10-боби 66-бандига асосан: Ҳаракат икки томонлама бўлган ва чизиқлар билан белгиланган (1.9 йўл чизиғи билан белгиланганидан ташқари) учта тасмали йўлларда, икки йўналишда ҳаракатланиш учун мўлжалланган ўрта қаторга фақат қувиб ўтиш, айланиб ўтиш, чапга бурилиш ва қайрилиб олиш учунгина чиқишга рухсат етилади. Қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган четки чап қаторни егаллаш тақиқланади."
+                                 }
+                     }
+}

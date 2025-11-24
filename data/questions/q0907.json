@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  907,
+    "image":  "data/images/q0907.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. To\u0027xtamasdan harakatni davom ettirishingiz mumkin",
+                                                    "F2. Belgi oldida to\u0027xtashingiz va svetoforning ruxsat beruvchi ishorasini kutishingiz kerak"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 15-bobi 102-bandi: Svetoforning ruxsat etuvchi ishorasida chorrahaga kirgan haydovchi, undan chiqishdagi svetofor ishorasidan qat\u0027i nazar, belgilangan yoʻnalishda harakatini davom ettirishi kerak. Biroq chorrahada haydovchining harakatlanayotgan yo\u0027lida joylashgan svetoforlar oldida to\u0027xtash chiziqlari (yoki 5.33 yo\u0027l belgisi) bo\u0027lsa, u har bir svetofor ishorasiga amal qilishi shart."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Вы можете продолжать движение, не останавливаясь",
+                                                    "F2. Вы должны остановиться перед знаком и дождаться разрешающего сигнала светофора"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 102 главы 15 ПДД, гласит: Водитель, въехавший на перекресток при разрешающем сигнале светофора, должен выехать в намеченном направлении, независимо от сигналов светофора на выходе с него. Однако, если на перекрестке перед светофорами, расположенными на пути следования водителя, имеются стоп-линии (или дорожный знак 5.33), водитель обязан руководствоваться сигналами каждого светофора."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Тўхтамасдан ҳаракатни давом еттиришингиз мумкин",
+                                                     "F2. Белги олдида тўхташингиз ва светофорнинг рухсат берувчи ишорасини кутишингиз керак"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 15-боби 102-банди: Светофорнинг рухсат этувчи ишорасида чорраҳага кирган ҳайдовчи, ундан чиқишдаги светофор ишорасидан қатъи назар, белгиланган йўналишда ҳаракатини давом эттириши керак. Бироқ чорраҳада ҳайдовчининг ҳаракатланаётган йўлида жойлашган светофорлар олдида тўхташ чизиқлари (ёки 5.33 йўл белгиси) бўлса, уҳар бир светофор ишорасига амал қилиши шарт."
+                                 }
+                     }
+}

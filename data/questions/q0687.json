@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  687,
+    "image":  "data/images/q0687.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi rasmda haydovchi chapga burilish haqida ogohlantirish ishorasini bermoqda?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 8-bobi 45-bandining ikkinchi xatboshisiga asosan: Chapga burilish (qayrilib olish)ni bildiruvchi ishoraga chap qo\u0027lni yonga uzatish yoki oʻng qo\u0027lni tirsakdan toʻg\u0027ri burchak ostida bukib, yuqoriga ko\u0027tarish mos keladi."
+                                },
+                         "ru":  {
+                                    "text":  "На каком рисунке водитель подает сигнал предупреждении о повороте налево?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Aбзацу 2 пункта 45 главы 8 ПДД, сигналу левого поворота (разворота) соответствует вытянутая в сторону левая рука либо правая, вытянутая в сторону и согнутая в локте под прямым углом вверх."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси расмда ҳайдовчи чапга бурилиш ҳақида огоҳлантириш ишорасини бермоқда?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 8-боби 45-бандининг иккинчи хатбошисига асосан: Чапга бурилиш (қайрилиб олиш)ни билдирувчи ишорага чап қўлни ёнга узатиш ёки ўнг қўлни тирсакдан тўғри бурчак остида букиб, юқорига кўтариш мос келади."
+                                 }
+                     }
+}

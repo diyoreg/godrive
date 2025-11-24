@@ -1,0 +1,33 @@
+{
+    "questionId": 410,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qish vaqtida orqa yetakchi ko'prikli avtomobilda chuqur bo'lib qolgan g'ildirak izidan qanday chiqish mumkin?",
+            "options": [
+                "F1. Uncha katta bo'lmagan tezlikda birinchi galda boshqaruv rulini chiqish tomonning qarama qarshi tomoniga, keyin esa chiqish tomoniga shiddat bilan burish kerak",
+                "F2. Izdan chiqishni iloji boricha tezroq boshlash, dastlab boshqaruv rulini chiqish tomoniga, keyin esa ro'parasiga burish kerak"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Tuproqli yo'lda chuqur qor bo'ylab oldindan tanlangan pastgi uzatmada rul chambaragini keskin burmasdan va to'xtamasdan harakatda bo'lish ushbu uchastkada yuzaga keluvchi katta qarshilik kuchini bartaraf qilish uchun zarur bo'lgan quvvat zapasi bilan ta'minlaydi."
+        },
+        "ru": {
+            "text": "Как следует выезжать из глубокой колеи в зимнее время на заднеприводном автомобиле?",
+            "options": [
+                "F1. Выезжать на небольшой скорости, в первоначальный момент энергично повернуть рулевое колесо в противоположную сторону выезда, а затем в сторону выезда",
+                "F2. Начать выезжать из колеи как можно быстрее, сначала повернуть рулевое колесо в сторону выезда, а затем в противоположную"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Выезжать из глубокой колеи в зимнее время на заднеприводном автомобиле нужно на небольшой скорости, в первоначальный момент энергично повернуть рулевое колесо в противоположную сторону выезда, а затем в сторону выезда. Если сначала повернуть руль в сторону выезда, а затем в противоположную, то в итоге автомобиль поедет в противоположную от выезда сторону."
+        },
+        "uzk": {
+            "text": "Қиш вақтида орқа етакчи кўприкли автомобилда чуқур бўлиб қолган ғилдирак изидан қандай чиқиш мумкин?",
+            "options": [
+                "F1. Унча катта бўлмаган тезликда биринчи галда бошқарув рулини чиқиш томоннинг қарама карши томонига, кейин эса чикиш томонига шиддат билан буриш керак",
+                "F2. Издан чиқишни иложи борича тезроқ бошлаш, дастлаб бошқарув рулини чикиш томонига, кейин эса рўпарасига буриш керак"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Тупроқли йўлда чуқур қор бўйлаб олдиндан танланган пастги узатмада рул чамбарагини кескин бурмасдан ва тўхтамасдан ҳаракатда бўлиш ушбу участкада юзага келувчи катта қаршилик кучини бартараф қилиш учун зарур бўлган қувват запаси билан таъминлайди."
+        }
+    }
+}

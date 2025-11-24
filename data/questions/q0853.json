@@ -1,0 +1,36 @@
+{
+    "questionId": 853,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yengil avtomobil tirkamasi burilishda qanday troektoriya bo'yicha harakatlanadi?",
+            "options": [
+                "F1. Burilish markaziga nisbatan avtomobil troektoriyasidan ichkarida",
+                "F2. Avtomobil troektoriyasidan bo'yicha",
+                "F3. Burilish markaziga nisbatan avtomobil troektoriyasidan tashqarida"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Har qanday tirkama shu kabi yengil avtomobil tirkamasi ham burilishda avtomobil burilish trayektoriyasidan ichkarida-markazga tomon siljiydi."
+        },
+        "ru": {
+            "text": "Какова траектория движения прицепа при повороте автомобиля к центру поворота ?",
+            "options": [
+                "F1. Смещается к центру поворота",
+                "F2. Не смещается",
+                "F3. Смещается в сторону от центра поворота"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Любой прицеп, включая и прицеп легкового автомобиля, двигается ближе к центру поворота, чем траектория движения автомобиля."
+        },
+        "uzk": {
+            "text": "Енгил автомобиль тиркамаси бурилишда қандай троектория бўйича ҳаракатланади?",
+            "options": [
+                "F1. Бурилиш марказига нисбатан автомобиль троекториясидан ичкарида",
+                "F2. Aвтомобиль троекториясидан бўйича",
+                "F3. Бурилиш марказига нисбатан автомобиль троекториясидан ташқарида"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Ҳар қандай тиркама шу каби енгил автомобил тиркамаси ҳам бурилишда автомобил бурилиш траекториясидан ичкарида-марказга томон силжийди."
+        }
+    }
+}

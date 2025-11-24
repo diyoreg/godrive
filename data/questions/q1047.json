@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1047,
+    "image":  "data/images/q1047.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. 2 va 4"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 1.25.1. “Yovvoyi hayvonlar”."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. 2 и 4"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: 1.25.1. Дикие животные."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. 2 ва 4"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 1.25.1. “Ёввойи ҳайвонлар”."
+                                 }
+                     }
+}

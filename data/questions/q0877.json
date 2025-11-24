@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  877,
+    "image":  "data/images/q0877.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi yo\u0027l belgilari yo\u0027lning tor qismida haydovchiga ustunlik beradi?",
+                                    "options":  [
+                                                    "F1. Faqat «С»",
+                                                    "F2. Faqat «Д»",
+                                                    "F3. «A» va «B»",
+                                                    "F4. Faqat «B»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 2.7. «Ro\u0027paradagi harakatlanishga nisbatan imtiyoz» belgisi. Yo\u0027lning tor qismida harakatlanishda haydovchi ro\u0027paradan kelayotgan transport vositasiga nisbatan imtiyozga egaligini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "При наличии каких знаков водитель пользуется преимуществом, если встречный разъезд затруднен препятствием?",
+                                    "options":  [
+                                                    "F1. Только «С»",
+                                                    "F2. Только «Д»",
+                                                    "F3. «A» и «B»",
+                                                    "F4. Только «B»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: знак 2.7. «Преимущество перед встречным движением». Узкий участок дороги, при движении по которому водитель пользуется приоритетом по отношению к встречным транспортным средствам."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси йўл белгилари йўлнинг тор қисмида ҳайдовчига устунлик беради?",
+                                     "options":  [
+                                                     "F1. Фақат «С»",
+                                                     "F2. Фақат «Д»",
+                                                     "F3. «A» ва «B»",
+                                                     "F4. Фақат «B»"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 2.7. «Рўпарадаги ҳаракатланишга нисбатан имтиёз» белгиси. Йўлнинг тор қисмида ҳаракатланишда ҳайдовчи рўпарадан келаётган транспорт воситасига нисбатан имтиёзга эгалигини билдиради."
+                                 }
+                     }
+}

@@ -1,0 +1,31 @@
+# БЫСТРАЯ КОНФИГУРАЦИЯ ТАЙМЕРОВ (для тестирования)
+# Все времена указаны в секундах
+# Минимальные значения для максимальной скорости
+
+# === ПЕРЕКЛЮЧЕНИЕ ЯЗЫКОВ ===
+language_ru_wait = 3
+language_uz_wait = 2
+language_button_click_wait = 1
+language_menu_search_wait = 1
+language_cyrillic_click_wait = 2
+language_cyrillic_dom_wait = 1
+language_cyrillic_reload_wait = 2
+
+# === НАВИГАЦИЯ ПО ВОПРОСАМ ===
+question_navigation_wait = 2
+question_arrow_click_wait = 1
+page_elements_search_wait = 1
+
+# === ИЗВЛЕЧЕНИЕ ДАННЫХ ===
+page_load_wait = 2
+data_extraction_wait = 1
+answer_click_wait = 1
+explanation_click_wait = 1
+
+# === БРАУЗЕР И СЕТЬ ===
+browser_startup_wait = 3
+
+# === ДОПОЛНИТЕЛЬНЫЕ НАСТРОЙКИ ===
+# Включить случайные задержки (0 = выключено, 1 = включено)
+random_delays_enabled = 0
+max_random_delay = 1

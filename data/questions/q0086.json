@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  86,
+    "image":  "data/images/q0086.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan avtotsisternalardan qaysi biri burilishda ag\u0027darilib ketish xavfi kamroq, turg\u0027unroq?",
+                                    "options":  [
+                                                    "F1. Suyuqlik bilan 75 foizgacha to\u0027ldirilgani",
+                                                    "F2. Suyuqlik bilan to\u0027liq to\u0027ldirilgani"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Yuk avtomobilining muvozanati yo\u0027qolishiga mahkamlanmagan yuk sabab bo\u0027ladi. Burilishdagi harakat vaqtida mahkamlanmagan yuk, yuk platformasidan koʻchib, bortlariga urilishi va avtomobilning ag\u0027darilishiga sabab bo\u0027lishi mumkin. O\u0027xshash holat suyuq yuk ortgan sisternali avtomobillari harakatlanishida ham yuzaga keladi. Suyuq yuk ortgan avtomobillarning burilishlarda harakatlanishi jarayonida yukning bir bortdan ikkinchi bortga ko\u0027chishi yuzaga keladi. Suyuq yuk tebranib bortlarga urilishi natijasida avtomobilning muvozanati yo\u0027qolishiga olib keladi."
+                                },
+                         "ru":  {
+                                    "text":  "Какая из показанных автоцистерн более устойчива при повороте?",
+                                    "options":  [
+                                                    "F1. Наполненная жидкостью на 75%",
+                                                    "F2. Наполненная жидкостью полностью"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Потере устойчивости грузового автомобиля может способствовать незакрепленный груз. При движении на повороте незакрепленный груз может перемещаться по грузовой платформе и, ударяя в ее борт, приводить к опрокидыванию автомобиля. Аналогичные явления происходят при движении автомобильной цистерны с текучим грузом. При движении автомобиля с жидким грузом по кривой происходят перемещения груза от одного борта к другому. Раскачиваясь и ударяя в борта, жидкий груз также может вызвать потерю устойчивости автомобиля."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган автоцистерналардан қайси бири бурилишда ағдарилиб кетиш хавфи камроқ, тургунроқ?",
+                                     "options":  [
+                                                     "F1. Суюклик билан 75 фоизгача тўлдирилгани",
+                                                     "F2. Суюклик билан тўлиқ тўлдирилгани"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "Юк автомобилининг мувозанати йўқолишига маҳкамланмаган юк сабаб бўлади. Бурилишдаги ҳаракат вақтида маҳкамланмаган юк, юк платформасидан кўчиб, бортларига урилиши ва автомобилнинг ағдарилишига сабаб бўлиши мумкин. Ухшаш ҳолат суюқ юк ортган цистернали автомобиллари ҳаракатланишида ҳам юзага келади. Суюқ юк ортган автомобилларнинг бурилишларда ҳаракатланиши жараёнида юкнинг бир бортдан иккинчи бортга кўчиши юзага келади. Суюқ юк тебраниб бортларга урилиши натижасида автомобилнинг мувозанати йўқолишига олиб келади."
+                                 }
+                     }
+}

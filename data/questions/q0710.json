@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  710,
+    "image":  "data/images/q0710.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Haydovchi ushbu joyda avtomobilni to\u0027xtab turish uchun qo\u0027yishiga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Yo\u0027q"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 13-bobi 91-bandi: Quyidagilarda toʻxtash taqiqlanadi: qatnov qismi kesishmalarida va kesishayotgan qatnov qismi chetiga 30 metrdan kam masofada (uch tomonlama kesishadigan chorrahalarda yondan tutashgan yo\u0027lning sidirg\u0027a chiziq yoki ajratuvchi mintaqa bilan ajratilgan qarama-qarshi tomoni bundan mustasno)."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешено ли водителю ставить автомобиль на стоянку в указанном месте?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 91 главы 13 ПДД, гласит: на пересечениях проезжих частейи на расстоянии менее 30 метров от края пересекаюшей проезжей части (за исключением противоположной стороны примыкающей дороги, отделенной разделительной линией или разделительной полосой на трехсторонних перекрестках)."
+                                },
+                         "uzk":  {
+                                     "text":  "Ҳайдовчи ушбу жойда автомобилни тўхтаб туриш учун қўйишига рухсат этиладими?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 13-боби 91-банди: Қуйидагиларда тўхташ тақиқланади: қатнов қисми кесишмаларида ва кесишаётган қатнов қисми четига 30 метрдан кам масофада (уч томонлама кесишадиган чорраҳаларда ёндан туташган йўлнинг сидирға чизиқ ёки ажратувчи минтақа билан ажратилган қарама-қарши томони бундан мустасно)."
+                                 }
+                     }
+}

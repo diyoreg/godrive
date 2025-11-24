@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  46,
+    "image":  "data/images/q0046.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Ko\u0027k, yashil avtomobillarga harakatlanishga ruxsat etiladi. Qizil, sariq, oq avtomobillarga taqiqlanadi",
+                                                    "F2. Ko\u0027k, qizil, yashil avtomobillarga harakatlanishga ruxsat etiladi. Sariq, oq avtomobillarga taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 7-bobi 38-bandi: Tartibga soluvchining ishoralari quyidagi ma\u0027noni bildiradi: Oʻng qo\u0027li oldinga uzatilganda: chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo\u0027nalishlarda;\noldi tomonidan barcha transport vositalariga faqat oʻngga harakatlanishga ruxsat beriladi;\norqa tomonidan va o\u0027ng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi;\npiyodalarga tartibga soluvchining orqa tomonida qatnov qismini kesib oʻtishga ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Разрешено движение синему, зеленому автомобилям. Запрещено красному, желтому, белому",
+                                                    "F2. Разрешено движение синему, красному, зеленому автомобилям. Запрещено желтому, белому"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 38 главы 7 ПДД, гласит: Сигналы регулировщика имеют следующие значения: правая рука вытянута вперед: со стороны левого бока — разрешено движение трамваю налево, безрельсовым транспортным средствам — во всех направлениях;\nсо стороны груди — всем транспортным средствам разрешено движение только направо;\nсо стороны правого бока и спины — движение всех транспортных средств запрещено;\nпешеходам разрешено переходить проезжую часть за спиной регулировщика;\nВ данном случае желтый и белый автомобили находятся со стороны спины и правого бока регулировщика, поэтому им движение запрещено. Красный и синий автомобили находятся со стороны левого бока регулировщика, им движение разрешено в любом направлении. Зеленый автомобиль находится со стороны груди, ему разрешено движение только направо, куда он как раз и двигается."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Кўк, яшил автомобилларга ҳаракатланишга рухсат этилади. Қизил, сариқ, оқ автомобилларга тақиқланади",
+                                                     "F2. Кўк, қизил, яшил автомобилларга ҳаракатланишга рухсат этилади. Сариқ, оқ автомобилларга тақиқланади"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 7-боби 38-банди: Тартибга солувчининг ишоралари қуйидаги маънони билдиради: Унг қўли олдинга узатилганда: чап ёнидан трамвайга чапга, рельссиз транспорт воситаларига барча йўналишларда;\nолди томонидан барча транспорт воситаларига фақат ўнгга ҳаракатланишга рухсат берилади;\nорқа томонидан ва ўнг ёнидан барча транспорт воситаларининг ҳаракатланиши тақиқланади;\nпиёдаларга тартибга солувчининг орқа томонида қатнов қисмини кесиб ўтишга рухсат этилади."
+                                 }
+                     }
+}

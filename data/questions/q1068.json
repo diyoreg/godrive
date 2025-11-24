@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1068,
+    "image":  "data/images/q1068.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi yotiq yo\u0027l chizig\u0027i baland piyodalar o\u0027tish joyini bildiradi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 2 ilova: 1.29.1-sun’iy notekislik (baland piyodalar o\u0027tish joyini bildiradi);"
+                                },
+                         "ru":  {
+                                    "text":  "Какая горизонтальная разметка обозначает приподнятый пешеходный переход?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 2: 1.29.1 искусственная неровность (приподнятый пешеходный переход);"
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси ётиқ йўл чизиғи баланд пиёдалар ўтиш жойини билдиради?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 2 илова: 1.29.1-сунъий нотекислик (баланд пиёдалар ўтиш жойини билдиради);"
+                                 }
+                     }
+}

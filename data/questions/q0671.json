@@ -1,0 +1,36 @@
+{
+    "questionId": 671,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Piyodalar qatnov qismining chetidan qanday yurishlari kerak?",
+            "options": [
+                "F1. Qatnov qismining chetidan transport vositalarining harakatiga qarama-qarshi",
+                "F2. Qatnov qismining chetidan transport vositalarining harakati bo'ylab",
+                "F3. Har qanday yo'nalishda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 4-bobi 15-bandining uchinchi xatboshisiga asosan: Qatnov qismining chetida harakatlanayotgan piyodalar transport vositalarining harakatiga qarama-qarshi yo'nalishda yurishlari kerak."
+        },
+        "ru": {
+            "text": "Как должны ходить пешеходы по краю проезжей части?",
+            "options": [
+                "F1. По краю проезжей части навстречу движению транспортных средств",
+                "F2. По краю проезжей части по ходу движения транспортных средств",
+                "F3. В любом направлении"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Aбзацу 3 пункта 15 главы 4 ПДД, гласит: пешеходы при движении по проезжей части дороги должны идти навстречу движению транспортных средств."
+        },
+        "uzk": {
+            "text": "Пиёдалар қатнов қисмининг четидан қандай юришлари керак?",
+            "options": [
+                "F1. Қатнов қисмининг четидан транспорт воситаларининг ҳаракатига қарама-қарши",
+                "F2. Қатнов қисмининг четидан транспорт воситаларининг ҳаракати бўйлаб",
+                "F3. Ҳар қандай йўналишда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 4-боби 15-бандининг учинчи хатбошисига асосан: Қатнов қисмининг четида ҳаракатланаётган пиёдалар транспорт воситаларининг ҳаракатига қарама-қарши йўналишда юришлари керак."
+        }
+    }
+}

@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  726,
+    "image":  "data/images/q0726.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan qaysi belgi reversiv harakat boshlanishi haqida axborot beradi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1 ilova 5.35. yoʻl belgisi «Reversiv harakatlanish». Bir yoki bir necha tasmalarda harakatlanish yo\u0027nalishi qarama-qarshi tomonga o\u0027zgarishi mumkin boʻlgan yo\u0027l qismining boshlanishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из указанных знаков информирует о начале дороги с реверсивным движением?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД приложение №1, дорожный знак 5.35 «Реверсивное движение». Начало участка дороги, на котором на одной или нескольких полосах направление движения может изменяться на противоположное."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган қайси белги реверсив ҳаракат бошланиши ҳақида ахборот беради?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1 илова 5.35. йўл белгиси Реверсив ҳаракатланиши. Бир ёки бир неча тасмаларда ҳаракатланиш йўналиши қарама-қарши томонга ўзгариши мумкин бўлган йўл қисмининг бошланишини билдиради."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  198,
+    "image":  "data/images/q0198.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Maxsus piyodalar yoʻlkasini bildiradi",
+                                                    "F2. Velosiped yo\u0027lkasini bildiradi, chiziq yo\u0027naltirgichlari bo\u0027laklar bo\u0027yicha harakat yo\u0027nalishini ko\u0027rsatadi",
+                                                    "F3. Piyodalar o\u0027tish joyini bildiradi, chiziq yo\u0027naltirgichlari piyodalar harakatlanish yo\u0027nalishini ko\u0027rsatadi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 2-ilovasi 1-boʻlimining oʻn oltinchi va oʻn yettinchi xatboshlariga asosan: 1.14.2 (zebra) — tartibga solinmagan va solingan piyodalarning o\u0027tish joyini belgilaydi; 1.14.2 yotiq chiziqning yo\u0027ʻnaltirgichlari piyodalarning harakatlanish yo\u0027nalishini ko\u0027rsatadi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Обозначает специальную дорожку для пешеходов",
+                                                    "F2. Обозначает дорожку для велосипедистов, стрелки показывают направление движения",
+                                                    "F3. Обозначает пешеходный переход, стрелки указывают направление движения пешеходов"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Горизонтальная разметка 1.14.2 (зебра) - обозначает нерегулируемый пешеходный переход. Стрелы разметки 1.14.2 указывают направление движения пешеходов."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Махсус пиёдалар йўлкасини билдиради",
+                                                     "F2. Велосипед йўлкасини билдиради, чизиқ йўналтиргичлари бўлаклар бўйича ҳаракат йўналишини кўрсатади",
+                                                     "F3. Пиёдалар ўтиш жойини билдиради, чизиқ йўналтиргичлари пиёдалар ҳаракатланиш йўналишини кўрсатади"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг ўн олтинчи ва ўн еттинчи хатбошларига асосан: 1.14.2 (зебра) — тартибга солинмаган ва солинган пиёдаларнинг ўтиш жойини белгилайди; 1.14.2 ётиқ чизиқнинг йўналтиргичлари пиёдаларнинг ҳаракатланиш йўналишини кўрсатади."
+                                 }
+                     }
+}

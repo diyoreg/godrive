@@ -1,0 +1,89 @@
+/* Language Dropdown Styles */
+.language-dropdown {
+    position: relative;
+    order: 0;
+}
+
+.globe-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.globe-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(96, 165, 250, 0.5);
+}
+
+.language-switcher {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: rgba(30, 41, 59, 0.98);
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    min-width: 120px;
+    z-index: 1000;
+    animation: slideDown 0.2s ease;
+}
+
+.language-switcher.show {
+    display: flex;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.lang-btn {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+    width: 100%;
+}
+
+.lang-btn:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.lang-btn.active {
+    background: #60a5fa;
+    color: white;
+}
+
+/* Hide duplicate language switchers created by language.js */
+body > .language-switcher,
+body > .language-switcher-header {
+    display: none !important;
+}

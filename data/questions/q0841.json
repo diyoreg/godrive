@@ -1,0 +1,36 @@
+{
+    "questionId": 841,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Quyidagi izoh qaysi atamaga tegishli? Texnik nuqson, tashilayotgan yuk, haydovchi va yo'lovchining holati, yo'ldagi biror to'siq tufayli xavf yuzaga kelganda yoxud ob-havo sharoitiga bog'liq holda transport vositasi harakatini to'xtatish.",
+            "options": [
+                "F1. Yo'l harakati xavfsizligini ta'minlash",
+                "F2. Yo'l transport hodisasi",
+                "F3. Majburiy to'xtash"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 1-ilova Umumiy qoidalar: majburiy to'xtash — texnik nuqson, tashilayotgan yuk, haydovchi va yo'lovchining holati, yo'ldagi biror to'siq tufayli xavf yuzaga kelganda yoxud ob-havo sharoitiga bog'liq holda transport vositasi harakatini to'xtatish. Haydovchining ushbu xatti-harakati oxirgi zarur chora bo'lib, qoidabuzarlik deb e’tirof etilmaydi."
+        },
+        "ru": {
+            "text": "К какому термину относится следующее пояснения? Остановка движения транспортного средства из-за технической неисправности, перевозимого груза, состояния водителя и пассажиров, наличия препятствия на дороге или погодных условий.",
+            "options": [
+                "F1. Обеспечение безопасности дорожного движения",
+                "F2. Дорожно-транспортное происшествие",
+                "F3. Вынужденная остановка"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ПДД, Общие положения: Вынужденная остановка — прекращение движения транспортного средства по причине технической неисправности или опасности, создаваемой перевозимым грузом, состоянием водителя, пассажира, препятствием на дороге или метеорологическими условиями."
+        },
+        "uzk": {
+            "text": "Қуйидаги изоҳ қайси атамага тегишли? Техник нуқсон, ташилаётган юк, ҳайдовчи ва йўловчининг ҳолати, йўлдаги бирор тўсиқ туфайли хавф юзага келганда ёхуд об-ҳаво шароитига боғлиқ ҳолда транспорт воситаси ҳаракатини тўхтатиш",
+            "options": [
+                "F1. Йўл ҳаракати хавфсизлигини таъминлаш",
+                "F2. Йўл транспорт ҳодисаси",
+                "F3. Мажбурий тўхташ"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 1-илова Умумий қоидалар: мажбурий тўхташ — техник нуқсон, ташилаётган юк, ҳайдовчи ва йўловчининг ҳолати, йўлдаги бирор тўсиқ туфайли хавф юзага келганда ёхуд об-ҳаво шароитига боғлиқ ҳолда транспорт воситаси ҳаракатини тўхтатиш. Ҳайдовчининг ушбу хатти-ҳаракати охирги зарур чора бўлиб, қоидабузарлик деб эътироф этилмайди."
+        }
+    }
+}

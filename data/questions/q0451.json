@@ -1,0 +1,36 @@
+{
+    "questionId": 451,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Haydovchi yo'l-transport hodisasida shikastlangan transport vositasini shatakka olish uchun yuk avtomobilini Ichki ishlar xodimi ixtiyoriga qanday holda berishi kerak?",
+            "options": [
+                "F1. Faqat shu holdaki, agar shatakka olish yo'l-yo'lakay yo'nalishda amalga oshirilsa",
+                "F2. Har qanday holda, fuqarolarga tegishli transport vositalaridan tashqari",
+                "F3. Haydovchining istagi bo'yicha"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2-bobi 11-bandining 3 punktiga asosan, quyidagi hollarda transport vositasini foydalanish uchun taqdim etishi: Ichki ishlar xodimlariga qonunda belgilangan xollarda kechiktirib bo'lmaydigan xizmat vazifalarini bajarish uchun, shuningdek yo'l-transport hodisasi tufayli shikastlangan yoki nosoz transport vositalarini olib ketish (shatakka olish) uchun (faqat yuk avtomobilidan)."
+        },
+        "ru": {
+            "text": "В каком случае водитель должен предоставить грузовой автомобиль работнику милиции для буксировки транспортного средства, поврежденного при дорожно-транспортном происшествии?",
+            "options": [
+                "F1. Только в случае, если буксировка будет осуществляться в попутном направлении",
+                "F2. В любом случае, кроме собственных грузовых автомобилей",
+                "F3. По усмотрению водителя"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункту 11 главы 2 ПДД, гласит: Водитель транспортного средства обязан предоставлять транспортное средство работникам ОВД для выполнения неотложных служебных заданий в случаях предусмотренных законам, а также для транспортировки поврежденных при дорожно-транспортных проишествиях или неисправных транспортных средств. (только грузовые автомобили)."
+        },
+        "uzk": {
+            "text": "Ҳайдовчи йўл-транспорт ҳодисасида шикастланган транспорт воситасини шатакка олиш учун юк автомобилини Ички ишлар ходими ихтиёрига қандай ҳолда бериши керак?",
+            "options": [
+                "F1. Фақат шу ҳолдаки, агар шатакка олиш йўл йўлакай йўналишда амалга оширилса",
+                "F2. Ҳар қандай ҳолда, фукароларга тегишли транспорт воситаларидан ташқари",
+                "F3. Ҳайдовчининг истаги бўйича"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2-боби 11-бандининг 3 пунктига асосан, қуйидаги ҳолларда транспорт воситасини фойдаланиш учун тақдим этиши: Ички ишлар ходимларига қонунда белгиланган холларда кечиктириб бўлмайдиган хизмат вазифаларини бажариш учун, шунингдек йўл-транспорт ҳодисаси туфайли шикастланган ёки носоз транспорт воситаларини олиб кетиш (шатакка олиш) учун (фақат юк автомобилидан)."
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "questionId": 474,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Haydovchi oq hassa bilan ishora berayotgan koʻzi ojiz piyodalarni oʻtkazib yuborishi kerakmi?",
+            "options": [
+                "F1. Barcha hollarda o'tkazib yuborishi kerak, shu jumladan, piyodalar o'tish joylardan tashqarida ham",
+                "F2. Tartibga solinadigan piyodalar o'tish joyida o'tkazib yuborishi kerak",
+                "F3. Tartibga solinmagan piyodalar o'tish joyida o'tkazib yuborishi kerak",
+                "F4. Har qanday piyodalar o'tish joyida o'tkazib yuborishi kerak"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 17-bobi 113-bandiga asosan: Barcha hollarda, shu jumladan, piyodalar o'tish joylaridan tashqarida ham haydovchi oq hassa bilan ishora berayotgan ko'zi ojiz piyoda(lar)ni oʻtkazib yuborishi kerak."
+        },
+        "ru": {
+            "text": "Должен ли водитель пропускать слепых пешеходов подающих сигнал белой тростью?",
+            "options": [
+                "F1. Должен во всех случаях, в том числе и вне пешеходных переходов",
+                "F2. Должен на регулируемом пешеходном переходе",
+                "F3. Должен на нерегулируемом пешеходном переходе",
+                "F4. Должен на любом пешеходном переходе"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункту 113 главы 17 ПДД, гласит: Во всех случаях, в том числе и вне пешеходных переходов, водитель должен пропускать слепых пешеходов, подающих сигнал белой тростью."
+        },
+        "uzk": {
+            "text": "Ҳайдовчи оқ ҳасса билан ишора бераётган кўзи ожиз пиёдаларни ўтказиб юбориши керакми?",
+            "options": [
+                "F1. Барча ҳолларда ўтказиб юбориши керак, шу жумладан, пиёдалар ўтиш жойлардан ташқарида ҳам",
+                "F2. Тартибга солинадиган пиёдалар ўтиш жойида ўтказиб юбориши керак",
+                "F3. Тартибга солинмаган пиёдалар ўтиш жойида ўтказиб юбориши керак",
+                "F4. Ҳар қандай пиёдалар ўтиш жойида ўтказиб юбориши керак"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 17-боби 113-бандига асосан: Барча ҳолларда, шу жумладан, пиёдалар ўтиш жойларидан ташқарида ҳам ҳайдовчи оқ ҳасса билан ишора бераётган кўзи ожиз пиёда (лар)ни ўтказиб юбориши керак."
+        }
+    }
+}

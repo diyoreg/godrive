@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  88,
+    "image":  "data/images/q0088.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "To\u0027xtagan transport vositasi bilan yotiq sidirg\u0027a chiziq orasidagi masofa qancha bo\u0027lganida to\u0027xtash taqiqlanadi?",
+                                    "options":  [
+                                                    "F1. 5,5 m",
+                                                    "F2. 3,5 m",
+                                                    "F3. 2,5 m"
+                                                ],
+                                    "correctAnswer":  5,
+                                    "explanation":  "YHQ 13-bobi 91-bandining to\u0027rtinchi xatboshisiga asosan, quyidagi joy va holatlarda to\u0027xtash taqiqlanadi: toʻxtagan transport vositasi bilan sidirg\u0027a chiziq (qatnov qismining chetini belgilovchi chiziqdan tashqari), ajratuvchi mintaqa yoki qatnov qismining qarama-qarshi cheti orasidagi masofa 3 metrdan kam bo\u0027lgan joylarda."
+                                },
+                         "ru":  {
+                                    "text":  "При каком расстоянии между остановившемся автомобилем и сплошной линией разметки запрещается остановка?",
+                                    "options":  [
+                                                    "F1. 5,5 м",
+                                                    "F2. 3,5 м",
+                                                    "F3. 2,5 м"
+                                                ],
+                                    "correctAnswer":  5,
+                                    "explanation":  "Пункта 91 главы 13 ПДД, гласит: что остановка запрещается в местах, где расстояние между сплошной линией разметки (кроме обозначающей край проезжей части) и остановившимся транспортным средством менее 3 м. Поэтому в данном случае только вариант 2,5 м меньше установленного ограничения. Во всех остальных вариантах остановка разрешена."
+                                },
+                         "uzk":  {
+                                     "text":  "Тўхтаган транспорт воситаси билан ётиқ сидирға чизиқ орасидаги масофа қанча бўлганида тўхташ тақиқланади?",
+                                     "options":  [
+                                                     "F1. 5,5 м",
+                                                     "F2. 3,5 м",
+                                                     "F3. 2,5 м"
+                                                 ],
+                                     "correctAnswer":  5,
+                                     "explanation":  "ЙҲҚ 13-боби 91-бандининг тўртинчи хатбошисига асосан, қуйидаги жой ва ҳолатларда тўхташ тақиқланади: тўхтаган транспорт воситаси билан сидирға чизиқ (қатнов қисмининг четини белгиловчи чизиқдан ташқари), ажратувчи минтақа ёки қатнов қисмининг қарама-қарши чети орасидаги масофа 3 метрдан кам бўлган жойларда."
+                                 }
+                     }
+}

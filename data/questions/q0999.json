@@ -1,0 +1,32 @@
+﻿{
+    "questionId":  999,
+    "image":  "data/images/q0999.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi tartibga solinmagan piyodalar o\u0027tish joyiga yaqinlashayotganlik haqida ogohlantiradi?",
+                                    "options":  [
+                                                    "F1. «A» va «Б»",
+                                                    "F2. Hammasi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 1.20. «Piyodalar o\u0027tish joyi»."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак предупреждает о приближении к нерегулируемому пешеходному переходу?",
+                                    "options":  [
+                                                    "F1. «A» и «Б»"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД преложиние №1: 1.20. «Пешеходный переход»."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги тартибга солинмаган пиёдалар ўтиш жойига яқинлашаётганлик ҳақида огоҳлантиради?",
+                                     "options":  [
+                                                     "F1. «A» ва «Б»",
+                                                     "F2. Ҳаммаси"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 1.20. «Пиёдалар ўтиш жойи»."
+                                 }
+                     }
+}

@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  894,
+    "image":  "data/images/q0894.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi haydovchiga kesib o\u0027tilayotgan yo\u0027lda harakatlanayotgan transport vositalariga yo\u0027l berishi lozimligini bildiradi?",
+                                    "options":  [
+                                                    "F1. «Б» va «Г»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ, 2.4. «Yo\u0027l bering» belgisi. 2.5. «Tuxtamasdan harakatlanish taqiqlangan» belgisi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак предписывает водителю уступить дорогу транспортным средствам, движущимся по пересекаемой дороге?",
+                                    "options":  [
+                                                    "F1. «Б» и «Г»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД, Знак 2.4. «Уступите дорогу». Знак 2.5. «Движение без остановки запрещено»."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги ҳайдовчига кесиб ўтилаётган йўлда ҳаракатланаётган транспорт воситаларига йўл бериши лозимлигини билдиради?",
+                                     "options":  [
+                                                     "F1. «Б» ва «Г»"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ, 2.4. «Йўл беринг» белгиси. 2.5. «Тухтамасдан ҳаракатланиш тақиқланган» белгиси."
+                                 }
+                     }
+}

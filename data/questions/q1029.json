@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  1029,
+    "image":  "data/images/q1029.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Chorrahadan birinchi o\u0027tish",
+                                                    "F2. «Т» simon svetoforning ruxsat beradigan ishorasini kutish va tramvayga yo\u0027l berib chapga chiqish",
+                                                    "F3. Tramvayga yo\u0027l berish"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 7-bobi 36-bandi: Tramvaylarning hamda maxsus ajratilgan tasma bo\u0027ylab harakatlanayotgan boshqa yo\u0027nalishli transport vositalarining harakatlanishini tartibga solish uchun “T” harfi ko\u0027rinishida joylashgan to\u0027rtta doirasimon oq rang ishorali svetoforlar qo\u0027llanilishi mumkin.\nYuqoridagi bir yoki bir nechta va pastki ishora bir vaqtning o\u0027zida yonganda, harakatlanishga ruxsat etiladi. Ulardan chapdagisi chapga, o\u0027ngdagisi o\u0027ngga, o\u0027rtadagisi to\u0027g\u0027riga yurishga ruxsat beradi. Pastdagi ishora o\u0027chirilib, yuqoridagi uchta ishora bir vaqtda yonsa, harakatlanish taqiqlanadi.\nYengil avtomobl chorrahadan birinchi o\u0027tadi."
+                                },
+                         "ru":  {
+                                    "text":  "Вы намерены повернуть налево. Ваши действия?",
+                                    "options":  [
+                                                    "F1. Проедете перекресток первым",
+                                                    "F2. Дождитесь, пока Т-образный светофор даст разрешение и уступите дорогу трамваю",
+                                                    "F3. Уступите дорогу трамваю"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 36 главы 7 ПДД, гласит: Для регулирования движения трамваев, а также других маршрутных транспортных средств, движущихся по специально выделенной для них полосе, могут применяться светофоры с четырьмя круглыми сигналами бело-лунного цвета, расположенными в виде буквы “Т”.\nДвижение разрешается при включении одновременно нижнего сигнала и одного или нескольких верхних. Из них левый разрешает движение налево, средний — прямо, правый — направо. Если включены только три верхних сигнала, то движение запрещено.\nЛегковой автомобиль первым пересекает перекресток."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Чорраҳадан биринчи ўтиш",
+                                                     "F2. «Т» симон светофорнинг рухсат берадиган ишорасини кутиш ва трамвайга йўл бериб чапга чиқиш",
+                                                     "F3. Трамвайга йўл бериш"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 7-боби 36-банди: Трамвайларнинг ҳамда махсус ажратилган тасма бўйлаб ҳаракатланаётган бошқа йўналишли транспорт воситаларининг ҳаракатланишини тартибга солиш учун “Т” ҳарфи кўринишида жойлашган тўртта доирасимон оқ ранг ишорали светофорлар қўлланилиши мумкин.\nЮқоридаги бир ёки бир нечта ва пастки ишора бир вақтнинг ўзида ёнганда, ҳаракатланишга рухсат этилади. Улардан чапдагиси чапга, ўнгдагиси ўнгга, ўртадагиси тўғрига юришга рухсат беради. Пастдаги ишора ўчирилиб, юқоридаги учта ишора бир вақтда ёнса, ҳаракатланиш тақиқланади.\nЕнгил автомобл чорраҳадан биринчи ўтади."
+                                 }
+                     }
+}

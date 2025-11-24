@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  26,
+    "image":  "data/images/q0026.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Tramvay va avtobus, yengil avtomobil",
+                                                    "F2. Tramvay, yengil avtomobil, avtobus",
+                                                    "F3. Yengil avtomobil, tramvay va avtobus",
+                                                    "F4. Вариант 4"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "IzohYHQ 15-bobi 100-bandiga asosan: Svetoforning qizil yoki sariq ishorasi bilan bir vaqtda yongan qoʻshimcha tarmoqning yo\u0027ʻnaltirgichli yashil ishorasi yo\u0027nalishida harakatlanayotgan transport vositasining haydovchisi boshqa yoʻnalishlarda harakatlanayotgan transport vositalariga yo\u0027l berishi kerak.\nYHQ 15-bobi 101-bandining ikkinchi xatboshisiga asosan: Svetoforning qizil yoki sariq ishorasi bilan bir vaqtda yongan qoʻshimcha tarmog\u0027ining yo\u0027naltirgichli yashil ishorasi yoʻnalishida harakatlanayotgan tramvay boshqa yo\u0027nalishlarda harakatlanayotgan transport vositalariga yoʻl berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Трамвай и автобус, легковой автомобиль",
+                                                    "F2. Трамвай, легковой автомобиль, автобус",
+                                                    "F3. Легковой автомобиль, трамвай и автобус",
+                                                    "F4. Вариант 4"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 100 главы 15 ПДД, гласит: При движении в направлении зеленой стрелки, включенной в дополнительной секции одновременно с желтым или красным сигналом светофора, водитель транспортного средства должен уступить дорогу транспортным средствам, движущимся с других направлений.\nВ данном случае водители трамвая и автобуса обязаны уступить дорогу легковому автомобилю, т.к. они движутся в направлении зеленой стрелки, включенной в дополнительной секции. Поэтому первым проедет перекресток легковой автомобиль, затем одновременно трамвай и автобус, т.к. они не являются помехой друг для друга."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Трамвай ва автобус, енгил автомобиль",
+                                                     "F2. Трамвай, енгил автомобиль, автобус",
+                                                     "F3. Енгил автомобиль, трамвай ва автобус",
+                                                     "F4. Вариант 4"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ИзоҳЙҲҚ 15-боби 100-бандига асосан: Светофорнинг қизил ёки сариқ ишораси билан бир вақтда ёнган қўшимча тармоқнинг йўналтиргичли яшил ишораси йўналишида ҳаракатланаётган транспорт воситасининг ҳайдовчиси бошқа йўналишларда ҳаракатланаётган транспорт воситаларига йўл бериши керак.\nЙҲҚ 15-боби 101-бандининг иккинчи хатбошисига асосан: Светофорнинг қизил ёки сариқ ишораси билан бир вақтда ёнган қўшимча тармоғининг йўналтиргичли яшил ишораси йўналишида ҳаракатланаётган трамвай бошқа йўналишларда ҳаракатланаётган транспорт воситаларига йўл бериши керак."
+                                 }
+                     }
+}

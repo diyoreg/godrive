@@ -1,0 +1,36 @@
+{
+    "questionId": 447,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Uch tasmali bo'lgan ikki tomonlama harakat tashkil qilingan yo'llarda ro'paradagi harakat uchun mo'ljallangan chetki chap tasmaga o'tishga ruxsat etiladimi?",
+            "options": [
+                "F1. Quvib o'tish uchun ruxsat etiladi",
+                "F2. Barcha hollarda ruxsat etiladi",
+                "F3. Taqiqlanadi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 10-bobi 66-bandiga asosan: Harakat ikki tomonlama bo'lgan va chiziqlar bilan belgilangan (1.9 yo'l chizig'i bilan belgilanganidan tashqari) uchta tasmali yo'llarda, ikki yo'nalishda harakatlanish uchun mo'ljallangan o'rta qatorga faqat quvib o'tish, aylanib o'tish, chapga burilish va qayrilib olish uchungina chiqishga ruxsat etiladi. Qarama-qarshi yo'nalishda harakatlanish uchun mo'ljallangan chetki chap qatorni egallash taqiqlanadi."
+        },
+        "ru": {
+            "text": "Разрешается ли выезжать на крайнюю левую полосу, предназначенную для встречного движения на дорогах с двухсторонним движением, имеющих три полосы?",
+            "options": [
+                "F1. Разрешается для обгона",
+                "F2. Разрешается во всех случаях",
+                "F3. Запрещается"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 66 главы 10 ПДД, гласит: На дорогах с двусторонним движением, имеющих три полосы (кроме обозначенных разметкой 1.9), на среднюю полосу разрешается выезжать только для обгона, поворота налево, разворота и объезда. Выезжать на крайнюю левую полосу, предназначенную для встречного движения, запрещается."
+        },
+        "uzk": {
+            "text": "Уч тасмали бўлган икки томонлама ҳаракат ташкил қилинган йўлларда рўпарадаги ҳаракат учун мўлжалланган четки чап тасмага ўтишга рухсат этиладими?",
+            "options": [
+                "F1. Қувиб ўтиш учун рухсат этилади",
+                "F2. Барча ҳолларда рухсат этилади",
+                "F3. Тақиқланади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 10-боби 66-бандига асосан: Ҳаракат икки томонлама бўлган ва чизиқлар билан белгиланган (1.9 йўл чизиғи билан белгиланганидан ташқари) учта тасмали йўлларда, икки йўналишда ҳаракатланиш учун мўлжалланган ўрта қаторга фақат қувиб ўтиш, айланиб ўтиш, чапга бурилиш ва қайрилиб олиш учунгина чиқишга рухсат етилади. Қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган четки чап қаторни егаллаш тақиқланади."
+        }
+    }
+}

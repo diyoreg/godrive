@@ -1,0 +1,39 @@
+{
+    "questionId": 238,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Belgilangan yo'nalishdagi transport vositalari yoki taksilarning to'xtab turish maydonchalaridan, ular boʻlmagan hollarda, to'xtash ko'rsatkichlaridan qanday masofada to'xtash va to'xtab turish taqiqlanadi?",
+            "options": [
+                "F1. 10 m",
+                "F2. 15 m",
+                "F3. 20 m",
+                "F4. 25 m"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 13-bobi 91-bandining toʻqqizinchi xatboshisiga asosan, quyidagi joy va holatlarda to'xtash taqiqlanadi: bekat maydonchalarida, yo'nalishli transport vositalari to'xtash joylarida, jumladan, 1.17 chizigʻi bilan belgilangan, ular bo'lmaganda esa yo'nalishli transport vositalari to'xtash joyi belgilari va bekatdan harakatlanish yoʻnalishi bo'ylab (yetmasdan va o'tib ketib) 15 metrdan kam masofada. (yo'nalishli transport vositalari harakatiga xalaqit bermasa yo'lovchilarni chiqarish yoki tushirish uchun to'xtash bundan mustasno)."
+        },
+        "ru": {
+            "text": "Ближе какого расстояния запрещается остановка и стоянка от остановочных площадок, а при их отсутствии, от указателя остановки маршрутных транспортных средств или такси, если это создает помехи их движению?",
+            "options": [
+                "F1. 10 м",
+                "F2. 15 м",
+                "F3. 20 м",
+                "F4. 25 м"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 8 пункта 91 главы 13 ПДД, остановка запрещается в следующих местах: На остановочных площадках, местах остановки маршрутных транспортных средств в том числе обозначенных дорожной разметкой 1.17 и ближе 15 метров от них с обеих сторон по ходу движения, при их отсутствии - от указателя места остановки маршрутных транспортных средств."
+        },
+        "uzk": {
+            "text": "Белгиланган йўналишдаги транспорт воситалари ёки таксиларнинг тўхтаб туриш майдончаларидан, улар бўлмаган ҳолларда, тўхташ кўрсаткичларидан қандай масофада тўхташ ва тўхтаб туриш тақиқланади?",
+            "options": [
+                "F1. 10 м",
+                "F2. 15 м",
+                "F3. 20 м",
+                "F4. 25 м"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 13-боби 91-бандининг тўққизинчи хатбошисига асосан, қуйидаги жой ва ҳолатларда тўхташ тақиқланади: бекат майдончаларида, йўналишли транспорт воситалари тўхташ жойларида, жумладан, 1.17 чизиғи билан белгиланган, улар бўлмаганда эса йўналишли транспорт воситалари тўхташ жойи белгилари ва бекатдан ҳаракатланиш йўналиши бўйлаб (етмасдан ва ўтиб кетиб) 15 метрдан кам масофада. (йўналишли транспорт воситалари ҳаракатига халақит бермаса йўловчиларни чиқариш ёки тушириш учун тўхташ бундан мустасно)."
+        }
+    }
+}

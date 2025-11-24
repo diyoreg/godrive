@@ -1,0 +1,36 @@
+{
+    "questionId": 806,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Avtomobilni qanday boshqarish usuli yonilg'i sarfini tejaydi?",
+            "options": [
+                "F1. Ohista (ravon) tezlanish va shiddat bilan sekinlashish bilan",
+                "F2. Shiddat bilan tezlanish va ohista (ravon) sekinlashish bilan",
+                "F3. Ohista (ravon) tezlanish va ohista (ravon) sekinlashish bilan"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Avtomobilning tezligini ravon orttirish va uni ohista ravon tormozlash yoqilg'i sarfini tejaydi."
+        },
+        "ru": {
+            "text": "Какое управление автомобилем экономит расход топлива ?",
+            "options": [
+                "F1. При плавном ускорении и резком замедлении",
+                "F2. При резком ускорении и плавном замедлении",
+                "F3. При плавном ускорении и плавном замедлении"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Плавное ускорение при разгоне и плавное замедление при торможении."
+        },
+        "uzk": {
+            "text": "Aвтомобилни қандай бошқариш усули ёнилғи сарфини тежайди?",
+            "options": [
+                "F1. Оҳиста (равон) тезланиш ва шиддат билан секинлашиш билан",
+                "F2. Шиддат билан тезланиш ва оҳиста (равон) секинлашиш билан",
+                "F3. Оҳиста (равон) тезланиш ва оҳиста (равон) секинлашиш билан"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Автомобилнинг тезлигини равон орттириш ва уни оҳиста равон тормозлаш ёқилғи сарфини тежайди."
+        }
+    }
+}

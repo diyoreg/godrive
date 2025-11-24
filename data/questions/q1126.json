@@ -1,0 +1,42 @@
+{
+    "questionId": 1126,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Traktorlarda",
+                "F2. Tirkama-uychada",
+                "F3. Yuk tashiladigan tirkamalarda",
+                "F4. Bolalarni yuk avtomobillarining yukxonasida",
+                "F5. Barcha hollarda tashish taqiqlanadi"
+            ],
+            "correctAnswer": 5,
+            "explanation": "YHQ 26-bobi 159-bandiga asosan: Odamlarni tashish quyidagi hollarda taqiqlanadi:\nbolalarni yuk avtomobillarining yukxonasida;\ntransport vositasining kabinasidan tashqarida (odam tashish uchun mo'ljallangan bortli yuk yoki furgon-yuk xonali avtomobillar bundan mustasno);\nTraktorlar va boshqa o'ziyurar uskunalar, yuk tashiladigan tirkamalar, tirkama-uycha, yuk mototsikllari, elektromototsikllar, mopedlar va skuterlar yukxonasida;"
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. На тракторах",
+                "F2. В прицепе-даче",
+                "F3. В грузовых прицепах",
+                "F4. Детей — в кузовах грузовых автомобилей",
+                "F5. Перевозка запрещена во всех случаях"
+            ],
+            "correctAnswer": 5,
+            "explanation": "Пункта 159 главы 26 ПДД, гласит: Запрещается перевозить людей в следующих случаях: ..."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Тракторларда",
+                "F2. Тиркама-уйчада",
+                "F3. Юк ташиладиган тиркамаларда",
+                "F4. Болаларни юк автомобилларининг юкхонасида",
+                "F5. Барча ҳолларда ташиш тақиқланади"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ЙҲҚ 26-боби 159-бандига асосан: Одамларни ташиш қуйидаги ҳолларда тақиқланади:\nболаларни юк автомобилларининг юкхонасида;\nтранспорт воситасининг кабинасидан ташқарида (одам ташиш учун мўлжалланган бортли юк ёки фургон-юк хонали автомобиллар бундан мустасно);\nТракторлар ва бошқа ўзиюрар ускуналар, юк ташиладиган тиркамалар, тиркама-уйча, юк мотоцикллари, электромотоцикллар, мопедлар ва скутерлар юкхонасида;"
+        }
+    }
+}

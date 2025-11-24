@@ -1,0 +1,36 @@
+{
+    "questionId": 852,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Mayda qon tomirlaridan ichki a'zolarga qonning oqib chiqishi kuzatiladi",
+                "F2. Qon tomiridan to'q qizil rangdagi qon sizib oqib chiqadi",
+                "F3. Qon tomiridan pushti rangli qon kuchli pulsatsiya bilan otilib chiqadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Qon tomiridan to'q qizil rangdagi qon sizib oqib chiqadi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Наблюдается приток крови из мелких сосудов к внутренним органам",
+                "F2. Из сосудов вытекает темно-красная кровь",
+                "F3. Розовая кровь бьёт из сосудов сильной пульсацией"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Из сосудов вытекает темно-красная кровь."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Майда қон томирларидан ички аъзоларга қоннинг оқиб чиқиши кузатилади",
+                "F2. Қон томиридан тўқ қизил рангдаги қон сизиб оқиб чиқади",
+                "F3. Қон томиридан пушти рангли қон кучли пулсатсия билан отилиб чиқади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Қон томиридан тўқ қизил рангдаги қон сизиб оқиб чиқади."
+        }
+    }
+}

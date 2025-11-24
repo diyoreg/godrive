@@ -1,0 +1,39 @@
+{
+    "questionId": 538,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Chiziqlar bilan tasmalarga ajratilgan yo'lning qatnov qismida transport vositalarining harakatlanishi qanday amalga oshirilishi kerak?",
+            "options": [
+                "F1. Qat'iy tasmalar bo'yicha, uzuq-uzuq chiziqni kesib o'tishga faqat qayta tizilishda ruxsat etiladi",
+                "F2. Agar qatnov qismi transport vositalaridan xoli bo'lsa, tasma boʻyicha qat'iy emas",
+                "F3. Agar transport vositalarining o'lchamlari eniga katta bo'lmasa, tasma bo'yicha qat'iy emas",
+                "F4. Agar qatnov qismida tirkamali avtomobillar bo'lmasa va bunda ancha tor harakat oralig'ini saqlash mumkin bo'lsa, tasmalar bo'yicha qat'iy emas"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 10-bobi 70-bandi: Agar qatnov qismi yo'l chiziqlari bilan tasmalarga ajratilgan bo'lsa, transport vositalarining harakatlanishi qat'iy ravishda belgilangan tasmalarda amalga oshirilishi kerak. Faqat qayta tizilishda uzuq-uzuq chiziqlarni bosib oʻtishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "Как должно осуществляться движение транспортных средств на дорогах, проезжая часть которых разделена на полосы линиями разметки?",
+            "options": [
+                "F1. Строго по полосам. Наезжать на прерывистые линии разметки разрешается лишь при перестроении",
+                "F2. Не строго по полосам, если проезжая часть свободна от транспортных средств",
+                "F3. Не строго по полосам, если габариты транспортных средств по ширине велики",
+                "F4. Не строго по полосам, если на проезжей части отсутствуют автомобили с прицепами и при этом интервал движения можно соблюдать гораздо меньший"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункт 70 главы 10 ПДД, гласит: Если проезжая часть разделена на полосы линиями разметки, движение транспортных средств должно осуществляться строго по полосам. Наезжать на прерывистые линии разметки разрешается только лишь при перестроении."
+        },
+        "uzk": {
+            "text": "Чизиқлар билан тасмаларга ажратилган йўлнинг қатнов қисмида транспорт воситаларининг ҳаракатланиши қандай амалга оширилиши керак?",
+            "options": [
+                "F1. Қатъий тасмалар бўйича, узук-узуқ чизиқни кесиб ўтишга фақат қайта тизилишда рухсат этилади",
+                "F2. Агар қатнов қисми транспорт воситаларидан холи бўлса, тасма бўйича қатъий эмас",
+                "F3. Агар транспорт воситаларининг ўлчамлари энига катта бўлмаса, тасма бўйича қатъий эмас",
+                "F4. Агар қатнов қисмида тиркамали автомобиллар бўлмаса ва бунда анча тор ҳаракат оралиғини саклаш мумкин бўлса, тасмалар бўйича қатъий эмас"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 10-боби 70-банди: Агар қатнов қисми йўл чизиқлари билан тасмаларга ажратилган бўлса, транспорт воситаларининг ҳаракатланиши қатъий равишда белгиланган тасмаларда амалга оширилиши керак. Фақат қайта тизилишда узуқ-узуқ чизиқларни босиб ўтишга рухсат этилади."
+        }
+    }
+}

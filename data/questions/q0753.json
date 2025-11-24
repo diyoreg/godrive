@@ -1,0 +1,36 @@
+{
+    "questionId": 753,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi hollarda Sizga harakatni davom ettirish taqiqlanadi, hatto ta’mirlash ustaxonasiga ham, agarda faralar va orqa gabarit chiroqlar nosoz bo'lsa?",
+            "options": [
+                "F1. Kunning qorong'u vaqtida",
+                "F2. Har ikki sanab o'tilgan holda",
+                "F3. Faqat yetarlicha ko'rinmaslik sharoitida"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2-bobi 12-bandi: Haydovchiga quyidagilar taqiqlanadi: tormoz tizimi, rul boshqaruvi ishlamayotgan, ulagich moslamasi (avtopoyezd tarkibida) nosoz bo'lgan, sutkaning qorong'i vaqtida yoki ko'rinish cheklangan vaziyatlarda yonmaydigan fara chiroqlari va orqa gabarit fara chiroqlari, yomg'ir yoki qor yogʻayotgan vaqtda oyna tozalagich ishlamaydigan transport vositasini boshqarish."
+        },
+        "ru": {
+            "text": "В каких случаях Вам запрещается дальнейшее движение даже до места ремонта или стоянки с не горящими (из-за неисправности) фарами и задними габаритными огнями?",
+            "options": [
+                "F1. Только в темное время суток",
+                "F2. В обоих перечисленных случаях",
+                "F3. Только в условиях недостаточной видимости"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 12 главы 2 ПДД, гласит: управлять транспортным средством, если на транспортном средстве не работает тормозная система, рулевое управление, стеклоочиститель со стороны водителя во время дождя или снегопада, неисправно сцепное устройство (в составе автопоезда), не горят или отсутствуют фары и задние габаритные огни в темное время суток или в условиях недостаточной видимости."
+        },
+        "uzk": {
+            "text": "Қайси ҳолларда Сизга ҳаракатни давом эттириш тақиқланади, ҳатто таъмирлаш устахонасига ҳам, агарда фаралар ва орқа габарит чироқлар носоз бўлса?",
+            "options": [
+                "F1. Куннинг қоронғи вақтида",
+                "F2. Ҳар икки санаб ўтилган ҳолда",
+                "F3. Фақат етарлича кўринмаслик шароитида"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2-боби 12-банди: Ҳайдовчига қуйидагилар тақиқланади: тормоз тизими, руль бошқаруви ишламаётган, улагич мосламаси (автопоезд таркибида) носоз бўлган, сутканинг қоронғи вақтида ёки кўриниш чекланган вазиятларда ёнмайдиган фара чироқлари ва орқа габарит фара чироқлари, ёмғир ёки қор ёғаётган вақтда ойна тозалагич ишламайдиган транспорт воситасини бошқариш."
+        }
+    }
+}

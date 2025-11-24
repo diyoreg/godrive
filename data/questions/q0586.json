@@ -1,0 +1,36 @@
+{
+    "questionId": 586,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Og'ir vaznli va katta o'lchamli yuklarni tashiyotgan transport vositalarining aholi punktlaridan tashqarida qanday tezlik bilan harakatlanishiga ruxsat etiladi?",
+            "options": [
+                "F1. 40 km/soatdan oshirmasdan",
+                "F2. 60 km/soatdan oshirmasdan",
+                "F3. Tashish shartlari bilan kelishilganda Davlat YHX xizmati ruxsat etganidan oshirmasdan"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 11-bobi 80-bandining to'rtinchi xatboshisiga asosan, har qanday yo'llarda: xavfli, ogʻir vaznli va katta oʻlchamli yuklarni tashiyotgan, tashkiliy jamlanmada harakatlanayotgan transport vositalariga DYHXX bilan kelishilgan tezlikdan oshirmasdan harakatlanishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "С какой скоростью вне населенных пунктов разрешается движение транспортных средств, осуществляющих перевозки тяжеловесных или крупногабаритных грузов?",
+            "options": [
+                "F1. Не более 40 км/час",
+                "F2. Не более 60 км/час",
+                "F3. Не более предписанной ГСБДД при согласовании условий перевозки"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 4 пункта 80 главы 12 ПДД, гласит: На всех дорогах: -транспортным средствам, перевозящим опасные, тяжеловесные, крупногабаритные грузы, а также движущимся в составе организованной колонны - со скоростью, согласованной с ГСБДД."
+        },
+        "uzk": {
+            "text": "Оғир вазнли ва катта ўлчамли юкларни ташиëтган транспорт воситаларининг аҳоли пунктларидан ташқарида қандай тезлик билан ҳаракатланишига рухсат этилади?",
+            "options": [
+                "F1. 40 км/соатдан оширмасдан",
+                "F2. 60 км/соатдан оширмасдан",
+                "F3. Ташиш шартлари билан келишилганда Давлат ЙХХ хизмати рухсат этганидан оширмасдан"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 11-боби 80-бандининг тўртинчи хатбошисига асосан, ҳар қандай йўлларда: хавфли, оғир вазнли ва катта ўлчамли юкларни ташиётган, ташкилий жамланмада ҳаракатланаётган транспорт воситаларига ДИҲХХ билан келишилган тезликдан оширмасдан ҳаракатланишга рухсат этилади."
+        }
+    }
+}

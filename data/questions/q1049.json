@@ -1,0 +1,39 @@
+{
+    "questionId": 1049,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Quyidagi ta'rif “transport vositasi harakatini 10 daqiqagacha bo'lgan muddatga to'xtatish (harakatsiz holatga keltirish)“ qaysi atamaga tegishli?",
+            "options": [
+                "F1. To'xtash",
+                "F2. Majburiy to'xtash",
+                "F3. Yo'l berish",
+                "F4. To'xtab turish"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ umumiy qoidalar 6-bandi: to'xtash — transport vositasi harakatini 10 daqiqagacha bo'lgan muddatga to'xtatish (harakatsiz holatga keltirish);"
+        },
+        "ru": {
+            "text": "Следующее определение: «прекращение движения транспортного средства на время до 10 минут (приведение в неподвижное состояние)» относится к какому термину?",
+            "options": [
+                "F1. Остановка",
+                "F2. Вынужденная остановка",
+                "F3. Уступить дорогу",
+                "F4. Стоянка"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД Общие положения пункт 6: Остановка – прекращение движения транспортного средства на время до 10 минут (приведение в неподвижное состояние)."
+        },
+        "uzk": {
+            "text": "Қуйидаги таъриф “транспорт воситаси ҳаракатини 10 дақиқагача бўлган муддатга тўхтатиш (ҳаракатсиз ҳолатга келтириш)“ қайси атамага тегишли?",
+            "options": [
+                "F1. Тўхташ",
+                "F2. Мажбурий тўхташ",
+                "F3. Йўл бериш",
+                "F4. Тўхтаб туриш"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ умумий қоидалар 6-банди: тўхташ — транспорт воситаси ҳаракатини 10 дақиқагача бўлган муддатга тўхтатиш (ҳаракатсиз ҳолатга келтириш);"
+        }
+    }
+}

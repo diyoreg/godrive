@@ -1,0 +1,36 @@
+{
+    "questionId": 240,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Velosiped yo'lkasi yo'l bilan kesishgan joylarda velosiped va moped haydovchilari qanday hollarda transport vositalariga yo'l berishlari kerak?",
+            "options": [
+                "F1. Chorrahadan tashqarida tartibga solinmagan kesishmada barcha hollarda",
+                "F2. Transport vositasi o'ngdan yaqinlashib kelganda",
+                "F3. Ko'rsatilgan joyda velosiped va moped haydovchilari imtiyozga egadirlar"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 28-bobi 169-bandiga asosan: Chorrahadan tashqaridagi tartibga solinmagan velosiped yo'lkasi bilan yo'l kesishmasida velosiped va individual harakatlanish vositalari yo'lda harakatlanayotgan boshqa transport vositalariga yo'l berishlari kerak."
+        },
+        "ru": {
+            "text": "В каких случаях водители велосипедов и мопедов должны уступать дорогу транспортным средствам в местах пересечения велосипедной дорожки с дорогой?",
+            "options": [
+                "F1. Во всех случаях на нерегулируемом пересечении вне перекрестков",
+                "F2. При приближении транспортного средства справа",
+                "F3. Водитель велосипеда и мопеда имеет преимущество в указанном месте"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 169 главы 28 ПДД гласит: Вне перекрестков, на нерегулируемом пересечении велосипедной дорожки с дорогой, велосипедисты и индивидуальные транспортных средства должны уступить дорогу транспортным средствам, движущимся по этой дороге."
+        },
+        "uzk": {
+            "text": "Велосипед йўлкаси йўл билан кесишган жойларда велосипед ва мопед ҳайдовчилари қандай ҳолларда транспорт воситаларига йўл беришлари керак?",
+            "options": [
+                "F1. Чорраҳадан ташқарида тартибга солинмаган кесишмада барча ҳолларда",
+                "F2. Транспорт воситаси ўнгдан яқинлашиб келганда",
+                "F3. Кўрсатилган жойда велосипед ва мопед ҳайдовчилари имтиёзга эгадирлар"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 28-боби 169-бандига асосан: Чорраҳадан ташқаридаги тартибга солинмаган велосипед йўлкаси билан йўл кесишмасида велосипед ва индивидуал ҳаракатланиш воситалари йўлда ҳаракатланаётган бошқа транспорт воситаларига йўл беришлари керак."
+        }
+    }
+}

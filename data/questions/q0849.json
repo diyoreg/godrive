@@ -1,0 +1,33 @@
+{
+    "questionId": 849,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sekinlashish bo'lagi bo'lgan yo'llarda burlmoqchi bo'lgan haydovchi qachon tezlikni kamaytirishi lozim?",
+            "options": [
+                "F1. Sekinlashish bo'lagiga o'tguncha",
+                "F2. Sekinlashish bo'lagiga o'tgach"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 9-bobi 61-bandi: Sekinlashish bo'lagi bor bo'lgan yo'lda burilmoqchi bo'lgan haydovchi o'z vaqtida ushbu tasmaga qayta tizilishi va tezlikni faqat unda kamaytirishi kerak.\nYo'lga chiqish joyida tezlashish bo'lagi bo'lsa, haydovchi unda harakatlanishi va qo'shni tasmada harakatlanayotgan transport vositalariga yo'l berib, transport oqimiga qo'shilishi kerak."
+        },
+        "ru": {
+            "text": "Когда водитель, который хочет повернуть на дорогах с полосой торможения, должен начать торможение?",
+            "options": [
+                "F1. Пока он не перейдет на полосу торможения",
+                "F2. После выхода на полосу торможения"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 61 главы 9 ПДД, гласит: При наличии полосы торможения водитель, намеревающийся повернуть, должен своевременно перестроиться на эту полосу и снижать скорость только на ней.\nПри наличии в месте выезда на дорогу полосы разгона водитель должен двигаться по ней и перестраиваться на соседнюю полосу, уступая дорогу транспортным средствам, движущимся по этой дороге."
+        },
+        "uzk": {
+            "text": "Секинлашиш бўлаги бўлган йўлларда бурлмоқчи бўлган ҳайдовчи қачон тезликни камайтириши лозим?",
+            "options": [
+                "F1. Секинлашиш бўлагига ўтгунча",
+                "F2. Секинлашиш бўлагига ўтгач"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 9-боби 61-банди: Секинлашиш бўлаги бўлган йўлларда бурилмоқчи бўлаётган ҳайдовчи ўз вақтида шу бўлакка ўтиши ва тезликни фақат унда камайтириши керак.\nЙўлга чиқиш жойида тезлашиш бўлаги бўлса, ҳайдовчи унда ҳаракатланиши ва қўшни бўлакда ҳаракатланаётган транспорт воситаларига йўл бериб, транспорт оқимига қўшилиши керак."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "questionId": 270,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Bolalarni tashkiliy tashishda qanday talablar qo'yiladi?",
+            "options": [
+                "F1. Bolalar guruhini tashkiliy tashishda transport vositasida katta yoshli kuzatib boruvchi bo'lishi shart",
+                "F2. Bolalar guruhini tashkiliy tashish uchun mo'ljallangan transport vositasining oldi va orqa tomoniga «Bolalar guruhini tashish» taniqlik belgisi o'rnatilishi shart",
+                "F3. Barcha sanab o'tilgan talablar"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 16-bobi 156-bandiga asosan: Bolalar guruhini tashkiliy tashishda avtobus (mikroavtobus)da katta yoshli kuzatib boruvchi(lar) bo'lishi shart.\nBunday avtobus (mikroavtobus)larning oldi va orqa tomoniga “Bolalar guruhini tashish” taniqlik belgisi o'rnatilishi kerak."
+        },
+        "ru": {
+            "text": "Какие требования предъявляются при организованой перевозке групп детей?",
+            "options": [
+                "F1. При перевозке групп детей в транспортном средстве с детьми должны находиться взрослые сопровождаюшие",
+                "F2. Транспортное средство должно быть обозначено спереди и сзади опознавательным знаком «Транспортное средство перевозящее группу детей»",
+                "F3. Все перечисленные требования"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 156 главы 26 ПДД, гласит: При организованной перевозке группы детей в автобусе (микроавтобусе) обязательно должен находиться взрослый сопровождающий,.\nТакие автобусы (микроавтобусы) должны иметь маркировку спереди и сзади знаком «Перевозка группы детей»."
+        },
+        "uzk": {
+            "text": "Болаларни ташкилий ташишда қандай талаблар қўйилади?",
+            "options": [
+                "F1. Болалар гуруҳини ташкилий ташишда транспорт воситасида катта ёшли кузатиб борувчи бўлиши шарт",
+                "F2. Болалар гуруҳини ташкилий ташиш учун мўлжалланган транспорт воситасининг олди ва орқа томонига «Болалар гуруҳини ташиш» таниқлик белгиси ўрнатилиши шарт",
+                "F3. Барча санаб ўтилган талаблар"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 16-боби 156-бандига асосан: Болалар гуруҳини ташкилий ташишда автобус (микроавтобус)да катта ёшли кузатиб борувчи(лар) бўлиши шарт.\nБундай автобус (микроавтобус)ларнинг олди ва орқа томонига “Болалар гуруҳини ташиш” таниқлик белгиси ўрнатилиши керак."
+        }
+    }
+}

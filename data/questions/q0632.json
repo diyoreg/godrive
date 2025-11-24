@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  632,
+    "image":  "data/images/q0632.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi rasmda harakatlanishning to\u0027g\u0027ri yo\u0027nalishi ko\u0027rsatilgan?",
+                                    "options":  [
+                                                    "F1. Birinchida",
+                                                    "F2. Ikkinchida",
+                                                    "F3. Ikkalasida"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1-ilovasi 4-bo\u0027limining oʻn birinchi xatboshisiga asosan: 4.2.2. «To\u0027siqni chapdan chetlab o\u0027tish». To\u0027siqni koʻrsatilgan yoʻnalish bo\u0027yicha chetlab o\u0027tishga ruxsat etilishini bildiradi. YHQ 2-ilovasi 1-boʻlimining o\u0027ttiz toʻqqizinchi xatboshisiga asosan: Ko\u0027chma tirgakka oʻrnatilgan vaqtinchalik yoʻl belgilari va chiziqlar ma\u0027no jihatidan bir-biriga zid kelsa, haydovchilar vaqtinchalik yo\u0027l belgilariga amal qilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "На каком рисунке показано правильное направление движения?",
+                                    "options":  [
+                                                    "F1. На первом",
+                                                    "F2. На втором",
+                                                    "F3. На обоих"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Предписывающий знак 4.2.2 \"Объезд препятствия слева\". Объезд разрешается только со стороны, указанной стрелкой.\nВ данном случае объезд разрешается только слева. Соответственно, правильно совершает объезд водитель мотоцикла на втором рисунке. Следует учесть, что в случаях, когда значение временных дорожных знаков (на переносной стойке) и стационарных знаков противоречат друг другу, водители должны руководствоваться временными знаками."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси расмда ҳаракатланишнинг тўғри йўналиши кўрсатилган?",
+                                     "options":  [
+                                                     "F1. Биринчида",
+                                                     "F2. Иккинчида",
+                                                     "F3. Иккаласида"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1-иловаси 4-бўлимининг ўн биринчи хатбошисига асосан: 4.2.2. «Тўсиқни чапдан четлаб ўтиш». Тўсиқни кўрсатилган йўналиш бўйича четлаб ўтишга рухсат этилишини билдиради. ЙҲҚ 2-иловаси 1-бўлимининг ўттиз тўққизинчи хатбошисига асосан: Кўчма тиргакка ўрнатилган вақтинчалик йўл белгилари ва чизиқлар маъно жиҳатидан бир-бирига зид келса, ҳайдовчилар вақтинчалик йўл белгиларига амал қилишлари керак."
+                                 }
+                     }
+}

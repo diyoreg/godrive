@@ -1,0 +1,36 @@
+{
+    "questionId": 723,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar avtomobil antiblokirovkali (ABS) tormoz tizimi bilan jihozlangan bo'lsa keskin tormoz berishni qanday amalga oshirishi kerak?",
+            "options": [
+                "F1. Tormoz tepkisini uzib-uzib bosish yo'li bilan",
+                "F2. To'xtab turish tormozi tizimini qo'llash yo'li bilan",
+                "F3. Tormoz tepkisini oxirigacha bosish va avtomobilni to'liq to'xtaguncha tepkini qo'yib yubormaslik"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Agar transport vositasi antiblokirovkali (ABS) tormoz tizimi bilan jihozlangan bo'lsa, shinaning qatnov qismi qoplamasi bilan tishlashishini shu tizim nazorat qiladi. Shuning uchun favqulodda tormozlash paytida tormoz pedalini oxirigacha bosib turish kerak."
+        },
+        "ru": {
+            "text": "Как правильно произвести экстренное торможение, если автомобиль оборудован антиблокировочной тормозной системой?",
+            "options": [
+                "F1. Путем прерывистого нажатия на педаль тормоза",
+                "F2. Путем использования стояночной тормозной системы",
+                "F3. Путем нажатия на педаль тормоза до упора и удерживания ее до полной остановки"
+            ],
+            "correctAnswer": 3,
+            "explanation": "При наличии на автомобиле антиблокировочной тормозной системы (ABS) контроль над сцеплением шины с покрытием проезжей части возложен на эту систему. Поэтому при экстренном торможении следует нажать на педаль тормоза до упора и удерживать ее до полной остановки."
+        },
+        "uzk": {
+            "text": "Агар автомобиль антиблокировкали (ABS) тормоз тизими билан жиҳозланган бўлса кескин тормоз беришни қандай амалга ошириши керак?",
+            "options": [
+                "F1. Тормоз тепкисини узиб-узиб босиш йўли билан",
+                "F2. Тўхтаб туриш тормози тизимини қўллаш йўли билан.",
+                "F3. Тормоз тепкисини охиригача босиш ва автомобилни тўлиқ тўхтагунча тепкини қўйиб юбормаслик"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Агар транспорт воситаси антиблокировкали (АВ5) тормоз тизими билан жиҳозланган бўлса, шинанинг қатнов қисми қопламаси билан тишлашишини шу тизим назорат қилади. Шунинг учун фавқулодда тормозлаш пайтида тормоз педалини охиригача босиб туриш керак."
+        }
+    }
+}

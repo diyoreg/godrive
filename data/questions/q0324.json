@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  324,
+    "image":  "data/images/q0324.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Enli uzuq-uzuq chiziq ko\u0027rinishidagi yotiq chiziq nimani bildiradi?",
+                                    "options":  [
+                                                    "F1. Qatnov qismi bilan yo\u0027l yoqasi o\u0027rtasidagi chegarani",
+                                                    "F2. Tezlashish yoki sekinlashish bo\u0027lagi bilan qatnov qismi asosiy boʻlagi o\u0027rtasidagi chegarani",
+                                                    "F3. Transport vositalarining to\u0027xtashi va to\u0027xtab turishi uchun belgilangan maydonchalarni"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 2-ilovasi 1-boʻlimining o\u0027ninchi xatboshisiga asosan: 1.8 (enli uzuq-uzuq chiziq) — tezlashish yoki sekinlashish bo\u0027lagi bilan yo\u0027lning qatnov qismidagi asosiy bo\u0027lagi o\u0027rtasidagi chegarani bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Что обозначает прерывистая широкая линия?",
+                                    "options":  [
+                                                    "F1. Границу между проезжей частью дороги и обочиной",
+                                                    "F2. Границу между основной проезжей частью и полосой разгона или торможения",
+                                                    "F3. Площадки для остановки и стоянки транспортных средств"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Горизонтальная разметка 1.8 (широкая прерывистая линия) - обозначает границу между полосой разгона или торможения и основной полосой проезжей части (на перекрестках, пересечениях дорог на разных уровнях, в зоне автобусных остановок и т.п.)."
+                                },
+                         "uzk":  {
+                                     "text":  "Энли узуқ-узуқ чизиқ кўринишидаги ётиқ чизиқ нимани билдиради?",
+                                     "options":  [
+                                                     "F1. Қатнов қисми билан йўл ёқаси ўртасидаги чегарани",
+                                                     "F2. Тезлашиш ëки секинлашиш бўлаги билан қатнов қисми асосий бўлаги ўртасидаги чегарани",
+                                                     "F3. Транспорт воситаларининг тўхташи ва тўхтаб туриши учун белгиланган майдончаларни"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг ўнинчи хатбошисига асосан: 1.8 (энли узуқ-узуқ чизиқ) — тезлашиш ёки секинлашиш бўлаги билан йўлнинг қатнов қисмидаги асосий бўлаги ўртасидаги чегарани билдиради."
+                                 }
+                     }
+}

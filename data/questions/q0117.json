@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  117,
+    "image":  "data/images/q0117.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan holatda yengil avtomobilga to\u0027xtab turishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat etiladi",
+                                                    "F2. Taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 13-bobi 91-bandining oʻninchi xatboshisiga asosan, quyidagi joy va holatlarda toʻxtash taqiqlanadi: transport vositasi svetofor ishoralari, yo\u0027l belgilarini boshqa haydovchilardan to\u0027sib qo\u0027yadigan, boshqa transport vositalarining harakatlanishiga (kirish va chiqishiga) imkon qoldirmaydigan yoki piyodalarning harakatiga xalaqit beradigan joylarda."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли стоянка легковому автомобилю в показанной ситуации?",
+                                    "options":  [
+                                                    "F1. Разрешается",
+                                                    "F2. Запрещается"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Aбзацу 10 пункта 91 главы 13 ПДД, остановка запрещается в следующих местах: в местах, где транспортное средство закроет от других водителей сигналы светофора, дорожные знаки или сделает невозможным движение (въезд или выезд) других транспортных средств или создаст помехи для движения пешеходов."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган ҳолатда енгил автомобилга тўхтаб туришга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Рухсат этилади",
+                                                     "F2. Тақиқланади"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 13-боби 91-бандининг ўнинчи хатбошисига асосан, қуйидаги жой ва ҳолатларда тўхташ тақиқланади: транспорт воситаси светофор ишоралари, йўл белгиларини бошқа ҳайдовчилардан тўсиб қўядиган, бошқа транспорт воситаларининг ҳаракатланишига (кириш ва чиқишига) имкон қолдирмайдиган ёки пиёдаларнинг ҳаракатига халақит берадиган жойларда."
+                                 }
+                     }
+}

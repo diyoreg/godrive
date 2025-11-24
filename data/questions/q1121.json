@@ -1,0 +1,35 @@
+﻿{
+    "questionId":  1121,
+    "image":  "data/images/q1121.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu belgilardan qaysi biri qayrilib olishga ruxsat beradi?",
+                                    "options":  [
+                                                    "F1. Faqat 1 va 2",
+                                                    "F2. Faqat 2 va 3",
+                                                    "F3. Barchasi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 3.18.1. “O\u0027ngga burilish taqiqlangan”.\n\n3.18.2. “Chapga burilish taqiqlanadi”.\n\n3.19. “Qayrilish taqiqlangan”."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из этих знаков разрешает разворот?",
+                                    "options":  [
+                                                    "F1. Только 1 и 2",
+                                                    "F2. Только 2 и 3"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 1: Знак 3.18.1 Поворот направо запрещен.\n\nЗнак 3.18.2 Поворот налево запрещен.\n\nЗнак 3.19 Разворот запрещен"
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу белгилардан қайси бири қайрилиб олишга рухсат беради?",
+                                     "options":  [
+                                                     "F1. Фақат 1 ва 2",
+                                                     "F2. Фақат 2 ва 3",
+                                                     "F3. Барчаси"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 3.18.1. “Ўнгга бурилиш тақиқланган”.\n\n3.18.2. “Чапга бурилиш тақиқланади”.\n\n3.19. “Қайрилиш тақиқланган”."
+                                 }
+                     }
+}

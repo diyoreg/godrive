@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  420,
+    "image":  "data/images/q0420.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan belgilardan qaysi biri avtopoyezdni bildirish uchun o\u0027rnatiladi?",
+                                    "options":  [
+                                                    "F1. Chap belgi",
+                                                    "F2. O\u0027ng belgi",
+                                                    "F3. Har ikki belgi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 29-bobi 176-bandining birinchi xatboshisiga asosan: «Avtopoezd» — yuk avtomobillari va g\u0027ildirakli traktor (1,4 tonna va undan yuqori) larda tirkama bo\u0027lganda, shuningdek tutashtirilgan avtobus va trolleybus kabinalari tomining old qismi oʻrtasiga bir qator qilib 150 dan 300 millimetrgacha oraliqda ko\u0027ndalang joylashgan uchta zarg\u0027aldoq rangli chiroq yoki ichidan yoritiladigan, tomonlarining har biri 250 millimetr boʻlgan sariq rangli uchburchak shaklidagi belgi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из указанных знаков устанавливается для обозначения автопоезда?",
+                                    "options":  [
+                                                    "F1. Левый знак",
+                                                    "F2. Правый знак",
+                                                    "F3. Оба знака"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Опознавательный знак \"Автопоезд\" - знак в виде трех фонарей оранжевого цвета, расположенных горизонтально, посередине над передней частью кабины с промежутком между ними от 150 до 300 мм или в виде равностороннего треугольника желтого цвета, каждая сторона которого 250 мм, с устройством для внутреннего освещения - на грузовых автомобилях и колесных тракторах (1,4 т и выше) с прицепами, а также на сочлененных автобусах и троллейбусах. Соответственно, оба знака могут устанавливаться для обозначения автопоезда."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган белгилардан қайси бири автопоездни билдириш учун ўрнатилади?",
+                                     "options":  [
+                                                     "F1. Чап белги",
+                                                     "F2. Ўнг белги",
+                                                     "F3. Ҳар икки белги"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙХК 29-боби 176-бандининг биринчи хатбошисига асосан: «Автопоезд» — юк автомобиллари ва ғилдиракли трактор (1,4 тонна ва ундан юқори) ларда тиркама бўлганда, шунингдек туташтирилган автобус ва троллейбус кабиналари томининг олд қисми ўртасига бир қатор қилиб 150 дан 300 миллиметргача оралиқда кўндаланг жойлашган учта зарғалдоқ рангли чироқ ёки ичидан ёритиладиган, томонларининг ҳар бири 250 миллиметр бўлган сариқ рангли учбурчак шаклидаги белги."
+                                 }
+                     }
+}

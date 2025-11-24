@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  136,
+    "image":  "data/images/q0136.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Sirpanchiq yo\u0027lda orqa yetakchi avtomobil uchun tormozlashning qaysi usuli xavfsiz to\u0027xtashni ta\u0027minlaydi?",
+                                    "options":  [
+                                                    "F1. Ulagichni uzmasdan tormoz tepkisini keskin bosish",
+                                                    "F2. Ulagichni uzmasdan tormoz tepkisini ko\u0027plab marta uzuq-uzuq bosish va qo\u0027yib yuborish",
+                                                    "F3. Ulagichni uzgan holda tormozlash"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Sirpanchiq yo\u0027lda to\u0027xtatish tepkisini uzuq-uzuq bosib, uzatma va ilashish mexanizmini ajratmay, dvigatel orqali tormozlanishni qoʻllab va g\u0027ildiraklarning blokirovkasi (aylanmasdan sirpanishi) ga yoʻl qo\u0027ymagan holda to\u0027xtash lozim."
+                                },
+                         "ru":  {
+                                    "text":  "Какой прием торможения обеспечивает безопасную остановку заднеприводного автомобиля на скользкой дороге?",
+                                    "options":  [
+                                                    "F1. Резкое нажатие на педаль тормоза без выключения сцепления",
+                                                    "F2. Прерывистое торможение без выключения сцепления",
+                                                    "F3. Торможение с выключенным сцеплением"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Безопасная остановка заднеприводного автомобиля на скользкой дороге обеспечивается прерывистым торможением без выключения сцепления. Резкое нажатие на педаль тормоза приведет к сильному заносу. Выключать сцепление нежелательно, т.к. при включенном сцеплении происходит \"торможение двигателем\"."
+                                },
+                         "uzk":  {
+                                     "text":  "Сирпанчиқ йўлда орқа етакчи автомобиль учун тормозлашнинг қайси усули хавфсиз тўхташни таъминлайди?",
+                                     "options":  [
+                                                     "F1. Улагични узмасдан тормоз тепкисини кескин босиш",
+                                                     "F2. Улагични узмасдан тормоз тепкисини кўплаб марта узук-узуқ босиш ва қўйиб юбориш",
+                                                     "F3. Улагични узган ҳолда тормозлаш"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "Сирпанчиқ йўлда тўхтатиш тепкисини узуқ-узуқ босиб, узатма ва илашиш механизмини ажратмай, двигатель орқали тормозланишни қўллаб ва ғилдиракларнинг блокировкаси (айланмасдан сирпаниши)га йўл қўймаган ҳолда тўхташ лозим."
+                                 }
+                     }
+}

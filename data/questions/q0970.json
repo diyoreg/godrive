@@ -1,0 +1,36 @@
+{
+    "questionId": 970,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Avtomobillarning bir qator bo'lib harakatlanishi uchun yetarlicha keng bo'lgan, yo'l chiziqlari bilan belgilangan yoki belgilanmagan yo'l qatnov qismining har qanday bo'ylama tasmasi",
+                "F2. Yo'lning yonma-yon joylashgan qatnov qismlarini ajratuvchi, transport vositalari harakatlanishi yoki to'xtashi uchun mo'ljallanmagan, yo'l sathidan baland va (yoki) 1.1 yotiq chizig'i bilan belgilangan qismi",
+                "F3. Yo'lning relssiz transport vositalari harakati uchun mo'ljallangan qismi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ umumiy qoidalar: Harakatlanish tasmasi — avtomobillarning bir qator bo'lib harakatlanishi uchun yetarlicha keng bo'lgan, yoʻl chiziqlari bilan belgilangan yoki belgilanmagan yo'l qatnov qismining har qanday bo'ylama tasmasi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Любая из продольных полос проезжей части, обозначенная или необозначенная дорожной разметкой и имеющая ширину, достаточную для движения автомобилей в один ряд",
+                "F2. Элемент дороги, разделяющий смежные проезжие части и не предназначенный для движения и остановки транспортных средств, расположенный выше уровня дороги и (или) обозначенный дорожной разметкой 1.1",
+                "F3. Часть дороги, предназначенная для движения безрельсовых транспортных средств"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения: Полоса движения — любая из продольных полос проезжей части, обозначенная или необозначенная дорожной разметкой и имеющая ширину, достаточную для движения автомобилей в один ряд."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Автомобилларнинг бир қатор бўлиб ҳаракатланиши учун етарлича кенг бўлган, йўл чизиқлари билан белгиланган ёки белгиланмаган йўл қатнов қисмининг ҳар қандай бўйлама тасмаси",
+                "F2. Йўлнинг ёнма-ён жойлашган қатнов қисмларини ажратувчи, транспорт воситалари ҳаракатланиши ёки тўхташи учун мўлжалланмаган, йўл сатҳидан баланд ва (ёки) 1.1 ётиқ чизиғи билан белгиланган қисми",
+                "F3. Йўлнинг рельссиз транспорт воситалари ҳаракати учун мўлжалланган қисми"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ умумий қоидалар: Ҳаракатланиш тасмаси — автомобилларнинг бир қатор бўлиб ҳаракатланиши учун етарлича кенг бўлган, йўл чизиқлари билан белгиланган ёки белгиланмаган йўл қатнов қисмининг ҳар қандай бўйлама тасмаси."
+        }
+    }
+}

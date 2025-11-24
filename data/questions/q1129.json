@@ -1,0 +1,33 @@
+{
+    "questionId": 1129,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "To'xtab turish deb nimaga aytiladi?",
+            "options": [
+                "F1. Transport vositasi harakatini 10 daqiqagacha bo'lgan muddatga to'xtatish (harakatsiz holatga keltirish)",
+                "F2. Transport vositasiga yo'lovchilarni chiqarish yoki tushirish, yuk ortish yoki tushirish bilan bog‘liq bo'lmagan hollarda harakatni 10 daqiqadan ko'proq vaqtga atayin to'xtatish"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilova 1-bob. Umumiy qoidalar: To'xtab turish — transport vositasiga yo'lovchilarni chiqarish yoki tushirish, yuk ortish yoki tushirish bilan bog‘liq bo'lmagan hollarda harakatni 10 daqiqadan ko'proq vaqtga atayin to'xtatish"
+        },
+        "ru": {
+            "text": "Что считается стоянкой?",
+            "options": [
+                "F1. Прекращение движения транспортного средства на время до 10 минут (приведение в неподвижное состояние).",
+                "F2. Преднамеренное прекращение движения транспортного средства на время более 10 минут по причинам, не связанным с посадкой или высадкой пассажиров либо загрузкой или разгрузкой транспортного средства."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Приложение №1 ПДД Общие правила: Стоянка — преднамеренное прекращение движения транспортного средства на время более 10 минут по причинам, не связанным с посадкой или высадкой пассажиров либо загрузкой или разгрузкой транспортного средства."
+        },
+        "uzk": {
+            "text": "Тўхтаб туриш деб нимага айтилади?",
+            "options": [
+                "F1. Транспорт воситаси ҳаракатини 10 дақиқагача бўлган муддатга тўхтатиш (ҳаракатсиз ҳолатга келтириш)",
+                "F2. Транспорт воситасига йўловчиларни чиқариш ёки тушириш, юк ортиш ёки тушириш билан боғлиқ бўлмаган ҳолларда ҳаракатни 10 даqiqадан кўпроқ вақтга атайин тўхтатиш"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-илова 1-боб. Умумий қоидалар: Тўхтаб туриш — транспорт воситасига йўловчиларни чиқариш ёки тушириш, юк ортиш ёки тушириш билан боғлиқ бўлмаган ҳолларда ҳаракатни 10 дақиқадан кўпроқ вақтга атайин тўхтатиш"
+        }
+    }
+}

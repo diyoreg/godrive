@@ -1,0 +1,39 @@
+{
+    "questionId": 825,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Kuchli ter ajralishi",
+                "F2. Og'iz qurishi, chanqoqlik, nafas olishning tezlashuvi",
+                "F3. Teri va shilliq qavatining oqarishi",
+                "F4. Yuqoridagi barcha holatlar"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Yuqoridagi barcha holatlar."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Сильное потоотделение",
+                "F2. Сухость рта, жажда, учащённое дыхание",
+                "F3. Побледнение кожи и слизистых оболочек",
+                "F4. Все вышеперечисленное"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Все вышеперечисленное."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Кучли тер ажралиши",
+                "F2. Оғиз қуриши, чанқоқлик, нафас олишнинг тезлашуви",
+                "F3. Тери ва шиллиқ қаватининг оқариши",
+                "F4. Юқоридаги барча ҳолатлар"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Юқоридаги барча ҳолатлар."
+        }
+    }
+}

@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  758,
+    "image":  "data/images/q0758.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan yo\u0027l belgilaridan qaysilari Siz yo\u0027lning tor qismida yo\u0027l berishingizni talab qiladi?",
+                                    "options":  [
+                                                    "F1. Faqat «B»",
+                                                    "F2. «Б» va «B»",
+                                                    "F3. «Б» va «Г»",
+                                                    "F4. «A» va «B»"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 21-bobi 128-bandi: Agar yo\u0027lning 1.13 va 1.14 yo\u0027l belgilari bilan belgilangan qiyaliklarda, qarama-qarshi yo\u0027nalishlarda harakatlanishni qiyinlashtiradigan to\u0027siq bo\u0027lsa, nishablikka harakatlanayotgan transport vositasining haydovchisi yo\u0027l berishi kerak.\n1 ilova: 2.6. «Ro\u0027para harakatlanishning ustunligi». Qarama-qarshi harakatlanishni qiyinlashtiradigan hollarda yo\u0027lning tor qismiga kirish taqiqlanadi. Haydovchi yo\u0027lning tor qismida bo\u0027lgan yoki ro\u0027paradan unga yaqin bo\u0027lgan transport vositasiga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Какие знаки требует, что Вы должны уступить дорогу, если встречный разъезд затруднен?",
+                                    "options":  [
+                                                    "F1. Только «В»",
+                                                    "F2. «Б» и «В»",
+                                                    "F3. «Б» и «Г»",
+                                                    "F4. «А» и «В»"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Пункта 128 главы 21 ПДД, гласит: На уклонах, обозначенных дорожными знаками 1.13 и 1.14, при наличии препятствия, затрудняющего движение в противоположных направлениях, уступить дорогу должен водитель транспортного средства, движущегося на спуск.\nПриложение № 1: 2.6. «Преимущество встречного движения». Запрещается въезд на узкий участок дороги, если это может затруднить встречное движение. Водитель должен уступить дорогу встречным транспортным средствам, находящимся на узком участке или противоположном подъезде к нему."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган йўл белгиларидан қайсилари Сиз йўлнинг тор қисмида йўл беришингизни талаб қилади?",
+                                     "options":  [
+                                                     "F1. Фақат «В»",
+                                                     "F2. «Б» ва «В»",
+                                                     "F3. «Б» ва «Г»",
+                                                     "F4. «A» ва «В»"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 21-боби 128-банди: Агар йўлнинг 1.13 ва 1.14 йўл белгилари билан белгиланган қияликларда, қарама-қарши йўналишларда ҳаракатланишни қийинлаштирадиган тўсиқ бўлса, нишабликка ҳаракатланаётган транспорт воситасининг ҳайдовчиси йўл бериши керак.\n1 илова: 2.6. «Рўпара ҳаракатланишнинг устунлиги». Қарама-қарши ҳаракатланишни қийинлаштирадиган ҳолларда йўлнинг тор қисмига кириш тақиқланади. Ҳайдовчи йўлнинг тор қисмида бўлган ёки рўпарадан унга яқин бўлган транспорт воситасига йўл бериши керак."
+                                 }
+                     }
+}

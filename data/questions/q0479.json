@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  479,
+    "image":  "data/images/q0479.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Svetoforning bir vaqtda yoqilgan qizil va sariq ishoralari nimani bildiradi?",
+                                    "options":  [
+                                                    "F1. Harakatni boshlash mumkin",
+                                                    "F2. Harakatni taqiqlaydi va tezda yashil ishora yoqilishi haqida ogohlantiradi",
+                                                    "F3. Chorrahaga maxsus ovoz yoki miltillovchi chiroq bilan ishora berayotgan transport vositasi yaqinlashib kelayotganligini"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 7-bobi 31-bandining yettinchi xatboshisiga asosan, svetoforning doirali ishoralari quyidagi ma\u0027noni bildiradi: qizil va sariq ishoralarning bir vaqtda yonishi harakatlanishni taqiqlaydi va koʻp o\u0027tmay yashil ishora yonishi haqida axborot beradi."
+                                },
+                         "ru":  {
+                                    "text":  "Что обозначают одновременно включенные красный и желтый сигналы светофора?",
+                                    "options":  [
+                                                    "F1. Можно начинать движение",
+                                                    "F2. Запрещает движение и информирует о скором включении зеленого света",
+                                                    "F3. Приближение к перекрестку транспортного средства, подающего звуковой или световой сигнал"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункту 31 главы 7 ПДД, гласит: Сочетание красного и желтого сигналов запрещает движение и информирует о предстоящем включении зеленого сигнала."
+                                },
+                         "uzk":  {
+                                     "text":  "Светофорнинг бир вақтда ёқилган қизил ва сариқ ишоралари нимани билдиради?",
+                                     "options":  [
+                                                     "F1. Ҳаракатни бошлаш мумкин",
+                                                     "F2. Ҳаракатни тақиқлайди ва тезда яшил ишора ёқилиши ҳақида огоҳлантиради",
+                                                     "F3. Чорраҳага махсус овоз ëки милтилловчи чирок билан ишора бераётган транспорт воситаси яқинлашиб келаëтганлигини"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 7-боби 31-бандининг еттинчи хатбошисига асосан, светофорнинг доирали ишоралари қуйидаги маънони билдиради: қизил ва сариқ ишораларнинг бир вақтда ёниши ҳаракатланишни тақиқлайди ва кўп ўтмай яшил ишора ёниши ҳақида ахборот беради."
+                                 }
+                     }
+}

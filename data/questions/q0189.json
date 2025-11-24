@@ -1,0 +1,36 @@
+{
+    "questionId": 189,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qon oqishini to'xtatuvchi jgut qo'l oyoqlarni qayeridan bog'lanadi?",
+            "options": [
+                "F1. Yaradan 10-15 sm pastga",
+                "F2. Yaradan 10-15 sm yuqoriga",
+                "F3. Bevosita yaraning o'ziga"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Jgut qo'yilishi deyarli barcha hollarda arterial qon ketishini toʻxtatadi. Arterial qon ketishini toʻxtatish uchun jgut avtomobilning tibbiy qutichasida ham mavjud. Jgut bo'lmagan hollarda kamar, belbog', podtyajkalar va boshqa shunga o'xshash vositalar qo'llanilishi mumkin. Jgut qo'l yoki oyoqqa qon ketish joyidan yuqoriroq joyga ikki – uch marta aylantirib, faqat kiyim ustidan qo'yiladi yoki uning tagiga bir necha qatlamdan iborat (dast) roʻmol, sochiq yoxud boshqa gazlamadan astar qo'yiladi. Jgut cho'zib mahkamlanadi va qon ketishi toʻxtagan vaqtdan so'ng, cho'zishdan to'xtatiladi. Jgutga u qo'yilgan vaqtni ko'rsatuvchi kichik qaydnoma qistirib qo'yiladi."
+        },
+        "ru": {
+            "text": "Как правильно выбрать место наложения кровоостанавливающего жгута на конечности?",
+            "options": [
+                "F1. Ниже раны на 10-15 см",
+                "F2. Выше раны на 10-15 см",
+                "F3. Непосредственно на рану"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Кровоостанавливающий жгут на конечности следует накладывать выше раны на 10-15 см, чтобы кровь не поступала к ране, иначе произойдет кровопотеря."
+        },
+        "uzk": {
+            "text": "Қон оқишини тўхтатувчи жгут қўл оёқларни қаеридан боғланади?",
+            "options": [
+                "F1. Ярадан 10-15 см пастга",
+                "F2. Ярадан 10-15 см юқорига",
+                "F3. Бевосита яранинг ўзига"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Жгут бўлмаган ҳолларда камар, белбоғ, подтяжкалар ва бошқа шунга ўхшаш воситалар қўлланилиши мумкин. Жгут қўл ёки оёққа қон кетиш жойидан юқорироқ жойга икки – уч марта айлантириб, фақат кийим устидан қўйилади ёки унинг тагига бир неча қатламдан иборат (даст) рўмол, сочиқ ёхуд бошқа газламадан астар қўйилади. Жгут чўзиб маҳкамланади ва қон кетиши тўхтаган вақтдан сўнг, чўзишдан тўхтатилади. Жгутга у қўйилган вақтни кўрсатувчи кичик қайднома қистириб қўйилади."
+        }
+    }
+}

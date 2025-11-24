@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  827,
+    "image":  "data/images/q0827.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. «A» va «B»"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 10-bobi 73-bandi: Haydovchi o\u0027zidan oldinda harakatlanayotgan transport vositasi keskin tormoz berganida to\u0027qnashib ketmaslik kafolatini beradigan darajadagi oraliq masofani, shuningdek yo\u0027l harakati xavfsizligini ta\u0027minlaydigan yonlama oraliq masofani saqlashi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. «А» и «В»"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 73 главы 10 ПДД, гласит: Водитель должен соблюдать такую дистанцию до движущегося впереди транспортного средства, которая гарантировала бы избежание столкновения в случае его экстренной остановки, а также боковой интервал, обеспечивающий безопасность дорожного движения."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. «A» ва «В»"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 10-боби 73-банди: Ҳайдовчи ўзидан олдинда ҳаракатланаётган транспорт воситаси кескин тормоз берганида тўқнашиб кетмаслик кафолатини берадиган даражадаги оралиқ масофани, шунингдек йўл ҳаракати хавфсизлигини таъминлайдиган ёнлама оралиқ масофани сақлаши керак."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+{
+    "questionId": 464,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Agar u harakatni to'xtash joyidan boshlasa",
+                "F2. Agar u «tig'iz» soatda marshrut bo'yicha harakat qilsa",
+                "F3. Aholi punktlarida, agar u belgilangan to'xtash joyidan (bekatlardan) harakatni boshlasa"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 22-bobi 133-bandiga asosan: Haydovchilar aholi punktlarida bekatdan harakatlanishni boshlayotgan avtobus va trolleybuslarga yo'l berishlari kerak. o'z navbatida avtobus va trolleybus haydovchilari o'zlariga yo'l berilganligiga ishonch hosil qilganliklaridan keyingina harakatlanishni boshlashlari mumkin."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Если он начинает движение от остановки",
+                "F2. Если он движется по маршруту в часы «ПИК»",
+                "F3. В населенном пункте, если он начинает движение от обозначенной остановки"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 133 главы 22 ПДД, гласит: В населенных пунктах водители должны уступать дорогу автобусам и троллейбусам, начинающим движение от остановки. В свою очередь, водители автобусов и троллейбусов могут начинать движение, только убидившись, что им уступают дорогу."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Агар у ҳаракатни тўхташ жойидан бошласа",
+                "F2. Агар у «тигиз» соатда маршрут бўйича ҳаракат килса",
+                "F3. Аҳоли пунктларида, агар у белгиланган тўхташ жойидан (бекатлардан) ҳаракатни бошласа"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 22-боби 133-бандига асосан: Ҳайдовчилар аҳоли пунктларида бекатдан ҳаракатланишни бошлаётган автобус ва троллейбусларга йўл беришлари керак. Ўз навбатида автобус ва троллейбус ҳайдовчилари ўзларига йўл берилганлигига ишонч ҳосил қилганликларидан кейингина ҳаракатланишни бошлашлари мумкин."
+        }
+    }
+}

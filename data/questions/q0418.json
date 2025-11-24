@@ -1,0 +1,36 @@
+{
+    "questionId": 418,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qo'l bilan beriladigan ogohlantiruvchi ishora Qoidalarga muvofiq qachon tugallanishi mumkin?",
+            "options": [
+                "F1. Manyovrni bevosita bajarishdan oldin",
+                "F2. Manyovr tugagandan so'ng zudlik bilan",
+                "F3. Manyovr bajarayotgan vaqtda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 8-bobi 46-bandining birinchi xatboshisiga asosan: Burilish ko'rsatgichi yoki 401 bilan berilayotgan ishora manyovrni bajarishdan oldinroq berilishi va uni tugallagach, darhol to'xtatilishi kerak (4901 bilan berilayotgan ishorani manyovrni bevosita bajarishdan oldin tugallash mumkin)."
+        },
+        "ru": {
+            "text": "Когда в соответствии с Правилами может быть закончена подача предупредительного сигнала рукой?",
+            "options": [
+                "F1. Непосредственно перед выполнением маневра",
+                "F2. Немедленно после завершения маневра",
+                "F3. Во время выполнения маневра"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 46 главы 8 ПДД гласит: Подача сигнала указателями поворотов или рукой должна производиться заблаговременно до начала выполнения маневра и прекращаться немедленно после его завершения (подача сигнала рукой может быть закончена непосредственно перед выполнением маневра). Подаваемый сигнал не должен вводить в заблуждение других участников дорожного движения. Подача предупредительного сигнала не дает водителю право на первоочередное движение и не освобождает его от принятия необходимых мер предосторожности."
+        },
+        "uzk": {
+            "text": "Қўл билан бериладиган огоҳлантирувчи ишора Қоидаларга мувофиқ қачон тугалланиши мумкин?",
+            "options": [
+                "F1. Манёврни бевосита бажаришдан олдин",
+                "F2. Манёвр тугагандан сўнг зудлик билан",
+                "F3. Манёвр бажараётган вақтда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 8-боби 46-бандининг биринчи хатбошисига асосан: Бурилиш кўрсатгичи ёки қўл билан берилаётган ишора манёврни бажаришдан олдинроқ берилиши ва уни тугаллагач, дарҳол тўхтатилиши керак (қўл билан берилаётган ишорани манёврни бевосита бажаришдан олдин тугаллаш мумкин)."
+        }
+    }
+}

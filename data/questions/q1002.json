@@ -1,0 +1,36 @@
+{
+    "questionId": 1002,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Quyidagi javoblardan qaysi birida «Yo'lovchi» atamasining to'g'ri ta'rifi ko'rsatilgan?",
+            "options": [
+                "F1. Transport vositasidagi barcha shaxslar",
+                "F2. Transport vositasidagi (haydovchidan tashqari) shaxs, shuningdek transport vositasiga kirayotgan(unga chiqib o'tirayotgan) yoki transport vositasidan chiqayotgan(undan tushayotgan) shaxs",
+                "F3. Har ikkala ta'rif to'g'ri"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ umumiy qoidalar: Yo'lovchi — transport vositasidagi (haydovchidan tashqari) shaxs, shuningdek transport vositasiga kirayotgan (unga chiqib o'tirayotgan) yoki transport vositasidan chiqayotgan (undan tushayotgan) shaxs."
+        },
+        "ru": {
+            "text": "Какой из нижеперечисленных ответов дает правильное определение термина «пассажир»?",
+            "options": [
+                "F1. Все лица находящиеся в транспортном средстве",
+                "F2. Лицо, кроме водителя, находящееся в транспортном средстве (кроме водителя), а также лицо, которое входит в транспортное средство (садится на него) или выходит из транспортного средства (сходит с него)",
+                "F3. Оба определения верны"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД общие положения: «Пассажир» – это лицо, находящееся в транспортном средстве, а также лицо, которое входит в транспортное средство или выходит из транспортного средства."
+        },
+        "uzk": {
+            "text": "Қуйидаги жавоблардан қайси бирида «Йўловчи» атамасининг тўғри таърифи кўрсатилган?",
+            "options": [
+                "F1. Транспорт воситасидаги барча шахслар",
+                "F2. Транспорт воситасидаги (ҳайдовчидан ташқари) шахс, шунингдек транспорт воситасига кираётган(унга чиқиб ўтираётган) ёки транспорт воситасидан чиқаётган(ундан тушаётган) шахс",
+                "F3. Ҳар иккала таъриф тўғри"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ умумий қоидалар: Йўловчи — транспорт воситасидаги (ҳайдовчидан ташқари) шахс, шунингдек транспорт воситасига кираётган (унга чиқиб ўтираётган) ёки транспорт воситасидан чиқаётган (ундан тушаётган) шахс."
+        }
+    }
+}

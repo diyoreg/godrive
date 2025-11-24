@@ -1,0 +1,33 @@
+{
+    "questionId": 765,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qattiq yoki egiluvchan ulagichda shatakka olgan yuk avtomobilining kuzovida odam tashishga ruxsat etiladimi?",
+            "options": [
+                "F1. Ruxsat etiladi",
+                "F2. Taqiqlanadi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 24-bobi 143-bandi: Qattiq yoki egiluvchan ulagich yordamida shatakka olingan avtobusda, trolleybusda va yuk avtomobili yukxonasida odam tashish, qisman ortish yo'li bilan shatakka olishda esa shatakka olingan transport vositasining kabinasida va yukxonasida, shuningdek shatakka olgan transport vositasining yukxonasida odamlar bo'lishi taqiqlanadi."
+        },
+        "ru": {
+            "text": "Разрешается ли перевозка людей в кузове грузового автомобиля при буксировке на жесткой или гибкой сцепке?",
+            "options": [
+                "F1. Разрешено",
+                "F2. Запрещено"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 143 главы 24 ПДД, гласит: При буксировке на гибкой или жесткой сцепке запрещается перевозка людей в буксируемом автобусе, троллейбусе и в кузове буксируемого грузового автомобиля, а при буксировке путем частичной погрузки - нахождение людей в кабине или кузове буксируемого транспортного средства, а также в кузове буксирующего транспортного средства."
+        },
+        "uzk": {
+            "text": "Қаттиқ ёки эгилувчан улагичда шатакка олган юк автомобилининг кузовида одам ташишга рухсат этиладими?",
+            "options": [
+                "F1. Рухсат этилади",
+                "F2. Тақиқланади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 24-боби 143-банди: Қаттиқ ёки эгилувчан улагич билан шатакка олинган автобусда, троллейбусда ва юк автомобили юкхонасида одам ташиш қисман ортиш йўли билан шатакка олишда эса шатакка олинган транспорт воситасининг кабинасида ва юкхонасида, шунингдек шатакка олган транспорт воситасининг юкхонасида одамлар бўлиши тақиқланади."
+        }
+    }
+}

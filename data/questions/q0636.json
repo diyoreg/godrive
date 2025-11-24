@@ -1,0 +1,36 @@
+{
+    "questionId": 636,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sanab o'tilgan hollarning qay birida qatnov qismining o'ng chetidan yoki yo'lning o'ng yoqasidan qayrilib olishga ruxsat etiladi?",
+            "options": [
+                "F1. Tartibga solingan chorrahalarda",
+                "F2. Chorrahalardan tashqarida, agar qatnov qismining kengligi chetki chap holatdan qayrilib olish uchun yetarli bo'lmasa",
+                "F3. Tartibga solinmaydigan chorrahalarda, agar qayrilib olishni amalga oshirayotgan transport vositasi asosiy yo'lda bo'lsa"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 9-bobi 59-bandining ikkinchi xatboshisiga asosan: Chorrahadan tashqarida qayrilib olishda, agar qatnov qismining kengligi manyovrni chetki chap holatdan bajarish uchun yetarli bo'lmasa, uni qatnov qismining o'ng chetidan (o'ng yo'l yoqasidan) amalga oshirishga yo'l qo'yiladi. Bu holda haydovchi shu yo'nalishdagi va qarama-qarshi yo'nalishdagi transport vositalariga yo'l berishi shart."
+        },
+        "ru": {
+            "text": "В каком из перечисленных случаев разрешается разворот от правого края проезжей части или с правой обочины?",
+            "options": [
+                "F1. На регулируемом перекрестке",
+                "F2. Вне перекрестка, если ширина проезжей части недостаточна для разворота из крайнего левого положения",
+                "F3. На нерегулируемом перекрестке, если транспортное средство, совершающее разворот, находится на главной дороге"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Aбзацу 2 пункта 59 главы 9 ПДД, гласит: Если ширина проезжей части вне перекрестка недостаточна для разворота из крайнего левого положения, его допускается производить от правого края проезжей части (с правой обочины). При этом водитель должен уступить дорогу попутным и встречным транспортным средствам."
+        },
+        "uzk": {
+            "text": "Санаб ўтилган ҳолларнинг қай бирида қатнов қисмининг ўнг четидан ёки йўлнинг ўнг ёқасидан қайрилиб олишга рухсат этилади?",
+            "options": [
+                "F1. Тартибга солинган чорраҳаларда",
+                "F2. Чорраҳалардан ташкарида, агар қатнов қисмининг кенглиги четки чап ҳолатдан қайрилиб олиш учун етарли бўлмаса",
+                "F3. Тартибга солинмайдиган чорраҳаларда, агар қайрилиб олишни амалга ошираëтган транспорт воситаси асосий йўлда бўлса"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 9-боби 59-бандининг иккинчи хатбошисига асосан: Чорраҳадан ташқарида қайрилиб олишда, агар қатнов қисмининг кенглиги манёврни четки чап ҳолатдан бажариш учун йетарли бўлмаса, уни қатнов қисмининг ўнг четидан (ўнг йўл ёқасидан) амалга оширишга йўл қўйилади. Бу ҳолда ҳайдовчи шу йўналишдаги ва қарама-қарши йўналишдаги транспорт воситаларига йўл бериши шарт."
+        }
+    }
+}

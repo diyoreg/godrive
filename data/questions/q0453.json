@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  453,
+    "image":  "data/images/q0453.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu yo\u0027l chizig\u0027i nimani bildiradi?",
+                                    "options":  [
+                                                    "F1. Faqat avtobus harakatlanishi uchun mo\u0027ljallangan bo\u0027lakni bildiradi",
+                                                    "F2. Faqat belgilangan yo\u0027nalishdagi transport vositalari harakatlanishi uchun mo\u0027ljallangan bo\u0027lakni bildiradi",
+                                                    "F3. Avtobus va trolleybuslar harakatlanishi uchun mo\u0027ljallangan bo\u0027lakni bildiradi",
+                                                    "F4. Avtobus va marshrutli taksi (alohida kichik avtobuslar)larning harakatlanishi uchun mo\u0027ljallangan bo\u0027lakni bildiradi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 2-ilovasining 1-bo\u0027limidagi 1.23 chizig\u0027i faqat yo\u0027nalishli transport vositalari uchun moʻljallangan boʻlagini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Что обозначает эта дорожная разметка?",
+                                    "options":  [
+                                                    "F1. Обозначает полосу, предназначенную только для движения автобусов",
+                                                    "F2. Обозначает полосу, предназначенную только для движения маршрутных транспортных средств",
+                                                    "F3. Обозначает полосу, предназначенную для движения автобусов и троллейбусов",
+                                                    "F4. Обозначает полосу, предназначенную для движения автобусов и маршрутных такси"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Линия 1.23 (буква «А») раздела 1 приложения № 2 к ПДД, обозначает полосу, предназначенную для движения только маршрутных транспортных средств."
+                                },
+                         "uzk":  {
+                                     "text":  "Бу йўл чизиғи нимани билдиради?",
+                                     "options":  [
+                                                     "F1. Фақат автобус ҳаракатланиши учун мўлжалланган бўлакни билдиради",
+                                                     "F2. Фақат белгиланган йўналишдаги транспорт воситалари ҳаракатланиши учун мўлжалланган бўлакни билдиради",
+                                                     "F3. Автобус ва троллейбуслар ҳаракатланиши учун мўлжалланган бўлакни билдиради",
+                                                     "F4. Автобус ва маршрутли такси (алоҳида кичик автобуслар)ларнинг ҳаракатланиши учун мўлжалланган бўлакни билдиради"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 2-иловасининг 1-бўлимидаги 1.23 чизиғи фақат йўналишли транспорт воситалари учун мўлжалланган бўлакни билдиради."
+                                 }
+                     }
+}

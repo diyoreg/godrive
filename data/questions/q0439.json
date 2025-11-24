@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  439,
+    "image":  "data/images/q0439.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Tyagach haydovchisi nima qilishi kerak?",
+                                    "options":  [
+                                                    "F1. To\u0027xtab, orqasida to\u0027plangan transport vositalarini o\u0027tkazib yuborishi",
+                                                    "F2. O\u0027sha tezlik bilan harakatni davom ettirishi",
+                                                    "F3. Qo\u0027li bilan o\u0027zini ro\u0027para tasmadan quvib o\u0027tishlari haqida ishora qilishi kerak"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 12-bobi 87-bandiga asosan: Aholi punktlaridan tashqaridagi yo\u0027llarda sekin harakatlanadigan yoki katta hajmli transport vositasini quvib o\u0027tish qiyin boʻlgan hollarda uning haydovchisi ushbu transport vositasini iloji boricha yo\u0027lning oʻng tomoniga olishi, zarur boʻlganda esa orqasida toʻplanib qolgan transport vositalarini o\u0027tkazib yuborish uchun to\u0027xtashi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Что должен сделать водитель тягача?",
+                                    "options":  [
+                                                    "F1. Остановиться после поворота и пропустить автомобили, скопившиеся сзади",
+                                                    "F2. Продолжать движение, не изменяя скорость",
+                                                    "F3. Указать рукой на обгон по параллельной полосе"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Предупреждающий знак 1.11.2 \"Опасный поворот\". Закругление дороги малого радиуса или с ограниченной видимостью налево.\nПункту 87 главы 12 ПДД, гласит: Водитель тихоходного или крупногабаритного транспортного средства вне населенных пунктов в случаях, когда обгон этого транспортного средства затруднен, должен принять как можно правее, а при необходимости и остановиться, чтобы пропустить скопившиеся за ним транспортные средства."
+                                },
+                         "uzk":  {
+                                     "text":  "Тягач ҳайдовчиси нима қилиши керак?",
+                                     "options":  [
+                                                     "F1. Тўхтаб, орқасида тўпланган транспорт воситаларини ўтказиб юбориши",
+                                                     "F2. Ўша тезлик билан ҳаракатни давом эттириши",
+                                                     "F3. Қўли билан ўзини рўпара тасмадан қувиб ўтишлари ҳақида ишора килиши керак"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 12-боби 87-бандига асосан: Аҳоли пунктларидан ташқаридаги йўлларда секин ҳаракатланадиган ёки катта ҳажмли транспорт воситасини қувиб ўтиш қийин бўлган ҳолларда унинг ҳайдовчиси ушбу транспорт воситасини иложи борича йўлнинг ўнг томонига олиши, зарур бўлганда эса орқасида тўпланиб қолган транспорт воситаларини ўтказиб юбориш учун тўхташи керак."
+                                 }
+                     }
+}

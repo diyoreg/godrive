@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  302,
+    "image":  "data/images/q0302.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi yo\u0027lning xavfli burilishiga yaqinlashayotganlik haqida ogohlantiradi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1-ilovasi 1-boʻlimining o\u0027n oltinchi xatboshisiga asosan: 1.11.2. «Xavfli burilish». 1.11.2 — chapga yo\u0027l belgisi yoʻlning kichik radiusli yoki ko\u0027rinishi cheklangan burilish joyini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак предупреждает о приближении к опасному повороту дороги?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Предупреждающий знак 1.11.2 \"Опасный поворот\". Закругление дороги малого радиуса или с ограниченной видимостью налево. Предупреждающий знак 1.12.1 \"Опасные повороты\". Участок дороги с опасными поворотами с первым поворотом направо."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги йўлнинг хавфли бурилишига яқинлашаётганлик ҳақида огоҳлантиради?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1-иловаси 1-бўлимининг ўн олтинчи хатбошисига асосан: 1.11.2. «Хавфли бурилиш». 1.11.2 — чапга йўл белгиси йўлнинг кичик радиусли ёки кўриниши чекланган бурилиш жойини билдиради."
+                                 }
+                     }
+}

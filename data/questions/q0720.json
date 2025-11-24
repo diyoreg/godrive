@@ -1,0 +1,36 @@
+{
+    "questionId": 720,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Turar joy dahalarida qanday harakatlar taqiqlangan?",
+            "options": [
+                "F1. Faqat o'quv mashg'ulotlarini bajarish",
+                "F2. Barcha sanab o'tilgan hollarda",
+                "F3. Faqat dvigatel ishlab turganda to'xtab turish"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 20-bobi 124-bandi: Turar joy dahalarida quyidagilar taqiqlanadi: mexanik transport vositalarini boshqarishni oʻrgatish;\ndvigateli ishlab turgan holda toʻxtab turish;\nruxsat etilgan toʻla vazni 3,5 tonnadan ortiq bo'lgan yuk avtomobillarining maxsus ajratilgan, yoʻl belgilari va (yoki) yo'l chiziqlari bilan belgilangan joylardan tashqarida toʻxtab turishi."
+        },
+        "ru": {
+            "text": "Какие действия запрещены в жилой зоне?",
+            "options": [
+                "F1. Только учебная езда",
+                "F2. Все вышеперечисленные действия",
+                "F3. Только стоянка с работающим двигателем"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 124 главы 20 ПДД, гласит: В жилой зоне запрещается: учебная езда на механических транспортных средствах;\nстоянка с работающим двигателем;\nстоянка грузовых автомобилей с разрешенной максимальной массой более 3,5 тн вне специально выделенных и обозначенных дорожными знаками и (или) дорожной разметкой мест."
+        },
+        "uzk": {
+            "text": "Турар жой даҳаларида қандай ҳаракатлар тақиқланган?",
+            "options": [
+                "F1. Фақат ўқув машғулотларини бажариш",
+                "F2. Барча санаб ўтилган ҳолларда",
+                "F3. Фақат двигатель ишлаб турганда тўхтаб туриш"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 20-боби 124-банди: Турар жой даҳаларида қуйидагилар тақиқланади: механик транспорт воситаларини бошқаришни ўргатиш;\nдвигатели ишлаб турган ҳолда тўхтаб туриш;\nрухсат этилган тўла вазни 3,5 тоннадан ортиқ бўлган юк автомобилларининг махсус ажратилган, йўл белгилари ва (ёки) йўл чизиқлари билан белгиланган жойлардан ташқарида тўхтаб туриши."
+        }
+    }
+}

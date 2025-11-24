@@ -1,0 +1,33 @@
+{
+    "questionId": 892,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Tumanga qarshi old chiroqlrni qorong'i vaqtda, yo'lning yoritilmagan qismlarida uzoqni yoki yaqinni yorituvchi chiroqlar bilan birga qo'llash mumkinmi?",
+            "options": [
+                "F1. Mumkin emas",
+                "F2. Mumkin"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 23-bobi 137-bandi: Quyidagi hollarda tumanga qarshi fara chiroqlaridan foydalanish mumkin:\nyetarlicha ko'rinmaydigan sharoitda alohida, shuningdek, uzoqni yorituvchi yoki yaqinni yorituvchi fara chiroqlari bilan;\nsutkaning qorong'i vaqtida yo'lning yoritilmagan qismlarida uzoqni yoki yaqinni yorituvchi fara chiroqlari bilan birga;\nushbu Qoidalarning 138-bandida ko'zda tutilgan holatlarda yaqinni yorituvchi fara chiroqlari o'rniga."
+        },
+        "ru": {
+            "text": "Можно ли использовать передние противотуманные фары в темное время суток, на неосвещенных участках дороги вместе с дальним или ближним светом?",
+            "options": [
+                "F1. Нельзя",
+                "F2. Можно"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 137 главы 23 ПДД, гласит: Противотуманные фары могут использоваться в следующих случаях: в условиях недостаточной видимости самостоятельно, а также с ближним или дальним светом фар;\nв темное время суток на неосвещенных участках дорог совместно с ближним или дальним светом фар;\nвместо ближнего света фар в условиях, предусмотренных пунктом 138 настоящих Правил."
+        },
+        "uzk": {
+            "text": "Туманга қарши олд чироқлрни қоронғи вақтда, йўлнинг ёритилмаган қисмларида узоқни ёки яқинни ёритувчи чироқлар билан бирга қўллаш мумкинми?",
+            "options": [
+                "F1. Мумкин емас",
+                "F2. Мумкин"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 23-боби 137-банди: Қуйидаги ҳолларда туманга қарши чироқларни қўллаш мумкин: етарлича кўринмайдиган шароитда алоҳида, шунингдек узоқни ёритувчи ёки яқинни ёритувчи чироқлар билан;\nқоронғи вақтда йўлнинг ёритилмаган қисмларида узоқни ёки яқинни ёритувчи чироқлар билан бирга;\nушбу Қоидаларнинг 138-бандида кўзда тутилган ҳолатларда яқинни ёритувчи чироқлар ўрнига."
+        }
+    }
+}

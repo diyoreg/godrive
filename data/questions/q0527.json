@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  527,
+    "image":  "data/images/q0527.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Mazkur vaziyatda quvib o\u0027tishga ruxsat etilganmi?",
+                                    "options":  [
+                                                    "F1. 40 km/soatdan kam tezlik bilan harakatlanayotgan faqat yakka transport vositalariga ruxsat etilgan",
+                                                    "F2. Taqiqlangan",
+                                                    "F3. Barcha hollarda ruxsat etilgan"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 12-bobi 86-bandining to\u0027rtinchi xatboshisiga asosan, quvib o\u0027tish quyidagi hollarda taqiqlanadi: temir yo\u0027l kesishmalarida va ulargacha 100 metrdan kam masofa qolganda."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешен ли обгон в данной ситуации?",
+                                    "options":  [
+                                                    "F1. Разрешен, только одиночных транспортных средств, движущихся со скоростью менее 40 км/час",
+                                                    "F2. Запрещен",
+                                                    "F3. Разрешен во всех случаях"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Предупреждающий знак 1.2 \"Железнодорожный переезд без шлагбаума\". Предупреждающий знак 1.4.3 \"Приближение к железнодорожному переезду\".\nПункту 86 главы 12 ПДД, гласит: Обгон запрещен: - на железнодорожных переездах и ближе чем за 100 м перед ними."
+                                },
+                         "uzk":  {
+                                     "text":  "Мазкур вазиятда қувиб ўтишга рухсат этилганми?",
+                                     "options":  [
+                                                     "F1. 40 км/соатдан кам тезлик билан ҳаракатланаётган фақат якка транспорт воситаларига рухсат этилган",
+                                                     "F2. Тақиқланган",
+                                                     "F3. Барча ҳолларда рухсат этилган"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 12-боби 86-бандининг тўртинчи хатбошисига асосан, қувиб ўтиш қуйидаги ҳолларда тақиқланади: темир йўл кесишмаларида ва уларгача 100 метрдан кам масофа қолганда."
+                                 }
+                     }
+}

@@ -1,0 +1,42 @@
+{
+    "questionId": 510,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar pnevmatik uzatmaning zichligi buzilib, kompressor ishlamay turganda boshqaruv asboblarining erkin holatida havo bosimining 30 daqiqada qancha MPa-ga pasayishiga sabab bo'lsa, tormoz tizimi nosoz hisoblanadi?",
+            "options": [
+                "F1. 0,025",
+                "F2. 0,035",
+                "F3. 0,05",
+                "F4. 0,055",
+                "F5. 0,06"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 3-ilovasi 1-boʻlimining 1.4-bandiga asosan: 1.4. Dvigatel ishlamay turganda pnevmatik yoki pnevmogidravlik tormoz yuritmasining zichligini buzilishi, boshqaruv qismlari ulanmaganda — 30 daqiqada, ulanganida — 15 daqiqada tizimdagi havo bosimini 0,05 MP dan ko'pga pasayishiga sabab bo'lsa. oʻ'ildiraklardagi tormoz kameralaridan siqilgan havo chiqayotgan bo'lsa."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 0,025",
+                "F2. 0,035",
+                "F3. 0,05",
+                "F4. 0,055",
+                "F5. 0,06"
+            ],
+            "correctAnswer": 3,
+            "explanation": "B \"Условиях, при которых запрещается эксплуатация транспортных средств\" (приложение №3 к ПДД) сказано, что эксплуатация транспортных средств запрещена, если: 1.4. Нарушение герметичности пневматического тормозного привода вызывает падение давления воздуха при неработающем компрессоре более чем на 0,05 МПа (0,5 кг/кв. см) за 30 мин. при свободном положении органов управления тормозной системой или за 15 мин. при включенных органах управления."
+        },
+        "uzk": {
+            "text": "Агар пневматик узатманинг зичлиги бузилиб, компрессор ишламай турганда бошқарув асбобларининг эркин ҳолатида ҳаво босимининг 30 дақиқада қанча МПа-га пасайишига сабаб бўлса, тормоз тизими носоз ҳисобланади?",
+            "options": [
+                "F1. 0,025",
+                "F2. 0,035",
+                "F3. 0,05",
+                "F4. 0,055",
+                "F5. 0,06"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 3-иловаси 1-бўлимининг 1.4-бандига асосан: 1.4. Двигатель ишламай турганда пневматик ёки пневмогидравлик тормоз юритмасининг зичлигини бузилиши, бошқарув қисмлари уланмаганда — 30 дақиқада, уланганида — 15 дақиқада тизимдаги ҳаво босимини 0,05 МП дан кўпга пасайишига сабаб бўлса. уилдираклардаги тормоз камераларидан сиқилган ҳаво чиқаётган бўлса."
+        }
+    }
+}

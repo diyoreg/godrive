@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  273,
+    "image":  "data/images/q0273.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu chiziq qaysi yo\u0027l belgisi bilan qo\u0027llaniladi?",
+                                    "options":  [
+                                                    "F1. «Yo\u0027l bering» belgisi bilan",
+                                                    "F2. « To\u0027xtamasdan harakatlanish taqiqlangan» belgisi bilan",
+                                                    "F3. Ogohlantiruvchi «Teng ahamiyatli yo\u0027llar kesishuvi» belgisi bilan",
+                                                    "F4. Barcha sanab o\u0027tilgan belgilar bilan"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 2-ilovasi 1-boʻlimining oʻn beshinchi xatboshisiga asosan: 1.13 — kesishayotgan yo\u0027lda harakatlanayotgan transport vositasiga yo\u0027l berish uchun to\u0027xtash zarur bo\u0027lganda, haydovchiga transport vositasini toʻxtatish joyini koʻrsatadi."
+                                },
+                         "ru":  {
+                                    "text":  "С каким дорожным знаком применяется эта разметка?",
+                                    "options":  [
+                                                    "F1. Со знаком «Уступите дорогу»",
+                                                    "F2. Со знаком «Движение без остановки запрещено»",
+                                                    "F3. С предупреждающим знаком «Пересечение равнозначных дорог»",
+                                                    "F4. Со всеми перечисленными знаками"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Горизонтальная разметка 1.13 - указывает место, где водитель должен при необходимости остановиться, уступая дорогу транспортным средствам, движущимся по пересекаемой дороге."
+                                },
+                         "uzk":  {
+                                     "text":  "Бу чизиқ қайси йўл белгиси билан қўлланилади?",
+                                     "options":  [
+                                                     "F1. «Йўл беринг» белгиси билан",
+                                                     "F2. «Тўхтамасдан ҳаракатланиш тақиқланган» белгиси билан",
+                                                     "F3. Огоҳлантирувчи «Тенг аҳамиятли йўллар кесишуви» белгиси билан",
+                                                     "F4. Барча санаб ўтилган белгилар билан"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг ўн бешинчи хатбошисига асосан: 1.13 — кесишаётган йўлда ҳаракатланаётган транспорт воситасига йўл бериш учун тўхташ зарур бўлганда, ҳайдовчига транспорт воситасини тўхтатиш жойини кўрсатади."
+                                 }
+                     }
+}

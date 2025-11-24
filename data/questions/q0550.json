@@ -1,0 +1,39 @@
+{
+    "questionId": 550,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qanday nosozlik bo'lganda, transport vositalarining harakatlanishni davom ettirishi taqiqlanadi?",
+            "options": [
+                "F1. Transport vositalarining tuzilishida ko'zda tutilgan oyna yuvgichlari ishlamasa",
+                "F2. Tashqi yoritish asboblari va nur qaytargichlar belgilangan tartibda ishlamasa yoki ifloslangan",
+                "F3. Yomg'ir yoki qor yog'ayotgan vaqtda haydovchi tomonidagi oyna tozalagich ishlamasa",
+                "F4. Sanab o'tilgan barcha hollarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 3 ilova: 3.3. Agar tashqi yoritgichlar va nur qaytargichlar belgilangan tartibda ishlamayotgan yoki ifloslangan bo'lsa.\n4.1. Oyna tozalagich belgilangan tartibda ishlamayotgan bo'lsa.\n4.2. Transport vositasining konstruksiyasida ko'zda tutilgan oyna yuvgich ishlamayotgan bo'lsa."
+        },
+        "ru": {
+            "text": "При какой неисправности запрещается дальнейшее движение транспортных средств?",
+            "options": [
+                "F1. Не работают предусмотренные конструкцией транспортных средств стеклоочистители",
+                "F2. Не работают в установленном режиме или загрязнены внешние световые приборы и светоотражатели",
+                "F3. Не действует стеклоочиститель со стороны водителя во время дождя или снегопада",
+                "F4. Во всех перечисленных случаях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ПДД приложение № 3: 3.3. Если внешние осветительные приборы и световозвращатели не работают в установленном порядке или загрязнены.\n4.1. Если стеклоочиститель не работает в установленном порядке.\n4.2. Если предусмотренный конструкцией транспортного средства стеклоомыватель не работает."
+        },
+        "uzk": {
+            "text": "Қандай носозлик бўлганда, транспорт воситаларининг ҳаракатланишни давом эттириши тақиқланади?",
+            "options": [
+                "F1. Транспорт воситаларининг тузилишида кўзда тутилган ойна ювгичлари ишламаса",
+                "F2. Ташқи ёритиш асбоблари ва нур қайтаргичлар белгиланган тартибда ишламаса ëки ифлосланган",
+                "F3. Ёмғир ёки қор ёғаётган вақтда ҳайдовчи томонидаги ойна тозалагич ишламаса",
+                "F4. Санаб ўтилган барча ҳолларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 3 илова: 3.3. Агар ташқи ёритгичлар ва нур қайтаргичлар белгиланган тартибда ишламаётган ёки ифлосланган бўлса.\n4.1. Ойна тозалагич белгиланган тартибда ишламаётган бўлса.\n4.2. Транспорт воситасининг конструкциясида кўзда тутилган ойна ювгич ишламаётган бўлса."
+        }
+    }
+}

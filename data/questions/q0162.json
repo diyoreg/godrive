@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  162,
+    "image":  "data/images/q0162.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi yo\u0027nalishlarda harakatlanish taqiqlanadi?",
+                                    "options":  [
+                                                    "F1. Chapga va o\u0027nga",
+                                                    "F2. To\u0027g\u0027riga va orqa burilish yo\u0027nalishida",
+                                                    "F3. Faqat to\u0027g\u0027riga",
+                                                    "F4. Hamma yo\u0027nalishlarda"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1-ilovasining 3-bo\u0027limi 3.2 belgi talabiga asosan, «Harakatlanish taqiqlangan» belgisi barcha transport vositalarining harakatlanishi taqiqlanishini bildiradi. YHQ 1-ilovasining 7- bo\u0027limidagi 7.3.1-7.3.3 qo\u0027shimcha axborot belgilariga muvofiq, «Ta\u0027sir yo\u0027nalishlari» chorraha oldida o\u0027rnatilgan belgilarning ta\u0027sir yo\u0027nalishini ko\u0027rsatadi."
+                                },
+                         "ru":  {
+                                    "text":  "В каких направлениях запрещено движение?",
+                                    "options":  [
+                                                    "F1. Налево и направо",
+                                                    "F2. Прямо и в обратном направлении",
+                                                    "F3. Только прямо",
+                                                    "F4. Во всех направлениях"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Согласно требованию знака 3.2. раздела 3 приложения № 1 к ПДД, «Движение запрещено» запрещается движение всех транспортных средств. Согласно дополнительным знакам 7.3.1 - 7.3.3 раздела 7 приложения №1 к ПДД, «Направление действия» указывает направление действия знаков, установленных перед перекрестком."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси йўналишларда ҳаракатланиш тақиқланади?",
+                                     "options":  [
+                                                     "F1. Чапга ва унга",
+                                                     "F2. Тўғрига ва орқа бурилиш йўналишида",
+                                                     "F3. Фақат тўғрига",
+                                                     "F4. Ҳамма йўналишларда"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1-иловасининг 3-бўлими 3.2 белги талабига асосан, «Ҳаракатланиш тақиқланган» белгиси барча транспорт воситаларининг ҳаракатланиши тақиқланишини билдиради. ЙҲҚ 1-иловасининг 7- бўлимидаги 7.3.1-7.3.3 қўшимча ахборот белгиларига мувофиқ, «Таъсир йўналишлари» чорраҳа олдида ўрнатилган белгиларнинг таъсир йўналишини кўрсатади."
+                                 }
+                     }
+}

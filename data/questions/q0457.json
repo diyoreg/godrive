@@ -1,0 +1,36 @@
+{
+    "questionId": 457,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qayta tizilish oldidan ogohlantiruvchi ishora qachon berilishi kerak?",
+            "options": [
+                "F1. Bevosita manyovrni bajarishni boshlash oldidan",
+                "F2. Manyovrni bajarishni boshlagandan so'ng zudlik bilan",
+                "F3. Manyovrni bajarishni boshlamasidan avvalroq"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 8-bobi 46-bandining birinchi xatboshisiga asosan: Burilish ko'rsatgichi yoki qo'l bilan berilayotgan ishora manyovrni bajarishdan oldinroq berilishi va uni tugallagach, darhol to'xtatilishi kerak (qoʻl bilan berilayotgan ishorani manyovrni bevosita bajarishdan oldin tugallash mumkin)."
+        },
+        "ru": {
+            "text": "Когда должен быть подан предупредительный сигнал перед перестроением?",
+            "options": [
+                "F1. Непосредственно перед началом выполнения маневра",
+                "F2. Сразу после начала выполнения маневра",
+                "F3. Заблаговременно до начала выполнения маневра"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 46 главы 8 ПДД, гласит: Подача сигнала указателями поворотов или рукой должна производиться заблаговременно до начала выполнения маневра и прекращаться немедленно после его завершения (подача сигнала рукой может быть закончена непосредственно перед выполнением маневра)."
+        },
+        "uzk": {
+            "text": "Қайта тизилиш олдидан огоҳлантирувчи ишора қачон берилиши керак?",
+            "options": [
+                "F1. Бевосита манёврни бажаришни бошлаш олдидан",
+                "F2. Манёврни бажаришни бошлагандан сўнг зудлик билан",
+                "F3. Манёврни бажаришни бошламасидан аввалроқ"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 8-боби 46-бандининг биринчи хатбошисига асосан: Бурилиш кўрсатгичи ёки қўл билан берилаётган ишора манёврни бажаришдан олдинроқ берилиши ва уни тугаллагач, дарҳол тўхтатилиши керак (қўл билан берилаётган ишорани манёврни бевосита бажаришдан олдин тугаллаш мумкин)."
+        }
+    }
+}

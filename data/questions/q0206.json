@@ -1,0 +1,36 @@
+{
+    "questionId": 206,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Yaqinni yorituvchi faralarni yoqish",
+                "F2. O'ngroqqa olish va yaqinni yorituvchi farani yoqish zarur",
+                "F3. Transport vositasini yo'ldan tashqariga chiqarish, agar buning iloji bo'lmasa mazkur qoidalar talablariga binoan uni belgilash lozim"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 23-bobi 136-bandi: Sutkaning qorong'i vaqtida yo'lning yoritilmagan qismida, shuningdek, yetarlicha ko'rinmaydigan sharoitda to'xtagan yoki to'xtab turgan transport vositasida gabarit fara chiroqlari yoqilgan bo'lishi kerak."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Включить ближний свет",
+                "F2. Принять правее и включить ближний свет фар",
+                "F3. Отвезти транспортное средство за пределы дороги, а если это невозможно, его необходимо обозначить в соответствии с требованиями настоящих правил"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 136 главы 23 ПДД гласит: При остановке и стоянке в темное время суток на неосвещенных участках дорог, а также в условиях недостаточной видимости на транспортном средстве должны быть включены габаритные огни."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Яқинни ёритувчи фараларни ёқиш",
+                "F2. Ўнгроққа олиш ва яқинни ёритувчи фарани ёқиш зарур",
+                "F3. Транспорт воситасини йўлдан ташқарига чикариш, агар бунинг иложи бўлмаса мазкур қоидалар талабларига биноан уни белгилаш лозим"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 23-боби 136-банди: Сутканинг қоронғи вақтида йўлнинг ёритилмаган қисмида, шунингдек, етарлича кўринмайдиган шароитда тўхтаган ёки тўхтаб турган транспорт воситасида габарит фара чироқлари ёқилган бўлиши керак."
+        }
+    }
+}

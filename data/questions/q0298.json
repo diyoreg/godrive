@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  298,
+    "image":  "data/images/q0298.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu joyda yengil avtomobilning to\u0027xtab turishiga ruxsat etilganmi?",
+                                    "options":  [
+                                                    "F1. Berilgan",
+                                                    "F2. Taqiqlangan"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1-ilovasi 3-boʻlimining o\u0027ttiz ikkinchi xatboshisiga asosan: 3.28. «To\u0027xtab turish taqiqlangan». Transport vositalarining toʻxtab turishi taqiqlanishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешена ли стоянка автомобиля в этом месте?",
+                                    "options":  [
+                                                    "F1. Разрешена",
+                                                    "F2. Запрещена"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Запрещающий знак 3.28 \"Стоянка запрещена\". Запрещается стоянка транспортных средств. Кроме этого стоянка запрещена под мостами, эстакадами и путепроводами."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу жойда енгил автомобилнинг тўхтаб туришига рухсат этилганми?",
+                                     "options":  [
+                                                     "F1. Берилган",
+                                                     "F2. Тақиқланган"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўттиз иккинчи хатбошисига асосан: 3.28. «Тўхтаб туриш тақиқланган». Транспорт воситаларининг тўхтаб туриши тақиқланишини билдиради."
+                                 }
+                     }
+}

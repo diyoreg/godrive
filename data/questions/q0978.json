@@ -1,0 +1,34 @@
+﻿{
+    "questionId":  978,
+    "image":  "data/images/q0978.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Kunning yorug\u0027 vaqtida harakatlanayotgan qaysi rasmdagi avtomobil haydovchisi yuk tashish qoidasini buzayapti?",
+                                    "options":  [
+                                                    "F1. Har ikkalasinda",
+                                                    "F2. Hech kim buzmayapti"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 27-bobi 163-bandi: Transport vositasining gabaritlaridan oldi yoki orqa tomonga 1 metrdan, yon tomonga gabaritning chetki qismidan 0,4 metrdan ortiq chiqib turgan yuk «Katta o\u0027lchamli yuk» taniqlik belgisi bilan belgilanishi, sutkaning qorong\u0027i vaqtida va yetarlicha ko\u0027rinmaydigan sharoitda esa bunga qoʻshimcha ravishda oldi oq rangli chiroq yoki yorug\u0027lik qaytargich, orqasi esa qizil rangli chiroq yoki yorug\u0027lik qaytargich bilan belgilanishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "На каком рисунке изображен автомобиль, водитель которого нарушает правила перевозки грузов при движении в светлое время суток?",
+                                    "options":  [
+                                                    "F1. На обоих рисунках",
+                                                    "F2. Только на А",
+                                                    "F3. Никто не нарушает"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 163 главы 27 ПДД, гласит: Груз, выступающий за габариты транспортного средства спереди и сзади более чем на 1 м или сбоку более чем на 0,4 м от внешнего края габаритного огня, должен быть обозначен опознавательными знаками «Крупногабаритный груз», а в тёмное время суток и в условиях недостаточной видимости, кроме того, спереди фонарём или световозвращателем белого цвета, сзади — фонарём или световозвращателем красного цвета."
+                                },
+                         "uzk":  {
+                                     "text":  "Куннинг ёруғ вақтида ҳаракатланаётган қайси расмдаги автомобиль ҳайдовчиси юк ташиш қоидасини бузаяпти?",
+                                     "options":  [
+                                                     "F1. Ҳар иккаласида",
+                                                     "F2. Ҳеч ким бузмаяпти"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 27-боби 163-банди: Транспорт воситасининг габаритларидан олди ёки орқа томонга 1 метрдан, ён томонга габаритнинг четки қисмидан 0,4 метрдан ортиқ чиқиб турган юк «Катта ўлчамли юк» таниқлик белгиси билан белгиланиши, сутканинг қоронғи вақтида ва етарлича кўринмайдиган шароитда эса бунга қўшимча равишда олди оқ рангли чироқ ёки ёруғлик қайтаргич, орқаси эса қизил рангли чироқ ёки ёруғлик қайтаргич билан белгиланиши керак."
+                                 }
+                     }
+}

@@ -1,0 +1,39 @@
+{
+    "questionId": 589,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Tormoz tizimi ishlamayotgan transport vositasini shatakka olish mumkinmi?",
+            "options": [
+                "F1. Agar shatakka olgan transport vositasining haqiqiy vazni shatakka olinuvchi transport vaznidan ikki barobar ortiq boʻlsa, qattiq ulagich yordamida yoki qisman ortish usuli bilan",
+                "F2. Faqat qattiq ulagichda",
+                "F3. Agar shatakka olingan transport vositasida haydovchi bo'lsa har qanday usul bilan",
+                "F4. Faqat unga qisman ortish usuli bilan"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 24-bobi 145-bandining to'rtinchi xatboshisiga asosan, shatakka olish quyidagi holatlarda taqiqlanadi: tormoz tizimi ishlamayotgan transport vositasining haqiqiy vazni shatakka olgan transport vositasining haqiqiy vaznining yarmidan ortiq bo'lsa (haqiqiy vazni kam boʻlgan bunday transport vositasini Faqat qattiq ulagich yordamida yoki qisman ortish usuli bilan shatakka olishga yo'l qo'yiladi)."
+        },
+        "ru": {
+            "text": "Разрешается ли буксировка автомобиля с неисправной тормозной системой?",
+            "options": [
+                "F1. На жесткой сцепке, если фактическая масса буксирующего будет в два раза превышать фактическую массу буксируемого.",
+                "F2. Только на жесткой сцепке",
+                "F3. Любым способом, если за рулем буксируемого транспортного средства находится водитель",
+                "F4. Только методом его частичной погрузки"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Aбзацу 4 пункта 145 главы 24 ПДД, гласит: Буксировка запрещается в следующих случаях: - транспортного средства с недействующей тормозной системой, если его фактическая масса превышает половину фактической массы буксирующего транспортного средства. (Кроме случаев буксировки при меньшей фактической массе таких транспортных средств только на жесткой сцепке или методом частичной погрузки.)."
+        },
+        "uzk": {
+            "text": "Тормоз тизими ишламаётган транспорт воситасини шатакка олиш мумкинми?",
+            "options": [
+                "F1. Агар шатакка олган транспорт воситасининг ҳакикий вазни шатакка олинувчи транспорт вазнидан икки баробар ортиқ бўлса, қаттиқ улагич ёрдамида ёки кисман ортиш усули билан",
+                "F2. Фақат қаттиқ улагичда",
+                "F3. Агар шатакка олинган транспорт воситасида ҳайдовчи бўлса ҳар қандай усул билан",
+                "F4. Фақат унга қисман ортиш усули билан"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 24-боби 145-бандининг тўртинчи хатбошисига асосан, шатакка олиш қуйидаги ҳолатларда тақиқланади: тормоз тизими ишламаётган транспорт воситасининг ҳақиқий вазни шатакка олган транспорт воситасининг ҳақиқий вазнининг ярмидан ортиқ бўлса (ҳақиқий вазни кам бўлган бундай транспорт воситасини фақат қаттиқ улагич ёрдамида ёки қисман ортиш усули билан шатакка олишга йўл қўйилади)."
+        }
+    }
+}

@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1107,
+    "image":  "data/images/q1107.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi rasmda piyodalarning tashkiliy jamlanmasi yo\u0027lning qatnov qismida qoidani buzmay harakatlanmoqda?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 4-bobi 16-bandiga asosan:Piyodalarning tashkiliy jamlanmasiga yo\u0027lning qatnov qismida bir qatorda to\u0027rt kishidan ortiq bo\u0027lmasdan, faqat transport vositalarining harakat yo\u0027nalishi bo\u0027ylab o\u0027ng tomondan harakatlanishga ruxsat etiladi.\nJamlanmaning oldi va orqasida chap tomondan qizil bayroqcha, sutkaning qorong\u0027i vaqtida yoki yetarlicha ko\u0027rinmaslik sharoitida esa oldinda oq, orqada qizil rangli chiroq ko\u0027targan kuzatuvchilar bo\u0027lishi shart.\nBolalar guruhini trotuarlar va piyodalar yo\u0027lkalaridangina, ular bo\u0027lmaganda esa yo\u0027l yoqasidan faqat sutkaning yorug\u0027 vaqtida va katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "На каком изображении организованная группа пешеходов движется по проезжей части, не нарушая правила?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 16 главы 4 ПДД, гласит: Движение организованных колонн пешеходов разрешается в попутном движению транспортных средств направлении только по правой стороне проезжей части дороги, не более чем по четыре человека в ряд.\nВпереди и сзади колонны с левой стороны должны находиться сопровождающие с красными флажками, а в темное время суток и при недостаточной видимости — с включенными фонарями: спереди — белого цвета, сзади — красного.\nГруппы детей разрешается водить только по тротуарам и пешеходным дорожкам, а при их отсутствии — по обочинам, только в светлое время суток и в сопровождении взрослых."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси расмда пиёдаларнинг ташкилий жамланмаси йўлнинг қатнов қисмида қоидани бузмай ҳаракатланмоқда?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 4-боби 16-бандига асосан:Пиёдаларнинг ташкилий жамланмасига йўлнинг қатнов қисмида бир қаторда тўрт кишидан ортиқ бўлмасдан, фақат транспорт воситаларининг ҳаракат йўналиши бўйлаб ўнг томондан ҳаракатланишга рухсат этилади.\nЖамланманинг олди ва орқасида чап томондан қизил байроқча, сутканинг қоронғи вақтида ёки етарлича кўринмаслик шароитида эса олдинда оқ, орқада қизил рангли чироқ кўтарган кузатувчилар бўлиши шарт.\nБолалар гуруҳини тротуарлар ва пиёдалар йўлкаларидангина, улар бўлмаганда эса йўл ёқасидан фақат сутканинг ёруғ вақтида ва катта ёшдагилар кузатувида олиб юришга рухсат этилади."
+                                 }
+                     }
+}

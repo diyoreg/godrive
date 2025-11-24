@@ -1,0 +1,36 @@
+{
+    "questionId": 661,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Trotuar yoki piyodalar yo'lkasi bo'lmaganda, piyodalar velosiped yo'lkasi bo'ylab harakat qila oladilarmi?",
+            "options": [
+                "F1. Harakat qila oladilar",
+                "F2. Agar velosipedlarning harakatlanishini qiyinlashtirmasa, harakat qila oladilar",
+                "F3. Harakat qila olmaydilar"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 4-bobi 15-bandining ikkinchi xatboshisiga asosan: Trotuar, piyodalar yo'lkasi, yo'l yoqasi boʻlmasa yoki ulardan yurishning imkoniyati boʻlmagan hollarda piyodalar velosiped yo'lkasidan yoki qatnov qismining chetidan (ajratuvchi boʻlagi bor yoʻllarda qatnov qismining tashqi chetidan) bir qator bo'lib yurishlari mumkin."
+        },
+        "ru": {
+            "text": "Могут ли пешеходы двигаться по велосипедным дорожкам при отсутствии тротуара или пешеходной дорожки?",
+            "options": [
+                "F1. Могут",
+                "F2. Могут, если это не затрудняет движение велосипедов",
+                "F3. Не могут"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Aбзацу 2 пункта 15 главы 4 ПДД, гласит: При отсутствии тротуаров, пешеходных дорожек, обочин или при невозможности двигаться по ним, пешеходы могут идти по велосипедной дорожке или по краю проезжей части (на дорогах с разделительной полосой - по правому краю проезжей части) в один ряд."
+        },
+        "uzk": {
+            "text": "Тротуар ёки пиёдалар йўлкаси бўлмаганда, пиёдалар велосипед йўлкаси бўйлаб ҳаракат қила оладиларми?",
+            "options": [
+                "F1. Ҳаракат қила оладилар",
+                "F2. Агар велосипедларнинг ҳаракатланишини кийинлаштирмаса, ҳаракат қила оладилар",
+                "F3. Ҳаракат қила олмайдилар"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 4-боби 15-бандининг иккинчи хатбошисига асосан: Тротуар, пиёдалар йўлкаси, йўл ёқаси бўлмаса ёки улардан юришнинг имконияти бўлмаган ҳолларда пиёдалар велосипед йўлкасидан ёки қатнов қисмининг четидан (ажратувчи бўлаги бор йўлларда қатнов қисмининг ташқи четидан) бир қатор бўлиб юришлари мумкин."
+        }
+    }
+}

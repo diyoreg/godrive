@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  226,
+    "image":  "data/images/q0226.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan avtomobillarning qaysi biri ag\u0027darilishga qarshi turg\u0027unroq?",
+                                    "options":  [
+                                                    "F1. Ichida tik turgan yo\u0027lovchilar bo\u0027lgan avtobus",
+                                                    "F2. Avtokran",
+                                                    "F3. Bo\u0027sh yuk avtomobili"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Burilishlarda yo\u0027lovchisi va yuki bo\u0027lmagan avtomobillar ko\u0027proq muvozanat saqlab qoladi, chunki bunday avtomobilda og\u0027irlik markazi eng past joylashgan bo\u0027lib, eng kam ag\u0027darilish ehtimoliga ega bo\u0027ladi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из указанных автомобилей наиболее устойчив против опрокидывания?",
+                                    "options":  [
+                                                    "F1. Автобус при наличии в нем стоящих пассажиров",
+                                                    "F2. Автокран",
+                                                    "F3. Порожний грузовой автомобиль"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "В данном случае у пустого грузового автомобиля центр тяжести ниже, поэтому он наиболее устойчив против опрокидывания."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган автомобилларнинг қайси бири ағдарилишга қарши тургунроқ?",
+                                     "options":  [
+                                                     "F1. Ичида тик турган йўловчилар бўлган автобус",
+                                                     "F2. Автокран",
+                                                     "F3. Бўш юк автомобили"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "Бурилишларда йўловчиси ва юки бўлмаган автомобиллар кўпроқ мувозанат сақлаб қолади, чунки бундай автомобилда оғирлик маркази энг паст жойлашган бўлиб, энг кам ағдарилиш эҳтимолига эга бўлади."
+                                 }
+                     }
+}

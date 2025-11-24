@@ -1,0 +1,36 @@
+{
+    "questionId": 366,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Transport vositalariga sidirg'a oq chiziq bilan ajratilgan va «Yo'nalishli transport vositalari uchun mo'ljallangan tasma» yo'l belgisi bilan belgilangan yo'lning o'ng bo'lagida to'xtab turishga ruxsat etiladimi?",
+            "options": [
+                "F1. Agar to'xtab turishni taqiqlovchi belgi bo'lmasa, ruxsat etiladi",
+                "F2. Taqiqlanadi",
+                "F3. Faqat shu hududdagi korxonaga xizmat qiladigan yoki yaqin o'rtadagi uylarda yashaydigan fuqarolarga qarashli avtomobillarga ruxsat etiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 22-bobi 132-bandining birinchi xatboshisiga asosan: Yo'nalishli transport vositalarining harakatlanishi uchun 5.9, 5.10.1 — 5.10.3 yo'l belgilari bilan ajratilgan tasmada boshqa transport vositalarining harakatlanishi va to'xtashi taqiqlanadi."
+        },
+        "ru": {
+            "text": "Разрешается ли стоянка транспортных средств на правой полосе дороги, отделенной сплошной белой линией разметки и обозначенной дорожным знаком «Полоса для маршрутных транспортных средств»?",
+            "options": [
+                "F1. Разрешается, если нет знака, запрещающего стоянку",
+                "F2. Запрещается",
+                "F3. Разрешается только автомобилям, которые обслуживают предприятия, находящиеся в этой зоне, или принадлежат гражданам, проживающим в ближайших домах"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 132 главы 22 ПДД, гласит: По полосе, обозначенной знаками 5.9 (\"Полоса для маршрутных транспортных средств\"), 5.10.1-5.10.3 для движения маршрутных транспортных средств, движение и остановка других транспортных средств запрещается. Соответственно, стоянка на правой полосе дороги, отделенной сплошной белой линией разметки и обозначенной дорожным знаком \"Полоса для маршрутных транспортных средств\" запрещена."
+        },
+        "uzk": {
+            "text": "Транспорт воситаларига сидирға оқ чизиқ билан ажратилган ва «Йўналишли транспорт воситалари учун мўлжалланган тасма» йўл белгиси билан белгиланган йўлнинг ўнг бўлагида тўхтаб туришга рухсат этиладими?",
+            "options": [
+                "F1. Агар тўхтаб туришни тақиқловчи белги бўлмаса, рухсат этилади",
+                "F2. Тақиқланади",
+                "F3. Фақат шу ҳудуддаги корхонага хизмат қиладиган ёки яқин ўртадаги уйларда яшайдиган фукароларга қарашли автомобилларга рухсат этилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 22-боби 132-бандининг биринчи хатбошисига асосан: Йўналишли транспорт воситаларининг ҳаракатланиши учун 5.9, 5.10.1 — 5.10.3 йўл белгилари билан ажратилган тасмада бошқа транспорт воситаларининг ҳаракатланиши ва тўхташи тақиқланади."
+        }
+    }
+}

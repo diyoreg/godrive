@@ -1,0 +1,33 @@
+{
+    "questionId": 338,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yuk avtomobillari avtomagistralda chetki chap qatorida harakatlanishga ruxsat etiladimi?",
+            "options": [
+                "F1. Ruxsat etiladi",
+                "F2. Taqiqlanadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 19-bobi 121-bandining ikkinchi xatboshisiga asosan, avtomagistrallarda quyidagilar taqiqlanadi: yuk avtomobillariga yo'lning chetki chap qatorida harakatlanishi."
+        },
+        "ru": {
+            "text": "Разрешается ли движение грузовых автомобилей по автомагистрали в крайнем левом полосы?",
+            "options": [
+                "F1. Разрешается",
+                "F2. Запрещается"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Aбзацу 2 пункту 121 главы 19 ПДД, гласит: На автомагистралях запрещается: - движение грузовых автомобилей в крайней левой полосе дороги."
+        },
+        "uzk": {
+            "text": "Юк автомобиллари автомагистралда четки чап қаторида ҳаракатланишга рухсат этиладими?",
+            "options": [
+                "F1. Рухсат этилади",
+                "F2. Тақиқланади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 19-боби 121-бандининг иккинчи хатбошисига асосан, автомагистралларда қуйидагилар тақиқланади: юк автомобилларига йўлнинг четки чап қаторида ҳаракатланиши."
+        }
+    }
+}

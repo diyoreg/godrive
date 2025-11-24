@@ -1,0 +1,39 @@
+{
+    "questionId": 229,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Qisman ortish usuli bilan",
+                "F2. Qattiq ulagich bilan",
+                "F3. Uni qisman ortish yoki qattiq ulagichda ulash usuli bilan",
+                "F4. Agar shatakka oluvchining haqiqiy vazni shatakka olinayotganning haqiqiy vaznidan ikki marta ko'p bo'lsa qattiq ulagichda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 24-bobi 145-bandining birinchi xatboshisiga asosan, shatakka olish quyidagi holatlarda taqiqlanadi: rul boshqaruvi ishlamayotgan transport vositalarini (qisman ortish yo'li bilan shatakka olish bundan mustasno)."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Методом его частичной погрузки",
+                "F2. На жесткой сцепке",
+                "F3. Методом его частичной погрузки или на жесткой сцепке",
+                "F4. На жесткой сцепке, если фактическая масса буксирующего вдвое превышает фактическую массу буксируемого"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Абзацу 1 пункта 145 главы 24 ПДД, запрещается буксировка транспортных средств, у которых не действует рулевое управление (кроме случаев буксировки методом частичной погрузки)."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Қисман ортиш усули билан",
+                "F2. Қаттиқ улагич билан",
+                "F3. Уни қисман ортиш ёки қаттик улагичда улаш усули билан",
+                "F4. Агар шатакка олувчининг ҳақиқий вазни шатакка олинаëтганнинг ҳакикий вазнидан икки марта кўп бўлса қаттик улагичда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 24-боби 145-бандининг биринчи хатбошисига асосан, шатакка олиш қуйидаги ҳолатларда тақиқланади: рул бошқаруви ишламаётган транспорт воситаларини (қисман ортиш йўли билан шатакка олиш бундан мустасно)."
+        }
+    }
+}

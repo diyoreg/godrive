@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  1037,
+    "image":  "data/images/q1037.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi «Avtomobillar uchun mo\u0027ljallangan yo\u0027l» deb nomlanadi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 5.3. “Avtomobillar uchun mo\u0027ljallangan yo\u0027l”. Faqat avtomobillar, avtobus hamda mototsikllar, elektromototsiklar, mopedlar va skuterlarning harakatlanishi uchun mo\u0027ljallangan yo\u0027lni bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак называется «Дорога для автомобилей»?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: 5.3. Дорога для автомобилей. Дорога, предназначенная для движения только автомобилей, автобусов, мотоциклов, электромотоциклов, мопедов и скутеров."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги «Автомобиллар учун мўлжалланган йўл» деб номланади?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 5.3. “Автомобиллар учун мўлжалланган йўл”. Фақат автомобиллар, автобус ҳамда мотоцикллар, электромотоциклар, мопедлар ва скутерларнинг ҳаракатланиши учун мўлжалланган йўлни билдиради."
+                                 }
+                     }
+}

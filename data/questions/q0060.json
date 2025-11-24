@@ -1,0 +1,42 @@
+{
+    "questionId": 60,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "M2; M3 toifali avtotransport vositalari shina protektorlari naqshlarining qoldiq balandligi kamida qancha bo'lishi kerak?",
+            "options": [
+                "F1. 0,8 mm",
+                "F2. 1,2 mm",
+                "F3. 1,6 mm",
+                "F4. 2 mm",
+                "F5. 2,5 mm"
+            ],
+            "correctAnswer": 4,
+            "explanation": "5.1. Shina protektori naqshlarining qoldiq balandligi N2, N3, O3, O4 toifadagi avtotransport vositalari uchun — 1,0 mm dan kam bo'lsa;\nM1, N1, O1, O2 toifadagi avtotransport vositalari uchun — 1,6 mm dan, kam bo'lsa;\nM2, M3 toifadagi avtotransport vositalari uchun — 2,0 mm dan kam bo'lsa;\nMototsikl, elektromototsikl, moped va skuterlar uchun — 0,8 mm dan kam bo'lsa.\nIzoh: tirkamalar shinasi naqshlarining qoldiq balandligi shatakchi transport vositasi shinalari uchun belgilangan me’yor kabidir."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 0,8 mm",
+                "F2. 1,2 mm",
+                "F3. 1,6 mm",
+                "F4. 2 mm",
+                "F5. 2,5 mm"
+            ],
+            "correctAnswer": 4,
+            "explanation": "5.1. Шины имеют остаточную высоту рисунка\nпротектора для автотранспортных средств категории N2, N3, О3, О4 менее 1,0 мм;\nдля M1, N1, О1, О2 менее 1,6 мм, для автотранспортных средств категорий М2, М3, менее 2,0 мм, для мотоциклов, электромотоциклов, мопедов и скутеров – если она меньше 0,8 мм."
+        },
+        "uzk": {
+            "text": "М2; МЗ тоифали автотранспорт воситалари шина протекторлари нақшларининг қолдик баландлиги камида қанча бўлиши керак?",
+            "options": [
+                "F1. 0,8 мм",
+                "F2. 1,2 мм",
+                "F3. 1,6 мм",
+                "F4. 2 мм",
+                "F5. 2,5 мм"
+            ],
+            "correctAnswer": 4,
+            "explanation": "5.1. Шина протектори нақшларининг қолдиқ баландлиги N2, N3, О3, О4 тоифадаги автотранспорт воситалари учун — 1,0 мм дан кам бўлса;\nМ1, N1, О1, О2 тоифадаги автотранспорт воситалари учун — 1,6 мм дан, кам бўлса;\nМ2, М3 тоифадаги автотранспорт воситалари учун — 2,0 мм дан кам бўлса;\nМотоцикл, электромотоцикл, мопед ва скутерлар учун — 0,8 мм дан кам бўлса.\nИзоҳ: тиркамалар шинаси нақшларининг қолдиқ баландлиги шатакчи транспорт воситаси шиналари учун белгиланган меъёр кабидир."
+        }
+    }
+}

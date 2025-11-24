@@ -1,0 +1,35 @@
+{
+    "questionId": 180,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Transport vositalaridan qanday shartlarda foydalanishga ruxsat etiladi?",
+            "options": [
+                "F1. Shinalarning ayrim joylarida kord ko'rinib qoladigan nuqsonlari bor",
+                "F2. N2, N3 toifadagi transport vositalari shinalari protektori naqshining qoldiq balandligi 1,6 mm.ni tashkil qiladi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 3-ilovasi 5-Bo'limi 5.1-bandiga asosan: Shina protektori naqshlarining qoldiq balandligi N2, N3, ОЗ, О4 toifadagi avtotransport vositalari uchun — 1,0 mm dan kam bo'lsa foydalanish taqiqlanadi.\nYHQ 3-ilovasi 5-Bo'limi 5.2-bandiga asosan: Shinalarda kord ko'rinishiga olib kelgan tashqi nuqsonlar (teshilgan kesilgan, yorilgan), hamda karkas qatlamlari ajralgan, protektor va yon qismlari koʻchgan bo'lsa foydalanish taqiqlanadi.\nYHQ 3-ilovasi 5-bo'limi 5.7-bandiga asosan: М1, M2, МЗ toifalarni I klassidagi avtotransport vositalarini oldingi o'qiga, МЗ toifani II va III klassidagi avtotransport vositalarini oʻrta va orqa o'qlariga ikkinchi ta'mirlash klassi boʻyicha qayta tiklangan shinalar oʻrnatilgan boʻlsa foydalanish taqiqlanadi."
+        },
+        "ru": {
+            "text": "При каких условиях разрешается эксплуатация транспортных средств?",
+            "options": [
+                "F1. Шины имеют местные повреждения, обнажающие корд",
+                "F2. На передней оси легкового автомобиля установлены шины, восстановленные по второму классу ремонта",
+                "F3. Остаточная высота рисунка протектора шин автотранспортных средств категорий N2; N3 составляет 1,6 мм"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 5.2 раздела 5 приложения №3 к ПДД, шины имеют дефекты и местные повреждения (порезы, разрывы и т.п.); пункту 5.7. на передней оси автотранспортных средств категорий М1, N1, 01, 02 установлены шины, восстановленные по второму классу ремонта;\nПункту 5.1. шины автотранспортных средств категории М1 имеют остаточную высоту рисунка протектора менее 1,6 мм, автотранспортных средств категории N2, N3 - 1,0 мм, автотранспортных средств категории М2, М3-2,0 мм, мотоциклов и мопедов - 0,8 мм."
+        },
+        "uzk": {
+            "text": "Транспорт воситаларидан қандай шартларда фойдаланишга рухсат этилади?",
+            "options": [
+                "F1. Шиналарнинг айрим жойларида корд кўриниб коладиган нуксонлари бор",
+                "F2. М1 тоифадаги автотранспорт воситаларининг олдинги ўқига иккинчи классдаги таъмирланган шиналар ўрнатилган",
+                "F3. N2, N3 тоифадаги транспорт воситалари шиналари протектори накшининг қолдиқ баландлиги 1,6 мм.ни ташкил қилади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 3-иловаси 5-бўлими 5.1-бандига асосан: Шина протектори нақшларининг қолдиқ баландлиги N2, N3, ОЗ, О4 тоифадаги автотранспорт воситалари учун — 1,0 мм дан кам. бўлса фойдаланиш тақиқланади.\nЙҲҚ 3-иловаси 5-бўлими 5.2-бандига асосан: Шиналарда корд кўринишига олиб келган ташқи нуқсонлар (тешилган кесилган, ёрилган), ҳамда каркас қатламлари ажралган, протектор ва ён қисмлари кўчган бўлса фойдаланиш тақиқланади.\nЙҲҚ 3-иловаси 5-бўлими 5.7-бандига асосан: М1, M2, МЗ тоифаларни I классидаги автотранспорт воситаларини олдинги ўқига, МЗ тоифани II ва III классидаги автотранспорт воситаларини урта ва орка укларига иккинчи таъмирлаш класси буйича кайта тикланган шиналар урнатилган булса фойдаланиш такикланади."
+        }
+    }
+}

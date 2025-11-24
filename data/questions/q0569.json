@@ -1,0 +1,39 @@
+{
+    "questionId": 569,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Mototsikllarni shatakka olishga ruxsat etiladimi?",
+            "options": [
+                "F1. Yon kajavali mototsikllarni shatakka olishga ruxsat etiladi",
+                "F2. Taqiqlanadi",
+                "F3. Tekis joylarda ruxsat etiladi",
+                "F4. Yon kajavasi bo'lmagan mototsikllarni shatakka olishga ruxsat etiladi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 24-bobi 145-bandining beshinchi xatboshisiga asosan, shatakka olish quyidagi holatlarda taqiqlanadi: kajavasiz mototsikllar bilan, shuningdek bunday mototsikllarni."
+        },
+        "ru": {
+            "text": "Разрешается ли буксировка мотоциклов?",
+            "options": [
+                "F1. Разрешается мотоциклы с боковым прицепом",
+                "F2. Запрещается",
+                "F3. Разрешается в равнинной местности",
+                "F4. Разрешается мотоциклы без бокового прицепа"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункту 145 главы 24 ПДД, гласит: Буксировка запрещается в следующих случаях: - мотоциклами без бокового прицепа, а также таких мотоциклов;\nСоответственно, буксировка мотоциклов без бокового прицепа запрещена, а с боковым прицепом разрешена."
+        },
+        "uzk": {
+            "text": "Мотоциклларни шатакка олишга рухсат этиладими?",
+            "options": [
+                "F1. Ён кажавали мотоциклларни шатакка олишга рухсат этилади",
+                "F2. Тақиқланади",
+                "F3. Текис жойларда рухсат этилади",
+                "F4. Ён кажаваси бўлмаган мотоциклларни шатакка олишга рухсат этилади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 24-боби 145-бандининг бешинчи хатбошисига асосан, шатакка олиш қуйидаги ҳолатларда тақиқланади: кажавасиз мотоцикллар билан, шунингдек бундай мотоциклларни."
+        }
+    }
+}

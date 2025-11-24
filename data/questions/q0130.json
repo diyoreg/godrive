@@ -1,0 +1,35 @@
+{
+    "questionId": 130,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yengil avtomobilda tumanga qarshi faralarning nechtasini o'rnatishga ruxsat etiladi?",
+            "options": [
+                "F1. Ikkita",
+                "F2. To'rtta",
+                "F3. Haydovchining hohishiga ko'ra"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 3-ilovasi 3-bo'limining 3.1-bandiga asosan: Tashqi yoritqichlar soni, turi, joylashuvi va ishlash tartibi transport vositasining konstruksiyasi talabiga mos kelmasa foydalanish taqiqlanadi. Ishlab chiqarilishi toʻxtatilgan yengil avtomobillarga boshqa turdagi va rusumdagi transport vositalarining tashqi yoritqichlarini o'rnatishga ruxsat etiladi.\nIzoh: Mototsikl, mopedlar bitta, boshqa transport vositalari esa ikkita tumanga qarshi faralar bilan jihozlangan bo'lishi mumkin."
+        },
+        "ru": {
+            "text": "Какое количество противотуманных фар разрешается устанавливать на легковом автомобиле?",
+            "options": [
+                "F1. Четыре",
+                "F2. По усмотрению водителя"
+            ],
+            "correctAnswer": 1,
+            "explanation": "В пункте 3.1 \"Условий, при которых запрещается эксплуатация транспортных средств\" (приложение №3 к ПДД) сказано, что мотоциклы, мопеды могут быть оборудованы одной противотуманной фарой, другие транспортные средства - двумя."
+        },
+        "uzk": {
+            "text": "Енгил автомобилда туманга қарши фараларнинг нечтасини ўрнатишга рухсат этилади?",
+            "options": [
+                "F1. Иккита",
+                "F2. Тўртта",
+                "F3. Ҳайдовчининг ҳоҳишига кўра"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 3-иловаси 3-бўлимининг 3.1-бандига асосан: Ташқи ёритқичлар сони, тури, жойлашуви ва ишлаш тартиби транспорт воситасининг конструкцияси талабига мос келмаса фойдаланиш тақиқланади. Ишлаб чиқарилиши тўхтатилган енгил автомобилларга бошқа турдаги ва русумдаги транспорт воситаларининг ташқи ёритқичларини ўрнатишга рухсат этилади.\nИзоҳ: Мотоцикл, мопедлар битта, бошқа транспорт воситалари эса иккита туманга қарши фаралар билан жиҳозланган бўлиши мумкин."
+        }
+    }
+}

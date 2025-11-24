@@ -1,0 +1,39 @@
+{
+    "questionId": 68,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar transport vositasi o'lchamlari kattaligidan yoki boshqa sabablarga ko'ra chetki holatda burilishni bajara olmagan bo'lsa, bu qoidadan chetga chiqqan holda burilishga yo'l qo'yiladimi?",
+            "options": [
+                "F1. Yo'l qo'yilmaydi",
+                "F2. Yo'l qo'yiladi, agar bu boshqa transport vositalariga xalaqit bermasa, harakat xavfsizligini ta'minlab, talablardan chetga chiqishi mumkin",
+                "F3. Aholi punktidan tashqaridagi yo'llarda yo'l qo'yiladi",
+                "F4. Yo'l qo'yiladi, lekin faqat chorrahada emas"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 9-bobi 58-bandiga asosan: Agar transport vositasi o'zining gabaritlari (eng katta tashqi oʻlchamlari) yoki boshqa sabablarga ko'ra (eng chekka tasmalardagi tirbandliklar bundan mustasno) Qoidalarning 56-bandi talablariga muvofiq burilishni bajara olmasa, harakat xavfsizligini ta'minlagan holda, boshqa transport vositalariga xalaqit bermasdan, talablardan chetga chiqishiga yoʻl qo'yiladi. 56. Aylanma harakatlanish tashkil qilingan chorrahalarga kirish uchun burilishdan boshqa barcha hollarda, haydovchi oʻngga, chapga burilishi yoki qayrilib olishdan oldinroq shu yo'nalishda harakatlanishi uchun mo'ljallangan qatnov qismining eng chetki holatni egallashi shart."
+        },
+        "ru": {
+            "text": "Если транспортное средство из-за габаритов или по другим причинам не может выполнить поворот из крайнего положения, допускается ли производить его с отступлением от этого правила?",
+            "options": [
+                "F1. Не допускается",
+                "F2. Допускается, если это не создает помех другим транспортным средствам. Для обеспечения безопасности движения водитель, в случае необходимости, должен прибегнуть к помощи других лиц",
+                "F3. Допускается на дорогах вне населенных пунктов",
+                "F4. Допускается, но только не на перекрестке"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 58 главы 9 ПДД, гласит: Если транспортное средство по своим габаритам или по другим причинам не может выполнить поворот с соблюдением требований пункта 56 настоящих Правил, допускается отступать от них, при условии обеспечения безопасности движения и если это не создаст помех другим транспортным средствам. 56. Перед поворотом направо, налево или разворотом водитель обязан заблаговременно занять соответствующее крайнее положение на проезжей части, предназначенной для движения в данном направлении, кроме случаев, когда совершается поворот при въезде на перекрёсток с круговым движением."
+        },
+        "uzk": {
+            "text": "Агар транспорт воситаси ўлчамлари катталигидан ёки бошқа сабабларга кўра четки ҳолатда бурилишни бажара олмаган бўлса, бу қоидадан четга чиққан ҳолда бурилишга йўл қўйиладими?",
+            "options": [
+                "F1. Йўл қўйилмайди",
+                "F2. Йўл қўйилади, агар бу бошқа транспорт воситаларига халақит бермаса, ҳаракат хавфсизлигини таъминлаб, талаблардан четга чикиши мумкин",
+                "F3. Аҳоли пунктидан ташқаридаги йўлларда йўл қўйилади",
+                "F4. Йўл қўйилади, лекин фақат чорраҳада эмас"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 9-боби 58-бандига асосан: Агар транспорт воситаси ўзининг габаритлари (энг катта ташқи ўлчамлари) ёки бошқа сабабларга кўра (энг чекка тасмалардаги тирбандликлар бундан мустасно) Коидаларнинг 56-банди талабларига мувофиқ бурилишни бажара олмаса, ҳаракат хавфсизлигини таъминлаган ҳолда, бошқа транспорт воситаларига халақит бермасдан, талаблардан четга чиқишига йўл қўйилади. 56. Айланма ҳаракатланиш ташкил қилинган чорраҳаларга кириш учун бурилишдан бошқа барча ҳолларда, ҳайдовчи ўнгга, чапга бурилиши ёки қайрилиб олишдан олдинроқ шу йўналишда ҳаракатланиши учун мўлжалланган қатнов қисмининг энг четки ҳолатни эгаллаши шарт."
+        }
+    }
+}

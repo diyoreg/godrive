@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  971,
+    "image":  "data/images/q0971.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu qo\u0027shimcha-axborot yo\u0027l belgisi qaysi yo\u0027l belgisi bilan birgalikda qullaniladi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova 7.12: «Xavfli yo\u0027l yoqasi». Yo\u0027l ishlari bajarilayotgani sababli yoʻl yoqasiga chiqish xavfli ekanligi haqida ogohlantiradi. 1.23 belgisi bilan qo\u0027llaniladi."
+                                },
+                         "ru":  {
+                                    "text":  "С каким дорожным знаком применяется эта табличка?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Приложение №1 к ПДД пункт 7.12: «Опасная обочина». Предупреждает, что съезд на обочину опасен в связи с проведением на ней ремонтных работ. Применяется со знаком 1.23."
+                                },
+                         "uzk":  {
+                                     "text":  "Бу қўшимча-ахборот йўл белгиси қайси йўл белгиси билан биргаликда қўлланилади?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова 7.12: «Хавфли йўл ёқаси». Йўл ишлари бажарилаётгани сабабли йўл ёқасига чиқиш хавфли эканлиги ҳақида огоҳлантиради. 1.23 белгиси билан қўлланилади."
+                                 }
+                     }
+}

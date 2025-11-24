@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  1056,
+    "image":  "data/images/q1056.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Harakatlanish qaysi yo\u0027nalishga ruxsat etilgan?",
+                                    "options":  [
+                                                    "F1. Harakatlanish taqiqlanadi",
+                                                    "F2. Faqat to\u0027g\u0027riga",
+                                                    "F3. Faqat to\u0027g\u0027riga va o\u0027ngga",
+                                                    "F4. Barcha yo\u0027nalishda ruxsat etiladi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 7-bobi 36-bandi: Tramvaylarning hamda maxsus ajratilgan tasma bo\u0027ylab harakatlanayotgan boshqa yo\u0027nalishli transport vositalarining harakatlanishini tartibga solish uchun “T” harfi ko\u0027rinishida joylashgan to\u0027rtta doirasimon oq rang ishorali svetoforlar qo\u0027llanilishi mumkin.\nYuqoridagi bir yoki bir nechta va pastki ishora bir vaqtning o\u0027zida yonganda, harakatlanishga ruxsat etiladi. Ulardan chapdagisi chapga, o\u0027ngdagisi o\u0027ngga, o\u0027rtadagisi to\u0027g\u0027riga yurishga ruxsat beradi. Pastdagi ishora o\u0027chirilib, yuqoridagi uchta ishora bir vaqtda yonsa, harakatlanish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "В каком направлени разрешено движение?",
+                                    "options":  [
+                                                    "F1. Движение запрешено",
+                                                    "F2. Толькo прямо",
+                                                    "F3. Толькo прямо и направо",
+                                                    "F4. Разрешено во все направления"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 36 главы 7 ПДД, гласит: Для регулирования движения трамваев, а также других маршрутных транспортных средств, движущихся по специально выделенной для них полосе, могут применяться светофоры с четырьмя круглыми сигналами бело-лунного цвета, расположенными в виде буквы “Т”.\nДвижение разрешается при включении одновременно нижнего сигнала и одного или нескольких верхних. Из них левый разрешает движение налево, средний — прямо, правый — направо. Если включены только три верхних сигнала, то движение запрещено."
+                                },
+                         "uzk":  {
+                                     "text":  "Ҳаракатланиш қайси йўналишга рухсат етилган?",
+                                     "options":  [
+                                                     "F1. Ҳаракатланиш тақиқланади",
+                                                     "F2. Фақат тўғрига",
+                                                     "F3. Фақат тўғрига ва ўнгга",
+                                                     "F4. Барча йўналишда рухсат этилади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 7-боби 36-банди: Трамвайларнинг ҳамда махсус ажратилган тасма бўйлаб ҳаракатланаётган бошқа йўналишли транспорт воситаларининг ҳаракатланишини тартибга солиш учун “Т” ҳарфи кўринишида жойлашган тўртта доирасимон оқ ранг ишорали светофорлар қўлланилиши мумкин.\nЮқоридаги бир ёки бир нечта ва пастки ишора бир вақтнинг ўзида ёнганда, ҳаракатланишга рухсат этилади. Улардан чапдагиси чапга, ўнгдагиси ўнгга, ўртадагиси тўғрига юришга рухсат беради. Пастдаги ишора ўчирилиб, юқоридаги учта ишора бир вақтда ёнса, ҳаракатланиш тақиқланади."
+                                 }
+                     }
+}

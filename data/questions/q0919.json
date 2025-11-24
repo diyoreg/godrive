@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  919,
+    "image":  "data/images/q0919.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 5.19.1 — 5.19.3. «Oxiri berk yo\u0027l». Yo\u0027lning ko\u0027rsatilgan yo\u0027nalishda oxiri berkligini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак указывает на закрытую улицу в конце дороги в указанном направлении?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункт 5.19.1 - 5.19.3. «Тупик». Дорога, не имеющая сквозного проезда."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 5.19.1 — 5.19.3. «Охири берк йўл». Йўлнинг кўрсатилган йўналишда охири берклигини билдиради."
+                                 }
+                     }
+}

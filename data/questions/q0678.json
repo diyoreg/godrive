@@ -1,0 +1,39 @@
+{
+    "questionId": 678,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sanab o'tilgan qaysi joylarda transport vositalarining to'xtashi va to'xtab turishi taqiqlanadi?",
+            "options": [
+                "F1. Piyodalar o'tish joylarida",
+                "F2. Tramvay yo'llarida",
+                "F3. Tramvay yo'llariga bevosita yaqinroqda, agar bu tramvaylarning harakatiga to'sqinlik qilsa",
+                "F4. Barcha ko'rsatilgan joylarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 13-bobi 91-bandining birinchi va oʻninchi xatboshlariga asosan, quyidagi joy va holatlarda toʻxtash taqiqlanadi: tramvay yoʻllarida, shuningdek bevosita ularga yaqinroqda tramvaylar harakatlanishiga xalaqit beradigan boʻlsa. transport vositasi svetofor ishoralari, yoʻl belgilarini boshqa haydovchilardan toʻsib qo'yadigan, boshqa transport vositalarining harakatlanishiga (kirish va chiqishiga) imkon qoldirmaydigan yoki piyodalarning harakatiga xalaqit beradigan joylarda.\npiyodalar o'tish joylarida va ulardan oldin 10 metrdan kam masofa qolganda;"
+        },
+        "ru": {
+            "text": "В каких местах из перечисленных запрещается остановка и стоянка транспортных средств?",
+            "options": [
+                "F1. На пешеходных переходах",
+                "F2. На трамвайных путях",
+                "F3. В непосредственной близости от трамвайных путей, если это создает помехи движению трамваев",
+                "F4. Во всех указанных местах"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 91 главы 13 ПДД, гласит: Остановка запрещается в следующих местах: - на трамвайных путях, а также в непосредственной близости от них, если это создает помехи движению трамваев;\n- в местах, где транспортное средство закроет от других водителей сигналы светофора, дорожные знаки или сделает невозможным движение (въезд или выезд) других транспортных средств или создаст помехи для движения пешеходов.\n— на пешеходных переходах и ближе 10 м перед ними;"
+        },
+        "uzk": {
+            "text": "Санаб ўтилган қайси жойларда транспорт воситаларининг тўхташи ва тўхтаб туриши тақиқланади?",
+            "options": [
+                "F1. Пиёдалар ўтиш жойларида",
+                "F2. Трамвай йўлларида",
+                "F3. Трамвай йўлларига бевосита яқинрокда, агар бу трамвайларнинг ҳаракатига тўсқинлик қилса",
+                "F4. Барча кўрсатилган жойларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 13-боби 91-бандининг биринчи ва ўнинчи хатбошларига асосан, қуйидаги жой ва ҳолатларда тўхташ тақиқланади: трамвай йўлларида, шунингдек бевосита уларга яқинроқда трамвайлар ҳаракатланишига халақит берадиган бўлса. транспорт воситаси светофор ишоралари, йўл белгиларини бошқа ҳайдовчилардан тўсиб қўядиган, бошқа транспорт воситаларининг ҳаракатланишига (кириш ва чиқишига) имкон қолдирмайдиган ёки пиёдаларнинг ҳаракатига халақит берадиган жойларда.\nпиёдалар ўтиш жойларида ва улардан олдин 10 метрдан кам масофа қолганда;"
+        }
+    }
+}

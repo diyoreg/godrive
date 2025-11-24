@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  665,
+    "image":  "data/images/q0665.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Tramvaylarga va avtobuslarga",
+                                                    "F2. Faqat tramvaylarga",
+                                                    "F3. Tramvaylarga, shuningdek, alohida tasmadan harakatlanadigan belgilangan yo\u0027nalishdagi boshqa transport vositalarini harakatini tartibga soladi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 7-bobi 36-bandiga asosan: Tramvaylarning hamda maxsus ajratilgan tasma boʻylab harakatlanayotgan yo\u0027nalishli transport vositalarining harakatlanishini tartibga solish uchun «T» — harfi ko\u0027rinishida joylashgan to\u0027rtta doirasimon oq rang ishorali svetoforlar qo\u0027llanilishi mumkin. Yuqoridagi bir yoki bir nechta va pastki ishora bir vaqtning o\u0027zida yonganda, harakatlanishga ruxsat etiladi. Ulardan chapdagisi chapga, o\u0027ngdagisi oʻng tomonga burilishga, o\u0027rtadagisi to\u0027g\u0027riga yurishga ruxsat beradi. Pastdagi ishora o\u0027chirilib, yuqoridagi uchta ishora bir vaqtda yonsa, harakatlanish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Трамваев и троллейбусов",
+                                                    "F2. Только трамваев",
+                                                    "F3. Трамваев, а также других маршрутных транспортных средств, следующих по обособленной полосе"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 36 главы 7 ПДД, гласит: Для регулирования движения трамваев, а также других маршрутных транспортных средств, движущихся по специально выделенной для них полосе, могут применяться светофоры счетырьмя сигналами бело-лунного цвета, расположенными в виде буквы \"T\"."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Трамвайларга ва автобусларга",
+                                                     "F2. Фақат трамвайларга",
+                                                     "F3. Трамвайларга, шунингдек, алоҳида тасмадан ҳаракатланадиган белгиланган йўналишдаги бошқа транспорт воситаларини ҳаракатини тартибга солади"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 7-боби 36-бандига асосан: Трамвайларнинг ҳамда махсус ажратилган тасма бўйлаб ҳаракатланаётган йўналишли транспорт воситаларининг ҳаракатланишини тартибга солиш учун «Т» — ҳарфи кўринишида жойлашган тўртта доирасимон оқ ранг ишорали светофорлар қўлланилиши мумкин. Юқоридаги бир ёки бир нечта ва пастки ишора бир вақтнинг ўзида ёнганда, ҳаракатланишга рухсат етилади. Улардан чапдагиси чапга, ўнгдагиси ўнг томонга бурилишга, ўртадагиси тўғрига юришга рухсат беради. Пастдаги ишора ўчирилиб, юқоридаги учта ишора бир вақтда ёнса, ҳаракатланиш тақиқланади."
+                                 }
+                     }
+}

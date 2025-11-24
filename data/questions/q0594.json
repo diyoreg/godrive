@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  594,
+    "image":  "data/images/q0594.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Chorrahani ikkinchi bo\u0027lib kim kesib o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Ko\u0027k avtomobil",
+                                                    "F2. Yashil avtomobil",
+                                                    "F3. Qizil avtomobil"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 16-bobi 105-bandiga asosan: Teng ahamiyatga ega bo\u0027lgan yo\u0027llar kesishgan chorrahada relssiz transport vositasining haydovchisi o\u0027ngdan kelayotgan transport vositalariga yo\u0027l berishi shart."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Синий автомобиль",
+                                                    "F2. Зеленый автомобиль",
+                                                    "F3. Красный автомобиль"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункту 105 главы 16 ПДД, гласит: На перекрестке равнозначных дорог водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, приближающимся справа. Этим же правилом должны руководствоваться между собой водители трамваев. На таких перекрестках трамвай имеет право на первоочередное движение перед безрельсовыми транспортными средствами независимо от направления его движения."
+                                },
+                         "uzk":  {
+                                     "text":  "Чорраҳани иккинчи бўлиб ким кесиб ўтади?",
+                                     "options":  [
+                                                     "F1. Кўк автомобиль",
+                                                     "F2. Яшил автомобиль",
+                                                     "F3. Қизил автомобиль"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 16-боби 105-бандига асосан: Тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада релъссиз транспорт воситасининг ҳайдовчиси ўнгдан келаётган транспорт воситаларига йўл бериши шарт."
+                                 }
+                     }
+}

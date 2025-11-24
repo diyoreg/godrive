@@ -1,0 +1,36 @@
+{
+    "questionId": 707,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Svetoforning yashil miltillovchi ishorasi nimani bildiradi?",
+            "options": [
+                "F1. Harakatga ruxsat beradi va tez orada taqiqlovchi ishora yonishi to'g'risida axborot beradi",
+                "F2. Harakatni davom ettirishni taqiqlaydi",
+                "F3. Svetofor nosozligini"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 7-bobi 31-bandi: miltillovchi yashil ishora ham harakatlanishga ruxsat beradi va uning ta'sir vaqti tugayotganligi hamda Ко'р oʻtmay taqiqlovchi ishora yonishi haqida axborot beradi."
+        },
+        "ru": {
+            "text": "Что означает мигание зеленого сигнала светофора?",
+            "options": [
+                "F1. Разрешает движение и информирует о том, что вскоре будет включен запрещающий сигнал",
+                "F2. Запрещает дальнейшее движение",
+                "F3. Предупреждает о неисправности светофора"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 31 главы 7 ПДД, гласит: зеленый мигающий сигнал разрешает движение и информирует, что время его действия истекает и вскоре будет включен запрещающий сигнал."
+        },
+        "uzk": {
+            "text": "Светофорнинг яшил милтилловчи ишораси нимани билдиради?",
+            "options": [
+                "F1. Ҳаракатга рухсат беради ва тез орада тақиқловчи ишора ёниши тўғрисида ахборот беради",
+                "F2. Ҳаракатни давом эттиришни тақиқлайди",
+                "F3. Светофор носозлигини"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 7-боби 31-банди: милтилловчи яшил ишора ҳам ҳаракатланишга рухсат беради ва унинг таъсир вақти тугаётганлиги ҳамда кўп ўтмай тақиқловчи ишора ёниши ҳақида ахборот беради."
+        }
+    }
+}

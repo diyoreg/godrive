@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  175,
+    "image":  "data/images/q0175.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Chorrahadan oxirgi bo\u0027lib qaysi avtomobil o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Ko\u0027k avtomobil",
+                                                    "F2. Sariq avtomobil",
+                                                    "F3. Yashil avtomobil",
+                                                    "F4. Qizil avtomobil"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng axamiyatga ega bo\u0027lmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yo\u0027lda harakatlanayotgan transport vositasining haydovchisi asosiy yo\u0027ldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat’i nazar, yo\u0027l berishi kerak.\nYHQ 16-bobi 107-bandiga asosan: Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yoʻldan qarama-qarshi yo\u0027nalishdan to\u0027g\u0027riga yoki o\u0027ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib o\u0027tayotgan transport vositalariga yo\u0027l berishi shart."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Желтый автомобиль",
+                                                    "F2. Синий автомобиль",
+                                                    "F3. Зеленый автомобиль",
+                                                    "F4. Красный автомобиль"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 104 главы 16 ПДД гласит: на перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения.\nПункта 107 главы 16 ПДД гласит: при повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
+                                },
+                         "uzk":  {
+                                     "text":  "Чорраҳадан охирги бўлиб қайси автомобиль ўтади?",
+                                     "options":  [
+                                                     "F1. Кўк автомобиль",
+                                                     "F2. Сариқ автомобиль",
+                                                     "F3. Яшил автомобиль",
+                                                     "F4. Қизил автомобиль"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 16-боби 104-бандининг биринчи хатбошисига асосан: Тенг ахамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак.\nЙҲҚ 16-боби 107-бандига асосан: Чапга бурилишда ёки қайрилиб олишда релъссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт."
+                                 }
+                     }
+}

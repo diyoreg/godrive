@@ -1,0 +1,33 @@
+{
+    "questionId": 11,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yoqilgan zarg'aldoq rangli yalt-yalt etuvchi chiroq-mayoqcha harakatlanish uchun imtiyoz beradimi?",
+            "options": [
+                "F1. Ha",
+                "F2. Yo'q"
+            ],
+            "correctAnswer": 2,
+            "explanation": "IzohYHQ 6-bobi 28-bandiga asosan: Zarg'aldoq yoki sariq rangli yalt-yalt etuvchi mayoqchalar transport vositalarida quyidagi hollarda yoqilgan bo'lishi kerak:\nyoʻlda qurilish, ta'mirlash yoki tozalash ishlari olib borilayotganda, shuningdek, shikastlangan, nosoz transport vositalarini ortishda, tashishda;\nyo'l harakatida qatnashayotgan, gabarit o'lchamlari ushbu Qoidalarning 164-bandida belgilangandan ortiq bo'lgan, shuningdek, og'ir vazn va katta hajmli hamda xavfli yuklarni tashiyotgan transport vositalarini kuzatib borishda;\nportlovchi, tez alangalanadigan, radioaktiv moddalarni va zaharli darajasi o'ta yuqori bo'lgan moddalarni tashishda;\numumiy foydalanishdagi transport vositasi yo'llarida velosipedchilarning tashkiliy jamlanmasini kuzatib borishda.\nYoqilgan zarg'aldoq va (yoki) sariq rangli mayoqcha harakatlanishda imtiyoz bermaydi va yo'l harakatining boshqa qatnashchilarini faqat xavf haqida ogohlantiradi."
+        },
+        "ru": {
+            "text": "Дает ли преимущество в движении включенный проблесковый маячок оранжевого цвета?",
+            "options": [
+                "F1. Дает",
+                "F2. Не дает"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 28 главы 6 ПДД, гласит: Проблесковый маячок желтого или оранжевого цвета должен быть включён на транспортных средствах при выполнении работ по строительству, ремонту или содержанию дорог, погрузке и транспортировке повреждённых, неисправных, а также иных транспортных средств в предусмотренных законом случаях, на транспортных средствах, участвующих в дорожном движении, габариты которых превышают нормы, установленные пунктом 164 настоящих Правил, а также на транспортных средствах, перевозящих крупногабаритные, тяжеловесные и опасные грузы, и в случаях, предусмотренных законодательством, — на транспортных средствах, сопровождающих такие перевозки.\nПроблесковый маячок жёлтого или оранжевого цвета не дает приоритета в движении и служит исключительно для предупреждения других участников движения об опасности."
+        },
+        "uzk": {
+            "text": "Ёқилган зарғалдоқ рангли ялт-ялт этувчи чироқ-маёқча ҳаракатланиш учун имтиёз берадими?",
+            "options": [
+                "F1. Xa",
+                "F2. Йўқ"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ИзоҳЙҲҚ 6-боби 28-бандига асосан: Зарғалдоқ ёки сариқ рангли ялт-ялт этувчи маёқчалар транспорт воситаларида қуйидаги ҳолларда ёқилган бўлиши керак:\nйўлда қурилиш, таъмирлаш ёки тозалаш ишлари олиб борилаётганда, шунингдек, шикастланган, носоз транспорт воситаларини ортишда, ташишда;\nйўл ҳаракатида қатнашаётган, габарит ўлчамлари ушбу Қоидаларнинг 164-бандида белгилангандан ортиқ бўлган, шунингдек, оғир вазн ва катта ҳажмли ҳамда хавфли юкларни ташиётган транспорт воситаларини кузатиб боришда;\nпортловчи, тез алангаланадиган, радиоактив моддаларни ва заҳарли даражаси ўта юқори бўлган моддаларни ташишда;\nумумий фойдаланишдаги транспорт воситаси йўлларида велосипедчиларнинг ташкилий жамланмасини кузатиб боришда.\nЕқилган зарғалдоқ ва (ёки) сариқ рангли маёқча ҳаракатланишда имтиёз бермайди ва йўл ҳаракатининг бошқа қатнашчиларини фақат хавф ҳақида огоҳлантиради."
+        }
+    }
+}

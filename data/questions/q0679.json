@@ -1,0 +1,36 @@
+{
+    "questionId": 679,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Tik uzun qiyaliklarda ajratilgan uzatma bilan avtomobilni uzoq tormozlashning qanday xavfi bor?",
+            "options": [
+                "F1. Shinalarning shikastlanishi ortadi",
+                "F2. Ulagich qismlarining shikastlanishi ortadi",
+                "F3. Tormoz qiziydi va ishdan chiqadi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Tik nishablikda uzatma va ilashish mexanizmini ajratgan holatda uzoq tormoz berish xavfi tormoz mexanizmlarining qizib ketishi, tormozlanish samarasining kamayishi va uning ishdan chiqishidadir."
+        },
+        "ru": {
+            "text": "В чем опасность длительного торможения автомобиля с выключенной передачей на крутых затяжных спусках?",
+            "options": [
+                "F1. Повышенный износ шин",
+                "F2. Повышенный износ деталей сцепления",
+                "F3. Перегрев тормозов и отказ их в работе"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Опасность длительного торможения с выключенными сцеплением и передачей на крутом спуске заключается в перегреве тормозных механизмов, уменьшении эффективности торможения и отказ их в работе."
+        },
+        "uzk": {
+            "text": "Тик узун қияликларда ажратилган узатма билан автомобилни узоқ тормозлашнинг қандай хавфи бор?",
+            "options": [
+                "F1. Шиналарнинг шикастланиши ортади",
+                "F2. Улагич қисмларининг шикастланиши ортади",
+                "F3. Тормоз кизийди ва ишдан чиқади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Тик нишабликда узатма ва илашиш механизмини ажратган ҳолатда узоқ тормоз бериш хавфи тормоз механизмларининг қизиб кетиши, тормозланиш самарасининг камайиши ва унинг ишдан чиқишидадир."
+        }
+    }
+}

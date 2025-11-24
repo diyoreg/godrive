@@ -1,0 +1,36 @@
+{
+    "questionId": 71,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Shatakka olingan avtomobilda odamlarni tashishga ruxsat etiladimi?",
+            "options": [
+                "F1. Avtobusda ruxsat etiladi",
+                "F2. Yengil avtomobilda ruxsat etiladi",
+                "F3. Qattiq ulagichda shatakka olingan yuk avtomobili yukxonasida ruxsat etiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 24-bobi 143-bandiga asosan: Qattiq yoki egiluvchan ulagich yordamida shatakka olingan avtobusda, trolleybusda va yuk avtomobili yukxonasida odam tashish, qisman ortish yo'li bilan shatakka olishda esa shatakka olingan transport vositasining kabinasida va yukxonasida, shuningdek shatakka olgan transport vositasining yukxonasida odamlar bo'lishi taqiqlanadi.\n159. Odamlarni tashish quyidagi hollarda taqiqlanadi: bolalarni yuk avtomobillarining yukxonasida;\ntransport vositasining kabinasidan tashqarida (odam tashish uchun mo'ljallangan bortli yuk yoki furgon-yuk xonali avtomobillar bundan mustasno);\nTraktorlar va boshqa o'ziyurar uskunalar, yuk tashiladigan tirkamalar, tirkama-uycha, yuk mototsikllari, elektromototsikllar, mopedlar va skuterlar yukxonasida;\nMototsikllar, elektromototsikllar, mopedlar va skuterlarning konstruksiyasida ko'zda tutilgan joylardan tashqarida;\n12 yoshga toʻlmagan bolalarni mototsiklning orqa o'rindig'ida, shuningdek bolalarni ushlab turuvchi maxsus qurilma o'rnatilmagan transport vositasining old o'rindig'ida;\nodam soni transport vositasining texnik tavsifnomasida ko'zda tutilgan miqdordan ortiq bo'lganda. Bunda transport vositasining haqiqiy vazni uni ishlab chiqargan korxona belgilagan ruxsat etilgan vazndan oshmasligi kerak."
+        },
+        "ru": {
+            "text": "Разрешается ли перевозка пассажиров в буксируемом автомобиле?",
+            "options": [
+                "F1. Разрешается в автобусе",
+                "F2. Разрешается в легковом автомобиле",
+                "F3. Разрешается в буксируемом грузовом автомобиле при буксировке на жесткой сцепке"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 143 главы 24 ПДД, гласит: При буксировке на гибкой или жесткой сцепке запрещается перевозка людей в буксируемом автобусе, троллейбусе и в кузове буксируемого грузового автомобиля, а при буксировке путем частичной погрузки - нахождение людей в кабине или кузове буксируемого транспортного средства, а также в кузове буксирующего транспортного средства.\n159. Запрещается перевозить людей в следующих случаях: вне кабины автомобиля (кроме случаев перевозки людей в кузове бортового грузового автомобиля или на грузовом автомобиле с кузовом- фургоном);\nна тракторах и других самоходных машинах, на грузовом прицепе, в прицепе-даче, в кузове грузового мотоциклы, электромотоциклы, мопеды и скутеры;\nвне предусмотренных конструкцией мотоциклы, электромотоциклы, мопеды и скутеры мест;\nзапрещается перевозить детей до 12 лет на заднем сиденье мотоцикл, электромотоцикл, мопед и скутера, а также на переднем сиденье легкового автомобиля при отсутствии специального детского удерживающего устройства;\n При этом фактическая масса транспортного средства не должна превышать разрешенную максимальную массу, установленного заводом — изготовителем. Запрета на перевозку пассажиров в буксируемом легковом автомобиле нет."
+        },
+        "uzk": {
+            "text": "Шатакка олинган автомобилда одамларни ташишга рухсат этиладими?",
+            "options": [
+                "F1. Автобусда рухсат этилади",
+                "F2. Енгил автомобилда рухсат этилади",
+                "F3. Қаттик улагичда шатакка олинган юк автомобили юкхонасида рухсат этилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 24-боби 143-бандига асосан: Қаттиқ ёки эгилувчан улагич ёрдамида шатакка олинган автобусда, троллейбусда ва юк автомобили юкхонасида одам ташиш, қисман ортиш йўли билан шатакка олишда эса шатакка олинган транспорт воситасининг кабинасида ва юкхонасида, шунингдек шатакка олган транспорт воситасининг юкхонасида одамлар бўлиши тақиқланади. 159. Одамларни ташиш қуйидаги ҳолларда тақиқланади: болаларни юк автомобилларининг юкхонасида;\nтранспорт воситасининг кабинасидан ташқарида (одам ташиш учун мўлжалланган бортли юк ёки фургон-юк хонали автомобиллар бундан мустасно);\nТракторлар ва бошқа ўзиюрар ускуналар, юк ташиладиган тиркамалар, тиркама-уйча, юк мотоцикллари, электромотоцикллар, мопедлар ва скутерлар юкхонасида;\nМотоцикллар, электромотоцикллар, мопедлар ва скутерларнинг конструкциясида кўзда тутилган жойлардан ташқарида;\n12 ёшга тўлмаган болаларни мотоциклнинг орқа ўриндиғида, шунингдек болаларни ушлаб турувчи махсус қурилма ўрнатилмаган транспорт воситасининг олд ўриндиғида;\nодам сони транспорт воситасининг техник тавсифномасида кўзда тутилган миқдордан ортиқ бўлганда. Бунда транспорт воситасининг ҳақиқий вазни уни ишлаб чиқарган корхона белгилаган рухсат этилган вазндан ошмаслиги керак."
+        }
+    }
+}

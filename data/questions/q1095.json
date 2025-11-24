@@ -1,0 +1,36 @@
+{
+    "questionId": 1095,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Velosiped yo'lkasi bilan kesishuvga qanchadan kam masofa qolganda to'xtash taqiqlanadi?",
+            "options": [
+                "F1. 10 metr",
+                "F2. 15 metr",
+                "F3. 30 metr"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 13-bobi 91-bandi: Quyidagilarda to'xtash taqiqlanadi:\nvelosiped yo'lkasi bilan kesishuvda va ulardan oldin 10 metrdan kam masofa qolganda;"
+        },
+        "ru": {
+            "text": "На каком расстоянии от пересечения с велосипедной дорожкой запрещается остановка?",
+            "options": [
+                "F1. 10 метров",
+                "F2. 15 метров",
+                "F3. 30 метров"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 91 главы 13 ПДД, гласит: Остановка запрещается в следующих местах:\n— на пересечениях с велосипедными дорожками и ближе 10 метров перед ними;"
+        },
+        "uzk": {
+            "text": "Велосипед йўлкаси билан кесишувга қанчадан кам масофа қолганда тўхташ тақиқланади?",
+            "options": [
+                "F1. 10 метр",
+                "F2. 15 метр",
+                "F3. 30 метр"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 13-боби 91-банди: Қуйидагиларда тўхташ тақиқланади:\nвелосипед йўлкаси билан кесишувда ва улардан олдин 10 метрдан кам масофа қолганда;"
+        }
+    }
+}

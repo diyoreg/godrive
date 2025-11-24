@@ -1,0 +1,36 @@
+{
+    "questionId": 929,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar avtomobilning o'ng g'ildiraklari nam qoplamali yo'l yoqasiga chiqib qolsa, tavsiya etiladi?",
+            "options": [
+                "F1. Avtomobilni tormozlash va to'liq to'xtatish",
+                "F2. Avtomobilni tormozlamasdan, yo'lning harakat qismiga ohista ravon burish",
+                "F3. Avtomobilni tormozlab, yo'lning harakat qismiga ohista ravon burish"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Bunday holatda avtomobilni moment kuchlar burib yuborishga moyil bo'ladi, shuning uchun ikkinchi javobdagi usulni qo'llang."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Затормозить и полностью остановиться",
+                "F2. Не прибегая к торможению, плавно направить автомобиль на проезжую часть",
+                "F3. Затормозить и плавно направить автомобиль на проезжую часть"
+            ],
+            "correctAnswer": 2,
+            "explanation": "При съезде автомобиля правыми колесами на неукрепленную и влажную обочину возникает опасность заноса из-за разницы сцепления правых и левых колес с дорогой. При этом целесообразно, не меняя скорости, т. е. не прибегая к торможению, плавным поворотом рулевого колеса вернуть автомобиль на проезжую часть."
+        },
+        "uzk": {
+            "text": "Aгар автомобилнинг ўнг ғилдираклари нам қопламали йўл ёқасига чиқиб қолса, тавсия этилади?",
+            "options": [
+                "F1. Aвтомобилни тормозлаш ва тўлиқ тўхтатиш",
+                "F2. Aвтомобилни тормозламасдан, йўлнинг ҳаракат қисмига оҳиста равон буриш",
+                "F3. Aвтомобилни тормозлаб, йўлнинг ҳаракат қисмига оҳиста равон буриш"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Бундай ҳолатда автомобилни момент кучлар буриб юборишга мойил бўлади, шунинг учун иккинчи жавобдаги усулни қўлланг."
+        }
+    }
+}

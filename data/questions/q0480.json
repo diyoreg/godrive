@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  480,
+    "image":  "data/images/q0480.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Avtomobilga o\u0027rnatilgan bu taniqlik belgi nimani bildiradi?",
+                                    "options":  [
+                                                    "F1. Avtomobil shifokor haydovchiga tegishli ekanini",
+                                                    "F2. Avtomobil haydovchi nogironga tegishli ekanini",
+                                                    "F3. Avtomobil uyda tibbiy yordam ko\u0027rsatish uchun mo\u0027ljallanganligini"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 26-bobi 176-bandining oʻn uchinchi xatboshisiga asosan: «Shifokor» — shifokor-haydovchi boshqarayotgan transport vositasining old va orqa tomoniga o\u0027rnatiladigan, tomonlari 140 millimetr boʻlgan, koʻk rangli, to\u0027rtburchak ichida diametri 90 millimetrli oq doiraga qalinligi 25 millimetrli qizil xoch tasviri tushirilgan belgi."
+                                },
+                         "ru":  {
+                                    "text":  "Что означает данный опознавательный знак, установленный на автомобиле?",
+                                    "options":  [
+                                                    "F1. Автомобиль принадлежит водителю-врачу",
+                                                    "F2. Автомобиль принадлежит водителю-инвалиду",
+                                                    "F3. Автомобиль предназначен для оказания медпомощи"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункту 176 главы 26 ПДД, гласит: «Врач» - знак в виде квадрата синего цвета размером сторон 140 мм с вписанным белым кругом диаметром 90 мм, на который нанесен красный крест шириной штриха 25 мм может быть установлен спереди и сзади автомобилей, управляемых водителями врачами."
+                                },
+                         "uzk":  {
+                                     "text":  "Автомобилга ўрнатилган бу таниқлик белги нимани билдиради?",
+                                     "options":  [
+                                                     "F1. Автомобиль шифокор ҳайдовчига тегишли эканини",
+                                                     "F2. Автомобиль ҳайдовчи ногиронга тегишли эканини",
+                                                     "F3. Автомобиль уйда тиббий ёрдам кўрсатиш учун мўлжалланганлигини"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 26-боби 176-бандининг ўн учинчи хатбошисига асосан: «Шифокор» — шифокор-ҳайдовчи бошқараётган транспорт воситасининг олд ва орқа томонига ўрнатиладиган, томонлари 140 миллиметр бўлган, кўк рангли, тўртбурчак ичида диаметри 90 миллиметрли оқ доирага қалинлиги 25 миллиметрли қизил хоч тасвири туширилган белги."
+                                 }
+                     }
+}

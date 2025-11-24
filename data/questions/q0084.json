@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  84,
+    "image":  "data/images/q0084.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu svetofor qaysi harakatlanishni tartibga solish uchun qo\u0027llanadi?",
+                                    "options":  [
+                                                    "F1. Qatnov qismining butun kengligi bo\u0027yicha",
+                                                    "F2. Qatnov qismidagi harakatlanish yo\u0027nalishi qarama qarshi tomonga o\u0027zgaradigan tasmalar bo\u0027yicha",
+                                                    "F3. Faqat belgilangan yo\u0027nalishdagi transport vositalari uchun mo\u0027ljallangan tasma bo\u0027yicha"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 7-bobi 35-bandiga asosan: Qatnov qismidagi harakatlanish yo\u0027nalishi qarama-qarshi tomonga o\u0027zgarishi mumkin bo\u0027lgan tasmalarida transport vositalarining harakatlanishini tartibga solish uchun X-simon qizil ishorali va pastga yo\u0027nalgan ko\u0027rsatkich ko\u0027rinishidagi yashil ishorali reversiv svetoforlar qo\u0027llaniladi. Bu ishoralar qaysi tasma ustiga o\u0027rnatilgan bo\u0027lsa, unda harakatlanishni taqiqlaydi yoki harakatlanishga ruxsat beradi.\nIkki tomoni 1.9 yo\u0027l chizig\u0027i bilan belgilangan tasma ustiga o\u0027rnatilgan va ishoralari o\u0027chirilgan reversiv svetofor shu tasmaga kirishni taqiqlaydi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. По всей ширине проезжей части дороги",
+                                                    "F2. По полосам проезжей части, где движение меняется на противоположное направление",
+                                                    "F3. Только на тех участках дороги, которые предназначены для маршрутных транспортных средств"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 35 главы 7 ПДД, гласит: Для регулирования движения транспортных средств по полосам проезжей части, направление движения по которым может изменяться на противоположное, применяются реверсивные светофоры с красным Х-образным сигналом и зеленым сигналом в виде стрелы, направленной вниз. Эти сигналы соответственно запрещают или разрешают движение по полосе, над которой они расположены. При неработающих сигналах реверсивного светофора, который расположен над полосой, обозначенной с обеих сторон разметкой 1.9, въезд на эту полосу запрещен."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу светофор қайси ҳаракатланишни тартибга солиш учун қўлланади?",
+                                     "options":  [
+                                                     "F1. Қатнов қисмининг бутун кенглиги бўйича",
+                                                     "F2. Қатнов қисмидаги ҳаракатланиш йўналиши қарама-қарши томонга ўзгарадиган тасмалар бўйича",
+                                                     "F3. Фақат белгиланган йўналишдаги транспорт воситалари учун мўлжалланган тасма бўйича"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 7-боби 35-бандига асосан: Қатнов қисмидаги ҳаракатланиш йўналиши қарама-қарши томонга ўзгариши мумкин бўлган тасмаларида транспорт воситаларининг ҳаракатланишини тартибга солиш учун Х-симон қизил ишорали ва пастга йўналган кўрсаткич кўринишидаги яшил ишорали реверсив светофорлар қўлланилади. Бу ишоралар қайси тасма устига ўрнатилган бўлса, унда ҳаракатланишни тақиқлайди ёки ҳаракатланишга рухсат беради.\nИкки томони 1.9 йўл чизиғи билан белгиланган тасма устига ўрнатилган ва ишоралари ўчирилган реверсив светофор шу тасмага киришни тақиқлайди."
+                                 }
+                     }
+}

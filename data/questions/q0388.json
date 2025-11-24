@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  388,
+    "image":  "data/images/q0388.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan vaziyatda qizil avtomobil haydovchisi qanday yo\u0027l tutishi kerak?",
+                                    "options":  [
+                                                    "F1. Transport vositalariga to\u0027sqinlik qilmasligi uchun burilishni tezroq tugallashi",
+                                                    "F2. Hovlidan chiqishda piyodani va transport vositalarini o\u0027tkazib yuborishi",
+                                                    "F3. Transport vositalariga yo\u0027l berish, qatnov qismi chetida to\u0027xtashi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 9-bobi 54-bandiga asosan: Yondosh hududlardan yo\u0027lga chiqayotgan haydovchi unda harakatlanayotgan transport vositalari va piyodalarga, shuningdek yo\u0027ldan chiqishda harakat yo\u0027nalishini kesib o\u0027tayotgan piyodalar va velosipedchilarga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Как должен поступить водитель легкового автомобиля в показанной ситуации?",
+                                    "options":  [
+                                                    "F1. Быстрее завершить поворот, чтобы не создавать помехи транспортным средствам",
+                                                    "F2. При выезде из двора пропустить пешехода и транспортные средства",
+                                                    "F3. Уступить дорогу транспортным средствам, остановиться у края проезжей части"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 54 главы 9 ПДД, гласит: При выезде на дорогу с прилегающей территории водитель должен уступить дорогу транспортным средствам и пешеходам, движущимся по ней, а при съезде с дороги - пешеходам и велосипедистам, пересекающим направление его движения. Соответственно, водитель легкового автомобиля должен пропустить пешехода и транспортные средства."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган вазиятда қизил автомобиль ҳайдовчиси қандай йўл тутиши керак?",
+                                     "options":  [
+                                                     "F1. Транспорт воситаларига тўсқинлик қилмаслиги учун бурилишни тезроқ тугаллаши",
+                                                     "F2. Ҳовлидан чиқишда пиёдани ва транспорт воситаларини ўтказиб юбориши",
+                                                     "F3. Транспорт воситаларига йўл бериш, қатнов қисми четида тўхташи"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 9-боби 54-бандига асосан: Ендош ҳудудлардан йўлга чиқаётган ҳайдовчи унда ҳаракатланаётган транспорт воситалари ва пиёдаларга, шунингдек йўлдан чиқишда ҳаракат йўналишини кесиб ўтаётган пиёдалар ва велосипедчиларга йўл бериши керак."
+                                 }
+                     }
+}

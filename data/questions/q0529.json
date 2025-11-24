@@ -1,0 +1,36 @@
+{
+    "questionId": 529,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "O'ng va chap g'ildiraklarining shinalari turlicha siyqalangan avtomobilda tormoz berish, qanday xavfli oqibatlarga olib kelishi mumkin?",
+            "options": [
+                "F1. Tormoz barabanlarining qizib ketishiga",
+                "F2. Naqsh izlarining ko'chib ketishiga",
+                "F3. Avtomobilning ag'darilib ketishi mumkin darajada sirpanib ketishiga"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Bir оqdа o'rnatilgan (chap va oʻng) shinalar naqshining ustki shakli va uning yoyilganlik darajasi barcha hollarda bir xil bo'lishi lozim, chunki bu hol tormozlanayotganda avtomobilning muvozanatini ta'minlovchi shartlardan biri hisoblanadi. Ushbu tartib inbatga olinmasatormozlanish vaqtida har xil tormoz kuchlari yuzaga kelib, muozanatni yoʻqotishga olib keluvchi hollarni vujudga keltiradi. Avtomobilning yeyilgan \nshina naqshi tomoni oldinga intilib, aks tomoni orqada qoladi. Bu holda avtomobil bir tomonga siljib, maqbul boʻlmagan sharoitlarda muvozanatini yoʻqotib, ag'darilishi  mumkin."
+        },
+        "ru": {
+            "text": "Какие опасные последствия могут возникнуть при торможении автомобиля с различным износом шин правых и левых колес?",
+            "options": [
+                "F1. Перегрев тормозных барабанов",
+                "F2. Отслоение протектора",
+                "F3. Занос с возможным опрокидыванием автомобиля"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Шины, установленные на одной оси (правая и левая) во всех случаях должны иметь одинаковый рисунок протектора и одинаковую изношенность, так как это является одним из условий обеспечения устойчивости автомобиля при торможении. При отклонении от этих норм в процессе торможения возникают разные тормозные силы, которые создают дестабилизирующий момент, приводящий к потере устойчивости. Та сторона автомобиля, на которой расположена шина с изношенным рисунком протектора, забегает вперед, противоположная сторона отстает. При этом автомобиль смещается в сторону и при неблагоприятных условиях может потерять устойчивость и опрокинуться."
+        },
+        "uzk": {
+            "text": "Ўнг ва чап ғилдиракларининг шиналари турлича сийкаланган автомобилда тормоз бериш, қандай хавфли оқибатларга олиб келиши мумкин?",
+            "options": [
+                "F1. Тормоз барабанларининг кизиб кетишига",
+                "F2. Накш изларининг кўчиб кетишига",
+                "F3. Автомобилнинг ағдарилиб кетиши мумкин даражада сирпаниб кетишига"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Бир ўқда ўрнатилган (чап ва ўнг) шиналар нақшининг устки шакли ва унинг ёйилганлик даражаси барча ҳолларда бир хил бўлиши лозим, чунки бу ҳол тормозланаётганда автомобилнинг мувозанатини таъминловчи шартлардан бири ҳисобланади. Ушбу тартиб инбатга олинмаса тормозланиш вақтида ҳар хил тормоз кучлари юзага келиб, муозанатни йўқотишга олиб келувчи ҳолларни вужудга келтиради. Автомобилнинг ейилган шина нақши томони олдинга интилиб, акс томони орқада қолади. Бу ҳолда автомобил бир томонга силжиб, мақбул бўлмаган шароитларда мувозанатини йўқотиб, ағдарилиши мумкин."
+        }
+    }
+}

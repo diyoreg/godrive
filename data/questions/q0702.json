@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  702,
+    "image":  "data/images/q0702.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu ko\u0027rsatilgan holatda mototsikl haydovchisi Sizga yo\u0027l berishi kerakmi?",
+                                    "options":  [
+                                                    "F1. Yo\u0027q"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 9-bobi 61-bandi: Sekinlashish bo\u0027lagi bor bo\u0027lgan yo\u0027lda burilmoqchi bo\u0027lgan haydovchi o\u0027z vaqtida ushbu tasmaga qayta tizilishi va tezlikni faqat unda kamaytirishi kerak.\nYo\u0027lga chiqish joyida tezlashish bo\u0027lagi bo\u0027lsa, haydovchi unda harakatlanishi va qo\u0027shni tasmada harakatlanayotgan transport vositalariga yo\u0027l berib, transport oqimiga qo\u0027shilishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Обязан ли мотоциклист уступить Вам дорогу в данной ситуации?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 61 главы 9 ПДД, гласит: При наличии полосы торможения водитель, намеревающийся повернуть, должен своевременно перестроиться на эту полосу и снижать скорость только на ней.\nПри наличии в месте выезда на дорогу полосы разгона водитель должен двигаться по ней и перестраиваться на соседнюю полосу, уступая дорогу транспортным средствам, движущимся по этой дороге."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу кўрсатилган ҳолатда мотоцикл ҳайдовчиси Сизга йўл бериши  керакми?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 9-боби 61-банди: Секинлашиш бўлаги бор бўлган йўлда бурилмоқчи бўлган ҳайдовчи ўз вақтида ушбу тасмага қайта тизилиши ва тезликни фақат унда камайтириши керак.\nЙўлга чиқиш жойида тезлашиш бўлаги бўлса, ҳайдовчи унда ҳаракатланиши ва қўшни тасмада ҳаракатланаётган транспорт воситаларига йўл бериб, транспорт оқимига қўшилиши керак."
+                                 }
+                     }
+}

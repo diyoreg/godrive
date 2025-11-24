@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  1036,
+    "image":  "data/images/q1036.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi yotiq yo\u0027l chizig\u0027i maktablar oldidagi piyodalar o\u0027tish joylarida qo\u0027llaniladi?",
+                                    "options":  [
+                                                    "F1. 1-chiziq",
+                                                    "F2. 2-chiziq",
+                                                    "F3. 3-chiziq"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 2 ilova: 1.14.4 — oq-qizil rangli yo\u0027l chizig\u0027i maktab va maktabgacha ta’lim muassasalari oldida piyodalarning o\u0027tish joyini belgilaydi."
+                                },
+                         "ru":  {
+                                    "text":  "Какая горизонтальная дорожная разметка используется на пешеходных переходах перед школами?",
+                                    "options":  [
+                                                    "F1. Линия 1",
+                                                    "F2. Линия 2",
+                                                    "F3. Линия 3"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД приложение № 2: («зебра» бело-красного цвета) обозначает пешеходный переход перед школьными и дошкольными учреждениями;"
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси ётиқ йўл чизиғи мактаблар олдидаги пиёдалар ўтиш жойларида қўлланилади?",
+                                     "options":  [
+                                                     "F1. 1-чизиқ",
+                                                     "F2. 2-чизиқ",
+                                                     "F3. 3-чизиқ"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 2 илова: 1.14.4 — оқ-қизил рангли йўл чизиғи мактаб ва мактабгача таълим муассасалари олдида пиёдаларнинг ўтиш жойини белгилайди."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  214,
+    "image":  "data/images/q0214.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Faqat belgida ko\u0027rsatilgan yoki yuqori tezlikda harakatlanishga ruxsat beradi",
+                                                    "F2. Belgida ko\u0027rsatilgandan ortiq tezlikdagi harakatni taqiqlaydi",
+                                                    "F3. Yo\u0027lning shu qismida tavsiya etilgan harakatlanish tezligini ko\u0027rsatadi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1-ilovasi 4-Bo\u0027limining yigirma toʻrtinchi xatboshisiga asosan: 4.7. «Eng kam tezlik». Faqat belgida koʻrsatilgan yoki undan yuqori tezlikda (km/soat) harakatlanishga ruxsat etilishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Разрешает движение только с указанной или большей скоростью",
+                                                    "F2. Запрещает движение со скоростью, превышающей указанную на знаке",
+                                                    "F3. Указывает скорость, с которой рекомендуется движение на данном участке дороги"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Предписывающий знак 4.7 «Ограничение минимальной скорости». Разрешается движение только с указанной или большей скоростью (км/ч)."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Фақат белгида кўрсатилган ёки юқори тезликда ҳаракатланишга рухсат беради",
+                                                     "F2. Белгида кўрсатилгандан ортиқ тезликдаги ҳаракатни тақиқлайди",
+                                                     "F3. Йўлнинг шу қисмида тавсия этилган ҳаракатланиш тезлигини кўрсатади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1-иловаси 4-бўлимининг йигирма тўртинчи хатбошисига асосан: 4.7. «Энг кам тезлик». Фақат белгида кўрсатилган ёки ундан юқори тезликда (км/соат) ҳаракатланишга рухсат этилишини билдиради."
+                                 }
+                     }
+}

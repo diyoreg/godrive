@@ -1,0 +1,38 @@
+﻿{
+    "questionId":  975,
+    "image":  "data/images/q0975.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan qaysi yo\u0027l belgisi yengil yo\u0027nalishsiz taksilarga yo\u0027lovchilarni tushurish-chiqarish (yuklarni ortish-tushurish) vaqtida ta’sir qilmaydi?",
+                                    "options":  [
+                                                    "F1. Faqat «A»",
+                                                    "F2. Faqat «Б» «C» «Д»",
+                                                    "F3. Faqat «C»",
+                                                    "F4. Hammasi"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 1 ilova: 3.27. belgisi yo\u0027lalishsiz yengil taksilarga yo\u0027lovchilarni tushurish-chiqarish (yuklarni ortish-tushurish) vaqtida ta\u0027sir qilmaydi; Ushbu Qoidalarning 176-bandiga binoan «Nogiron» tanish belgisi bilan belgilangan avtomobillar va kajavali mototsikllarni boshqarayotgan nogiron haydovchilar 3.2, 3.3 va 3.28 belgilari talablaridan chetga chiqishlari mumkin. 7.18 belgi boʻlganda 3.27 belgisining ta\u0027sir doirasida toʻxtashga ruxsat etiladi. 3.28 — 3.30 belgilarining taksometri ishlab turgan taksilarga taalluqli emas."
+                                },
+                         "ru":  {
+                                    "text":  "Какие из этих указанных знаков не действует на легковые немаршрутные такси при посадке — высадке пассажиров (погрузке — выгрузке грузов)?",
+                                    "options":  [
+                                                    "F1. Только «A»",
+                                                    "F2. Только «Б» «C» «Д»",
+                                                    "F3. Только «C»"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Приложение к ПДД №1: Знак 3.27 не действует на легковые немаршрутные такси при посадке - высадке пассажиров (погрузке — выгрузке грузов).\nАвтомобили и мотоциклы с коляской, оборудованные опознавательным знаком «Инвалид» в соответствии с пунктом 176 настоящих Правил, управляемые инвалидами, могут отступать от требований знаков 3.2, 3.3 и 3.28. При наличии дополнительного знака 7.18 разрешается остановка в зоне действия знака 3.27. Знаки 3.28-3.30 не действуют на такси с включенным таксометром."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган қайси йўл белгиси енгил йўналишсиз таксиларга йўловчиларни тушириш-чиқариш (юкларни ортиш-тушириш) вақтида таъсир қилмайди?",
+                                     "options":  [
+                                                     "F1. Фақат «A»",
+                                                     "F2. Фақат «Б» «C» «Д»",
+                                                     "F3. Фақат «C»",
+                                                     "F4. Ҳаммаси"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙХК 1 илова: 3.27. белгиси йўналишсиз енгил таксиларга йўловчиларни тушуриш-чиқариш (юкларни ортиш-тушуриш) вақтида таъсир қилмайди;\nУшбу Қоидаларнинг 176-бандига биноан «Ногирон» таниш белгиси билан белгиланган автомобиллар ва кажавали мотоциклларни бошқараётган ногирон ҳайдовчилар 3.2, 3.3 ва 3.28 белгилари талабларидан четга чиқишлари мумкин. 7.18 белги бўлганда 3.27 белгисининг таъсир доирасида тўхташга рухсат этилади. 3.28 — 3.30 белгиларининг таксометри ишлаб турган таксиларга тааллуқли эмас."
+                                 }
+                     }
+}

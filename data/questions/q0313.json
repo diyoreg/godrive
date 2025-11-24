@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  313,
+    "image":  "data/images/q0313.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Ko\u0027prik yoki solda kechimi bo\u0027lmagan suv to\u0027siqli yo\u0027l qismi borligidan",
+                                                    "F2. Suv to\u0027siqli yo\u0027l qismida ko\u0027tarma ko\u0027prik borligidan",
+                                                    "F3. Yo\u0027l anhor yoqasiga yoki biror-bir suv havzasining qirg\u0027og\u0027iga chiqiladigan joyi borligidan"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 1-bo\u0027ʻlimining oʻn beshinchi xatboshisiga asosan: 1.10. «Sohilga chiqish». Daryo yoki suv havzasi qirg\u0027og\u0027iga chiqishni bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Участок дороги с водной преградой, на котором имеется разводной мост",
+                                                    "F2. Участок дороги с водной преградой, не имеющий моста или паромной переправы",
+                                                    "F3. Место, где дорога выходит на набережную или берег какого-либо водоема"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Предупреждающий знак 1.10 \"Выезд на набережную\". Выезд на набережную реки или берег водоема."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Кўприк ёки солда кечими бўлмаган сув тўсиқли йўл қисми борлигидан",
+                                                     "F2. Сув тўсиқли йўл қисмида кўтарма кўприк борлигидан",
+                                                     "F3. Йўл анҳор ёқасига ёки бирор-бир сув ҳавзасининг қирғоғига чикиладиган жойи борлигидан"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 1-бўлимининг ўн бешинчи хатбошисига асосан: 1.10. «Сохилга чиқиш». Дарё ёки сув ҳавзаси қирғоғига чиқишни билдиради."
+                                 }
+                     }
+}

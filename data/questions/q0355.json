@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  355,
+    "image":  "data/images/q0355.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Harakatni taqiqlaydi",
+                                                    "F2. Boshqa haydovchilarga qatnov qismiga maxsus transport vositalarining o\u0027tganligini xabar qiladi",
+                                                    "F3. Alohida ehtiyotkorlik bilan harakatlanishga ruxsat etadi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 7-bobining 31-bandi 6-xatboshiga va 37- bandiga asosan, qizil chiroq, shu jumladan, miltillovchi qizil chiroq harakatni taqiqlaydi;\ntemir yo\u0027l kesishmalarida svetoforning miltillovchi qizil ishorasi bilan bir vaqtda piyodalarning kesishma orqali harakatlanishi taqiqlanganligi to\u0027g\u0027risida xabar beruvchi tovushli ishora ham berilishi mumkin."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Запрещают движение",
+                                                    "F2. Информируют других водителей о выезде на проезжую часть специальных транспортных средств",
+                                                    "F3. Разрешают движение с особой осторожностью"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Aбзацу 6 пункта 31 главы 7 ПДД, красный сигнал, в том числе мигающий, запрещает движение.\nПункту 37 главы 7 ПДД, на железнодорожных переездах одновременно с красным мигающим сигналом светофора может подаваться звуковой сигнал, дополнительно информирующий участников дорожного\nдвижения о запрещении движения через переезд."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Ҳаракатни тақиқлайди",
+                                                     "F2. Бошқа ҳайдовчиларга қатнов қисмига махсус транспорт воситаларининг ўтганлигини хабар килади",
+                                                     "F3. Алоҳида эҳтиёткорлик билан ҳаракатланишга рухсат этади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 7-бобининг 31-банди 6-хатбошига ва 37- бандига асосан, қизил чироқ, шу жумладан, милтилловчи қизил чироқ ҳаракатни тақиқлайди;\nтемир йўл кесишмаларида светофорнинг милтилловчи қизил ишораси билан бир вақтда пиёдаларнинг кесишма орқали ҳаракатланиши тақиқланганлиги тўғрисида хабар берувчи товушли ишора ҳам берилиши мумкин."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  211,
+    "image":  "data/images/q0211.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Sariq avtobusning haydovchisiga chorrahaga chiqishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat etiladi",
+                                                    "F2. Taqiqlanadi",
+                                                    "F3. Agar avtobus belgilangan yo\u0027nalish bo\u0027yicha yursa, tuxsat etiladi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 14-bobi 97-bandiga asosan: Haydovchi tirbandlik tufayli majburiy to\u0027xtab, koʻndalang yoʻnalishdagi transport vositalarining harakatlanishiga toʻsqinlik tug\u0027diradigan bo\u0027lsa, chorraha yoki qatnov qismlari kesishmasiga kirishi taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли выезд на перекресток водителю желтого автобуса?",
+                                    "options":  [
+                                                    "F1. Разрешается",
+                                                    "F2. Запрещается",
+                                                    "F3. Если автобус движется по установленному маршруту"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 97 главы 14 ПДД гласит: Водитель, который вынужден остановиться из-за образовавшегося впереди затора, не должен выезжать на перекресток или пересечение проезжих частей, если он создает препятствие для движения транспортных средств в поперечном направлении.\nВ данном случае автобус создаст препятствие для движения транспортных средств в поперечном направлении, если выедет на перекресток, соответственно, выезд запрещен."
+                                },
+                         "uzk":  {
+                                     "text":  "Сариқ автобуснинг ҳайдовчисига чорраҳага чикишга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Рухсат этилади",
+                                                     "F2. Тақиқланади",
+                                                     "F3. Агар автобус белгиланган йўналиш бўйича юрса, рухсат этилади"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 14-боби 97-бандига асосан: Ҳайдовчи тирбандлик туфайли мажбурий тўхтаб, кўндаланг йўналишдаги транспорт воситаларининг ҳаракатланишига тўсқинлик туғдирадиган бўлса, чорраҳа ёки қатнов қисмлари кесишмасига кириши тақиқланади."
+                                 }
+                     }
+}

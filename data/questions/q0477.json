@@ -1,0 +1,36 @@
+{
+    "questionId": 477,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar qatnov qismining kengligi chetki chap tasmadan qayrilib olish uchun yetarli bo'lmasa, qoidalar qayrilib olishni qatnov qismining o'ng chekkasi yoki yo'lning o'ng yoqasidan amalga oshirishga yo'l qo'yadimi?",
+            "options": [
+                "F1. Qatnov qismining faqat o'ng chekkasidan yo'l qo'yadi. Yo'lning o'ng yoqasidan yo'l qo'yilmaydi",
+                "F2. Yo'l qo'yiladi. Bunda qayrilib olayotgan haydovchi yo'lakay va qarama-qarshi kelayotgan transport vositalarini o'tkazib yuborishi kerak",
+                "F3. Yo'l qo'yilmaydi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 9-bobi 59-bandining ikkinchi xatboshisiga asosan: Chorrahadan tashqarida qayrilib olishda, agar qatnov qismining kengligi manyovrni chetki chap holatdan bajarish uchun yetarli bo'lmasa, uni qatnov qismining o'ng chetidan (o'ng yo'l yoqasidan) amalga oshirishga yo'l qo'yiladi. Bu holda haydovchi shu yo'nalishdagi va qarama-qarshi yo'nalishdagi transport vositalariga yo'l berishi shart."
+        },
+        "ru": {
+            "text": "Если ширина проезжей части недостаточна для разворота из крайнего левого положения, допускается ли производить его от правого края проезжей части или с правой обочины?",
+            "options": [
+                "F1. Допускается только от правого края проезжей части. С правой обочины не допускается",
+                "F2. Допускается. При этом водитель, производящий разворот, должен уступить дорогу попутным и встречным транспортным средствам",
+                "F3. Не допускается"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Aбзацу 2 пункта 59 главы 9 ПДД, гласит: При повороте налево и развороте вне перекрестка водитель безрельсового транспортного средства должен уступить дорогу встречным транспортным средствам и трамваю попутного направления. Если ширина проезжей части вне перекрестка недостаточна для разворота из крайнего левого положения, его допускается производить от правого края проезжей части (с правой обочины). При этом водитель должен уступить дорогу попутным и встречным транспортным средствам."
+        },
+        "uzk": {
+            "text": "Агар қатнов қисмининг кенглиги четки чап тасмадан қайрилиб олиш учун етарли бўлмаса, қоидалар қайрилиб олишни қатнов қисмининг ўнг чеккаси ёки йўлнинг ўнг ёқасидан амалга оширишга йўл қўядими?",
+            "options": [
+                "F1. Қатнов қисмининг фақат ўнг чеккасидан йўл қўяди. Йўлнинг ўнг ёқасидан йўл қўйилмайди",
+                "F2. Йўл қўйилади. Бунда қайрилиб олаётган ҳайдовчи йўлакай ва қарама-қарши келаётган транспорт воситаларини ўтказиб юбориши керак",
+                "F3. Йўл қўйилмайди"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 9-боби 59-бандининг иккинчи хатбошисига асосан: Чорраҳадан ташқарида қайрилиб олишда, агар қатнов қисмининг кенглиги манёврни четки чап ҳолатдан бажариш учун йетарли бўлмаса, уни қатнов қисмининг ўнг четидан (ўнг йўл ёқасидан) амалга оширишга йўл қўйилади. Бу ҳолда ҳайдовчи шу йўналишдаги ва қарама-қарши йўналишдаги транспорт воситаларига йўл бериши шарт."
+        }
+    }
+}

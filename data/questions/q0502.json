@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  502,
+    "image":  "data/images/q0502.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi chapga burilishga ruxsat beradi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining yigirma uchinchi xatboshisiga asosan: 3.19. «Qayrilish taqiqlangan». Izoh. 3.19. — belgisi qaysi kesishmaga o\u0027rnatilsa faqat shu kesishmaga ta\u0027luqli bo\u0027lib, chapga burilishni taqiqlamaydi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак разрешает левый поворот?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Запрещающий знак 3.19 \"Разворот запрещен\".\nВсе знаки, кроме запрещающего разворот 3.19, запрещают поворот налево."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг йигирма учинчи хатбошисига асосан: 3.19. «Кайрилиш тақиқланган». Изоҳ. 3.19. – белгиси қайси кесишмага ўрнатилса фақат шу кесишмага таълуқли бўлиб, чапга бурилишни тақиқламайди."
+                                 }
+                     }
+}

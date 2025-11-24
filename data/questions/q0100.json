@@ -1,0 +1,39 @@
+{
+    "questionId": 100,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sanab o'tilgan holatlarning qaysilarida transport vositasidan foydalanish taqiqlanadi?",
+            "options": [
+                "F1. Pnevmatik tormoz yuritmasining manometri ishlamaydi",
+                "F2. Mototsiklning boshqaruv dempferi nosoz",
+                "F3. M1 toifasidagi transport vositasining rul boshqarmasi lyuft yig'indisi 10 gradusdan ortiq",
+                "F4. Sanab o'tilgan barcha hollarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 3-ilovasi 1-bo'limining 1.5-bandiga asosan: Pnevmatik yoki pnevmogidravlik tormoz yuritmasining manometri ishlamasa foydalanish taqiqlanadi.\nYHQ 3-ilovasi 2-bo'limining 2.1 va 2.3-bandlariga asosan: Boshqaruv qurilmasidagi lyuft yig'indisi reglament (qat'iy belgilangan) sharoitlardagi sinovlarda quyidagi ko'rsatkichdan katta boʻlmasligi kerak: M1 - 10%\nM2, M3, N1 - 20%\nN2, N3 - 25%."
+        },
+        "ru": {
+            "text": "При каких перечисленных условиях запрещается эксплуатация транспортных средств?",
+            "options": [
+                "F1. Не работает манометр пневматического привода тормозов",
+                "F2. Неисправен рулевой демпфер мотоцикла",
+                "F3. Суммарный люфт в рулевом управлении легкового автомобиля более 10 градусов",
+                "F4. Во всех перечисленных случаях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "В Условиях, при которых запрещается эксплуатация транспортных средств (приложение №3 к ПДД) сказано, что эксплуатация транспортных средств запрещается, если: 1.5. Не работает манометр пневматического тормозного привода;\n2.3. Неисправен или отсутствует предусмотренный конструкцией усилитель рулевого управления или рулевой демпфер на мотоциклах;\n2.1. Суммарный люфт в рулевом управлении у легковых автомобилей, автобусов и грузовых автомобилей превышает 10, 20, 25 градусов соответственно. Значит все перечисленные случаи верны."
+        },
+        "uzk": {
+            "text": "Санаб ўтилган ҳолатларнинг қайсиларида транспорт воситасидан фойдаланиш тақиқланади?",
+            "options": [
+                "F1. Пневматик тормоз юритмасининг манометри ишламайди",
+                "F2. Мотоциклнинг бошқарув демпфери носоз",
+                "F3. М1 тоифасидаги транспорт воситасининг руль бошқармаси люфт йиғиндиси 10 градусдан ортиқ",
+                "F4. Санаб ўтилган барча ҳолларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 3-иловаси 1-бўлимининг 1.5-бандига асосан: Пневматик ёки пневмогидравлик тормоз юритмасининг манометри ишламаса фойдаланиш тақиқланади.\nЙҲҚ 3-иловаси 2-бўлимининг 2.1 ва 2.3-бандларига асосан: Бошқарув қурилмасидаги люфт йиғиндиси регламент (қатъий белгиланган) шароитлардаги синовларда қуйидаги кўрсаткичдан катта бўлмаслиги керак: M1 - 10%\nM2, M3, N1 - 20%\nN2, N3 - 25%."
+        }
+    }
+}

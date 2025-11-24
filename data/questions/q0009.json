@@ -1,0 +1,36 @@
+{
+    "questionId": 9,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Umurtqa pog'onasining ko'krak sohasi shikastlangan jabrlanuvchini transportda qanday tashish kerak?",
+            "options": [
+                "F1. Qattiq taxtada orqasi bilan yotgan holda",
+                "F2. Yumshoq to'shamada orqasi bilan yotgan holda",
+                "F3. Qattiq taxtada yoni bilan yotgan holda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "IzohUmurtqa pag'onasi shikastlanganda orqa (umurtqa) miyani jarohatlanishidan saqlab qolish uchun umurtqa pag'onalarining bir-biriga nisbatan siljishini oldini olish muhimdir. Umirtqaning minimal qo'zg'alishini ta'minlash uchun jarohatlangan kishini qattiq tekistlikka joylashtirib, uning harakatini imkon darajasida cheklash lozim."
+        },
+        "ru": {
+            "text": "Как транспортировать пострадавшего с повреждением грудного отдела позвоночника?",
+            "options": [
+                "F1. Лежа на спине, на жестком щите",
+                "F2. Лежа на спине, на мягкой подстилке",
+                "F3. Лежа на боку, на жестком щите"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пострадавшего с повреждением грудного отдела позвоночника необходимо транспортировать лежа на спине, на жестком щите, т.к. требуется ровное положение позвоночника, а на боку или на мягкой подстилке позвоночник будет искривлен."
+        },
+        "uzk": {
+            "text": "Умуртқа поғонасининг кўкрак соҳаси шикастланган жабрланувчини транспортда қандай ташиш керак?",
+            "options": [
+                "F1. Қаттиқ тахтада орқаси билан ётган ҳолда",
+                "F2. Юмшоқ тўшамада орқаси билан ётган ҳолда",
+                "F3. Қаттиқ тахтада ёни билан ётган ҳолда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ИзоҳУмуртқа пағонаси шикастланганда орқа (умуртқа) мияни жароҳатланишидан сақлаб қолиш учун умуртқа пағоналарининг бир-бирига нисбатан силжишини олдини олиш муҳимдир. Умиртқанинг минимал қўзғалишини таъминлаш учун жароҳатланган кишини қаттиқ текистликка жойлаштириб, унинг ҳаракатини имкон даражасида чеклаш лозим."
+        }
+    }
+}

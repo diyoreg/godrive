@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  682,
+    "image":  "data/images/q0682.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi transport vositasining haydovchisi to\u0027xtab turish qoidasini buzdi?",
+                                    "options":  [
+                                                    "F1. Yengil avtomobil haydovchisi",
+                                                    "F2. Mototsikl haydovchisi",
+                                                    "F3. Yuk avtomobili haydovchisi",
+                                                    "F4. Barcha transport vositalarining haydovchilari"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 7-bo\u0027limining oʻn ikkinchi va o\u0027n uchinchi xatboshlariga asosan: 7.4.1. «Transport vositasining turi». Belgining ta\u0027siri joriy etilgan transport vositalari turini ko\u0027rsatadi. 7.4.1 belgi bilan oʻrnatilgan yoʻl belgisining ta\u0027siri yuk tashuvchi, shu jumladan, tirkamali, toʻla vazni 3,5 tonnadan ortiq boʻlgan transport vositalariga tatbiq etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "Водитель какого транспортного средства нарушил правила стоянки?",
+                                    "options":  [
+                                                    "F1. Водитель легкового автомобиля",
+                                                    "F2. Водитель мотоцикла",
+                                                    "F3. Водитель грузового автомобиля",
+                                                    "F4. Водители всех транспортных средств"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Дополнительный знак 7.4.1 раздела 7 приложения № 1 к ПДД, распространяет действие знака на грузовые автомобили, в том числе и с прицепом, с разрешенной максимальной массой более 3,5 т."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси транспорт воситасининг ҳайдовчиси тўхтаб туриш қоидасини бузди?",
+                                     "options":  [
+                                                     "F1. Енгил автомобиль ҳайдовчиси",
+                                                     "F2. Мотоцикл ҳайдовчиси",
+                                                     "F3. Юк автомобили ҳайдовчиси",
+                                                     "F4. Барча транспорт воситаларининг ҳайдовчилари"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 7-бўлимининг ўн иккинчи ва ўн учинчи хатбошларига асосан: 7.4.1. «Транспорт воситасининг тури». Белгининг таъсири жорий этилган транспорт воситалари турини кўрсатади. 7.4.1 белги билан ўрнатилган йўл белгисининг таъсири юк ташувчи, шу жумладан, тиркамали, тўла вазни 3,5 тоннадан ортиқ бўлган транспорт воситаларига татбиқ этилади."
+                                 }
+                     }
+}

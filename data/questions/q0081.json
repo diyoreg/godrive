@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  81,
+    "image":  "data/images/q0081.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi transport vositalariga ko\u0027rsatilgan yo\u0027nalishlar bo\u0027yicha harakatlanishga ruxsat etiladi?",
+                                    "options":  [
+                                                    "F1. Avtomobil haydovchisiga",
+                                                    "F2. Avtomobil va mototsikl haydovchisi",
+                                                    "F3. Tramvay va avtomobil haydovchisiga"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 7-bobi 32-bandiga asosan: Yo\u0027naltirgich ko\u0027rinishidagi qizil, sariq va yashil rangli svetofor ishoralari ham doira shaklidagi svetofor ishoralari bilan bir xil ma\u0027noga ega bo\u0027ladi. Ular faqat ko\u0027rsatilgan yo\u0027nalishga ta\u0027sir etadi. Agar tegishli yo\u0027l belgisi bilan qayrilib olish taqiqlanmagan boʻlsa, chapga burilishga ruxsat beruvchi yo\u0027naltirgich qayrilib olishga ham ruxsat beradi. Qo\u0027shimcha tarmoqdagi yashil yo\u0027naltirgich ham xuddi shu ma\u0027noni bildiradi. Qoʻshimcha tarmoqdagi ishora o\u0027chirilgan boʻlsa, shu tarmoq tartibga solayotgan yo\u0027nalishda harakatlanish taqiqlanganligini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Каким транспортным средствам разрешается движение в указанных направлениях?",
+                                    "options":  [
+                                                    "F1. Водителю автомобиля",
+                                                    "F2. Водителям автомобиля и мотоцикла",
+                                                    "F3. Водителям трамвая и автомобиля"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 32 главы 7 ПДД, гласит: Сигналы светофора, выполненные в виде стрелок красного, желтого и зеленого цветов, имеют то же значение, что и круглые сигналы соответствующего цвета. Их действие распространяется только на направление, указываемое стрелками. Стрелка, разрешающая поворот налево, разрешает и разворот, если это не запрещено соответствующим дорожным знаком. Такое же значение имеет зеленая стрелка в дополнительной секции. Выключенный сигнал дополнительной секции означает запрещение движения в направлении, регулируемом этой секцией.\nВ данном случае движение разрешено только прямо. Поэтому мотоциклисту поворот налево запрещен. Соответственно, движение разрешено водителям трамвая и автомобиля."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси транспорт воситаларига кўрсатилган йўналишлар бўйича ҳаракатланишга рухсат этилади?",
+                                     "options":  [
+                                                     "F1. Автомобиль ҳайдовчисига",
+                                                     "F2. Автомобиль ва мотоцикл ҳайдовчиси",
+                                                     "F3. Трамвай ва автомобиль ҳайдовчисига"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 7-боби 32-бандига асосан: Йўналтиргич кўринишидаги қизил, сариқ ва яшил рангли светофор ишоралари ҳам доира шаклидаги светофор ишоралари билан бир хил маънога эга бўлади. Улар фақат кўрсатилган йўналишга таъсир этади. Агар тегишли йўл белгиси билан қайрилиб олиш тақиқланмаган бўлса, чапга бурилишга рухсат берувчи йўналтиргич қайрилиб олишга ҳам рухсат беради. Қўшимча тармоқдаги яшил йўналтиргич ҳам худди шу маънони билдиради. Қўшимча тармоқдаги ишора ўчирилган бўлса, шу тармоқ тартибга солаётган йўналишда ҳаракатланиш тақиқланганлигини билдиради."
+                                 }
+                     }
+}

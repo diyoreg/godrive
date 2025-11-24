@@ -1,0 +1,36 @@
+{
+    "questionId": 149,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Son suyagi uchdan birining pastki qismi singanda, jarohatlangan odamni transportda tashish uchun taxtakach qanday qo'yiladi?",
+            "options": [
+                "F1. Taxtakachni sonning butun uzunligicha tos-sondan tizza bo'g'inigacha qo'yib, singan joy bint bilan qattiq bog'lab qo'yiladi",
+                "F2. Ikkita taxtakach oyoqning ichki va tashqi tomonidan qo'yiladi: bittasini oyoq to'pig'idan qo'ltiqosti chuqurigacha, ikkinchisini to'piqdan chovgacha",
+                "F3. Ikkita taxtakach oyoqning ikki tomonidan to'piqdan sonning yuqorigi uchdan bir qismigacha (singan joydan 15-20 sm yuqorigacha) qo'yiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Son suyagi singan holda ikkita taxtakach: biri - tashqari tarafda oyoq kaftidan to qo'ltiqosti chuqurigacha, boshqasi - ichki tarafda oyoq kaftidan to chovgacha qo'yiladi. Son suyagi singan holda immobilizatsiya vositasi boʻlmasa, shikastlangan oyoq sog' oyoqqa mahkamlanib qo'yiladi. Mahkamlovchi bog'ich singan suyakni siljitmasligi va jabrlanuvchiga qo'shimcha og'riq yetkazmasligi lozim. Mahkamlovchi bog'ich oyoqning sog' qismiga bog'lanadi."
+        },
+        "ru": {
+            "text": "Как наложить транспортную шину при переломе кости в нижней трети бедра?",
+            "options": [
+                "F1. Плотно прибинтовать шину к месту перелома, наложив ее на всю длину бедра от тазобедренного до коленного сустава",
+                "F2. Наложить две шины с внутренней и наружной стороны ноги, одну от конца стопы до подмышечной ямки, вторую от конца стопы до паха",
+                "F3. Наложить две шины с двух сторон ноги от конца стопы до верхней трети бедра (выше места перелома на 15-20 см)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "При переломе бедра необходимо наложить две шины. Одну шину с внешней стороны от конца стопы до подмышечной ямки, другую - с внутренней стороны от конца стопы до паха. Если в случае перелома бедра нет иммобилизационных средств, больную ногу фиксируют к здоровой. Фиксирующая повязка не должна смещать обломки кости и причинять дополнительную боль пострадавшему. Ее необходимо накладывать на здоровую часть ноги."
+        },
+        "uzk": {
+            "text": "Сон суяги учдан бирининг пастки қисми синганда, жароҳатланган одамни транспортда ташиш учун тахтакач қандай қўйилади?",
+            "options": [
+                "F1. Тахтакачни соннинг бутун узунлигича тос сондан тизза бўғинигача қўйиб, синган жой бинт билан қаттиқ боғлаб қўйилади",
+                "F2. Иккита тахтакач оёкнинг ички ва ташқи томонидан кўйилади: биттасини оёк тўпиғидан қўлтиқости чуқуригача, иккинчисини тўпикдан човгача",
+                "F3. Иккита тахтакач оёқнинг икки томонидан тўпикдан соннинг юқориги учдан бир қисмигача (синган жойдан 15-20 см юқоригача) қўйилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Сон суяги синган ҳолда иккита тахтакач: бири – ташқари тарафда оёқ кафтидан то қўлтиқости чуқуригача, бошқаси – ички тарафда оёқ кафтидан то човгача қўйилади. Сон суяги синган ҳолда иммобилизация воситаси бўлмаса, шикастланган оёқ соғ оёққа маҳкамланиб қўйилади. Маҳкамловчи боғич синган суякни силжитмаслиги ва жабрланувчига қўшимча оғриқ етказмаслиги лозим. Маҳкамловчи боғич оёқнинг соғ қисмига боғланади."
+        }
+    }
+}

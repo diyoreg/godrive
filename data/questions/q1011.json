@@ -1,0 +1,36 @@
+{
+    "questionId": 1011,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "O'zib ketish deb nimaga aytiladi ?",
+            "options": [
+                "F1. Transport vositasining bir yo'nalishda transport vositasi tezligidan ortiq tezlikda harakatlanishi",
+                "F2. Qarama - qarshi yo'nalishda harakatlanish uchun mo'ljallangan tasmaga chiqib,so'ngra ilgari egallagan qatoriga qaytib o'tish bilan bog'liq bo'lgan harakat",
+                "F3. Kam tezlik bilan qo'shni qatorda harakatlanayotgan bir yoki bir nechta transport vositasidan o'zib ketish"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ umumiy qoidalar: O'zib ketish — transport vositasining o'tayotgan transport vositasining tezligidan yuqori tezlikda o'zib ketish."
+        },
+        "ru": {
+            "text": "Что называется опережение?",
+            "options": [
+                "F1. Движение транспортного средства со скоростью, большей скорости попутного транспортного средства",
+                "F2. Выезд на полосу, предназначенной для движения в противоположном направлении, с последующем возвращеним на ранее занимаемую полосу",
+                "F3. Обгон одного или нескольких транспортных средств, движущихся по соседней полосе на малой скорости"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД Общие положения: Опережение — движение транспортного средства со скоростью, большей скорости попутного транспортного средства."
+        },
+        "uzk": {
+            "text": "Ўзиб кетиш деб нимага айтилади ?",
+            "options": [
+                "F1. Транспорт воситасининг бир йўналишда транспорт воситаси тезлигидан ортиқ тезликда ҳаракатланиши",
+                "F2. Қарама - қарши йўналишда ҳаракатланиш учун мўлжалланган тасмага чиқиб,сўнгра илгари эгаллаган қаторига қайтиб ўтиш билан боғлиқ бўлган ҳаракат",
+                "F3. Кам тезлик билан қўшни қаторда ҳаракатланаётган бир ёки бир нечта транспорт воситасидан ўзиб кетиш"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ умумий қоидалар: Узиб кетиш — транспорт воситасининг ўтаётган транспорт воситасининг тезлигидан юқори тезликда ўзиб кетиш."
+        }
+    }
+}

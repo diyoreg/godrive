@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  185,
+    "image":  "data/images/q0185.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Yashil avtomobil",
+                                                    "F2. Ko\u0027k avtomobil",
+                                                    "F3. Qizil avtomobil",
+                                                    "F4. Sariq avtomobil"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng ahamiyatga ega boʻlmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yoʻldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat\u0027i nazar, yoʻl berishi kerak.\nYHQ 16-bobi 107-bandiga asosan: Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yoʻldan qarama-qarshi yo\u0027nalishdan to\u0027g\u0027riga yoki o\u0027ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib o\u0027tayotgan transport vositalariga yo\u0027l berishi shart."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Зеленый автомобиль",
+                                                    "F2. Синий автомобиль",
+                                                    "F3. Красный автомобиль",
+                                                    "F4. Желтый автомобиль"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 105 главы 16 ПДД гласит: На перекрестке равнозначных дорог водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, приближающимся справа. Этим же правилом должны руководствоваться между собой водители трамваев. На таких перекрестках трамвай имеет право на приоритет движения перед безрельсовыми транспортными средствами, независимо от направления его движения.\nПункта 107 главы 16 ПДД гласит: При повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Яшил автомобиль",
+                                                     "F2. Кўк автомобиль",
+                                                     "F3. Қизил автомобиль",
+                                                     "F4. Сариқ автомобиль"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 16-боби 104-бандининг биринчи хатбошисига асосан: Тенг ахамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак.\nЙҲҚ 16-боби 107-бандига асосан: Чапга бурилишда ёки қайрилиб олишда релъссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт."
+                                 }
+                     }
+}

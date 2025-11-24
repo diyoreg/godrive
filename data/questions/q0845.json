@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  845,
+    "image":  "data/images/q0845.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi svetoforining (tartibga soluvchining) taqiqlovchi ishorasida transport vositalari to\u0027xtaydigan joyni bildiradi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ, 5.33. «To\u0027xtash chizig\u0027i» belgisi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак указывает место остановки транспортных средств при запрещающем сигнале светофора (регулировщика)?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД, Знак 5.33. «Стоп-линия»."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги светофорининг (тартибга солувчининг) тақиқловчи ишорасида транспорт воситалари тўхтайдиган жойни билдиради?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ, 5.33. «Тўхташ чизиғи» белгиси."
+                                 }
+                     }
+}

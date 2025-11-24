@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  547,
+    "image":  "data/images/q0547.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Ikki g\u0027ildirakli kajavasiz mototsikllardan tashqari hamma mexanik transport vositalarining harakatlanishini taqiqlaydi",
+                                                    "F2. G\u0027ildirakli traktorlardan tashqari hamma transport vositalarining harakatlanishini taqiqlaydi",
+                                                    "F3. Traktorlar va o\u0027zi yurar mashinalarning harakatlanishi taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining sakkizinchi xatboshisiga asosan: 3.6. «Traktorlar harakatlanishi taqiqlangan». Traktorlar, o\u0027ziyurar moslamalarning harakatlanishi taqiqlanishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Запрещает движение всех видов механических транспортных средств, кроме двухколесного мотоцикла без коляски",
+                                                    "F2. Запрещает движение всех транспортных средств, кроме колесных тракторов",
+                                                    "F3. Запрещает движение тракторов и самоходных машин"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Запрещающий знак 3.6 \"Движение тракторов запрещено\". Запрещается движение тракторов и самоходных машин."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Икки ғилдиракли кажавасиз мотоцикллардан ташқари ҳамма механик транспорт воситаларининг ҳаракатланишини тақиқлайди",
+                                                     "F2. Ғилдиракли тракторлардан ташқари ҳамма транспорт воситаларининг ҳаракатланишини тақиқлайди",
+                                                     "F3. Тракторлар ва ўзи юрар машиналарнинг ҳаракатланиши тақиқланади"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг саккизинчи хатбошисига асосан: 3.6. «Тракторлар ҳаракатланиши тақиқланган». Тракторлар, ўзиюрар мосламаларнинг ҳаракатланиши тақиқланишини билдиради."
+                                 }
+                     }
+}

@@ -1,0 +1,42 @@
+﻿{
+    "questionId":  495,
+    "image":  "data/images/q0495.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Qizil avtomobilga",
+                                                    "F2. Mototsiklga",
+                                                    "F3. Tramvayga va qizil avtomobilga",
+                                                    "F4. Tramvayga",
+                                                    "F5. Ko\u0027k avtomobilga"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining oʻng qo\u0027li oldinga uzatilganda: chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo\u0027nalishlarda;\noldi tomonidan barcha transport vositalariga faqat oʻngga harakatlanishga ruxsat beriladi;\norqa tomonidan va oʻng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Красному автомобилю",
+                                                    "F2. Мотоциклу",
+                                                    "F3. Трамваю и красному автомобилю",
+                                                    "F4. Трамваю",
+                                                    "F5. Синему автомобилю"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 38 главы 7 ПДД гласит: ВЫТЯНУТАЯ ВПЕРЕД ПРАВАЯ РУКА РЕГУЛИРОВЩИКА — со стороны левого бока разрешено движение трамваю налево, безрельсовым транспортным средствам – Во всех направлениях, со стороны груди всем транспортным средствам разрешено движение только направо. Со стороны правого бока и спины движение всех транспортных средств запрещено. Пешеходам разрешено переходить проезжую часть за спиной регулировщика."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Қизил автомобилга",
+                                                     "F2. Мотоциклга",
+                                                     "F3. Трамвайга ва қизил автомобилга",
+                                                     "F4. Трамвайга",
+                                                     "F5. Кўк автомобилга"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 7-боби 38-бандига асосан, тартибга солувчининг ўнг қўли олдинга узатилганда: чап ёнидан трамвайга чапга, рельссиз транспорт воситаларига барча йўналишларда;\nолди томонидан барча транспорт воситаларига фақат ўнгга ҳаракатланишга рухсат берилади;\nорқа томонидан ва ўнг ёнидан барча транспорт воситаларининг ҳаракатланиши тақиқланади."
+                                 }
+                     }
+}

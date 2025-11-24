@@ -1,0 +1,36 @@
+{
+    "questionId": 619,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Ko'krak qafasining ko'p qismi jarohatlanganda uni qayerdan boshlab bint bilan bog'lash kerak?",
+            "options": [
+                "F1. Ko'krak qafasining o'rtasidan",
+                "F2. Ko'krak qafasining quyi qismidan",
+                "F3. Qo'ltiq ostidan"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Ko'krak qafasining keng yaralanishida jabrlanuvchiga tarang bog'ich bog'lanadi. Ко'krаk qafasining quyiroq qismlaridan boshlab bint o'raladi. Nafas chiqarish paytida mustahkamlanadi."
+        },
+        "ru": {
+            "text": "Откуда начинают бинтовать грудную клетку при обширном ее ранении?",
+            "options": [
+                "F1. С середины грудной клетки",
+                "F2. От нижних отделов грудной клетки",
+                "F3. От подмышечных ямок"
+            ],
+            "correctAnswer": 2,
+            "explanation": "При обширном ранении грудной клетки следует наложить тугую повязку пострадавшему. Начинают бинтовать от нижних отделов грудной клетки. Фиксация производится в момент выдоха."
+        },
+        "uzk": {
+            "text": "Кўкрак қафасининг кўп қисми жароҳатланганда уни қаердан бошлаб бинт билан боғлаш керак?",
+            "options": [
+                "F1. Кўкрак қафасининг ўртасидан",
+                "F2. Кўкрак қафасининг куйи қисмидан",
+                "F3. Қўлтиқ остидан"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Кўкрак қафасининг кенг яраланишида жабрланувчига таранг боғич боғланади. Кўкрак қафасининг қуйироқ қисмларидан бошлаб бинт ўралади. Нафас чиқариш пайтида мустаҳкамланади."
+        }
+    }
+}

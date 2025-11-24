@@ -1,0 +1,36 @@
+{
+    "questionId": 829,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Yo'llarning o'zaro bir sathda kesishadigan, tutashadigan va ayriladigan joyi",
+                "F2. Bevosita yo'lga tutashgan va transport vositalari o'tib ketishi uchun mo'ljallanmagan hudud (hovlilar, turar joy dahalari, avtomobil to'xtab turish joylari, yonilg'i quyish shoxobchalari, korxona va shunga o'xshashlar)",
+                "F3. Yo'lning relssiz transport vositalari harakati uchun mo'ljallangan qismi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilova Umumiy qoidalar: Chorraha — yo'llarning o'zaro bir sathda kesishadigan, tutashadigan va ayriladigan joyi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Место пересечения, примыкания или разветвления дорог на одном уровне",
+                "F2. Территория, непосредственно прилегающая к дороге и не предназначенная для сквозного движения транспортных средств (дворы, жилые массивы, автостоянки, автозаправочные станции, предприятия и т. п.)",
+                "F3. Часть дороги, предназначенная для движения безрельсовых транспортных средств"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения: Перекресток — место пересечения, примыкания или разветвления дорог на одном уровне."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Йўлларнинг ўзаро бир сатҳда кесишадиган, туташадиган ва айриладиган жойи",
+                "F2. Бевосита йўлга туташган ва транспорт воситалари ўтиб кетиши учун мўлжалланмаган ҳудуд (ҳовлилар, турар жой даҳалари, автомобиль тўхтаб туриш жойлари, ёнилғи қуйиш шохобчалари, корхона ва шунга ўхшашлар)",
+                "F3. Йўлнинг рельссиз транспорт воситалари ҳаракати учун мўлжалланган қисми"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-илова Умумий қоидалар: Чорраҳа — йўлларнинг ўзаро бир сатҳда кесишадиган, туташадиган ва айриладиган жойи."
+        }
+    }
+}

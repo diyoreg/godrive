@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  928,
+    "image":  "data/images/q0928.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Yo\u0027nalishli bo\u0027lmagan transport vositalari «A» xarfi bilan belgilangan o\u0027ng tasmada qaysi holatlarda harakatlanishlari mumkin?",
+                                    "options":  [
+                                                    "F1. Yo\u0027lovchilarni chiqarish va tushirishda",
+                                                    "F2. O\u0027nga burilishda",
+                                                    "F3. Yuqoridagi barcha holatlarda aragda yo\u0027nalishli transport vositalariga xalaqit bermasa"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 22-bobi 132-bandi: Yo\u0027nalishli transport vositalarining harakatlanishi uchun 5.9, 5.10.1 — 5.10.3 yo\u0027l belgilari bilan ajratilgan tasmada boshqa transport vositalarining harakatlanishi va to\u0027xtashi taqiqlanadi.\nAgar 5.9 yo\u0027l belgisi bilan belgilangan tasma qatnov qismining boshqa tasmalardan uzuq-uzuq chiziq bilan ajratilgan bo\u0027lsa, burilmoqchi bo\u0027layotgan transport vositalari bu tasmaga qayta tizilishlari kerak.\nShuningdek, bunday joylarda yo\u0027nalishli transport vositalarining harakatiga xalaqit bermaslik sharti bilan yo\u0027lga chiqish, qatnov qismining chetki oʻng tomonida yo\u0027lovchilarni chiqarish va tushirish uchun bu bo\u0027lakka o\u0027tishga ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "В каких случаях немаршрутные транспортные средства могут двигаться по правой полосе, обозначенной буквой «А»?",
+                                    "options":  [
+                                                    "F1. При посадке и высадке пассажиров",
+                                                    "F2. При повороте направо",
+                                                    "F3. Во всех вышеперечисленных случаях, если не мешает движению маршрутных транспортных средств"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 132 главы 22 ПДД, гласит: По полосе, обозначенной дорожными знаками 5.9, 5.10.1 — 5.10.3 для движения маршрутных транспортных средств, движение и остановка других транспортных средств запрещается. Если полоса, обозначенная дорожным знаком 5.9 отделена от остальной проезжей части дороги прерывистой линией разметки, то при поворотах транспортные средства должны перестраиваться на эту полосу. Разрешается также в таких местах заезжать на эту полосу при въезде на дорогу и для посадки и высадки пассажиров у правого края проезжей части при условии, что это не создаст помех движению маршрутных транспортных средств."
+                                },
+                         "uzk":  {
+                                     "text":  "Йўналишли бўлмаган транспорт воситалари «A» харфи билан белгиланган ўнг тасмада қайси ҳолатларда ҳаракатланишлари мумкин?",
+                                     "options":  [
+                                                     "F1. Йўловчиларни чиқариш ва туширишда",
+                                                     "F2. Ўнга бурилишда",
+                                                     "F3. Юқоридаги барча ҳолатларда арагда йўналишли транспорт воситаларига халақит бермаса"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 22-боби 132-банди: Йўналишли транспорт воситаларининг ҳаракатланиши учун 5.9, 5.10.1 — 5.10.3 йўл белгилари билан ажратилган тасмада бошқа транспорт воситаларининг ҳаракатланиши ва тўхташи тақиқланади.\nАгар 5.9 йўл белгиси билан белгиланган тасма қатнов қисмининг бошқа тасмаларидан узуқ-узуқ чизиқ билан ажратилган бўлса, бурилмоқчи бўлаётган транспорт воситалари бу тасмага қайта тизилишлари керак.\nШунингдек, бундай жойларда йўналишли транспорт воситаларининг ҳаракатига халақит бермаслик шарти билан йўлга чиқиш, қатнов қисмининг четки ўнг томонида йўловчиларни чиқариш ва тушириш учун бу бўлакка ўтишга рухсат этилади."
+                                 }
+                     }
+}

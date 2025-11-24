@@ -1,0 +1,36 @@
+{
+    "questionId": 51,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Piyodalarga yo'lni piyodalar o'tish joyidan tashqarida kesib o'tishga ruxsat etiladimi?",
+            "options": [
+                "F1. Ruxsat etiladi",
+                "F2. Yo'lning qatnov qismi chetiga nisbatan to'g'ri burchak ostida, uning ikkala tomoni yaxshi ko'rinib turadigan, ko'rinish masofasida o'tish joyi yoki chorraha bo'lmasa, ajratuvchi mintaqasiz va to'siqsiz yo'llarda kesib o'tishga ruxsat etiladi",
+                "F3. Taqiqlanadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 4-bobi 17-bandi: Piyodalar yoʻlning qatnov qismini piyodalar oʻtish joylaridan, shuningdek, yer osti va yer usti o'tish joylaridan, ular bo'lmaganda esa chorrahalarda trotuar chiziqlari yoki yoʻl yoqasi bo'ylab kesib o'tishlari kerak. Piyodalarga ko'rinadigan oraliqda o'tish joyi yoki chorraha boʻlmasa, ajratuvchi mintaqasiz va to'siqsiz yoʻllardan yo'lning ikki tomoni yaxshi koʻrinadigan joyidan, qatnov qismining chetiga nisbatan to'g'ri burchak ostida kesib o'tish ruxsat etiladi."
+        },
+        "ru": {
+            "text": "Разрешается ли пешеходам переходить дорогу вне пешеходного перехода?",
+            "options": [
+                "F1. Разрешается",
+                "F2. При отсутствии перехода или перекрестка в зоне видимости разрешается переходить проезжую часть дороги под прямым углом к краю проезжей части на участках без разделительной полосы и ограждений, там где она хорошо просматривается в обе стороны",
+                "F3. Запрещается"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 17 главы 4 ПДД, гласит: Пешеходы должны пересекать проезжую часть дороги по пешеходным переходам, а также по подземным и надземным, а при их отсутствии — на перекрестках — по линии тротуаров или обочин. При отсутствии в зоне видимости перехода или перекрестка разрешается переходить дорогу под прямым углом к краю проезжей части на участках без разделительной полосы и ограждений там, где она хорошо просматривается в обе стороны."
+        },
+        "uzk": {
+            "text": "Пиёдаларга йўлни пиёдалар ўтиш жойидан ташқарида кесиб ўтишга рухсат этиладими?",
+            "options": [
+                "F1. Рухсат этилади",
+                "F2. Йўлнинг қатнов қисми четига нисбатан тўғри бурчак остида, унинг иккала томони яхши кўриниб турадиган, кўриниш масофасида ўтиш жойи ëки чорраҳа бўлмаса, ажратувчи минтақасиз ва тўсиқсиз йўлларда кесиб ўтишга рухсат этилади",
+                "F3. Тақиқланади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 4-боби 17-банди: Пиёдалар йўлнинг қатнов қисмини пиёдалар ўтиш жойларидан, шунингдек, ер ости ва ер усти ўтиш жойларидан, улар бўлмаганда эса чорраҳаларда тротуар чизиқлари ёки йўл ёқаси бўйлаб кесиб ўтишлари керак. Пиёдаларга кўринадиган оралиқда ўтиш жойи ёки чорраҳа бўлмаса, ажратувчи минтақасиз ва тўсиқсиз йўллардан йўлнинг икки томони яхши кўринадиган жойидан, қатнов қисмининг четига нисбатан тўғри бурчак остида кесиб ўтиш рухсат этилади."
+        }
+    }
+}

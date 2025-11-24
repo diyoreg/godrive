@@ -1,0 +1,36 @@
+{
+    "questionId": 769,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yo'lning keskin burilishida yuzaga keladigan sirpanishning oldini olish uchun haydovchi nima qilishi kerak?",
+            "options": [
+                "F1. Burilishdan oldin tezlikni kamaytirib, avtomobilni erkin harakatlanishi uchun ilashma tepkisini bosishi",
+                "F2. Burilishdan oldin tezlikni kamaytirish, kerak bo'lsa uzatmalar pog'onasini pasaytirish, burilishdan o'tayotganda tezlikni oshirmaslik va avtomobilni keskin tormozlamaslik",
+                "F3. Sanab o'tilgan har ikki usulni qo'llashga ruxsat etiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Burilishdan oldin tezlikni kamaytirish, kerak bo'lsa uzatmalar pog'onasini pasaytirish, burilishdan o'tayotganda tezlikni oshirmaslik va avtomobilni keskin tormozlamaslik."
+        },
+        "ru": {
+            "text": "Что следует сделать водителю, чтобы предотвратить возникновение заноса при проезде крутого поворота?",
+            "options": [
+                "F1. Перед поворотом снизить скорость и выжать педаль сцепления, чтобы дать возможность автомобилю двигаться накатом на повороте",
+                "F2. Перед поворотом снизить скорость, при необходимости включить пониженную передачу, а при проезде поворота не увеличивать резко скорость и не тормозить",
+                "F3. Допускается любое из перечисленных действий"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Перед поворотом снизить скорость, при необходимости включить пониженную передачу, а при проезде поворота не увеличивать резко скорость и не тормозить."
+        },
+        "uzk": {
+            "text": "Йўлнинг кескин бурилишида юзага келадиган сирпанишнинг олдини олиш учун ҳайдовчи нима қилиши керак?",
+            "options": [
+                "F1. Бурилишдан олдин тезликни камайтириб,  автомобилни эркин ҳаракатланиши учун илашма тепкисини босиши",
+                "F2. Бурилишдан олдин тезликни камайтириш, керак бўлса узатмалар поғонасини пасайтириш, бурилишдан ўтаётганда тезликни оширмаслик ва автомобилни кескин тормозламаслик",
+                "F3. Санаб ўтилган ҳар икки усулни қўллашга рухсат этилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Бурилишдан олдин тезликни камайтириш, керак бўлса узатмалар поғонасини пасайтириш, бурилишдан ўтаётганда тезликни оширмаслик ва автомобилни кескин тормозламаслик."
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "questionId": 958,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Haydovchi yo'lning relssiz transport vositalari harakatlanayotgan tasmalar sonini belgilaydigan chiziqlar yoki yo'l belgilari bo'lmasa, tasmalar sonini qanday aniqlash kerak?",
+            "options": [
+                "F1. Qatnov qismining kengligini, transport vositalari orasidagi zarur yonlama oraliq masofani va ularning gabarit o'lchamlarini hisobga olgan holda o'zi aniqlaydi",
+                "F2. Bunday yo'lni ikki tasmali qarama qarshi harakat tashkil qilingan yo'l deb qabul qilish kerak"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 10-bobi 64-bandi: Relssiz transport vositalari harakatlanadigan tasmalar soni chiziqlar va (yoki) 5.8.1, 5.8.2, 5.8.7, 5.8.8 yo'l belgilari bilan belgilanadi. Bunday chiziqlar yoki yoʻl belgilari bo'lmasa, haydovchilar harakatlanish tasmalari sonini, qatnov qismining kengligini, transport vositalari orasidagi zarur yonlama oraliq masofani va ularning gabarit oʻlchamlarini hisobga olgan holda o'zlari aniqlaydilar. Bunda harakatlanish ikki tomonlama boʻlgan yo'l qatnov qismining chap tomondagi yarmi, qatnov qismining joylardagi kengayishlari (sekinlashish va tezlashish tasmalari, balandlikka ko'tarilishdagi qoʻshimcha tasmalar, yo'nalishli transport vositalarining to'xtash joylaridagi kengayishlar)ni hisobga olmagan holda, qarama-qarshi yo'nalishda harakatlanish uchun mo'ljallangan deb hisoblanadi."
+        },
+        "ru": {
+            "text": "Как водителю определять количество полос движения дороги, если нет разметки или дорожных знаков, указывающей количество полос движения для безрельсовых транспортных средств?",
+            "options": [
+                "F1. Самими водителями, с учётом ширины проезжей части, габаритов транспортных средств и необходимых интервалов между ними",
+                "F2. Такую дорогу следует рассматривать как двух полосная дорога, на котором организовано двустороннее движение"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 64 главы 10 ПДД, гласит: Количество полос движения для безрельсовых транспортных средств определяется разметкой и (или) дорожными знаками 5.8.1, 5.8.2, 5.8.7, 5.8.8, а если их нет — самими водителями, с учётом ширины проезжей части, габаритов транспортных средств и необходимых интервалов между ними. При этом на дорогах с двусторонним движением стороной, предназначенной для встречного движения, считается половина ширины проезжей части, расположенная слева, не считая местной ширины проезжей части (полосы торможения и разгона, дополнительные полосы на подъём, заездные карманы мест остановок маршрутных транспортных средств)."
+        },
+        "uzk": {
+            "text": "Ҳайдовчи йўлнинг рельссиз транспорт воситалари ҳаракатланаётган тасмалар сонини белгилайдиган чизиқлар ёки йўл белгилари бўлмаса, бўлаклар сонини қандай аниқлаш керак?",
+            "options": [
+                "F1. Қатнов қисмининг кенглигини, транспорт воситалари орасидаги зарур ёнлама оралиқ масофани ва уларнинг габарит ўлчамларини ҳисобга олган ҳолда ўзи аниқлайди",
+                "F2. Бундай йўлни икки тасмали қарама қарши ҳаракат ташкил қилинган йўл деб қабул қилиш керак"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 10-боби 64-банди: Релъссиз транспорт воситалари ҳаракатланадиган тасмалар сони чизиқлар ва (ёки) 5.8.1, 5.8.2, 5.8.7, 5.8.8 йўл белгилари билан белгиланади. Бундай чизиқлар ёки йўл белгилари бўлмаса, ҳайдовчилар ҳаракатланиш тасмалари сонини, қатнов қисмининг кенглигини, транспорт воситалари орасидаги зарур ёнлама оралиқ масофани ва уларнинг габарит ўлчамларини ҳисобга олган ҳолда ўзлари аниқлайдилар. Бунда ҳаракатланиш икки томонлама бўлган йўл қатнов қисмининг Чап томондаги ярми, қатнов қисмининг жойлардаги кенгайишлари (секинлашиш ва тезлашиш тасмалари, баландликка кўтарилишдаги қўшимча тасмалар, йўналишли транспорт воситаларининг тўхташ жойларидаги кенгайишлар)ни ҳисобга олмаган ҳолда, қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган деб ҳисобланади."
+        }
+    }
+}

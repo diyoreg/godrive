@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  231,
+    "image":  "data/images/q0231.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi rasmda piyodalar qoidani buzmay harakatlanmoqda?",
+                                    "options":  [
+                                                    "F1. Chapdagi rasmda",
+                                                    "F2. O\u0027ngdagi rasmda",
+                                                    "F3. Ikkala rasmda"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 4-bobi 15-bandining birinchi va uchinchi xatboshilariga asosan: Piyodalar trotuardan yoki piyodalar yo\u0027lkasidan, ular boʻlmaganda esa уо 1 yoqasidan yurishlari kerak. Qatnov qismining chetida harakatlanayotgan piyodalar transport vositalarining harakatiga qarama-qarshi yo\u0027nalishda yurishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "На каком рисунке пешеходы двигаются без нарушения правил?",
+                                    "options":  [
+                                                    "F1. На левом",
+                                                    "F2. На правом",
+                                                    "F3. На обоих рисунках"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Абзацу 3 пункта 15 главы 4 ПДД, пешеходы должны двигаться по тротуарам или пешеходным дорожкам, а где их нет - по обочинам и краю проезжей части, пешеходы должны идти на встречу движения транспортных средств."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси расмда пиёдалар қоидани бузмай ҳаракатланмоқда?",
+                                     "options":  [
+                                                     "F1. Чапдаги расмда",
+                                                     "F2. Ўнгдаги расмда",
+                                                     "F3. Иккала расмда"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 4-боби 15-бандининг биринчи ва учинчи хатбошиларига асосан: Пиёдалар тротуардан ёки пиёдалар йўлкасидан, улар бўлмаганда эса йўл ёқасидан юришлари керак. Қатнов қисмининг четида ҳаракатланаётган пиёдалар транспорт воситаларининг ҳаракатига қарама-қарши йўналишда юришлари керак."
+                                 }
+                     }
+}

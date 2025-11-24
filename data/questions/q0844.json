@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  844,
+    "image":  "data/images/q0844.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi falokatli holatlar uchun kirish yo\u0027lini bildiradi?",
+                                    "options":  [
+                                                    "F1. «A» ва «Д»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ, 5.40. «Falokatli holatlar uchun kirish yo\u0027li» belgisi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак указывает на дорогу для въезда в аварийных случаях?",
+                                    "options":  [
+                                                    "F1. «А» и «Д»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД, Знак 5.40. «Дорога для выезда в аварийных случаях»."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги фалокатли ҳолатлар учун кириш йўлини билдиради?",
+                                     "options":  [
+                                                     "F1. «A» ва «Д»"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ, 5.40. «Фалокатли ҳолатлар учун кириш йўли» белгиси."
+                                 }
+                     }
+}

@@ -1,0 +1,39 @@
+{
+    "questionId": 266,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Haydovchi boshqa haydovchilarning ko'zini qamashtirishi mumkin boʻlgan uzoqni yorituvchi chiroqni yaqinni yorituvchiga qachon almashtirishi kerak?",
+            "options": [
+                "F1. Ro'paradagi transport vositasiga 100 m. qolganda",
+                "F2. Ro'paradagi transport vositasiga 150 m. qolganda, shuningdek, ko'proq masofada ham, agar ro'paradagi transport vositasining haydovchisi faralar chirog'ini o'chirib yoqib shuni zarur deb ko'rsatsa",
+                "F3. Ro'paradagi transport vositasiga 250 m. qolganda",
+                "F4. Ro'paradagi transport vositasiga 300 m. qolganda"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 23-bobi 135-bandining ikkinchi va uchinchi xatboshlariga asosan, quyidagi hollarda uzoqni yorituvchi chiroqlar o'rniga yaqinni yorituvchi chiroqlar yoqilishi kerak: qarama-qarshi yo'nalishdagi transport vositasiga kamida 150 metr masofa qolganda, shuningdek haydovchi transport vositasining chiroqlarini vaqt-vaqti bilan oʻchirib bunga zaruriyat borligini bildirgan hollarda undan ham ko'proq masofada;\nqarama-qarshi va bir yoʻnalishdagi transport vositalari haydovchilarining ko'zini qamashtirishi mumkin bo'lgan boshqa barcha holatlarda."
+        },
+        "ru": {
+            "text": "Когда водитель должен переключить дальний свет на ближний, если он может ослепить других водителей? Не менее чем:",
+            "options": [
+                "F1. За 100 м до встречного транспортного средства",
+                "F2. За 150 м до встречного транспортного средства, а также и при большем расстоянии, если водитель встречного транспортного средства периодическим переключением света фар показывает необходимость этого",
+                "F3. За 250 м до встречного транспортного средства",
+                "F4. За 300 м до встречного транспортного средства"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Aбзацу 2 пункта 135 главы 23 ПДД, дальний свет должен быть переключен на ближний в следующих случаях: если расстояние до встречного транспортного средства менее 150 м, а также и при большем расстоянии, если водитель, переключением света фар, периодическим покажет необходимость этого."
+        },
+        "uzk": {
+            "text": "Ҳайдовчи бошқа ҳайдовчиларнинг кўзини қамаштириши мумкин бўлган узоқни ёритувчи чироқни яқинни ёритувчига қачон алмаштириши керак?",
+            "options": [
+                "F1. Рўпарадаги транспорт воситасига 100 м. қолганда",
+                "F2. Рўпарадаги транспорт воситасига 150 м. қолганда, шунингдек, кўпроқ масофада ҳам, агар рўпарадаги транспорт воситасининг ҳайдовчиси фаралар чироғини ўчириб ёқиб шуни зарур деб кўрсатса",
+                "F3. Рўпарадаги транспорт воситасига 250 м. қолганда",
+                "F4. Рўпарадаги транспорт воситасига 300 м. қолганда"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 23-боби 135-бандининг иккинчи ва учинчи хатбошларига асосан, қуйидаги ҳолларда узоқни ёритувчи чироқлар ўрнига яқинни ёритувчи чироқлар ёқилиши керак: қарама-қарши йўналишдаги транспорт воситасига камида 150 метр масофа қолганда, шунингдек ҳайдовчи транспорт воситасининг чироқларини вақт-вақти билан ўчириб бунга зарурият борлигини билдирган ҳолларда ундан ҳам кўпроқ масофада;\nқарама-қарши ва бир йўналишдаги транспорт воситалари ҳайдовчиларининг кўзини қамаштириши мумкин бўлган бошқа барча ҳолатларда."
+        }
+    }
+}

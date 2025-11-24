@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  497,
+    "image":  "data/images/q0497.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Haydovchi aholi punktidan tashqarida harakat qoidalarini buzmoqdami?",
+                                    "options":  [
+                                                    "F1. Yo\u0027q"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 10-bobi 67-bandining birinchi xatboshisiga asosan: Aholi punktlaridan tashqaridagi yoʻllarda hamda aholi punktlarida ayrim turdagi transport vositalari uchun ushbu Qoidalarda belgilangandan yuqori tezlikda harakatlanish ruxsat etilgan yoʻl qismlarida haydovchilar transport vositalarini mumkin qadar qatnov qismining oʻng chetiga yaqinroq olib harakatlanishlari kerak. O\u0027ng tasmalar bo\u0027sh bo\u0027lganda chap tasmalarni egallash taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Нарушает ли водитель правила при движении вне населенного пункта?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункту 67 главы 10 ПДД, гласит: Вне населенных пунктов водители транспортных средств должны вести их по возможности ближе к правому краю проезжей части. Соответственно, автомобиль, двигаясь по крайней левой полосе вне населенного пункта, нарушает правила движения."
+                                },
+                         "uzk":  {
+                                     "text":  "Ҳайдовчи аҳоли пунктидан ташқарида ҳаракат қоидаларини бузмоқдами?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 10-боби 67-бандининг биринчи хатбошисига асосан: Аҳоли пунктларидан ташқаридаги йўлларда ҳамда аҳоли пунктларида айрим турдаги транспорт воситалари учун ушбу Қоидаларда белгилангандан юқори тезликда ҳаракатланиш рухсат этилган йўл қисмларида ҳайдовчилар транспорт воситаларини мумкин қадар қатнов қисмининг ўнг четига яқинроқ олиб ҳаракатланишлари керак. Унг тасмалар бўш бўлганда чап тасмаларни эгаллаш тақиқланади."
+                                 }
+                     }
+}

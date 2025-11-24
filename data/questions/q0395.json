@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  395,
+    "image":  "data/images/q0395.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qizil avtomobil chorrahani nechanchi bo\u0027lib kesib o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Birinchi bo\u0027lib",
+                                                    "F2. Ikkinchi bo\u0027lib",
+                                                    "F3. Uchinchi bo\u0027lib",
+                                                    "F4. Oxirgi bo\u0027lib"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 15-bobi 99, 101-bandlariga asosan, svetoforning yashil ishorasida chapga burilayotgan yoki qayrilib olayotgan relssiz transport vositasining haydovchisi qarama- qarshi tomondan toʻgʻriga harakatlanayotgan va o\u0027ngga burilayotgan transport vositalariga yo\u0027l berishi shart. Tramvay haydovchilari ham o\u0027zaro ushbu qoidaga amal qilishlari kerak. Agar svetofor yoki tartibga soluvchining ishoralari tramvay va relssiz transport vositalariga bir vaqtda harakatlanishga ruxsat bersa, harakatlanish yoʻnalishidan qat\u0027i nazar, tramvay oldin o\u0027tish huquqiga ega boʻladi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Первым",
+                                                    "F2. Вторым",
+                                                    "F3. Третьим",
+                                                    "F4. Последним"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Пунктам 99, 101 главы 15 ПДД, при повороте налево или развороте по зеленому сигналу светофора водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся со встречного направления прямо и направо. Таким же правилом должны руководствоваться между собой водители трамваев. Если сигналы светофора или регулировщика разрешают движение одновременно трамваю и безрельсовым транспортным средствам, то трамвай имеет право на первоочередное движение независимо от направления его движения."
+                                },
+                         "uzk":  {
+                                     "text":  "Қизил автомобиль чорраҳани нечанчи бўлиб кесиб ўтади?",
+                                     "options":  [
+                                                     "F1. Биринчи бўлиб",
+                                                     "F2. Иккинчи бўлиб",
+                                                     "F3. Учинчи бўлиб",
+                                                     "F4. Охирги бўлиб"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 15-боби 99, 101-бандларига асосан, светофорнинг яшил ишорасида чапга бурилаётган ёки қайрилиб олаётган рельссиз транспорт воситасининг ҳайдовчиси қарама- қарши томондан тўғрига ҳаракатланаётган ва ўнгга бурилаётган транспорт воситаларига йўл бериши шарт. Трамвай ҳайдовчилари ҳам ўзаро ушбу қоидага амал қилишлари керак. Агар светофор ёки тартибга солувчининг ишоралари трамвай ва рельссиз транспорт воситаларига бир вақтда ҳаракатланишга рухсат берса, ҳаракатланиш йўналишидан қатъи назар, трамвай олдин ўтиш ҳуқуқига эга бўлади."
+                                 }
+                     }
+}

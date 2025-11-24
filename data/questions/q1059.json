@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  1059,
+    "image":  "data/images/q1059.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu vaziyatda qaysi transport vositasining haydovchisi yo\u0027l berishi kerak?",
+                                    "options":  [
+                                                    "F1. Oq avtomobil haydovchisi",
+                                                    "F2. Qizil avtomobil haydovchisi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 9-bobi 60-bandi: Transport vositalarining harakatlanish yo\u0027nalishlari kesishganda va o\u0027tish navbati Qoidalarda nazarda tutilmagan hollarda, haydovchi o\u0027ng tomondan yaqinlashayotgan transport vositasiga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Водитель какого транспортного средства должен уступить дорогу в данной ситуации?",
+                                    "options":  [
+                                                    "F1. Водитель белого автомобиля",
+                                                    "F2. Водитель красного автомобиля"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 60 главы 9 ПДД, гласит: В случаях, когда траектории движения транспортных средств пересекаются, а очередность проезда не оговорена Правилами, дорогу должен уступить водитель, к которому транспортное средство приближается справа."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу вазиятда қайси транспорт воситасининг ҳайдовчиси йўл бериши керак?",
+                                     "options":  [
+                                                     "F1. Оқ автомобил ҳайдовчиси",
+                                                     "F2. Қизил автомобил ҳайдовчиси"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 9-боби 60-банди: Транспорт воситаларининг ҳаракатланиш йўналишлари кесишганда ва ўтиш навбати Қоидаларда назарда тутилмаган ҳолларда, ҳайдовчи ўнг томондан яқинлашаётган транспорт воситасига йўл бериши керак."
+                                 }
+                     }
+}

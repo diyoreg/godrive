@@ -1,0 +1,39 @@
+{
+    "questionId": 997,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Ikki tasmali yo'lga nisbatan uch yoki undan ko'p tasmali yo'l",
+                "F2. Tuproqli yoki shag'alli yoʻlga nisbatan qattiq qoplamali (asfalt va sement-betonli va shunga o'xshashlar yotqizilgan) yo'l",
+                "F3. Toshli yo'lga nisbatan asfalt qoplamali yo'l",
+                "F4. Barcha javoblar to'g'ri"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ umumiy qoidalar: Asosiy yo'l — tuproqli yoki shag'alli yoʻlga nisbatan qattiq qoplamali (asfalt va sement-betonli va shunga o'xshashlar yotqizilgan), kesishayotgan yoki tutashgan yoʻlga nisbatan 2.1, 2.3.1— 2.3.3 yoki 5.1 yo'l belgilari bilan belgilangan yoxud yondosh hududdan chiqadigan yoʻlga nisbatan har qanday yoʻl. Ikkinchi darajali yoʻlning bevosita chorrahaga tutash qismining qoplamali bo'lishi uni asosiy yoʻl bilan teng huquqli qilmaydi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Дорога с тремя или более полосами движения по отношению к дороге с двумя полосами",
+                "F2. Дорога с твердым покрытием по отношению к грунтовой дороге",
+                "F3. Дорога с асфальтобетонным покрытием по отношению к дороге, покрытой брусчаткой",
+                "F4. В всех перечислены ответе"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД общие положения: Главная дорога — дорога с твердым покрытием (асфальто — и цементобетон, каменные материалы и тому подобное) по отношению к грунтовой дороге или дорога, обозначенная дорожными знаками 2.1, 2.3.1 — 2.3.3 или 5.1., по отношению к пересекаемой (примыкающей), либо любая дорога по отношению к выездам с прилегающих территорий. Наличие покрытия на второстепенной дороге непосредственно перед перекрестком не делает ее равной по значению с пересекаемой."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Икки тасмали йўлга нисбатан уч ёки ундан кўп тасмали йўл",
+                "F2. Тупроқли ёки шағалли йўлга нисбатан қаттиқ қопламали (асфальт ва цемент-бетонли ва шунга ўхшашлар ётқизилган) йўл",
+                "F3. Тошли йўлга нисбатан асфалт қопламали йўл",
+                "F4. Барча жавоблар тўғри"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ умумий қоидалар: Асосий йўл — тупроқли ёки шағалли йўлга нисбатан қаттиқ қопламали (асфалът ва цемент-бетонли, тош ва шунга ўхшашлар ётқизилган), кесишаётган ёки туташган йўлга нисбатан 2.1, 2.3.1 — 2.3.3 ёки 5.1 йўл белгилари билан белгиланган ёхуд ёндош ҳудуддан чиқадиган йўлга нисбатан ҳар қандай йўл. Иккинчи даражали йўлнинг бевосита чорраҳага туташ қисмининг қопламали бўлиши уни асосий йўл билан тенг ҳуқуқли қилмайди."
+        }
+    }
+}

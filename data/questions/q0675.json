@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  675,
+    "image":  "data/images/q0675.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "O\u0027tish navbati qaysi javobda to\u0027g\u0027ri ko\u0027rsatilgan?",
+                                    "options":  [
+                                                    "F1. Mototsikl, avtobus, yuk avtomobili",
+                                                    "F2. Avtobus, mototsikl, yuk avtomobili",
+                                                    "F3. Avtobus, yuk avtomobili, mototsikl"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 16-bobi 105-bandiga asosan: Teng ahamiyatga ega bo\u0027lgan yo\u0027llar kesishgan chorrahada relssiz transport vositasining haydovchisi o\u0027ngdan yaqinlashayotgan transport vositalariga yo\u0027l berishi shart. Bu qoidaga tramvay haydovchilari ham o\u0027zaro amal qilishlari kerak.\nBunday chorrahalarda keyingi harakat yo\u0027nalishidan qat’iy nazar, tramvay relssiz transport vositalariga nisbatan oldin o\u0027tish huquqiga ega bo\u0027ladi."
+                                },
+                         "ru":  {
+                                    "text":  "В каком ответе правильно указана очередность проезда?",
+                                    "options":  [
+                                                    "F1. Мотоцикл, автобус, грузовой автомобиль.",
+                                                    "F2. Автобус, мотоцикл, грузовой автомобиль.",
+                                                    "F3. Автобус, грузовой автомобиль, мотоцикл."
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункту 105 главы 16 ПДД, гласит: На перекрестке равнозначных дорог водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, приближающимся справа. Этим же правилом должны руководствоваться между собой водители трамваев. На таких перекрестках трамвай имеет право на первоочередное движение перед безрельсовыми транспортными средствами независимо от направления его движения."
+                                },
+                         "uzk":  {
+                                     "text":  "Ўтиш навбати қайси жавобда тўғри кўрсатилган?",
+                                     "options":  [
+                                                     "F1. Мотоцикл, автобус, юк автомобили",
+                                                     "F2. Автобус, мотоцикл, юк автомобили",
+                                                     "F3. Автобус, юк автомобили, мотоцикл"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 16-боби 105-бандига асосан: Тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада рельссиз транспорт воситасининг ҳайдовчиси ўнгдан яқинлашаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак.\nБундай чорраҳаларда кейинги ҳаракат йўналишидан қатъий назар, трамвай рельссиз транспорт воситаларига нисбатан олдин ўтиш ҳуқуқига эга бўлади."
+                                 }
+                     }
+}

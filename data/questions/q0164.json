@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  164,
+    "image":  "data/images/q0164.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Suratdagi tasvirlangan holatda haydovchi nima qilishi lozim?",
+                                    "options":  [
+                                                    "F1. Bekatda (yo\u0027l o\u0027rtasida) turgan bir xil yo\u0027nalishdagi tramvayga borayotgan yoki undan kelayotgan piyodalarga yo\u0027l berish",
+                                                    "F2. To\u0027xtash va tramvay eshiklari yopilgandan keyin harakatlanishni boshlash",
+                                                    "F3. Tezlikni zarur bo\u0027lganda darhol to\u0027xtash imkonini beradigan darajagacha pasaytirib harakatni davom ettirish"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 17-bobi 114-bandiga asosan: Agar yo\u0027lovchilarni tushirish yoki chiqarish qatnov qismida yoki unda joylashgan maydonchada amalga oshirilayotgan boʻlsa, haydovchi bekatda toʻxtagan yo\u0027nalishli transport vositasi eshiklari tomon borayotgan yoki undan kelayotgan piyoda(lar)ga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Как должен поступить водитель в ситуации, изображенной на рисунке?",
+                                    "options":  [
+                                                    "F1. Уступить дорогу пешеходам, идущим к стоящему на остановке (посередине дороги) трамваю попутного направления или от него",
+                                                    "F2. Снизить скорость до предела, обеспечивающего при необходимости немедленную остановку, и продолжать движение",
+                                                    "F3. Остановиться и возобновить движение после того, как будут закрыты двери трамвая"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Информационно-указательный знак 5.13 \"Место остановки трамвая\".\nПункта 114 главы 17 ПДД гласит: Водитель должен уступить дорогу пешеходам, идущим к дверям стоящего на остановке маршрутного транспортного средства или от него, если посадка и высадка производится с проезжей части или с посадочной площадки, расположенной на ней."
+                                },
+                         "uzk":  {
+                                     "text":  "Суратдаги тасвирланган ҳолатда ҳайдовчи нима қилиши лозим?",
+                                     "options":  [
+                                                     "F1. Бекатда (йўл ўртасида) турган бир хил йўналишдаги трамвайга бораëтган ёки ундан келаётган пиёдаларга йўл бериш",
+                                                     "F2. Тўхташ ва трамвай эшиклари ёпилгандан кейин ҳаракатланишни бошлаш",
+                                                     "F3. Тезликни зарур бўлганда дарҳол тўхташ имконини берадиган даражагача пасайтириб ҳаракатни давом эттириш"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 17-боби 114-бандига асосан: Агар йўловчиларни тушириш ёки чиқариш қатнов қисмида ёки унда жойлашган майдончада амалга оширилаётган бўлса, ҳайдовчи бекатда тўхтаган йўналишли транспорт воситаси эшиклари томон бораётган ёки ундан келаётган пиёда (лар)га йўл бериши керак."
+                                 }
+                     }
+}

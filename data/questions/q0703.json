@@ -1,0 +1,36 @@
+{
+    "questionId": 703,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yo'lda «STOP», yozuvi ko'rinishdagi yo'l chizigi nimani bildiradi?",
+            "options": [
+                "F1. Tartibga solingan chorrahada to'xtash chizig'iga yaqinlashayotganligi xaqida ogohlantiradi",
+                "F2. To'xtash chizig'i va «To'xtamasdan harakatlanish taqiqlanadi» yo'l belgisi o'rnatilgan chorrahaga yaqinlashayotganligini bildiradi",
+                "F3. «Yo'l bering» yo'l belgisiga yaqinlashilayotganligini bildiradi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2 ilova: 1.21 («STOP» — To'xtang! yozuvi) — 2.5 belgisi bilan birga qo'llanilganda haydovchini 1.12 chizig'iga yaqinlashayotganligi haqida ogohlantiradi."
+        },
+        "ru": {
+            "text": "Что означает дорожная разметка в виде надписи «STOP» на дороге?",
+            "options": [
+                "F1. Предупреждает о приближении к пешеходному переходу",
+                "F2. Надпись указывает на приближение к дорожной разметке «Стоп линия» и знаку «Движение без остановки запрещено»",
+                "F3. Означает приближение к дорожному знаку «Уступи дорогу»"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД приложение № 2: 1.21 (надпись «STOP») — предупреждает о приближении к разметке 1.12, когда она применяется в сочетании со знаком 2.5."
+        },
+        "uzk": {
+            "text": "Йўлда «STOP»,  ёзуви кўринишдаги йўл чизиғи нимани билдиради?",
+            "options": [
+                "F1. Тартибга солинган чорраҳада тўхташ чизиғига яқинлашаётганлиги хақида огоҳлантиради",
+                "F2. Тўхташ чизиғи ва «Тўхтамасдан ҳаракатланиш тақиқланади» йўл белгиси ўрнатилган чорраҳага яқинлашаётганлигини билдиради",
+                "F3. «Йўл беринг» йўл белгисига яқинлашилаётганлигини билдиради"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2 илова: 1.21 («STOP» — Тўхтанг ёзуви) — 2.5 белгиси билан бирга қўлланилганда ҳайдовчини 1.12 чизиғига яқинлашаётганлиги ҳақида огоҳлантиради."
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "questionId": 120,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "N2; N3 toifadagi avtotransport vositalarining boshqaruv qurilmasida qanday eng katta umumiy lyuft yig'indisiga yo'l qo'yiladi?",
+            "options": [],
+            "correctAnswer": 3,
+            "explanation": "YHQ 3-ilovasi 2-bo'limining 2.1-bandiga asosan: Boshqaruv qurilmasidagi lyuft yigʻindisi reglament (qat'iy belgilangan) sharoitlardagi sinovlarda quyidagi ko'rsatkichdan katta boʻlmasligi kerak."
+        },
+        "ru": {
+            "text": "Какой наибольший суммарный люфт в рулевом управлении допускается Правилами для грузовых автомобилей?",
+            "options": [],
+            "correctAnswer": 3,
+            "explanation": "В пункте 2.1 \"Условий, при которых запрещается эксплуатация транспортных средств\" (приложение №3 к ПДД) сказано, что суммарный люфт в рулевом управлении для грузовых автомобилей не должен превышать 25 градусов (25°)."
+        },
+        "uzk": {
+            "text": "N2; N3 тоифадаги автотранспорт воситаларининг бошқарув қурилмасида қандай энг катта умумий люфт йиғиндисига йўл қўйилади?",
+            "options": [],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 3-иловаси 2-бўлимининг 2.1-бандига асосан: Бошқарув қурилмасидаги люфт йиғиндиси регламент (қатъий белгиланган) шароитлардаги синовларда қуйидаги кўрсаткичдан катта бўлмаслиги керак."
+        }
+    }
+}

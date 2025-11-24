@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  336,
+    "image":  "data/images/q0336.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Boshqaruvda o\u0027rganuvchi bo\u0027lsa, ushbu transport vositasiga qaysi tomonga harakatlanishga ruxsat beriladi?",
+                                    "options":  [
+                                                    "F1. Hamma tomonga",
+                                                    "F2. Faqat o\u0027ngga",
+                                                    "F3. O\u0027ngga, chapga va qayrilib olishga"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 20-bobi 124-bandining birinchi xatboshisiga asosan, turar joy dahalarida quyidagilar taqiqlanadi: mexanik transport vositalarini boshqarishni oʻrgatish."
+                                },
+                         "ru":  {
+                                    "text":  "В каком направлении разрешено движение этому транспортному средству, если за рулем находится обучаемый?",
+                                    "options":  [
+                                                    "F1. В любом",
+                                                    "F2. Только направо",
+                                                    "F3. Направо, налево и в обратном направлении"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Информационно-указательный знак 5.38 \"Жилая зона\". Дорога, на которой действуют требования Правил, устанавливающие порядок движения в жилой зоне. Пункту 124 главы 20 ПДД, гласит: В жилой зоне запрещается: - учебная езда на механических транспортных средствах."
+                                },
+                         "uzk":  {
+                                     "text":  "Бошқарувда ўрганувчи бўлса, ушбу транспорт воситасига қайси томонга ҳаракатланишга рухсат берилади?",
+                                     "options":  [
+                                                     "F1. Ҳамма томонга",
+                                                     "F2. Фақат ўнгга",
+                                                     "F3. Ўнгга, чапга ва қайрилиб олишга"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 20-боби 124-бандининг биринчи хатбошисига асосан, турар жой даҳаларида қуйидагилар тақиқланади: механик транспорт воситаларини бошқаришни ўргатиш."
+                                 }
+                     }
+}

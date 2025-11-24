@@ -1,0 +1,36 @@
+{
+    "questionId": 359,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Bosh miya va kalla suyagi o'rtacha holatda jarohatlangan jabrlanuvchini transportning qaysi turida tashish kerak?",
+            "options": [
+                "F1. Yo'lovchi yengil avtomobilida",
+                "F2. Yo'lovchi yuk avtomobilida",
+                "F3. Faqat tez tibbiy yordam mashinasida"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Bosh miya suyagi shikastlangan jabrlanuvchi faqat maxsus jihozlangan tez tibbiy yordam yoki qutqarish xizmati avtomobillarida tashiladi."
+        },
+        "ru": {
+            "text": "Каким видом транспорта перевозить пострадавшего с черепно-мозговой травмой средней тяжести?",
+            "options": [
+                "F1. Попутным легковым автомобилем",
+                "F2. Попутным грузовым автомобилем",
+                "F3. Только машиной скорой медицинской помощи"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пострадавшего счерепно-мозговой травмой средней тяжести можно перевозить только машиной скорой медицинской помощи. Так как черепно-мозговая травма является одной из наиболее серьезных травм человека."
+        },
+        "uzk": {
+            "text": "Бош мия ва калла суяги ўртача ҳолатда жароҳатланган жабрланувчини транспортнинг қайси турида ташиш керак?",
+            "options": [
+                "F1. Йўловчи енгил автомобилида",
+                "F2. Йўловчи юк автомобилида",
+                "F3. Фақат тез тиббий ёрдам машинасида"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Бош мия суяги шикастланган жабрланувчи факат махсус жихозланган тез тиббий ёрдам ёки куткариш хизмати автомобилларида ташилади."
+        }
+    }
+}

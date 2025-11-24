@@ -1,0 +1,36 @@
+{
+    "questionId": 50,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi hollarda velosipedchilarga qatnov qismining o'ng chekkasidan chiqishga yo'l qo'yiladi?",
+            "options": [
+                "F1. Yuk ortib ketayotganda",
+                "F2. Ruxsat etilgan hollarda chapga burilish yoki qayrilib olish uchun",
+                "F3. Ikkala sanab o'tilgan hollarda"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 28-bobi 166-bandi: Velosipedlar, individual harakatlanish vositalari, mopedlar, aravalar, miniladigan yoki yuk ortiladigan hayvonlarning yo'lning chetki o'ng bo'lagida imkoni boricha o'ng tomonidan bir qator bo'lib harakatlanishiga yo'l qo'yiladi. Agar piyodalarga xalaqit bermasa, yo'l yoqasidan harakatlanishga ham ruxsat etiladi.\nYo'lning qatnov qismida harakatlanishda velosipedchilar, individual harakatlanish vositalari, aravalar jamlanmasi, miniladigan yoki yuk ortiladigan hayvonlar guruhlari va haydab ketilayotgan hayvonlar to'dasi yo'l harakati xavfsizligini ta’minlaydigan hamda ularni quvib o'tishni osonlashtiradigan guruhlarga bo'linishi kerak. \nIzoh: qatnov qismining chap bo'lagiga faqat chapga burilish va qayrilib olish uchun o'tishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "В каких случаях допускается выезд велосипедистов от правого края проезжей части?",
+            "options": [
+                "F1. При перевозке груза",
+                "F2. В разрешенных случаях для поворота налево или разворота",
+                "F3. В обоих перечисленных случаях"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 166 главы 28 ПДД, гласит: Допускается движение велосипедов, индивидуальные транспортных средствам, мопедов, гужевых повозок, верховых и вьючных животных только по крайней правой полосе дороги по возможности правее в один ряд. Если не создаются помехи пешеходам, разрешается движение по обочине.\nКолонны велосипедистов, индивидуальные транспортных средствам, гужевых повозок, групп верховых и вьючных животных или стада при движении по проезжей части должны быть разделены на группы, обеспечивающие безопасность дорожного движения и облегчающие их обгон.\nПримечание: Выезд на левую полосу проезжей части разрешен только для левых поворотов и разворотов."
+        },
+        "uzk": {
+            "text": "Қайси ҳолларда велосипедчиларга қатнов қисмининг ўнг чеккасидан чиқишга йўл қўйилади?",
+            "options": [
+                "F1. Юк ортиб кетаётганда",
+                "F2. Рухсат этилган ҳолларда чапга бурилиш ёки қайрилиб олиш учун",
+                "F3. Иккала санаб ўтилган ҳолларда"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙХК 28-боби 166-банди: Велосипедлар, индивидуал ҳаракатланиш воситалари, мопедлар, аравалар, миниладиган ёки юк ортиладиган ҳайвонларнинг йўлнинг четки ўнг бўлагида имкони борича ўнг томонидан бир қатор бўлиб ҳаракатланишига йўл қўйилади. Агар пиёдаларга халақит бермаса, йўл ёқасидан ҳаракатланишга ҳам рухсат этилади.\nЙўлнинг қатнов қисмида ҳаракатланишда велосипедчилар, индивидуал ҳаракатланиш воситалари, аравалар жамланмаси, миниладиган ёки юк ортиладиган ҳайвонлар гуруҳлари ва ҳайдаб кетилаётган ҳайвонлар тўдаси йўл ҳаракати хавфсизлигини таъминлайдиган ҳамда уларни қувиб ўтишни осонлаштирадиган гуруҳларга бўлиниши керак.\nИзоҳ: қатнов қисмининг Чап бўлагига фақат чапга бурилиш ва қайрилиб олиш учун ўтишга рухсат этилади."
+        }
+    }
+}

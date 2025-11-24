@@ -1,0 +1,36 @@
+{
+    "questionId": 754,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Kunning yorug' vaqtida aholi punktlaridan tashqarida Siz quvib o'tayotgan transport vositasi haydovchisining e’tiborini qanday jalb qilasiz?",
+            "options": [
+                "F1. Faqat yorug'lik faralarini qisqa-qisqa yoqib o'chirish bilan",
+                "F2. Faqat tovush ishorasi bilan",
+                "F3. Sanab o'tilgan barcha usul bilan va ularni birga qo'llash bilan"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 8-bobi 49-bandi: Quvib o'tish haqida tovushli ishora oʻrniga yoki u bilan birga fara chiroqlarini yoqib-o'chirib, ogohlantirish ishorasini ham berish mumkin."
+        },
+        "ru": {
+            "text": "Как Вы можете в светлое время суток привлечь внимание водителя обгоняемого автомобиля при движении вне населенного пункта?",
+            "options": [
+                "F1. Только кратковременным переключением фар с ближнего света на дальний",
+                "F2. Только звуковым сигналом",
+                "F3. Любым из перечисленных способов, включая совместную подачу этих сигналов"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 49 главы 8 ПДД, гласит: Вместо звукового сигнала об обгоне или же вместе с ним может подаваться предупредительный сигнал переключением фар."
+        },
+        "uzk": {
+            "text": "Куннинг ёруғ вақтида аҳоли пунктларидан ташқарида сиз қувиб ўтаётган транспорт воситаси ҳайдовчисининг еътиборини қандай жалб қиласиз?",
+            "options": [
+                "F1. Фақат ёруғлик фараларини қисқа-қисқа ёқиб ўчириш билан",
+                "F2. Фақат товуш ишораси билан",
+                "F3. Санаб ўтилган барча усул билан ва уларни бирга қўллаш билан"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 8-боби 49-банди: Қувиб ўтиш ҳақида товушли ишора ўрнига ёки убилан бирга фара чироқларини ёқиб-ўчириб, огоҳлантириш ишорасини ҳам бериш мумкин."
+        }
+    }
+}

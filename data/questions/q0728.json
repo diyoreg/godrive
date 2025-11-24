@@ -1,0 +1,36 @@
+{
+    "questionId": 728,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Haydovchiga transport vositasini boshqarish vaqtida telefondan foydalanishga ruxsat etiladimi?",
+            "options": [
+                "F1. Taqiqlanadi",
+                "F2. Qo'lni ishlatmasdan texnik vositalardan foydalanib gaplashishga ruxsat etiladi",
+                "F3. 20 km/soat tezlikda harakatlanayotganda ruxsat etiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2-bobi 12-bandi: Haydovchiga quyidagilar taqiqlanadi: transport vositasini boshqarish paytida telefondan (telefondan quloqchinlar orqali va qo'llarni ishlatmasdan turib so'zlashuvlar olib borish imkoniyatini beradigan boshqa uskunalar orqali foydalanish bundan mustasno), transport vositasi salonining old qismiga o'rnatilgan tele, videomonitordan tele, videodasturlarni tomosha qilish uchun foydalanish."
+        },
+        "ru": {
+            "text": "Разрешается ли водителю пользоваться телефоном во время движения?",
+            "options": [
+                "F1. Запрещается",
+                "F2. Разрешается только при использовании технического устройства, позволяющего вести переговоры без использования рук",
+                "F3. Разрешается только при движении со скоростью менее 20 км/ч"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 12 главы 2 ПДД, гласит: Водителю запрещается: пользоваться во время управления транспортным средством телефоном, а также установленным предприятием-изготовителем в передней части салона транспортного средства теле-, видеомонитором для просмотра теле-, видеопрограмм."
+        },
+        "uzk": {
+            "text": "Ҳайдовчига транспорт воситасини бошқариш вақтида телефондан фойдаланишга рухсат этиладими?",
+            "options": [
+                "F1. Тақиқланади",
+                "F2. Қўлни ишлатмасдан техник воситалардан фойдаланиб гаплашишга рухсат этилади",
+                "F3. 20 км/соат тезликда ҳаракатланаётганда рухсат этилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2-боби 12-банди: Ҳайдовчига қуйидагилар тақиқланади: транспорт воситасини бошқариш пайтида телефондан (телефондан қулоқчинлар орқали ва қўлларни ишлатмасдан туриб сўзлашувлар олиб бориш имкониятини берадиган бошқа ускуналар орқали фойдаланиш бундан мустасно), транспорт воситаси салонининг олд қисмига ўрнатилган теле, видеомонитордан теле, видеодастурларни томоша қилиш учун фойдаланиш."
+        }
+    }
+}

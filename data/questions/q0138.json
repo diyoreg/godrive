@@ -1,0 +1,39 @@
+{
+    "questionId": 138,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Quvib o'tishda faralarning uzoqni yorituvchi chiroqlaridan ogohlantiruvchi ishora sifatida foydalanish mumkinmi?",
+            "options": [
+                "F1. Hamma holda mumkin",
+                "F2. Mumkin, agar bu boshqa haydovchilarning ko'zini qamashtirmasa, shu jumladan, orqani ko'rish ko'zgusi orqali ham",
+                "F3. Mumkin emas",
+                "F4. Aholi punktidan tashqaridagi yo'llarda mumkin"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 8-bobi 44-bandiga asosan, quyidagilar ogohlantiruvchi ishoralar hisoblanadi: burilishni koʻrsatadigan miltillovchi chiroq yoki qo'l bilan beriladigan ishoralar;\ntovushli ishoralar;\nchiroqlarning yoqib o'chirilishi;\nkunduz kuni yaqinni yorituvchi chiroqlarning yoqilishi."
+        },
+        "ru": {
+            "text": "Можно ли пользоваться дальним светом фар в качестве предупредительного сигнала при обгоне?",
+            "options": [
+                "F1. Можно в любом случае",
+                "F2. Можно, когда это не может вызвать ослепление других водителей, в том числе и через зеркало заднего вида",
+                "F3. Нельзя",
+                "F4. Можно на дорогах вне населенных пунктов"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 44 главы 8 ПДД гласит: предупредительными сигналами являются: сигналы, подаваемые мигающими указателями поворотов или рукой;\nзвуковые сигналы;\nпереключение света фар;\nвключение ближнего света фар в дневное время, дальний свет должен быть переключен на ближний в случаях, когда\nможно ослепить встречных и попутных водителей."
+        },
+        "uzk": {
+            "text": "Қувиб ўтишда фараларнинг узоқни ёритувчи чироқларидан огоҳлантирувчи ишора сифатида фойдаланиш мумкинми?",
+            "options": [
+                "F1. Ҳамма ҳолда мумкин",
+                "F2. Мумкин, агар бу бошқа ҳайдовчиларнинг кўзини қамаштирмаса, шу жумладан, орқани кўриш кўзгуси орқали ҳам",
+                "F3. Мумкин эмас",
+                "F4. Аҳоли пунктидан ташқаридаги йўлларда мумкин"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 8-боби 44-бандига асосан, қуйидагилар огоҳлантирувчи ишоралар ҳисобланади: бурилишни кўрсатадиган милтилловчи чироқ ёки қўл билан бериладиган ишоралар;\nтовушли ишоралар;\nчироқларнинг ёқиб ўчирилиши;\nкундуз куни яқинни ёритувчи чироқларнинг ёқилиши."
+        }
+    }
+}

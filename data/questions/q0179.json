@@ -1,0 +1,36 @@
+{
+    "questionId": 179,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qattiq yoki egiluvchan ulagich yordamida shatakka olinganda, yuk avtomobilining yukxonasida odamlarni tashishga ruxsat etiladimi?",
+            "options": [
+                "F1. Shatakka olgan va shatakka olingan avtomobillarning yukxonasida ruxsat etiladi",
+                "F2. Faqat shatakka olingan avtomobil yukxonasida ruxsat etiladi",
+                "F3. Faqat shatakka olgan avtomobil yukxonasida ruxsat etiladi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 24-bobi 143-bandiga asosan: Qattiq yoki egiluvchan ulagich yordamida shatakka olingan avtobusda, trolleybusda va yuk avtomobili yukxonasida odam tashish, qisman ortish yoʻli bilan shatakka olishda esa shatakka olingan transport vositasining kabinasida va yukxonasida, shuningdek shatakka olgan transport vositasining yukxonasida odamlar bo'lishi taqiqlanadi."
+        },
+        "ru": {
+            "text": "Разрешается ли перевозка людей в кузове грузового автомобиля при буксировке на жесткой или гибкой сцепке?",
+            "options": [
+                "F1. Разрешается в кузове буксирующего и буксируемого автомобилей",
+                "F2. Разрешается только в кузове буксируемого автомобиля",
+                "F3. Разрешается только в кузове буксирующего автомобиля"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 143 главы 24 ПДД гласит: При буксировке на гибкой или жесткой сцепке запрещается перевозка людей в буксируемом автобусе, троллейбусе и в кузове буксируемого грузового автомобиля, а при буксировке путем частичной погрузки - нахождение людей в кабине или кузове буксируемого транспортного средства, а также в кузове буксирующего транспортного средства. Соответственно, при буксировке на жесткой или гибкой сцепке запрещена перевозка людей в кузове буксируемого грузового автомобиля, но разрешена в кузове буксирующего."
+        },
+        "uzk": {
+            "text": "Қаттиқ ёки эгилувчан улагич ёрдамида шатакка олинганда, юк автомобилининг юкхонасида одамларни ташишга рухсат этиладими?",
+            "options": [
+                "F1. Шатакка олган ва шатакка олинган автомобилларнинг юкхонасида рухсат этилади",
+                "F2. Фақат шатакка олинган автомобиль юкхонасида рухсат этилади",
+                "F3. Фақат шатакка олган автомобиль юкхонасида рухсат этилади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 24-боби 143-бандига асосан: Қаттиқ ёки эгилувчан улагич ёрдамида шатакка олинган автобусда, троллейбусда ва юк автомобили юкхонасида одам ташиш, қисман ортиш йўли билан шатакка олишда эса шатакка олинган транспорт воситасининг кабинасида ва юкхонасида, шунингдек шатакка олган транспорт воситасининг юкхонасида одамлар бўлиши тақиқланади."
+        }
+    }
+}

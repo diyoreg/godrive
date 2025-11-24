@@ -1,0 +1,36 @@
+{
+    "questionId": 518,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Harakat tezligi 40 km/soatdan oshmaydigan transport vositasiga qatnov qismining chap boʻlagiga chiqishga qachon ruxsat etiladi?",
+            "options": [
+                "F1. Quvib o'tishda, o'zib ketishda yoki aylanib o'tishda",
+                "F2. Burilish yoki qayrilib olish oldidan qayta tizilishda",
+                "F3. Sanab o'tilgan barcha hollarda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 10-bobi 68-bandiga asosan: Tezligini soatiga 40 kilometrdan oshirishi mumkin boʻlmagan yoki texnik sabablarga ko'ra tezligini bundan oshira olmaydigan transport vositalari aylanib oʻtish, quvib o'tish, chapga burilish yoki qayrilib olish uchun qayta tizilishdan yoki ruxsat etilgan hollarda yoʻlning chap tomonida to'xtashdan boshqa hollarda faqat chetki oʻng qatorida harakatlanishlari kerak."
+        },
+        "ru": {
+            "text": "Когда транспортному средству, скорость движения которого не превышает 40 км/ч, разрешается выезжать на левую полосу проезжей части?",
+            "options": [
+                "F1. При обгоне или объезде",
+                "F2. При перестроении перед поворотом или разворотом",
+                "F3. Во всех перечисленных случаях"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункт 68 главы 10 ПДД, гласит: Транспортные средства, скорость движения которых не должна превышать 40 км/ч или которые по техническим причинам не могут развивать такую скорость, должны двигаться только по крайней правой полосе, кроме случаев, когда совершается обгон, объезд, поворот налево или разворот, перестроение перед объездом. Соответственно, транспортному средству, скорость которого не должны превышать 40 км/ч, могут выезжать на левую полосу только для обгона, объезда, при перестроении перед поворотом или разворотом. В противном случае оно должно двигаться по крайней правой полосе независимо от количества полос проезжей части."
+        },
+        "uzk": {
+            "text": "Ҳаракат тезлиги 40 км/соатдан ошмайдиган транспорт воситасига қатнов қисмининг чап бўлагига чиқишга қачон рухсат этилади?",
+            "options": [
+                "F1. Қувиб ўтишда, ўзиб кетишда ëки айланиб ўтишда",
+                "F2. Бурилиш ёки қайрилиб олиш олдидан қайта тизилишда",
+                "F3. Санаб ўтилган барча ҳолларда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 10-боби 68-бандига асосан: Тезлигини соатига 40 километрдан ошириши мумкин бўлмаган ёки техник сабабларга кўра тезлигини бундан ошира олмайдиган транспорт воситалари айланиб ўтиш, қувиб ўтиш, чапга бурилиш ёки қайрилиб олиш учун қайта тизилишдан ёки рухсат этилган ҳолларда йўлнинг чап томонида тўхташдан бошқа ҳолларда фақат четки ўнг қаторида ҳаракатланишлари керак."
+        }
+    }
+}

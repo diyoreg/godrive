@@ -1,0 +1,36 @@
+{
+    "questionId": 773,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Transport vositasi qiyalikda joyidan qo'zg'alishda to'xtab turish tormoz dastagini qay vaqtda tushirishni boshlash kerak?",
+            "options": [
+                "F1. Harakatni boshlagandan so'ng",
+                "F2. Harakatni boshlashdan avval",
+                "F3. Harakatni boshlash bilan bir vaqtda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Harakatni boshlash bilan bir vaqtda."
+        },
+        "ru": {
+            "text": "В какой момент следует начинать отпускать стояночный тормоз при трогании на подъеме?",
+            "options": [
+                "F1. После начала движения",
+                "F2. До начала движения",
+                "F3. Одновременно с началом движения"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Одновременно с началом движения."
+        },
+        "uzk": {
+            "text": "Транспорт воситаси қияликда жойидан қўзғалишда тўхтаб туриш тормоз дастагини қай вақтда туширишни бошлаш керак?",
+            "options": [
+                "F1. Ҳаракатни бошлагандан сўнг",
+                "F2. Ҳаракатни бошлашдан аввал",
+                "F3. Ҳаракатни бошлаш билан бир вақтда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Ҳаракатни бошлаш билан бир вақтда."
+        }
+    }
+}

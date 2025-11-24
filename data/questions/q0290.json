@@ -1,0 +1,36 @@
+{
+    "questionId": 290,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Odamlarni tashishga moslashtirilmagan yuk avtomobili yukxonasida odam tashishga ruxsat etiladimi?",
+            "options": [
+                "F1. Taqiqlanadi",
+                "F2. Avtomagistrallarga tegishli bo'lmagan yo'llarda ruxsat etiladi",
+                "F3. Faqat yukni olish uchun borayotgan yoki kuzatib boruvchi shaxslarga shu shart bilanki, ular bortlaridan pastda joylashgan o'tiradigan joy bilan ta'minlangan bo'lsalar ruxsat etiladi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 26-bobi 154-bandiga asosan: Odam tashishga moslashtirilmagan yuk avtomobillarining yukxonasida faqat yukni olish uchun borayotgan yoki uni kuzatib borayotgan shaxslarning bo'lishiga yo'l qo'yiladi, bunda ular bortlardan pastda joylashgan o'rindiqlar bilan ta'minlanishlari kerak."
+        },
+        "ru": {
+            "text": "Разрешается ли проезд в кузове грузового автомобиля, не оборудованного для перевозки людей?",
+            "options": [
+                "F1. Запрещается",
+                "F2. Разрешается на дорогах, не относящихся к автомагистралям",
+                "F3. Разрешается только лицам, сопровождающим груз или следующим за его получением, при условии обеспечения их местом для сидения, расположенным ниже уровня бортов"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункт 154 главы 26 ПДД гласит: Проезд в кузове грузового автомобиля, не оборудованном для перевозки людей, разрешается только лицам, сопровождающим груз или следующим за его получением, при условии, что они обеспечены местом для сидения, расположенным ниже уровня бортов."
+        },
+        "uzk": {
+            "text": "Одамларни ташишга мослаштирилмаган юк автомобили юкхонасида одам ташишга рухсат этиладими?",
+            "options": [
+                "F1. Тақиқланади",
+                "F2. Автомагистралларга тегишли бўлмаган йўлларда рухсат этилади",
+                "F3. Фақат юкни олиш учун бораëтган ёки кузатиб борувчи шахсларга шу шарт биланки, улар бортларидан пастда жойлашган ўтирадиган жой билан таъминланган бўлсалар рухсат этилади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 26-боби 154-бандига асосан: Одам ташишга мослаштирилмаган юк автомобилларининг юкхонасида фақат юкни олиш учун бораётган ёки уни кузатиб бораётган шахсларнинг бўлишига йўл қўйилади, бунда улар бортлардан пастда жойлашган ўриндиқлар билан таъминланишлари керак."
+        }
+    }
+}

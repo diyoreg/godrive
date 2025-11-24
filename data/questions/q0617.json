@@ -1,0 +1,36 @@
+{
+    "questionId": 617,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sanab o'tilgan joylardan qaysi birida transport vositalarining to'xtashi va to'xtab turishi taqiqlanmaydi?",
+            "options": [
+                "F1. Ko'priklarda, osma yo'llarda bir yo'nalishdagi harakatlanish uchun uchtadan ko'p tasma bo'lganda",
+                "F2. Kesishadigan qatnov qismlarining chetiga 30 metrdan ko'proq qolganda",
+                "F3. Barcha ko'rsatilgan joylarda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 13-bobi 91-bandi 3-xatboshiga asosan, quyidagi joylarda to'xtash taqiqlanadi: bir yo'nalishda harakatlanish uchun uchtadan kam tasmaga ega bo'lgan ko'prik, yo'l o'tkazgich va estakadalarning ustida;\nqatnov qismi kesishmalarida va kesishayotgan qatnov qismi chetiga 30 metrdan kam masofada (uch tomonlama kesishadigan chorrahalarda yondan tutashgan yo'lning sidirg'a chiziq yoki ajratuvchi mintaqa bilan ajratilgan qarama-qarshi tomoni bundan mustasno)."
+        },
+        "ru": {
+            "text": "В каких местах из перечисленных не запрещается остановка и стоянка транспортных средств?",
+            "options": [
+                "F1. На мостах, путепроводах, имеющих 3 и более полосы движения в одном направлении",
+                "F2. Больше 30 м от края пересекаемой проезжей части",
+                "F3. Во всех указанных местах"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 3 пункта 91 главы 13 ПДД, Остановка запрещается в следующих местах: на мостах, эстакадах, путепроводах (если для движения в данном направлении имеется менее трех полос) и под ними;\nAбзацу 8 - на пересечении проезжих частей и ближе 5 м от края пересекаемой проезжей части, за исключением стороны напротив бокового проезда трехсторонних пересечений (перекрестков), имеющих сплошную линию дорожной разметки или разделительную полосу."
+        },
+        "uzk": {
+            "text": "Санаб ўтилган жойлардан қайси бирида транспорт воситаларининг тўхташи ва тўхтаб туриши тақиқланмайди?",
+            "options": [
+                "F1. Кўприкларда, осма йўлларда бир йўналишдаги ҳаракатланиш учун учтадан кўп тасма бўлганда",
+                "F2. Кесишадиган қатнов қисмларининг четига 30 метрдан кўпроқ қолганда",
+                "F3. Барча кўрсатилган жойларда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 13-боби 91-банди 3-хатбошига асосан, қуйидаги жойларда тўхташ тақиқланади: бир йўналишда ҳаракатланиш учун учтадан кам тасмага ега бўлган кўприк, йўл ўтказгич ва естакадаларнинг устида;\nқатнов қисми кесишмаларида ва кесишаётган қатнов қисми четига 30 метрдан кам масофада (уч томонлама кесишадиган чорраҳаларда ёндан туташган йўлнинг сидирға чизиқ ёки ажратувчи минтақа билан ажратилган қарама-қарши томони бундан мустасно)."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  326,
+    "image":  "data/images/q0326.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bunday vaziyatda qizil avtomobilning haydovchisiga quvib o\u0027tish ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat etiladi",
+                                                    "F2. Taqiqlandi",
+                                                    "F3. Faqat ro\u0027paradan kelayotgan transport vositalari yo\u0027qligida ro\u0027xsat etiladi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 10-bobi 66-bandiga asosan: Harakat ikki tomonlama bo\u0027lgan va chiziqlar bilan belgilangan (1.9 yo\u0027l chizig\u0027i bilan belgilanganidan tashqari) uchta tasmali yo\u0027llarda, ikki yo\u0027nalishda harakatlanish uchun mo\u0027ljallangan o\u0027rta qatorga faqat quvib o\u0027tish, aylanib o\u0027tish, chapga burilish va qayrilib olish uchungina chiqishga ruxsat etiladi. Qarama-qarshi yo\u0027nalishda harakatlanish uchun mo\u0027ljallangan chetki chap qatorni egallash taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешен ли обгон водителю красного автомобиля в такой ситуации?",
+                                    "options":  [
+                                                    "F1. Разрешен",
+                                                    "F2. Запрещен",
+                                                    "F3. Разрешен только при отсутствии встречных транспортных средств"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 66 главы 10 ПДД, гласит: На дорогах с двусторонним движением, имеющих три полосы (кроме обозначенных разметкой 1.9), на среднюю полосу разрешается выезжать только для обгона, поворота налево, разворота и объезда. Выезжать на крайнюю левую полосу, предназначенную для встречного движения, запрещается."
+                                },
+                         "uzk":  {
+                                     "text":  "Бундай вазиятда қизил автомобилнинг ҳайдовчисига қувиб ўтиш рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Рухсат этилади",
+                                                     "F2. Тақиқланди",
+                                                     "F3. Фақат рўпарадан келаётган транспорт воситалари йўқлигида рухсат этилади"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 10-боби 66-бандига асосан: Ҳаракат икки томонлама бўлган ва чизиқлар билан белгиланган (1.9 йўл чизиғи билан белгиланганидан ташқари) учта тасмали йўлларда, икки йўналишда ҳаракатланиш учун мўлжалланган ўрта қаторга фақат қувиб ўтиш, айланиб ўтиш, чапга бурилиш ва қайрилиб олиш учунгина чиқишга рухсат етилади. Қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган четки чап қаторни егаллаш тақиқланади."
+                                 }
+                     }
+}

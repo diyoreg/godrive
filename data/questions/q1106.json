@@ -1,0 +1,42 @@
+﻿{
+    "questionId":  1106,
+    "image":  "data/images/q1106.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi rasmlarda quvib o\u0027tish ko\u0027rsatilgan?",
+                                    "options":  [
+                                                    "F1. Faqat birinchi va ikkinchi rasmlarda",
+                                                    "F2. Fagat birinchi va uchinchi rasmlarda",
+                                                    "F3. Faqat birinchi, ikkinchi va to\u0027rtinchi rasmlarda",
+                                                    "F4. Fagat birinchi rasmda",
+                                                    "F5. Barcha rasmlarda"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1-ilova 1-bob. Umumiy qoidalar: Quvib oʻtish — bir yoki bir nechta transport vositalarini qarama-qarshi yoʻnalishda harakatlanish uchun mo\u0027ljallangan tasmaga chiqib, soʻngra ilgari egallagan qatoriga qaytib o\u0027tish bilan bogʻliq bo\u0027lgan o\u0027zib ketish."
+                                },
+                         "ru":  {
+                                    "text":  "На каких изображениях показан обгон?",
+                                    "options":  [
+                                                    "F1. Только на первом и втором изображениях",
+                                                    "F2. Только на первом и третьем изображениях",
+                                                    "F3. Только на первом, втором и четвёртом изображениях",
+                                                    "F4. Только на первом изображении",
+                                                    "F5. На всех изображениях"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Приложение №1 ПДД Общие правила: Обгон — Обгон с участием одного или нескольких транспортных средств, выезжающих на полосу, предназначенную для движения во встречном направлении, и затем возвращающихся на ранее занимаемую ими полосу."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси расмларда қувиб ўтиш кўрсатилган?",
+                                     "options":  [
+                                                     "F1. Фақат биринчи ва иккинчи расмларда",
+                                                     "F2. Фагат биринчи ва учинчи расмларда",
+                                                     "F3. Фақат биринчи, иккинчи ва тўртинчи расмларда",
+                                                     "F4. Фагат биринчи расмда",
+                                                     "F5. Барча расмларда"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1-илова 1-боб. Умумий қоидалар: Қувиб ўтиш — бир ёки бир нечта транспорт воситаларини қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган тасмага чиқиб, сўнгра илгари эгаллаган қаторига қайтиб ўтиш билан боғлиқ бўлган ўзиб кетиш."
+                                 }
+                     }
+}

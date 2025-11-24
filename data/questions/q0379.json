@@ -1,0 +1,39 @@
+{
+    "questionId": 379,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sirpanchiq yo'lda harakatlanayotganda karbyuratorning drossel zaslonkasini birdaniga ochish xavfi nimadan iborat?",
+            "options": [
+                "F1. Yurgizgich o'chib qoladi",
+                "F2. Yonilg'i sarfi ancha ortadi",
+                "F3. Avtomobilning yonga sirpanishi vujudga kelishi mumkin",
+                "F4. Yurgizgich tirsakli val aylanishining maksimal chastotasini oshiradi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Sirpanchiq yoʻlda sirpanish hollari birdan tezlik oshirilganda, yetakchi g'ildiraklarning oʻrnidan jilmay aylanishi (charx urishi) kelib chiqadi. Bu holda sirpanish sabablarini bartaraf qilish, ya'ni yonilgʻi oʻtishini boshqaruvchi tepkisini (drossel zaslonkasini) bosishni kamaytirish lozim."
+        },
+        "ru": {
+            "text": "Чем опасно резкое открытие дроссельной заслонки карбюратора при движении на скользкой дороге?",
+            "options": [
+                "F1. Двигатель заглохнет",
+                "F2. Значительно возрастет расход топлива",
+                "F3. Может возникнуть боковой занос автомобиля",
+                "F4. Двигатель превысит максимальную частоту вращения коленчатого вала"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Резкое открытие дроссельной заслонки карбюратора при движении на скользкой дороге опасно тем, что может возникнуть пробуксовка ведущих колес и боковой занос автомобиля. Чем больше водитель нажимает на педаль «газа», тем больше открывается дроссельная заслонка карбюратора, соответственно, ведущие колеса начинают интенсивно вращаться, что приводит к их пробуксовке и возможному заносу автомобиля на скользкой дороге."
+        },
+        "uzk": {
+            "text": "Сирпанчиқ йўлда ҳаракатланаётганда карбюраторнинг дроссел заслонкасини бирданига очиш хавфи нимадан иборат?",
+            "options": [
+                "F1. Юргизгич ўчиб колади",
+                "F2. Ёнилғи сарфи анча ортади",
+                "F3. Автомобилнинг ёнга сирпаниши вужудга келиши мумкин",
+                "F4. Юргизгич тирсакли вал айланишининг максимал частотасини оширади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Сирпанчиқ йўлда сирпаниш ҳоллари бирдан тезлик оширилганда, етакчи ғилдиракларнинг ўрнидан жилмай айланиши (чарх уриши) келиб чиқади. Бу ҳолда сирпаниш сабабларини бартараф қилиш, яъни ёнилғи ўтишини бошқарувчи тепкисини (дросселъ заслонкасини) босишни камайтириш лозим."
+        }
+    }
+}

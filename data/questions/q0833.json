@@ -1,0 +1,36 @@
+{
+    "questionId": 833,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Svetoforning miltillovchi sariq ishorasi nima haqida ogohlantiradi?",
+            "options": [
+                "F1. Chorraha tartibga solinmaganligi to'g'risida",
+                "F2. Harakatlanishga ruxsat beradi",
+                "F3. Barcha javoblar to'g'ri"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 7-bobi 31-bandi: miltillovchi sariq ishora harakatlanishga ruxsat beradi va tartibga solinmagan chorraha yoki piyodalar o'tish joyi borligidan xabardor qiladi, xavf-xatar haqida ogohlantiradi."
+        },
+        "ru": {
+            "text": "О чем предупреждает мигающий желтый сигнал светофора?",
+            "options": [
+                "F1. О том, что перекресток не регулируемый",
+                "F2. Разрешает движению",
+                "F3. Все ответы правильные"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 31 главы 7 ПДД, гласит: желтый мигающий сигнал разрешает движение и информирует о наличии\nнерегулируемого перекрёстка или пешеходного перехода, предупреждает об опасности."
+        },
+        "uzk": {
+            "text": "Светофорнинг милтилловчи сариқ ишораси нима ҳақида огоҳлантиради?",
+            "options": [
+                "F1. Чорраҳа тартибга солинмаганлиги тўғрисида",
+                "F2. Ҳаракатланишга рухсат беради",
+                "F3. Барча жавоблар тўғри"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 7-боби 31-банди: милтилловчи сариқ ишора ҳаракатланишга рухсат беради ва тартибга солинмаган чорраҳа ёки пиёдалар ўтиш жойи борлигидан хабардор қилади, хавф-хатар ҳақида огоҳлантиради."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  644,
+    "image":  "data/images/q0644.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Chorrahani ikkinchi bo\u0027lib kim kesib o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Yashil avtomobil",
+                                                    "F2. Ko\u0027k avtomobil",
+                                                    "F3. Qizil avtomobil"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng ahamiyatga ega bo\u0027lmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yoʻldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat\u0027i nazar, yoʻl berishi kerak.\nYHQ 16-bobi 106-bandiga asosan: Asosiy yo\u0027lning yo\u0027nalishi chorrahada o\u0027zgarganda asosiy yoʻlda harakatlanayotgan haydovchilar o\u0027zaro teng ahamiyatli yoʻllar chorrahasidan o\u0027tish qoidasiga amal qilishlari kerak. Ikkinchi darajali yoʻllarda harakatlanayotgan haydovchilar ham oʻzaro shu qoidaga amal qilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Зеленый автомобиль",
+                                                    "F2. Синий автомобиль",
+                                                    "F3. Красный автомобиль"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пунктам 104, 106 главы 16 ПДД, на перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения. Если главная дорога на перекрестке меняет направление, водители, движущиеся по главной дороге, должны руководствоваться между собой правилами проезда перекрестков равнозначных дорог. Этим же правилом должны руководствоваться между собой и водители, движущиеся по второстепенным дорогам."
+                                },
+                         "uzk":  {
+                                     "text":  "Чорраҳани иккинчи бўлиб ким кесиб ўтади?",
+                                     "options":  [
+                                                     "F1. Яшил автомобиль",
+                                                     "F2. Кўк автомобиль",
+                                                     "F3. Қизил автомобиль"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 16-боби 104-бандининг биринчи хатбошисига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак.\nЙҲҚ 16-боби 106-бандига асосан: Асосий йўлнинг йўналиши чорраҳада ўзгарганда асосий йўлда ҳаракатланаётган ҳайдовчилар ўзаро тенг аҳамиятли йўллар чорраҳасидан ўтиш қоидасига амал қилишлари керак. Иккинчи даражали йўлларда ҳаракатланаётган ҳайдовчилар ҳам ўзаро шу қоидага амал қилишлари керак."
+                                 }
+                     }
+}

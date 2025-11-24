@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  734,
+    "image":  "data/images/q0734.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Reversiv harakatlanish yo\u0027liga chiqish haqida",
+                                                    "F2. Siz o\u0027ngga yoki chapga burilishingiz kerakligini ko\u0027rsatadi",
+                                                    "F3. Chorrahadan o\u0027ngga va chapga bir tomonlama harakat tashkil qilingan"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 5.37. «Reversiv harakatlanish yo\u0027liga chiqish»."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. О выходе на трассу реверсивного движения",
+                                                    "F2. Вы должны повернуть направо или налево",
+                                                    "F3. Вправо и влево от перекрестка организовано одностороннее движение"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 1: 5.37. «Выезд на дорогу с реверсивным движением»."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Реверсив ҳаракатланиш йўлига чиқиш ҳақида",
+                                                     "F2. Сиз ўнгга ёки чапга бурилишингиз кераклигини кўрсатади",
+                                                     "F3. Чорраҳадан ўнгга ва чапга  бир томонлама ҳаракат ташкил қилинган"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 5.37. «Реверсив ҳаракатланиш йўлига чиқиш»."
+                                 }
+                     }
+}

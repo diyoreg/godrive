@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  816,
+    "image":  "data/images/q0816.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi yo\u0027lning tor qismlarida ro\u0027paradan kelayotgan transport vositasiga yo\u0027l berish lozimligini bildiradi?",
+                                    "options":  [
+                                                    "F1. «Б» va «B»",
+                                                    "F2. «A» va «Г»"
+                                                ],
+                                    "correctAnswer":  5,
+                                    "explanation":  "YHQ, 2.6. «Ro\u0027para harakatlanishning ustunligi»."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак указывает на необходимость уступить дорогу встречному транспортному средству на узких участках дороги?",
+                                    "options":  [
+                                                    "F1. «Б» и «В»",
+                                                    "F2. «А» и «Г»"
+                                                ],
+                                    "correctAnswer":  5,
+                                    "explanation":  "ПДД, знак 2.6. «Преимущество\nвстречного движения»."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги йўлнинг тор қисмларида рўпарадан келаётган транспорт воситасига йўл бериш лозимлигини билдиради?",
+                                     "options":  [
+                                                     "F1. «Б» ва «В»",
+                                                     "F2. «A» ва «Г»"
+                                                 ],
+                                     "correctAnswer":  5,
+                                     "explanation":  "ЙҲҚ, 2.6. «Рўпара ҳаракатланишнинг устунлиги»."
+                                 }
+                     }
+}

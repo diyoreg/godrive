@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  824,
+    "image":  "data/images/q0824.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu belgi qaysi turdagi transport vositalarini to\u0027xtamasdan o\u0027tishlarini taqiqlaydi?",
+                                    "options":  [
+                                                    "F1. Yuk avtomobillarini",
+                                                    "F2. Yengil avtomobillarini",
+                                                    "F3. Barcha turdagi transport vositalarini"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ, 1-ilova: 3.17.1. «Bojxona». Bojxona (nazorat punkti) oldida toʻxtamasdan o\u0027tib ketish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Проезд каких транспортных средств без остановки запрещается данным знаком?",
+                                    "options":  [
+                                                    "F1. Грузовые автомобили",
+                                                    "F2. Легковые автомобили",
+                                                    "F3. Все виды транспортных средств"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД, Приложение № 1: 3.17.1. «Таможня». Запрещается проезд без остановки у таможенного (контрольного) пункта."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу белги қайси турдаги транспорт воситаларини тўхтамасдан ўтишларини тақиқлайди?",
+                                     "options":  [
+                                                     "F1. Юк автомобилларини",
+                                                     "F2. Енгил автомобилларини",
+                                                     "F3. Барча турдаги транспорт воситаларини"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ, 1-Илова: 3.17.1. «Божхона». Божхона (назорат пункти) олдида тўхтамасдан ўтиб кетиш тақиқланади."
+                                 }
+                     }
+}

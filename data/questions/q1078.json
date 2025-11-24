@@ -1,0 +1,33 @@
+{
+    "questionId": 1078,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Doimiy va vaqtinchalik yo'l belgilari ma'no jihatidan bir birini inkor etganda qaysi biriga amal qilasiz?",
+            "options": [
+                "F1. Doimiy yo'l belgisiga",
+                "F2. Vaqtinchalik yo'l belgisiga"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1 ilova: Vaqtincha (ko'chma tirgakdagi) va doimiy belgilar ma’no jihatidan bir-biriga zid kelgan hollarda haydovchilar vaqtincha o'rnatilgan belgilarga amal qilishlari kerak."
+        },
+        "ru": {
+            "text": "Если постоянные и временные дорожные знаки противоречат друг другу по смыслу, какому из них вы должны следовать?",
+            "options": [
+                "F1. Постоянному дорожному знаку",
+                "F2. Временному дорожному знаку"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД приложение № 1: В случаях, когда значение временных дорожных знаков (на переносной стойке) и стационарных знаков противоречат друг другу, водители должны руководствоваться временными знаками."
+        },
+        "uzk": {
+            "text": "Доимий ва вақтинчалик йўл белгилари маъно жиҳатидан бир бирини инкор этганда қайси бирига амал қиласиз?",
+            "options": [
+                "F1. Доимий йўл белгисига",
+                "F2. Вақтинчалик йўл белгисига"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1 илова: Вақтинча (кўчма тиргакдаги) ва доимий белгилар маъно жиҳатидан бир-бирига зид келган ҳолларда ҳайдовчилар вақтинча ўрнатилган белгиларга амал қилишлари керак."
+        }
+    }
+}

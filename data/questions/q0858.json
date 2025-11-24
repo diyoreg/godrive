@@ -1,0 +1,33 @@
+{
+    "questionId": 858,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Boshqa harakat qatnashchilariga nisbatan imtiyozga ega",
+                "F2. Boshqa harakat qatnashchilariga yo'l berishi kerak"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 20-bobi 126-bandi: Turar joy dahalaridan chiqishda haydovchilar boshqa harakat qatnashchilariga yo'l berishlari kerak."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Он имеет приоритет перед другими участниками движения",
+                "F2. Должен уступить дорогу другим участникам движения"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 126 главы 20 ПДД, гласит: При выезде из жилых\nзон водители должны уступить дорогу другим участникам движения."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Бошқа ҳаракат қатнашчиларига нисбатан имтиёзга эга",
+                "F2. Бошқа ҳаракат қатнашчиларига йўл бериши керак"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 20-боби 126-банди: Турар жой даҳаларидан чиқишда ҳайдовчилар бошқа ҳаракат қатнашчиларига йўл беришлари керак."
+        }
+    }
+}

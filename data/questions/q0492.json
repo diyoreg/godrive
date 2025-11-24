@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  492,
+    "image":  "data/images/q0492.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Belgilardan qay biri ajratuvchi mintaqasi bo\u0027lgan yo\u0027lning harakat uchun yopiq qatnov qismini aylanib o\u0027tish yo\u0027nalishini ko\u0027rsatadi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  5,
+                                    "explanation":  "YHQ 1-ilovasi 5-boʻlimining ellik ikkinchi xatboshisiga asosan: 5.34.2. «Boshqa qatnov qismiga qayta tizilishning boshlang\u0027ich ko\u0027rsatkichi». Ajratuvchi bo\u0027lagi boʻlgan yoʻlning harakatlanish uchun yopiq hududini aylanib o\u0027tish yoki oʻng tomondagi qatnov qismiga qaytish uchun harakatlanish yo\u0027nalishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из знаков указывает направление объезда закрытого для движения участка проезжей части на дороге с разделительной полосой?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  5,
+                                    "explanation":  "Информационно-указательный знак 5.34.2 \"Предварительный указатель перестроения на другую проезжую часть\". Направление объезда, закрытого для движения участка проезжей части, на дороге с разделительной полосой или направление движения для возвращения на правую проезжую часть."
+                                },
+                         "uzk":  {
+                                     "text":  "Белгилардан қай бири ажратувчи минтақаси бўлган йўлнинг ҳаракат учун ёпиқ қатнов қисмини айланиб ўтиш йўналишини кўрсатади?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  5,
+                                     "explanation":  "ЙҲҚ 1-иловаси 5-бўлимининг эллик иккинчи хатбошисига асосан: 5.34.2. «Бошқа қатнов қисмига қайта тизилишнинг бошланғич кўрсаткичи». Ажратувчи бўлаги бўлган йўлнинг ҳаракатланиш учун ёпиқ ҳудудини айланиб ўтиш ёки ўнг томондаги қатнов қисмига қайтиш учун ҳаракатланиш йўналишини билдиради."
+                                 }
+                     }
+}

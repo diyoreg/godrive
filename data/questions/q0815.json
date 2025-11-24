@@ -1,0 +1,39 @@
+{
+    "questionId": 815,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "To'xtab turish tormoz tizimi N toifadagi avtotransport vositalarini aslahalangan holatda qanday qiyalikda harakatsiz holatda ushlab tura olmasa foydalanish taqiqlanadi?",
+            "options": [
+                "F1. 20 foizdam kam bo'lgan",
+                "F2. 31 foizdam kam bo'lgan",
+                "F3. 25 foizdam kam bo'lgan",
+                "F4. 16 foizdam kam bo'lgan"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ, 3-ilova, Tormoz tizimlari: 1.6.Toʻxtab turish tormoz tizimi transport vositalarini quyidagi joylarda harakatsiz holatda ushlab tura olmasa: toʻla aslahalangan holatda transport vositalarini 16 foizdan kam boʻlmagan qiyalikda;\nM toifa uchun 25 foiz, N toifa uchun 31 foiz."
+        },
+        "ru": {
+            "text": "На каком уклоне запрещается эксплуатация автотранспортных средств категории N в загруженном состоянии, полной нагрузкой при необеспечении неподвижного состояния стояночной тормозной системы?",
+            "options": [
+                "F1. Не менее 20%",
+                "F2. Не менее 31 %",
+                "F3. Не менее 25 %",
+                "F4. Не менее 16 %"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД, Приложение-3, Тормознке системы: 1.6.Стояночная тормозная система не обеспечивает неподвижное состояние: автотранспортных средств с полной нагрузкой на уклоне не менее 16%;\nкатегорий М не менее 25%, для категорий N не менее 31%."
+        },
+        "uzk": {
+            "text": "Тўхтаб туриш тормоз тизими N тоифадаги автотранспорт воситаларини аслаҳаланган ҳолатда қандай қияликда ҳаракатсиз ҳолатда ушлаб тура олмаса фойдаланиш тақиқланади?",
+            "options": [
+                "F1. 20 фоиздам кам бўлган",
+                "F2. 31 фоиздам кам бўлган",
+                "F3. 25 фоиздам кам бўлган",
+                "F4. 16 фоиздам кам бўлган"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ, 3-илова, Тормоз тизимлари: 1.6.Тўхтаб туриш тормоз тизими транспорт воситаларини қуйидаги жойларда ҳаракатсиз ҳолатда ушлаб тура олмаса: тўла аслаҳаланган ҳолатда транспорт воситаларини 16 фоиздан кам бўлмаган қияликда;\nМ тоифа учун 25 фоиз, N тоифа учун 31 фоиз."
+        }
+    }
+}

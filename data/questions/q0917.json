@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  917,
+    "image":  "data/images/q0917.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Yuk avtomobili haydovchisiga qaysi yo\u0027nalishda harakatlanishga ruxsat beriladi?",
+                                    "options":  [
+                                                    "F1. Faqat o\u0027ngga",
+                                                    "F2. Barcha yo\u0027nalishlarga",
+                                                    "F3. O\u0027ngga chapga va orqaga",
+                                                    "F4. To\u0027g\u0027riga va o\u0027ngga"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 1 ilova: 3.4. «Yuk avtomobillarining harakatlanishi taqiqlangan». Toʻla vazni 3,5 tonnadan (agar vazni belgida koʻrsatilmagan bo\u0027lsa) yoki to\u0027la vazni belgida ko\u0027rsatilgandan ortiq boʻlgan yuk avtomobillari va transport vositalari tarkiblarining, shuningdek traktorlar, o\u0027ziyurar moslamalarning harakatlanishi taqiqlanishini bildiradi. 3.4 yo\u0027l belgisi bortlariga qiya oq chiziq tortilgan yoki odamlarni tashish uchun mo\u0027ljallangan yuk avtomobillarining harakatlanishini taqiqlamaydi."
+                                },
+                         "ru":  {
+                                    "text":  "В каких направлениях разрешено движение водителю грузового автомобиля?",
+                                    "options":  [
+                                                    "F1. Только направо",
+                                                    "F2. На все направления",
+                                                    "F3. Направо и налево",
+                                                    "F4. Направо и прямо"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "ПДД приложение № 1: 3.4. «Движение грузовых автомобилей запрещено». Означает запрещение движения составов грузовых автомобилей и транспортных средств, а также тракторов, самоходных установок, полная масса которых превышает 3,5 тонны (если вес не указан на знаке) или полная масса которых превышает указанную на знаке. Дорожный знак 3.4 не запрещает движение грузовых автомобилей, на бортах которых нанесена косая белая полоса или предназначенных для перевозки людей."
+                                },
+                         "uzk":  {
+                                     "text":  "Юк автомобили ҳайдовчисига қайси йўналишда ҳаракатланишга рухсат берилади?",
+                                     "options":  [
+                                                     "F1. Фақат ўнгга",
+                                                     "F2. Барча йўналишларга",
+                                                     "F3. Ўнгга чапга ва орқага",
+                                                     "F4. Тоғрига ва ўнгга"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 1 илова: 3.4. «Юк автомобилларининг ҳаракатланиши тақиқланган». Рухсат этилган тўлиқ вазни 3,5 тоннадан (агар вазни белгида кўрсатилмаган бўлса) ёки рухсат этилган тўлиқ вазни белгида кўрсатилгандан ортиқ бўлган юк автомобиллари ва транспорт воситалари таркибларининг, шунингдек тракторлар, ўзиюрар ускуналарнинг ҳаракатланиши тақиқланади. 3.4 йўл белгиси бортларига қия оқ чизиқ тортилган ёки одамларни ташиш учун мўлжалланган юк автомобилларининг ҳаракатланишини тақиқламайди."
+                                 }
+                     }
+}

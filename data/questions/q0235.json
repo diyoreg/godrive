@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  235,
+    "image":  "data/images/q0235.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Ko\u0027k, yashil, qizil avtomobillar",
+                                                    "F2. Ko\u0027k, qizil avtomobilni o\u0027tkazib yuboradi, so\u0027ng burilishni tugallaydi; yashil avtomobil",
+                                                    "F3. Qizil, ko\u0027k, yashil avtomobillar",
+                                                    "F4. Yashil, qizil, ko\u0027k avtomobillar"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng ahamiyatga ega boʻlmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yoʻldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat\u0027i nazar, yoʻl berishi kerak.\nYHQ 16-bobi 106-bandiga asosan: Asosiy yoʻlning yoʻnalishi chorrahada o\u0027zgarganda asosiy yo\u0027lda harakatlanayotgan haydovchilar oʻzaro teng ahamiyatli yo\u0027llar chorrahasidan o\u0027tish qoidasiga amal qilishlari kerak. Ikkinchi darajali yo\u0027llarda harakatlanayotgan haydovchilar ham o\u0027zaro shu qoidaga amal qilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Синий, зеленый, красный автомобили",
+                                                    "F2. Синий пропустит красный, а затем закончит поворот зеленый автомобиль",
+                                                    "F3. Красный, синий, зеленый автомобили",
+                                                    "F4. Зеленый, красный, синий автомобили"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пунктам 104, 106 главы 16 ПДД, на перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения. Если главная дорога на перекрестке меняет направление, водители, движущиеся по главной дороге, должны руководствоваться между собой правилами проезда перекрестков равнозначных дорог. Этим же правилом должны руководствоваться между собой и водители, движущиеся по второстепенным дорогам."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Кўк, яшил, қизил автомобиллар",
+                                                     "F2. Кўк, қизил автомобилни ўтказиб юборади, сўнг бурилишни тугаллайди; яшил автомобиль",
+                                                     "F3. Қизил, кўк, яшил автомобиллар",
+                                                     "F4. Яшил, қизил, кўк автомобиллар"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 16-боби 104-бандига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак. Бундай чорраҳаларда трамвай ҳаракатланиш йўналишидан қатъи назар, тенг аҳамиятга эга бўлган йўлда бир йўналишда ёки қарама-қарши йўналишда ҳаракатланаётган рельссиз транспорт воситаларига нисбатан имтиёзга эга.\nЙҲҚ 16-боби 106-бандига асосан: Асосий йўлнинг йўналиши чорраҳада ўзгарганда асосий йўлда ҳаракатланаётган ҳайдовчилар ўзаро тенг аҳамиятли йўллар чорраҳасидан ўтиш қоидасига амал қилишлари керак. Иккинчи даражали йўлларда ҳаракатланаётган ҳайдовчилар ҳам ўзаро шу қоидага амал қилишлари керак."
+                                 }
+                     }
+}

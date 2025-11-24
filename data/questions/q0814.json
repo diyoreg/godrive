@@ -1,0 +1,36 @@
+{
+    "questionId": 814,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Uzatmalar qutisi richagini neytral holatga o'tkazish lozim",
+                "F2. Birinchi uzatmani yoki orqauzatmani ulash lozim",
+                "F3. To'xtab turish tormozidan foydalanish lozim"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Yoʻlning qiyalik qismlarida to'xtaganda mexanik uzatmali avtomobillarda toʻxtab turish tormozi bilan ushlab turish maqsadga muvofiq."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Необходимо перевести рычаг коробки передач в нейтральное положение",
+                "F2. Необходимо подключить первую передачу или заднюю передачу",
+                "F3. Должен использоваться стояночный тормоз"
+            ],
+            "correctAnswer": 3,
+            "explanation": "При кратковременной остановке на подъеме, на автомобиле с механической трансмиссией следует привести в действие стояночный тормоз."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Узатмалар қутиси ричагини нейтрал ҳолатга ўтказиш лозим",
+                "F2. Биринчи узатмани ёки орқаузатмани улаш лозим",
+                "F3. Тўхтаб туриш тормозидан фойдаланиш лозим"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Йўлнинг қиялик қисмларида тўхтаганда механик узатмали автомобилларда тўхтаб туриш тормози билан ушлаб туриш мақсадга мувофиқ."
+        }
+    }
+}

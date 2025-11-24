@@ -1,0 +1,39 @@
+{
+    "questionId": 521,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Ruxsat etilgan to'liq vazn nima?",
+            "options": [
+                "F1. Transport vositasining yuk ko'tarishi",
+                "F2. Transport vositasining haqiqiy vazni",
+                "F3. Jihozlangan transport vositasining ishlab chiqargan korxona tomonidan belgilangan yuk, haydovchi va yo'lovchilari bilan birgalikdagi eng yuqori vazni (o'lchovi)",
+                "F4. Transport vositisida tashiladigan yukning ishlab chiqargan korxona yo'l qo'ygan texnik tavsifnomasi sifatida belgilanadigan vazni"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 1-bobi 6-bandiga asosan: Ruxsat etilgan to'liq vazn — jihozlangan transport vositasining ishlab chiqargan korxona tomonidan belgilangan yuk, haydovchi va yo'lovchilari bilan birgalikdagi eng yuqori vazni (o'lchovi).\nBir tarkibda harakatlanayotgan (tirkama va boshqalar) transport vositalarining ruxsat etilgan to'liq vazniga shu tarkibga kiruvchi transport vositalarining ruxsat etilgan to'liq vaznlari yig'indisi kiradi."
+        },
+        "ru": {
+            "text": "Что такое «Разрешенная максимальная масса»?",
+            "options": [
+                "F1. Грузоподъемность транспортного средства",
+                "F2. Фактическая масса транспортного средства",
+                "F3. Масса снаряженного транспортного средства с грузом, водителем и пассажирами, установленная предприятием-изготовителем в качестве максимально допустимой",
+                "F4. Масса груза, перевозимого транспортным средством, которая устанавливается в качестве допустимой технической характеристики завода-изготовителя"
+            ],
+            "correctAnswer": 3,
+            "explanation": "В разделе №2 ПДД (\"Основные понятия и термины, применяемые в правилах\") сказано: Разрешенная максимальная масса - максимальная масса (величина) снаряженного транспортного средства с грузом, водителем и пассажирами, установленная предприятием-изготовителем. За разрешенную максимальную массу транспортных средств, передвигающихся в одном составе (прицеп и др.), принимается сумма разрешенных максимальных масс транспортных средств, входящих в состав."
+        },
+        "uzk": {
+            "text": "Рухсат этилган тўлиқ вазн нима?",
+            "options": [
+                "F1. Транспорт воситасининг юк кўтариши",
+                "F2. Транспорт воситасининг ҳақиқий вазни",
+                "F3. Жиҳозланган транспорт воситасининг ишлаб чиқарган корхона томонидан белгиланган юк, ҳайдовчи ва йўловчилари билан биргаликдаги энг юқори вазни (ўлчови)",
+                "F4. Транспорт воситисида ташиладиган юкнинг ишлаб чикарган корхона йўл қўйган техник тавсифномаси сифатида белгиланадиган вазни"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 1-боби 6-бандига асосан: Рухсат этилган тўлиқ вазн — жиҳозланган транспорт воситасининг ишлаб чиқарган корхона томонидан белгиланган юк, ҳайдовчи ва йўловчилари билан биргаликдаги энг юқори вазни (ўлчови).\nБир таркибда ҳаракатланаётган (тиркама ва бошқалар) транспорт воситаларининг рухсат этилган тўлиқ вазнига шу таркибга кирувчи транспорт воситаларининг рухсат этилган тўлиқ вазнлари йиғиндиси киради."
+        }
+    }
+}

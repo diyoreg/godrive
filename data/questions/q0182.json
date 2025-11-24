@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  182,
+    "image":  "data/images/q0182.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Belgi ostidagi qo\u0027shimcha axborot belgisi nimani bildiradi?",
+                                    "options":  [
+                                                    "F1. Belgidan birinchi burilishning boshlanishigacha bo\u0027lgan masofani",
+                                                    "F2. Birinchi burilishdan ikkinchi burilishning boshlanishigacha bo\u0027lgan masofani",
+                                                    "F3. Yo\u0027lning xavfli burilishlari bo\u0027lgan qatnov uzunligini"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 7-bo\u0027limining beshinchi xatboshisiga asosan: 7.2.1. «Ta\u0027sir oralig\u0027i». Ogohlantiruvchi belgilar bilan belgilangan xavfli joyning uzunligini yoki taqiqlovchi va axborot-ko\u0027rsatkich belgilarining ta\u0027sir oraligʻini koʻrsatadi."
+                                },
+                         "ru":  {
+                                    "text":  "Что означает табличка под знаком?",
+                                    "options":  [
+                                                    "F1. Расстояние от знака до начала первого поворота",
+                                                    "F2. Расстояние от первого поворота до начала второго поворота",
+                                                    "F3. Протяженность участка дороги с опасными поворотами"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Предупреждающий знак 1.12.2 \"Опасные повороты\". Участок дороги с опасными поворотами: с первым поворотом налево. Знак дополнительной информации 7.2.1 \"Зона действия\". Указывает зону действия предупреждающих, предписывающих и информационно-указательных знаков.\nВ данном случае табличка под знаком 7.2.1 указывает зону действия знака 1.12.2, т.е. протяженность участка дороги с опасными поворотами."
+                                },
+                         "uzk":  {
+                                     "text":  "Белги остидаги қўшимча ахборот белгиси нимани билдиради?",
+                                     "options":  [
+                                                     "F1. Белгидан биринчи бурилишНИНГ бошланишигача бўлган масофани",
+                                                     "F2. Биринчи бурилишдан иккинчи бурилишнинг бошланишигача бўлган масофани",
+                                                     "F3. Йўлнинг хавфли бурилишлари бўлган қатнов узунлигини"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 7-бўлимининг бешинчи хатбошисига асосан: 7.2.1. «Таъсир оралиги». Огоҳлантирувчи белгилар билан белгиланган хавфли жойнинг узунлигини ёки тақиқловчи ва ахборот-кўрсаткич белгиларининг таъсир оралиғини кўрсатади."
+                                 }
+                     }
+}

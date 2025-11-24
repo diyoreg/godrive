@@ -1,0 +1,33 @@
+{
+    "questionId": 821,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar haydovchi keskin tormoz bermasdan harakatni to'xtata olmasa, svetoforning yashil ishorasidan keyin yongan sariq ishorasida harakatni davom ettirishga ruxsat beriladimi?",
+            "options": [
+                "F1. Taqiqlanadi",
+                "F2. Ruxsat etiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 7-bobi 42-bandi: Sariq ishora yonganda yoki tartibga soluvchining qoʻli yuqoriga ko'tarilganida, ushbu Qoidalarning 41-bandida nazarda tutilgan joylarda, keskin tormoz bermasdan to'xtashga ulgura olmaydigan transport vositalarining haydovchilariga harakatni davom ettirishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "Разрешается ли водителю продолжить движение после переключения зеленого сигнала светофора на желтый, если возможно остановиться перед перекрестком, только применив экстренное торможение?",
+            "options": [
+                "F1. Запрещается",
+                "F2. Разрешается"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 42 главы 7 ПДД, гласит: Водителям, которые при включении жёлтого сигнала или поднятии регулировщиком руки вверх не могут остановиться, не прибегая к экстренному торможению, в местах, определяемых пунктом 41 настоящих Правил, разрешается дальнейшее движение."
+        },
+        "uzk": {
+            "text": "Aгар ҳайдовчи кескин тормоз бермасдан ҳаракатни тўхтата олмаса, светофорнинг яшил ишорасидан кейин ёнган сариқ ишорасида ҳаракатни давом еттиришга рухсат бериладими?",
+            "options": [
+                "F1. Тақиқланади",
+                "F2. Рухсат этилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 7-боби 42-банди: Сариқ ишора ёнганда ёки тартибга солувчининг қўли юқорига кўтарилганида, ушбу Қоидаларнинг 41-бандида назарда тутилган жойларда, кескин тормоз бермасдан тўхташга улгура олмайдиган транспорт воситаларининг ҳайдовчиларига ҳаракатни давом эттиришга рухсат этилади."
+        }
+    }
+}

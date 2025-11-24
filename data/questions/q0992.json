@@ -1,0 +1,36 @@
+{
+    "questionId": 992,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi transport vositalari yo'nalishli transport vositalari hisoblanadi?",
+            "options": [
+                "F1. Belgilangan yo'nalishi va bekatlari bo'lgan, yo'lovchi tashish uchun mo'ljallangan umum foydalanishdagi transport vositalari (trolleybus, tramvay, avtobus, yo'nalishli taksi)",
+                "F2. Yo'lovchilarni tashuvchi istalgan transport vositalari",
+                "F3. Avtobuslar"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ umumiy qoidalar: Yo'nalishli transport vositasi — belgilangan yoʻnalishi va bekatlari boʻlgan, yo'lovchi tashish uchun mo'ljallangan umum foydalanishdagi transport vositalari (trolleybus, tramvay, avtobus, yo'nalishli taksi)."
+        },
+        "ru": {
+            "text": "Какие транспортные средства относятся к маршрутным транспортным средствам ?",
+            "options": [
+                "F1. Транспортное средство общего пользования (троллейбус, автобус, трамвай, маршрутное такси), предназначенное для перевозки пассажиров и имеющее установленный маршрут с остановочными пунктами (остановками)",
+                "F2. Любые транспортные средства, перевозящие пассажиров",
+                "F3. Автобусы"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения: Маршрутное транспортное средство — транспортное средство общего пользования (троллейбус, автобус, трамвай, маршрутное такси), предназначенное для перевозки пассажиров и имеющее установленный маршрут с остановочными пунктами (остановками)."
+        },
+        "uzk": {
+            "text": "Қайси транспорт воситалари йўналишли транспорт воситалари ҳисобланади?",
+            "options": [
+                "F1. Белгиланган йўналиши ва бекатлари бўлган, йўловчи ташиш учун мўлжалланган умум фойдаланишдаги транспорт воситалари (троллейбус, трамвай, автобус, йўналишли такси)",
+                "F2. Йўловчиларни ташувчи исталган транспорт воситалари",
+                "F3. Aвтобуслар"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ умумий қоидалар: Йўналишли транспорт воситаси — белгиланган йўналиши ва бекатлари бўлган, йўловчи ташиш учун мўлжалланган умум фойдаланишдаги транспорт воситалари (троллейбус, трамвай, автобус, йўналишли такси)."
+        }
+    }
+}

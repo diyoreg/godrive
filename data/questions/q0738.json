@@ -1,0 +1,39 @@
+{
+    "questionId": 738,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi hollarda transport vositasidan foydalanish taqiqlanadi?",
+            "options": [
+                "F1. Yonilg'i darajasini ko'rsatish qurilmasi ishlamaydi",
+                "F2. O't oldirish tizimi nosoz",
+                "F3. Dvigatel qiyinchilik bilan ishga tushadi",
+                "F4. Tovush signallari ishlamaydi"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 3 ilova: 7.2. Tovush ishorasi ishlamasa."
+        },
+        "ru": {
+            "text": "В каких случаях запрещается эксплуатация транспортных средств?",
+            "options": [
+                "F1. Не работает датчик уровня топлива",
+                "F2. Неисправна система зажигания",
+                "F3. Двигатель запускается с трудом",
+                "F4. Звуковые сигналы не работают"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ПДД приложение № 3: 7.2. Не работает звуковой сигнал."
+        },
+        "uzk": {
+            "text": "Қайси ҳолларда транспорт воситасидан фойдаланиш тақиқланади?",
+            "options": [
+                "F1. Ёнилғи даражасини кўрсатиш қурилмаси ишламайди",
+                "F2. Ўт олдириш тизими носоз",
+                "F3. Двигатель қийинчилик билан ишга тушади",
+                "F4. Товуш сигналлари ишламайди"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 3 илова: 7.2. Товуш ишораси ишламаса."
+        }
+    }
+}

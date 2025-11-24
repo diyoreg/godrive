@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  862,
+    "image":  "data/images/q0862.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu belgi nimani bidiradi?",
+                                    "options":  [
+                                                    "F1. Oldinda ko\u0027tarma ko\u0027prik borligini",
+                                                    "F2. Sun\u0027iy yo\u0027l notekisligi",
+                                                    "F3. Oldinda tik balandlik borligini"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ, 1.31. «Sun’iy yo\u0027l notekisligi» belgisi."
+                                },
+                         "ru":  {
+                                    "text":  "О чём предупреждает этот знак?",
+                                    "options":  [
+                                                    "F1. Что впереди разводной мост",
+                                                    "F2. Искусственная неровность дороги",
+                                                    "F3. Впереди крутой подъём"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД, Знак 1.31 «Искусственная неровность дороги»."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу белги нимани бидиради?",
+                                     "options":  [
+                                                     "F1. Олдинда кўтарма кўприк борлигини",
+                                                     "F2. Сунъий йўл нотекислиги",
+                                                     "F3. Олдинда тик баландлик борлигини"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ, 1.31. «Сунъий йўл нотекислиги» белгиси."
+                                 }
+                     }
+}

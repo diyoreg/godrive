@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  592,
+    "image":  "data/images/q0592.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Harakat qaysi yo\u0027nalishda ruxsat etilgan?",
+                                    "options":  [
+                                                    "F1. Faqat to\u0027g\u0027riga",
+                                                    "F2. To\u0027g\u0027ri va o\u0027ngga",
+                                                    "F3. To\u0027g\u0027riga, o\u0027ngga va chapga",
+                                                    "F4. Barcha yo\u0027nalishlarga"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 5-bo\u0027limining oltinchi xatboshisiga asosan: 5.5. «Bir tomonlama harakatli yoʻl». Transport vositalari butun kenglik bo\u0027yicha bir yo\u0027nalishda harakatlanadigan yoʻl yoki qatnov qismini bildiradi.\nIzoh: 5.5. «Bir tomonlama harakatli yoʻl» bilgisida qayrilib olish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "В каком направлении разрешено движение?",
+                                    "options":  [
+                                                    "F1. Только прямо",
+                                                    "F2. Прямо и направо",
+                                                    "F3. Прямо, направо и налево",
+                                                    "F4. Во всех направлениях"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Согласно знаку 5.5 раздела 5 приложения № 1 к ПДД, «Дорога с односторонним движением» дорога или проезжая часть, по всей ширине которой движение\nтранспортных средств осуществляется в одном направлении."
+                                },
+                         "uzk":  {
+                                     "text":  "Ҳаракат қайси йўналишда рухсат этилган?",
+                                     "options":  [
+                                                     "F1. фақат тўғрига",
+                                                     "F2. Тўғри ва ўнгга",
+                                                     "F3. Тўғрига, ўнгга ва чапга",
+                                                     "F4. Барча йўналишларга"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 5-бўлимининг олтинчи хатбошисига асосан: 5.5. «Бир томонлама ҳаракатли йўл». Транспорт воситалари бутун кенглик бўйича бир йўналишда ҳаракатланадиган йўл ёки қатнов қисмини билдиради.\nИзоҳ: 5.5. «Бир томонлама ҳаракатли йўл» билгисида кайрилиб олиш такикланади."
+                                 }
+                     }
+}

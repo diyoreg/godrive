@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  918,
+    "image":  "data/images/q0918.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Barcha qatnov qismidagi piyodalarga yo\u0027l berasiz",
+                                                    "F2. Harakat yo\u0027nalishi boyicha va burilayotgan ko\u0027chani kesib o\u0027tayotgan piyodalarga hamda boshqa transport vositalariga yo\u0027l berasiz",
+                                                    "F3. Faqat transport vositalariga yo\u0027l berasiz"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 5.42. bandi: «Qizil chiroqda o\u0027ngga harakatlanish». Transport svetofori qizil chirogʻining опд yoniga 5.42 yo\u0027l belgisi oʻrnatilgan boʻlsa, transport vositalarining haydovchilari svetoforning taqiqlovchi ishorasi yonib turganda, barcha xavfsizlik choralarini koʻrgan holda oʻngga burilishlari mumkin. Bunda ular harakat yo\u0027nalishi bo\u0027yicha va burilayotgan ko\u0027chani kesib o\u0027tayotgan piyodalarga hamda boshqa transport vositalariga yoʻl berishlari shart."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Вы уступите дорогу пешеходам на всей проезжей части",
+                                                    "F2. Вы уступаете дорогу пешеходам и другим транспортным средствам, пересекающим улицу в направлении движения и при повороте",
+                                                    "F3. Вы уступаете дорогу только транспортным средствам"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: 5.42. ПДД: «Движение направо при красном сигнале». Если с правой стороны красного сигнала транспортного светофора установлен знак 5.42, водители транспортных средств, находящиеся непосредственно перед перекрестком, при включённом запрещающем сигнале светофора могут поворачивать направо, соблюдая все меры безопасности. При этом они обязаны уступить дорогу всем транспортным средствам, а также пешеходам, переходящим проезжую часть дороги в направлении движения и дороги, на которую транспортные средства поворачивают."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Барча қатнов қисмидаги пиёдаларга йўл берасиз",
+                                                     "F2. Ҳаракат ёналиши бойича ва бурилаётган кўчани кесиб ўтаётган пиёдаларга ҳамда бошқа транспорт воситаларига йўл берасиз",
+                                                     "F3. Фақат транспорт воситаларига йўл берасиз"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 5.42. банди: «Кизил чироқда ўнгга ҳаракатланиш». Транспорт светофори қизил чироғининг ўнг ёнига 5.42 йўл белгиси ўрнатилган бўлса, транспорт воситаларининг ҳайдовчилари светофорнинг тақиқловчи ишораси ёниб турганда, барча хавфсизлик чораларини кўрган ҳолда ўнгга бурилишлари мумкин. Бунда улар ҳаракат йўналиши бўйича ва бурилаётган кўчани кесиб ўтаётган пиёдаларга ҳамда бошқа транспорт воситаларига йўл беришлари шарт."
+                                 }
+                     }
+}

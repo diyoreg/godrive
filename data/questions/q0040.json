@@ -1,0 +1,39 @@
+{
+    "questionId": 40,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Kunning qorong'i vaqtida sun'iy yoritilmagan yo'llarda yoki yetarli ko'rinmaslik sharoitida yonmaydigan orqa gabarit chiroglari bilan to'xtab turish yoki ta'mirlash joyiga borishga ruxsat etiladimi?",
+            "options": [
+                "F1. Alohida ehtiyotkorlik bilan borishga ruxsat etiladi",
+                "F2. Taqiqlanadi",
+                "F3. Вариант 3",
+                "F4. Вариант 4"
+            ],
+            "correctAnswer": 2,
+            "explanation": "IzohYHQ 2-bobi 12-bandining uchinchi xatboshisiga asosan: tormoz tizimi, rul boshqaruvi ishlamayotgan, ulagich moslamasi (avtopoyezd tarkibida) nosoz bo'lgan, sutkaning qorong'i vaqtida yoki ko'rinish cheklangan vaziyatlarda yonmaydigan fara chiroqlari va orqa gabarit fara chiroqlari, yomg'ir yoki qor yogʻayotgan vaqtda oyna tozalagich ishlamaydigan transport vositasini boshqarish taqiqlanadi."
+        },
+        "ru": {
+            "text": "Разрешается ли следовать к месту стоянки или ремонта в темное время суток на дорогах без искусственного освещения или в условиях недостаточной видимости с негорящими задними габаритными огням?",
+            "options": [
+                "F1. Разрешается с особой осторожностью",
+                "F2. Запрещается",
+                "F3. Вариант 3",
+                "F4. Вариант 4"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 12 главы 2 ПДД, гласит: Водителю запрещается: управлять транспортным средством, если на транспортном средстве не работает тормозная система, рулевое управление, стеклоочиститель со стороны водителя во время дождя или снегопада, неисправно сцепное устройство (в составе автопоезда), не горят или отсутствуют фары и задние габаритные огни в темное время суток или в условиях недостаточной видимости."
+        },
+        "uzk": {
+            "text": "Куннинг қоронғи вақтида сунъий ёритилмаган йўлларда ёки етарли кўринмаслик шароитида ёнмайдиган орқа габарит чироқлари билан тўхтаб туриш ёки таъмирлаш жойига боришга рухсат этиладими?",
+            "options": [
+                "F1. Алоҳида эҳтиёткорлик билан боришга рухсат этилади",
+                "F2. Тақиқланади",
+                "F3. Вариант 3",
+                "F4. Вариант 4"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ИзоҳЙҲҚ 2-боби 12-бандининг учинчи хатбошисига асосан: тормоз тизими, руль бошқаруви ишламаётган, улагич мосламаси (автопоезд таркибида) носоз бўлган, сутканинг қоронғи вақтида ёки кўриниш чекланган вазиятларда ёнмайдиган фара чироқлари ва орқа габарит фара чироқлари, ёмғир ёки қор ёғаётган вақтда ойна тозалагич ишламайдиган транспорт воситасини бошқариш тақиқланади."
+        }
+    }
+}

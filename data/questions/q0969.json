@@ -1,0 +1,36 @@
+{
+    "questionId": 969,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Temir yo'l kesishmalari va ularga yaqin joylarda quvib o'tishga tegishli qanday yo'l harakati qoidalari amal qiladi?",
+            "options": [
+                "F1. Quvib o'tish faqat temir yo'l kesishmalaridan keyin taqiqlanadi",
+                "F2. Temir yo'l kesishmalarida, ularga 100 metrdan kam masofa qolganda va temir yo'l kesishmalaridan keyin 100 metr davomida quvib o'tish taqiqlanadi",
+                "F3. Temir yo'l kesishmalarida va ularga 100 metrdan kam masofa qolganda quvib o'tish taqiqlanadi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 12-bobi 86-bandi: Quvib o'tish quyidagi hollarda taqiqlanadi: tartibga solingan chorrahalarda;\ntartibga solinmaydigan chorrahalarda asosiy hisoblanmaydigan yo'llarda harakatlanishda;\nko'priklarda, yoʻl o'tkazgichlarda, estakadalarda va ularning ostida;\npiyodalar o'tish joylarida;\ntemir yoʻl kesishmalarida va ulargacha 100 metrdan kam masofa qolganda;\nquvib yoki aylanib oʻtayotgan transport vositalarini;\ntepalikning oxirida va yo'lning ko'rinishi cheklangan joylarida;\n3.20 va 3.22 yo'l belgilari ta'sir oralig'ida."
+        },
+        "ru": {
+            "text": "Какие ограничения, относящиеся к обгону, действуют на железнодорожных переездах и вблизи них?",
+            "options": [
+                "F1. Обгон запрещен только на переезде",
+                "F2. Обгон запрещен на переезде и на расстоянии 100 м до и после него",
+                "F3. Обгон запрещен на переезде и ближе чем за 100 м перед ним"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 86 главы 12 ПДД, гласит: Обгон запрещен: на регулируемых перекрёстках свыездом на полосу встречного движения;\nна нерегулируемых перекрёстках при движении по дороге, не являющейся главной (за исключением обгона на перекрёстках с круговым движением, обгона двухколёсных транспортных средств без бокового прицепа и разрешённого обгона справа);\nна пешеходных переходах при наличии на них пешеходов;\nна железнодорожных переездах и ближе чем за 100 м перед ними;\nтранспортного средства, производящего обгон или объезд;\nв конце подъёма и на других участках дорог с ограниченной видимостью свыездом на полосу встречного движения;\nв зоне действия дорожных знаков 3.20 и 3.22."
+        },
+        "uzk": {
+            "text": "Темир йўл кесишмалари ва уларга яқин жойларда қувиб ўтишга тегишли қандай йўл ҳаракати қоидалари амал қилади?",
+            "options": [
+                "F1. Қувиб ўтиш фақат темир йўл кесишмаларидан кейин тақиқланади",
+                "F2. Темир йўл кесишмаларида ва уларга 100 м дан кам масофа қолганда ва темир йўл кешималаридан кейин 100 метр давомида қувиб ўтиш тақиқланади",
+                "F3. Темир йўл кесишмаларида ва уларга 100 м дан кам масофа қолганда қувиб ўтиш тақиқланади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 12-боби 86-банди: Қувиб ўтиш қуйидаги ҳолларда тақиқланади: тартибга солинган чорраҳаларда;\nтартибга солинмайдиган чорраҳаларда асосий ҳисобланмайдиган йўлларда ҳаракатланишда;\nкўприкларда, йўл ўтказгичларда, эстакадаларда ва уларнинг остида;\nпиёдалар ўтиш жойларида;\nтемир йўл кесишмаларида ва уларгача 100 метрдан кам масофа қолганда;\nқувиб ёки айланиб ўтаётган транспорт воситаларини;\nтепаликнинг охирида ва йўлнинг кўриниши чекланган жойларида;\n3.20 ва 3.22 йўл белгилари таъсир оралиғида."
+        }
+    }
+}

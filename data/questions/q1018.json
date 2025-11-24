@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  1018,
+    "image":  "data/images/q1018.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan joyda to\u0027xtashga ruxsat etiladimi ?",
+                                    "options":  [
+                                                    "F1. Taqiqlanadi",
+                                                    "F2. Ruxsat etiladi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining oltinchi xatboshisiga asosan: 1.4 — to\u0027xtash taqiqlangan joyni bildiradi. Yakka holda yoki 3.27 «To\u0027xtash taqiqlangan» yo\u0027l belgisi bilan qo\u0027llaniladi hamda yo\u0027lning qatnov qismi chetiga yoki yo\u0027l chetidagi to\u0027siq ustidan chiziladi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли остановка в указанном месте ?",
+                                    "options":  [
+                                                    "F1. Запрещается",
+                                                    "F2. Разрешается"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Горизонтальная разметка 1.4 (сплошная линия желтого цвета) - обозначает места, где запрещена остановка. Применяется самостоятельно или в сочетании со знаком 3.27 и наносится у края проезжей части или по верху бордюра."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган жойда тўхташга рухсат етиладими ?",
+                                     "options":  [
+                                                     "F1. Тақиқланади",
+                                                     "F2. Рухсат етилади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг олтинчи хатбошисига асосан: 1.4 — тўхташ тақиқланган жойни билдиради. Якка ҳолда ёки 3.27 «Тухташ тақиқланган». йўл белгиси билан қўлланилади ҳамда йўлнинг қатнов қисми четига ёки йўл четидаги тўсиқ устидан чизилади."
+                                 }
+                     }
+}

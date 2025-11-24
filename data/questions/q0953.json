@@ -1,0 +1,36 @@
+{
+    "questionId": 953,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Kamida to'rt g'ildirakka ega bo'lgan va yo'lovchilarni tashish uchun foydalaniladigan mexanik transport vositalari",
+                "F2. Tirkamalar (yarim tirkamalar ham)",
+                "F3. Yuk tashish uchun mo'ljallangan, eng katta vazni 3,5 t dan oshmaydigan avtotransport vositalari"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 3 ilova 7.22 band: M toifasi — kamida to'rt g'ildirakka ega bo'lgan va yo'lovchilarni tashish uchun foydalaniladigan mexanik transport vositalari, shu jumladan: M1 toifasi — yo'lovchilarni tashish uchun foydalaniladigan va haydovchining o'rindig'idan tashqari o'rindiqlar soni 8 tadan oshmaydigan avtotransport vositalari.\nM2 toifasi — yo'lovchilarni tashish uchun foydalaniladigan, haydovchining o'rindig'idan tashqari o'rindiqlar soni 8 tadan ortiq va eng katta vazni 5 t gacha bo'lgan avtotransport vositalari.\nM3 toifasi — yo'lovchilarni tashish uchun foydalaniladigan, haydovchining o'rindig'idan tashqari o'rindiqlar soni 8 tadan ortiq va eng katta vazni 5 t dan ko'p bo'lgan avtotransport vositalari."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Механические автотранспортные средства, имеющие не менее четырех колес и используемые для перевозки пассажиров",
+                "F2. Прицепы (включая полуприцепы)",
+                "F3. Автотранспортные средства, предназначенные для перевозки грузов, максимальная масса которых не превышает 3,5 т"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Приложение №3 к ПДД пункт 7.22: Категория М- механические автотранспортные средства, имеющие не менее четырех колес и используемые для перевозки пассажиров, в том числе: категория М1: автотранспортные средства, используемые для перевозки пассажиров, имеющие кроме места водителя не более восьми мест для сидения.\nкатегория М2: автотранспортные средства, используемые для перевозки пассажиров, имеющие кроме места водителя более восьми мест для сидения, максимальная масса которых не превышает 5 т;\nкатегория М3: автотранспортные средства, используемые для перевозки пассажиров, имеющие кроме места водителя более восьми мест для сидения, максимальная масса которых превышает 5 т."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Камида тўрт ғилдиракка эга бўлган ва йўловчиларни ташиш учун фойдаланиладиган механик транспорт воситалари",
+                "F2. Тиркамалар (ярим тиркамалар ҳам)",
+                "F3. Юк ташиш учун мўлжалланган, енг катта вазни 3,5 т дан ошмайдиган автотранспорт воситалари"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 3 илова 7.22 банд: М тоифаси — камида тўрт ғилдиракка эга бўлган ва йўловчиларни ташиш учун фойдаланиладиган механик транспорт воситалари, шу жумладан: М1 тоифаси — йўловчиларни ташиш учун фойдаланиладиган ва ҳайдовчининг ўриндиғидан ташқари ўриндиқлар сони 8 тадан ошмайдиган автотранспорт воситалари.\nМ2 тоифаси — йўловчиларни ташиш учун фойдаланиладиган, ҳайдовчининг ўриндиғидан ташқари ўриндиқлар сони 8 тадан ортиқ ва энг катта вазни 5 т гача бўлган автотранспорт воситалари.\nМ3 тоифаси — йўловчиларни ташиш учун фойдаланиладиган, ҳайдовчининг ўриндиғидан ташқари ўриндиқлар сони 8 тадан ортиқ ва энг катта вазни 5 т дан кўп бўлган автотранспорт воситалари."
+        }
+    }
+}

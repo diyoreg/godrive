@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  368,
+    "image":  "data/images/q0368.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi transport vositasining haydovchisi yo\u0027l berishi kerak?",
+                                    "options":  [
+                                                    "F1. Tramvay haydovchisi",
+                                                    "F2. Yuk avtomobilining haydovchisi",
+                                                    "F3. Har ikki avtomobil haydovchisi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 16-bobi 104-bandiga muvofiq, teng ahamiyatga ega bo\u0027lgan yo\u0027llar kesishgan chorrahada relssiz transport vositasining haydovchisi o\u0027ngdan yaqinlashib kelayotgan transport vositalariga yo\u0027l berishi shart. Bu qoidaga tramvay haydovchilari ham o\u0027zaro amal qilishlari kerak. Bunday chorrahalarda, keyingi harakat yo\u0027nalishidan qat\u0027i nazar, tramvay relssiz transport vositalariga nisbatan oldin o\u0027tish huquqiga ega bo\u0027ladi."
+                                },
+                         "ru":  {
+                                    "text":  "Водитель какого транспортного средства должен уступить дорогу?",
+                                    "options":  [
+                                                    "F1. Водитель трамвая",
+                                                    "F2. Водитель грузового автомобиля",
+                                                    "F3. Водители обоих автомобилей"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 104 главы 16 ПДД, гласит: На перекрестке равнозначных дорог водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, приближающимся справа. Этим же правилом должны руководствоваться между собой водители трамваев. На таких перекрестках трамвай имеет право на первоочередное движение перед безрельсовыми транспортными средствами независимо от направления его движения."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси транспорт воситасининг ҳайдовчиси йўл бериши керак?",
+                                     "options":  [
+                                                     "F1. Трамвай ҳайдовчиси",
+                                                     "F2. Юк автомобилининг ҳайдовчиси",
+                                                     "F3. Ҳар икки автомобиль ҳайдовчиси"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 16-боби 104-бандига мувофиқ, тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада рельссиз транспорт воситасининг ҳайдовчиси ўнгдан яқинлашиб келаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак. Бундай чорраҳаларда, кейинги ҳаракат йўналишидан қатъи назар, трамвай рельссиз транспорт воситаларига нисбатан олдин ўтиш ҳуқуқига эга бўлади."
+                                 }
+                     }
+}

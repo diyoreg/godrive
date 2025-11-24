@@ -1,0 +1,36 @@
+{
+    "questionId": 668,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qatnov qismiga bevosita tutashgan trotuar chetida unga to'la yoki qisman chiqish bilan to'xtab turishga ruxsat etiladimi?",
+            "options": [
+                "F1. Faqat yengil avtomobillar, mototsikllar, elektromototsikllar, mopedlar, skuterlar, velosipedlar va individual harakatlanish vositalariga to'xtab turishga tegishli yo'l belgilari o'rnatilgan joylarda ruxsat etiladi",
+                "F2. Ruxsat etilgan to'la vazni 3,5 tonnadan ziyod bo'lgan faqat yuk avtomobillariga taqiqlanadi",
+                "F3. Barcha transport vositalariga taqiqlanadi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 13-bobi 89-bandiga asosan: Qatnov qismiga chegaradosh trotuar chetida faqat yengil avtomobillar, mototsikllar, elektromototsikllar, mopedlar, skuterlar, velosipedlar va individual harakatlanish vositalariga to'xtab turishga 5.15 yo'l belgisi bilan birga 7.6.2, 7.6.3, 7.6.6 — 7.6.9 qo'shimcha axborot belgilaridan biri o'rnatilgan joylarda ruxsat etiladi."
+        },
+        "ru": {
+            "text": "Разрешается ли стоянка на краю тротуара, прилегающего непосредственно к проезжей части с полным или частичным заездом на него?",
+            "options": [
+                "F1. Разрешается только в местах, где установлены дорожные знаки, относящиеся к легковым автомобилям, мотоциклам, электромотоциклам, мопедам, скутерам, велосипедам и индивидуальным средствам передвижения",
+                "F2. Запрещается только грузовым автомобилям с разрешенной максимальной массой более 3,5 т",
+                "F3. Запрещается всем транспортным средствам"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 89 главы 13 ПДД, гласит: Стоянка на краю тротуара, граничащего с проезжей частью, разрешается только легковым автомобилям, мотоциклам, электромотоциклам, мопедам, скутеры, велосипедам и индивидуальные транспортных средствам в местах, обозначенных дорожным знаком 5.15, установленным вместе с одним из дорожных знаков 7.6.2, 7.6.3, 7.6.6—7.6.9."
+        },
+        "uzk": {
+            "text": "Қатнов қисмига бевосита туташган тротуар четида унга тўла ёки қисман чиқиш билан тўхтаб туришга рухсат этиладими?",
+            "options": [
+                "F1. Фақат енгил автомобиллар, мотоцикллар, электромотоцикллар, мопедлар, скутерлар, велосипедлар ва индивидуал ҳаракатланиш воситаларига тўхтаб туришга тегишли йўл белгилари ўрнатилган жойларда рухсат этилади",
+                "F2. Рухсат этилган тўла вазни 3,5 тоннадан зиёд бўлган фақат юк автомобилларига тақиқланади",
+                "F3. Барча транспорт воситаларига тақиқланади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 13-боби 89-бандига асосан: Қатнов қисмига чегарадош тротуар четида фақат енгил автомобиллар, мотоцикллар, электромотоцикллар, мопедлар, скутерлар, велосипедлар ва индивидуал ҳаракатланиш воситаларига тўхтаб туришга 5.15 йўл белгиси билан бирга 7.6.2, 7.6.3, 7.6.6 — 7.6.9 қўшимча ахборот белгиларидан бири ўрнатилган жойларда рухсат этилади."
+        }
+    }
+}

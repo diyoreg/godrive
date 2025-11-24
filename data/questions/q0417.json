@@ -1,0 +1,36 @@
+{
+    "questionId": 417,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Avtomobil haydovchisi uni boshqa transport vositalari quvib o'tayotganda qanday harakat qilishi kerak?",
+            "options": [
+                "F1. Harakat bo'lagini o'zgartirmay, o'ng burilish ishorasini berishi",
+                "F2. Harakat tezligini oshirish yoki boshqa hatti harakatlar bilan quvib o'tishga to'sqinlik qilmasligi",
+                "F3. Harakat tezligini kamaytirishi, tovush ishora berishi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 12-bobi 84-bandiga asosan: Quvib o'tilayotgan transport vositasining haydovchisiga harakat tezligini oshirish yoki boshqa xatti-harakatlar bilan quvib oʻtishga to'sqinlik qilish taqiqlanadi."
+        },
+        "ru": {
+            "text": "Как должен действовать водитель автомобиля при обгоне его другим транспортным средством?",
+            "options": [
+                "F1. Не изменяя полосы движения, подать сигнал указателем правого поворота",
+                "F2. Не препятствовать обгону повышением скорости движения или иными действиями",
+                "F3. Снизить скорость движения, подать звуковой сигнал"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 84 главы 12 ПДД гласит: Водителю обгоняемого транспортного средства запрещается препятствовать обгону повышением скорости движения ИЛИ ИНЫМИ действиями."
+        },
+        "uzk": {
+            "text": "Автомобиль ҳайдовчиси уни бошқа транспорт воситалари қувиб ўтаётганда қандай ҳаракат қилиши керак?",
+            "options": [
+                "F1. Ҳаракат бўлагини ўзгартирмай, ўнг бурилиш ишорасини бериши",
+                "F2. Ҳаракат тезлигини ошириш ёки бошқа ҳатти ҳаракатлар билан қувиб ўтишга тўсқинлик килмаслиги",
+                "F3. Ҳаракат тезлигини камайтириши, товуш ишора бериши"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 12-боби 84-бандига асосан: Қувиб ўтилаётган транспорт воситасининг ҳайдовчисига ҳаракат тезлигини ошириш ёки бошқа хатти-ҳаракатлар билан қувиб ўтишга тўсқинлик қилиш тақиқланади."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  985,
+    "image":  "data/images/q0985.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan belgilardan qaysi biri texnik tavsifnomasiga yoki holatiga ko\u0027ra tezligi soatiga 40 kilometrdan kam bo\u0027lgan transport vositalarining harakatlanishini taqiqlaydi?",
+                                    "options":  [
+                                                    "F1. Faqat «B»",
+                                                    "F2. «A» va «Б»",
+                                                    "F3. Faqat «A»"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 19-bobi 121-bandi: Avtomagistrallarda piyodalar, uy hayvonlari, ot-aravalar, velosipedlar, individual harakatlanish vositalari, skuterlar, mopedlar, traktorlar va o\u0027zi yurar avtomobillar, texnik tavsifnomasiga yoki holatiga ko\u0027ra tezligi soatiga 40 kilometrdan kam bo\u0027lgan transport vositalarining harakatlanishi taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Какие из указанных знаков запрещают движение транспортных средств, скорость которых по технической характеристике или их состоянию менее 40 км/ч?",
+                                    "options":  [
+                                                    "F1. Только «B»",
+                                                    "F2. «A» и «Б»",
+                                                    "F3. Только «A»"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 121 главы 19 ПДД, гласит: На автомагистралях запрещается движение пешеходов, домашних животных, гужевых повозок, велосипедов, индивидуальные транспортные средства, скутеры, мопедов, тракторов и самоходных машин, транспортных средств, скорость которых по технической характеристике или их состоянию менее 40 км/ч."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган белгилардан қайси бири техник тавсифномасига ёки ҳолатига кўра тезлиги соатига 40 километрдан кам бўлган транспорт воситаларининг ҳаракатланишини тақиқлайди?",
+                                     "options":  [
+                                                     "F1. Фақат «B»",
+                                                     "F2. «A» ва «Б»",
+                                                     "F3. Фақат «A»"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 19-боби 121-банди: Автомагистралларда пиёдалар, уй ҳайвонлари, от-аравалар, велосипедлар, индивидуал ҳаракатланиш воситалари, скутерлар, мопедлар, тракторлар ва ўзи юрар автомобиллар, техник тавсифномасига ёки ҳолатига кўра тезлиги соатига 40 километрдан кам бўлган транспорт воситаларининг ҳаракатланиши тақиқланади."
+                                 }
+                     }
+}

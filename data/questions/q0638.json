@@ -1,0 +1,36 @@
+{
+    "questionId": 638,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Avtomagistrallarda transport vositalarining atayin to'xtashi qaysi joylarda ruxsat etilgan?",
+            "options": [
+                "F1. Yo'lning qatnov qismining chetki o'ng bo'lagida",
+                "F2. Yo'lning 100 metrdan ko'proq qismi ko'rinadigan va harakat bo'lagi soni to'rttadan ortiq bo'lgan joylarda",
+                "F3. To'xtab turish uchun «To'xtab turish joyi» yoki «Dam olish joyi» belgilari bilan belgilangan maxsus maydonchalarda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 19-bobi 121-bandining uchinchi xatboshisiga asosan, avtomagistrallarda quyidagilar taqiqlanadi: 5.15 yoki 6.11 yo'l belgilari bilan belgilangan maxsus toʻxtab turish maydonchalaridan boshqa joylarda to'xtash."
+        },
+        "ru": {
+            "text": "В каких местах разрешена преднамеренная остановка транспортных средств на автомагистралях?",
+            "options": [
+                "F1. На крайней правой полосе проезжей части дороги",
+                "F2. В местах, где видимость более 300 м и число полос движения более четырех",
+                "F3. На специальных площадках для стоянки, обозначенных знаками «Место стоянки» или «Место отдыха»"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 3 пункта 121 главы 19 ПДД, гласит: На автомагистралях запрещается: - остановка вне специальных площадок для стоянки, обозначенных знаками 5.15 или 6.11."
+        },
+        "uzk": {
+            "text": "Автомагистралларда транспорт воситаларининг атайин тўхташи қайси жойларда рухсат этилган?",
+            "options": [
+                "F1. Йўлнинг қатнов қисмининг четки ўнг бўлагида",
+                "F2. Йўлнинг 100 метрдан кўпроқ қисми кўринадиган ва ҳаракат бўлаги сони тўрттадан ортиқ бўлган жойларда",
+                "F3. Тўхтаб туриш учун «Тўхтаб туриш жойи» ёки «Дам олиш жойи» белгилари билан белгиланган махсус майдончаларда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 19-боби 121-бандининг учинчи хатбошисига асосан, автомагистралларда қуйидагилар тақиқланади: 5.15 ёки 6.11 йўл белгилари билан белгиланган махсус тўхтаб туриш майдончаларидан бошқа жойларда тўхташ."
+        }
+    }
+}

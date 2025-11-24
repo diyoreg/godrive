@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  362,
+    "image":  "data/images/q0362.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu belgi o\u0027rnatilgan yo\u0027lda kajavali mototsiklni shatakka olishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Tirkamasi bittadan ortiq bo\u0027lmagan mototsiklga ruxsat etiladi",
+                                                    "F2. Faqat qattiq ulagichda ruxsat etiladi",
+                                                    "F3. Taqiqlanadi",
+                                                    "F4. Sirpanchiqda taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining to\u0027qqizinchi xatboshisiga asosan: 3.7. «Tirkama bilan harakatlanish taqiqlanadi». Yuk tashuvchi transport vositalari, traktorlarning barcha turdagi tirkamalar bilan harakatlanishi, shuningdek mexanik transport vositalarini har qanday usulda shatakka olish taqiqlanishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли буксировка мотоцикла с боковым прицепом по дороге, на которой установлен этот знак?",
+                                    "options":  [
+                                                    "F1. Разрешается не более одной единицы",
+                                                    "F2. Разрешается только на жесткой сцепке",
+                                                    "F3. Запрещается",
+                                                    "F4. Запрещается при гололеде"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Запрещающий знак 3.7 \"Движение с прицепом запрещено\". Запрещается движение грузовых автомобилей и тракторов с прицепами любого типа, а также всякая буксировка механических транспортных средств. Соответственно, буксировка мотоцикла с боковым прицепом по дороге, на которой установлен этот знак, запрещена."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу белги ўрнатилган йўлда кажавали мотоциклни шатакка олишга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Тиркамаси биттадан ортиқ бўлмаган мотоциклга рухсат этилади",
+                                                     "F2. Фақат қаттиқ улагичда рухсат этилади",
+                                                     "F3. Тақиқланади",
+                                                     "F4. Сирпанчикда тақиқланади"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг тўққизинчи хатбошисига асосан: 3.7. (Тиркама билан ҳаракатланиш такикланади». Юк ташувчи транспорт воситалари, тракторларнинг барча турдаги тиркамалар билан ҳаракатланиши, шунингдек механик транспорт воситаларини ҳар қандай усулда шатакка олиш тақиқланишини билдиради."
+                                 }
+                     }
+}

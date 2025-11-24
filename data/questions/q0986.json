@@ -1,0 +1,36 @@
+{
+    "questionId": 986,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi holatlarda aholi punktlarida tovushli ishoralardan foydalanish mumkin?",
+            "options": [
+                "F1. Faqat zarur bo'lgan hollarda yo'l-transport hodisasining oldini olish uchun",
+                "F2. Faqat boshqa haydovchilarni quvib o'tish haqida ogohlantirish uchun",
+                "F3. Barcha javoblarda ko'rsatilgan holatlarda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 8-bobi 48-bandi: Tovushli ishoralar faqat quyidagi hollarda qo'llanilishi mumkin: aholi punktlaridan tashqarida boshqa haydovchilarni quvib o'tish haqida ogohlantirish uchun;\nzarur boʻlgan hollarda yo'l-transport hodisasining oldini olish uchun.\nYuqorida ko'rsatilgan hollardan tashqari tovushli ishoralardan foydalanish taqiqlanadi."
+        },
+        "ru": {
+            "text": "В каких случаях разрешено применять звуковые сигналы в населенных пунктах?",
+            "options": [
+                "F1. Только для предотвращения дорожно-транспортного происшествия",
+                "F2. Только для предупреждения о намерении произвести обгон",
+                "F3. В обоих перечисленных случаях"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 48 главы 8 ПДД, гласит: Звуковые сигналы могут применяться в следующих случаях: вне населенных пунктов при обгоне, для предупреждения других водителей;\nв необходимых случаях — для предотвращения дорожно-транспортного происшествия.\nИспользование звуковых сигналов запрещено, за исключением случаев, указанных выше."
+        },
+        "uzk": {
+            "text": "Қайси ҳолатларда аҳоли пунктларида товушли ишоралардан фойдаланиш мумкин?",
+            "options": [
+                "F1. Фақат зарур бўлган ҳолларда йўл-транспорт ҳодисасининг олдини олиш учун",
+                "F2. Фақат бошқа ҳайдовчиларни қувиб ўтиш ҳақида огоҳлантириш учун",
+                "F3. Барча жавобларда кўрсатилган ҳолатларда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 8-боби 48-банди: Товушли ишоралар фақат қуйидаги ҳолларда қўлланилиши мумкин: аҳоли пунктларидан ташқарида бошқа ҳайдовчиларни қувиб ўтиш ҳақида огоҳлантириш учун;\nзарур бўлган ҳолларда йўл-транспорт ҳодисасининг олдини олиш учун.\nЮқорида кўрсатилган ҳоллардан ташқари товушли ишоралардан фойдаланиш тақиқланади."
+        }
+    }
+}

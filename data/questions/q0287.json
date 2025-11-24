@@ -1,0 +1,39 @@
+{
+    "questionId": 287,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar Siz oldinda harakatlanayotgan avtomobilni quvib o'tishga chiqsangiz, ko'rsatilgan hollarning qaysi birida tovush ishorasi berish maqsadga muvofiq?",
+            "options": [
+                "F1. Quvib o'tish qorong'i vaqtda bajarilganda",
+                "F2. Quvib o'tilayotgan avtomobil haydovchisi tormoz berishni boshlaganda",
+                "F3. Quvib o'tilayotgan avtomobil haydovchisi chapga burilish ko'rsatkichini yoqqanda",
+                "F4. Quvib o'tilayotgan avtomobil haydovchisi o'ngga burilish ko'rsatkichini yoqqanda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 8-bobi 48-bandiga asosan, tovushli ishoralar faqat quyidagi hollarda qo'llanilishi mumkin: aholi punktlaridan tashqarida boshqa haydovchilarni quvib oʻtish haqida ogohlantirish uchun;\nzarur boʻlgan hollarda yoʻl-transport hodisasining oldini olish uchun."
+        },
+        "ru": {
+            "text": "Если Вы выехали для обгона движущегося впереди автомобиля, то в какой из перечисленных ситуаций наиболее целесообразно подать звуковой сигнал?",
+            "options": [
+                "F1. Обгон совершается в ночное время",
+                "F2. Водитель обгоняемого автомобиля начал притормаживать",
+                "F3. Водитель обгоняемого автомобиля включил указатель левого поворота",
+                "F4. Водитель обгоняемого автомобиля включил указатель правого поворота"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункт 48 главы 8 ПДД гласит: Звуковые сигналы могут применяться в следующих случаях: - вне населенных пунктов при обгоне, для предупреждения других водителей."
+        },
+        "uzk": {
+            "text": "Агар Сиз олдинда ҳаракатланаётган автомобилни қувиб ўтишга чиқсангиз, кўрсатилган ҳолларнинг қайси бирида товуш ишораси бериш мақсадга мувофиқ?",
+            "options": [
+                "F1. Қувиб ўтиш коронги вактда бажарилганда",
+                "F2. Қувиб ўтилаётган автомобиль ҳайдовчиси Тормоз беришни бошлаганда",
+                "F3. Қувиб ўтилаётган автомобиль ҳайдовчиси чапга бурилиш кўрсаткичини ёкканда",
+                "F4. Қувиб ўтилаётган автомобиль ҳайдовчиси ўнгга бурилиш кўрсаткичини ёкканда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 8-боби 48-бандига асосан, товушли ишоралар фақат қуйидаги ҳолларда қўлланилиши мумкин: аҳоли пунктларидан ташқарида бошқа ҳайдовчиларни қувиб ўтиш ҳақида огоҳлантириш учун;\nзарур бўлган ҳолларда йўл-транспорт ҳодисасининг олдини олиш учун."
+        }
+    }
+}

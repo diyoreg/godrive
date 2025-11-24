@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1100,
+    "image":  "data/images/q1100.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi piyodalar o\u0027tish joyini bildiradi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 5.16.1, 5.16.2. “Piyodalar o\u0027tish joyi”. o\u0027tish joyi oldida 1.14.1-1.14.2 yotiq chizig\u0027i bo\u0027lmaganda 5.16.2 belgisi yo\u0027ldan o\u0027ng tomonga o\u0027tish joyining old chegarasiga, 5.16.1 belgisi esa chap tomonga o\u0027tish joyining orqa chegarasiga o\u0027rnatiladi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак обозначает пешеходный переход?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: 5.16.2, 5.16.2. Пешеходный переход. При отсутствии на переходе разметки 1.14.1 — 1.14.3 знак 5.16.2 устанавливается справа от дороги на ближней границе перехода, а знак 5.16.1 — слева от дороги на дальней границе перехода."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги пиёдалар ўтиш жойини билдиради?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 5.16.1, 5.16.2. “Пиёдалар ўтиш жойи”. Ўтиш жойи олдида 1.14.1-1.14.2 ётиқ чизиғи бўлмаганда 5.16.2 белгиси йўлдан ўнг томонга ўтиш жойининг олд чегарасига, 5.16.1 белгиси эса чап томонга ўтиш жойининг орқа чегарасига ўрнатилади."
+                                 }
+                     }
+}

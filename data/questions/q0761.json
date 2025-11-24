@@ -1,0 +1,36 @@
+{
+    "questionId": 761,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "«Quvib o'tish» atamasi nimani bildiradi?",
+            "options": [
+                "F1. Egallagan harakatlanish bo'lagidan chiqib, oldinda harakatlanayotgan transport vositasidan o'zib ketish",
+                "F2. Bir va bir necha transport vositalaridan o'zib ketish",
+                "F3. Bir yoki bir nechta transport vositalarini qarama-qarshi yo'nalishda harakatlanish uchun mo'ljallangan tasmaga chiqib, so'ngra ilgari egallagan qatoriga qaytib o'tish bilan bog'liq bo'lgan o'zib ketish"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 1-ilova 1-bob. Umumiy qoidalar: Quvib oʻtish — bir yoki bir nechta transport vositalarini qarama-qarshi yoʻnalishda harakatlanish uchun mo'ljallangan tasmaga chiqib, soʻngra ilgari egallagan qatoriga qaytib o'tish bilan bogʻliq bo'lgan o'zib ketish."
+        },
+        "ru": {
+            "text": "Что означает термин «обгон»?",
+            "options": [
+                "F1. Обгон, связанный с выездом одного или нескольких транспортных средств на полосу, предназначенную для движения в противоположных направлениях, а затем обратно на полосу, которую они ранее занимали",
+                "F2. Опережение движущегося впереди транспортного средства, связанное с выездом из занимаемой полосы",
+                "F3. Опережение одного или нескольких транспортных средств, связанное с выездом на полосу (сторону проезжей части), предназначенную для встречного движения, и последующим возвращением на ранее занимаемую полосу (сторону проезжей части)"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Приложение №1 ПДД Общие правила: Обгон — Обгон с участием одного или нескольких транспортных средств, выезжающих на полосу, предназначенную для движения во встречном направлении, и затем возвращающихся на ранее занимаемую ими полосу."
+        },
+        "uzk": {
+            "text": "«Қувиб ўтиш» атамаси нимани билдиради?",
+            "options": [
+                "F1. Эгаллаган ҳаракатланиш бўлагидан чиқиб, олдинда ҳаракатланаётган транспорт воситасидан ўзиб кетиш",
+                "F2. Бир ва бир неча транспорт воситаларидан ўзиб кетиш",
+                "F3. Бир ёки бир нечта транспорт воситаларини қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган тасмага чиқиб, сўнгра илгари эгаллаган қаторига қайтиб ўтиш билан боғлиқ бўлган ўзиб кетиш"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 1-илова 1-боб. Умумий қоидалар: Қувиб ўтиш — бир ёки бир нечта транспорт воситаларини қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган тасмага чиқиб, сўнгра илгари эгаллаган қаторига қайтиб ўтиш билан боғлиқ бўлган ўзиб кетиш."
+        }
+    }
+}

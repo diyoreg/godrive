@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1110,
+    "image":  "data/images/q1110.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu transport vosita qaysi toifaga kiradi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 3 ilova: 7.22. M1 toifasi — yo\u0027lovchilarni tashish uchun foydalaniladigan va haydovchining o\u0027rindig\u0027idan tashqari o\u0027rindiqlar soni 8 tadan oshmaydigan avtotransport vositalari."
+                                },
+                         "ru":  {
+                                    "text":  "Данное транспортное средство к какой категории относится?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 3: 7.22. Категория M1 - Транспортные средства, используемые для перевозки пассажиров и имеющие, помимо места водителя, не более восьми мест для сидения."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу транспорт восита қайси тоифага киради?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 3 илова: 7.22. М1 тоифаси — йўловчиларни ташиш учун фойдаланиладиган ва ҳайдовчининг ўриндиғидан ташқари ўриндиқлар сони 8 тадан ошмайдиган автотранспорт воситалари."
+                                 }
+                     }
+}

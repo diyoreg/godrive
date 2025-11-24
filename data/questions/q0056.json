@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  56,
+    "image":  "data/images/q0056.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi transport vositalariga harakatlanishga ruxsat etiladi?",
+                                    "options":  [
+                                                    "F1. Faqat qizil avtomobilga",
+                                                    "F2. Barcha transport vositalariga",
+                                                    "F3. Qizil, ko\u0027k va yashil avtomobillarga"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 7-bobi 38-bandi: Tartibga soluvchining ishoralari quyidagi ma’noni bildiradi:\nQo\u0027llari yon tomonga uzatilganda yoki tushirilganda:\nchap va o\u0027ng yon tomonidan tramvayga to\u0027g\u0027riga, relssiz transport vositalariga to\u0027g\u0027riga va o\u0027ngga harakatlanishga, piyodalarga qatnov qismini kesib o\u0027tishga ruxsat beriladi;\nold va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi.\no\u0027ng qo\u0027li oldinga uzatilganda:\nchap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo\u0027nalishlarda;\noldi tomonidan barcha transport vositalariga faqat o\u0027ngga harakatlanishga ruxsat beriladi;\norqa tomonidan va o\u0027ng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi;\npiyodalarga tartibga soluvchining orqa tomonida qatnov qismini kesib o\u0027tishga ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "Каким транспортным средствам разрешается повернуть направо?",
+                                    "options":  [
+                                                    "F1. Только красному автомобилю",
+                                                    "F2. Всем транспортным средствам",
+                                                    "F3. Красному и зеленому автомобилям"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 38 главы 7 ПДД, гласит: Сигналы регулировщика имеют следующие значения: правая рука вытянута вперед: со стороны левого бока — разрешено движение трамваю налево, безрельсовым транспортным средствам — во всех направлениях;\nсо стороны груди — всем транспортным средствам разрешено движение только направо; со стороны правого бока и спины — движение всех транспортных средств запрещено;\nпешеходам разрешено переходить проезжую часть за спиной регулировщика;\nВ данном случае со стороны груди и левого бока регулировщика находятся красный и зеленый автомобили, именно им и разрешено повернуть направо."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси транспорт воситаларига ҳаракатланишга рухсат этилади?",
+                                     "options":  [
+                                                     "F1. Фақат қизил автомобилга",
+                                                     "F2. Барча транспорт воситаларига",
+                                                     "F3. Қизил, кўк ва яшил автомобилларга"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 7-боби 38-банди: Тартибга солувчининг ишоралари қуйидаги маънони билдиради:\nҚўллари ён томонга узатилганда ёки туширилганда:\nчап ва ўнг ён томонидан трамвайга тўғрига, рельссиз транспорт воситаларига тўғрига ва ўнгга ҳаракатланишга, пиёдаларга қатнов қисмини кесиб ўтишга рухсат берилади;\nолд ва орқа томонидан барча транспорт воситалари ва пиёдаларнинг ҳаракатланиши тақиқланади.\nЎнг қўли олдинга узатилганда:\nчап ёнидан трамвайга чапга, рельссиз транспорт воситаларига барча йўналишларда;\nолди томонидан барча транспорт воситаларига фақат ўнгга ҳаракатланишга рухсат берилади;\nорқа томонидан ва ўнг ёнидан барча транспорт воситаларининг ҳаракатланиши тақиқланади;\nпиёдаларга тартибга солувчининг орқа томонида қатнов қисмини кесиб ўтишга рухсат этилади."
+                                 }
+                     }
+}

@@ -1,0 +1,39 @@
+{
+    "questionId": 254,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Xizmat vazifasini bajarayotganda shlagbaumni o'zboshimchalik bilan ochishga yoki uni aylanib o'tishga ruxsat etiladimi?",
+            "options": [
+                "F1. Taqiqlanadi",
+                "F2. Ruxsat etiladi",
+                "F3. Agar yaqinlashib kelayotgan poyezd yo'q bo'lsa, haydovchining ixtiyoriga qarab ruxsat etiladi",
+                "F4. Temir yo'l kesishmasi navbatchisi bo'lmagan holdagina ruxsat etiladi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 18-bobi 118-bandining yettinchi va sakkizinchi xatboshlariga asosan, temir yoʻl kesishmasiga quyidagi hollarda kirish taqiqlanadi: kesishma oldida turgan transport vositalarini qarama-qarshi harakatlanish bo'lagiga chiqib aylanib oʻtish; shlagbaumni o'zboshimchalik bilan ochish."
+        },
+        "ru": {
+            "text": "Разрешается ли самовольно открывать шлагбаум или объезжать его при выполнении служебного задания?",
+            "options": [
+                "F1. Запрещается",
+                "F2. Разрешается",
+                "F3. Разрешается по усмотрению водителя, если вблизи нет приближающегося поезда",
+                "F4. Разрешается при отсутствии дежурного по переезду"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 118 главы 18 ПДД гласит: Кроме того, запрещается: - объезжать с выездом на полосу встречного движения стоящие перед переездом транспортные средства;\n- самовольно открывать шлагбаум;\n- провозить через переезд сельскохозяйственные, дорожно-строительные и другие машины и механизмы на гусеничном ходу (разрешается перевозить, погрузив их на механическое транспортное средство);\n- без разрешения начальника дистанции пути железной дороги движение транспортных средств, скорость которых менее 8 км/ч. Запрещается открывать или объезжать шлагбаум в любых обстоятельствах; исключений для выполняющих служебное задание нет."
+        },
+        "uzk": {
+            "text": "Хизмат вазифасини бажараëтганда шлагбаумни ўзбошимчалик билан очишга ёки уни айланиб ўтишга рухсат этиладими?",
+            "options": [
+                "F1. Тақиқланади",
+                "F2. Рухсат этилади",
+                "F3. Агар яқинлашиб келаётган поезд йўқ бўлса, ҳайдовчининг ихтиёрига қараб рухсат этилади",
+                "F4. Темир йўл кесишмаси навбатчиси бўлмаган ҳолдагина рухсат этилади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 18-боби 118-бандининг еттинчи ва саккизинчи хатбошларига асосан, темир йўл кесишмасига қуйидаги ҳолларда кириш тақиқланади: кесишма олдида турган транспорт воситаларини қарама-қарши ҳаракатланиш бўлагига чиқиб айланиб ўтиш;\nшлагбаумни ўзбошимчалик билан очиш."
+        }
+    }
+}

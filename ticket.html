@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoDrive - Билет</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/language-dropdown.css?v=1.1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(-45deg, #1e293b, #0f172a, #1a2332, #0d1520);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .ticket-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .ticket-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 20px 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+        }
+
+        .ticket-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: white;
+        }
+
+        .ticket-actions {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .back-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+            z-index: 10;
+        }
+
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        .question-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .question-number {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 500;
+            margin-bottom: -8px;
+        }
+
+        .question-text {
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            line-height: 1.4;
+            margin-bottom: 6px;
+        }
+
+        .question-main-content {
+            display: flex;
+            gap: 24px;
+            align-items: flex-start;
+        }
+
+        .question-image-container {
+            flex-shrink: 0;
+            width: 38%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .question-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: contain;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .question-options-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .option-item {
+            padding: 13px 18px;
+            background: rgba(45, 55, 72, 0.6);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .option-item::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            flex-shrink: 0;
+            transition: all 0.2s;
+        }
+
+        .option-item:hover {
+            background: rgba(55, 65, 82, 0.7);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .option-item.selected::before {
+            background: #60a5fa;
+            border-color: #60a5fa;
+        }
+
+        .option-item.selected {
+            background: rgba(96, 165, 250, 0.15);
+            border-color: rgba(96, 165, 250, 0.4);
+        }
+
+        .option-item.correct::before {
+            content: '✓';
+            background: #22c55e;
+            border-color: #22c55e;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .option-item.correct {
+            background: rgba(34, 197, 94, 0.15);
+            border-color: rgba(34, 197, 94, 0.5);
+            color: #86efac;
+        }
+
+        .option-item.incorrect {
+            background: rgba(239, 68, 68, 0.15);
+            border-color: rgba(239, 68, 68, 0.5);
+            color: #fca5a5;
+        }
+
+        .option-item.disabled {
+            cursor: not-allowed;
+        }
+
+        .explanation-container {
+            background: rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            border-left: 4px solid #f59e0b;
+            padding: 12px 16px;
+            border-radius: 10px;
+            margin-top: 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .explanation-icon {
+            font-size: 18px;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .explanation-content {
+            flex: 1;
+        }
+
+        .explanation-title {
+            font-weight: 600;
+            color: #fbbf24;
+            margin-bottom: 6px;
+            font-size: 14px;
+        }
+
+        .explanation-text {
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.5;
+            white-space: pre-wrap;
+            font-size: 13px;
+            position: relative;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.3s ease;
+        }
+
+        .explanation-text.spoiler {
+            color: transparent;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+            filter: blur(4px);
+        }
+
+        .explanation-text.spoiler:hover {
+            filter: blur(3px);
+        }
+
+        .explanation-text.revealed {
+            animation: revealText 0.4s ease;
+        }
+
+        @keyframes revealText {
+            0% {
+                filter: blur(4px);
+                opacity: 0.5;
+            }
+            100% {
+                filter: blur(0);
+                opacity: 1;
+            }
+        }
+
+        /* Image Modal */
+        .image-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(10px);
+            z-index: 10000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            cursor: zoom-out;
+            animation: fadeIn 0.2s ease;
+        }
+
+        .image-modal.show {
+            display: flex;
+        }
+
+        .image-modal-content {
+            position: relative;
+            max-width: 95vw;
+            max-height: 95vh;
+            cursor: default;
+        }
+
+        .image-modal img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 95vh;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .image-modal-close {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 24px;
+            transition: all 0.2s;
+            z-index: 10001;
+        }
+
+        .image-modal-close:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: rotate(90deg);
+        }
+
+        .image-modal-zoom-controls {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 12px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px 16px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            z-index: 10001;
+        }
+
+        .zoom-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 18px;
+            transition: all 0.2s;
+        }
+
+        .zoom-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        .zoom-reset {
+            font-size: 14px;
+            padding: 0 12px;
+            width: auto;
+            border-radius: 18px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .question-image {
+            cursor: zoom-in;
+        }
+
+        .question-navigation {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            margin-bottom: 16px;
+            position: relative;
+        }
+
+        .ticket-nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .ticket-nav-btn:hover:not(:disabled) {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        .ticket-nav-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .ticket-nav-btn.prev {
+            left: 10px;
+        }
+
+        .ticket-nav-btn.next {
+            right: 10px;
+        }
+
+        .question-btn {
+            width: 38px;
+            height: 38px;
+            border-radius: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.08);
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .question-btn:hover {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: rgba(96, 165, 250, 0.4);
+            transform: translateY(-1px);
+        }
+
+        .question-btn.active {
+            background: #60a5fa;
+            border-color: #60a5fa;
+            color: white;
+            box-shadow: 0 2px 8px rgba(96, 165, 250, 0.4);
+        }
+
+        .question-btn.answered {
+            background: rgba(96, 165, 250, 0.2);
+            border-color: #60a5fa;
+        }
+
+        .question-btn.correct {
+            background: rgba(34, 197, 94, 0.2);
+            border-color: #22c55e;
+            color: #86efac;
+        }
+
+        .question-btn.correct::after {
+            content: '✓';
+            position: absolute;
+            top: -4px;
+            right: -4px;
+            width: 14px;
+            height: 14px;
+            background: #22c55e;
+            border-radius: 50%;
+            font-size: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .question-btn.incorrect {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: #ef4444;
+            color: #fca5a5;
+        }
+
+        .question-btn.incorrect::after {
+            content: '✕';
+            position: absolute;
+            top: -4px;
+            right: -4px;
+            width: 14px;
+            height: 14px;
+            background: #ef4444;
+            border-radius: 50%;
+            font-size: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .error {
+            background: rgba(239, 68, 68, 0.2);
+            color: #fca5a5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket-container">
+        <div class="ticket-header">
+            <h1 class="ticket-title" id="ticketTitle">Билет #1</h1>
+            <div class="ticket-actions">
+                <div class="language-dropdown">
+                    <button class="globe-btn" id="globeBtn">🌐</button>
+                    <div class="language-switcher" id="languageSwitcher">
+                        <button class="lang-btn" data-lang="uz">O'zbekcha</button>
+                        <button class="lang-btn" data-lang="ru">Русский</button>
+                        <button class="lang-btn" data-lang="uzk">Ўзбекча</button>
+                    </div>
+                </div>
+                <button class="back-btn" id="backBtn" data-translate="backButton">← Назад</button>
+            </div>
+        </div>
+
+        <div id="navigationContainer" class="question-navigation" style="display: none;">
+            <button class="ticket-nav-btn prev" id="prevTicketBtn">← Предыдущий билет</button>
+            <!-- Кнопки навигации 1-10 -->
+            <button class="ticket-nav-btn next" id="nextTicketBtn">Следующий билет →</button>
+        </div>
+
+        <div id="loadingContainer" class="loading">
+            Загрузка вопросов...
+        </div>
+
+        <div id="errorContainer" class="error" style="display: none;">
+            Ошибка загрузки вопросов
+        </div>
+
+        <div id="questionContainer" class="question-card" style="display: none;">
+            <div class="question-number" id="questionNumber">Савол 1/10:</div>
+            <div id="questionText" class="question-text"></div>
+            <div class="question-main-content">
+                <div class="question-image-container">
+                    <img id="questionImage" class="question-image" src="" alt="Вопрос">
+                </div>
+                <div class="question-options-wrapper">
+                    <div id="optionsContainer" class="options-container"></div>
+                </div>
+            </div>
+            <div id="explanationContainer" class="explanation-container">
+                <div class="explanation-icon">💡</div>
+                <div class="explanation-content">
+                    <div class="explanation-title" id="explanationTitle">Изоҳ</div>
+                    <div id="explanationText" class="explanation-text"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <div class="image-modal-content">
+            <button class="image-modal-close" id="closeModal">×</button>
+            <img id="modalImage" src="" alt="Увеличенное изображение">
+            <div class="image-modal-zoom-controls">
+                <button class="zoom-btn" id="zoomOut">−</button>
+                <button class="zoom-btn zoom-reset" id="zoomReset">100%</button>
+                <button class="zoom-btn" id="zoomIn">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/language.js"></script>
+    <script>
+        class TicketPage {
+            constructor() {
+                this.ticketNumber = this.getTicketNumberFromURL();
+                this.currentLanguage = localStorage.getItem('selectedLanguage') || localStorage.getItem('language') || 'uz';
+                this.questions = [];
+                this.currentQuestionIndex = 0;
+                this.userAnswers = {};
+                
+                this.init();
+            }
+
+            getTicketNumberFromURL() {
+                const params = new URLSearchParams(window.location.search);
+                return parseInt(params.get('ticket')) || 1;
+            }
+
+            async init() {
+                console.log(`🎫 Инициализация билета #${this.ticketNumber}`);
+                
+                // Инициализируем переключатель языков
+                this.initLanguageSwitcher();
+                
+                // Инициализируем модальное окно для изображений
+                this.initImageModal();
+                
+                // Обновляем интерфейс с текущим языком
+                this.updateTicketTitle();
+                if (window.LanguageManager) {
+                    const langManager = new window.LanguageManager();
+                    langManager.updateInterface();
+                }
+                
+                // Загружаем вопросы
+                await this.loadQuestions();
+                
+                // Инициализируем интерфейс
+                this.initUI();
+                
+                // Показываем первый вопрос
+                this.showQuestion(0);
+            }
+
+            initImageModal() {
+                const modal = document.getElementById('imageModal');
+                const modalImage = document.getElementById('modalImage');
+                const closeBtn = document.getElementById('closeModal');
+                const zoomIn = document.getElementById('zoomIn');
+                const zoomOut = document.getElementById('zoomOut');
+                const zoomReset = document.getElementById('zoomReset');
+                
+                let currentZoom = 1;
+                
+                // Открытие модального окна при клике на картинку
+                document.addEventListener('click', (e) => {
+                    if (e.target.id === 'questionImage') {
+                        modal.classList.add('show');
+                        modalImage.src = e.target.src;
+                        currentZoom = 1;
+                        modalImage.style.transform = `scale(${currentZoom})`;
+                        document.body.style.overflow = 'hidden';
+                    }
+                });
+                
+                // Закрытие модального окна
+                const closeModal = () => {
+                    modal.classList.remove('show');
+                    document.body.style.overflow = '';
+                    currentZoom = 1;
+                    modalImage.style.transform = 'scale(1)';
+                };
+                
+                closeBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    closeModal();
+                });
+                
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        closeModal();
+                    }
+                });
+                
+                // Закрытие по Escape
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape' && modal.classList.contains('show')) {
+                        closeModal();
+                    }
+                });
+                
+                // Zoom controls
+                zoomIn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    currentZoom = Math.min(currentZoom + 0.25, 3);
+                    modalImage.style.transform = `scale(${currentZoom})`;
+                    zoomReset.textContent = `${Math.round(currentZoom * 100)}%`;
+                });
+                
+                zoomOut.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    currentZoom = Math.max(currentZoom - 0.25, 0.5);
+                    modalImage.style.transform = `scale(${currentZoom})`;
+                    zoomReset.textContent = `${Math.round(currentZoom * 100)}%`;
+                });
+                
+                zoomReset.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    currentZoom = 1;
+                    modalImage.style.transform = 'scale(1)';
+                    zoomReset.textContent = '100%';
+                });
+                
+                // Zoom с колесиком мыши
+                modalImage.addEventListener('wheel', (e) => {
+                    e.preventDefault();
+                    const delta = e.deltaY > 0 ? -0.1 : 0.1;
+                    currentZoom = Math.max(0.5, Math.min(3, currentZoom + delta));
+                    modalImage.style.transform = `scale(${currentZoom})`;
+                    zoomReset.textContent = `${Math.round(currentZoom * 100)}%`;
+                }, { passive: false });
+            }
+
+            updateTicketTitle() {
+                const titleElement = document.getElementById('ticketTitle');
+                const translations = {
+                    ru: 'Билет',
+                    uz: 'Bilet',
+                    uzk: 'Билет'
+                };
+                const questionTexts = {
+                    ru: 'вопрос',
+                    uz: 'savol',
+                    uzk: 'савол'
+                };
+                const title = translations[this.currentLanguage] || translations.ru;
+                const questionText = questionTexts[this.currentLanguage] || questionTexts.uz;
+                
+                // Вычисляем глобальный номер вопроса
+                const globalQuestionNumber = (this.ticketNumber - 1) * 10 + this.currentQuestionIndex + 1;
+                const formattedNumber = String(globalQuestionNumber).padStart(4, '0');
+                
+                titleElement.textContent = `${title} №${this.ticketNumber} (${formattedNumber} ${questionText})`;
+            }
+
+            initLanguageSwitcher() {
+                console.log('🌐 Инициализация языкового переключателя');
+                
+                // Back button handler
+                const backBtn = document.getElementById('backBtn');
+                if (backBtn) {
+                    backBtn.addEventListener('click', () => {
+                        window.location.href = 'dashboard.html';
+                    });
+                }
+                
+                const globeBtn = document.getElementById('globeBtn');
+                const languageSwitcher = document.getElementById('languageSwitcher');
+                const buttons = document.querySelectorAll('.lang-btn');
+                
+                console.log('Найдены элементы:', { globeBtn, languageSwitcher, buttonsCount: buttons.length });
+                
+                if (!globeBtn || !languageSwitcher) {
+                    console.error('❌ Не найдены элементы языкового переключателя');
+                    return;
+                }
+                
+                // Toggle dropdown
+                globeBtn.addEventListener('click', (e) => {
+                    console.log('🌐 Клик по глобусу');
+                    e.stopPropagation();
+                    languageSwitcher.classList.toggle('show');
+                });
+                
+                // Close dropdown when clicking outside
+                document.addEventListener('click', (e) => {
+                    if (!languageSwitcher.contains(e.target) && e.target !== globeBtn) {
+                        languageSwitcher.classList.remove('show');
+                    }
+                });
+                
+                // Language switching
+                buttons.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        console.log('🔄 Смена языка на:', btn.dataset.lang);
+                        this.currentLanguage = btn.dataset.lang;
+                        localStorage.setItem('language', this.currentLanguage);
+                        localStorage.setItem('selectedLanguage', this.currentLanguage);
+                        
+                        languageSwitcher.classList.remove('show');
+                        
+                        // Update ticket title and interface
+                        this.updateTicketTitle();
+                        this.updateTicketNavButtonsText();
+                        if (window.LanguageManager) {
+                            const langManager = new window.LanguageManager();
+                            langManager.setLanguage(this.currentLanguage);
+                            langManager.updateInterface();
+                        }
+                        
+                        // Перерисовываем текущий вопрос
+                        if (this.questions.length > 0) {
+                            this.showQuestion(this.currentQuestionIndex);
+                        }
+                    });
+                });
+                
+                console.log('✅ Языковой переключатель инициализирован');
+            }
+
+            async loadQuestions() {
+                try {
+                    const startQuestion = (this.ticketNumber - 1) * 10 + 1;
+                    const endQuestion = startQuestion + 9;
+                    
+                    console.log(`📚 Загрузка вопросов ${startQuestion}-${endQuestion}`);
+                    
+                    const promises = [];
+                    for (let i = startQuestion; i <= endQuestion; i++) {
+                        const filename = `q${String(i).padStart(4, '0')}.json`;
+                        promises.push(
+                            fetch(`data/questions/${filename}`)
+                                .then(res => res.json())
+                                .catch(err => {
+                                    console.error(`❌ Ошибка загрузки ${filename}:`, err);
+                                    return null;
+                                })
+                        );
+                    }
+                    
+                    this.questions = await Promise.all(promises);
+                    this.questions = this.questions.filter(q => q !== null);
+                    
+                    if (this.questions.length === 0) {
+                        throw new Error('Не удалось загрузить ни одного вопроса');
+                    }
+                    
+                    console.log(`✅ Загружено ${this.questions.length} вопросов`);
+                    
+                    document.getElementById('loadingContainer').style.display = 'none';
+                    document.getElementById('errorContainer').style.display = 'none';
+                    
+                } catch (error) {
+                    console.error('❌ Ошибка загрузки вопросов:', error);
+                    document.getElementById('loadingContainer').style.display = 'none';
+                    document.getElementById('errorContainer').style.display = 'block';
+                    document.getElementById('errorContainer').textContent = `Ошибка: ${error.message}`;
+                }
+            }
+
+            initUI() {
+                // Обновляем заголовок
+                document.getElementById('ticketTitle').textContent = `Билет #${this.ticketNumber}`;
+                
+                // Создаем навигационные кнопки
+                const navContainer = document.getElementById('navigationContainer');
+                const prevBtn = document.getElementById('prevTicketBtn');
+                const nextBtn = document.getElementById('nextTicketBtn');
+                
+                // Очищаем только кнопки вопросов, оставляя кнопки билетов
+                const questionBtns = navContainer.querySelectorAll('.question-btn');
+                questionBtns.forEach(btn => btn.remove());
+                
+                // Создаем кнопки вопросов между кнопками билетов
+                for (let i = 0; i < this.questions.length; i++) {
+                    const btn = document.createElement('button');
+                    btn.className = 'question-btn';
+                    btn.textContent = i + 1;
+                    btn.addEventListener('click', () => this.showQuestion(i));
+                    navContainer.insertBefore(btn, nextBtn);
+                }
+                
+                // Инициализируем кнопки перехода между билетами
+                this.initTicketNavigation();
+                
+                navContainer.style.display = 'flex';
+            }
+
+            initTicketNavigation() {
+                const prevBtn = document.getElementById('prevTicketBtn');
+                const nextBtn = document.getElementById('nextTicketBtn');
+                
+                // Локализация текста кнопок
+                this.updateTicketNavButtonsText();
+                
+                // Предыдущий билет
+                prevBtn.addEventListener('click', () => {
+                    if (this.ticketNumber > 1) {
+                        window.location.href = `ticket.html?ticket=${this.ticketNumber - 1}`;
+                    }
+                });
+                
+                // Следующий билет (всего 113 билетов)
+                nextBtn.addEventListener('click', () => {
+                    if (this.ticketNumber < 113) {
+                        window.location.href = `ticket.html?ticket=${this.ticketNumber + 1}`;
+                    }
+                });
+                
+                // Управление состоянием кнопок
+                prevBtn.disabled = this.ticketNumber === 1;
+                nextBtn.disabled = this.ticketNumber === 113;
+            }
+
+            updateTicketNavButtonsText() {
+                const prevBtn = document.getElementById('prevTicketBtn');
+                const nextBtn = document.getElementById('nextTicketBtn');
+                
+                const texts = {
+                    ru: { prev: '← Предыдущий билет', next: 'Следующий билет →' },
+                    uz: { prev: '← Oldingi bilet', next: 'Keyingi bilet →' },
+                    uzk: { prev: '← Олдинги билет', next: 'Кейинги билет →' }
+                };
+                
+                const lang = this.currentLanguage || 'uz';
+                const text = texts[lang] || texts.uz;
+                
+                prevBtn.textContent = text.prev;
+                nextBtn.textContent = text.next;
+            }
+
+            showQuestion(index) {
+                if (index < 0 || index >= this.questions.length) return;
+                
+                this.currentQuestionIndex = index;
+                const question = this.questions[index];
+                const translation = question.translations[this.currentLanguage];
+                
+                if (!translation) {
+                    console.error(`❌ Нет перевода для языка ${this.currentLanguage}`);
+                    return;
+                }
+                
+                // Показываем контейнер вопроса
+                const questionContainer = document.getElementById('questionContainer');
+                questionContainer.style.display = 'flex';
+                
+                // Номер вопроса
+                const questionNumberTexts = {
+                    ru: 'Вопрос',
+                    uz: 'Savol',
+                    uzk: 'Савол'
+                };
+                const questionNumberText = questionNumberTexts[this.currentLanguage] || questionNumberTexts.uz;
+                document.getElementById('questionNumber').textContent = `${questionNumberText} ${index + 1}/10:`;
+                
+                // Заголовок объяснения
+                const explanationTitles = {
+                    ru: 'Объяснение',
+                    uz: 'Izoh',
+                    uzk: 'Изоҳ'
+                };
+                document.getElementById('explanationTitle').textContent = explanationTitles[this.currentLanguage] || explanationTitles.uz;
+                
+                // Текст вопроса
+                document.getElementById('questionText').textContent = translation.text;
+                
+                // Изображение
+                const imgElement = document.getElementById('questionImage');
+                imgElement.src = question.image;
+                imgElement.style.display = 'block';
+                
+                // Варианты ответов
+                const optionsContainer = document.getElementById('optionsContainer');
+                optionsContainer.innerHTML = '';
+                
+                const userAnswer = this.userAnswers[question.questionId];
+                const isAnswered = userAnswer !== undefined;
+                
+                translation.options.forEach((option, optIndex) => {
+                    const optionDiv = document.createElement('div');
+                    optionDiv.className = 'option-item';
+                    optionDiv.textContent = option;
+                    
+                    // Если пользователь уже ответил
+                    if (isAnswered) {
+                        optionDiv.classList.add('disabled');
+                        
+                        // Правильный ответ (correctAnswer в 1-based индексе)
+                        if (optIndex + 1 === translation.correctAnswer) {
+                            optionDiv.classList.add('correct');
+                        }
+                        
+                        // Выбор пользователя
+                        if (optIndex + 1 === userAnswer) {
+                            if (userAnswer !== translation.correctAnswer) {
+                                optionDiv.classList.add('incorrect');
+                            }
+                        }
+                    } else {
+                        // Можно выбрать ответ
+                        optionDiv.addEventListener('click', () => {
+                            this.selectAnswer(question.questionId, optIndex + 1);
+                        });
+                    }
+                    
+                    optionsContainer.appendChild(optionDiv);
+                });
+                
+                // Объяснение
+                const explanationContainer = document.getElementById('explanationContainer');
+                const explanationText = document.getElementById('explanationText');
+                
+                if (translation.explanation) {
+                    explanationText.textContent = translation.explanation;
+                    
+                    // Если пользователь уже ответил - показываем объяснение, иначе скрываем (spoiler)
+                    if (isAnswered) {
+                        explanationText.classList.remove('spoiler');
+                        explanationText.classList.add('revealed');
+                    } else {
+                        explanationText.classList.add('spoiler');
+                        explanationText.classList.remove('revealed');
+                        
+                        // Обработчик клика для раскрытия spoiler
+                        explanationText.onclick = () => {
+                            if (explanationText.classList.contains('spoiler')) {
+                                explanationText.classList.remove('spoiler');
+                                explanationText.classList.add('revealed');
+                            }
+                        };
+                    }
+                }
+                
+                // Обновляем заголовок и навигацию
+                this.updateTicketTitle();
+                this.updateNavigationButtons();
+            }
+
+            selectAnswer(questionId, answerIndex) {
+                console.log(`✅ Выбран ответ ${answerIndex} для вопроса ${questionId}`);
+                
+                this.userAnswers[questionId] = answerIndex;
+                
+                // Перерисовываем вопрос чтобы показать результат
+                this.showQuestion(this.currentQuestionIndex);
+            }
+
+            updateNavigationButtons() {
+                const buttons = document.querySelectorAll('.question-btn');
+                
+                buttons.forEach((btn, index) => {
+                    btn.classList.remove('active', 'answered', 'correct', 'incorrect');
+                    
+                    // Текущий вопрос
+                    if (index === this.currentQuestionIndex) {
+                        btn.classList.add('active');
+                    }
+                    
+                    // Отвеченные вопросы
+                    const question = this.questions[index];
+                    const userAnswer = this.userAnswers[question.questionId];
+                    
+                    if (userAnswer !== undefined) {
+                        const translation = question.translations[this.currentLanguage];
+                        
+                        if (userAnswer === translation.correctAnswer) {
+                            btn.classList.add('correct');
+                        } else {
+                            btn.classList.add('incorrect');
+                        }
+                    }
+                });
+            }
+
+
+        }
+
+        // Инициализация при загрузке страницы
+        document.addEventListener('DOMContentLoaded', () => {
+            new TicketPage();
+        });
+    </script>
+</body>
+</html>

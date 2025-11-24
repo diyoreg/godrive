@@ -1,0 +1,39 @@
+{
+    "questionId": 1005,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Oq-qizil (1.14.4 zebra) yo'l chizig'i qanday joylarda piyodalar o'tish joyini belgilash uchun chiziladi?",
+            "options": [
+                "F1. Piyodalar gavjum bo'lgan joylarda",
+                "F2. Savdo, madaniy-maishiy xizmat ko'rsatish binolari oldida",
+                "F3. Maktab va maktabgacha ta'lim muassasalari oldida",
+                "F4. Barcha javoblar to'g'ri"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 2 ilova: 1.14.4 — oq-qizil rangli yo'l chizig'i maktab va maktabgacha ta’lim muassasalari oldida piyodalarning o'tish joyini belgilaydi."
+        },
+        "ru": {
+            "text": "В каких местах наносится дорожная разметка бело-красного цвета (зебра 1.14.4) для обозначения места пешеходного перехода?",
+            "options": [
+                "F1. В местах скопления пешеходов",
+                "F2. Перед зданиями коммерческого, культурного и бытового обслуживания",
+                "F3. Перед школами и дошкольными образовательными учреждениями",
+                "F4. Все ответы верны"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ПДД преложиние №2: 1.14.4 – красно-белая линия обозначает пешеходный переход перед школами и детскими садами."
+        },
+        "uzk": {
+            "text": "Оқ-қизил (1.14.4 зебра) йўл чизиғи қандай жойларда пиёдалар ўтиш жойини белгилаш учун чизилади?",
+            "options": [
+                "F1. Пиёдалар гавжум бўлган жойларда",
+                "F2. Савдо, маданий-маиший хизмат кўрсатиш бинолари олдида",
+                "F3. Мактаб ва мактабгача таълим муассасалари олдида",
+                "F4. Барча жавоблар тўғри"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 2 илова: 1.14.4 — оқ-қизил рангли йўл чизиғи мактаб ва мактабгача таълим муассасалари олдида пиёдаларнинг ўтиш жойини белгилайди."
+        }
+    }
+}

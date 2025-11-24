@@ -1,0 +1,39 @@
+{
+    "questionId": 458,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Burilish vaqtida qatnov qismining kesishmasidan chiqishda transport vositasi qayerda bo'lmasligi kerak?",
+            "options": [
+                "F1. Chap tasmada, agar o'ng tasma bo'sh bo'lsa",
+                "F2. Qarama-qarshi harakat tomonida",
+                "F3. Agar bir yo'nalishda harakatlanish uchun uchtadan kam bo'lmagan tasma bo'lganda, chap tasmada",
+                "F4. Ruxsat etilgan to'la vazni 3,5 tonnadan ortiq bo'lgan faqat yuk avtomobillariga bir yo'nalishda harakatlanishi uchun ikkita tasma bo'lsa, chap tasmada"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 9-bobi 57-bandining birinchi xatboshisiga asosan: Burilishni shunday amalga oshirish kerakki, bunda qatnov qismlarining kesishmasidan chiqayotgan transport vositasi qarama-qarshi yoʻnalishdagi harakat tomoniga o'tib ketmasligi kerak."
+        },
+        "ru": {
+            "text": "Где не должно оказаться транспортное средство при выезде с пересечения проезжих частей во время поворота?",
+            "options": [
+                "F1. На левой полосе, если свободна правая полоса",
+                "F2. На стороне встречного движения",
+                "F3. На левой полосе, если имеются не менее трех полос для движения в одном направлении",
+                "F4. На левой полосе, если имеется две полосы для движения в одном направлении только грузовым автомобилям с разрешенной максимальной массой более 3,5 т"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункту 57 главы 9 ПДД, гласит: Поворот должен осуществляться таким образом, чтобы при выезде с пересечения проезжих частей транспортное средство не оказалось на стороне встречного движения. При повороте направо транспортное средство должно двигаться по возможности ближе к правому краю проезжей части."
+        },
+        "uzk": {
+            "text": "Бурилиш вақтида қатнов қисмининг кесишмасидан чиқишда транспорт воситаси қаерда бўлмаслиги керак?",
+            "options": [
+                "F1. Чап тасмада, агар ўнг тасма бўш бўлса",
+                "F2. Қарама-қарши ҳаракат томонида",
+                "F3. Агар бир йўналишда ҳаракатланиш учун учтадан кам бўлмаган тасма бўлганда, чап тасмада",
+                "F4. Рухсат этилган тўла вазни 3,5 тоннадан ортиқ бўлган фақат юк автомобилларига бир йўналишда ҳаракатланиши учун иккита тасма бўлса, чап тасмада"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 9-боби 57-бандининг биринчи хатбошисига асосан: Бурилишни шундай амалга ошириш керакки, бунда қатнов қисмларининг кесишмасидан чиқаётган транспорт воситаси қарама-қарши йўналишдаги ҳаракат томонига ўтиб кетмаслиги керак."
+        }
+    }
+}

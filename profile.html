@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoDrive - Профиль пользователя</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/language-dropdown.css?v=1.1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+        }
+
+        .header h1 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .header-logo {
+            height: 40px;
+            filter: brightness(0) invert(1);
+            opacity: 0.9;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+        .header-logo:hover {
+            opacity: 1;
+        }
+
+        .header-separator {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .header-actions button:not(.lang-btn):not(.globe-btn) {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .header-actions button:not(.lang-btn):not(.globe-btn):hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        .nav-btn.active {
+            background: #60a5fa !important;
+            border-color: #60a5fa !important;
+            color: white !important;
+            cursor: default;
+            pointer-events: none;
+        }
+
+        .logout-btn:hover {
+            background: rgba(239, 68, 68, 0.2) !important;
+            border-color: rgba(239, 68, 68, 0.5) !important;
+        }
+
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .profile-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+        }
+
+        .profile-card h2 {
+            color: #60a5fa;
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .profile-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group label {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .form-group input {
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            font-size: 15px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            transition: all 0.2s ease;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #60a5fa;
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .save-btn {
+            background: #60a5fa;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .save-btn:hover {
+            background: #3b82f6;
+        }
+
+        .danger-zone {
+            border-color: rgba(239, 68, 68, 0.3);
+        }
+
+        .danger-description {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .danger-btn {
+            background: rgba(239, 68, 68, 0.2);
+            color: #fca5a5;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .danger-btn:hover {
+            background: rgba(239, 68, 68, 0.3);
+            border-color: rgba(239, 68, 68, 0.5);
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 32px;
+            max-width: 500px;
+            width: 90%;
+            backdrop-filter: blur(10px);
+        }
+
+        .modal-content h3 {
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .modal-content p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 12px;
+            justify-content: flex-end;
+        }
+
+        .cancel-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .cancel-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>
+                <img src="images/textLogo.png" alt="GoDrive" class="header-logo">
+            </h1>
+            <div class="header-actions">
+                <div class="language-dropdown">
+                    <button class="globe-btn" id="globeBtn">🌐</button>
+                    <div class="language-switcher" id="langSwitcher">
+                        <button class="lang-btn active" data-lang="uz">O'zbekcha</button>
+                        <button class="lang-btn" data-lang="ru">Русский</button>
+                        <button class="lang-btn" data-lang="uzk">Ўзбекча</button>
+                    </div>
+                </div>
+                <button id="backToHome" class="nav-btn" data-translate="mainTitle">Главная</button>
+                <button class="nav-btn active" data-translate="profileTitle">Профиль</button>
+                <button id="logoutBtn" class="logout-btn" data-translate="logoutButton">Выйти</button>
+            </div>
+        </header>
+        
+        <div class="profile-container">
+            <!-- Основная информация профиля -->
+            <div class="profile-card">
+                <h2 data-translate="profileInfo">Информация профиля</h2>
+                
+                <form id="profileForm" class="profile-form">
+                    <div class="form-group">
+                        <label for="displayName" data-translate="displayName">Отображаемое имя:</label>
+                        <input type="text" id="displayName" name="displayName" required>
+                    </div>
+                    
+                    <button type="submit" class="save-btn" data-translate="saveProfile">Сохранить профиль</button>
+                </form>
+            </div>
+            
+            <!-- Удаление статистики -->
+            <div class="profile-card danger-zone" style="opacity: 0.5; pointer-events: none;">
+                <h2 data-translate="deleteStatistics">Удалить статистику</h2>
+                
+                <div class="danger-actions">
+                    <p class="danger-description" data-translate="clearDataDescription">
+                        Это действие удалит всю вашу статистику, прогресс и результаты тестов. Эти действия необратимы. Будьте осторожны!
+                    </p>
+                    <button id="clearDataBtn" class="danger-btn" data-translate="clearAllData" disabled>
+                        Стереть все данные
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Модальное окно подтверждения -->
+        <div id="confirmModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h3 data-translate="confirmAction">Подтвердите действие</h3>
+                <p data-translate="clearDataConfirm">Вы уверены, что хотите удалить все свои данные? Это действие нельзя отменить.</p>
+                <div class="modal-actions">
+                    <button id="cancelBtn" class="cancel-btn" data-translate="cancel">Отмена</button>
+                    <button id="confirmClearBtn" class="danger-btn" data-translate="confirmClear">Да, удалить все</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/api-client.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/profile.js"></script>
+    <script>
+        // Инициализация переключателя языков
+        const currentLang = localStorage.getItem('language') || 'uz';
+        
+        function updateLanguage(lang) {
+            localStorage.setItem('language', lang);
+            
+            // Обновление активной кнопки
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+            });
+            
+            // Используем LanguageManager для переводов
+            if (window.LanguageManager) {
+                const langManager = new window.LanguageManager();
+                langManager.setLanguage(lang);
+            } else {
+                // Если нет LanguageManager, перезагружаем страницу
+                window.location.reload();
+            }
+        }
+        
+        // Применение сохраненного языка при загрузке
+        document.addEventListener('DOMContentLoaded', () => {
+            // Logo navigation
+            document.querySelector('.header-logo')?.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            });
+
+            // Globe button dropdown toggle
+            const globeBtn = document.getElementById('globeBtn');
+            const langSwitcher = document.getElementById('langSwitcher');
+            
+            globeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                langSwitcher.classList.toggle('show');
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!langSwitcher.contains(e.target) && e.target !== globeBtn) {
+                    langSwitcher.classList.remove('show');
+                }
+            });
+
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
+                btn.addEventListener('click', () => {
+                    updateLanguage(btn.getAttribute('data-lang'));
+                    langSwitcher.classList.remove('show');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

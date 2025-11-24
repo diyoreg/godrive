@@ -1,0 +1,36 @@
+{
+    "questionId": 701,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi hollarda yo'lning harakatlanish bo'lagini ajratuvchi uzuq-uzuq chiziqni bosib o'tishingiz mumkin?",
+            "options": [
+                "F1. Faqat qayta tizilishda",
+                "F2. Yo'lda boshqa transport vositalari bo'lmasa",
+                "F3. Barcha sanab o'tilgan hollarda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 10-bobi 70-bandi: Agar qatnov qismi yo'l chiziqlari bilan tasmalarga ajratilgan bo'lsa, transport vositalarining harakatlanishi qat'iy ravishda belgilangan tasmalarda amalga oshirilishi kerak. Faqat qayta tizilishda uzuq-uzuq chiziqlarni bosib o'tishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "В каких случаях Вы можете наезжать на прерывистые линии разметки, разделяющие проезжую часть на полосы движения?",
+            "options": [
+                "F1. Только при перестроении",
+                "F2. Только если на дороге нет других транспортных средств",
+                "F3. Во всех перечисленных случаях"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 70 главы 10 ПДД, гласит: Если проезжая часть разделена на полосы линиями разметки, движение транспортных средств должно осуществляться строго по полосам. Наезжать на прерывистые линии разметки разрешается только лишь при перестроении."
+        },
+        "uzk": {
+            "text": "Қайси ҳолларда йўлнинг ҳаракатланиш бўлагини ажратувчи узуқ-узуқ чизиқни босиб ўтишингиз мумкин?",
+            "options": [
+                "F1. Фақат қайта тизилишда",
+                "F2. Йўлда бошқа транспорт воситалари бўлмаса",
+                "F3. Барча санаб ўтилган ҳолларда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 10-боби 70-банди: Агар қатнов қисми йўл чизиқлари билан тасмаларга ажратилган бўлса, транспорт воситаларининг ҳаракатланиши қатъий равишда белгиланган тасмаларда амалга оширилиши керак. Фақат қайта тизилишда узуқ-узуқ чизиқларни босиб ўтишга рухсат этилади."
+        }
+    }
+}

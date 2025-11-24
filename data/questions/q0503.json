@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  503,
+    "image":  "data/images/q0503.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu belgi o\u0027rnatilgan yo\u0027lda avtobuslarga harakatlanish ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Faqat ruxsat etilgan to\u0027la vazni 3,5 tonnadan ortiq, bo\u0027lmagan avtomobilga ruxsat etiladi",
+                                                    "F2. Taqiqlanadi",
+                                                    "F3. Ruxsat etiladi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 5-boʻlimining to\u0027rtinchi xatboshisiga asosan: 5.3. «Avtomobillar uchun mo\u0027ljallangan yo\u0027l». Faqat avtomobillar, avtobus hamda mototsikllar, elektromototsiklar, mopedlar va skuterlarning harakatlanishi uchun mo\u0027ljallangan yo\u0027lni bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли автобусу движение по дороге, на которой установлен этот знак?",
+                                    "options":  [
+                                                    "F1. Разрешается только автомобилю, разрешенная максимальная масса которого не более 3,5 т",
+                                                    "F2. Запрещается",
+                                                    "F3. Разрешается"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Информационно-указательный знак 5.3 \"Дорога для автомобилей\". Дорога, предназначенная для движения только автомобилей, автобусов, мотоциклов, электромотоциклов, мопедов и скутеров."
+                                },
+                         "uzk":  {
+                                     "text":  "Бу белги ўрнатилган йўлда автобусларга ҳаракатланиш рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Фақат рухсат этилган тўла вазни 3,5 тоннадан ортиқ, бўлмаган автомобилга рухсат этилади",
+                                                     "F2. Тақиқланади",
+                                                     "F3. Рухсат этилади"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 5-бўлимининг тўртинчи хатбошисига асосан: 5.3. «Автомобиллар учун мўлжалланган йўл». Фақат автомобиллар, автобус ҳамда мотоцикллар, электромотоциклар, мопедлар ва скутерларнинг ҳаракатланиши учун мўлжалланган йўлни билдиради."
+                                 }
+                     }
+}

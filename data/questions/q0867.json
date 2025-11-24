@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  867,
+    "image":  "data/images/q0867.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu belgilardan qaysi biri «Notekis yo\u0027l» deb nomlanadi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ, 1.16. «Yo\u0027l notekisligi» belgisi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из этих знаков называется «Неровная дорога»?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД, Знак 1.16 «Неровность дороги»."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу белгилардан қайси бири «Нотекис йўл» деб номланади?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ, 1.16. «Йўл нотекислиги» белгиси."
+                                 }
+                     }
+}

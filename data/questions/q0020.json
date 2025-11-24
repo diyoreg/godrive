@@ -1,0 +1,39 @@
+{
+    "questionId": 20,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi shartlarda transport vositalaridan foydalanish taqiqlanadi?",
+            "options": [
+                "F1. Gidravlik tormoz tizimidan suyuqlik oqayotgan bo'lsa",
+                "F2. Ishchi tormoz tizimi ishlamayotgan bo'lsa",
+                "F3. Kompressor pnevmatik tormoz tizimida o'rnatilgan bosimni ta'minlay olmagan holatda",
+                "F4. Ko'rsatilgan barcha holatlarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "IzohYHQ 3-ilovasi 1-bo'limining 1.3 va 1.4-bandlariga asosan, transport vositalaridan foydalanish taqiqlanadi: Gidravlik tormoz yuritmasining zichligi (germetikligi) buzilgan boʻlsa.\nDvigatel ishlamay turganda pnevmatik yoki pnevmogidravlik tormoz yuritmasining zichligini buzilishi, boshqaruv qismlari ulanmaganda — 30 daqiqada, ulanganida — 15 daqiqada tizimdagi havo bosimini 0,05 MP dan Ко\"рда pasayishiga sabab bo'lsa, g'ildiraklardagi tormoz kameralaridan siqilgan havo chiqayotgan bo'lsa.\nYHQ 2-bobi 12-bandining uchinchi xatboshisiga asosan: tormoz tizimi, rul boshqaruvi ishlamayotgan, ulagich moslamasi (avtopoezd tarkibida) nosoz bo'lgan, qorong'i vaqtda yoki yetarlicha ko'rinmaydigan sharoitda — old chiroqlar va orqa gabarit chiroqlari boʻlmagan yoki yonmayotgan, yomg'ir, qor yogʻayotgan vaqtda haydovchi tomonidagi oyna tozalagich ishlamayotgan transport vositalarini boshqarish taqiqlanadi."
+        },
+        "ru": {
+            "text": "При каких условиях запрещается эксплуатация транспортных средств?",
+            "options": [
+                "F1. Подтекает жидкость из системы гидравлических тормозов",
+                "F2. Не действует рабочая тормозная система",
+                "F3. Компрессор не обеспечивает установленного давления в системе пневматических тормозов",
+                "F4. При всех указанных условиях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "В \"Условиях, при которых запрещается эксплуатация транспортных средств\" (приложение №3 к ПДД) сказано, что эксплуатация транспортных средств запрещена, если: 1.2. При дорожных испытаниях не соблюдаются нормы эффективности торможения рабочей тормозной системой (т.е. не действует рабочая тормозная система);\n1.3. Нарушена герметичность гидравлического тормозного привода (т.е. подтекает жидкость из системы гидравлических тормозов);\n1.4. Нарушение герметичности пневматического тормозного привода вызывает падение давления воздуха при неработающем компрессоре более чем на 0,05 МПа (0,5 кг/кв. см) за 30 мин. при свободном положении органов управления тормозной системой или за 15 мин. при включенных органах управления. 1.5. Не работает манометр пневматического тормозного привода. Соответственно, при всех указанных условиях эксплуатация транспортных средств запрещена."
+        },
+        "uzk": {
+            "text": "Қайси шартларда транспорт воситаларидан фойдаланиш тақиқланади?",
+            "options": [
+                "F1. Гидравлик тормоз тизимидан суюклик оқаётган бўлса",
+                "F2. Ишчи тормоз тизими ишламаётган бўлса",
+                "F3. Компрессор пневматик тормоз тизимида ўрнатилган босимни таъминлай олмаган ҳолатда",
+                "F4. Кўрсатилган барча ҳолатларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ИзоҳЙҲҚ 3-иловаси 1-бўлимининг 1.3 ва 1.4-бандларига асосан, транспорт воситаларидан фойдаланиш тақиқланади: Гидравлик тормоз юритмасининг зичлиги (герметиклиги) бузилган бўлса.\nДвигатель ишламай турганда пневматик ёки пневмогидравлик тормоз юритмасининг зичлигини бузилиши, бошқарув қисмлари уланмаганда — 30 дақиқада, уланганида — 15 дақиқада тизимдаги ҳаво босимини 0,05 МП дан кўпга пасайишига сабаб бўлса, ғилдираклардаги тормоз камераларидан сиқилган ҳаво чиқаётган бўлса.\nЙҲҚ 2-боби 12-бандининг учинчи хатбошисига асосан: тормоз тизими, рул бошқаруви ишламаётган, улагич мосламаси (автопоезд таркибида) носоз бўлган, қоронғи вақтда ёки етарлича кўринмайдиган шароитда — олд чироқлар ва орқа габарит чироқлари бўлмаган ёки ёнмаётган, ёмғир, қор ёғаётган вақтда ҳайдовчи томонидаги ойна тозалагич ишламаётган транспорт воситаларини бошқариш тақиқланади."
+        }
+    }
+}

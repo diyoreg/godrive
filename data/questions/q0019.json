@@ -1,0 +1,36 @@
+{
+    "questionId": 19,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi holatda egri yo'lda harakatlanayotgan avtomobil turg'unligi ta'minlanadi?",
+            "options": [
+                "F1. Uzatma ulangan holatda",
+                "F2. Uzatma ajratilgan holatda",
+                "F3. Tezlik oshirilganda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "IzohEgri yoʻl (burilish)da harakatlanayotgan avtomobilda markazdan qochirma kuch vujudga keladi. Burilish o'ng tomonga boʻlgan holda siz qarama-qarshi yoʻnalishda harakatlanish bo'lagiga, chap tomonga boʻlsa, yoʻl yoqasi yoki uning tashqarisiga chiqib ketishingiz ehtimoli mavjud. Uzatma ajratilgan holatda avtomobil oʻzi harakatlanib, uni boshqarish murakkablashadi. Shu bois, burilishga yaqin masofa qolganda, uning tikligini va tezligingizni baholab, uzatma mexanizmini ajratmay harakatni davom ettiring."
+        },
+        "ru": {
+            "text": "При движении по кривой дороге автомобиль более устойчив, если движение осуществляется",
+            "options": [
+                "F1. С включенной передачей",
+                "F2. С выключенной передачей",
+                "F3. С увеличением скорости"
+            ],
+            "correctAnswer": 1,
+            "explanation": "При движении по кривой дороге автомобиль более устойчив, если движение осуществляется: При движении по кривой дороге автомобиль более устойчив, если движение осуществляется с включенной передачей, т.к. сила сопротивления двигателя передается на ведущие колеса и \"утяжеляет\" автомобиль."
+        },
+        "uzk": {
+            "text": "Қайси ҳолатда эгри йўлда ҳаракатланаётган автомобиль турғунлиги таъминланади?",
+            "options": [
+                "F1. Узатма уланган ҳолатда",
+                "F2. Узатма ажратилган ҳолатда",
+                "F3. Тезлик оширилганда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ИзоҳЭгри йўл (бурилиш)да ҳаракатланаётган автомобилда марказдан қочирма куч вужудга келади. Бурилиш ўнг томонга бўлган ҳолда сиз қарама-қарши йўналишда ҳаракатланиш бўлагига, чап томонга бўлса, йўл ёқаси ёки унинг ташқарисига чиқиб кетишингиз эҳтимоли мавжуд. Узатма ажратилган ҳолатда автомобиль ўзи ҳаракатланиб, уни бошқариш мураккаблашади. Шу боис, бурилишга яқин масофа қолганда, унинг тиклигини ва тезлигингизни баҳолаб, узатма механизмини ажратмай ҳаракатни давом эттиринг."
+        }
+    }
+}

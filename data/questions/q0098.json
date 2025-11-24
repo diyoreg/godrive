@@ -1,0 +1,39 @@
+{
+    "questionId": 98,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qaysi ishoralar ogohlantiruvchi hisoblanadi?",
+            "options": [
+                "F1. Burilishni ko'rsatadigan miltillovchi chiroq yoki qo'l bilan beriladigan ishoralar",
+                "F2. Tovushli ishoralar",
+                "F3. Fara chiroqlarini yoqib-o'chirilishi va kunduzgi vaqtda yaqinni yorituvchi fara chirog'ining yoqilishi",
+                "F4. Sanab o'tilgan barcha ishoralar"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 8-bobi 44-bandiga asosan, quyidagilar ogohlantiruvchi ishoralar hisoblanadi: burilishni koʻrsatadigan miltillovchi chiroq yoki qo'l bilan beriladigan ishoralar;\ntovushli ishoralar; chiroqlarning yoqib o'chirilishi;\nkunduz kuni yaqinni yorituvchi chiroqlarning yoqilishi."
+        },
+        "ru": {
+            "text": "Какие сигналы считаются предупредительными?",
+            "options": [
+                "F1. Сигналы, подаваемые световыми указателями поворота или рукой",
+                "F2. Звуковые сигналы",
+                "F3. Переключение света фар и включение ближнего света фар в дневное время",
+                "F4. Все вышеперечисленные сигналы"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 44 главы 8 ПДД, гласит: Предупредительными сигналами являются: - сигналы, подаваемые мигаюшими указателями поворотов или рукой;\n- звуковые сигналы;\n- переключение света фар;\n- включение ближнего света фар в дневное время. Соответственно, все перечисленные варианты верны."
+        },
+        "uzk": {
+            "text": "Қайси ишоралар огоҳлантирувчи ҳисобланади?",
+            "options": [
+                "F1. Бурилишни кўрсатадиган милтилловчи чироқ ёки қўл билан бериладиган ишоралар",
+                "F2. Товушли ишоралар",
+                "F3. Фара чирокларини ёқиб-ўчирилиши ва кундузги вақтда яқинни ёритувчи фара чироғининг ёкилиши",
+                "F4. Санаб ўтилган барча ишоралар"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 8-боби 44-бандига асосан, қуйидагилар огоҳлантирувчи ишоралар ҳисобланади: бурилишни кўрсатадиган милтилловчи чироқ ёки қўл билан бериладиган ишоралар;\nтовушли ишоралар;\nчироқларнинг ёқиб ўчирилиши;\nкундуз куни яқинни ёритувчи чироқларнинг ёқилиши."
+        }
+    }
+}

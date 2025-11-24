@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  433,
+    "image":  "data/images/q0433.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu yotiq chiziq nimani bildiradi?",
+                                    "options":  [
+                                                    "F1. Piyodalar o\u0027tish joyini",
+                                                    "F2. Velosiped yo\u0027lkasi qatnov qismini kesib o\u0027tadigan joyni",
+                                                    "F3. Mol haydaladigan joyni"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 2-ilovasi 1-boʻlimidagi 1.15 chizig\u0027i yo\u0027lning velosiped yo\u0027lkasi kesib o\u0027tgan joyini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Что означает эта разметка?",
+                                    "options":  [
+                                                    "F1. Пешеходный переход",
+                                                    "F2. Место, где велосипедная дорожка пересекает проезжую часть",
+                                                    "F3. Место перегона скота"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Горизонтальная разметка 1.15 - обозначает место, где велосипедная дорожка пересекает проезжую часть."
+                                },
+                         "uzk":  {
+                                     "text":  "Бу ётиқ чизиқ нимани билдиради?",
+                                     "options":  [
+                                                     "F1. Пиёдалар ўтиш жойини",
+                                                     "F2. Велосипед йўлкаси қатнов қисмини кесиб ўтадиган жойни",
+                                                     "F3. Мол ҳайдаладиган жойни"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимидаги 1.15 чизиғи йўлнинг велосипед йўлкаси кесиб ўтган жойини билдиради."
+                                 }
+                     }
+}

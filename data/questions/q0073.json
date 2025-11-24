@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  73,
+    "image":  "data/images/q0073.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi «T» simon chorrahada harakatlanish yoʻnalishini ko\u0027rsatadi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1-ilovasi 1-bo\u0027limi: 1.31.3. «Burilishning yoʻnalishi». T-simon chorrahada yoki yoʻl ayrilishlarida harakatlanish yo\u0027nalishini, ta\u0027mirlanayotgan yo\u0027l qismini aylanib o\u0027tish yoʻnalishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак указывает направление движения на Т-образном перекрестке?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Предупреждаюший знак: 1.31.3 «Направление поворота». Направление движения на Т-образном перекрестке или разветвлении дорог. Направление объезда ремонтируемого участка дороги."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги «Т» симон чорраҳада ҳаракатланиш йўналишини кўрсатади?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1-иловаси 1-бўлими: 1.31.3. «Бурилишнинг йўналиши». Т-симон чорраҳада ёки йўл айрилишларида ҳаракатланиш йўналишини, таъмирланаётган йўл қисмини айланиб ўтиш йўналишини билдиради."
+                                 }
+                     }
+}

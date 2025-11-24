@@ -1,0 +1,39 @@
+{
+    "questionId": 37,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Harakat ikki tomonlama bo'lgan, uch tasmali yo'lda Siz o'ngga burilishingiz zarur. Ushbu harakatni qaysi tasmadan amalga oshirasiz?",
+            "options": [
+                "F1. O'ng tasmadan",
+                "F2. O'rta tasmadan",
+                "F3. O'ng yoki o'rta tasmadan",
+                "F4. O'rta tasmadan, lekin faqat o'ng tasma band bo'lganda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "IzohYHQ 10-bobi 66-bandi: Harakat ikki tomonlama bo'lgan va chiziqlar bilan belgilangan (1.9 yo'l chizigʻi bilan belgilanganidan tashqari) uchta tasmali yo'llarda, ikki yoʻnalishda harakatlanish uchun mo'ljallangan o'rta qatorga faqat quvib o'tish, aylanib o'tish, chapga burilish va qayrilib olish uchungina chiqishga ruxsat etiladi. Qarama-qarshi yoʻnalishda harakatlanish uchun mo'ljallangan chetki chap qatorni egallash taqiqlanadi."
+        },
+        "ru": {
+            "text": "На дороге с двухсторонним движением, имеющей три полосы, Вам необходимо повернуть направо. С какой полосы Вы осуществите данный маневр?",
+            "options": [
+                "F1. С правой полосы",
+                "F2. Со средней полосы",
+                "F3. С правой или средней полосы",
+                "F4. Со средней полосы, но лишь когда занята правая полоса"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 66 главы 10 ПДД, гласит: На дорогах с двусторонним движением, имеющих три полосы, обозначенные разметкой (за исключением дорожной разметки 1.9), разрешается выезжать на средний ряд только для обгона, объезда, поворота налево или разворота. Занимать крайнюю левую полосу, предназначенную для встречного движения, запрещается."
+        },
+        "uzk": {
+            "text": "Ҳаракат икки томонлама бўлган, уч тасмали йўлда Сиз ўнгга бурилишингиз зарур. Ушбу ҳаракатни қайси тасмадан амалга оширасиз?",
+            "options": [
+                "F1. Ўнг тасмадан",
+                "F2. Ўрта тасмадан",
+                "F3. Ўнг ёки ўрта тасмадан",
+                "F4. Ўрта тасмадан, лекин фақат ўнг тасма банд бўлганда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ИзоҳЙҲҚ 10-боби 66-банди: Ҳаракат икки томонлама бўлган ва чизиқлар билан белгиланган (1.9 йўл чизиғи билан белгиланганидан ташқари) учта тасмали йўлларда, икки йўналишда ҳаракатланиш учун мўлжалланган ўрта қаторга фақат қувиб ўтиш, айланиб ўтиш, чапга бурилиш ва қайрилиб олиш учунгина чиқишга рухсат этилади. Қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган четки чап қаторни эгаллаш тақиқланади."
+        }
+    }
+}

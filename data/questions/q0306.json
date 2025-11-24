@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  306,
+    "image":  "data/images/q0306.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Mazkur shartda shatakka olishni amalga oshirishning yo\u0027l qo\u0027yilgan eng yuqori tezligi qanday?",
+                                    "options":  [
+                                                    "F1. 30 km/s",
+                                                    "F2. 50 km/s",
+                                                    "F3. 70 km/s",
+                                                    "F4. 80 km/s"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 11-bobi 80-bandining uchinchi xatboshisiga asosan, har qanday yo\u0027llarda: mexanik transport vositalarini shatakka olgan transport vositalariga tezlikni soatiga 50 kilometrdan oshirmasdan harakatlanishga ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "С какой максимальной скоростью может осуществляться буксировка в данных условиях?",
+                                    "options":  [
+                                                    "F1. 30 км/ч",
+                                                    "F2. 50 км/ч",
+                                                    "F3. 70 км/ч",
+                                                    "F4. 80 км/ч"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Aбзацу 3 пункта 80 главы 11 ПДД, на вcех дарогах: транспортным средствам, буксирующим механические транспортные средства — не более 50 км/ч."
+                                },
+                         "uzk":  {
+                                     "text":  "Мазкур шартда шатакка олишни амалга оширишнинг йўл қўйилган энг юқори тезлиги қандай?",
+                                     "options":  [
+                                                     "F1. 30 км/с",
+                                                     "F2. 50 км/с",
+                                                     "F3. 70 км/с",
+                                                     "F4. 80 км/с"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 11-боби 80-бандининг учинчи хатбошисига асосан, ҳар қандай йўлларда: механик транспорт воситаларини шатакка олган транспорт воситаларига тезликни соатига 50 километрдан оширмасдан ҳаракатланишга рухсат этилади."
+                                 }
+                     }
+}

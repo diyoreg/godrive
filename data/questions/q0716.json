@@ -1,0 +1,36 @@
+{
+    "questionId": 716,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qanday hollarda aholi punktlarida tovush moslamalaridan foydalanishga ruxsat etiladi?",
+            "options": [
+                "F1. Yo'l-transport hodisasining oldini olish uchun",
+                "F2. Har ikkala sanab o'tilgan hollarda",
+                "F3. Quvib o'tishda ogohlantirish uchun"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 8-bobi 48-bandi: Tovushli ishoralar faqat quyidagi hollarda qo'llanilishi mumkin: aholi punktlaridan tashqarida boshqa haydovchilarni quvib o'tish haqida ogohlantirish uchun; zarur boʻlgan hollarda yoʻl-transport hodisasining oldini olish uchun."
+        },
+        "ru": {
+            "text": "В каких случаях разрешено применять звуковые сигналы в населённых пунктах?",
+            "options": [
+                "F1. Только для предотвращения дорожно-транспортного происшествия",
+                "F2. В обоих перечисленных случаях",
+                "F3. Только для предупреждения о намерение произвести обгон"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 48 главы 8 ПДД, гласит: Звуковые сигналы могут применяться в следующих случаях: вне населенных пунктов при обгоне, для предупреждения других водителей; в необходимых случаях — для предотвращения дорожно-транспортного происшествия. Использование звуковых сигналов запрещено, за исключением случаев, указанных выше."
+        },
+        "uzk": {
+            "text": "Қандай ҳолларда аҳоли пунктларида товуш мосламаларидан фойдаланишга рухсат этилади?",
+            "options": [
+                "F1. Йўл-транспорт ҳодисасининг олдини олиш учун",
+                "F2. Ҳар иккала санаб ўтилган ҳолларда",
+                "F3. Қувиб ўтишда огоҳлантириш учун"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 8-боби 48-банди: Товушли ишоралар фақат қуйидаги ҳолларда қўлланилиши мумкин: аҳоли пунктларидан ташқарида бошқа ҳайдовчиларни қувиб ўтиш ҳақида огоҳлантириш учун; зарур бўлган ҳолларда йўл-транспорт ҳодисасининг олдини олиш учун."
+        }
+    }
+}

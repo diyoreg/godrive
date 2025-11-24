@@ -1,0 +1,39 @@
+{
+    "questionId": 755,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sanab o'tilgan qaysi transport vositalarini o't o'chirgichsiz tasarruf etishga ruxsat etiladi?",
+            "options": [
+                "F1. Avtobuslarni",
+                "F2. Faqat yon kajavasiz mototsikllarni",
+                "F3. Avtomobillarni",
+                "F4. Barcha mototsikllarni"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 3 ilova: 7.10. Transport vositalari quyidagilar bilan jihozlanmagan bo'lsa: М1, N1, N2, N3 toifadagi, mikroavtobus va gʻildirakli traktorlarda tibbiyot qutichasi, o't o'chirgich, majburiy to'xtaganligini bildiruvchi belgi (yoki miltillovchi qizil chiroq) va nur qaytargichli kamzul (jilet)."
+        },
+        "ru": {
+            "text": "Какие из перечисленных транспортных средств разрешается эксплуатировать без огнетушителя?",
+            "options": [
+                "F1. Автобусы",
+                "F2. Только мотоциклы без бокового прицепа",
+                "F3. Автомобили",
+                "F4. Все мотоциклы"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ПДД приложение № 3: 7.10. На транспортных средствах отсутствуют: микроавтобусах, автотранспортных средствах категорий М1, N1, N2, N3 и на колесных тракторах — медицинская аптечка, огнетушитель, знак аварийной остановки (или мигающий красный фонарь) и световозвращающий жилет."
+        },
+        "uzk": {
+            "text": "Санаб ўтилган қайси транспорт воситаларини ўт ўчиргичсиз тасарруф этишга рухсат этилади?",
+            "options": [
+                "F1. Aвтобусларни",
+                "F2. Фақат ён кажавасиз мотоциклларни",
+                "F3. Aвтомобилларни",
+                "F4. Барча мотоциклларни"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 3 илова: 7.10. Транспорт воситалари қуйидагилар билан жиҳозланмаган бўлса: М1, N1, N2, N3 тоифадаги, микроавтобус ва ғилдиракли тракторларда тиббиёт қутичаси, ўт ўчиргич, мажбурий тўхтаганлигини билдирувчи белги (ёки милтилловчи қизил чироқ) ва нур қайтаргичли камзул (жилет)."
+        }
+    }
+}

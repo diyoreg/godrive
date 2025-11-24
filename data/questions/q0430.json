@@ -1,0 +1,36 @@
+{
+    "questionId": 430,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Ishlamayotgan boshqaruv ruli bilan to'xtab turish yoki ta'mirlash joyiga borishga ruxsat etiladimi?",
+            "options": [
+                "F1. Qattiq ulagichda shatakka olinganda ruxsat etiladi",
+                "F2. Harakat xavfsizligini ta'minlovchi tezlikda ruxsat etiladi",
+                "F3. Taqiqlanadi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 2-bobi 12-bandining uchinchi xatboshisiga asosan, haydovchiga quyidagilar taqiqlanadi: tormoz tizimi, rul boshqaruvi ishlamayotgan, ulagich moslamasi (avtopoezd tarkibida) nosoz boʻlgan, qorong'i vaqtda yoki yetarlicha ko'rinmaydigan sharoitda — old chiroqlar va orqa gabarit chiroqlari bo'lmagan yoki yonmayotgan, yomg'ir, qor yogʻayotgan vaqtda haydovchi tomonidagi oyna tozalagich ishlamayotgan transport vositalarini boshqarish."
+        },
+        "ru": {
+            "text": "Разрешается ли следовать к месту стоянки или ремонта с недействующим рулевым управлением?",
+            "options": [
+                "F1. Разрешается при буксировке на жесткой сцепке",
+                "F2. Разрешается со скоростью, обеспечивающей безопасность движения",
+                "F3. Запрещается"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 3 пункта 12 главы 2 ПДД, водителю запрещается: управлять транспортным средством, если на транспортном средстве не работает тормозная система, рулевое управление, стеклоочиститель со стороны водителя во время дождя или снегопада, неисправно сцепное устройство (в составе автопоезда), не горят или отсутствуют фары и задние габаритные огни в темное время суток или в условиях недостаточной видимости."
+        },
+        "uzk": {
+            "text": "Ишламаётган бошқарув рули билан тўхтаб туриш ёки таъмирлаш жойига боришга рухсат этиладими?",
+            "options": [
+                "F1. Қаттиқ улагичда шатакка олинганда рухсат этилади",
+                "F2. Ҳаракат хавфсизлигини таъминловчи тезликда рухсат этилади",
+                "F3. Тақиқланади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 2-боби 12-бандининг учинчи хатбошисига асосан, ҳайдовчига қуйидагилар тақиқланади: тормоз тизими, рул бошқаруви ишламаётган, улагич мосламаси (автопоезд таркибида) носоз бўлган, қоронғи вақтда ёки етарлича кўринмайдиган шароитда — олд чироқлар ва орқа габарит чироқлари бўлмаган ёки ёнмаётган, ёмғир, қор ёғаётган вақтда ҳайдовчи томонидаги ойна тозалагич ишламаётган транспорт воситаларини бошқариш."
+        }
+    }
+}

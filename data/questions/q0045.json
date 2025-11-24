@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  45,
+    "image":  "data/images/q0045.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan vaziyatda qaysi tasmadan o\u0027ngga burilish lozim?",
+                                    "options":  [
+                                                    "F1. Faqat ikkinchi tasmadan",
+                                                    "F2. Faqat «A» chizig\u0027i bilan belgilangan o\u0027ng chekkadagi tasmadan"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 5-bobi 132-bandi: Yo\u0027nalishli transport vositalarining harakatlanishi uchun 5.9, 5.10.1 — 5.10.3 yo\u0027l belgilari bilan ajratilgan tasmada boshqa transport vositalarining harakatlanishi va to\u0027xtashi taqiqlanadi. Agar 5.9 yo\u0027l belgisi bilan belgilangan tasma qatnov qismining boshqa tasmalardan uzuq-uzuq chiziq bilan ajratilgan boʻlsa, burilmoqchi bo\u0027layotgan transport vositalari bu tasmaga qayta tizilishlari kerak. Shuningdek, bunday joylarda yo\u0027nalishli transport vositalarining harakatiga xalaqit bermaslik sharti bilan yo\u0027lga chiqish, qatnov qismining chetki oʻng tomonida yo\u0027lovchilarni chiqarish va tushirish uchun bu bo\u0027lakka o\u0027tishga ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "Из какой полосы следует поворачивать направо в показанной ситуации?",
+                                    "options":  [
+                                                    "F1. Только из второй полосы",
+                                                    "F2. Только из крайней правой полосы, обозначенной разметкой «А»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 132 главы 5 ПДД, гласит: По полосе, обозначенной дорожными знаками 5.9, 5.10.1 — 5.10.3 для движения маршрутных транспортных средств, движение и остановка других транспортных средств запрещается. Если полоса, обозначенная дорожным знаком 5.9 отделена от остальной проезжей части дороги прерывистой линией разметки, то при поворотах транспортные средства должны перестраиваться на эту полосу. Разрешается также в таких местах заезжать на эту полосу при въезде на дорогу и для посадки и высадки пассажиров у правого края проезжей части при условии, что это не создаст помех движению маршрутных транспортных средств."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган вазиятда қайси тасмадан ўнгга бурилиш лозим?",
+                                     "options":  [
+                                                     "F1. Фақат иккинчи тасмадан",
+                                                     "F2. Фақат «А» чизиғи билан белгиланган ўнг чеккадаги тасмадан"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 5-боби 132-банди: Иуналишли транспорт воситаларининг ҳаракатланиши учун 5.9, 5.10.1 — 5.10.3 йўл белгилари билан ажратилган тасмада бошқа транспорт воситаларининг ҳаракатланиши ва тўхташи тақиқланади. Агар 5.9 йўл белгиси билан белгиланган тасма қатнов қисмининг бошқа тасмалардан узуқ-узуқ чизиқ билан ажратилган бўлса, бурилмоқчи бўлаётган транспорт воситалари бу тасмага қайта тизилишлари керак. Шунингдек, бундай жойларда йўналишли транспорт воситаларининг ҳаракатига халақит бермаслик шарти билан йўлга чиқиш, қатнов қисмининг четки ўнг томонида йўловчиларни чиқариш ва тушириш учун бу бўлакка ўтишга рухсат этилади."
+                                 }
+                     }
+}

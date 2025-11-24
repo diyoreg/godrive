@@ -1,0 +1,33 @@
+{
+  "questionId": 31,
+  "image": "data/images/q0031.webp",
+  "translations": {
+    "uz": {
+      "text": "Mazkur yo'l belgisi nimani bildiradi?",
+      "options": [
+        "F1. Yo'lning trotuar yoki piyodalar yo'lkasi bo'lgan qismini",
+        "F2. Yo'lning piyodalar o'tish joyi bo'lgan qismini"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IzohYHQ 1-ilovasi 1.20. «Piyodalar o'tish joyi». 5.16.1, 5.16.2 belgilari va (yoki) 1.14.1 — 1.14.3 chiziqlari bilan belgilangan piyodalar oʻtish joyini bildiradi."
+    },
+    "ru": {
+      "text": "Этот дорожный знак обозначает",
+      "options": [
+        "F1. Участок дороги, на котором имеется тротуар или пешеходная дорожка",
+        "F2. Участок дороги, на котором имеется пешеходный переход"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Приложение №1 Раздел 1 пункт 1.20 \"Пешеходный переход\". Пешеходный переход, обозначенный знаками 5.16.1, 5.16.2 и (или) разметкой 1.14.1-1.14.3."
+    },
+    "uzk": {
+      "text": "Мазкур йўл белгиси нимани билдиради?",
+      "options": [
+        "F1. Йўлнинг тротуар ёки пиёдалар йўлкаси бўлган қисмини",
+        "F2. Йўлнинг пиёдалар ўтиш жойи бўлган қисмини"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ИзоҳЙҲҚ 1-иловаси 1.20. «Пиёдалар ўтиш жойи». 5.16.1, 5.16.2 белгилари ва (ёки) 1.14.1 — 1.14.3 чизиқлари билан белгиланган пиёдалар ўтиш жойини билдиради."
+    }
+  }
+}

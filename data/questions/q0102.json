@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  102,
+    "image":  "data/images/q0102.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu belgi nimani bildiradi?",
+                                    "options":  [
+                                                    "F1. Ro\u0027paradan kelayotgan transport vositalariga nisbatan birinchi o\u0027tish huquqini beradi",
+                                                    "F2. Haydovchi ro\u0027paradan harakatlanayotgan transport vositalariga yo\u0027l berishi kerak",
+                                                    "F3. Bir tomonlama harakatli yo\u0027l qatnov qismi tamom bo\u0027lganligini bildiradi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1-ilovasi 2-bo\u0027limining o\u0027ninchi xatboshisiga asosan: 2.6. «Ro\u0027para harakatlanishning ustunligi». Qarama-qarshi harakatlanishni qiyinlashtiradigan hollarda yo\u0027lning tor qismiga kirish taqiqlanadi. Haydovchi yoʻlning tor qismida bo\u0027lgan yoki ro\u0027paradan unga yaqin bo\u0027lgan transport vositasiga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Что обозначает этот знак?",
+                                    "options":  [
+                                                    "F1. Предоставляет преимущество перед встречными транспортными средствами",
+                                                    "F2. Обязывает водителя уступить дорогу встречным транспортным средствам",
+                                                    "F3. Обозначает конец участка дороги с односторонним движением"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Знак приоритета 2.6 \"Приоритет встречного движения\". Запрещается въезд на узкий участок дороги, если это может затруднить встречное движение. Водитель должен уступить дорогу встречным транспортным средствам, находящимся на узком участке или противоположном подъезде к нему."
+                                },
+                         "uzk":  {
+                                     "text":  "Бу белги нимани билдиради?",
+                                     "options":  [
+                                                     "F1. Рўпарадан келаëтган транспорт воситаларига нисбатан биринчи ўтиш ҳуқуқини беради",
+                                                     "F2. Ҳайдовчи рўпарадан ҳаракатланаëтган транспорт воситаларига йўл бериши керак",
+                                                     "F3. Бир томонлама ҳаракатли йўл қатнов қисми тамом бўлганлигини билдиради"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1-иловаси 2-бўлимининг ўнинчи хатбошисига асосан: 2.6. «Рўпара ҳаракатланишнинг устунлиги». Қарама-қарши ҳаракатланишни қийинлаштирадиган ҳолларда йўлнинг тор қисмига кириш тақиқланади. Ҳайдовчи йўлнинг тор қисмида бўлган ёки рўпарадан унга яқин бўлган транспорт воситасига йўл бериши керак."
+                                 }
+                     }
+}

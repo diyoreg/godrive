@@ -1,0 +1,36 @@
+{
+    "questionId": 774,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Avtomobilning ABS tizimi burilishida sirpanish va yonga siljishni oldini oladimi?",
+            "options": [
+                "F1. Avtomobilni faqat sirpanish ehtimolining oldini oladi",
+                "F2. Avtomobilni sirpanish va yonga siljish ehtimolining oldini olmaydi",
+                "F3. Avtomobilni faqat yonga siljish ehtimolining oldini oladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Antiblokirovka tizimi (ABS) avtomobilning tormoz tizimi bilan birga qarama qarshi ishlab uni tartibga soladi, ya'ni g'ildiraklarni keskin tormozlaganda ularni blokirovkadan asraydi. Bu bilan avtomobilni turgʻunligini va boshqaruvchanligini yengillashtiradi. Bu tizimning o'ziga yarasha qulayligi va shu bilan bir qatorda kamchiliklari ham mavjud. Qo'qqisdan tormozlanganda hatto quruq, qattiq qoplamali yoʻllarda ABS tizimi avtomobilni toʻxtata olmaydi uni ishga tushish vaqti (1-2 sek.) ushbu vaziyatga haydovchi koʻnikma hosil qilishi kerak. Bu esa o'z navbatida tajriba talab etadi. Burilishlarda markazdan qochirma kuch evaziga ABS sirpanish va siljishga ta'sir eta olmay qolish ehtimoli yuzaga keladi."
+        },
+        "ru": {
+            "text": "Предотвращает ли система ABS автомобиля скольжение и бокового заноса при повороте?",
+            "options": [
+                "F1. Только предотвращает возможность проскальзывания автомобиля",
+                "F2. Не предотвращает возможность скольжения и бокового заноса автомобиля",
+                "F3. Только предотвращает возможность бокового заноса автомобиля в сторону"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Антиблокировочная система тормозов (ABS) работает в противовес тормозной системе автомобиля и регулирует ее, то есть предохраняет колеса от блокировки при резком торможении. Это делает машину устойчивой и управляемой. Эта система имеет как преимущества, так и недостатки. При торможении с кочки даже на сухой дороге с твердым покрытием система ABS не может остановить автомобиль, время ее срабатывания (1-2 сек.) водителю следует выработать навыки работы в данной ситуации. Это, в свою очередь, требует опыта. При прохождении поворотов центробежная сила приводит к тому, что ABS не может контролировать заносы и заносы."
+        },
+        "uzk": {
+            "text": "Автомобилнинг ABS тизими бурилишида сирпаниш ва ёнга силжишни олдини оладими?",
+            "options": [
+                "F1. Автомобилни фақат сирпаниш эҳтимолининг олдини олади",
+                "F2. Автомобилни сирпаниш ва ёнга силжиш эҳтимолининг олдини олмайди",
+                "F3. Автомобилни фақат ёнга силжиш эҳтимолининг олдини олади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Антиблокировка тизими (ABS) автомобилнинг тормоз тизими билан бирга қарама қарши ишлаб уни тартибга солади, яъни ғилдиракларни кескин тормозлаганда уларни блокировкадан асрайди. Бу билан автомобилни турғунлигини ва бошқарувчанлигини енгиллаштиради. Бу тизимнинг ўзига яраша қулайлиги ва шу билан бир қаторда камчиликлари ҳам мавжуд. Қўққисдан тормозланганда ҳатто қуруқ, қаттиқ қопламали йўлларда ABS тизими автомобилни тўхтата олмайди уни ишга тушиш вақти (1-2 сек.) ушбу вазиятга ҳайдовчи кўникма ҳосил қилиши керак. Бу эса ўз навбатида тажриба талаб этади. Бурилишларда марказдан қочирма куч эвазига ABS сирпаниш ва силжишга таъсир эта олмай қолиш эҳтимоли юзага келади."
+        }
+    }
+}

@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  483,
+    "image":  "data/images/q0483.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi transport vositalari yo\u0027lovchilarni tushirish uchun noto\u0027g\u0027ri to\u0027xtagan?",
+                                    "options":  [
+                                                    "F1. Qizil avtomobil",
+                                                    "F2. Ko\u0027k avtomobil",
+                                                    "F3. Mototsikl",
+                                                    "F4. Har ikki avtomobil"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining oltinchi xatboshisiga asosan: 1.4 — to\u0027xtash taqiqlangan joyni bildiradi. Yakka holda yoki 3.27 «To\u0027xtash taqiqlangan» yo\u0027l belgisi bilan qoʻllaniladi hamda yo\u0027lning qatnov qismi chetiga yoki yoʻl chetidagi to\u0027siq ustidan chiziladi.\nYHQ 13-bobi 91-bandiga asosan, Quyidagilarda to\u0027xtash taqiqlanadi: bekat maydonchalarida, yo\u0027nalishli transport vositalari to\u0027xtash joylarida, jumladan, 1.17 chizig\u0027i bilan belgilangan, ular bo\u0027lmaganda esa yo\u0027nalishli transport vositalari to\u0027xtash joyi belgilari va bekatdan harakatlanish yo\u0027nalishi bo\u0027ylab (etmasdan va o\u0027tib ketib) 15 metrdan kam masofada (yo\u0027nalishli transport vositalari harakatiga xalaqit bermasa yo\u0027lovchilarni chiqarish yoki tushirish uchun to\u0027xtash bundan mustasno)."
+                                },
+                         "ru":  {
+                                    "text":  "Водители каких транспортных средств неправильно произвели остановки для высадки пассажиров?",
+                                    "options":  [
+                                                    "F1. Водитель красного автомобиля",
+                                                    "F2. Водитель синего автомобиля",
+                                                    "F3. Водитель мотоцикла",
+                                                    "F4. Водители обоих автомобилей"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Горизонтальная разметка 1.4 (сплошная линия желтого цвета) - обозначает места, где запрещена остановка. Применяется самостоятельно или в сочетании со знаком 3.27 и наносится у края проезжей части или по верху бордюра. Горизонтальная разметка 1.10 (прерывистая линия желтого цвета) - обозначает места, где запрещена стоянка. Применяется самостоятельно или в сочетании со знаком 3.28 и наносится у края проезжей части или по верху бордюра. Горизонтальная разметка 1.17 - обозначает остановки маршрутных транспортных средств и стоянки такси.\nПункту 91 главы 13 ПДД, гласит: что остановка запрещена на остановочных площадках, а при их отсутствии - ближе 15 м от указателя остановки маршрутных транспортных средств или такси, если это создаст помехи их движению. В данном случае только водитель красного автомобиля нарушил правила остановки."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси транспорт воситалари йўловчиларни тушириш учун нотўғри тўхтаган?",
+                                     "options":  [
+                                                     "F1. Қизил автомобиль",
+                                                     "F2. Кўк автомобиль",
+                                                     "F3. Мотоцикл",
+                                                     "F4. Ҳар икки автомобиль"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг олтинчи хатбошисига асосан: 1.4 — тўхташ тақиқланган жойни билдиради. Якка ҳолда ёки 3.27 «Тухташ тақиқланган». йўл белгиси билан қўлланилади ҳамда йўлнинг қатнов қисми четига ёки йўл четидаги тўсиқ устидан чизилади.\nЙҲҚ 13-боби 91-бандига асосан, Қуйидагиларда тўхташ тақиқланади: бекат майдончаларида, йўналишли транспорт воситалари тўхташ жойларида, жумладан, 1.17 чизиғи билан белгиланган, улар бўлмаганда эса йўналишли транспорт воситалари тўхташ жойи белгилари ва бекатдан ҳаракатланиш йўналиши бўйлаб (этмасдан ва ўтиб кетиб) 15 метрдан кам масофада (йўналишли транспорт воситалари ҳаракатига халақит бермаса йўловчиларни чиқариш ёки тушириш учун тўхташ бундан мустасно)."
+                                 }
+                     }
+}

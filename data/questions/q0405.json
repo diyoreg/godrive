@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  405,
+    "image":  "data/images/q0405.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Agar yo\u0027l tasmasi sidirg\u0027a chiziq bilan ajratilib, belgi bilan belgilangan bo\u0027lsa, avtobus haydovchisining tasma bo\u0027ylab harakatlanishiga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat etiladi",
+                                                    "F2. Taqiqlanadi",
+                                                    "F3. Agar avtobus belgilangan yo\u0027nalish bo\u0027yicha harakatlanayotgan bo\u0027lsa, ruxsat etiladi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 22-bobi 132-bandining birinchi va ikkinchi xatboshlariga asosan: Yo\u0027nalishli transport vositalarining harakatlanishi uchun 5.9, 5.10.1 — 5.10.3 yo\u0027l belgilari bilan ajratilgan tasmada boshqa transport vositalarining harakatlanishi va to\u0027xtashi taqiqlanadi. Agar 5.9 yo\u0027l belgisi bilan belgilangan tasma qatnov qismining boshqa tasmalardan uzuq-uzuq chiziq bilan ajratilgan bo\u0027lsa, burilmoqchi bo\u0027layotgan transport vositalari bu tasmaga qayta tizilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли водителю автобуса двигаться по полосе, обозначенной этим знаком, если полоса отделена сплошной линией разметки?",
+                                    "options":  [
+                                                    "F1. Разрешается",
+                                                    "F2. Запрещается",
+                                                    "F3. Разрешается, если автобус движется по установленному маршруту"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Информационно-указательный знак 5.9 \"Полоса для маршрутных транспортных средств\".\nПункт 132 главы 22 ПДД, гласит: по полосе, обозначенной знаками 5.9, 5.10.1 – 5.10.3 для движения маршрутных транспортных средств, движение и остановка других транспортных средств запрещается."
+                                },
+                         "uzk":  {
+                                     "text":  "Агар йўл тасмаси сидирға чизиқ билан ажратилиб, белги билан белгиланган бўлса, автобус ҳайдовчисининг тасма бўйлаб ҳаракатланишига рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Рухсат этилади",
+                                                     "F2. Тақиқланади",
+                                                     "F3. Агар автобус белгиланган йўналиш бўйича ҳаракатланаётган бўлса, рухсат этилади"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 22-боби 132-бандининг биринчи ва иккинчи хатбошларига асосан: Йўналишли транспорт воситаларининг ҳаракатланиши учун 5.9, 5.10.1 — 5.10.3 йўл белгилари билан ажратилган тасмада бошқа транспорт воситаларининг ҳаракатланиши ва тўхташи тақиқланади. Aгар 5.9 йўл белгиси билан белгиланган тасма қатнов қисмининг бошқа тасмалардан узуқ-узуқ чизиқ билан ажратилган бўлса, бурилмоқчи бўлаётган транспорт воситалари бу тасмага қайта тизилишлари керак."
+                                 }
+                     }
+}

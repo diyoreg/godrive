@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  263,
+    "image":  "data/images/q0263.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu «To\u0027xtash» yotiq chizig\u0027i qaysi yo\u0027l belgisi bilan qo\u0027llaniladi?",
+                                    "options":  [
+                                                    "F1. «Yo\u0027l bering» belgisi bilan",
+                                                    "F2. «To\u0027xtamasdan harakatlanish taqiqlangan» belgisi bilan",
+                                                    "F3. «Yo\u0027l bering» belgisi va «To\u0027xtamasdan harakatlanish taqiqlangan» belgisi bilan"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 2-ilovasi 1-boʻlimining oʻn to\u0027rtinchi xatboshisiga asosan: 1.12 (to\u0027xtash chizig\u0027i) — 2.5 «To\u0027xtamasdan harakatlanish taqiqlangan» belgisi yoki svetoforning (tartibga soluvchining) taqiqlovchi ishorasida haydovchi to\u0027xtash kerak bo\u0027lgan joyni ko\u0027rsatadi."
+                                },
+                         "ru":  {
+                                    "text":  "С каким дорожным знаком применяется стоп-линия?",
+                                    "options":  [
+                                                    "F1. Со знаком «Уступите дорогу»",
+                                                    "F2. Со знаком «Движение без остановки запрещено»",
+                                                    "F3. Со знаком «Уступите дорогу» или со знаком «Движение без остановки запрещено»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Горизонтальная разметка 1.12 (стоп-линия) - указывает место, где водитель должен остановиться при наличии знака 2.5 \"Движение без остановки запрещено\" или при запрещающем сигнале светофора (регулировщика)."
+                                },
+                         "uzk":  {
+                                     "text":  "Бу «Тўхташ» ётиқ чизиғи қайси йўл белгиси билан қўлланилади?",
+                                     "options":  [
+                                                     "F1. «Йўл беринг» белгиси билан",
+                                                     "F2. «Тўхтамасдан ҳаракатланиш тақиқланган» белгиси билан",
+                                                     "F3. «Йўл беринг» белгиси ва «Тўхтамасдан ҳаракатланиш тақиқланган» белгиси билан"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг ўн тўртинчи хатбошисига асосан: 1.12 (тўхташ чизиғи) — 2.5 «Тухтамасдан ҳаракатланиш тақиқланган белгиси ёки светофорнинг (тартибга солувчининг) тақиқловчи ишорасида ҳайдовчи тўхташ керак бўлган жойни кўрсатади."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  967,
+    "image":  "data/images/q0967.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Yo\u0027l berishingiz kerak bo\u0027lgan joy yaqinlashayotganligi haqida ogohlantiradi",
+                                                    "F2. To\u0027xtashingiz zarur bo\u0027lgan joyni bildiradi",
+                                                    "F3. Yo\u0027lning xavfli qismini bildiradi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 2 ilova. 1.20 — haydovchini 1.13 chizigʻiga yaqinlashayotgani haqida ogohlantiradi. 1.13 — kesishayotgan yo\u0027lda harakatlanayotgan transport vositasiga yoʻl berish uchun to\u0027xtash zarur bo\u0027lganda, haydovchiga transport vositasini to\u0027xtatish joyini ko\u0027rsatadi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Предупреждает вас о приближении к месту, где нужно уступить дорогу",
+                                                    "F2. Указывает место, где вам необходимо остановиться",
+                                                    "F3. Обозначает опасный участок дороги"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Приложение №2 к ПДД пункт 1.20 — предупреждает о приближении к разметке 1.13. 1.13 — указывает место, где водитель должен при необходимости остановиться, уступая дорогу транспортным средствам, движущимся по пересекаемой дороге."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Йўл беришингиз керак бўлган жой яқинлашаётганлиги ҳақида огоҳлантиради",
+                                                     "F2. Тўхташингиз зарур бўлган жойни билдиради",
+                                                     "F3. Йўлнинг хавфли қисмини билдиради"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 2 илова. 1.20 — ҳайдовчини 1.13 чизиғига яқинлашаётгани ҳақида огоҳлантиради. 1.13 — кесишаётган йўлда ҳаракатланаётган транспорт воситасига йўл бериш учун тўхташ зарур бўлганда, ҳайдовчига транспорт воситасини тўхтатиш жойини кўрсатади."
+                                 }
+                     }
+}

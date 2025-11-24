@@ -1,0 +1,36 @@
+{
+    "questionId": 751,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Kunning qorong'i vaqtida aholi punktlarida yo'lning yoritilgan qismida Siz qanday tashqi yoritish chiroqlaridan foydalanishingiz kerak?",
+            "options": [
+                "F1. Yaqinni yoki uzoqni yorituvchi chiroqlardan",
+                "F2. Yaqinni yorituvchi chiroqlardan",
+                "F3. Gabarit chiroqlardan"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 23-bobi 135-bandi: Quyidagi hollarda uzoqni yorituvchi chiroqlar o'rniga yaqinni yorituvchi chiroqlar yoqilishi kerak: yo'l yoritilgan bo'lsa;\nqarama-qarshi yo'nalishdagi transport vositasiga kamida 150 metr masofa qolganda, shuningdek, qarama-qarshi yo'nalishdagi transport vositasining haydovchisi fara chiroqlarini vaqti-vaqti bilan oʻchirib-yoqib bunga zarurat borligini bildirgan hollarda undan ham ko'proq masofada;\nqarama-qarshi va bir yo'nalishdagi transport vositalari haydovchilarining ko'zini qamashtirishi mumkin boʻlgan boshqa barcha holatlarda. Ko'zi qamashgan haydovchi avariya ishoralarini yoqishi, harakatlanish bo'lagini o'zgartirmasdan tezlikni kamaytirishi va to'xtashi kerak."
+        },
+        "ru": {
+            "text": "Какие внешние световые приборы Вы должны использовать при движении в темное время суток на освещенных участках дорог населенного пункта?",
+            "options": [
+                "F1. Ближнего или дальнего света фар",
+                "F2. Фары ближнего света",
+                "F3. Габаритные огни"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 135 главы 23 ПДД, гласит: Дальний свет должен быть переключен на ближний в следующих случаях: в населенном пункте, если дорога освещена;\nпри встречном движении на расстоянии не менее чем за 150 метров до транспортного средства, а также и при большем расстоянии, если водитель встречного транспортного средства периодическим переключением света фар покажет необходимость этого;\nв любых других случаях, когда можно ослепить водителей, как встречных, так и попутных транспортных средств. При ослеплении водитель должен включить аварийную световую сигнализацию и, не меняя полосу движения, снизить скорость и остановиться."
+        },
+        "uzk": {
+            "text": "Куннинг қоронғи вақтида аҳоли пунктларида йўлнинг ёритилган қисмида Сиз қандай ташқи ёритиш чироқларидан фойдаланишингиз керак?",
+            "options": [
+                "F1. Яқинни ёки узоқни ёритувчи чироқлардан",
+                "F2. Яқинни ёритувчи чироқлардан",
+                "F3. Габарит чироқлардан"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 23-боби 135-банди: Қуйидаги ҳолларда узоқни ёритувчи чироқлар ўрнига яқинни ёритувчи чироқлар ёқилиши керак: йўл ёритилган бўлса;\nқарама-қарши йўналишдаги транспорт воситасига камида 150 метр масофа қолганда, шунингдек, қарама-қарши йўналишдаги транспорт воситасининг ҳайдовчиси фара чироқларини вақти-вақти билан ўчириб-ёқиб бунга зарурат борлигини билдирган ҳолларда ундан ҳам кўпроқ масофада;\nқарама-қарши ва бир йўналишдаги транспорт воситалари ҳайдовчиларининг кўзини қамаштириши мумкин бўлган бошқа барча ҳолатларда. Кўзи қамашган ҳайдовчи авария ишораларини ёқиши, ҳаракатланиш бўлагини ўзгартирмасдан тезликни камайтириши ва тўхташи керак."
+        }
+    }
+}

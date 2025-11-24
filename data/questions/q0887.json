@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  887,
+    "image":  "data/images/q0887.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Barcha turdagi transport vositalarining to\u0027xtab turish uchun yo\u0027lning qatnov qismida, trotuar yoniga qo\u0027yish usulini",
+                                                    "F2. Mexanik transport vositalarining to\u0027xtab turish joyini",
+                                                    "F3. Yengil avtomobillarning to\u0027xtab turish joyini"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ, 1 ilova: 7.6.1. «Transport vositasini to\u0027xtab turish joyiga qo\u0027yish usuli». 7.6.1 barcha turdagi transport vositalarini to\u0027xtab turishi uchun yo\u0027lning qatnov qismida, trotuar yoniga qo\u0027yish usulini, 7.6.2 — 7.6.9 trotuar yonidagi to\u0027xtab turish joyiga yengil avtomobillar, mototsikllar, mopedlar va skuterlarni qo\u0027yish usulini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Указывает способ постановки транспортного средства на проезжую часть, вдоль тротуара",
+                                                    "F2. Стоянка механических транспортных средств",
+                                                    "F3. Указывает место стоянки механических  транспортных средств"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД, приложение № 1: 7.6.1. «Способ постановки транспортного средства на стоянку». 7.6.1 указывает способ постановки транспортного средства на проезжую часть, вдоль тротуара, 7.6.2 — 7.6.9. Указывает способ постановки легковых автомобилей, мотоциклы, мопеды и скутеры на околотротуарной стоянке."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Барча турдаги транспорт воситаларининг тоъхтаб туриш учун йўлнинг қатнов қисмида, тротуар ёнига қўйиш усулини",
+                                                     "F2. Механик транспорт воситаларининг тўхтаб туриш жойини",
+                                                     "F3. Енгил автомобилларнинг тўхтаб туриш жойини"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ, 1 илова: 7.6.1. «Транспорт воситасини тўхтаб туриш жойига қўйиш усули». 7.6.1 барча турдаги транспорт воситаларини тўхтаб туриши учун йўлнинг қатнов қисмида, тротуар ёнига қўйиш усулини, 7.6.2 — 7.6.9 тротуар ёнидаги тўхтаб туриш жойига енгил автомобиллар, мотоцикллар, мопедлар ва скутерларни қўйиш усулини билдиради."
+                                 }
+                     }
+}

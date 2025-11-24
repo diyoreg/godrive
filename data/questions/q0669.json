@@ -1,0 +1,36 @@
+{
+    "questionId": 669,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Ishqalanish koeffitsiyentiga shinalarni siyqalanib ketgan protektori qanday ta'sir qiladi?",
+            "options": [
+                "F1. Ishqalanish koeffitsiyenti oshadi",
+                "F2. Ishqalanish koeffitsiyenti oʻzgarmaydi",
+                "F3. Ishqalanish koeffitsiyenti kamayadi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Protektor qatlamining yeyilishi bilan birga g'ildirakning yoʻl bilan tishlashishi yomonlashib, tormoz berayotganda yoki tezlikni oshirayotganda avtomobilning sirpanish ehtimoli koʻpayadi. Protektori butunlay yeyilib ketgan shinaning yo'l bilan tishlashish koeffitsienti yangi shinaning ushbu koeffitsientidan ikki barobar kam. Shuning uchun shinasi yeyilgan avtomobildan foydalanish mumkin emas va yoʻl harakati qoidalarida taqiqlangan."
+        },
+        "ru": {
+            "text": "Как влияет изношенный протектор шин на коэффициент сцепления?",
+            "options": [
+                "F1. Коэффициент сцепления повышается",
+                "F2. Коэффициент сцепления не изменяется",
+                "F3. Коэффициент сцепления снижается"
+            ],
+            "correctAnswer": 3,
+            "explanation": "По мере износа протектора ухудшается сцепление колеса с дорогой и увеличивается вероятность заноса при торможении или разгоне. Коэффициент сцепления шины, протектор которой изношен до полного исчезновения рисунка, почти вдвое меньше коэффициента сцепления новой шины. Поэтому эксплуатация автомобиля с изношенными шинами недопустима и запрещена Правилами дорожного движения."
+        },
+        "uzk": {
+            "text": "Ишқаланиш коэффициентига шиналарни сийқаланиб кетган протектори қандай таъсир қилади?",
+            "options": [
+                "F1. Ишкаланиш коэффициенти ошади",
+                "F2. Ишкаланиш коэффициенти ўзгармайди",
+                "F3. Ишкаланиш коэффициенти камаяди"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Протектор қатламининг ейилиши билан бирга ғилдиракнинг йўл билан тишлашиши ёмонлашиб, тормоз бераётганда ёки тезликни ошираётганда автомобилнинг сирпаниш эҳтимоли кўпаяди. Протектори бутунлай ейилиб кетган шинанинг йўл билан тишлашиш козффициенти янги шинанинг ушбу коэффициентидан икки баробар кам. Шунинг учун шинаси ейилган автомобилдан фойдаланиш мумкин эмас ва йўл ҳаракати қоидаларида тақиқланган."
+        }
+    }
+}

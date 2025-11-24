@@ -1,0 +1,36 @@
+{
+    "questionId": 637,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Transport vositasi texnik tavsifnomasida ko'rsatilgan yuqori tezlikdan oshirishi mumkinmi?",
+            "options": [
+                "F1. Yo'llardan foydalanish uchun mas'ul bo'lgan idoralar tomonidan oshirilishi mumkin",
+                "F2. Aholi punktidan tashqaridagi yo'llarda oshirilishi mumkin. Bunday yo'l qismlarida «yuqori tezlik cheklangan» belgisi o'rnatiladi",
+                "F3. Oshirilishi mumkin emas"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 11-bobi 81-bandining birinchi xatboshisiga asosan, haydovchilarga quyidagilar taqiqlanadi: tezlikni mazkur transport vositasining texnik tavsifnomasida ko'rsatilgan eng yuqori tezlikdan oshirish."
+        },
+        "ru": {
+            "text": "Может ли быть превышена максимальная скорость движения, определенная технической характеристикой транспортного средства?",
+            "options": [
+                "F1. Может быть повышена органами, ответственными за эксплуатацию дорог",
+                "F2. Может быть повышена на дорогах вне населенных пунктов. На таких участках устанавливаются знаки «Ограничение минимальной скорости»",
+                "F3. Не может быть превышена"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 1 пункта 81 главы 11 ПДД, гласит: Водителю запрещается: - превышать максимальную скорость, определенную технической характеристикой данного транспортного средства."
+        },
+        "uzk": {
+            "text": "Транспорт воситаси техник тавсифномасида кўрсатилган юқори тезликдан ошириши мумкинми?",
+            "options": [
+                "F1. Йўллардан фойдаланиш учун масъул бўлган идоралар томонидан оширилиши мумкин",
+                "F2. Аҳоли пунктидан ташқаридаги йўлларда оширилиши мумкин. Бундай йўл қисмларида «юқори тезлик чекланган» белгиси ўрнатилади",
+                "F3. Оширилиши мумкин эмас"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 11-боби 81-бандининг биринчи хатбошисига асосан, ҳайдовчиларга қуйидагилар тақиқланади: тезликни мазкур транспорт воситасининг техник тавсифномасида кўрсатилган энг юқори тезликдан ошириш."
+        }
+    }
+}

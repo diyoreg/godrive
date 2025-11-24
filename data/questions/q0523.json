@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  523,
+    "image":  "data/images/q0523.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Avtomagistralda qatnov qismining chetini bildiruvchi sidirg\u0027a oq chiziqni bosib o\u0027tishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat etiladi",
+                                                    "F2. Taqiqlanadi",
+                                                    "F3. Agar avtomagistralda harakatlanish serqatnov bo\u0027lsa, taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 2-ilovasi 1-boʻlimining to\u0027rtinchi va o\u0027ttiz beshinchi xatboshlariga asosan: 1.2 (enli sidirgʻa chiziq) — avtomagistrallarda harakatlanish qismi chegarasini bildiradi;\n1.2 chiziqlarini istalgan tomondan bosib o\u0027tish mumkin."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешено ли пересекать сплошную белую линию разметки, обозначающую край проезжей части на автомагистрали?",
+                                    "options":  [
+                                                    "F1. Разрешается",
+                                                    "F2. Запрещается",
+                                                    "F3. Запрещается, если на автомагистрали очень интенсивное движение"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Горизонтальная разметка 1.2 (широкая сплошная линия) - обозначает край проезжей части на автомагистралях. Линии 1.2, 1.5-1.8 пересекать разрешается с любой стороны."
+                                },
+                         "uzk":  {
+                                     "text":  "Автомагистралда қатнов қисмининг четини билдирувчи сидирға оқ чизиқни босиб ўтишга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Рухсат этилади",
+                                                     "F2. Тақиқланади",
+                                                     "F3. Агар автомагистралда ҳаракатланиш серқатнов бўлса, тақиқланади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг тўртинчи ва ўттиз бешинчи хатбошларига асосан: 1.2 (энли сидирға чизиқ) — автомагистралларда ҳаракатланиш қисми чегарасини билдиради;\n1.2 чизиқларини исталган томондан босиб ўтиш мумкин."
+                                 }
+                     }
+}

@@ -1,0 +1,42 @@
+﻿{
+    "questionId":  193,
+    "image":  "data/images/q0193.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi yo\u0027nalishlarda harakatlanishga ruxsat etiladi?",
+                                    "options":  [
+                                                    "F1. «A» yo\u0027nalishda",
+                                                    "F2. «Б» yo\u0027nalishda",
+                                                    "F3. «В» yo\u0027nalishda",
+                                                    "F4. «A», «Б» va «В» yo\u0027nalishlarida",
+                                                    "F5. «Б» va «В» yo\u0027nalishlarida"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining oʻn uchinchi xatboshisiga asosan: 1.11 — faqat bir tomondan qayta tizilishga ruxsat etilgan yoʻl qismlarida, bir yo\u0027nalishdagi yoki qarama-qarshi kelayotgan transport oqimlarini ajratadi;\nqayrilib olish, toʻxtash maydonchalari va shunga o\u0027xshashlarga kirish-chiqish joylarida harakatlanish faqat bir yo\u0027nalishda ruxsat etilganligini koʻrsatadi;\nYHQ 2-ilovasi 1-boʻlimining oʻttiz sakkizinchi xatboshisiga asosan: 1.11 chizig\u0027ini uzuq-uzuq chiziq tomonidan, sidirg\u0027a chiziq tomonidan esa faqat quvib yoki aylanib oʻtishni tugatayotganda bosib o\u0027tishga ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "В каких направлениях разрешается движение?",
+                                    "options":  [
+                                                    "F1. По направлению «А»",
+                                                    "F2. По направлению «Б»",
+                                                    "F3. По направлению «В»",
+                                                    "F4. По направлениям «А», «Б» и «В»",
+                                                    "F5. По направлениям «Б» и «В»"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Горизонтальная разметка 1.11 - разделяет транспортные потоки противоположных или попутных направлений на участках дорог, где перестроение разрешено только из одной полосы;\nобозначает места, предназначенные для разворота, въезда и выезда со стояночных площадок и т.п., где движение разрешено только в одну сторону. Линию 1.11 разрешается пересекать со стороны прерывистой, а также и со стороны сплошной, но только при завершении обгона или объезда. В данном случае разрешается пересекать со стороны прерывистой линии, поэтому движение разрешено во всех указанных направлениях."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси йўналишларда ҳаракатланишга рухсат этилади?",
+                                     "options":  [
+                                                     "F1. «А» йўналишда",
+                                                     "F2. «Б» йўналишда",
+                                                     "F3. «В» йўналишда",
+                                                     "F4. «А», «Б» ва «В» йўналишларида",
+                                                     "F5. «Б» ва «В» йўналишларида"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг ўн учинчи хатбошисига асосан: 1.11 — фақат бир томондан қайта тизилишга рухсат этилган йўл қисмларида, бир йўналишдаги ёки қарама-қарши келаётган транспорт оқимларини ажратади;\nқайрилиб олиш, тўхташ майдончалари ва шунга ўхшашларга кириш-чиқиш жойларида ҳаракатланиш фақат бир йўналишда рухсат этилганлигини кўрсатади;\nЙҲҚ 2-иловаси 1-бўлимининг ўттиз саккизинчи хатбошисига асосан: 1.11 чизиғини узуқ-узуқ чизиқ томонидан, сидирға чизиқ томонидан эса фақат қувиб ёки айланиб ўтишни тугатаётганда босиб ўтишга рухсат этилади."
+                                 }
+                     }
+}

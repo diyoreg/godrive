@@ -1,0 +1,30 @@
+<!-- Заполнитель для изображения вопроса -->
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3e87;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2b5c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <rect x="20" y="20" width="460" height="260" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="10,5"/>
+  
+  <text x="250" y="120" font-family="Montserrat, Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle" fill="#ffffff">
+    Изображение к вопросу
+  </text>
+  <text x="250" y="150" font-family="Montserrat, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#ffffff" opacity="0.8">
+    Savol uchun rasm
+  </text>
+  <text x="250" y="170" font-family="Montserrat, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#ffffff" opacity="0.8">
+    Савол учун расм
+  </text>
+  
+  <text x="250" y="210" font-family="Montserrat, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff" opacity="0.6">
+    (будет добавлено позже / keyinroq qo'shiladi / кейинроқ қўшилади)
+  </text>
+  
+  <!-- Иконка изображения -->
+  <rect x="220" y="230" width="60" height="40" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+  <circle cx="235" cy="240" r="4" fill="#ffffff" opacity="0.5"/>
+  <polygon points="225,265 245,245 255,255 275,235 275,265" fill="#ffffff" opacity="0.5"/>
+</svg>

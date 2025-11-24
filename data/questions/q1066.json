@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1066,
+    "image":  "data/images/q1066.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi yotiq yo\u0027l chizig\u0027i avtomobil yo\u0027llarida 3D ko\u0027rinishidagi piyodalar o\u0027tish joyini bildiradi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 2 ilova: 1.29.3-avtomobil yo\u0027llarida “3D” ko\u0027rinishdagi piyodalar o\u0027tish joyi."
+                                },
+                         "ru":  {
+                                    "text":  "Какая горизонтальная разметка обозначает пешеходный переход в «3D» виде?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД приложение № 2: 1.29.3 пешеходный переход в формате «3D» на автомобильных дорогах;"
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси ётиқ йўл чизиғи автомобил йўлларида 3D кўринишидаги пиёдалар ўтиш жойини билдиради?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 2 илова: 1.29.3-автомобил йўлларида “3D” кўринишдаги пиёдалар ўтиш жойи."
+                                 }
+                     }
+}

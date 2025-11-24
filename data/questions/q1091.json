@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  1091,
+    "image":  "data/images/q1091.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi transport vositasining haydovchisi aholi punktlarida to\u0027xtash qoidasini buzmoqda?",
+                                    "options":  [
+                                                    "F1. Sariq avtomobil haydovchisi",
+                                                    "F2. Ko\u0027k avtomobil haydovchisi",
+                                                    "F3. Har ikkisi buzmadi",
+                                                    "F4. Har ikkisi buzdi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 13-bobi 88-bandi: Aholi punktlarida o\u0027rtada tramvay yo\u0027li bo\u0027lmagan, har yo\u0027nalishda bittadan tasmasi bo\u0027lgan, shuningdek bir tomonlama harakat tashkil etilgan yo\u0027llarda yo\u0027lning chap tomonida to\u0027xtash va to\u0027xtab turishga ruxsat etiladi.\n\nYHQ 1 ilova: 7.18. “Nogironlar mustasno”. Belgilarning ta’siri ushbu Qoidalarning 175-bandiga muvofiq “Nogiron” taniqlik belgisi o\u0027rnatilgan transport vositalariga joriy etilmaydi."
+                                },
+                         "ru":  {
+                                    "text":  "Какие транспортного средства нарушает правило остановки в населённых пунктах?",
+                                    "options":  [
+                                                    "F1. Водитель жёлтого автомобиля",
+                                                    "F2. Водитель синего автомобиля",
+                                                    "F3. Оба не нарушили",
+                                                    "F4. Оба нарушили"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 88 главы 13 ПДД, гласит: На левой стороне дороги остановка и стоянка разрешаются в населенных пунктах на дорогах с односторонним движением, имеющим две полосы движения, при отсутствии трамвайных путей посередине.\n\nПДД приложение № 1: 7.18 Кроме инвалидов. Указывает, что действие знака не распространяется на транспортные средства, на которых установлены опознавательные знаки “Инвалид” в соответствии с пунктом 175 настоящих Правил."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси транспорт воситасининг ҳайдовчиси аҳоли пунктларида тўхташ қоидасини бузмоқда?",
+                                     "options":  [
+                                                     "F1. Сариқ автомобил ҳайдовчиси",
+                                                     "F2. Кўк автомобил ҳайдовчиси",
+                                                     "F3. Ҳар иккиси бузмади",
+                                                     "F4. Ҳар иккиси бузди"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 13-боби 88-банди: Аҳоли пунктларида ўртада трамвай йўли бўлмаган, ҳар йўналишда биттадан тасмаси бўлган, шунингдек бир томонлама ҳаракат ташкил этилган йўлларда йўлнинг чап томонида тўхташ ва тўхтаб туришга рухсат этилади.\n\nЙҲҚ 1 илова: 7.18. “Ногиронлар мустасно”. Белгиларнинг таъсири ушбу Қоидаларнинг 175-бандига мувофиқ “Ногирон” таниқлик белгиси ўрнатилган транспорт воситаларига жорий этилмайди."
+                                 }
+                     }
+}

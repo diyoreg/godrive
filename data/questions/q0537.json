@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  537,
+    "image":  "data/images/q0537.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qizil avtomobil haydovchisiga tramvay yo\u0027li bo\u0027yicha harakatlanishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat etiladi",
+                                                    "F2. Taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 10-bobi 69-bandi: Bir yoʻnalishdagi qatnov qismining chap tomonida u bilan bir sathda joylashgan tramvay yo\u0027lidan, shu yoʻnalishdagi boshqa tasmalar band boʻlganda harakatlanishga, shuningdek, aylanib o\u0027tishga, chapga burilish va qayrilib olishga ushbu Qoidalarning 56-bandini hisobga olgan holda ruxsat etiladi. Biroq bu tramvayga xalaqit bermasligi kerak. Qarama-qarshi yo\u0027nalishdagi tramvay yo\u0027lidan harakatlanish taqiqlanadi. Agar chorrahadan oldin 5.8.1 yoki 5.8.2 yo\u0027l belgilari oʻrnatilgan bo\u0027lsa, chorrahadan o\u0027tishda tramvay yo\u0027llaridan harakatlanish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли водителю красного автомобиля двигаться по трамвайным путям?",
+                                    "options":  [
+                                                    "F1. Разрешается",
+                                                    "F2. Запрещается"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункт 69 главы 10 ПДД, гласит: Разрешается движение по трамвайнъим путям попутного направления, расположенным слева на одном уровне с проезжей частью, когда заняты все полосы данного направления, при объезде, обгоне, повороте налево или развороте с учетом пункта 56 настоящих Правил. При этом не должно создаваться помех трамваю. Выезжать на трамвайные пути встречного направления запрещается. Если перед перекрестком установлены дорожные знаки 5.8.1 или 5.8.2, движение по трамвайным путям через перекресток запрещается."
+                                },
+                         "uzk":  {
+                                     "text":  "Қизил автомобиль ҳайдовчисига трамвай йўли бўйича ҳаракатланишга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Рухсат этилади",
+                                                     "F2. Тақиқланади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 10-боби 69-банди: Бир йўналишдаги қатнов қисмининг чап томонида у билан бир сатҳда жойлашган трамвай йўлидан, шу йўналишдаги бошқа тасмалар банд бўлганда ҳаракатланишга, шунингдек, айланиб ўтишга, чапга бурилиш ва қайрилиб олишга ушбу Қоидаларнинг 56-бандини ҳисобга олган ҳолда рухсат этилади. Бироқ бу трамвайга халақит бермаслиги керак. Қарама-қарши йўналишдаги трамвай йўлидан ҳаракатланиш тақиқланади. Агар чорраҳадан олдин 5.8.1 ёки 5.8.2 йўл белгилари ўрнатилган бўлса, чорраҳадан ўтишда трамвай йўлларидан ҳаракатланиш тақиқланади."
+                                 }
+                     }
+}

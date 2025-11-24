@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  1051,
+    "image":  "data/images/q1051.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi rasmda piyodalar qatnav qismida qoidani buzmay harakatlanmoqda?",
+                                    "options":  [
+                                                    "F1. Chapdagi rasmda",
+                                                    "F2. O\u0027ngdagi rasmda",
+                                                    "F3. Ikkala rasmda"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 4-bobi 15-bandi: Qatnov qismi chetida harakatlanayotgan piyodalar transport vositalarining harakatlanishiga qarama-qarshi yo\u0027nalishda yurishlari kerak. Nogironlarning dvigatelsiz aravachasida harakatlanayotgan, mototsikl, elektromototsikl, moped, skuter, velosiped va individual harakatlanish vositalarini yetaklab ketayotgan shaxslar esa bunday hollarda transport vositalarining harakatlanish yo\u0027nalishi bo\u0027ylab yurishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "На каком изображении пешеходы движутся по проезжей части, не нарушая правила?",
+                                    "options":  [
+                                                    "F1. На картинке слева",
+                                                    "F2. На картинке справа",
+                                                    "F3. На обеих картинках"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 15 главы 4 ПДД, гласит: При движении по краю проезжей части пешеходы должны идти навстречу движению транспортных средств. Лица, передвигающиеся в инвалидных колясках без двигателя или ведущие мотоцикл, электрический мотоцикл, мопед, скутер, велосипед и индивидуальные транспортных средств, в таких случаях должны следовать по ходу движения транспортных средств."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси расмда пиёдалар қатнав қисмида қоидани бузмай ҳаракатланмоқда?",
+                                     "options":  [
+                                                     "F1. Чапдаги расмда",
+                                                     "F2. Ўнгдаги расмда",
+                                                     "F3. Иккала расмда"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 4-боби 15-банди: Қатнов қисми четида ҳаракатланаётган пиёдалар транспорт воситаларининг ҳаракатланишига қарама-қарши йўналишда юришлари керак. Ногиронларнинг двигателсиз аравачасида ҳаракатланаётган, мотоцикл, электромотоцикл, мопед, скутер, велосипед ва индивидуал ҳаракатланиш воситаларини етаклаб кетаётган шахслар эса бундай ҳолларда транспорт воситаларининг ҳаракатланиш йўналиши бўйлаб юришлари керак."
+                                 }
+                     }
+}

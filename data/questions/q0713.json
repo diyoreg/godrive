@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  713,
+    "image":  "data/images/q0713.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Yuk avtomobili haydovchisi to\u0027xtab turish qoidasini buzdimi?",
+                                    "options":  [
+                                                    "F1. Buzmadi, agar uning ruxsat etilgan to\u0027liq vazni 3,5 tonnadan oshmasa",
+                                                    "F2. Buzdi",
+                                                    "F3. Buzmadi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 7.6.1 — 7.6.9. «Transport vositasini to\u0027xtab turish joyiga qo\u0027yish usuli». 7.6.2 — 7.6.9 trotuar yonidagi toʻxtab turish joyiga yengil avtomobillar va mototsikllarni qo\u0027yish usulini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Нарушил ли водитель грузового автомобиля правила парковки?",
+                                    "options":  [
+                                                    "F1. Нарушил, если разрешенная максимальная масса автомобиля более 3,5 т",
+                                                    "F2. Нарушил",
+                                                    "F3. Не нарушил"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: 7.6.1 — 7.6.9. «Способ постановки транспортного средства на стоянку». 7.6.2 — 7.6.9. Указывает способ постановки легковых автомобилей и мотоциклов на околотротуарной стоянке."
+                                },
+                         "uzk":  {
+                                     "text":  "Юк автомобили ҳайдовчиси тўxтаб туриш қоидасини буздими?",
+                                     "options":  [
+                                                     "F1. Бузмади, агар унинг рухсат этилган тўлиқ вазни  3,5 тоннадан ошмаса",
+                                                     "F2. Бузди",
+                                                     "F3. Бузмади"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 7.6.1 — 7.6.9. «Транспорт воситасини тўхтаб туриш жойига куйиш усули». 7.6.2 — 7.6.9 тротуар ёнидаги тўхтаб туриш жойига енгил автомобиллар ва мотоциклларни қўйиш усулини билдиради."
+                                 }
+                     }
+}

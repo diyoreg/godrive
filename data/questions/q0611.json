@@ -1,0 +1,36 @@
+{
+    "questionId": 611,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yo'l burilishlarida avtomobilning markazdan qochirma kuchi qanday hollarda oshadi?",
+            "options": [
+                "F1. Burilish radiusi ko'payishi bilan",
+                "F2. Harakat tezligi ortishi bilan",
+                "F3. Harakat tezligi pasayishi bilan"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Inersiya (markazdan qochirma) kuchi avtomobilning burilish bo'ylab harakatida vujudga keladi. Bu holda u burilish markazidan qarama-qarshi yo'nalish tomon yo'naltirilgan va harakat tezligi kattalashishi hamda burilish radiusi kamayishi bilan ko'payadi."
+        },
+        "ru": {
+            "text": "В каких случаях увеличивается центробежная сила автомобиля на поворотах?",
+            "options": [
+                "F1. С увеличением радиуса поворота",
+                "F2. С увеличением скорости движения",
+                "F3. С уменьшением скорости движения"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Центробежная сила автомобиля на поворотах увеличивается с увеличением скорости движения. С увеличением радиуса поворота или уменьшением скорости движения центробежная сила на поворотах уменьшается."
+        },
+        "uzk": {
+            "text": "Йўл бурилишларида автомобилнинг марказдан қочирма кучи қандай ҳолларда ошади?",
+            "options": [
+                "F1. Бурилиш радиуси кўпайиши билан",
+                "F2. Ҳаракат тезлиги ортиши билан",
+                "F3. Ҳаракат тезлиги пасайиши билан"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Инерция (марказдан кочирма) кучи автомобилнинг бурилиш буйлаб харакатида вужудга келади. Бу холда у бурилиш марказидан карама-карши йўналиш томон йўналтирилган ва ҳаракат тезлиги катталашиши ҳамда бурилиш радиуси камайиши билан кўпаяди."
+        }
+    }
+}

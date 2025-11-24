@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  1041,
+    "image":  "data/images/q1041.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu yo\u0027l belgisi qanday nomlanadi?",
+                                    "options":  [
+                                                    "F1. Tik nishablik",
+                                                    "F2. Tik balandlik"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 1.13 Tik nishablik"
+                                },
+                         "ru":  {
+                                    "text":  "Как называется этот дорожный знак?",
+                                    "options":  [
+                                                    "F1. Крутой спуск",
+                                                    "F2. Крутой подъем"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 1: 1.13 Крутой спуск"
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу йўл белгиси қандай номланади?",
+                                     "options":  [
+                                                     "F1. Тик нишаблик",
+                                                     "F2. Тик баландлик"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 1.13 Тик нишаблик"
+                                 }
+                     }
+}

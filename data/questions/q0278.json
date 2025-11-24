@@ -1,0 +1,39 @@
+{
+    "questionId": 278,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yengil avtomobil haydovchisi, aholi yashash punktlaridan tashqaridagi yo'llarda haratlanishda, belgilangan tezlikni oshirish, qaysi vaziyatlarda taqiqlanadi?",
+            "options": [
+                "F1. Faqat yo'lda tezlik cheklangan belgilar o'rnatilgan bo'lsa",
+                "F2. Faqat harakatlanayotgan tirkamali yengil avtomobillarga",
+                "F3. Agar u boshqa transport vositasini shatakka olgan bo'lsa",
+                "F4. Sanab o'tilgan barcha hollarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 1-ilovasi 3-bo'limining yigirma sakkizinchi xatboshisiga asosan: 3.24. «Yuqori tezlik cheklangan». Belgida ko'rsatilganidan ortiq tezlikda (km/s) harakatlanish taqiqlanishini bildiradi.\nYHQ 11-bobi 79-bandiga uchinchi xatboshisiga asosan, aholi punktlaridan tashqarida: boshqa avtobuslar, tirkamali yengil avtomobillar, mototsikllar, elektromototsikllar ruxsat etilgan toʻla vazni 3,5 tonnadan ortiq boʻlgan yuk avtomobillariga tezlikni soatiga 80 kilometrdan oshirmasdan;\nYHQ 11-bobi 80-bandiga uchinchi xatboshisiga asosan, har qanday yo'llarda: mexanik transport vositalarini shatakka olgan transport vositalariga tezlikni soatiga 50 kilometrdan oshirmasdan harakatlanishi taqiqlanadi."
+        },
+        "ru": {
+            "text": "В каких случаях водителю легкового автомобиля при езде вне населённых пунктов запрещается превышать установленную скорость?",
+            "options": [
+                "F1. Только если на дороге установлены дорожные знаки, ограничивающие скорость движения",
+                "F2. Только если он двигается с прицепом",
+                "F3. Если он буксирует другие транспортные средства",
+                "F4. Во всех перечисленных случаях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Требованию знака 3.24 раздела 3 приложения № 1 к ПДД, «Ограничение максимальной скорости» запрещается движение со скоростью (км/ч), превышающей указанную на знаке.\nAбзацу 3 пункта 79 главы 11 ПДД, вне населенных пунктов разрешается движение: другим автобусам, легковым автомобилям при буксировке прицепа, мотоциклам, электромотоциклам, грузовым автомобилям с разрешенной максимальной массой более 3,5 т. -не более 80 км/ч;\nAбзацу 3 пункта 80 главы 11 ПДД, на всех дорогах: транспортным средствам, буксирующим механические транспортные средства не более 50 км/ч."
+        },
+        "uzk": {
+            "text": "Қандай ҳолларда аҳоли пунктидан ташқарида енгил автомобиль ҳайдовчисига соатига 90 км.дан юқори тезликда ҳаракатланиш тақиқланади?",
+            "options": [
+                "F1. Фақат йўлда тезлик чекланган белгилар ўрнатилган бўлса",
+                "F2. Фақат ҳаракатланаётган тиркамали енгил автомобилларга",
+                "F3. Агар у бошқа транспорт воситасини шатакка олган бўлса",
+                "F4. Санаб ўтилган барча ҳолларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг йигирма саккизинчи хатбошисига асосан: 3.24. «Юкори тезлик чекланган. Белгида кўрсатилганидан ортиқ тезликда (км/c) ҳаракатланиш тақиқланишини билдиради.\nЙҲҚ 11-боби 79-бандига учинчи хатбошисига асосан, аҳоли пунктларидан ташқарида: бошқа автобуслар, тиркамали енгил автомобиллар, мотоцикллар, электромотоцикллар рухсат этилган тўла вазни 3,5 тоннадан ортиқ бўлган юк автомобилларига тезликни соатига 80 километрдан оширмасдан;\nЙҲҚ 11-боби 80-бандига учинчи хатбошисига асосан, ҳар қандай йўлларда: механик транспорт воситаларини шатакка олган транспорт воситаларига тезликни соатига 50 километрдан оширмасдан ҳаракатланиши тақиқланади."
+        }
+    }
+}

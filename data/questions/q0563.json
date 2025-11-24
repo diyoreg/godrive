@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  563,
+    "image":  "data/images/q0563.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Yo\u0027lovchilarni tushiradigan barcha transport vositalariga",
+                                                    "F2. Avtobuslarga va trolleybuslarga",
+                                                    "F3. Avtobuslarga, trolleybuslarga va taksi avtomobillariga",
+                                                    "F4. Faqat belgilangan yo\u0027nalishdagi transport vositalariga"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining oltinchi xatboshisiga asosan: 1.4 — to\u0027xtash taqiqlangan joyni bildiradi. Yakka holda yoki 3.27 «To\u0027xtash taqiqlangan» yo\u0027l belgisi bilan qo\u0027llaniladi hamda yo\u0027lning qatnov qismi chetiga yoki yoʻl chetidagi toʻsiq ustidan chiziladi.\nYHQ 1-ilovasi 3-bo\u0027limining oʻttiz sakkizinchi xatboshisiga asosan: 3.27 belgisiga amal qilish yo\u0027nalishli transport vositalariga ta\u0027sir qilmaydi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Всем транспортным средствам, производящим высадку пассажиров",
+                                                    "F2. Автобусам и троллейбусам",
+                                                    "F3. Автобусам, троллейбусам и автомобилям такси",
+                                                    "F4. Только маршрутным транспортным средствам"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Горизонтальная разметка 1.4 (сплошная желтая линия) - обозначает места, где запрещена остановка. Применяется самостоятельно или в сочетании со знаком 3.27 \"Остановка запрещена\" и наносится у края проезжей части или по верху бордюра. Действие знаков 3.1-3.3, 3.18.1, 3.18.2, 3.19, 3.27 не распространяется - на маршрутные транспортные средства. Соответственно, только маршрутным транспортным средствам разрешается остановка в зоне действия знака 3.27 в сочетании с разметкой 1.4."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Йўловчиларни туширадиган барча транспорт воситаларига",
+                                                     "F2. Автобусларга ва троллейбусларга",
+                                                     "F3. Автобусларга, троллейбусларга ва такси автомобилларига",
+                                                     "F4. Фақат белгиланган йўналишдаги транспорт воситаларига"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг олтинчи хатбошисига асосан: 1.4 — тўхташ тақиқланган жойни билдиради. Якка ҳолда ёки 3.27 «Тухташ тақиқланган» йўл белгиси билан қўлланилади ҳамда йўлнинг қатнов қисми четига ёки йўл четидаги тўсиқ устидан чизилади.\nЙҲҚ 1-иловаси 3-бўлимининг ўттиз саккизинчи хатбошисига асосан: 3.27 белгисига амал қилиш йўналишли транспорт воситаларига таъсир қилмайди."
+                                 }
+                     }
+}

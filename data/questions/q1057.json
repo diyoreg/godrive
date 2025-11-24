@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  1057,
+    "image":  "data/images/q1057.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Vaqtinchalik ta\u0027mirlash ishlari olib borilayotgan yo\u0027l qismlariga",
+                                                    "F2. Portlovchi va tez alangalanuvchi yukni tashiyotgan transport vositalariga",
+                                                    "F3. Haydovchi staji 2 yildan kam bo\u0027lgan haydovchilar boshqarayotgan mexanik transport vositalariga"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 29-bobi 176-bandi: “Haydovchilikni endi boshlagan” — “Haydovchilik malakasi yetarli bo\u0027lmagan” haydovchilik staji 2 yildan kam bo\u0027lgan haydovchilar boshqarayotgan mexanik transport vositalarining (traktorlar, o\u0027ziyurar mashinalar mototsikl, elektromototsikllar, mopedlar va skuterlardan tashqari) orqasida — ichiga qora rangli 110 millimetr balandlikdagi “!” belgisining tasviri tushirilgan, sariq rangli, tomonlari 150 millimetr bo\u0027lgan kvadrat ko\u0027rinishidagi belgi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Временный ремонт дороги",
+                                                    "F2. Транспортных средства с взрывчатыми и легковоспламеняющимися грузами",
+                                                    "F3. Механических транспортных средств управляемых водителями, имеющими водительский стаж менее 2 лет"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 176 главы 29 ПДД, гласит: «Начинающий водитель» – «Водитель с недостаточной квалификацией» — в виде квадрата желтого цвета (сторона – 150 мм) с изображением восклицательного знака черного цвета высотой 110 мм – устанавливается сзади механических транспортных средств (за исключением тракторов, самоходных машин, мотоциклы, электромотоциклы, мопеды и скутеры), управляемых водителями, имеющими водительский стаж менее 2 лет."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Вақтинчалик таъмирлаш ишлари олиб борилаётган йўл қисмларига",
+                                                     "F2. Портловчи ва тез алангаланувчи юкни ташиётган транспорт воситаларига",
+                                                     "F3. Ҳайдовчи стажи 2 йилдан кам бўлган ҳайдовчилар бошқараётган механик транспорт воситаларига"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 29-боби 176-банди: “Ҳайдовчиликни энди бошлаган” — “Ҳайдовчилик малакаси етарли бўлмаган” ҳайдовчилик стажи 2 йилдан кам бўлган ҳайдовчилар бошқараётган механик транспорт воситаларининг (тракторлар, ўзиюрар машиналар мотоцикл, электромотоцикллар, мопедлар ва скутерлардан ташқари) орқасида — ичига қора рангли 110 миллиметр баландликдаги “!” белгисининг тасвири туширилган, сариқ рангли, томонлари 150 миллиметр бўлган квадрат кўринишидаги белги."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+{
+    "questionId": 299,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Burilishda harakat qilganda avtopoyezdning tirkamasi siljiydimi?",
+            "options": [
+                "F1. Burilish markazidan boshqa tomonga siljiydi",
+                "F2. Siljimaydi",
+                "F3. Burilish markaziga siljiydi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Avtopoezd bilan bir vaqtda burilishni oʻtayotganda ushbu transport vositasigacha boʻlgan yon oraliq masofasini ko'paytirishingiz lozim, chunki avtopoezd (tirkama) ning orqa g'ʻildiraklari burilish markazi tomon siljiydi va avtopoezd harakat bo'lagi kattalashadi."
+        },
+        "ru": {
+            "text": "Смещается ли прицеп автопоезда при движении на повороте?",
+            "options": [
+                "F1. Не смещается",
+                "F2. Смещается в сторону от центра поворота",
+                "F3. Смещается к центру поворота"
+            ],
+            "correctAnswer": 3,
+            "explanation": "При одновременном прохождении поворота с автопоездом вам следует позаботиться об увеличении бокового интервала до этого транспортного средства, так как задние колеса автопоезда (прицепа) смещаются к центру поворота и увеличивается коридор движения автопоезда."
+        },
+        "uzk": {
+            "text": "Бурилишда ҳаракат қилганда автопоезднинг тиркамаси силжийдими?",
+            "options": [
+                "F1. Бурилиш марказидан бошқа томонга силжийди",
+                "F2. Силжимайди",
+                "F3. Бурилиш марказига силжийди"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Автопоезд билан бир вақтда бурилишни ўтаётганда ушбу транспорт воситасигача бўлган ён оралиқ масофасини кўпайтиришингиз лозим, чунки автопоезд (тиркама) нинг орқа ғилдираклари бурилиш маркази томон силжийди ва автопоезд ҳаракат бўлаги катталашади."
+        }
+    }
+}

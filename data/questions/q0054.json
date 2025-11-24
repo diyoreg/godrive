@@ -1,0 +1,42 @@
+{
+    "questionId": 54,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Avtomagistralda shatakka olishga ruxsat etiladimi?",
+            "options": [
+                "F1. 50 km/s tezlik bilan ruxsat etilgan",
+                "F2. Taqiqlanadi",
+                "F3. Faqat qisman ortish usuli bilan yoki qattiq ulagich bilan ruxsat etiladi",
+                "F4. Egiluvchan tirkagich bilan ruxsat etiladi",
+                "F5. Istalgan usulda ruxsat etilgan"
+            ],
+            "correctAnswer": 5,
+            "explanation": "YHQ 24-bobi 145-bandi: Shatakka olish quyidagi holatlarda taqiqlanadi:\nrul boshqaruvi ishlamayotgan transport vositalarini (qisman ortish usuli bilan shatakka olish bundan mustasno);\nikki va undan ko'p transport vositalarini;\nshatakka olingan va shatakka olgan transport vositalarining ulagich bilan birga umumiy uzunligi 20 metrdan ortiq bo'lsa;\nishchi tormoz tizimi ishlamayotgan transport vositasining haqiqiy vazni shatakka olgan transport vositasining haqiqiy vaznining yarmidan ortiq bo'lsa (haqiqiy vazni kam bo'lgan bunday transport vositasini faqat qattiq ulagich bilan yoki qisman ortish usuli bilan shatakka olishga yo'l qo'yiladi);\nikki g'ildirakli mototsikl, elektromototsikl, moped, skuter va individual harakatlanish vositalari bilan, shuningdek, bunday mototsikl, elektromototsikl, moped, skuter va individual harakatlanish vositalarini;\nyo'l yaxmalak, sirpanchiq bo'lgan hollarda egiluvchan ulagichda."
+        },
+        "ru": {
+            "text": "Разрешена ли буксировка на автомагистрали?",
+            "options": [
+                "F1. Разрешена со скоростью 50 км/час",
+                "F2. Запрещена",
+                "F3. Разрешена только путем частичной погрузки или на жесткой сцепке",
+                "F4. Разрешена на гибкой сцепке",
+                "F5. Разрешена любым способом"
+            ],
+            "correctAnswer": 5,
+            "explanation": "Пункта 145 главы 24 ПДД, гласит: Буксировка запрещается в следующих случаях: транспортных средств, у которых не действует рулевое управление (кроме случаев буксировки методом частичной погрузки);\nдвух и более транспортных средств; при общей длине буксирующего и буксируемого транспортных средств вместе со связующим звеном, превышающей 20 м;\nтранспортного средства с недействующей тормозной системой, если его фактическая масса превышает половину фактической массы буксирующего транспортного средства (кроме случаев буксировки при меньшей фактической массе таких транспортных средств только на жесткой сцепке или методом частичной погрузки.);\nс двухколесными мотоциклами, электромотоциклами, мопедами, скутерами и индивидуальные транспортных средствам, а также такими мотоциклами, электромотоциклами, мопедами, скутерами и индивидуальные транспортных средствам;\nв гололедицу, на скользкой дороге, на гибкой сцепке. В Правилах дорожного движения нет ограничений на буксировку на автомагистралях."
+        },
+        "uzk": {
+            "text": "Автомагистралда шатакка олишга рухсат этиладими?",
+            "options": [
+                "F1. 50 км/с тезлик билан рухсат этилган",
+                "F2. Тақиқланади",
+                "F3. фақат кисман ортиш усули билан ёки қаттиқ улагич билан рухсат этилади",
+                "F4. Эгилувчан тиркагич билан рухсат этилади",
+                "F5. Исталган усулда рухсат этилган"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ЙҲҚ 24-боби 145-банди: Шатакка олиш қуйидаги ҳолатларда тақиқланади:\nруль бошқаруви ишламаётган транспорт воситаларини (қисман ортиш усули билан шатакка олиш бундан мустасно);\nикки ва ундан кўп транспорт воситаларини;\nшатакка олинган ва шатакка олган транспорт воситаларининг улагич билан бирга умумий узунлиги 20 метрдан ортиқ бўлса;\nишчи тормоз тизими ишламаётган транспорт воситасининг ҳақиқий вазни шатакка олган транспорт воситасининг ҳақиқий вазнининг ярмидан ортиқ бўлса (ҳақиқий вазни кам бўлган бундай транспорт воситасини фақат қаттиқ улагич билан ёки қисман ортиш усули билан шатакка олишга йўл қўйилади);\nикки ғилдиракли мотоцикл, электромотоцикл, мопед, скутер ва индивидуал ҳаракатланиш воситалари билан, шунингдек, бундай мотоцикл, электромотоцикл, мопед, скутер ва индивидуал ҳаракатланиш воситаларини;\nйўл яхмалак, сирпанчиқ бўлган ҳолларда эгилувчан улагичда."
+        }
+    }
+}

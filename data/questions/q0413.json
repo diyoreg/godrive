@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  413,
+    "image":  "data/images/q0413.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Oq chiziq bilan belgilangan orolchaga kirishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Faqat to\u0027xtash uchun ruxsat etiladi",
+                                                    "F2. Orqa bilan harakat qilganda ruxsat etiladi",
+                                                    "F3. Taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 2-ilovasi 1-boʻlimining uchinchi, yigirmanchi va o\u0027ttiz to\u0027rtinchi xatboshlariga asosan: 1.1 — qarama-qarshi yo\u0027nalishlarda harakatlanayotgan transport oqimlarini ajratadi, yoʻlning xavfli joylaridagi harakatlanish boʻlagi chegarasini bildiradi. 1.16.2 — transport vositalari oqimi ajraladigan joylardagi yo\u0027naltiruvchi orolchani bildiradi. 1.1 chizig\u0027ini bosib oʻtish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли заезжать на островок, размеченный белыми линиями?",
+                                    "options":  [
+                                                    "F1. Разрешается только для остановки",
+                                                    "F2. Разрешается при движении задним ходом",
+                                                    "F3. Запрещается"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Горизонтальная разметка 1.16.1-1.16.3 - обозначает направляющие островки в местах разделения или слияния транспортных потоков. Горизонтальная разметка 1.1 (сплошная белая линия) - разделяет транспортные потоки противоположных направлений и обозначает границы полос движения в опасных местах на дорогах;\nобозначает границы проезжей части, на которые въезд запрещен;\nобозначает границы стояночных мест транспортных средств и край проезжей части дорог, не отнесенных по условиям движения к автомагистралям. Соответственно, заезжать на островок, размеченный белой линией 1.1 запрещается, т.к. она обозначает границы проезжей части, на которые въезд запрещен."
+                                },
+                         "uzk":  {
+                                     "text":  "Ок чизиқ билан белгиланган оролчага киришга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Фақат тўхташ учун рухсат этилади",
+                                                     "F2. Орқа билан ҳаракат қилганда рухсат этилади",
+                                                     "F3. Тақиқланади"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг учинчи, йигирманчи ва ўттиз тўртинчи хатбошларига асосан: 1.1 — қарама-қарши йўналишларда ҳаракатланаётган транспорт оқимларини ажратади, йўлнинг хавфли жойларидаги ҳаракатланиш бўлаги чегарасини билдиради. 1.16.2 — транспорт воситалари оқими ажраладиган жойлардаги йўналтирувчи оролчани билдиради. 1.1 чизиғини босиб ўтиш тақиқланади."
+                                 }
+                     }
+}

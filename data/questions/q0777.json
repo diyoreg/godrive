@@ -1,0 +1,33 @@
+{
+    "questionId": 777,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yengil avtomobilning orqa oynasiga parda yoki jalyuzilar o'rnatish mumkinmi?",
+            "options": [
+                "F1. Ruxsat etiladi, agarda ikki tomonda orqani ko'rsatuvchi ko'zgusi bo'lsa",
+                "F2. Taqiqlanadi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Vazirlar Mahkamasining 2019 yil 2 avgustdagi 646-son qarori: b) avtotransport vositalari orqa oynasining tusini, shuningdek, avtotransport vositalari old oynasining tepa qismi tusini 14 sm dan koʻp boʻlmagan polosa shaklida yorug'lik o'tkazuvchanligi cheklanmagan darajada o'zgartirish (qoraytirish) ruxsatnomasiz, tasdiqlangan davlat standarti asosida amalga oshiriladi."
+        },
+        "ru": {
+            "text": "Разрешается ли устанавливать шторки или жалюзи на заднем стекле легкового автомобиля?",
+            "options": [
+                "F1. Разрешается, но только при наличии с обеих сторон зеркал заднего вида",
+                "F2. Запрещается"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Постановление Кабинета Министров от 2 августа 2019 года № 646: 6) установка тонировки (затемнения) заднего лобового стекла автотранспортных средств, а также в верхней части переднего лобового стекла автотранспортных средств в виде полосы шириной не более 14 см осуществляется без разрешения и ограничения светопропускания по утвержденному государственному стандарту."
+        },
+        "uzk": {
+            "text": "Енгил автомобилнинг орқа ойнасига парда ёки жалюзилар ўрнатиш мумкинми?",
+            "options": [
+                "F1. Рухсат этилади, агарда икки томонда орқани кўрсатувчи кўзгуси бўлса",
+                "F2. Тақиқланади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Вазирлар Махкамасининг 2019 йил 2 августдаги 646-сон қарори: 6) автотранспорт воситалари орқа ойнасининг тусини, шунингдек, автотранспорт воситалари олд ойнасининг тепа қисми тусини 14 см дан кўп бўлмаган полоса шаклида ёруғлик ўтказувчанлиги чекланмаган даражада ўзгартириш (қорайтириш) рухсатномасиз, тасдиқланган давлат стандарти асосида амалга оширилади."
+        }
+    }
+}

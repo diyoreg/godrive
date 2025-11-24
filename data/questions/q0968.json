@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  968,
+    "image":  "data/images/q0968.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Sariq avtomobil chorrahani nechanchi bo\u0027lib kesib o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Ikkinchi bo\u0027lib",
+                                                    "F2. Uchinchi bo\u0027lib",
+                                                    "F3. Oxirgi bo\u0027lib"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 16-bobi 104-bandi: Teng ahamiyatga ega bo\u0027lmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yo\u0027lda harakatlanayotgan transport vositasining haydovchisi asosiy yo\u0027ldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat’i nazar, yo\u0027l berishi kerak.\nYHQ 16-bobi 106-bandi: Asosiy yo\u0027lning yo\u0027nalishi chorrahada o\u0027zgarganda asosiy yo\u0027lda harakatlanayotgan haydovchilar o\u0027zaro teng ahamiyatli yo\u0027llar chorrahasidan o\u0027tish qoidasiga amal qilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Вторым",
+                                                    "F2. Третьим",
+                                                    "F3. Последним"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 104 главы 16 ПДД, гласит: Ha перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортным средствам, приближающимся по главной дороге, независимо от направления их дальнейшего движения.\nПункта 106 главы 16 ПДД, гласит: Если главная дорога на перекрестке меняет направление, водители, движущиеся по главной дороге, должны руководствоваться между собой правилами проезда перекрестков равнозначных дорог."
+                                },
+                         "uzk":  {
+                                     "text":  "Сариқ автомобиль чорраҳани нечанчи бўлиб кесиб ўтади?",
+                                     "options":  [
+                                                     "F1. Иккинчи бўлиб",
+                                                     "F2. Учинчи бўлиб",
+                                                     "F3. Охирги бўлиб"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 16-боби 104-банди: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак.\nЙҲҚ 16-боби 106-банди: Асосий йўлнинг йўналиши чорраҳада ўзгарганда асосий йўлда ҳаракатланаётган ҳайдовчилар ўзаро тенг аҳамиятли йўллар чорраҳасидан ўтиш қоидасига амал қилишлари керак."
+                                 }
+                     }
+}

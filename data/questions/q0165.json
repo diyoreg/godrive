@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  165,
+    "image":  "data/images/q0165.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Chorrahadan ikkinchi bo\u0027lib qaysi avtomobil o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Oq avtomobil sariq bilan bir vaqtda",
+                                                    "F2. Qizil avtomobil",
+                                                    "F3. Yashil avtomobil"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng ahamiyatga ega boʻlmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yoʻldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat\u0027i nazar, yoʻl berishi kerak.\nYHQ 16-bobi 107-bandiga asosan, chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yo\u0027lda qarama-qarshi yo\u0027nalishdan to\u0027g\u0027riga yoki o\u0027ngga harakatlanayotgan, shuningdek, ruxsat etilgan hollarda quvib o\u0027tayotgan transport vositalariga yo\u0027l berishi shart. Bu qoidaga tramvay haydovchilari ham o\u0027zaro amal qilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Белый автомобиль одновременно с желтым",
+                                                    "F2. Красный автомобиль",
+                                                    "F3. Зеленый автомобиль"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 104 главы 16 ПДД гласит: На перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения.\nПункта 107 главы 16 ПДД гласит: При повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
+                                },
+                         "uzk":  {
+                                     "text":  "Чорраҳадан иккинчи бўлиб қайси автомобиль ўтади?",
+                                     "options":  [
+                                                     "F1. Ок автомобиль сариқ билан бир вактда",
+                                                     "F2. Қизил автомобиль",
+                                                     "F3. Яшил автомобил"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 16-боби 104-бандининг биринчи хатбошисига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак.\nЙҲҚ 16-боби 107-бандига асосан, чапга бурилишда ёки қайрилиб олишда релссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлда қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек, рухсат етилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак."
+                                 }
+                     }
+}

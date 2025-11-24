@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  642,
+    "image":  "data/images/q0642.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi «Bir tomonlama harakatli yo\u0027lining oxiri» deb ataladi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 1-ilovasi 5-bo\u0027limining oltinchi xatboshisiga asosan: 5.6. «Bir tomonlama harakatli yoʻlning oxiri»."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак называется «Конец дороги с односторонним движением»?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Информационно-указательный знак 5.6 \"Конец дороги с односторонним движением\"."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги «Бир томонлама ҳаракатли йўлининг охири» деб аталади?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 1-иловаси 5-бўлимининг олтинчи хатбошисига асосан: 5.6. «Бир томонлама ҳаракатли йўлнинг охири»."
+                                 }
+                     }
+}

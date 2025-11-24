@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  228,
+    "image":  "data/images/q0228.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi transport vositasining haydovchisi yo\u0027l berishi lozim?",
+                                    "options":  [
+                                                    "F1. Yengil avtomobil haydovchisi",
+                                                    "F2. Yuk avtomobil haydovchisi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 9-bobi 55-bandiga asosan: Haydovchi qayta tizilishda harakatlanish yo\u0027nalishini o\u0027zgartirmasdan harakatlanayotgan yo\u0027lakay transport vositalariga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Водитель какого транспорта должен уступить дорогу?",
+                                    "options":  [
+                                                    "F1. Водитель легкового автомобиля",
+                                                    "F2. Водитель грузовика"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 55 главы 9 ПДД гласит: При перестроении водитель должен уступить дорогу транспортным средствам, движущимся попутно по соседней полосе, не меняя направление движения."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси транспорт воситасинИНГ ҳайдовчиси йўл бериши лозим?",
+                                     "options":  [
+                                                     "F1. Енгил автомобиль ҳайдовчиси",
+                                                     "F2. Юк автомобиль ҳайдовчиси"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 9-боби 55-бандига асосан: Ҳайдовчи қайта тизилишда ҳаракатланиш йўналишини ўзгартирмасдан ҳаракатланаётган йўлакай транспорт воситаларига йўл бериши керак."
+                                 }
+                     }
+}

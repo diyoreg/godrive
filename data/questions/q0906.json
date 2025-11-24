@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  906,
+    "image":  "data/images/q0906.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "To\u0027xtash qoidasini qaysi transport vositasining haydovchisi buzdi?",
+                                    "options":  [
+                                                    "F1. Faqat qizil avtomobil haydovchisi",
+                                                    "F2. Har ikkala haydovchi ham",
+                                                    "F3. Faqat ko\u0027k avtomobil haydovchisi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 13-bobi 91-bandi: Quyidagi joy va holatlarda to\u0027xtash taqiqlanadi: transport vositasi svetofor ishoralari, yo\u0027l belgilarini boshqa haydovchilardan to\u0027sib qo\u0027yadigan, boshqa transport vositalarining harakatlanishiga (kirish va chiqishiga) imkon qoldirmaydigan yoki piyodalarning harakatiga xalaqit beradigan joylarda."
+                                },
+                         "ru":  {
+                                    "text":  "Какой водитель нарушил правила остановки?",
+                                    "options":  [
+                                                    "F1. Только водитель красного автомобиля",
+                                                    "F2. Оба водителя",
+                                                    "F3. Только водитель синего автомобиля"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 91 главы 13 ПДД, гласит: Остановка запрещается в следующих местах: в местах, где транспортное средство закроет от других водителей сигналы светофора, дорожные знаки или сделает невозможным движение (въезд или выезд) других транспортных средств, или создаст помехи для движения пешеходов."
+                                },
+                         "uzk":  {
+                                     "text":  "Тўхташ қоидасини қайси транспорт воситасининг ҳайдовчиси бузди?",
+                                     "options":  [
+                                                     "F1. Фақат қизил автомобиль ҳайдовчиси",
+                                                     "F2. Ҳар иккала ҳайдовчи ҳам",
+                                                     "F3. Фақат кўк автомобиль ҳайдовчиси"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 13-боби 91-банди: Қуйидаги жой ва ҳолатларда тўхташ тақиқланади: транспорт воситаси светофор ишоралари, йўл белгиларини бошқа ҳайдовчилардан тўсиб қўядиган, бошқа транспорт воситаларининг ҳаракатланишига (кириш ва чиқишига) имкон қолдирмайдиган ёки пиёдаларнинг ҳаракатига халақит берадиган жойларда."
+                                 }
+                     }
+}

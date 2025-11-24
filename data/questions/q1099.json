@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1099,
+    "image":  "data/images/q1099.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Kemiruvchi va sudralib yuruvchi hayvonlar qaysi javobda ko\u0027rsatilgan?",
+                                    "options":  [
+                                                    "F1. 2 va 3"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 1 ilova: 1.25.3. “Kemiruvchi va sudralib yuruvchi hayvonlar”"
+                                },
+                         "ru":  {
+                                    "text":  "Грызуны и пресмыкающиеся животные указаны в каком ответе?",
+                                    "options":  [
+                                                    "F1. 2 и 3"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "ПДД приложение № 1: 1.25.3. Грызуны и пресмыкающиеся животные"
+                                },
+                         "uzk":  {
+                                     "text":  "Кемирувчи ва судралиб юрувчи ҳайвонлар қайси жавобда кўрсатилган?",
+                                     "options":  [
+                                                     "F1. 2 ва 3"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 1 илова: 1.25.3. “Кемирувчи ва судралиб юрувчи ҳайвонлар”"
+                                 }
+                     }
+}

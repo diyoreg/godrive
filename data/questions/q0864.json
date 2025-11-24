@@ -1,0 +1,36 @@
+{
+    "questionId": 864,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Tezlik ortishi bilan haydovchining ko'rish maydoni qanday o'zgaradi?",
+            "options": [
+                "F1. Torayadi",
+                "F2. Kengayadi",
+                "F3. O'zgarmaydi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Tezlikni oshirganda haydovchining kurish maydoni torayadi sabab shiddat bilan utayotgan masofani haydovchi barchasini kabul kila olmaydi, kamray olmaydi chunki u vaziyatni baxolashi kerak. Katta tezlikda haydovchi ulgurmaydi."
+        },
+        "ru": {
+            "text": "Как изменяется поле зрение водителя с увеличением скорости движения?",
+            "options": [
+                "F1. Сужается",
+                "F2. Расширяется",
+                "F3. Не изменяется"
+            ],
+            "correctAnswer": 1,
+            "explanation": "С увеличением скорости поле зрения водителя сужается, так как водитель вынужден смотреть намного дальше вперед, чтобы успеть оценить ситуацию в стремительно меняющейся дорожной обстановке."
+        },
+        "uzk": {
+            "text": "Тезлик ортиши билан ҳайдовчининг кўриш майдони қандай ўзгаради?",
+            "options": [
+                "F1. Тораяди",
+                "F2. Кенгаяди",
+                "F3. Ўзгармайди"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Тезликни оширганда ҳайдовчининг куриш майдони тораяди сабаб шиддат билан утаётган масофани ҳайдовчи барчасини кабул кила олмайди, камрай олмайди чунки у вазиятни бахолаши керак. Катта тезликда ҳайдовчи улгурмайди."
+        }
+    }
+}

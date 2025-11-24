@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  905,
+    "image":  "data/images/q0905.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qizil avtomobil chorrahani nechanchi bo\u0027lib kesib o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Oxirgi bo\u0027lib",
+                                                    "F2. Birinchi bo\u0027lib",
+                                                    "F3. Ikkinchi bo\u0027lib"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 16-bobi 105-bandi: Teng ahamiyatga ega bo\u0027lgan yo\u0027llar kesishgan chorrahada rel’ssiz transport vositasining haydovchisi o\u0027ngdan kelayotgan transport vositalariga yo\u0027l berishi shart. Bu qoidaga tramvay haydovchilari ham o\u0027zaro amal qilishlari kerak. Bunday chorrahalarda, keyingi harakat yo\u0027nalishidan qat’i nazar, tramvay rel’ssiz transport vositalariga nisbatan oldin o\u0027tish huquqiga ega bo\u0027ladi.\nYHQ 16-bobi 106-bandi: Asosiy yo\u0027lning yo\u0027nalishi chorrahada o\u0027zgarganda asosiy yo\u0027lda harakatlanayotgan haydovchilar o\u0027zaro teng ahamiyatli yo\u0027llar chorrahasidan o\u0027tish qoidasiga amal qilishlari kerak. Ikkinchi darajali yo\u0027llarda harakatlanayotgan haydovchilar ham o\u0027zaro shu qoidaga amal qilishlari kerak.\nYHQ 16-bobi 107-bandi: Chapga burilishda yoki qayrilib olishda rel’ssiz transport vositasining haydovchisi teng ahamiyatli yo\u0027ldan qarama-qarshi yo\u0027nalishdan to\u0027g\u0027riga yoki o\u0027ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib o\u0027tayotgan transport vositalariga yo\u0027l berishi shart. Bu qoidaga tramvay haydovchilari ham o\u0027zaro amal qilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Красный автомобиль проедет перекрёсток?",
+                                    "options":  [
+                                                    "F1. Последним",
+                                                    "F2. Первым",
+                                                    "F3. Вторым"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 105 главы 16 ПДД, гласит: На перекрестке равнозначных дорог водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, приближающимся справа. Этим же правилом должны руководствоваться между собой водители трамваев. На таких перекрестках трамвай имеет право на приоритет движения перед безрельсовыми транспортными средствами, независимо от направления его движения.\nПункта 106 главы 16 ПДД, гласит: Если главная дорога на перекрестке меняет направление, водители, движущиеся по главной дороге, должны руководствоваться между собой правилами проезда перекрестков равнозначных дорог. Этим же правилом должны руководствоваться между собой и водители, движущиеся по второстепенным дорогам.\nПункта 107 главы 16 ПДД, гласит: При повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
+                                },
+                         "uzk":  {
+                                     "text":  "Қизил автомобиль чорраҳани нечанчи бўлиб кесиб ўтади?",
+                                     "options":  [
+                                                     "F1. Охирги бўлиб",
+                                                     "F2. Биринчи бўлиб",
+                                                     "F3. Иккинчи бўлиб"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 16-боби 105-банди: Тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада релъссиз транспорт воситасининг ҳайдовчиси ўнгдан келаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак. Бундай чорраҳаларда, кейинги ҳаракат йўналишидан қатъи назар, трамвай релъссиз транспорт воситаларига нисбатан олдин ўтиш ҳуқуқига эга бўлади.\nЙҲҚ 16-боби 106-банди: Асосий йўлнинг йўналиши чорраҳада ўзгарганда асосий йўлда ҳаракатланаётган ҳайдовчилар ўзаро тенг аҳамиятли йўллар чорраҳасидан ўтиш қоидасига амал қилишлари керак. Иккинчи даражали йўлларда ҳаракатланаётган ҳайдовчилар ҳам ўзаро шу қоидага амал қилишлари керак.\nЙҲҚ 16-боби 107-банди: Чапга бурилишда ёки қайрилиб олишда релъссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак."
+                                 }
+                     }
+}

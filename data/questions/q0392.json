@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  392,
+    "image":  "data/images/q0392.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi ro\u0027paradan harakatlanayotgan transport vositalariga yo\u0027l berishni talab qiladi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1-ilovasi 2-bo\u0027limining o\u0027ninchi xatboshisiga asosan: 2.6. «Ro\u0027para harakatlanishning ustunligi». Qarama-qarshi harakatlanishni qiyinlashtiradigan hollarda yo\u0027lning tor qismiga kirish taqiqlanadi. Haydovchi yoʻlning tor qismida bo\u0027lgan yoki ro\u0027paradan unga yaqin bo\u0027lgan transport vositasiga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак требует уступить дорогу встречным транспортным средствам?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Знак приоритета 2.6 \"Приоритет встречного движения\". Запрещается въезд на узкий участок дороги, если это может затруднить встречное движение. Водитель должен уступить дорогу встречным транспортным средствам, находящимся на узком участке или противоположном подъезде к нему."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги рўпарадан ҳаракатланаётган транспорт воситаларига йўл беришни талаб қилади?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1-иловаси 2-булимининг ўнинчи хатбошисига асосан: 2.6. «Рўпара ҳаракатланишнинг устунлиги». Қарама-қарши ҳаракатланишни қийинлаштирадиган ҳолларда йўлнинг тор қисмига кириш тақиқланади. Ҳайдовчи йўлнинг тор қисмида бўлган ёки рўпарадан унга яқин бўлган транспорт воситасига йўл бериши керак."
+                                 }
+                     }
+}

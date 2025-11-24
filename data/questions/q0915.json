@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  915,
+    "image":  "data/images/q0915.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi ikkinchi darajali yo\u0027l bilan kesishuvni bildiradi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 2.3.1. «Ikkinchi darajali yo\u0027l bilan kesishuv»."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 1: 2.3.1. «Пересечение с дорогой второго уровня»."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги иккинчи даражали йўл билан кесишувни билдиради?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 2.3.1. «Иккинчи даражали йўл билан кесишув»."
+                                 }
+                     }
+}

@@ -1,0 +1,39 @@
+{
+    "questionId": 154,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Temir yo'l izlarini qayerda kesib o'tishga ruxsat etiladi?",
+            "options": [
+                "F1. Ko'rinish ikkala yo'nalishda 1000 metrdan kam bo'lmagan joylarda",
+                "F2. Haydovchining nuqtai nazaricha eng qulay joylarda",
+                "F3. Kesib o'tish uchun belgilab qo'yilgan joylarda",
+                "F4. Temir yo'l bekatiga 1000 metrdan kam bo'lmagan masofada"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 18-bobi 116-bandiga asosan: Transport vositalarining haydovchilari temir yo'llarni faqat temir yo'l kesishmalari orqali poezd (lokomotiv, drezina) larga yo'l berib kesib o'tishlari mumkin."
+        },
+        "ru": {
+            "text": "Где разрешается пересекать железнодорожные пути?",
+            "options": [
+                "F1. В местах, где видимость в обоих направлениях не менее 1000 м",
+                "F2. В местах, наиболее удобных, с точки зрения водителя",
+                "F3. В установленных для этого местах",
+                "F4. Не ближе 1000 м от железнодорожной станции"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 116 главы 18 ПДД гласит: Водители транспортных средств могут пересекать железнодорожные пути только по железнодорожным переездам, уступив дорогу поезду (локомотиву, дрезине). Соответственно, нельзя пересекать железнодорожные пути где попало, можно только в установленных для этого местах, т.е. по железнодорожным переездам."
+        },
+        "uzk": {
+            "text": "Темир йўл изларини қаерда кесиб ўтишга рухсат этилади?",
+            "options": [
+                "F1. Кўриниш иккала йўналишда 1000 метрдан кам бўлмаган жойларда",
+                "F2. Ҳайдовчининг нуқтаи назарича энг қулай жойларда",
+                "F3. Кесиб ўтиш учун белгилаб қўйилган жойларда",
+                "F4. Темир йўл бекатига 1000 метрдан кам бўлмаган масофада"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 18-боби 116-бандига асосан: Транспорт воситаларининг ҳайдовчилари темир йўлларни фақат темир йўл кесишмалари орқали поезд (локомотив, дрезина) ларга йўл бериб кесиб ўтишлари мумкин."
+        }
+    }
+}

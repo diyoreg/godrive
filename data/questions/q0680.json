@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  680,
+    "image":  "data/images/q0680.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bolalarni tashishda transport vositasi qaysi taniqlik belgisi bilan belgilanadi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 29-bobi 176-bandining uchinchi xatboshisiga asosan: «Bolalar guruhini tashish» — bolalar guruhini tashkiliy tashishda, transport vositasining old va orqa tomonlariga qizil hoshiyali, ichiga 1.21 yoʻl belgisidagi bolalar timsolining tasviri tushirilgan, sariq rangdagi, tomonlari teng bo\u0027lgan toʻrtburchak (kvadrat) ko\u0027rinishidagi belgi. To\u0027rtburchakning tomonlari 250 — 300 millimetrgacha, hoshiyaning kengligi to\u0027rtburchak tomonining 1/10 qismiga teng bo\u0027lishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Каким опознавательным знаком обозначается транспортное средство при перевозке групп детей?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Предупреждающий знак 1.21 \"Дети\". Участок дороги вблизи детского учреждения (школы, места отдыха детей и т.п.), на проезжей части которого возможно появление детей.\nОпознавательный знак \"Перевозка группы детей\" - знак в виде квадрата желтого цвета с каймой красного цвета и с черным изображением символа дорожного знака 1.21 \"Дети\". Устанавливается спереди и сзади транспортного средства при перевозке групп детей на автобусе или специально оборудованном кузове грузового автомобиля. Сторона квадратного знака должна быть от 250 до 300 мм, а ширина каймы - 1/10 стороны."
+                                },
+                         "uzk":  {
+                                     "text":  "Болаларни ташишда транспорт воситаси қайси таниқлик белгиси билан белгиланади?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 29-боби 176-бандининг учинчи хатбошисига асосан: «Болалар гуруҳини ташиш» — болалар гуруҳини ташкилий ташишда, транспорт воситасининг олд ва орқа томонларига қизил ҳошияли, ичига 1.21 йўл белгисидаги болалар тимсолининг тасвири туширилган, сариқ рангдаги, томонлари тенг бўлган тўртбурчак (квадрат) кўринишидаги белги. Тўртбурчакнинг томонлари 250 — 300 миллиметргача, ҳошиянинг кенглиги тўртбурчак томонининг 1/10 қисмига тенг бўлиши керак."
+                                 }
+                     }
+}

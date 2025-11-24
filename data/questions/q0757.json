@@ -1,0 +1,36 @@
+{
+    "questionId": 757,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Birinchi uzatmada uzoq tezlanishda yurish yoqilg'i sarfiga qanday ta’sir etadi?",
+            "options": [
+                "F1. Yoqilg'i sarfi o'zgarmaydi",
+                "F2. Yoqilg'i sarfi ortadi",
+                "F3. Yoqilg'i sarfi kamayadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dvigatel yuqori tezlikda ishlayotganida, birinchi uzatma yoqilgan avtomobilning uzoq vaqt tezlashishi yoqilg'i sarfini oshiradi."
+        },
+        "ru": {
+            "text": "Как влияет длительный разгон транспортного средства с включенной первой передачей на расход топлива?",
+            "options": [
+                "F1. Расход топлива не изменяется",
+                "F2. Расход топлива увеличивается",
+                "F3. Расход топлива уменьшается"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Длительный разгон транспортного средства с включенной первой передачей, когда двигатель работает на повышенных оборотах, увеличивает расход топлива."
+        },
+        "uzk": {
+            "text": "Биринчи узатмада узоқ тезланишда юриш ёқилғи сарфига қандай таъсир этади?",
+            "options": [
+                "F1. Ёқилғи сарфи ўзгармайди",
+                "F2. Ёқилғи сарфи ортади",
+                "F3. Ёқилғи сарфи камаяди"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Двигател юқори тезликда ишлаётганида, биринчи узатма ёқилган автомобилнинг узоқ вақт тезлашиши ёқилғи сарфини оширади."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "questionId": 29,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qo'l jarohatlanganda kiyim qanday tartibda kiydiriladi?",
+            "options": [
+                "F1. Kiyim avval jarohatlangan qoʻlga, so'ngra sog'iga kiydiriladi",
+                "F2. Kiyim ikkala qo'lga baravar kiydiriladi",
+                "F3. Kiyim avval sog' qoʻlga, so'ngra jarohatlangan qo'lga kiydiriladi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "IzohShikastlangan qo'l yoki oyoqni majburiy harakatga solmasdan, kiyim kiydirish imkonini yaratish uchun avval kiyim shikastlangan, soʻngra shikastlanmagan qoʻl yoki oyoqqa ehtiyotlik bilan kiydiriladi."
+        },
+        "ru": {
+            "text": "Как правильно надевается одежда при ранении руки?",
+            "options": [
+                "F1. Одежда надевается сначала на раненую, а потом на здоровую руку",
+                "F2. Одежда надевается на обе руки сразу",
+                "F3. Одежда надевается сначала на здоровую руку, а потом на раненую"
+            ],
+            "correctAnswer": 1,
+            "explanation": "При ранении руки одежда надевается сначала на раненую, а потом на здоровую руку. Это связано с тем, что больную руку нежелательно двигать, а при надевании первая рука всегда одевается легко, а вторую приходится выворачивать."
+        },
+        "uzk": {
+            "text": "Қўл жароҳатланганда кийим қандай тартибда кийдирилади?",
+            "options": [
+                "F1. Кийим аввал жароҳатланган қўлга, сўнгра соғига кийдирилади",
+                "F2. Кийим иккала қўлга баравар кийдирилади",
+                "F3. Кийим аввал соғ кўлга, сўнгра жароҳатланган қўлга кийдирилади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ИзоҳШикастланган қўл ёки оёқни мажбурий ҳаракатга солмасдан, кийим кийдириш имконини яратиш учун аввал кийим шикастланган, сўнгра шикастланмаган қўл ёки оёққа эҳтиётлик билан кийдирилади."
+        }
+    }
+}

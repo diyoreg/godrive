@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  729,
+    "image":  "data/images/q0729.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Haydovchi chapga burilishda qaysi yo\u0027nalish bo\u0027yicha qoidani buzmoqda?",
+                                    "options":  [
+                                                    "F1. Faqat «Б» yo\u0027nalishi bo\u0027yicha",
+                                                    "F2. Faqat «A» yo\u0027nalishi bo\u0027yicha",
+                                                    "F3. Ko\u0027rsatilgan barcha yo\u0027nalish bo\u0027yicha"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1 ilova: 5.8.1. \"Tasmalar bo\u0027yicha harakat yo\u0027nalishi\" Tasmalar soni va har biri bo\u0027yicha ruxsat etilgan harakatlanish yo\u0027nalishlari. Boshqa yo\u0027nalishlar bo\u0027yicha harakatlanish taqiqlanadi.\nYHQ 2 ilova: 1.1 — qarama-qarshi yo\u0027nalishlarda harakatlanayotgan transport oqimlarini ajratadi, yo\u0027lning xavfli joylaridagi harakatlanish bo\u0027lagi chegarasini va velosipedchilar uchun bo\u0027lagining chegarasini bildiradi; yo\u0027lning kirish taqiqlangan qismi chegarasini belgilaydi; transport vositalarining to\u0027xtab turish joyi chegarasini hamda avtomagistral qatoriga kiritilmagan yo\u0027lning qatnov qismi chegarasini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "По какой траектории водитель автомобиля движется нарушая правила при повороте налево?",
+                                    "options":  [
+                                                    "F1. Только по траектории «Б»",
+                                                    "F2. Только по траектории «A»",
+                                                    "F3. По любой траектории из указанных"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД приложение № 1: 5.8.1. «Направления движения по полосам». Число полос и разрешенные направления движения на каждой из них.\nПДД приложение № 2: Разметка 1.1 — разделяет транспортные потоки противоположных направлений и обозначает границы полос движения в опасных местах на дорогах;\nобозначает границы проезжей части, на которые въезд запрещен;\nобозначает границы стояночных мест транспортных средств, и край проезжей части дорог, не отнесенных по условиям движения к автомагистралям."
+                                },
+                         "uzk":  {
+                                     "text":  "Ҳайдовчи чапга бурилишда қайси йўналиш буйича қоидани бузмоқда?",
+                                     "options":  [
+                                                     "F1. Фақат «Б» йўналиши бўйича",
+                                                     "F2. Фақат «A» йўналиши бўйича",
+                                                     "F3. Кўрсатилган барча йўналиш бўйича"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1 илова: 5.8.1. «Тасмалар бўйича ҳаракат йўналиши». Тасмалар сони ва ҳар бири бўйича рухсат етилган ҳаракатланиш йўналишлари. Бошқа йўналишлар бўйича ҳаракатланиш тақиқланади.\nЙҲҚ 2 илова: 1.1 — қарама-қарши йўналишларда ҳаракатланаётган транспорт оқимларини ажратади, йўлнинг хавфли жойларидаги ҳаракатланиш бўлаги чегарасини ва велосипедчилар учун бўлагининг чегарасини билдиради; йўлнинг кириш тақиқланган қисми чегарасини белгилайди; транспорт воситаларининг тўхтаб туриш жойи чегарасини ҳамда автомагистрал қаторига киритилмаган йўлнинг қатнов қисми чегарасини билдиради;"
+                                 }
+                     }
+}

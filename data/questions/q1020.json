@@ -1,0 +1,42 @@
+{
+    "questionId": 1020,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qoidalarga ko'ra shatakka olish vaqtida bir-biriga ulangan transport vositalari tarkibining qanday umumiy uzunligiga yo'l qo'yiladi?",
+            "options": [
+                "F1. 20 m",
+                "F2. 21 m",
+                "F3. 22 m",
+                "F4. 23 m",
+                "F5. 24 m"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 24-bobi 145-bandi: Shatakka olish quyidagi holatlarda taqiqlanadi: Shatakka olingan va shatakka olgan transport vositalarining ulagich bilan birga umumiy uzunligi 20 metrdan ortiq bo'lsa."
+        },
+        "ru": {
+            "text": "Какая общая длина поезда сцепленных транспортных средств допускается Правилами при буксировке?",
+            "options": [
+                "F1. 20 м",
+                "F2. 21 м",
+                "F3. 22 м",
+                "F4. 23 м",
+                "F5. 24 м"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 145 главы 24 ПДД, гласит: Буксировка запрещается в следующих случаях: двух и более транспортных средств; при общей длине буксирующего и буксируемого транспортных средств вместе со связующим звеном, превышающей 20 м."
+        },
+        "uzk": {
+            "text": "Қоидаларга кўра шатакка олиш вақтида бир-бирига уланган транспорт воситалари таркибининг қандай умумий узунлигига йўл қўйилади?",
+            "options": [
+                "F1. 20 м",
+                "F2. 21 м",
+                "F3. 22 м",
+                "F4. 23 м",
+                "F5. 24 м"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 24-боби 145-банди: Шатакка олиш қуйидаги ҳолатларда тақиқланади: Шатакка олинган ва шатакка олган транспорт воситаларининг улагич билан бирга умумий узунлиги 20 метрдан ортиқ бўлса."
+        }
+    }
+}

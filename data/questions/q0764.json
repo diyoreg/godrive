@@ -1,0 +1,33 @@
+{
+    "questionId": 764,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Tuman sharoitida, agar ko'rinish masofasi 300 metrdan kam bo'lsa kunduzgi chiroqlarni yoqish yetarlimi?",
+            "options": [
+                "F1. Yetarli",
+                "F2. Yetarli emas"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 23-bobi 137-bandi: Quyidagi hollarda tumanga qarshi fara chiroqlaridan foydalanish mumkin: yetarlicha ko'rinmaydigan sharoitda alohida, shuningdek, uzoqni yorituvchi yoki yaqinni yorituvchi fara chiroqlari bilan;\nsutkaning qorong'i vaqtida yo'lning yoritilmagan qismlarida uzoqni yoki yaqinni yorituvchi fara chiroqlari bilan birga."
+        },
+        "ru": {
+            "text": "Достаточно ли включения дневных ходовых огней для обозначения транспортного средства при движении в тумане, когда видимость дороги менее 300 м?",
+            "options": [
+                "F1. Достаточно",
+                "F2. Недостаточно"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 137 главы 23 ПДД, гласит: Противотуманные фары можно использовать в следующих случаях: в условиях плохой видимости отдельно, а также с фарами, освещающими даль или освещающими ближнее; вместе с фарами, освещающими вдали или вблизи неосвещенные участки дороги в темное время суток. Яркость светодиодов, используемых в дневных ходовых огнях, считается достаточной для обозначения ТС вместо ближнего света фар при движении в светлое время суток. Однако при движении в тумане и других условиях недостаточной видимости на ТС должны быть включены противотуманные фары или фары ближнего света."
+        },
+        "uzk": {
+            "text": "Туман шароитида, агар кўриниш масофаси 300 метрдан кам бўлса кундузги чироқларни ёқиш етарлими?",
+            "options": [
+                "F1. Етарли",
+                "F2. Етарли емас"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 23-боби 137-банди: Қуйидаги ҳолларда туманга қарши фара чироқларидан фойдаланиш мумкин: етарлича кўринмайдиган шароитда алоҳида, шунингдек, узоқни ёритувчи ёки яқинни ёритувчи фара чироқлари билан;\nсутканинг қоронғи вақтида йўлнинг ёритилмаган қисмларида узоқни ёки яқинни ёритувчи фара чироқлари билан бирга."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  353,
+    "image":  "data/images/q0353.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Trotuar yaqinidagi to\u0027xtab turish joyida mexanik transport vositalarining qo\u0027yish usullari ko\u0027rsatilgan to\u0027xtab turish joyini bildiradi",
+                                                    "F2. Mexanik transport vositalarining to\u0027xtashi taqiqlangan joylarni bildiradi",
+                                                    "F3. Belgilangan yo\u0027nalishdagi transport vositalarining to\u0027xtash va taksining to\u0027xtab turish joyini bildiradi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining yigirma birinchi xatboshisiga asosan: 1.17 — yo\u0027nalishli transport vositalarining bekatlari hamda taksilarning to\u0027xtab turish joylarini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Обозначает стояночные места, где указаны способы постановки механических транспортных средств на около тротуарной стоянке",
+                                                    "F2. Обозначает места, где запрещена остановка механических транспортных средств",
+                                                    "F3. Обозначает остановку маршрутных транспортных средств и стоянки такси"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Горизонтальная разметка 1.17 (желтая зигзагообразная линия) - обозначает остановки маршрутных транспортных средств и стоянки такси."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Тротуар яқинидаги тўхтаб туриш жойида механик транспорт воситаларининг қўйиш усуллари кўрсатилган тўхтаб туриш жойини билдиради",
+                                                     "F2. Механик транспорт воситаларининг тўхташи тақиқланган жойларни билдиради",
+                                                     "F3. Белгиланган йўналишдаги транспорт воситаларининг тўхташ ва таксининг тўхтаб туриш жойини билдиради"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг йигирма биринчи хатбошисига асосан: 1.17 — йўналишли транспорт воситаларининг бекатлари ҳамда таксиларнинг тўхтаб туриш жойларини билдиради."
+                                 }
+                     }
+}

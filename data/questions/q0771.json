@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  771,
+    "image":  "data/images/q0771.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Siz ro\u0027paradan yaqinlashayotgan yuk avtomobiliga yo\u0027l berishingiz kerakmi?",
+                                    "options":  [
+                                                    "F1. Yo\u0027q"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 10-bobi 75-bandi: Agar biror to\u0027siq sababli qarama-qarshi yo\u0027nalishlarda harakatlanish qiyin bo\u0027lsa, to\u0027siq o\u0027z tomonida bo\u0027lgan haydovchi yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Должны ли Вы уступить дорогу встречному грузовому автомобилю?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 75 главы 10 ПДД, гласит: Если встречный разъезд затруднён, то водитель на стороне которого имеется препятствие, должен уступить дорогу."
+                                },
+                         "uzk":  {
+                                     "text":  "Сиз рўпарадан яқинлашаётган юк автомобилига йўл беришингиз керакми?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 10-боби 75-банди: Агар бирор-бир тўсиқ сабабли қарама-қарши йўналишларда ҳаракатланиш қийин бўлса, тўсиқ ўз томонида бўлган ҳайдовчи йўл бериши керак."
+                                 }
+                     }
+}

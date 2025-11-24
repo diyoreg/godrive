@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  1111,
+    "image":  "data/images/q1111.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu belgi qanday nomlanadi?",
+                                    "options":  [
+                                                    "F1. Oksidlovchi moddalar",
+                                                    "F2. Organik peroksidlar",
+                                                    "F3. Tez alangalanadigan gazlar va suyuqliklar"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 4 ilova: Xavflilik belgilari: Organik peroksidlar"
+                                },
+                         "ru":  {
+                                    "text":  "Как называется этот знак?",
+                                    "options":  [
+                                                    "F1. Окисляющие вещества",
+                                                    "F2. Органические пероксиды",
+                                                    "F3. Легковоспламеняющиеся газы и жидкости"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 4: Опасности: Органические пероксиды"
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу белги қандай номланади?",
+                                     "options":  [
+                                                     "F1. Оксидловчи моддалар",
+                                                     "F2. Органик пероксидлар",
+                                                     "F3. Тез алангаланадиган газлар ва суюқликлар"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 4 илова: Хавфлилик белгилари: Органик пероксидлар"
+                                 }
+                     }
+}

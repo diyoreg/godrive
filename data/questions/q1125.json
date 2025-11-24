@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  1125,
+    "image":  "data/images/q1125.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi yo\u0027nalishda harakatlanishga ruxsat beriladi?",
+                                    "options":  [
+                                                    "F1. «А» va «Б»",
+                                                    "F2. «Б» va «В»",
+                                                    "F3. Barcha yo\u0027nalishlarda"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 9-bobi 57-bandiga asosan: Burilishni shunday amalga oshirish kerakki, bunda qatnov qismlarining kesishmasidan chiqayotgan transport vositasi qarama-qarshi yo\u0027nalishdagi harakatlanish tomoniga o\u0027tib ketmasligi kerak.\nO\u0027ngga burilishda transport vositasi iloji boricha qatnov qismining o\u0027ng chetiga yaqinroqda harakatlanishi kerak.\n\nYHQ 1 ilova: 4.1.4. “Harakatlanish to\u0027g‘riga yoki o\u0027ngga”. Faqat belgilarda ko\u0027rsatilgan ko\u0027rsatkichlar yo\u0027nalishlarida harakatlanishga ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "В каком направлении разрешено движение?",
+                                    "options":  [
+                                                    "F1. «А» и «Б»",
+                                                    "F2. «Б» и «В»",
+                                                    "F3. Во всех направлениях"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 57 главы 9 ПДД, гласит: Поворот должен осуществляться таким образом, чтобы при выезде с пересечения проезжих частей транспортное средство не оказалось на стороне встречного движения.\n\nПДД приложение № 1: Знак 4.1.4 Движение прямо или направо."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси йўналишда ҳаракатланишга рухсат берилади?",
+                                     "options":  [
+                                                     "F1. «А» ва «Б»",
+                                                     "F2. «Б» ва «В»",
+                                                     "F3. Барча йўналишларда"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 9-боби 57-бандига асосан: Бурилишни шундай амалга ошириш керакки, бунда қатнов қисмларининг кесишмасидан чиқаётган транспорт воситаси қарама-қарши йўналишдаги ҳаракатланиш томонига ўтиб кетмаслиги керак.\nЎнгга бурилишда транспорт воситаси иложи борича қатнов қисмининг ўнг четига яқинроқда ҳаракатланиши керак.\n\nЙҲҚ 1 илова: 4.1.4. “Ҳаракатланиш тўғрига ёки ўнгга”. Фақат белгиларда кўрсатилган кўрсаткичлар йўналишларида ҳаракатланишга рухсат этилади."
+                                 }
+                     }
+}

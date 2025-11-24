@@ -1,0 +1,33 @@
+{
+    "questionId": 419,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Jarohatdan xushsizlanganda birinchi tibbiy yordamni qanday ko'rsatish kerak?",
+            "options": [
+                "F1. Kiyim-boshni yechish yoki bo'shatish, toza havo kelishi ta'minlash. Nashatir spirti hidlatish. Yuzga sovuq suv sepish. Peshona va gardanga iliq malhamlar qo'yish",
+                "F2. Mutloq tinch qo'yish. Boshni tushirish, oyoqlarni ko'tarish, badanni isitish. Qaynoq ichimlik (choy va shu kabilar) berish. Bog'langan jgutni shifokorsiz yechmaslik va bo'shatmaslik"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Jarohat shoki-malakali tibbiy yordam talab qiladigan muhim funksiyalarining jiddiy jabrlanishidir. Shifokor kelguniga qadar birinchi tibbiy yordam tartibida jabrlanuvchiga oʻta avaylovchi sharoitlar yaratib berish lozim, ya'ni uni yotqizish, o'rab qo'yish, og'riq qoldiruvchi dori berish, tomir urishi va nafas olishini nazorat qilish kerak."
+        },
+        "ru": {
+            "text": "Как оказать первую медицинскую помощь при травматическом шоке?",
+            "options": [
+                "F1. Одежду снять или ослабить. Обеспечить приток свежего воздуха. Дать понюхать нашатырный спирт. Обрызгать лицо холодной водой. На лоб и затылок наложить теплые примочки",
+                "F2. Полный покой. Голову опустить, ноги приподнять, тело согреть. Дать выпить горячее питье (чай и т.д.). Наложенный жгут без врача не снимать и не ослаблять!"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Травматический шок – глубокое угнетение жизненно важных функций, требующее квалифицированной медицинской помощи. В порядке первой доврачебной помощи необходимо создать наиболее щадящие условия для пострадавшего, т.е. уложить его, укрыть, дать болеутоляющие средства и контролировать дыхание и пульс."
+        },
+        "uzk": {
+            "text": "Жароҳатдан хушсизланганда биринчи тиббий ёрдамни қандай кўрсатиш керак?",
+            "options": [
+                "F1. Кийим-бошни ечиш ёки бўшатиш, тоза ҳаво келишини таъминлаш. Нашатир спирти ҳидлатиш. Юзга совук сув сепиш. Пешона ва гарданга илик малҳамлар қўйиш",
+                "F2. Мутлок тинч қўйиш. Бошни тушириш, оёкларни кўтариш, баданни иситиш. Қайноқ ичимлик (чой ва шу кабилар) бериш. Боғланган жгутни шифокорсиз ечмаслик ва бўшатмаслик"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Жароҳат шоки-малакали тиббий ёрдам талаб қиладиган муҳим функцияларининг жиддий жабрланишидир. Шифокор келгунига қадар биринчи тиббий ёрдам тартибида жабрланувчига ўта авайловчи шароитлар яратиб бериш лозим, яъни уни ётқизиш, ўраб қўйиш, оғриқ қолдирувчи дори бериш, томир уриши ва нафас олишини назорат қилиш керак."
+        }
+    }
+}

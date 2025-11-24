@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  823,
+    "image":  "data/images/q0823.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi velosiped yo\u0027lkasini ko\u0027rsatadi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ, 1-ilova: 4.5. «Velosiped yo\u0027lkasi». Faqat velosiped va individual harakatlanish vositalarida harakatlanishga ruxsat etilishini bildiradi. Trotuar yoki piyodalar yo\u0027lkasi bo\u0027lmasa, velosiped yo\u0027lkasidan piyodalar ham yurishlari mumkin."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак указывает велосипедную дорожку?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД, Приложение № 1: 4.5. «Велосипедная дорожка». Разрешается движение только на велосипедах и индивидуальные транспортных средствам. При отсутствии тротуара или пешеходной дорожки по велосипедной дорожке могут двигаться также пешеходы."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги велосипед йўлкасини кўрсатади?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1-Илова: 4.5. «Велосипед йўлкаси». Фақат велосипед ва индивидуал ҳаракатланиш воситаларида ҳаракатланишга рухсат этилишини билдиради. Тротуар ёки пиёдалар йўлкаси бўлмаса, велосипед йўлкасидан пиёдалар ҳам юришлари мумкин."
+                                 }
+                     }
+}

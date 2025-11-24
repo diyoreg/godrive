@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  819,
+    "image":  "data/images/q0819.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu belgilardan qaysi biri haydovchining shu joydagi yashash yoki ishlash joyiga yetib borshiga monelik qilmaydi?",
+                                    "options":  [
+                                                    "F1. «B» va «C»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1-ilova 3.2. «Harakatlanish taqiqlangan»."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из этих знаков не запрещает проезд до места жительства или работы?",
+                                    "options":  [
+                                                    "F1. «B» и «C»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1 знак 3.2. «Движение запрещено»."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу белгилардан қайси бири ҳайдовчининг шу жойдаги яшаш ёки ишлаш жойига етиб боршига монелик қилмайди?",
+                                     "options":  [
+                                                     "F1. «В» ва «C»"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1-илова 3.2. «Ҳаракатланиш такикланган»."
+                                 }
+                     }
+}

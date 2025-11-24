@@ -1,0 +1,33 @@
+{
+    "questionId": 980,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Trotuar va piyodalar yo'lkasi bo'lmaganda bolalar guruhini yo'lda qanday tartibda olib yurish mumkin?",
+            "options": [
+                "F1. Qatnov qismi chetidan katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi",
+                "F2. Yo'l yoqasidan faqat kunduzi va katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 4-bobi 16-bandi: Bolalar guruhini trotuarlar va piyodalar yo'lkalaridangina, ular boʻlmaganda esa yo'l yoqasidan faqat sutkaning yorug' vaqtida va katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "Как водить группы детей при отсутствии пешеходных дорожек и тротуара?",
+            "options": [
+                "F1. С краю проезжей части в сопровождении взрослых",
+                "F2. По обочинам, только в светлое время суток и в сопровождении взрослых"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 16 главы 4 ПДД, гласит: Группы детей разрешается водить только по тротуарам и пешеходным дорожкам, а при их отсутствии — по обочинам, только в светлое время суток и в сопровождении взрослых."
+        },
+        "uzk": {
+            "text": "Тротуар ва пиёдалар йўлкаси бўлмаганда болалар гуруҳини йўлда қандай тартибда олиб юриш мумкин?",
+            "options": [
+                "F1. Қатнов қисми четидан катта ёшдагилар кузатувида олиб юришга рухсат этилади",
+                "F2. Йўл ёқасидан фақат кундузи ва катта ёшдагилар кузатувида олиб юришга рухсат этилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 4-боби 16-банди: Болалар гуруҳини тротуарлар ва пиёдалар йўлкаларидангина, улар бўлмаганда эса йўл ёқасидан фақат сутканинг ёруғ вақтида ва катта ёшдагилар кузатувида олиб юришга рухсат этилади."
+        }
+    }
+}

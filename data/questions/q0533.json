@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  533,
+    "image":  "data/images/q0533.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Haydovchi, agar uning transport vositasi 40 km/soatga teng yoki undan ortiq tezlik bilan balandlikka chiqa olmasa, nima chora ko\u0027rishi kerak?",
+                                    "options":  [
+                                                    "F1. Asosiy tasma bo\u0027yicha, agar unda boshqa transport vositalari yo\u0027q bo\u0027lsa, harakatlanishni davom ettirishi",
+                                                    "F2. Qo\u0027shimcha tasmaga qayta tizilishi",
+                                                    "F3. Agar balandlikning davomliligi 30 metrdan oshmasa, asosiy tasma bo\u0027yicha harakatlanishni davom ettirishi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1-ilovasi 5-bobi: 5.8.3. bandi: «Tasmaning boshlanishi». Yo\u0027lning sekinlashish boʻlagi yoki balandlikka ko\u0027tarilishdagi qoʻshimcha tasmaning boshlanish qismi. Agar belgiga 4.7 «Eng kam tezlik» belgisining tasviri tushgan bo\u0027lsa, koʻrsatilgan yoki undan kattaroq tezlikda harakatlana olmaydigan transport vositasining haydovchisi asosiy tasmadan qo\u0027shimcha tasmaga qayta tizilishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Как должен поступить водитель, если его транспортное средство не может продолжить движение на подъем со скоростью равной или большей 40 км/ч?",
+                                    "options":  [
+                                                    "F1. Продолжать движение по основной полосе, если за ним нет других транспортных средств",
+                                                    "F2. Перестроиться на дополнительную полосу",
+                                                    "F3. Продолжать движение по основной полосе, если длина подъема не превышает 30 м"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Приложение №1 пункт 5.8.3: «Начало полосы». Начало дополнительной полосы на подъеме или полосы торможения. Если на знаке, установленном перед дополнительной полосой, изображен знак 4.7 «Ограничение минимальной скорости», то водитель транспортного средства, которое не может продолжить движение по основной полосе с указанной и большей скоростью, должен перестроиться на дополнительную полосу."
+                                },
+                         "uzk":  {
+                                     "text":  "Ҳайдовчи, агар унинг транспорт воситаси 40 км/соатга тенг ёки ундан ортиқ тезлик билан баландликка чиқа олмаса, нима чора кўриши керак?",
+                                     "options":  [
+                                                     "F1. Асосий тасма бўйича, агар унда бошқа транспорт воситалари йўқ бўлса, ҳаракатланишни давом эттириши",
+                                                     "F2. Қўшимча тасмага қайта тизилиши",
+                                                     "F3. Агар баландликнинг давомлилиги 30 метрдан ошмаса, асосий тасма бўйича ҳаракатланишни давом эттириши"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1-иловаси 5-боби: 5.8.3. банди: «Тасманинг бошланиши». Йўлнинг секинлашиш булаги ёки баландликка кутарилишдаги кушимча тасманинг бошланиш кисми. Агар белгига 4.7 «Энг кам тезлик» белгисининг тасвири тушган булса, кўрсатилган ёки ундан каттароқ тезликда ҳаракатлана олмайдиган транспорт воситасининг ҳайдовчиси асосий тасмадан қўшимча тасмага қайта тизилиши керак."
+                                 }
+                     }
+}

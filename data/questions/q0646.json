@@ -1,0 +1,36 @@
+{
+    "questionId": 646,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Transport vositalarining tezligi texnik tavsifnomasiga yoki holatiga ko'ra 40 km/soatdan kam bo'lganda avtomagistral bo'ylab harakatlanishga ruxsat etiladimi?",
+            "options": [
+                "F1. Ikkinchi tasmadan nariga o'tmaganda ruxsat etiladi",
+                "F2. Taqiqlanadi",
+                "F3. Agar «Eng kam tezlik» belgisi o'rnatilmagan bo'lsa ruxsat etiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 19-bobi 121-bandining birinchi xatboshisiga asosan, avtomagistrallarda quyidagilar taqiqlanadi: piyodalar, uy hayvonlari, ot-aravalar, velosipedlar, individual harakatlanish vositalari, skuterlar, mopedlar, traktorlar va o'zi yurar avtomobillar, texnik tavsifnomasiga yoki holatiga ko'ra tezligi soatiga 40 kilometrdan kam bo'lgan transport vositalarining harakatlanishi."
+        },
+        "ru": {
+            "text": "Разрешается ли движение по автомагистралям транспортных средств, скорость которых по технической характеристике или их состоянию менее 40 км/ч?",
+            "options": [
+                "F1. Разрешается не далее второй полосы",
+                "F2. Запрещается",
+                "F3. Разрешается, если не установлен знак «Ограничение минимальной скорости»"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 121 главы 19 ПДД, гласит: На автомагистралях запрещается: - движение пешеходов, домашних животных, гужевых повозок, велосипедов, индивидуальные транспортные средства, скутеры, мопедов, тракторов и самоходных машин, транспортных средств, скорость которых по технической характеристике или их состоянию менее 40 км/ч.\nКак видно, движение по автомагистралям транспортных средств, скорость которых по технической характеристике или их состоянию менее 40 км/ч запрещено."
+        },
+        "uzk": {
+            "text": "Транспорт воситаларининг тезлиги техник тавсифномасига ёки ҳолатига кўра 40 км/соатдан кам бўлганда автомагистраль бўйлаб ҳаракатланишга рухсат этиладими?",
+            "options": [
+                "F1. Иккинчи тасмадан нарига ўтмаганда рухсат этилади",
+                "F2. Тақиқланади",
+                "F3. Агар «Энг кам тезлик» белгиси ўрнатилмаган бўлса рухсат этилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 19-боби 121-бандининг биринчи хатбошисига асосан, автомагистралларда қуйидагилар тақиқланади: пиёдалар, уй ҳайвонлари, от-аравалар, велосипедлар, индивидуал ҳаракатланиш воситалари, скутерлар, мопедлар, тракторлар ва ўзи юрар автомобиллар, техник тавсифномасига ёки ҳолатига кўра тезлиги соатига 40 километрдан кам бўлган транспорт воситаларининг ҳаракатланиши."
+        }
+    }
+}

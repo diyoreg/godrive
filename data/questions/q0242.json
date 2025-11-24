@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  242,
+    "image":  "data/images/q0242.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Barcha yo\u0027nalishlarga",
+                                                    "F2. «Б» va «В»",
+                                                    "F3. «А» va «В»"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 5-bo\u0027limining yigirma beshinchi xatboshisiga asosan: 5.11.1. «Qayrilib olish joyi». Chapga burilish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Во всех направлениях",
+                                                    "F2. «Б» и «В»",
+                                                    "F3. «A» и «B»"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Информационно-указательный знак 5.11.1 \"Место для разворота\". Поворот налево запрещается. Соответственно, поворот налево в направлении Б запрещен. Движение разрешено в направлениях А и В."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Барча йўналишларга",
+                                                     "F2. «Б» ва «В»",
+                                                     "F3. «A» ва «B»"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 5-бўлимининг йигирма бешинчи хатбошисига асосан: 5.11.1. «Кайрилиб олиш жойи». Чапга бурилиш тақиқланади."
+                                 }
+                     }
+}

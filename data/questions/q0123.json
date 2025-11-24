@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  123,
+    "image":  "data/images/q0123.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi kesib o\u0027tgan yo\u0027llarda harakatlanayotgan transport vositalariga yo\u0027l berishni yuklaydi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 2-Bo\u0027limining yettinchi xatboshisiga asosan: 2.4. «Yo\u0027l bering!». Haydovchi kesib o\u0027tilayotgan yo\u0027ldan, harakatlanayotgan transport vositasiga yoʻl berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак обязывает уступить дорогу транспортным средствам, движущимся по пересекаемой дороге?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Знак приоритета 2.4 \"Уступите дорогу\". Водитель должен уступить дорогу транспортным средствам, движущимся по пересекаемой дороге, а при наличии дополнительного знака 7.13 - по главной.\nВодитель должен уступить дорогу встречным транспортным средствам, находящимся на узком участке или противоположном подъезде к нему."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги кесиб ўтган йўлларда ҳаракатланаётган транспорт воситаларига йўл беришни юклайди?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 2-бўлимининг еттинчи хатбошисига асосан: 2.4. «Йўл беринг». Ҳайдовчи кесиб ўтилаётган йўлдан, ҳаракатланаётган транспорт воситасига йўл бериши керак."
+                                 }
+                     }
+}

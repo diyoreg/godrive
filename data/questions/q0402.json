@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  402,
+    "image":  "data/images/q0402.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan belgilardan qay biri ilgari kiritilgan barcha cheklashlarni bekor qiladi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 1-ilovasi 3-boʻlimining o\u0027ttiz beshinchi xatboshisiga asosan: 3.31. «Barcha cheklovlarning oxiri». 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30 belgilaridan bir nechtasiga bir vaqtda amal qiladigan oraliqlarning oxirini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из указанных знаков отменяет все ранее введенные ограничения?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Запрешаюший знак 3.31 \"Конец зоны всех ограничений\". Обозначение конца зоны действия одновременно нескольких знаков из следующих: 3.16, 3.20, 3.22, 3.24, 3.26-3.30."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган белгилардан қай бири илгари киритилган барча чеклашларни бекор қилади?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўттиз бешинчи хатбошисига асосан: 3.31. «Барча чекловларнинг охири». 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30 белгиларидан бир нечтасига бир вактда амал киладиган ораликларнинг охирини билдиради."
+                                 }
+                     }
+}

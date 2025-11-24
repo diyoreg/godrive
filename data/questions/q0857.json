@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  857,
+    "image":  "data/images/q0857.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu belgilardan qaysi biri bir yoki bir nechta tasmalarda harakatlanish yo\u0027nalishi qarama-qarshi tomonga o\u0027zgarish mumkin bo\u0027lgan yo\u0027l qismining boshlanishini bildiradi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ, 5.35. «Reversiv harakatlanish». Bir yoki bir necha tasmalarda harakatlanish yo\u0027nalishi qarama-qarshi tomonga o\u0027zgarishi mumkin bo\u0027lgan yo\u0027l qismining boshlanishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из этих знаков указывает на начало участка дороги, на котором возможно изменение направления движения в противоположную сторону?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД, знак 5.35. «Реверсивное движение». Начало участка дороги, на котором на одной или нескольких полосах направление движения может изменяться на противоположное."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу белгилардан қайси бири бир ёки бир нечта тасмаларда ҳаракатланиш йўналиши қарама-қарши томонга ўзгариш мумкин бўлган йўл қисмининг бошланишини билдиради?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ, 5.35. «Реверсив ҳаракатланиш». Бир ёки бир неча тасмаларда ҳаракатланиш йўналиши қарама-қарши томонга ўзгариши мумкин бўлган йўл қисмининг бошланишини билдиради."
+                                 }
+                     }
+}

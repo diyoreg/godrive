@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  184,
+    "image":  "data/images/q0184.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi transport vositasining haydovchisi yo\u0027l berishi kerak?",
+                                    "options":  [
+                                                    "F1. Velosiped haydovchisi",
+                                                    "F2. Avtomobil haydovchisi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 16-bobi 107-bandiga asosan: Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yoʻldan qarama-qarshi yo\u0027nalishdan to\u0027g\u0027riga yoki o\u0027ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib oʻtayotgan transport vositalariga yo\u0027l berishi shart."
+                                },
+                         "ru":  {
+                                    "text":  "Водитель какого транспортного средства должен уступить дорогу?",
+                                    "options":  [
+                                                    "F1. Водитель велосипеда",
+                                                    "F2. Водитель автомобиля"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 107 главы 15 ПДД гласит: При движении в направлении зеленой стрелки, включенной в дополнительной секции одновременно с желтым или красным сигналом светофора, водитель транспортного средства должен уступить дорогу транспортным средствам, движущимся с других направлений.\nВ данном случае водитель трамвая обязан уступить дорогу автомобилю, т.к. он движется в направлении зеленой стрелки, включенной в дополнительной секции."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси транспорт воситасининг ҳайдовчиси йўл бериши керак?",
+                                     "options":  [
+                                                     "F1. Велосипед ҳайдовчиси",
+                                                     "F2. Автомобиль ҳайдовчиси"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 15-боби 107-банди: Чапга бурилишда ёки қайрилиб олишда рельссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+{
+    "questionId": 972,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar piyodalar o'tish joylaridan keyin tirbandlik paydo bo'lsa haydovchi qayerda to'xtashi kerak?",
+            "options": [
+                "F1. Bevosita piyodalar o'tish joyi oldida",
+                "F2. Piyodalar o'tish joyida, agar piyodalar bo'lmasa",
+                "F3. Piyodalar o'tish joyiga 5 m yetmasdan"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 17-bobi 112-bandi: Piyodalar o'tish joylaridan keyin paydo bo'lgan tirbandlik tufayli haydovchi piyodalar o'tish joyida to'xtashga majbur bo'ladigan bo'lsa, piyodalar o'tish joyiga kirish taqiqlanadi."
+        },
+        "ru": {
+            "text": "Где необходимо остановиться водителю, если сразу за пешеходным переходом образовался затор?",
+            "options": [
+                "F1. Непосредственно перед пешеходным переходом",
+                "F2. На пешеходном переходе, если нет пешеходов",
+                "F3. Не ближе 5 м до пешеходного перехода"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 112 главы 17 ПДД, гласит: Запрещается въезжать на пешеходный переход, если за ним образовался затор, который вынудит водителя остановиться на пешеходном переходе"
+        },
+        "uzk": {
+            "text": "Агар пиёдалар ўтиш жойларидан кейин тирбандлик пайдо бўлса ҳайдовчи қаерда тўхташи керак?",
+            "options": [
+                "F1. Бевосита пиёдалар ўтиш жойи олдида",
+                "F2. Пиёдалар ўтиш жойида, агар пиёдалар бўлмаса",
+                "F3. Пиёдалар ўтиш жойига 5 м етмасдан"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 17-боби 112-банди: Пиёдалар ўтиш жойларидан кейин пайдо бўлган тирбандлик туфайли ҳайдовчи пиёдалар ўтиш жойида тўхташга мажбур бўладиган бўлса, пиёдалар ўтиш жойига кириш тақиқланади."
+        }
+    }
+}

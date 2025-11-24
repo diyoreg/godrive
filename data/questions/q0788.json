@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  788,
+    "image":  "data/images/q0788.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Boshqa transport vositalari bo\u0027lmasa to\u0027xtamasdan o\u0027tib ketish",
+                                                    "F2. Belgi oldida to\u0027xtash",
+                                                    "F3. To\u0027xtash chizig\u0027i oldida to\u0027xtash"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1 ilova: «Toʻxtamasdan harakatlanish taqiqlangan». Toʻxtash chizigʻi oldida, agar u boʻlmasa, kesib o\u0027tiladigan qatnov qismining chetida to\u0027xtamasdan harakatlanish taqiqlanadi. Haydovchi kesib o\u0027tilayotgan yo\u0027ldan, 7.13 qo\u0027shimcha-axborot belgisi bo\u0027lganda esa asosiy yo\u0027ldan harakatlanayotgan transport vositalariga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. При отсутствии других транспортных средств проехать перекресток без остановки",
+                                                    "F2. Остановиться у знака",
+                                                    "F3. Остановиться у стоп-линии"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД приложение № 1: «Движение без остановки запрещено». Запрещается движение без остановки перед стоп-линией, а если ее нет — перед краем пересекаемой проезжей части. Водитель должен уступить дорогу транспортным средствам, движущимся по пересекаемой, а при наличии дополнительного дорожного знака 7.13 — по главной дороге."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Бошқа транспорт воситалари бўлмаса тўхтамасдан ўтиб кетиш",
+                                                     "F2. Белги олдида тўхташ",
+                                                     "F3. Тўхташ чизиғи олдида тўхташ"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1 илова: «Тухтамасдан ҳаракатланиш тақиқланган». Тўхташ чизиғи олдида, агар у бўлмаса, кесиб ўтиладиган қатнов қисмининг четида тўхтамасдан ҳаракатланиш тақиқланади. Ҳайдовчи кесиб ўтилаётган йўлдан, 7.13 қўшимча-ахборот белгиси бўлганда эса асосий йўлдан ҳаракатланаётган транспорт воситаларига йўл бериши керак."
+                                 }
+                     }
+}

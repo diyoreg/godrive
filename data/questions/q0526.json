@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  526,
+    "image":  "data/images/q0526.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Aholi punktlarida ma\u0027lum harakat tezligiga rioya etayotgan yirik oʻlchamli transport vositasining haydovchisi qanday yo\u0027l tutishi kerak?",
+                                    "options":  [
+                                                    "F1. To\u0027xtashi va orqasida to\u0027planib qolgan transport vositalarini o\u0027tkazib yuborishi",
+                                                    "F2. Harakatni davom ettirishi kerak"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 12-bobi 87-bandiga asosan: Aholi punktlaridan tashqaridagi yo\u0027llarda sekin harakatlanadigan yoki katta hajmli transport vositasini quvib oʻtish qiyin boʻlgan hollarda uning haydovchisi ushbu transport vositasini iloji boricha yo\u0027lning oʻng tomoniga olishi, zarur boʻlganda esa orqasida toʻplanib qolgan transport vositalarini o\u0027tkazib yuborish uchun to\u0027xtashi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Как должен поступить водитель крупногабаритного транспортного средства, соблюдающего определенную скорость движения в населенном пункте?",
+                                    "options":  [
+                                                    "F1. Остановиться и пропустить скопившиеся за ним транспортные средства",
+                                                    "F2. Продолжить движение"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункту 87 главы 12 ПДД, гласит: Водитель тихоходного или крупногабаритного транспортного средства вне населенных пунктов в случаях, когда обгон этого транспортного средства затруднен, должен принять как можно правее, а при необходимости и остановиться, чтобы пропустить скопившиеся за ним транспортные средства."
+                                },
+                         "uzk":  {
+                                     "text":  "Аҳоли пунктларида маълум ҳаракат тезлигига риоя этаётган йирик ўлчамли транспорт воситасининг ҳайдовчиси қандай йўл тутиши керак?",
+                                     "options":  [
+                                                     "F1. Тўхташи ва орқасида тўпланиб қолган транспорт воситаларини ўтказиб юбориши",
+                                                     "F2. Ҳаракатни давом эттириши керак"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 12-боби 87-бандига асосан: Аҳоли пунктларидан ташқаридаги йўлларда секин ҳаракатланадиган ёки катта ҳажмли транспорт воситасини қувиб ўтиш қийин бўлган ҳолларда унинг ҳайдовчиси ушбу транспорт воситасини иложи борича йўлнинг ўнг томонига олиши, зарур бўлганда эса орқасида тўпланиб қолган транспорт воситаларини ўтказиб юбориш учун тўхташи керак."
+                                 }
+                     }
+}

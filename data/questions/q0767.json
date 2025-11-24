@@ -1,0 +1,36 @@
+{
+  "questionId": 767,
+  "image": "data/images/q0767.webp",
+  "translations": {
+    "uz": {
+      "text": "Qaysi yo'l belgisi barcha transport vositalarining harakatini istisnosiz taqiqlaydi?",
+      "options": [
+        "«Б»",
+        "«В»",
+        "«А»"
+      ],
+      "correctAnswer": 1,
+      "explanation": "YHQ 1 ilova: 3.17.2. «Xavf-xatar». Yo'l-transport hodisasi yoki boshqa xavfli vaziyatlar tufayli, istisnosiz, barcha transport vositalarining harakatlanishi taqiqlanishini bildiradi."
+    },
+    "ru": {
+      "text": "Какой знак запрещает дальнейшее движение всех без исключения транспортных средств?",
+      "options": [
+        "«Б»",
+        "«В»",
+        "«А»"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Приложение №1 к ПДД: 3.17.2. «Опасность». Запрещается дальнейшее движение всех транспортных средств в связи с дорожно-транспортным происшествием или другой опасностью."
+    },
+    "uzk": {
+      "text": "Қайси йўл белгиси барча транспорт воситаларининг ҳаракатини истисносиз тақиқлайди?",
+      "options": [
+        "«Б»",
+        "«В»",
+        "«А»"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ЙҲҚ 1 илова: 3.17.2. «Хавф-хатар». Иул-транспорт ходисаси ёки бошка хавфли вазиятлар туфайли, истисносиз, барча транспорт воситаларининг харакатланиши такикланишини билдиради."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  946,
+    "image":  "data/images/q0946.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Qatnov qismida toʻsuvchi qurilma borligini bildiradi",
+                                                    "F2. Chorraha oldida to\u0027suvchi qurilma borligini bildiradi",
+                                                    "F3. Oldinda boshqariladigan to\u0027suvchi qurilma borligini bildiradi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ, 1 ilova: 1.34. «Diqqat, boshqariladigan to\u0027siq». Ushbu yo\u0027l belgisi boshqariladigan to\u0027suvchi qurilmasiga yetmasdan o\u0027rnatiladi va transport vositalari haydovchilarini oldinda to\u0027suvchi qurilma borligi haqida ogohlantiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Обозначает что, на проезжей части имеется заградительное устройство",
+                                                    "F2. Обозначает что, перед перекрестком заградительное устройство",
+                                                    "F3. Означает, что впереди находится управляемое блокирующее устройство"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД, Приложение № 1: 1.34. «Внимание, управляемое заградительное устройство». Предупреждает водителей о наличии заградительного устройства и устанавливается не доезжая до него."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Қатнов қисмида тўсувчи қурилма борлигини билдиради",
+                                                     "F2. Чорраҳа олдида тўсувчи қурилма борлигини билдиради",
+                                                     "F3. Олдинда бошқариладиган тўсувчи қурилма борлигини билдиради"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ, 1 илова: 1.34. «Диққат, бошқариладиган тўсиқ». Ушбу йўл белгиси бошқариладиган тўсувчи қурилмасига етмасдан ўрнатилади ва транспорт воситалари ҳайдовчиларини олдинда тўсувчи қурилма борлиги ҳақида огоҳлантиради."
+                                 }
+                     }
+}

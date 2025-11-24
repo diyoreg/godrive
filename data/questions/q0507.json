@@ -1,0 +1,42 @@
+﻿{
+    "questionId":  507,
+    "image":  "data/images/q0507.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bunday yo\u0027l belgisi bilan belgilangan yo\u0027l qismlarida ruxsat etilgan to\u0027la vazni 3,5 tonnadan ortiq bo\u0027lgan yuk avtomobillarining qanday yuqori tezlik bilan harakatlanishiga ruxsat etiladi?",
+                                    "options":  [
+                                                    "F1. 60 km/s",
+                                                    "F2. 90 km/s",
+                                                    "F3. 80 km/s",
+                                                    "F4. 70 km/s",
+                                                    "F5. 100 km/s"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 11-bobi 79-bandining uchinchi xatboshisiga asosan, aholi punktlaridan tashqarida: boshqa avtobuslar, tirkamali yengil avtomobillar, mototsikllar, elektromototsikllar ruxsat etilgan toʻla vazni 3,5 tonnadan ortiq boʻlgan yuk avtomobillariga tezlikni soatiga 80 kilometrdan oshirmasdan."
+                                },
+                         "ru":  {
+                                    "text":  "С какой максимальной скоростью разрешается движение грузовых автомобилей с разрешенной максимальной массой более 3,5 т на участках дорог, обозначенных таким дорожным знаком?",
+                                    "options":  [
+                                                    "F1. 60 км/ч",
+                                                    "F2. 90 км/ч",
+                                                    "F3. 80 км/ч",
+                                                    "F4. 70 км/ч",
+                                                    "F5. 100 км/ч"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Информационно-указательный знак 5.24 \"Начало населенного пункта\". Наименование и начало населенного пункта, в котором на данной дороге не действуют требования Правил дорожного движения, устанавливающие порядок движения в населенных пунктах.\nПункту 79 главы 11 ПДД, гласит: Вне населенных пунктов разрешается движение: - другим автобусам, легковым автомобилям при буксировке прицепа, мотоциклам, электромотоциклам, грузовым автомобилям с разрешенной максимальной массой более 3,5 т - не более 80 км/ч."
+                                },
+                         "uzk":  {
+                                     "text":  "Бундай йўл белгиси билан белгиланган йўл қисмларида рухсат этилган тўла вазни 3,5 тоннадан ортиқ бўлган юк автомобилларининг қандай юқори тезлик билан ҳаракатланишига рухсат этилади?",
+                                     "options":  [
+                                                     "F1. 60 км/с",
+                                                     "F2. 90 км/с",
+                                                     "F3. 80 км/с",
+                                                     "F4. 70 км/с",
+                                                     "F5. 100 км/с"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 11-боби 79-бандининг учинчи хатбошисига асосан, аҳоли пунктларидан ташқарида: бошқа автобуслар, тиркамали енгил автомобиллар, мотоцикллар, электромотоцикллар рухсат этилган тўла вазни 3,5 тоннадан ортиқ бўлган юк автомобилларига тезликни соатига 80 километрдан оширмасдан."
+                                 }
+                     }
+}

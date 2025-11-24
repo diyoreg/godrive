@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  213,
+    "image":  "data/images/q0213.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi faqat oyning juft kunlarida to\u0027xtab turishni taqiqlanishini anglatadi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  5,
+                                    "explanation":  "YHQ 1-ilovasi 3-Bo\u0027limining o\u0027ttiz to\u0027rtinchi xatboshisiga asosan: 3.30. «Oyning juft kunlarida toʻxtab turish taqiqlangan»."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак запрещает стоянку только в чётные дни месяца?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  5,
+                                    "explanation":  "Запрещающий знак 3.30 \"Стоянка запрещена по четным числам месяца\"."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги фақат ойнинг жуфт кунларида тўхтаб туришни тақиқлайди?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  5,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўттиз тўртинчи хатбошисига асосан: 3.30. «Ойнинг жуфт кунларида тўхтаб туриш тақиқланган."
+                                 }
+                     }
+}

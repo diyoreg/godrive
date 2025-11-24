@@ -1,0 +1,42 @@
+﻿{
+    "questionId":  641,
+    "image":  "data/images/q0641.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027k avtomobil chorrahani nechanchi bo\u0027lib kesib o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Birinchi bo\u0027lib",
+                                                    "F2. Ikkinchi bo\u0027lib",
+                                                    "F3. Uchinchi bo\u0027lib",
+                                                    "F4. To\u0027rtinchi bo\u0027lib",
+                                                    "F5. Oxirgi bo\u0027lib"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 6-bobi 26-bandiga asosan: Haydovchilar tezkor va maxsus xizmatlarning ko\u0027k yoki qizil yoxud ko\u0027k va qizil rangli yalt-yalt etuvchi mayoqchalar va maxsus tovushli ishorasi yoqilgan holda yaqinlashayotgan transport vositalariga, shuningdek ularning kuzatuvidagi, yaqinni yorituvchi fara chiroqlari yoqilgan transport vositasi (transport vositalari)ga yo\u0027l berishlari shart.\nMazkur turdagi transport vositalarini quvib o\u0027tish taqiqlanadi.\nYHQ 16-bobi 104-bandiga asosan: Teng ahamiyatga еда boʻlmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yo\u0027lda harakatlanayotgan transport vositasining haydovchisi asosiy yo\u0027ldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat\u0027i nazar, yo\u0027l berishi kerak. Bunday chorrahalarda tramvay harakatlanish yo\u0027nalishidan qat\u0027i nazar, teng ahamiyatga ega bo\u0027lgan yo\u0027lda bir yo\u0027nalishda yoki qarama-qarshi yo\u0027nalishda harakatlanayotgan relssiz transport vositalariga nisbatan imtiyozga ega.\nYHQ 16-bobi 107-bandiga asosan: Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yoʻldan qarama-qarshi yo\u0027nalishdan to\u0027g\u0027riga yoki o\u0027ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib oʻtayotgan transport vositalariga yo\u0027l berishi shart. Bu qoidaga tramvay haydovchilari ham oʻzaro amal qilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Первым",
+                                                    "F2. Вторым",
+                                                    "F3. Третьим",
+                                                    "F4. Четвертым",
+                                                    "F5. Последним"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Пункту 26 главы 6 ПДД, При приближении транспортных средств оперативных и специальных служб с включенными проблесковым маячком синего или красного или синего и красного цветов и специальным звуковым сигналом, а также сопровождаемого ими транспортного средства (транспортных средств) с включенным ближним светом фар водители обязаны уступить им дорогу для обеспечения их беспрепятственного проезда. Запрещается обгонять данные транспортные средства.\nПунктам 104 и 107 главы 16 ПДД, на перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения. При повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўк автомобиль чорраҳани нечанчи бўлиб кесиб ўтади?",
+                                     "options":  [
+                                                     "F1. Биринчи бўлиб",
+                                                     "F2. Иккинчи бўлиб",
+                                                     "F3. Учинчи бўлиб",
+                                                     "F4. Тўртинчи бўлиб",
+                                                     "F5. Охирги бўлиб"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 6-боби 26-бандига асосан: Ҳайдовчилар тезкор ва махсус хизматларнинг кўк ёки қизил ёхуд кўк ва қизил рангли ялт-ялт этувчи маёқчалар ва махсус товушли ишораси ёқилган ҳолда яқинлашаётган транспорт воситаларига, шунингдек уларнинг кузатувидаги, яқинни ёритувчи фара чироқлари ёқилган транспорт воситаси (транспорт воситалари)га йўл беришлари шарт.\nМазкур турдаги транспорт воситаларини қувиб ўтиш тақиқланади.\nЙҲҚ 16-боби 104-бандига асосан: Тенг аҳамиятга еда бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак. Бундай чорраҳаларда трамвай ҳаракатланиш йўналишидан қатъи назар, тенг аҳамиятга эга бўлган йўлда бир йўналишда ёки қарама-қарши йўналишда ҳаракатланаётган рельссиз транспорт воситаларига нисбатан имтиёзга эга.\nЙҲҚ 16-боби 107-бандига асосан: Чапга бурилишда ёки қайрилиб олишда рельссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак."
+                                 }
+                     }
+}

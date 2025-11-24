@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoDrive - Билеты</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/language-dropdown.css?v=1.1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(-45deg, #1e293b, #0f172a, #1a2332, #0d1520);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            max-width: 1600px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        /* Header styles */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            position: relative;
+        }
+
+        .header h1 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .header-title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 22px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .header-logo {
+            height: 40px;
+            filter: brightness(0) invert(1);
+            opacity: 0.9;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+        .header-logo:hover {
+            opacity: 1;
+        }
+
+        .header-actions {
+            display: flex !important;
+            gap: 12px !important;
+            align-items: center !important;
+            flex-direction: row !important;
+        }
+
+        .header-actions button:not(.lang-btn):not(.globe-btn) {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .header-actions button:not(.lang-btn):not(.globe-btn):hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        .nav-btn.active {
+            background: #60a5fa !important;
+            border-color: #60a5fa !important;
+            color: white !important;
+            cursor: default;
+            pointer-events: none;
+        }
+
+        .logout-btn:hover {
+            background: rgba(239, 68, 68, 0.2) !important;
+            border-color: rgba(239, 68, 68, 0.5) !important;
+        }
+
+        /* Tickets grid */
+        .tickets-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 12px;
+            padding: 20px 0;
+        }
+
+        .ticket-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 16px 12px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .ticket-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(96, 165, 250, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .ticket-card.completed {
+            border-color: rgba(34, 197, 94, 0.5);
+        }
+
+        .ticket-number {
+            color: #60a5fa;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .ticket-status {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 11px;
+            line-height: 1.2;
+        }
+
+        .ticket-card.completed .ticket-status {
+            color: #86efac;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>
+                <img src="images/textLogo.png" alt="GoDrive" class="header-logo">
+            </h1>
+            <div class="header-title" id="headerTitle" data-translate="ticketsListTitle">Список всех билетов</div>
+            <div class="header-actions">
+                <div class="language-dropdown">
+                    <button class="globe-btn" id="globeBtn">🌐</button>
+                    <div class="language-switcher" id="langSwitcher">
+                        <button class="lang-btn active" data-lang="uz">O'zbekcha</button>
+                        <button class="lang-btn" data-lang="ru">Русский</button>
+                        <button class="lang-btn" data-lang="uzk">Ўзбекча</button>
+                    </div>
+                </div>
+                <button id="backToHome" class="nav-btn" data-translate="mainTitle">Главная</button>
+            </div>
+        </header>
+        
+        <div class="tickets-grid" id="ticketsGrid">
+            <!-- Билеты будут генерироваться динамически -->
+        </div>
+    </div>
+    <script src="js/api-client.js"></script>
+    <script src="js/migration.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/ticket-loader.js"></script>
+    <script src="js/dashboard.js"></script>
+    
+    <script>
+        // Language switching
+        const currentLang = localStorage.getItem('language') || 'uz';
+        
+        function updateLanguage(lang) {
+            localStorage.setItem('language', lang);
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+            });
+            if (window.LanguageManager) {
+                const langManager = new window.LanguageManager();
+                langManager.setLanguage(lang);
+                window.location.reload();
+            }
+        }
+
+        // Обеспечиваем правильную инициализацию
+        window.addEventListener('DOMContentLoaded', function() {
+            console.log('🔄 DOMContentLoaded - инициализируем системы...');
+            
+            // Logo navigation
+            document.querySelector('.header-logo')?.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            });
+
+            // Globe button dropdown toggle
+            const globeBtn = document.getElementById('globeBtn');
+            const langSwitcher = document.getElementById('langSwitcher');
+            
+            globeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                langSwitcher.classList.toggle('show');
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!langSwitcher.contains(e.target) && e.target !== globeBtn) {
+                    langSwitcher.classList.remove('show');
+                }
+            });
+
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
+                btn.addEventListener('click', () => {
+                    updateLanguage(btn.getAttribute('data-lang'));
+                    langSwitcher.classList.remove('show');
+                });
+            });
+
+            // Back to home button
+            document.getElementById('backToHome')?.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            });
+            
+            // Создаем глобальные объекты если их нет
+            if (!window.api) {
+                console.log('🔧 Создаем API клиент...');
+                window.api = new GoDriveAPI();
+            }
+            
+            if (!window.authSystem) {
+                console.log('🔧 Создаем AuthSystem...');
+                window.authSystem = new AuthSystem();
+            }
+            
+            // Даем время на инициализацию, затем создаем dashboard
+            setTimeout(() => {
+                console.log('🏠 Создаем TicketDashboard...');
+                if (!window.dashboard) {
+                    window.dashboard = new TicketDashboard();
+                }
+            }, 500);
+        });
+    </script>
+</body>
+</html>

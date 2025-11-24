@@ -1,0 +1,39 @@
+{
+    "questionId": 41,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sanab o'tilgan hollarning qaysi birida haydovchi o'zining transport vositasini ichki ishlar xodimi ixtiyoriga berishi shart?",
+            "options": [
+                "F1. Barcha hollarda",
+                "F2. Kechiktirib bo'lmaydigan xizmat vazifalarini bajarish uchun",
+                "F3. Ish joyiga borish uchun",
+                "F4. Вариант 4"
+            ],
+            "correctAnswer": 2,
+            "explanation": "IzohYHQ 2-bob 11-bandi Transport vositasining haydovchisi quyidagilarga majburdir: z) quyidagi hollarda foydalanish uchun transport vositasini berishi shart:\nIIO, Milliy gvardiya, Davlat xavfsizlik xizmati va o'zbekiston Respublikasi Prezidenti davlat xavfsizlik xizmati organlari xodimlariga qonunchilik hujjatlarida belgilangan xollarda kechiktirib bo'lmaydigan xizmat vazifalarini bajarish uchun, shuningdek, yo'l-transport hodisasi tufayli shikastlangan yoki nosoz transport vositalarini olib ketish (shatakka olish) uchun (faqat yuk avtomobilidan);\nyo'lakay yo'nalishda kechiktirib bo'lmaydigan tibbiy yordam ko'rsatishga ketayotgan tibbiyot xodimlariga hamda zudlik bilan tibbiy yordamga muhtoj bo'lgan fuqarolarni davolash-profilaktika muassasasiga olib borish uchun.\nXorijiy davlatlarning diplomatik, konsullik vakolatxonalariga va boshqa vakolatxonalariga hamda xalqaro tashkilotlarga tegishli transport vositalari, shuningdek yong'in uchirish, konvoy, inkassator xizmatlarining transport vositalaridan foydalanishga yo'l qo'yilmaydi.\nTransport vositasidan foydalangan shaxs haydovchi talab qilganda yo'l varaqasiga yurilgan vaqtni, bosib o'tilgan masofani, o'z ismi-familiyasi, mansabi, ish joyi nomini, yo'l varaqasi bo'lmagan taqdirda, belgilangan tartibda ma’lumot yoki xabar yozib berishi kerak.\nTransport vositalarini tekshirish yoki undan foydalanish huquqiga ega bo'lgan shaxslar haydovchining talabiga muvofiq o'z xizmat guvohnomasini ko'rsatishi shart.\nXizmat vaqtida haydovchiga yetkazilgan moddiy va ma’naviy zarar uning talabiga ko'ra qonunchilik hujjatlarida belgilangan tartibda tiklab beriladi."
+        },
+        "ru": {
+            "text": "В каком из перечисленных случаев Правила обязывают водителя предоставить свое транспортное средство в распоряжение работника милиции?",
+            "options": [
+                "F1. В любом случае",
+                "F2. Для выполнения неотложных служебных заданий",
+                "F3. Для следования к месту работы",
+                "F4. Вариант 4"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 11 главы 2 ПДД, гласит: Водитель транспортного средства обязан: з) предоставлять транспортное средство: сотрудникам ОВД для выполнения неотложных служебных заданий в случаях, предусмотренных законом, а также для транспортировки повреждённых при дорожно-транспортных происшествиях или неисправных транспортных средств (только грузовые автомобили);\nмедицинским работникам, следующим в попутном направлении для оказания медицинской помощи, а также для транспортировки граждан, нуждающихся в безотлагательной медицинской помощи, в лечебно-профилактическое учреждение. Требование о предоставлении транспортного средства не распространяется на транспортные средства, принадлежащие гражданам, кроме случаев оказания медицинской помощи. Лицо, воспользовавшееся транспортным средством, должно по требованию водителя сделать запись в путевом листе (с указанием продолжительности поездки, пройденного расстояния, своей фамилии, должности, наименования организации), а при отсутствии путевого листа выдать справку соответствующего образца. Лицо, обладающее правом проверки или использования транспортных средств, обязано предъявить по требованию водителя служебное удостоверение."
+        },
+        "uzk": {
+            "text": "Санаб ўтилган ҳолларнинг қайси бирида ҳайдовчи ўзининг транспорт воситасини ички ишлар ходими ихтиёрига бериши шарт?",
+            "options": [
+                "F1. Барча ҳолларда",
+                "F2. Кечиктириб бўлмайдиган хизмат вазифаларини бажариш учун",
+                "F3. Иш жойига бориш учун",
+                "F4. Вариант 4"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ИзоҳЙҲҚ 2-боб 11-банди Транспорт воситасининг ҳайдовчиси куйидагиларга мажбурдир: з) қуйидаги ҳолларда фойдаланиш учун транспорт воситасини бериши шарт:\nИИО, Миллий гвардия, Давлат хавфсизлик хизмати ва Ўзбекистон Республикаси Президенти давлат хавфсизлик хизмати органлари ходимларига қонунчилик ҳужжатларида белгиланган холларда кечиктириб бўлмайдиган хизмат вазифаларини бажариш учун, шунингдек, йўл-транспорт ҳодисаси туфайли шикастланган ёки носоз транспорт воситаларини олиб кетиш (шатакка олиш) учун (фақат юк автомобилидан);\nйўлакай йўналишда кечиктириб бўлмайдиган тиббий ёрдам кўрсатишга кетаётган тиббиёт ходимларига ҳамда зудлик билан тиббий ёрдамга муҳтож бўлган фуқароларни даволаш-профилактика муассасасига олиб бориш учун.\nХорижий давлатларнинг дипломатик, консуллик ваколатхоналарига ва бошқа ваколатхоналарига ҳамда халқаро ташкилотларга тегишли транспорт воситалари, шунингдек ёнғин учириш, конвой, инкассатор хизматларининг транспорт воситаларидан фойдаланишга йўл қўйилмайди.\nТранспорт воситасидан фойдаланган шахс ҳайдовчи талаб қилганда йўл варақасига юрилган вақтни, босиб ўтилган масофани, ўз исми-фамилияси, мансаби, иш жойи номини, йўл варақаси бўлмаган тақдирда, белгиланган тартибда маълумот ёки хабар ёзиб бериши керак.\nТранспорт воситаларини текшириш ёки ундан фойдаланиш ҳуқуқига эга бўлган шахслар ҳайдовчининг талабига мувофиқ ўз хизмат гувоҳномасини кўрсатиши шарт.\nХизмат вақтида ҳайдовчига етказилган моддий ва маънавий зарар унинг талабига кўра қонунчилик ҳужжатларида белгиланган тартибда тиклаб берилади."
+        }
+    }
+}

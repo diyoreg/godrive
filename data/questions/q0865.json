@@ -1,0 +1,33 @@
+{
+    "questionId": 865,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Tormoz yo'li deb nimga aytiladi?",
+            "options": [
+                "F1. Haydovchi tormoz tepkisini bosgandan to avtomobil to'liq to'xtatguncha bosib o'tgan masofasi",
+                "F2. Haydovchi biron bir xavfni aniqlab, avtomobilni to'liq to'xtatguncha bosib o'tgan masofasi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "To'xtash yo'li deb haydovchining biror bir xatarni sezib, to transport vositasini to'liq to'xtatgunga qadar bosib o'tilgan masofaga aytiladi. To'xtash yo'li o'z ichiga haydovchining reaksiya vaqtida, tormoz tizimining ishga tushish vaqtini va tormoz yo'lini o'z ichiga oladi."
+        },
+        "ru": {
+            "text": "Что называют тормозным путем?",
+            "options": [
+                "F1. Расстояние, пройденное транспортным средством с момента нажатия на педаль тормоза до полной остановки",
+                "F2. Расстояние, пройденное транспортным средством до полной остановки автомобиля после обнаружения опасности"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Остановочный путь - расстояние, пройденное транспортным средством с момента обнаружения водителем опасности до полной его остановки. Остановочный путь включает в себя: путь за время реакции водителя плюс путь за время срабатывания тормозной системы, плюс замедление движения автомобиля до нулевой скорости. («Техника управления автомобилем»)."
+        },
+        "uzk": {
+            "text": "Тормоз йўли деб нимга айтилади?",
+            "options": [
+                "F1. Ҳайдовчи тормоз тепкисини босгандан то автомобиль тўлиқ тўхтатгунча босиб ўтган масофаси",
+                "F2. Ҳайдовчи бирон бир хавфни аниқлаб, автомобилни тўлиқ тўхтатгунча босиб ўтган масофаси"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Тўхташ йўли деб ҳайдовчининг бирор бир хатарни сезиб, то транспорт воситасини тўлиқ тўхтатгунга қадар босиб ўтилган масофага айтилади. Тўхташ йўли ўз ичига ҳайдовчининг реакция вақтида, тормоз тизимининг ишга тушиш вақтини ва тормоз йўлини ўз ичига олади."
+        }
+    }
+}

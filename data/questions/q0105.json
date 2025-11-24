@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  105,
+    "image":  "data/images/q0105.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Ko\u0027k avtomobilga nisbatan ustunlikka ega, chunki asosiy yo\u0027ldan ketmoqda",
+                                                    "F2. Ko\u0027k avtomobilga nisbatan ustunlikka ega, chunki aylanma harakatli yo\u0027ldan ketmoqda",
+                                                    "F3. Chorrahaga o\u0027ng tomondan yaqinlashib kelgan ko\u0027k avtomobilga yo\u0027l berishi kerak"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 14-bobi 98-bandi: Aylanma harakatlanish chorrahasida harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka (imtiyozga) ega."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Имеет преимущество перед синим, так как едет по главной дороге",
+                                                    "F2. Имеет преимущество перед синим, так как едет по дороге с круговым движением",
+                                                    "F3. Должен уступить дорогу синему, приблизившемуся к перекрестку справа"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 98 главы 14 ПДД, гласит: Транспортные средства, движущиеся на перекрестке с круговым движением, имеют приоритет (преимущество) по отношению к транспортным средствам, въезжающим на перекресток."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Кўк автомобилга нисбатан устунликка эга, чунки асосий йўлдан кетмокда",
+                                                     "F2. Кўк автомобилга нисбатан устунликка эга, чунки айланма ҳаракатли йўлдан кетмокда",
+                                                     "F3. Чорраҳага ўнг томондан яқинлашиб келган кўк автомобилга йўл бериши керак"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 14-боби 98-банди: Айланма ҳаракатланиш чорраҳасида ҳаракатланаётган транспорт воситалари айланага кириб келаётган транспорт воситаларига нисбатан устунликка (имтиёзга) эга."
+                                 }
+                     }
+}

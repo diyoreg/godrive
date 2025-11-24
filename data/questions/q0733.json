@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  733,
+    "image":  "data/images/q0733.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu yo\u0027l chizig\u0027i Sizga qanday manevr bajarishni taqiqlaydi?",
+                                    "options":  [
+                                                    "F1. Quvib o\u0027tishni",
+                                                    "F2. Aylanib o\u0027tishni",
+                                                    "F3. Sanab o\u0027tilgan barcha manevrlarga ruxsat beradi",
+                                                    "F4. Qayrilib olishni"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 2 ilova: 1.2, 1.5 — 1.8 chiziqlarini istalgan tomondan bosib o\u0027tish mumkin."
+                                },
+                         "ru":  {
+                                    "text":  "Какой маневр Вам запрещается выполнить при наличии данной линии разметки?",
+                                    "options":  [
+                                                    "F1. Обгон",
+                                                    "F2. Объезд",
+                                                    "F3. Разрешает все перечисленные маневры",
+                                                    "F4. Разворот"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "ПДД приложение № 2: Линии 1.2, 1.5 — 1.8 пересекать разрешается с любой стороны."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу йўл чизиғи Сизга қандай маневр бажаришни тақиқлайди?",
+                                     "options":  [
+                                                     "F1. Қувиб ўтишни",
+                                                     "F2. Айланиб ўтишни",
+                                                     "F3. Санаб ўтилган барча маневрларга рухсат беради",
+                                                     "F4. Қайрилиб олишни"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 2 илова: 1.2, 1.5 — 1.8 чизиқларини исталган томондан босиб ўтиш мумкин."
+                                 }
+                     }
+}

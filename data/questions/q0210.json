@@ -1,0 +1,36 @@
+{
+    "questionId": 210,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qo'shaloq shinalar orasiga begona jismlar tiqilib qolganda transport vositalaridan foydalanishga ruxsat etiladimi?",
+            "options": [
+                "F1. Taqiqlanadi",
+                "F2. Mazkur yo'nalishda ikki va undan ortiq tasma bo'lganda yo'lning faqat o'ng tarafdagi tasmasi bo'ylab harakatlanishga ruxsat etiladi",
+                "F3. Ko'pi bilan 40 km/soat tezlikda harakat qilishga ruxsat etiladi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 3-ilovasi 5-boʻlimi 5.3-bandiga asosan: Qo'shaloq shinalar orasiga xavf-xatar tug'diruvchi begona jismlar qisilib, tiqilib qolgan bo'lsa foydalanish taqiqlanadi."
+        },
+        "ru": {
+            "text": "Разрешается ли эксплуатация транспортных средств, у которых между сдвоенными шинами имеются инородные предметы?",
+            "options": [
+                "F1. Запрещается",
+                "F2. Разрешается только по правой полосе дороги при наличии двух и более полос для движения в данном направлении",
+                "F3. Разрешается при движении со скоростью не более 40 км/ч"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункту 5.3 раздела 5 приложения № 3 к ПДД, «Условия, при которых запрещается эксплуатация транспортных средств», если между сдвоенными шинами имеются инородные предметы, представляющие опасность."
+        },
+        "uzk": {
+            "text": "Қўшалоқ шиналар орасига бегона жисмлар тиқилиб қолганда транспорт воситаларидан фойдаланишга рухсат этиладими?",
+            "options": [
+                "F1. Тақиқланади",
+                "F2. Мазкур йўналишда икки ва ундан ортиқ тасма бўлганда йўлнинг фақат ўнг тарафдаги тасмаси бўйлаб ҳаракатланишга рухсат этилади",
+                "F3. Кўпи билан 40 км/соат тезликда ҳаракат килишга рухсат этилади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 3-иловаси 5-бўлими 5.3-бандига асосан: Қўшалоқ шиналар орасига хавф-хатар туғдирувчи бегона жисмлар қисилиб, тиқилиб қолган бўлса фойдаланиш тақиқланади."
+        }
+    }
+}

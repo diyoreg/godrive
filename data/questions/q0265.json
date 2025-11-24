@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  265,
+    "image":  "data/images/q0265.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Sariq avtomobil chorrahaga kirib keladi va ko\u0027kni o\u0027tkazib yuborish uchun to\u0027xtaydi; yashil; ko\u0027k qizil bilan bir vaqtda; sariq",
+                                                    "F2. Ko\u0027k ayni vaqtda qizil bilan; yashil; sariq",
+                                                    "F3. Yashil; ko\u0027k ayni vaqtda qizil bilan; sariq"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 16-bobi 105-bandiga asosan: Teng ahamiyatga ega bo\u0027lgan yo\u0027llar kesishgan chorrahada relssiz transport vositasining haydovchisi o\u0027ngdan kelayotgan transport vositalariga yo\u0027l berishi shart.\nYHQ 16-bobi 107-bandiga asosan: Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yoʻldan qarama-qarshi yo\u0027nalishdan to\u0027g\u0027riga yoki o\u0027ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib o\u0027tayotgan transport vositalariga yo\u0027l berishi shart."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Желтый въедет на перекресток и остановится, чтобы пропустить синий; зеленый; синий одновременно с красным; желтый",
+                                                    "F2. Синий одновременно с красным; зеленый; желтый",
+                                                    "F3. Зеленый; синий одновременно с красным; желтый"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 105 главы 16 ПДД гласит: На перекрестке равнозначных дорог водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, приближающимся справа.\nПункта 107 главы 16 ПДД гласит: При повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Сариқ автомобиль чорраҳага кириб келади ва кўкни ўтказиб юбориш учун тўхтайди; яшил; кўк қизил билан бир вақтда; сариқ",
+                                                     "F2. Кўк айни вақтда қизил билан; яшил; сариқ",
+                                                     "F3. Яшил; кўк айни вақтда қизил билан; сариқ"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 16-боби 105-бандига асосан: Тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада релъссиз транспорт воситасининг ҳайдовчиси ўнгдан келаётган транспорт воситаларига йўл бериши шарт.\nЙҲҚ 16-боби 107-бандига асосан: Чапга бурилишда ёки қайрилиб олишда релъссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт."
+                                 }
+                     }
+}

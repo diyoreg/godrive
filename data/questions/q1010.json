@@ -1,0 +1,39 @@
+{
+    "questionId": 1010,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Maktab va maktabgacha ta'lim tashkilotlari atrofidagi yo'llarda 300 metrgacha bo'lgan masofada qanday eng yuqori tezlikda harakatlanishga ruxsat etiladi?",
+            "options": [
+                "F1. 20 km/s",
+                "F2. 30 km/s",
+                "F3. 50 km/s",
+                "F4. 60 km/s"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Aholi punktlarida transport vositalarining tezligini soatiga 70 kilometrdan, maktab va maktabgacha ta’lim tashkilotlari atrofidagi yo'llarda 300 metrgacha bo'lgan masofada 30 kilometrdan, turar joy dahalari va yondosh hududlarda (uy-joy binolari orasidagi yer uchastkasida) esa soatiga 20 kilometrdan oshirmasdan harakatlanishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "Какая максимальная скорость разрешена на расстоянии до 300 метров  на дорогах вокруг школ и дошкольных учреждений?",
+            "options": [
+                "F1. 20 км/час",
+                "F2. 30 км/час",
+                "F3. 50 км/час",
+                "F4. 60 км/час"
+            ],
+            "correctAnswer": 2,
+            "explanation": "В населенных пунктах скорость транспортных средств составляет 70 км/ч, на дорогах вокруг школ и дошкольных учреждений - 30 км/ч на расстоянии до 300 метров, а в жилых массивах и прилегающих территориях (на участке земли между жилыми домами) - 20 км/ч."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 20 км/с",
+                "F2. 30 км/с",
+                "F3. 50 км/с",
+                "F4. 60 км/с"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Аҳоли пунктларида транспорт воситаларининг тезлигини соатига 70 километрдан, мактаб ва мактабгача таълим ташкилотлари атрофидаги йўлларда 300 метргача бўлган масофада 30 километрдан, турар жой даҳалари ва ёндош ҳудудларда (уй-жой бинолари орасидаги ер  часткасида) эса соатига 20 километрдан оширмасдан ҳаракатланишга рухсат этилади."
+        }
+    }
+}

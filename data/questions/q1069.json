@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  1069,
+    "image":  "data/images/q1069.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan holatda qayrilib olishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Taqiqlanadi",
+                                                    "F2. Ruxsat beriladi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 4.3. “Aylanma harakatlanish”. Ko\u0027rsatkichlar yo\u0027nalishlarida harakatlanish ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешен ли разворот в указанной ситуации?",
+                                    "options":  [
+                                                    "F1. Запрещается",
+                                                    "F2. Разрешается"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 1: 4.3 Круговое движениею.\nРазрешается движение в указанном стрелками направлении."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган ҳолатда қайрилиб олишга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Тақиқланади",
+                                                     "F2. Рухсат берилади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 4.3. “Айланма ҳаракатланиш”. Кўрсаткичлар йўналишларида ҳаракатланиш рухсат этилади."
+                                 }
+                     }
+}

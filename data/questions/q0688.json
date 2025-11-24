@@ -1,0 +1,42 @@
+{
+    "questionId": 688,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Piyodalar o'tish joylarida va tunnellarda",
+                "F2. Ko'priklarda, yo'l o'tkazgichlarda, estakadalarda va ularning ostida",
+                "F3. Temir yo'l kesishmalarida",
+                "F4. Loaqal bir yo'nalishda yo'l 100 metrdan kamroq ko'ringanda",
+                "F5. Sanab o'tilgan barcha hollarda"
+            ],
+            "correctAnswer": 5,
+            "explanation": "YHQ 9-bobi 62-bandiga asosan: Quyidagi joylarda qayrilib olish taqiqlanadi:\npiyodalarning o'tish joylarida;\ntunnellarda;\nko'priklar, yo'l o'tkazgichlar, estakadalar va ularning ostida (tegishli yo'l belgilari bilan bunday manyovrni bajarish ruxsat berilgan yo'l qismlari bundan mustasno);\ntemir yo'l kesishmalarida;\nyo'lning ko'rinishi biror-bir yo'nalishda 100 metrdan kam bo'lgan joylarda."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. На пешеходных переходах и в тоннелях",
+                "F2. На мостах, путепроводах, эстакадах и под ними",
+                "F3. На железнодорожных переездах",
+                "F4. При видимости дороги менее 100 м хотя бы в одном направлении",
+                "F5. Во всех перечисленных случаях"
+            ],
+            "correctAnswer": 5,
+            "explanation": "Пункта 62 главы 9 ПДД, гласит: Разворот запрещается: - на пешеходных переходах;\n- в тоннелях;\n- на мостах, путепроводах, эстакадах, подвесных мостах и под ними;\n- на железнодорожных переездах;\n- в местах с видимостью дороги хотя бы в одном направлении менее 100 м.\nСоответственно, во всех перечисленных случаях разворот запрещен."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Пиёдалар ўтиш жойларида ва туннелларда",
+                "F2. Кўприкларда, йўл ўтказгичларда, эстакадаларда ва уларнинг остида",
+                "F3. Темир йўл кесишмаларида",
+                "F4. Лоақал бир йўналишда йўл 100 метрдан камроқ кўринганда",
+                "F5. Санаб ўтилган барча ҳолларда"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ЙҲҚ 9-боби 62-бандига асосан: Қуйидаги жойларда қайрилиб олиш тақиқланади:\nпиёдаларнинг ўтиш жойларида;\nтуннелларда;\nкўприклар, йўл ўтказгичлар, эстакадалар ва уларнинг остида (тегишли йўл белгилари билан бундай манёврни бажариш рухсат берилган йўл қисмлари бундан мустасно);\nтемир йўл кесишмаларида;\nйўлнинг кўриниши бирор-бир йўналишда 100 метрдан кам бўлган жойларда."
+        }
+    }
+}

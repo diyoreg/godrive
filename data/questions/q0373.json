@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  373,
+    "image":  "data/images/q0373.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Ko\u0027rsatilgan yo\u0027nalishlarda harakatlanishni taqiqlaydi",
+                                                    "F2. Chorrahada tasmalar bo\u0027laklar bo\u0027yicha ruxsat etilgan harakat yo\u0027nalishlarini ko\u0027rsatadi",
+                                                    "F3. Harakat barcha yo\u0027nalishlarda ruxsat etilgan yo\u0027llarning kesishmasiga yaqinlashganlikni"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining yigirma ikkinchi xatboshisiga asosan: 1.18 — chorrahada tasmalar bo\u0027laklar bo\u0027yicha ruxsat etilgan harakatlanish yo\u0027nalishlarini ko\u0027rsatadi. Mustaqil yoki 5.8.1, 5.8.2 belgilari bilan birgalikda qo\u0027llanilishi mumkin;\noxiri berk yo\u0027l tasvirlangan chiziq shu yo\u0027nalishdagi yon tomonda joylashgan qatnov qismiga burilish taqiqlanganligini ko\u0027rsatish uchun chiziladi;\nchetki chap tasmadan chapga burilishga ruxsat beruvchi yo\u0027naltirgich shu tasmadan qayrilishga ham ruxsat beradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Запрещается движение в указанных направлениях",
+                                                    "F2. Указывает разрешенные на перекрестке направления движения по полосам",
+                                                    "F3. Приближение к пересечению дорог, на котором движение разрешается во всех направлениях"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Горизонтальная разметка 1.18 - указывает разрешенные на перекрестке направления движения по полосам. Применяется самостоятельно или в сочетании со знаком 5.8.1, 5.8.2. Разметка с изображением тупика наносится для указания того, что поворот на ближайшую проезжую часть запрещен. Разметка, разрешающая поворот налево из крайней левой полосы, разрешает и разворот."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Кўрсатилган йўналишларда ҳаракатланишни тақиқлайди",
+                                                     "F2. Чорраҳада тасмалар бўлаклар бўйича рухсат этилган ҳаракат йўналишларини кўрсатади",
+                                                     "F3. Ҳаракат барча йўналишларда рухсат этилган йўлларнинг кесишмасига яқинлашганликни"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг йигирма иккинчи хатбошисига асосан: 1.18 — чорраҳада тасмалар бўлаклар бўйича рухсат етилган ҳаракатланиш йўналишларини кўрсатади. Мустақил ёки 5.8.1, 5.8.2 белгилари билан биргаликда қўлланилиши мумкин;\nохири берк йўл тасвирланган чизиқ шу йўналишдаги ён томонда жойлашган қатнов қисмига бурилиш тақиқланганлигини кўрсатиш учун чизилади;\nчетки чап тасмадан чапга бурилишга рухсат берувчи йўналтиргич шу тасмадан қайрилишга ҳам рухсат беради."
+                                 }
+                     }
+}

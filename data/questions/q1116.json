@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  1116,
+    "image":  "data/images/q1116.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi avtomobil haydovchisi chorrahada burilish qoidasini buzdi?",
+                                    "options":  [
+                                                    "F1. Har ikkisi ham buzdi",
+                                                    "F2. Har ikkisi ham buzmadi",
+                                                    "F3. Qizil avtomobil haydovchisi",
+                                                    "F4. Ko\u0027k avtomobil haydovchisi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 9-bobi 61-bandiga asosan: Sekinlashish bo\u0027lagi bor bo\u0027lgan yo\u0027lda burilmoqchi bo\u0027lgan haydovchi o\u0027z vaqtida ushbu tasmaga qayta tizilishi va tezlikni faqat unda kamaytirishi kerak.\nYo\u0027lga chiqish joyida tezlashish bo\u0027lagi bo\u0027lsa, haydovchi unda harakatlanishi va qo\u0027shni tasmada harakatlanayotgan transport vositalariga yo\u0027l berib, transport oqimiga qo\u0027shilishi kerak.\n\nYHQ 2 ilova: 1.8 (enli uzuq-uzuq chiziq) — tezlashish yoki sekinlashish bo\u0027lagi bilan yo\u0027lning qatnov qismidagi asosiy bo\u0027lagi o\u0027rtasidagi chegarani bildiradi (chorrahalarda, yo\u0027lning turli sathda kesishgan qismlarida, avtobuslar to\u0027xtaydigan joylarda va boshqalar);\n\nYHQ 1 ilova: 5.8.3. “Tasmaning boshlanishi”. Yo\u0027lning sekinlashish bo\u0027lagi yoki balandlikka ko\u0027tarilishdagi qo\u0027shimcha tasmaning boshlanish qismi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой водитель автомобиля нарушил правило поворота на перекрёстке?",
+                                    "options":  [
+                                                    "F1. Оба нарушили",
+                                                    "F2. Оба не нарушили",
+                                                    "F3. Водитель красного автомобиля",
+                                                    "F4. Водитель синего автомобиля"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 61 главы 9 ПДД, гласит: При наличии полосы торможения водитель, намеревающийся повернуть, должен своевременно перестроиться на эту полосу и снижать скорость только на ней.\n\nПри наличии в месте выезда на дорогу полосы разгона водитель должен двигаться по ней и перестраиваться на соседнюю полосу, уступая дорогу транспортным средствам, движущимся по этой дороге.\n\nПДД приложение № 2: 1.8 (широкая прерывистая линия) — означает границу между полосой разгона или торможения и основной полосой проезжей части (на перекрестках, пересечениях дорог на разных уровнях, в зоне автобусных остановок и т. п.);\n\nПДД приложение № 1: Знак 5.8.3 Начало полосы. Начало дополнительной полосы на подъеме или полосы торможения."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси автомобил ҳайдовчиси чорраҳада бурилиш қоидасини бузди?",
+                                     "options":  [
+                                                     "F1. Ҳар иккиси ҳам бузди",
+                                                     "F2. Ҳар иккиси ҳам бузмади",
+                                                     "F3. Қизил автомобил ҳайдовчиси",
+                                                     "F4. Кўк автомобил ҳайдовчиси"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 9-боби 61-бандига асосан: Секинлашиш бўлаги бор бўлган йўлда бурилмоқчи бўлган ҳайдовчи ўз вақтида ушбу тасмага қайта тизилиши ва тезликни фақат унда камайтириши керак.\nЙўлга чиқиш жойида тезлашиш бўлаги бўлса, ҳайдовчи унда ҳаракатланиши ва қўшни тасмада ҳаракатланаётган транспорт воситаларига йўл бериб, транспорт оқимига қўшилиши керак.\n\nЙҲҚ 2 илова: 1.8 (энли узуқ-узуқ чизиқ) — тезлашиш ёки секинлашиш бўлаги билан йўлнинг қатнов қисмидаги асосий бўлаги ўртасидаги чегарани билдиради (чорраҳаларда, йўлнинг турли сатҳда кесишган қисмларида, автобуслар тўхтайдиган жойларда ва бошқалар);\n\nЙҲҚ 1 илова: 5.8.3. “Тасманинг бошланиши”. Йўлнинг секинлашиш бўлаги ёки баландликка кўтарилишдаги қўшимча тасманинг бошланиш қисми."
+                                 }
+                     }
+}

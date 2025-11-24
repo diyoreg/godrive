@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  560,
+    "image":  "data/images/q0560.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu yotiq chiziqlardan qaysi biri belgilangan yo\u0027nalishdagi transport vositalari uchun to\u0027xtashga ruxsat beradi?",
+                                    "options":  [
+                                                    "F1. «А», «Б», «В»"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining oltinchi, o\u0027n ikkinchi va yigirma birinchi xatboshlariga asosan: 1.4 — to\u0027xtash taqiqlangan joyni bildiradi. Yakka holda yoki 3.27 «To\u0027xtash taqiqlangan» yoʻl belgisi bilan qoʻllaniladi hamda yo\u0027lning qatnov qismi chetiga yoki yoʻl chetidagi to\u0027siq ustidan chiziladi.\n1.10 — to\u0027xtab turish taqiqlangan joyni bildiradi. yakka holda yoki 3.28 yo\u0027l belgisi bilan qoʻllaniladi va yo\u0027lning qatnov qismi chetiga yoki yoʻl chetidagi toʻsiq ustidan chiziladi.\n1.17 — yo\u0027nalishli transport vositalarining bekatlari hamda taksilarning to\u0027xtab turish joylarini bildiradi.\nYHQ 1-ilovasi 3-bo\u0027limining oʻttiz sakkizinchi xatboshisiga asosan: 3.27 belgisiga amal qilish yo\u0027nalishli transport vositalariga ta\u0027sir qilmaydi."
+                                },
+                         "ru":  {
+                                    "text":  "Какие из этих линий разрешают остановку маршрутным транспортным средствам?",
+                                    "options":  [
+                                                    "F1. «А», «Б», «В»"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Горизонтальная разметка 1.10 (прерывистая желтая линия) - обозначает места, где запрещена стоянка. Применяется самостоятельно или в сочетании со знаком 3.28 и наносится у края проезжей части или по верху бордюра.\nГоризонтальная разметка 1.17 (зигзагообразная желтая линия) - обозначает остановки маршрутных транспортных средств и стоянки такси.\nГоризонтальная разметка 1.4 (сплошная желтая линия) - обозначает места, где запрещена остановка. Применяется самостоятельно или в сочетании со знаком 3.27 и наносится у края проезжей части или по верху бордюра. Соответственно, остановка маршрутных транспортных средств разрешена при всех разметках."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу ётиқ чизиқлардан қайси бири белгиланган йўналишдаги транспорт воситалари учун тўхташга рухсат беради?",
+                                     "options":  [
+                                                     "F1. «А», «Б», «В»"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг олтинчи, ўн иккинчи ва йигирма биринчи хатбошларига асосан: 1.4 — тўхташ тақиқланган жойни билдиради. Якка ҳолда ёки 3.27 «Тухташ тақиқланган» йўл белгиси билан қўлланилади ҳамда йўлнинг қатнов қисми четига ёки йўл четидаги тўсиқ устидан чизилади. \n1.10 — тўхтаб туриш тақиқланган жойни билдиради; якка ҳолда ёки 3.28 йўл белгиси билан қўлланилади ва йўлнинг қатнов қисми четига ёки йўл четидаги тўсиқ устидан чизилади.\n1.17 — йўналишли транспорт воситаларининг бекатлари ҳамда таксиларнинг тўхтаб туриш жойларини билдиради.\nЙҲҚ 1-иловаси 3-бўлимининг ўттиз саккизинчи хатбошисига асосан: 3.27 белгисига амал қилиш йўналишли транспорт воситаларига таъсир қилмайди."
+                                 }
+                     }
+}

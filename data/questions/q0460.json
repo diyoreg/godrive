@@ -1,0 +1,36 @@
+{
+    "questionId": 460,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Furgon yukxonasida odamlarni tashishga ruxsat etiladimi?",
+            "options": [
+                "F1. Taqiqlanadi",
+                "F2. Ruxsat etiladi",
+                "F3. Agar ularning tuzilishi odamlarni tashishga moslashtirilgan bo'lsa, ruxsat etiladi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 26-bobi 159-bandining ikkinchi xatboshisiga asosan, odamlarni tashish quyidagi hollarda taqiqlanadi: transport vositasining kabinasidan tashqarida (odam tashish uchun mo'ljallangan bortli yuk yoki furgon-yuk xonali avtomobillar bundan mustasno)."
+        },
+        "ru": {
+            "text": "Разрешается ли перевозка людей в кузовах-фургонах?",
+            "options": [
+                "F1. Запрещается",
+                "F2. Разрешается",
+                "F3. Разрешается только в том случае, если их конструкция приспособлена для таких перевозок"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 2 пункта 159 главы 26 ПДД, запрещается перевозить людей в следующих случаях: вне кабины транспортного средства (кроме случаев перевозки людей в кузове бортового грузового автомобиля или на грузовом автомобиле с кузовом-фургоном)."
+        },
+        "uzk": {
+            "text": "Фургон юкхонасида одамларни ташишга рухсат этиладими?",
+            "options": [
+                "F1. Тақиқланади",
+                "F2. Рухсат этилади",
+                "F3. Агар уларнинг тузилиши одамларни ташишга мослаштирилган бўлса, рухсат этилади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 26-боби 159-бандининг иккинчи хатбошисига асосан, одамларни ташиш қуйидаги ҳолларда тақиқланади: транспорт воситасининг кабинасидан ташқарида (одам ташиш учун мўлжалланган бортли юк ёки фургон-юк хонали автомобиллар бундан мустасно)."
+        }
+    }
+}

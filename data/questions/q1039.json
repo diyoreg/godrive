@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1039,
+    "image":  "data/images/q1039.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Belgilardan qaysi biri qatnov qismi kesishmasi hududini bildiradi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 1.33. “Qatnov qismi kesishmasi hududi”.\n1.30 yotiq chizig\u0027i bilan belgilangan chorrahaga yaqinlashayotganligini anglatib, oldinda tirbandlik yuzaga kelganligi tufayli majburiy to\u0027xtab, ko\u0027ndalang yo\u0027nalishdagi transport vositalarining harakatlanishiga to\u0027sqinlik tug\u0027diradigan bo\u0027lsa, chorrahaga kirish, agar to\u0027xtash chizig\u0027i yoki 5.33 yo\u0027l belgisidan o\u0027tib bo\u0027lgan haydovchiga esa qatnov qismlari kesishmasiga kirishni taqiqlanishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из указанных знаков обозначает зону пересечения проезжей части?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 1: 1.33. Территория пересечения проезжих частей.\nОзначает приближение к перекрестку, который обозначен горизонтальной разметкой 1.30. Означает, что водителю, который проехал стоп-линию или дорожный знак 5.33 запрещается выезжать на пересечение проезжих частей, если он совершит вынужденную остановку из-за впереди образовавщегося затора и этим создаст помеху движению транспортных средств в поперечном направлении."
+                                },
+                         "uzk":  {
+                                     "text":  "Белгилардан қайси бири қатнов қисми кесишмаси ҳудудини билдирaди?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 1.33. “Қатнов қисми кесишмаси ҳудуди”.\n1.30 ётиқ чизиғи билан белгиланган чорраҳага яқинлашаётганлигини англатиб, олдинда тирбандлик юзага келганлиги туфайли мажбурий тўхтаб, кўндаланг йўналишдаги транспорт воситаларининг ҳаракатланишига тўсқинлик туғдирадиган бўлса, чорраҳага кириш, агар тўхташ чизиғи ёки 5.33 йўл белгисидан ўтиб бўлган ҳайдовчига эса қатнов қисмлари кесишмасига киришни тақиқланишини билдиради."
+                                 }
+                     }
+}

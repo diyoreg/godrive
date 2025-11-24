@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  780,
+    "image":  "data/images/q0780.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan qaysi joyda siz avtomobilni qoidaga binoan to\u0027xtatishingiz mumkin?",
+                                    "options":  [
+                                                    "F1. Hech qaysisida",
+                                                    "F2. Faqat «Б» va «B»",
+                                                    "F3. Faqat «A»",
+                                                    "F4. Faqat «Б»"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 13-bobi 88-bandi: Aholi punktlarida o\u0027rtada tramvay yo\u0027li bo\u0027lmagan, har yo\u0027nalishda bittadan tasmasi bo\u0027lgan, shuningdek bir tomonlama harakat tashkil etilgan yo\u0027llarda yo\u0027lning chap tomonida to\u0027xtash va to\u0027xtab turishga ruxsat etiladi.\nYHQ 13-bobi 91-bandi: Quyidagi joy va holatlarda to\u0027xtash taqiqlanadi: piyodalar o\u0027tish joylarida va ulardan oldin 10 metrdan kam masofa qolganda."
+                                },
+                         "ru":  {
+                                    "text":  "В каком из указанных мест Вы можете произвести остановку?",
+                                    "options":  [
+                                                    "F1. Негде нельзя",
+                                                    "F2. Только «Б» и «В»",
+                                                    "F3. Только «А»",
+                                                    "F4. Только «Б»"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Пункта 88 главы 13 ПДД, гласит: На левой стороне дороги остановка и стоянка разрешаются в населенных пунктах на дорогах с односторонним движением, имеющим две полосы движения, при отсутствии трамвайных путей посередине.\nПункта 91 главы 13 ПДД, гласит: Остановка запрещается в следующих местах: на пешеходных переходах и ближе 10 м перед ними."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган қайси жойда сиз автомобилни қоидага биноан тўхтатишингиз мумкин?",
+                                     "options":  [
+                                                     "F1. ҳеч қайсисида",
+                                                     "F2. Фақат «Б» ва «В»",
+                                                     "F3. Фақат «A»",
+                                                     "F4. Фақат «Б»"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 13-боби 88-банди: Аҳоли пунктларида ўртада трамвай йўли бўлмаган, ҳар йўналишда биттадан тасмаси бўлган, шунингдек бир томонлама ҳаракат ташкил этилган йўлларда йўлнинг чап томонида тўхташ ва тўхтаб туришга рухсат этилади.\nЙҲҚ 13-боби 91-банди: Қуйидаги жой ва ҳолатларда тўхташ тақиқланади: пиёдалар ўтиш жойларида ва улардан олдин 10 метрдан кам масофа қолганда."
+                                 }
+                     }
+}

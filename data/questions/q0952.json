@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  952,
+    "image":  "data/images/q0952.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Faqat chap tomondagi suratda",
+                                                    "F2. Faqat o\u0027ng tomondagi suratda",
+                                                    "F3. Har ikki suratda"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Chap tarafdagi suratda Siz yondosh xududdan chikishda vaziyatni tulik nazorat kila olasiz. O\u0027ng tomondagi suratda yo\u0027lga orqa tomon bilan chiqish siz uchun nisbatan xavfli, chunki yo\u0027lni harakat qismida orqa bilan harakatlanayapsiz, shu bilan bir qatorda ko\u0027rish maydoni cheklangan."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Только на левом рисунке",
+                                                    "F2. Только на правом рисунке",
+                                                    "F3. На обоих рисунках"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Наиболее рациональный и безопасный способ разворота в показанных ситуациях - на левом рисунке. Он позволяет лучше просматривать проезжую часть и требует меньше времени для разворота."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Фақат чап томондаги суратда",
+                                                     "F2. Фақат ўнг томондаги суратда",
+                                                     "F3. Ҳар икки суратда"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "Чап тарафдаги суратда Сиз ёндош худуддан чикишда вазиятни тулик назорат кила оласиз. Ўнг томондаги суратда йўлга орқа томон билан чиқиш сиз учун нисбатан хавфли, чунки йўлни ҳаракат қисмида орқа билан ҳаракатланаяпсиз, шу билан бир қаторда кўриш майдони чекланган."
+                                 }
+                     }
+}

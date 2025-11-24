@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  901,
+    "image":  "data/images/q0901.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu vaziyatda siz o\u0027ng tasmada harakatlanmoqdasiz, sizning tasmangizga qayta tizilayotgan transport vositasiga yo\u0027l berishingiz kerakmi?",
+                                    "options":  [
+                                                    "F1. Kerak emas",
+                                                    "F2. Kerak"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 9-bobi 55-bandi: Haydovchi qayta tizilishda harakatlanish yo\u0027nalishini o\u0027zgartirmasdan harakatlanayotgan yo\u0027lakay transport vositalariga yo\u0027l berishi kerak.\nBir yoʻnalishda harakatlanayotgan transport vositalari bir vaqtda qayta tizilayotganlarida haydovchi o\u0027ng tomondagi transport vositasiga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "В этой ситуации вы едете по правой полосе, должны ли вы уступить дорогу транспортному средству, перестраивающемуся на вашу полосу?",
+                                    "options":  [
+                                                    "F1. Не обязаны",
+                                                    "F2. Обязаны"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 55 главы 9 ПДД, гласит:  При перестроении водитель должен уступить дорогу транспортным средствам, движущимся попутно по соседней полосе, не меняя направление движения.\nПри одновременном перестроении транспортных средств, движущихся попутно, водитель должен уступить дорогу транспортному средству, находящемуся справа."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу вазиятда сиз ўнг тасмада ҳаракатланмоқдасиз, сизнинг тасмангизга қайта тизилаётган транспорт воситасига йўл беришингиз керакми?",
+                                     "options":  [
+                                                     "F1. Керак емас",
+                                                     "F2. Керак"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 9-боби 55-банди: Ҳайдовчи қайта тизилишда ҳаракатланиш йўналишини ўзгартирмасдан ҳаракатланаётган йўлакай транспорт воситаларига йўл бериши керак.\nБир йўналишда ҳаракатланаётган транспорт воситалари бир вақтда қайта тизилаётганларида ҳайдовчи ўнг томондаги транспорт воситасига йўл бериши керак."
+                                 }
+                     }
+}

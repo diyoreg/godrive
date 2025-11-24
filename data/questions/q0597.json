@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  597,
+    "image":  "data/images/q0597.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi avtomobilning haydovchisi to\u0027xtab turish qoidalarini buzmadi?",
+                                    "options":  [
+                                                    "F1. Qizil",
+                                                    "F2. Sariq",
+                                                    "F3. Har ikkisi buzgan",
+                                                    "F4. Hech kim buzmadi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 13-bobi 91-bandiga asosan: Quyidagilarda to\u0027xtash taqiqlanadi: qatnov qismi kesishmalarida va kesishayotgan qatnov qismi chetiga 30 metrdan kam masofada (uch tomonlama kesishadigan chorrahalarda yondan tutashgan yo\u0027lning sidirg\u0027a chiziq yoki ajratuvchi mintaqa bilan ajratilgan qarama-qarshi tomoni bundan mustasno);"
+                                },
+                         "ru":  {
+                                    "text":  "Водитель какого автомобиля не нарушил правила стоянки?",
+                                    "options":  [
+                                                    "F1. Красный",
+                                                    "F2. Желтый",
+                                                    "F3. Оба нарушили",
+                                                    "F4. Никто не нарушил"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Пункта 91 главы 13 ПДД, гласит: На пересечении проезжих частей и ближе 30 м от края пересекаемой проезжей части, за исключением стороны напротив бокового проезда трехсторонних пересечений (перекрестков), имеющих сплошную линию дорожной разметки или разделительную полосу;"
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси автомобилнинг ҳайдовчиси тўхтаб туриш қоидаларини бузмади?",
+                                     "options":  [
+                                                     "F1. Қизил",
+                                                     "F2. Сариқ",
+                                                     "F3. Ҳар иккиси бузган",
+                                                     "F4. Ҳеч ким бузмади"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 13-боби 91-бандига асосан: Қуйидагиларда тўхташ тақиқланади: қатнов қисми кесишмаларида ва кесишаётган қатнов қисми четига 30 метрдан кам масофада (уч томонлама кесишадиган чорраҳаларда ёндан туташган йўлнинг сидирға чизиқ ёки ажратувчи минтақа билан ажратилган қарама-қарши томони бундан мустасно);"
+                                 }
+                     }
+}

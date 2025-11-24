@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  1045,
+    "image":  "data/images/q1045.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan belgilardan qaysi biri bolalar deb nomlanadi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 1.21. “Bolalar”. Bolalar muassasasi (maktablar, bolalarning dam olish maskanlari va shunga o\u0027xshashlar)ga yaqin yo\u0027lning qatnov qismidan bolalarning chiqib qolish ehtimolini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой из указанных знаков называется «Дети»?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: 1.21. Дети. Участок дороги вблизи детского учреждения (школы, места отдыха детей и т. п.), на проезжей части которого возможно появление детей."
+                                },
+                         "uzk":  {
+                                     "text":  "Курсатилган белгилардан қайси бири болалар деб номланади?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 1.21. “Болалар”. Болалар муассасаси (мактаблар, болаларнинг дам олиш масканлари ва шунга ўхшашлар)га яқин йўлнинг қатнов қисмидан болаларнинг чиқиб қолиш эҳтимолини билдиради."
+                                 }
+                     }
+}

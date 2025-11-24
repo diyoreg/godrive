@@ -1,0 +1,36 @@
+{
+    "questionId": 320,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yengil avtomobillarning oldingi o'rindig'ida bolalarni tashishga ruxsat etiladimi?",
+            "options": [
+                "F1. 7 yoshdan kichiq bo'lmagan bolalarni tashishga ruxsat etiladi",
+                "F2. 12 yosh va undan katta bo'lgan bolalarni tashishga ruxsat etiladi",
+                "F3. Katta yoshli yo'lovchi bo'lganda yoshidan qat'i nazar ruxsat etiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 26-bobi 159-bandining beshinchi xatboshisiga asosan, odamlarni tashish quyidagi hollarda taqiqlanadi: 12 yoshga to'lmagan bolalarni mototsikl, elektromototsikl, moped va skuterning orqa o'rindig'ida, shuningdek, bolalarni ushlab turuvchi maxsus qurilma o'rnatilmagan transport vositasining old o'rindig'ida;"
+        },
+        "ru": {
+            "text": "Разрешается ли перевозка детей на переднем сиденье легкового автомобиля?",
+            "options": [
+                "F1. Разрешается перевозка детей в возрасте не моложе 7 лет",
+                "F2. Разрешается перевозка детей достигших 12-летнего возраста и старше",
+                "F3. Разрешается независимо от возраста при наличии взрослого пассажира"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 159 главы 26 ПДД, гласит: Запрещается перевозить людей в следующих случаях: — запрещается перевозить детей до 12 лет на заднем сиденье мотоцикл, электромотоцикл, мопед и скутера, а также на переднем сиденье легкового автомобиля при отсутствии специального детского удерживающего устройства."
+        },
+        "uzk": {
+            "text": "Енгил автомобилларнинг олдинги ўриндиғида болаларни ташишга рухсат этиладими?",
+            "options": [
+                "F1. 7 ёшдан кичик бўлмаган болаларни ташишга рухсат этилади",
+                "F2. 12 ёш ва ундан катта бўлган болаларни ташишга рухсат этилади",
+                "F3. Катта ёшли йўловчи бўлганда ёшидан қатъий назар рухсат этилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 26-боби 159-бандининг бешинчи хатбошисига асосан, одамларни ташиш қуйидаги ҳолларда тақиқланади: 12 ёшга тўлмаган болаларни мотоцикл, электромотоцикл, мопед ва скутернинг орқа ўриндиғида, шунингдек, болаларни ушлаб турувчи махсус қурилма ўрнатилмаган транспорт воситасининг олд ўриндиғида."
+        }
+    }
+}

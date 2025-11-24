@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  902,
+    "image":  "data/images/q0902.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu yo\u0027l belgisi qaysi transport vositalarining harakatlanishini taqiqlaydi?",
+                                    "options":  [
+                                                    "F1. Xavfli yuk tashiyotgan transport vositalarining  harakatlanishini",
+                                                    "F2. Barcha javoblari to\u0027g\u0027ri",
+                                                    "F3. Ruxsat etilgan to\u0027la vazni 3,5 tonnadan ortiq bo\u0027lgan yuk avtomobillarini"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 3.32. «Xavfli yuk tashiyotgan transport vositasining harakati taqiqlangan»."
+                                },
+                         "ru":  {
+                                    "text":  "Движение каких транспортных средств запрещает этот дорожный знак?",
+                                    "options":  [
+                                                    "F1. Движение транспортных средств, перевозящих опасные грузы",
+                                                    "F2. Все ответы верны",
+                                                    "F3. Автомобили с разрешённой полной массой более 3,5 тонн"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД приложение № 1: 3.32. «Движение транспортных средств с опасными грузами запрещено»."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу йўл белгиси қайси транспорт воситаларининг ҳаракатланишини тақиқлайди?",
+                                     "options":  [
+                                                     "F1. Хавфли юк ташиётган транспорт воситаларининг  ҳаракатланишини",
+                                                     "F2. Барча жавоблари тўғри",
+                                                     "F3. Рухсат этилган тўла вазни 3,5 тоннадан ортиқ бўлган юк автомобилларини"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 3.32. «Хавфли юк ташиётган транспорт воситасининг ҳаракати тақиқланган»."
+                                 }
+                     }
+}

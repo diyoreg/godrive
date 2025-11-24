@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  645,
+    "image":  "data/images/q0645.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu chorrahada chapga burilishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat etiladi",
+                                                    "F2. Taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1-ilovasi 4-bo\u0027limining birinchi va sakkizinchi xatboshlariga asosan: 4.1.1. «Harakatlanish to\u0027g\u0027riga». 4.1.1 yoʻl belgisi qatnov qismining qaysi kesishmasi oldiga o\u0027rnatilsa, shu kesishmaga joriy qilinadi.\nYo\u0027lning qismi boshlanishida o\u0027rnatilgan 4.1.1 belgisining ta’siri yaqin chorrahagacha joriy qilinadi. Belgi o\u0027ng tomonda joylashgan hovlilarga va yo\u0027lga yondosh boshqa hududlarga burilishni taqiqlamaydi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли на этом перекрестке повернуть налево?",
+                                    "options":  [
+                                                    "F1. Разрешается",
+                                                    "F2. Запрещается"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Предписывающий знак 4.1.1 \"Движение прямо\". Действие знаков 4.1.1-4.1.6 распространяется на пересечение проезжих частей, перед которыми установлен знак.\\\nСоответственно, знак 4.1.1 распространяется только на первый поворот. Поэтому в данном случае разрешается поворот налево во второй проезд."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу чорраҳада чапга бурилишга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Рухсат этилади",
+                                                     "F2. Тақиқланади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1-иловаси 4-бўлимининг биринчи ва саккизинчи хатбошларига асосан: 4.1.1. «Харакатланиш тутрига». 4.1.1 йўл белгиси қатнов қисмининг қайси кесишмаси олдига ўрнатилса, шу кесишмага жорий қилинади.\nЙўлнинг қисми бошланишида ўрнатилган 4.1.1 белгисининг таъсири яқин чорраҳагача жорий қилинади. Белги ўнг томонда жойлашган ҳовлиларга ва йўлга ёндош бошқа ҳудудларга бурилишни тақиқламайди."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+{
+    "questionId": 221,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Kim «Yo'l harakati qatnashchisi» hisoblanadi?",
+            "options": [
+                "F1. Yo'l harakati jarayonida transport vositasining haydovchisi, yo'lovchisi yoki piyoda tariqasida bevosita ishtirok etayotgan shaxs",
+                "F2. Yo'lda bo'lgan va unda ish bajarmayotgan har qanday shaxs",
+                "F3. Biror bir transport vositasini boshqarayotgan shaxs"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-bobi 6-bandining qirq to'qqizinchi xatboshisiga asosan: Yo'l harakati qatnashchisi — yo'l harakati jarayonida transport vositasining haydovchisi, yo'lovchisi yoki piyoda tariqasida bevosita ishtirok etayotgan shaxs."
+        },
+        "ru": {
+            "text": "Кто является «Участником дорожного движения»?",
+            "options": [
+                "F1. Лицо, принимающее непосредственное участие в процессе движения как пешеход, водитель, пассажир транспортного средства",
+                "F2. Любое лицо, находящееся на дороге и не выполняющее на ней работы",
+                "F3. Лицо, управляющее каким-либо транспортным средством"
+            ],
+            "correctAnswer": 1,
+            "explanation": "В разделе №2 ПДД (\"Основные понятия и термины, применяемые в правила\") сказано: Участник дорожного движения - лицо, принимающее непосредственное участие в процессе дорожного движения в качестве водителя, пассажира транспортного средства или пешехода."
+        },
+        "uzk": {
+            "text": "Ким «Йўл ҳаракати қатнашчиси» ҳисобланади?",
+            "options": [
+                "F1. Йўл ҳаракати жараëнида транспорт воситасининг ҳайдовчиси, йўловчиси ёки пиёда тариқасида бевосита иштирок этаётган шахс",
+                "F2. Йўлда бўлган ва унда иш бажармаётган ҳар қандай шахс",
+                "F3. Бирор бир транспорт воситасини бошқараëтган шахс"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-боби 6-бандининг қирқ тўққизинчи хатбошисига асосан: Йўл ҳаракати қатнашчиси — йўл ҳаракати жараёнида транспорт воситасининг ҳайдовчиси, йўловчиси ёки пиёда тариқасида бевосита иштирок этаётган шахс."
+        }
+    }
+}

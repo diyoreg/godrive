@@ -1,0 +1,39 @@
+{
+    "questionId": 17,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Transport vositasini orqaga harakatlantirish paytida haydovchi qanday talablarni bajarishi kerak?",
+            "options": [
+                "F1. Harakatning boshqa ishtirokchilariga xalaqit bermaslik. Harakat xavfsizligini ta'minlash uchun zarur bo'lsa, boshqa shaxslar yordamidan foydalanish",
+                "F2. Boshqa shaxslar yordamidan foydalanish",
+                "F3. Transport vositasida tumanga qarshi orqa chiroqlar bo'lsa, ularni yoqish",
+                "F4. Gabarit chiroqlarini yoqish"
+            ],
+            "correctAnswer": 1,
+            "explanation": "IzohYHQ 9-bobi 63-bandiga asosan: Transport vositasini orqaga harakatlantirishda haydovchi yo'l harakati xavfsizligini ta'minlashi va boshqa yo'l harakati qatnashchilariga xalaqit bermasligi shart. Zarurat tug'ilganda haydovchi boshqa shaxslarning yordamidan foydalanishi kerak."
+        },
+        "ru": {
+            "text": "Что должен выполнять водитель при движении транспортного средства задним ходом?",
+            "options": [
+                "F1. Не создавать помех другим участникам движения. Для обеспечения безопасности движения он, при необходимости, должен прибегнуть к помощи других лиц.",
+                "F2. Прибегнуть к помощи других лиц",
+                "F3. Включить задние противотуманные фонари, если они имеются на транспортном средстве",
+                "F4. Включить габаритные огни"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 63 главы 9 ПДД, гласит: При движении транспортного средства задним ходом водитель должен обеспечить безопасность движения и не создавать помех другим участникам движения. При необходимости он должен прибегнуть к помощи других лиц."
+        },
+        "uzk": {
+            "text": "Транспорт воситасини орқага ҳаракатлантириш пайтида ҳайдовчи қандай талабларни бажариши керак?",
+            "options": [
+                "F1. Ҳаракатнинг бошқа иштирокчиларига халақит бермаслик. Ҳаракат хавфсизлигини таъминлаш учун зарур бўлса, бошқа шахслар ёрдамидан фойдаланиш",
+                "F2. Бошқа шахслар ёрдамидан фойдаланиш",
+                "F3. Транспорт воситасида туманга қарши орқа чироқлар бўлса, уларни ёкиш",
+                "F4. Габарит чироқларини ёқиш"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ИзоҳЙҲҚ 9-боби 63-бандига асосан: Транспорт воситасини орқага ҳаракатлантиришда ҳайдовчи йўл ҳаракати хавфсизлигини таъминлаши ва бошқа йўл ҳаракати қатнашчиларига халақит бермаслиги шарт. Зарурат туғилганда ҳайдовчи бошқа шахсларнинг ёрдамидан фойдаланиши керак."
+        }
+    }
+}

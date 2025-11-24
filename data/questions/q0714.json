@@ -1,0 +1,38 @@
+﻿{
+    "questionId":  714,
+    "image":  "data/images/q0714.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ko\u0027rsatilgan qaysi belgilar sizga yashash manzilingizga avtomobilda o\u0027tishga ruxsat beradi?",
+                                    "options":  [
+                                                    "F1. Faqat «Б»",
+                                                    "F2. «А» va «В»",
+                                                    "F3. Faqat «А»",
+                                                    "F4. Barchasi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 3.2 — 3.8 belgilari belgilangan zonada joylashgan korxonalarga xizmat kursatuvchi transport vositalariga, shuningdek, belgilangan zonada yashaydigan yoki ishlaydigan fukarolarga xizmat kiluvchi yoki ularga tegishli bulgan transport vositalariga ta’sir kilmaydi."
+                                },
+                         "ru":  {
+                                    "text":  "Какие из указанных знаков разрешают Вам проезд на автомобиле к месту проживания?",
+                                    "options":  [
+                                                    "F1. Только «Б»",
+                                                    "F2. «А» и «B»",
+                                                    "F3. Только «А»"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: Действие знаков 3.2 - 3.8 - на транспортные средства, которые обслуживают предприятия, находящиеся в обозначенной зоне, а также обслуживают или принадлежат гражданам, проживающим или работающим в обозначенной зоне. В этих случаях транспортные средства должны въезжать в обозначенную зону и выезжать из нее на ближайшем к месту назначения перекрестке."
+                                },
+                         "uzk":  {
+                                     "text":  "Кўрсатилган қайси белгилар Сизга яшаш манзилингизга автомобилда ўтишга рухсат беради?",
+                                     "options":  [
+                                                     "F1. Фақат «Б»",
+                                                     "F2. «A» ва «В»",
+                                                     "F3. Фақат «A»",
+                                                     "F4. Барчаси"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 3.2 — 3.8 белгилари белгиланган зонада жойлашган корхоналарга хизмат курсатувчи транспорт воситаларига, шунингдек, белгиланган зонада яшайдиган ёки ишлайдиган фукароларга хизмат килувчи ёки уларга тегишли булган транспорт воситаларига таъсир килмайди."
+                                 }
+                     }
+}

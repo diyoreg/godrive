@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  283,
+    "image":  "data/images/q0283.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "To\u0027xtashni taqiqlovchi joylarni bildiruvchi sidirg\u0027a sariq chiziq qayerda chiziladi?",
+                                    "options":  [
+                                                    "F1. Harakatlanish qismida",
+                                                    "F2. Harakatlanish qatnov qismi chetida",
+                                                    "F3. Harakatlanish qatnov qismi chetida yoki bordyur ustidan chiziladi",
+                                                    "F4. Faqat to\u0027siq (bordyur) ustida"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining oltinchi xatboshisiga asosan: 1.4 — to\u0027xtash taqiqlangan joyni bildiradi. Yakka holda yoki 3.27 «To\u0027xtash taqiqlangan» yo\u0027l belgisi bilan qo\u0027llaniladi hamda yo\u0027lning qatnov qismi chetiga yoki yo\u0027l chetidagi to\u0027siq ustidan chiziladi."
+                                },
+                         "ru":  {
+                                    "text":  "Где наносится сплошная желтая линия, запрещающая остановку?",
+                                    "options":  [
+                                                    "F1. На проезжей части",
+                                                    "F2. У края проезжей части",
+                                                    "F3. У края проезжей части или по верху бордюров",
+                                                    "F4. Только по верху бордюра"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Горизонтальная разметка 1.4 (сплошная желтая линия) - обозначает места, где запрещена остановка. Применяется самостоятельно или в сочетании со знаком 3.27 и наносится у края проезжей части или по верху бордюра."
+                                },
+                         "uzk":  {
+                                     "text":  "Тўхташни тақиқловчи жойларни билдирувчи сидирға сариқ чизиқ қаерда чизилади?",
+                                     "options":  [
+                                                     "F1. Ҳаракатланиш қисмида",
+                                                     "F2. Ҳаракатланиш қатнов қисми четида",
+                                                     "F3. Ҳаракатланиш қатнов қисми четида ëки бордюр устидан чизилади",
+                                                     "F4. Фақат тўсиқ (бордюр) устида"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг олтинчи хатбошисига асосан: 1.4 — тўхташ тақиқланган жойни билдиради. Якка ҳолда ёки 3.27 «Тухташ тақиқланган». йўл белгиси билан қўлланилади ҳамда йўлнинг қатнов қисми четига ёки йўл четидаги тўсиқ устидан чизилади."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  605,
+    "image":  "data/images/q0605.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Asosiy yo\u0027l bo\u0027yicha chorrahaga chiqayotgan avtobusning haydovchisi",
+                                                    "F2. Chorrahada qayrilib olishni tugallayotgan yengil avtomobilning haydovchisi",
+                                                    "F3. Svetoforning ruxsat etuvchi ishorasida chorrahaga chiqqan avtobus haydovchisi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 15-bobi 102-bandiga asosan: Svetoforning ruxsat etuvchi ishorasida chorrahaga kirgan haydovchi, undan chiqishdagi svetofor ishorasidan qat\u0027i nazar, belgilangan yoʻnalishda harakatini davom ettirishi kerak.\nYHQ 15-bobi 103-bandiga asosan: Svetoforning ruxsat etuvchi ishorasi yonganda haydovchi chorraha orqali harakatlanishni tugallayotgan transport vositalari va qatnov qismidan tegishli yo\u0027nalishda o\u0027tishni tugallayotgan piyoda(lar)ga yo\u0027l berishi shart."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Водитель автобуса, выезжающий на перекресток по главной дороге",
+                                                    "F2. Водитель легкового автомобиля, завершающий на перекрестке разворот",
+                                                    "F3. Водитель автобуса, выезжающий на перекресток при разрешающем сигнале светофора"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункту 102 главы 15 ПДД, водитель, въехавший на перекресток при разрешающем сигнале светофора, должен выехать в намеченном направлении независимо от сигналов светофора на выезде с него.\nПункту 103 главы 15 ПДД, при включении разрешающего сигнала светофора водитель обязан уступить дорогу транспортным средствам, завершающим движение через перекресток, и пешеходам, не закончившим переход проезжей части данного направления."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Асосий йўл бўйича чорраҳага чиқаётган автобуснинг ҳайдовчиси",
+                                                     "F2. Чорраҳада қайрилиб олишни тугаллаëтган енгил автомобилнинг ҳайдовчиси",
+                                                     "F3. Светофорнинг рухсат этувчи ишорасида чорраҳага чиққан автобус ҳайдовчиси"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 15-боби 102-бандига асосан: Светофорнинг рухсат этувчи ишорасида чорраҳага кирган ҳайдовчи, ундан чиқишдаги светофор ишорасидан қатъи назар, белгиланган йўналишда ҳаракатини давом эттириши керак.\nЙҲҚ 15-боби 103-бандига асосан: Светофорнинг рухсат этувчи ишораси ёнганда ҳайдовчи чорраҳа орқали ҳаракатланишни тугаллаётган транспорт воситалари ва қатнов қисмидан тегишли йўналишда ўтишни тугаллаётган пиёда(лар)га йўл бериши шарт."
+                                 }
+                     }
+}

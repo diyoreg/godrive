@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  262,
+    "image":  "data/images/q0262.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Agar yo\u0027lda bu belgi o\u0027rnatilgan bo\u0027lsa, avtomobilni shatakka olishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Faqat yengil avtomobillarga ruxsat etiladi",
+                                                    "F2. Qattiq ulagichda ruxsat etiladi",
+                                                    "F3. Taqiqlanadi",
+                                                    "F4. Har qanday ulagichda ruxsat etiladi"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining to\u0027qqizinchi xatboshisiga asosan: 3.7. «Tirkama bilan harakatlanish taqiqlanadi». Yuk tashuvchi transport vositalari, traktorlarning barcha turdagi tirkamalar bilan harakatlanishi, shuningdek mexanik transport vositalarini har qanday usulda shatakka olish taqiqlanishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли буксировка автомобиля, если на дороге установлен этот знак?",
+                                    "options":  [
+                                                    "F1. Разрешается только легковым автомобилям",
+                                                    "F2. Разрешается на жесткой сцепке",
+                                                    "F3. Запрещается",
+                                                    "F4. Разрешается на любой сцепке"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Согласно требованию знака 3.7 раздела 3 приложения № 1 к ПДД, «Движение с прицепом запрещено» запрещается движение грузовых автомобилей и тракторов с прицепами любого типа, а также всякая буксировка механических транспортных средств."
+                                },
+                         "uzk":  {
+                                     "text":  "Агар йўлда бу белги ўрнатилган бўлса, автомобилни шатакка олишга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. фақат енгил автомобилларга рухсат этилади",
+                                                     "F2. Қаттиқ улагичда рухсат этилади",
+                                                     "F3. Тақиқланади",
+                                                     "F4. Ҳар қандай улагичда рухсат этилади"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг тўққизинчи хатбошисига асосан: 3.7. (Тиркама билан ҳаракатланиш такикланади». Юк ташувчи транспорт воситалари, тракторларнинг барча турдаги тиркамалар билан ҳаракатланиши, шунингдек механик транспорт воситаларини ҳар қандай усулда шатакка олиш тақиқланишини билдиради."
+                                 }
+                     }
+}

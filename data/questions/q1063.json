@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  1063,
+    "image":  "data/images/q1063.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Birinchi o\u0027tish huquuqiga egaman",
+                                                    "F2. Ro\u0027paradan kelayotgan avtomobilga yo\u0027l beraman"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1 ilova: 2.6. “Ro\u0027para harakatlanishning ustunligi”. Qarama-qarshi harakatlanishni qiyinlashtiradigan hollarda yo\u0027lning tor qismiga kirish taqiqlanadi. Haydovchi yo\u0027lning tor qismida bo\u0027lgan yoki ro\u0027paradan unga yaqin bo\u0027lgan transport vositasiga yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. У меня есть право первого прохода",
+                                                    "F2. Я уступаю дорогу приближающейся машине"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 1: 2.6. Преимущество встречного движения.\nЗапрещается въезд на узкий участок дороги, если это может затруднить встречное движение. Водитель должен уступить дорогу встречным транспортным средствам, находящимся на узком участке или противоположном подъезде к нему."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Биринчи ўтиш ҳуқууқига эгаман",
+                                                     "F2. Рўпарадан келаётган автомобилга йўл бераман"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1 илова: 2.6. “Рўпара ҳаракатланишнинг устунлиги”. Қарама-қарши ҳаракатланишни қийинлаштирадиган ҳолларда йўлнинг тор қисмига кириш тақиқланади. Ҳайдовчи йўлнинг тор қисмида бўлган ёки рўпарадан унга яқин бўлган транспорт воситасига йўл бериши керак."
+                                 }
+                     }
+}

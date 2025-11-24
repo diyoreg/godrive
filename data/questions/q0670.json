@@ -1,0 +1,36 @@
+{
+    "questionId": 670,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qanday hollarda transport vositasidan foydalanish ruxsat etiladi?",
+            "options": [
+                "F1. Transport vositasining tashqi yuzasiga qonun xujjatlariga mos kelmaydigan va harakat xavfsizligiga salbiy ta'sir ko'rsatadigan turli xil tasvirlar tushurilgan bo'lsa",
+                "F2. Gazli ta'minlash tizimi bilan jihozlangan avtobus va avtomobil gaz ballonlarining tashqi tomonida ko'rsatilgan texnik ko'rsatgichlar (parametrlar) texnik pasportdagi ma'lumotlarga (ko'rsatkichlarga) mos kelsa, oxirgi va rejalashtirilgan tekshirishlarning sanasi bo'lsa",
+                "F3. Ishlab chiqaruvchi korxona tomonidan ko'zda tutilmagan hollarda kuzov (kabina) bir necha xil rangga bo'yalgan bo'lsa (maxsus transport vositalari bundan mustasno)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 3-ilovasi 7-boʻlimining 7.19.-bandiga asosan: 7.19. Gazli ta'minlash tizimi bilan jihozlangan avtobus va avtomobil gaz ballonlarining tashqi tomonida ko'rsatilgan texnik ko'rsatgichlar texnik pasportdagi ma'lumotlarga mos kelmasa, oxirgi va rejalashtirilayotgan tekshiruvlarning sanasi boʻlmasa."
+        },
+        "ru": {
+            "text": "При каких условиях разрешается эксплуатация транспортных средств ?",
+            "options": [
+                "F1. На наружной поверхности транспортных средств нанесены различные изображения, не соответствующие законодательству и отрицательно влияющие на безопасность движения",
+                "F2. Технические параметры, указанные на наружной поверхности газовых балонов автомобилей и автобусов, оснащенных газовой системой питания, соответствуют данным технического паспорта, имеются даты последнего и планируемого освидетельствования",
+                "F3. Применена комбинированная окраска кузова (кабины) не предусмотренного предприятием изготовителем (за исключением специальных транспортных средств)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункту 7.19 раздела 7 приложения № 3 к ПДД, технические параметры, указанные на наружной поверхности газовых баллонов автомобилей и автобусов, оснащенных газовой системой питания, не соответствуют данным технического паспорта, отсутствуют даты последнего и планируемого освидетельствования."
+        },
+        "uzk": {
+            "text": "Қандай ҳолларда транспорт воситасидан фойдаланиш рухсат этилади?",
+            "options": [
+                "F1. Транспорт воситасининг ташқи юзасига қонун хужжатларига мос келмайдиган ва ҳаракат хавфсизлигига салбий таъсир кўрсатадиган турли хил тасвирлар тушурилган бўлса",
+                "F2. Газли таъминлаш тизими билан жиҳозланган автобус ва автомобиль газ баллонларининг ташқи томонида кўрсатилган техник кўрсатгичлар (параметрлар) техник паспортдаги маълумотларга (кўрсаткичларга) мос келса, охирги ва режалаштирилган текширишларнинг санаси бўлса",
+                "F3. Ишлаб чиқарувчи корхона томонидан кўзда тутилмаган ҳолларда кузов (кабина) бир неча хил рангга бўялган бўлса (махсус транспорт воситалари бундан мустасно)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 3-иловаси 7-бўлимининг 7.19.-бандига асосан: 7.19. Газли таъминлаш тизими билан жихозланган автобус ва автомобил газ баллонларининг ташки томонида курсатилган техник курсатгичлар техник паспортдаги маълумотларга мос келмаса, охирги ва режалаштирилаётган текширувларнинг санаси бўлмаса."
+        }
+    }
+}

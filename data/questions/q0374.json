@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  374,
+    "image":  "data/images/q0374.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Yengil avtomobil, avtobus, velosiped",
+                                                    "F2. Avtobus, velosiped, yengil avtomobil",
+                                                    "F3. Avtobus, yengil avtomobil, velosiped",
+                                                    "F4. Velosiped, avtobus, yengil avtomobil"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 16-bobi 104, 106-bandlariga asosan, teng ahamiyatga ega bo\u0027lmagan yo\u0027llar kesishgan chorrahada, keyingi harakat yo\u0027nalishidan qat\u0027i nazar, asosiy yo\u0027ldan kelayotgan transport vositasiga ikkinchi darajali yo\u0027ldan kelayotgan transport vositasining haydovchisi yo\u0027l berishi kerak.\nYHQ 16-bobi 107 bandiga asosan, chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yo\u0027ldan qarama-qarshi yo\u0027nalishdan to\u0027g\u0027riga yoki o\u0027ngga harakatlanayotgan, shuningdek, ruxsat etilgan hollarda quvib o\u0027tayotgan transport vositalariga yo\u0027l berishi shart. Bu qoidaga tramvay haydovchilari ham o\u0027zaro amal qilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Легковой автомобиль, автобус, велосипед",
+                                                    "F2. Автобус, велосипед, легковой автомобиль",
+                                                    "F3. Автобус, легковой автомобиль, велосипед",
+                                                    "F4. Велосипед, автобус, легковой автомобиль"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Пунктам 104, 106 главы 16 ПДД, на перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения.\nПункт 107 главы 16 ПДД, гласит: При повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Енгил автомобиль, автобус, велосипед",
+                                                     "F2. Автобус, велосипед, енгил автомобиль",
+                                                     "F3. Автобус, енгил автомобиль, велосипед",
+                                                     "F4. Велосипед, автобус, енгил автомобиль"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 16-боби 104, 106-бандларига асосан, тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, кейинги ҳаракат йўналишидан қатъи назар, асосий йўлдан келаётган транспорт воситасига иккинчи даражали йўлдан келаётган транспорт воситасининг ҳайдовчиси йўл бериши керак.\nЙҲҚ 16-боби 107 бандига асосан, чапга бурилишда ёки қайрилиб олишда рельссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек, рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак."
+                                 }
+                     }
+}

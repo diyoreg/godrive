@@ -1,0 +1,39 @@
+{
+    "questionId": 1062,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Depodan chiqishda",
+                "F2. Depoga kirishda",
+                "F3. Har ikkisida imtiyozga ega",
+                "F4. Har ikkisida imtiyozga ega emas"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 22-bobi 131-bandi: Tramvay yo'llari chorrahadan tashqarida qatnov qismini kesib o'tadigan joylarda tramvay relssiz transport vositalariga nisbatan imtiyozga ega bo'ladi (depodan chiqish joylari bundan mustasno)."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. При выезде из депо",
+                "F2. При въезде в депо",
+                "F3. В обоих случаях имеет преимущество",
+                "F4. В обоих случаях не имеет преимущества"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 131 главы 22 ПДД, гласит: Вне перекрестков, где трамвайные пути пересекают проезжую часть дороги, трамвай имеет приоритет перед безрельсовыми транспортными средствами (кроме мест выездов из депо)."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Деподан чиқишда",
+                "F2. Депога киришда",
+                "F3. Ҳар иккисида имтиёзга эга",
+                "F4. Ҳар иккисида имтиёзга эга эмас"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 22-боби 131-банди: Трамвай йўллари чорраҳадан ташқарида қатнов қисмини кесиб ўтадиган жойларда трамвай рельссиз транспорт воситаларига нисбатан имтиёзга эга бўлади (деподан чиқиш жойлари бундан мустасно)."
+        }
+    }
+}

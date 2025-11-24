@@ -1,0 +1,39 @@
+{
+    "questionId": 735,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Svetofor (ishoralari) qaysi guruh yo'l belgilarini bekor qiladi (miltilovchi sariq ishoradan tashqari)?",
+            "options": [
+                "F1. Buyuruvchi belgilar",
+                "F2. Ta’qiqlovchi belgilar",
+                "F3. Imtiyoz belgilari",
+                "F4. Barcha sanab o'tilganlari"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 7-bobi 43-bandi: Svetofor ishoralari imtiyoz belgilari talablariga zid kelgan hollarda haydovchilar svetofor ishoralariga amal qilishlari kerak."
+        },
+        "ru": {
+            "text": "Значения каких дорожных знаков отменяются сигналами светофора?",
+            "options": [
+                "F1. Предписывающих знаков",
+                "F2. Запрещающих знаков",
+                "F3. Знаков приоритета",
+                "F4. Всех перечисленных"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 43 главы 7 ПДД, гласит: В случае, если значение сигналов светофора противоречат требованиям дорожных знаков приоритета, водители должны руководствоваться сигналами светофора."
+        },
+        "uzk": {
+            "text": "Светофор ишоралари қайси гуруҳ йўл белгиларини бекор  қилади (милтиловчи сариқ ишорадан ташкари)?",
+            "options": [
+                "F1. Буюрувчи белгилар",
+                "F2. Таъқиқловчи белгилар",
+                "F3. Имтиёз белгилари",
+                "F4. Барча санаб ўтилганлари"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 7-боби 43-банди: Светофор ишоралари имтиёз белгилари талабларига зид келган ҳолларда ҳайдовчилар светофор ишораларига амал қилишлари керак."
+        }
+    }
+}

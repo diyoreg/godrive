@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  126,
+    "image":  "data/images/q0126.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Haydovchi orqa g\u0027ildiraklari yetakchi bo\u0027lgan avtomobilning orqa o\u0027qi sirpanib ketishi boshlanganida to\u0027xtatish uchun nima qilishi kerak?",
+                                    "options":  [
+                                                    "F1. Boshqaruv rulini sirpanishga qarama-qarshi tomonga burish",
+                                                    "F2. Boshqaruv rulini sirpanish boshlanayotgan tomonga burish",
+                                                    "F3. Tormoz tepkisini bosish"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Orqa o\u0027qi yetakchi boʻlgan avtomobillarda sirpanchiq yoʻlda sirpanish holati rul chambaragini birdan (keskin) burish natijasida kelib chiqadi. Bu holda rul chambaragini tez, biroq ravonlik bilan sirpanish tomon burib, sirpanish tugashini kutmasdan, rul chambaragiga oldinroq ta\u0027sir etgan holda avtomobil yo\u0027nalishini to\u0027g\u0027irlab olish lozim."
+                                },
+                         "ru":  {
+                                    "text":  "Что должен делать водитель автомобиля для прекращения начавшегося заноса задней оси заднеприводного автомобиля?",
+                                    "options":  [
+                                                    "F1. Повернуть рулевое колесо в сторону, противоположную заносу",
+                                                    "F2. Повернуть рулевое колесо в сторону начавшегося заноса",
+                                                    "F3. Нажать на педаль тормоза"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Для прекращения начавшегося заноса автомобиля нужно повернуть рулевое колесо в сторону заноса. Если повернуть рулевое колесо в сторону, противоположную заносу, то это еще больше усилит занос."
+                                },
+                         "uzk":  {
+                                     "text":  "Ҳайдовчи орқа ғилдираклари етакчи бўлган автомобилнинг орқа ўқи сирпаниб кетиши бошланганида тўхтатиш учун нима қилиши керак?",
+                                     "options":  [
+                                                     "F1. Бошқарув рулини сирпанишга қарама-қарши томонга буриш",
+                                                     "F2. Бошқарув рулини сирпаниш бошланаëтган томонга буриш",
+                                                     "F3. Тормоз тепкисини босиш"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "Орка уки етакчи булган автомобилларда сирпанчиқ йўлда сирпаниш ҳолати рул чамбарагини бирдан (кескин) буриш натижасида келиб чиқади. Бу ҳолда рул чамбарагини тез, бироқ равонлик билан сирпаниш томон буриб, сирпаниш тугашини кутмасдан, рул чамбарагига олдинроқ таъсир этган ҳолда автомобил йўналишини тўғрилаб олиш лозим."
+                                 }
+                     }
+}

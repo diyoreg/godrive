@@ -1,0 +1,39 @@
+{
+    "questionId": 357,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Siz uchta tasmasi bo'lgan ikki tomonlama harakatli yo'l bo'ylab ketayapsiz, o'rta tasmaga o'tishga qanday holda ruxsat etiladi?",
+            "options": [
+                "F1. Faqat quvib o'tish uchun",
+                "F2. Faqat aylanib o'tish uchun",
+                "F3. Faqat chapga burilish yoki qayrilib olish uchun",
+                "F4. Barcha sanab o'tilgan hollarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 10-bobi 66-bandiga asosan: Harakat ikki tomonlama bo'lgan va chiziqlar bilan belgilangan (1.9 yo'l chizig'i bilan belgilanganidan tashqari) uchta tasmali yo'llarda, ikki yo'nalishda harakatlanish uchun mo'ljallangan o'rta qatorga faqat quvib o'tish, aylanib o'tish, chapga burilish va qayrilib olish uchungina chiqishga ruxsat etiladi. Qarama-qarshi yo'nalishda harakatlanish uchun mo'ljallangan chetki chap qatorni egallash taqiqlanadi."
+        },
+        "ru": {
+            "text": "Вы движетесь по дороге с двухсторонним движением, имеющей три полосы. В каком случае разрешается выезжать на среднюю полосу?",
+            "options": [
+                "F1. Только для обгона",
+                "F2. Только для объезда",
+                "F3. Только для поворота налево или разворота",
+                "F4. Во всех перечисленных случаях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 66 главы 10 ПДД, гласит: На дорогах с двусторонним движением, имеющих три полосы (кроме обозначенных разметкой 1.9), на среднюю полосу разрешается выезжать только для обгона, поворота налево, разворота и объезда. Выезжать на крайнюю левую полосу, предназначенную для встречного движения, запрещается. Соответственно, выезжать на среднюю полосу можно во всех перечисленных случаях (для обгона, объезда, поворота налево и разворота)."
+        },
+        "uzk": {
+            "text": "Сиз учта тасмаси бўлган икки томонлама ҳаракатли йўл бўйлаб кетаяпсиз, ўрта тасмага ўтишга қандай ҳолда рухсат этилади?",
+            "options": [
+                "F1. Фақат қувиб ўтиш учун",
+                "F2. Фақат айланиб ўтиш учун",
+                "F3. Фақат чапга бурилиш ёки қайрилиб олиш учун",
+                "F4. Барча санаб ўтилган ҳолларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 10-боби 66-бандига асосан: Ҳаракат икки томонлама бўлган ва чизиқлар билан белгиланган (1.9 йўл чизиғи билан белгиланганидан ташқари) учта тасмали йўлларда, икки йўналишда ҳаракатланиш учун мўлжалланган ўрта қаторга фақат қувиб ўтиш, айланиб ўтиш, чапга бурилиш ва қайрилиб олиш учунгина чиқишга рухсат етилади. Қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган четки чап қаторни егаллаш тақиқланади."
+        }
+    }
+}

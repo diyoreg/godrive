@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  432,
+    "image":  "data/images/q0432.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu belgiga ko\u0027ra qaysi yuk avtomobili harakatni davom ettirishi mumkin?",
+                                    "options":  [
+                                                    "F1. 8 tonnagacha yuk ortgan avtomobil",
+                                                    "F2. 8 tonna yuk ko\u0027tarish quvvatiga ega bo\u0027lgan bo\u0027sh avtomobil",
+                                                    "F3. Ruxsat etilgan to\u0027la vazni 8 tonnadan ortiq bo\u0027lmagan avtomobil"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining beshinchi xatboshisiga asosan: 3.4. «Yuk avtomobillarining harakatlanishi taqiqlangan». Toʻla vazni 3,5 tonnadan (agar vazni belgida ko\u0027rsatilmagan bo\u0027lsa) yoki toʻla vazni belgida ko\u0027rsatilgandan ortiq bo\u0027lgan yuk avtomobillari va transport vositalari tarkiblarining, shuningdek traktorlar, o\u0027ziyurar moslamalarning harakatlanishi taqiqlanishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какому грузовому автомобилю можно продолжать движение при этом знаке?",
+                                    "options":  [
+                                                    "F1. Автомобилю, загруженному до 8 т",
+                                                    "F2. Порожнему автомобилю грузоподъемностью 8 т",
+                                                    "F3. Автомобилю, разрешенная максимальная масса которого не более 8 т"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Запрещающий знак 3.4 \"Движение грузовых автомобилей запрещено\". Запрещается движение грузовых автомобилей и составов транспортных средств с разрешенной максимальной массой более 3,5 т (если на знаке не указана масса) или с максимальной массой, превышающей указанную на знаке, а также тракторов и самоходных машин. Этот знак не запрещает движение грузовых автомобилей с наклонной белой полосой на бортах или производящих перевозку людей.\nВ данном случае на знаке указана масса 8 т, поэтому разрешается движение грузовому автомобилю с разрешенной максимальной массой не более 8 т."
+                                },
+                         "uzk":  {
+                                     "text":  "Бу белгига кўра қайси юк автомобили ҳаракатни давом эттириши мумкин?",
+                                     "options":  [
+                                                     "F1. 8 тоннагача юк ортган автомобиль",
+                                                     "F2. 8 тонна юк кўтариш қувватига эга бўлган бўш автомобиль",
+                                                     "F3. Рухсат этилган тўла вазни 8 тоннадан ортиқ бўлмаган автомобиль"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг бешинчи хатбошисига асосан: 3.4. «Юк автомобилларининг ҳаракатланиши тақиқланган». Тўла вазни 3,5 тоннадан (агар вазни белгида кўрсатилмаган бўлса) ёки тўла вазни белгида кўрсатилгандан ортиқ бўлган юк автомобиллари ва транспорт воситалари таркибларининг, шунингдек тракторлар, ўзиюрар мосламаларнинг ҳаракатланиши тақиқланишини билдиради."
+                                 }
+                     }
+}

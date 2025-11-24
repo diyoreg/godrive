@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  692,
+    "image":  "data/images/q0692.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi transport vositasining haydovchisi yo\u0027l berishi kerak?",
+                                    "options":  [
+                                                    "F1. Traktor haydovchisi",
+                                                    "F2. Avtobus haydovchisi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 1-ilova 2.7 bandi: 2.7 «Ro\u0027paradagi harakatlanishga nisbatan imtiyoz». Yoʻlning tor qismida harakatlanishda haydovchi ro\u0027paradan kelayotgan transport vositasiga nisbatan imtiyozga egaligini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Водитель какого транспортного средства должен уступить дорогу?",
+                                    "options":  [
+                                                    "F1. Водитель трактора",
+                                                    "F2. Водитель автобуса"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Приложение №1 к ПДД пункт 2.7: «Преимущество перед встречным движением». Узкий участок дороги, при движении по которому водитель пользуется приоритетом по отношению к встречным транспортным средствам.\nВ данном случае водитель трактора пользуется приоритетом по отношению к грузовому автомобилю, соответственно, водитель грузового автомобиля должен уступить дорогу трактору."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси транспорт воситасинИНГ ҳайдовчиси йўл бериши керак?",
+                                     "options":  [
+                                                     "F1. Трактор ҳайдовчиси",
+                                                     "F2. Автобус ҳайдовчиси"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 1-илова 2.7 банди: 2.7 «Рўпарадаги ҳаракатланишга нисбатан имтиёз». Йўлнинг тор қисмида ҳаракатланишда ҳайдовчи рўпарадан келаётган транспорт воситасига нисбатан имтиёзга эгалигини билдиради."
+                                 }
+                     }
+}

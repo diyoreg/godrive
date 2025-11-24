@@ -1,0 +1,42 @@
+{
+    "questionId": 1025,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Avtomobilning orqa o'rindiqdagi 12 yoshgacha bo'lgan bolalarga",
+                "F2. Homilador ayollarga",
+                "F3. Orqaga harakatni amalga oshiryotgan haydovchilarga",
+                "F4. F1 va F2 javoblar to'g'ri",
+                "F5. Sanab o'tilgan barcha hollarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 2-bobi 9-bandi: Quyidagi shaxslarga xavfsizlik kamarini taqmaslikka ruxsat beriladi:\navtomobilning orqa o'rindig'idagi 12 yoshgacha bo'lgan bolalar (ushbu Qoidalarning 159-bandiga muvofiq);\nhomilador ayollar, salomatligi xavfsizlik kamari taqish imkonini bermaydigan bemorlar (Sog'liqni saqlash vazirligi tomonidan belgilangan kasalliklar ro'yxatiga muvofiq va ushbu kasalliklar bilan kasallanganligi bo'yicha tibbiy ma’lumotnoma mavjud bo'lganda);"
+        },
+        "ru": {
+            "text": "Следующим лицам разрешается не пристегиваться ремнями безопасности в транспортных средствах, предусмотренных конструкцией ремней безопасности?",
+            "options": [
+                "F1. Детям до 12 лет на заднем сиденье автомобиля",
+                "F2. Беременным женщинам",
+                "F3. Водителям, едущим задним ходом",
+                "F4. F1 и F2 ответы верны",
+                "F5. Во всех причисленных случаях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 9 главы 2 ПДД, гласит: — детям до 12 лет, находящимся на заднем сиденье автомобиля (в соответствии с пунктом 159 Правил);\n— беременным женщинам, больным (при наличии справки согласно министерству Здравоохранения перечни болезней и при наличии заболеваний согласно этого перечня), состояние которых не позволяет им пристегнуться ремнем безопасности;"
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Автомобилнинг орқа ўриндиқдаги 12 ёшгача бўлган болаларга",
+                "F2. Хомиладор аёлларга",
+                "F3. Орқага харакатни амалга оширётган ҳайдовчиларга",
+                "F4. F1 ва F2 жавоблар тўғри",
+                "F5. Санаб ўтилган барча холларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 2-боби 9-банди: Қуйидаги шахсларга хавфсизлик камарини тақмасликка рухсат берилади:\nавтомобилнинг орқа ўриндиғидаги 12 ёшгача бўлган болалар (ушбу Қоидаларнинг 159-бандига мувофиқ);\nҳомиладор аёллар, саломатлиги хавфсизлик камари тақиш имконини бермайдиган беморлар (Соғлиқни сақлаш вазирлиги томонидан белгиланган касалликлар рўйхатига мувофиқ ва ушбу касалликлар билан касалланганлиги бўйича тиббий маълумотнома мавжуд бўлганда);"
+        }
+    }
+}

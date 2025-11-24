@@ -1,0 +1,39 @@
+{
+    "questionId": 868,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Aholi punktlaridan tashqarida tirkamali yuk avtomabillari qanday yuqori tezlik bilan harakatlanishi mumkin?",
+            "options": [
+                "F1. 80 km/s",
+                "F2. 60 km/s",
+                "F3. 90 km/s",
+                "F4. 70 km/s"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 11-bobi 79-bandi: Aholi punktlaridan tashqarida: tirkamali yuk avtomobillariga tezlikni soatiga 70 kilometrdan oshirmasdan harakatlanish ruxsat etiladi."
+        },
+        "ru": {
+            "text": "С какой скоростью могут двигаться грузовые автомобили с прицепом вне населённых пунктов?",
+            "options": [
+                "F1. 80 км/ч",
+                "F2. 60 км/ч",
+                "F3. 90 км/ч",
+                "F4. 70 км/ч"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 79 главы 11 ПДД, гласит: Вне населенных пунктов разрешается движение: грузовым автомобилям при буксировке прицепа - не более 70 км/ч."
+        },
+        "uzk": {
+            "text": "Aҳоли пунктларидан ташқарида тиркамали юк автомабиллари қандай юқори тезлик билан ҳаракатланиши мумкин?",
+            "options": [
+                "F1. 80 км/с",
+                "F2. 60 км/с",
+                "F3. 90 км/с",
+                "F4. 70 км/с"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 11-боби 79-банди: Аҳоли пунктларидан ташқарида: тиркамали юк автомобилларига тезликни соатига 70 километрдан оширмасдан ҳаракатланишга рухсат этилади."
+        }
+    }
+}

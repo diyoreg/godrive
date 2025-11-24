@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1086,
+    "image":  "data/images/q1086.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Haydovchi poyezdni o\u0027tkazib yuborishi uchun to\u0027g\u0027ri to\u0027xtaganmi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 18-bobi 119-bandi: Kesishma orqali harakatlanish taqiqlangan hollarda haydovchi to\u0027xtash chizig\u0027i, 2.5 yo\u0027l belgisi yoki svetofor oldida, ular bo\u0027lmaganda shlagbaumga kamida 5 metr, shlagbaum bo\u0027lmaganda esa birinchi temir yo\u0027l iziga kamida 10 metr qolganda to\u0027xtashi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Правильно ли водитель остановился для предоставления преимущества поезду?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 119 главы 18 ПДД, гласит: В случаях, когда движение через переезд запрещено, водитель должен остановиться у стоп-линии, дорожного знака 2.5 или светофора, если их нет — не ближе 5 м от шлагбаума, а при отсутствии шлагбаума — не ближе 10 м до ближайшего рельса."
+                                },
+                         "uzk":  {
+                                     "text":  "Ҳайдовчи поездни ўтказиб юбориши учун тўғри тўхтаганми?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 18-боби 119-банди: Кесишма орқали ҳаракатланиш тақиқланган ҳолларда ҳайдовчи тўхташ чизиғи, 2.5 йўл белгиси ёки светофор олдида, улар бўлмаганда шлагбаумга камида 5 метр, шлагбаум бўлмаганда эса биринчи темир йўл изига камида 10 метр қолганда тўхташи керак."
+                                 }
+                     }
+}

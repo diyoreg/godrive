@@ -1,0 +1,39 @@
+{
+    "questionId": 304,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 70 km/soatdan oshmagan tezlik bilan ruxsat berilgan",
+                "F2. Boshqarishni o'rgatuvchi yo'riqchi bilan o'rganuvchida yetarli boshqarish malakasi bo'lganda 60 km/soatdan ortiq bo'lmagan tezlikda ruxsat etilgan",
+                "F3. Taqiqlangan",
+                "F4. Agar o'rganilayotgan mexanik transport vositasida taniqlik belgilari qayd etilgan bo'lsa, ruxsat etilgan"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 19-bobi 121-bandining oltinchi xatboshisiga asosan, avtomagistrallarda quyidagilar taqiqlanadi: transport vositasini o'rganish uchun boshqarish."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Разрешена со скоростью не более 70 км/час",
+                "F2. Разрешена со скоростью не более 60 км/час при достаточных навыках управления у обучаемого с мастером обучения вождению",
+                "F3. Запрещена",
+                "F4. Разрешена, если механическое транспортное средство, на котором производится обучение, обозначено опознавательным знаком"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункт 121 главы 19 ПДД гласит: На автомагистралях запрещается: - учебная езда."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 70 км/соатдан ошмаган тезлик билан рухсат берилган",
+                "F2. Бошқаришни ўргатувчи йўриқчи билан ўрганувчида етарли бошқариш малакаси бўлганда 60 км/соатдан ортиқ бўлмаган тезликда рухсат этилган",
+                "F3. Тақиқланган",
+                "F4. Агар ўрганилаётган механик транспорт воситасида таниқлик белгилари қайд этилган бўлса, рухсат этилган"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 19-боби 121-бандининг олтинчи хатбошисига асосан, автомагистралларда қуйидагилар тақиқланади: транспорт воситасини ўрганиш учун бошқариш."
+        }
+    }
+}

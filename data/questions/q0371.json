@@ -1,0 +1,36 @@
+{
+    "questionId": 371,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qatnov qismi tomonidan yo'lovchilarning tushishi va chiqishiga qaysi hollarda ruxsat etiladi?",
+            "options": [
+                "F1. Transport vositasi majburiy to'xtaganda",
+                "F2. Haydovchining hohishiga ko'ra shu shart bilanki, bu xavf-xatardan xoli bo'lsa va boshqa harakat qatnashchilariga xalaqit bermasa",
+                "F3. Trotuar tomondan yoki yo'l yoqasidan iloji bo'lmasa shu shart bilanki, bu hol xavf-xatarsiz bo'lsa va boshqa harakat qatnashchilariga xalaqit bermasa"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 5-bobi 23-bandining ikkinchi xatboshisiga asosan: Yo'lovchilarning transport vositalaridan trotuar yoki yoʻl yoqasi tomondan tushishi yoki ularga chiqishining iloji bo'lmagan hollarda, agar bu harakat xavf tug'dirmasa yoki boshqa yo'l harakati qatnashchilariga xalaqit bermasa yo'lning qatnov qismi tomonidan amalga oshirilishi mumkin."
+        },
+        "ru": {
+            "text": "В каком случае разрешается посадка и высадка пассажиров со стороны проезжей части?",
+            "options": [
+                "F1. При вынужденной остановке транспортного средства",
+                "F2. По усмотрению водителя при условии, что это будет безопасно и не создает помех другим участникам движения",
+                "F3. Если это невозможно сделать со стороны тротуара или обочины и при условии, что это будет безопасно и не создает помех другим участникам движения"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 2 пункта 23 главы 5 ПДД, гласит: Пассажиры обязаны производить посадку и высадку со стороны тротуара или обочины и только после полной остановки транспортного средства. Если посадка и высадка невозможны со стороны тротуара или обочины, они могут осуществляться со стороны проезжей части при условии, что это будет безопасно и не создаст помех другим участникам движения."
+        },
+        "uzk": {
+            "text": "Қатнов қисми томонидан йўловчиларнинг тушиши ва чиқишига қайси ҳолларда рухсат этилади?",
+            "options": [
+                "F1. Транспорт воситаси мажбурий тўхтаганда",
+                "F2. Ҳайдовчининг ҳоҳишига кўра шу шарт биланки, бу хавф-хатардан холи бўлса ва бошқа ҳаракат катнашчиларига халақит бермаса",
+                "F3. Тротуар томондан ёки йўл ёқасидан иложи бўлмаса шу шарт биланки, бу ҳол хавф хатарсиз бўлса ва бошқа ҳаракат катнашчиларига халақит бермаса"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 5-боби 23-бандининг иккинчи хатбошисига асосан: Иуловчиларнинг транспорт воситаларидан тротуар ёки йўл ёқаси томондан тушиши ёки уларга чиқишининг иложи бўлмаган ҳолларда, агар бу ҳаракат хавф туғдирмаса ёки бошқа йўл ҳаракати қатнашчиларига халақит бермаса, йўлнинг қатнов қисми томонидан амалга оширилиши мумкин."
+        }
+    }
+}

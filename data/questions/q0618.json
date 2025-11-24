@@ -1,0 +1,36 @@
+{
+    "questionId": 618,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Quvib o'tilayotgan transport vositasining haydovchisiga nima taqiqlanadi?",
+            "options": [
+                "F1. 40 km/soatdan ortiq tezlik bilan harakat qilish",
+                "F2. O'z transport vositasining harakat tezligini kamaytirish bilan quvib o'tishga to'sqinlik qilish",
+                "F3. Harakat tezligini oshirish yoki boshqa xatti harakatlar bilan quvib o'tishga to'sqinlik qilish"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 12-bobi 84-bandiga asosan: Quvib o'tilayotgan transport vositasining haydovchisiga harakat tezligini oshirish yoki boshqa xatti-harakatlar bilan quvib oʻtishga to'sqinlik qilish taqiqlanadi."
+        },
+        "ru": {
+            "text": "Что запрещается водителю обгоняемого транспортного средства?",
+            "options": [
+                "F1. Двигаться со скоростью более 40 км/час",
+                "F2. Препятствовать обгону снижением скорости движения своего транспортного средства",
+                "F3. Препятствовать обгону путем повышения скорости движения или иными действиями"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 84 главы 12 ПДД, гласит: Водителю обгоняемого транспортного средства запрещается препятствовать обгону повышением скорости движения или иными действиями."
+        },
+        "uzk": {
+            "text": "Қувиб ўтилаётган транспорт воситасининг ҳайдовчисига нима тақиқланади?",
+            "options": [
+                "F1. 40 км/соатдан ортиқ тезлик билан ҳаракат қилиш",
+                "F2. Ўз транспорт воситасининг ҳаракат тезлигини камайтириш билан қувиб ўтишга тўсқинлик қилиш",
+                "F3. Ҳаракат тезлигини ошириш ёки бошқа хатти ҳаракатлар билан қувиб ўтишга тўсқинлик қилиш"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 12-боби 84-бандига асосан: Қувиб ўтилаётган транспорт воситасининг ҳайдовчисига ҳаракат тезлигини ошириш ёки бошқа хатти-ҳаракатлар билан қувиб ўтишга тўсқинлик қилиш тақиқланади."
+        }
+    }
+}

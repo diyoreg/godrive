@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  694,
+    "image":  "data/images/q0694.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Chorrahani ikkinchi bo\u0027lib kim kesib o\u0027tadi?",
+                                    "options":  [
+                                                    "F1. Yashil avtomobil",
+                                                    "F2. Qizil avtomobil",
+                                                    "F3. Ko\u0027k avtomobil"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng ahamiyatga ega boʻlmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yo\u0027ldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat\u0027i nazar, yo\u0027l berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Зеленый автомобиль",
+                                                    "F2. Красный автомобиль",
+                                                    "F3. Синий автомобиль"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункт 104 главы 16 ПДД, гласит: На перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения."
+                                },
+                         "uzk":  {
+                                     "text":  "Чорраҳани иккинчи бўлиб ким кесиб ўтади?",
+                                     "options":  [
+                                                     "F1. Яшил автомобиль",
+                                                     "F2. Қизил автомобиль",
+                                                     "F3. Кўк автомобиль"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 16-боби 104-бандининг биринчи хатбошисига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак."
+                                 }
+                     }
+}

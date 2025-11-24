@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  481,
+    "image":  "data/images/q0481.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu yerda avtomobil to\u0027xtashiga ruxsat berilganmi?",
+                                    "options":  [
+                                                    "F1. Taqiqlangan, chunki uzuq-uzuq yotiq chiziq bilan to\u0027xtab turgan va avtomobil orasidagi masofa 3 metrdan kam",
+                                                    "F2. Oyning juft kunlarida taqiqlangan",
+                                                    "F3. Ruxsat berilgan"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 1-ilovasi 3-boʻlimining o\u0027ttiz ikkinchi xatboshisiga asosan: 3.28. «To\u0027xtab turish taqiqlangan». Transport vositalarining toʻxtab turishi taqiqlanishini bildiradi.\nYHQ 1-bobi 6-bandining yigirma yettinchi xatboshisiga asosan: To\u0027xtash — transport vositasi harakatini 10 daqiqagacha bo\u0027lgan muddatga to\u0027xtatish (harakatsiz holatga keltirish)."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли здесь остановка автомобиля?",
+                                    "options":  [
+                                                    "F1. Запрещается, потому что расстояние между автомобилем и прерывистой линией дороги меньше 3-х метров",
+                                                    "F2. Запрещается по четным дням месяца",
+                                                    "F3. Разрешается"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Запрещающий знак 3.28 \"Стоянка запрещена\". Запрещается стоянка транспортных средств. В разделе №2 ПДД (\"Основные понятия и термины, применяемые в правилах\") сказано: Остановка - прекращение движения транспортного средства на время до 10 минут (приведение в неподвижное состояние). Стоянка - преднамеренное прекращение движения транспортного средства на время более 10 минут по причинам, не связанным с посадкой или высадкой пассажиров, либо загрузкой или разгрузкой транспортного средства. Соответственно, в указанном месте запрещена стоянка (более 10 минут), но остановка не запрещена (менее 10 минут)."
+                                },
+                         "uzk":  {
+                                     "text":  "Бу ерда автомобиль тўхташига рухсат берилганми?",
+                                     "options":  [
+                                                     "F1. Тақиқланган, чунки узуқ-узуқ ётик чизиқ билан тўхтаб турган ва автомобиль орасидаги масофа 3 метрдан кам",
+                                                     "F2. Ойнинг жуфт кунларида тақиқланган",
+                                                     "F3. Рухсат берилган"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўттиз иккинчи хатбошисига асосан: 3.28. «Тўхтаб туриш тақиқланган. Транспорт воситаларининг тўхтаб туриши тақиқланишини билдиради.\nЙҲҚ 1-боби 6-бандининг йигирма еттинчи хатбошисига асосан: Тўхташ — транспорт воситаси ҳаракатини 10 дақиқагача бўлган муддатга тўхтатиш (ҳаракатсиз ҳолатга келтириш)."
+                                 }
+                     }
+}

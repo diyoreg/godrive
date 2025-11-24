@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoDrive - Главная</title>
+    <!-- VERSION: 2.0 UPDATED -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/language-dropdown.css?v=1.1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(-45deg, #1e293b, #0f172a, #1a2332, #0d1520);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            max-width: 1600px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        /* Header стили */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+        }
+
+        .header h1 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .header-logo {
+            height: 40px;
+            filter: brightness(0) invert(1);
+            opacity: 0.9;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+        .header-logo:hover {
+            opacity: 1;
+        }
+
+        .header-separator {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        .header-actions {
+            display: flex !important;
+            gap: 12px !important;
+            align-items: center !important;
+            flex-direction: row !important;
+        }
+
+        .header-actions button:not(.lang-btn):not(.globe-btn) {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .header-actions button:not(.lang-btn):hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        .nav-btn.active {
+            background: #60a5fa !important;
+            border-color: #60a5fa !important;
+            color: white !important;
+            cursor: default;
+            pointer-events: none;
+        }
+
+        .logout-btn:hover {
+            background: rgba(239, 68, 68, 0.2) !important;
+            border-color: rgba(239, 68, 68, 0.5) !important;
+        }
+
+        /* Welcome section */
+        .welcome-section {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 60px 30px;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .welcome-message {
+            color: white;
+            font-size: 32px;
+            font-weight: 600;
+            margin: 0;
+            text-align: center;
+        }
+
+        #userDisplayName {
+            color: #60a5fa;
+        }
+
+        /* Stats section - hidden for now */
+        .stats-section {
+            display: none;
+        }
+
+        /* Progress bar - hidden for now */
+        .progress-container {
+            display: none;
+        }
+
+        .modes-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .mode-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .mode-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(96, 165, 250, 0.5);
+            transform: translateY(-4px);
+        }
+
+        .mode-card.active {
+            cursor: pointer;
+        }
+
+        .mode-card.disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .mode-card.disabled:hover {
+            transform: none;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .mode-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(96, 165, 250, 0.15);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .mode-title {
+            color: #60a5fa;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .mode-description {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 13px;
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+
+        .mode-button {
+            background: #60a5fa;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .mode-button:hover {
+            background: #3b82f6;
+        }
+
+        .mode-card.disabled .mode-button {
+            background: rgba(96, 165, 250, 0.3);
+            cursor: not-allowed;
+        }
+
+        .mode-card.disabled .mode-button:hover {
+            background: rgba(96, 165, 250, 0.3);
+        }
+
+        @media (max-width: 1200px) {
+            .modes-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .stats-section {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .modes-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header {
+                flex-direction: column;
+                gap: 16px;
+            }
+            
+            .stats-section {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>
+                <img src="images/textLogo.png" alt="GoDrive" class="header-logo">
+            </h1>
+            <div class="header-actions">
+                <div class="language-dropdown">
+                    <button class="globe-btn" id="globeBtn">🌐</button>
+                    <div class="language-switcher" id="langSwitcher">
+                        <button class="lang-btn active" data-lang="uz">O'zbekcha</button>
+                        <button class="lang-btn" data-lang="ru">Русский</button>
+                        <button class="lang-btn" data-lang="uzk">Ўзбекча</button>
+                    </div>
+                </div>
+                <button class="nav-btn active" data-translate="mainTitle">Главная</button>
+                <button id="profileBtn" class="profile-btn" data-translate="profile">Профиль</button>
+                <button id="adminBtn" class="admin-btn" data-translate="adminPanel" style="display: none;">Админ панель</button>
+                <button id="logoutBtn" class="logout-btn" data-translate="logout">Выйти</button>
+            </div>
+        </header>
+        
+        <!-- Welcome Section -->
+        <div class="welcome-section">
+            <h2 class="welcome-message">
+                <span data-translate="welcome">Добро пожаловать</span>, 
+                <span id="userDisplayName">Пользователь</span>!
+            </h2>
+        </div>
+
+        <!-- Модес Grid -->
+        <div class="modes-grid">
+            <!-- Билеты -->
+            <div class="mode-card active">
+                <div class="mode-icon">📝</div>
+                <h2 class="mode-title" data-translate="ticketsTitle">Билеты</h2>
+                <p class="mode-description" data-translate="ticketsDesc">
+                    Проверьте свои знания с билетами по ПДД. Отслеживайте свой прогресс по билетам и будьте полностью готовы к экзамену.
+                </p>
+                <button class="mode-button" id="ticketsButton">
+                    <span data-translate="ticketsButton">Посмотреть Билеты</span>
+                    <span>→</span>
+                </button>
+            </div>
+
+            <!-- Режим Экзамена -->
+            <div class="mode-card disabled">
+                <div class="mode-icon">🛡️</div>
+                <h2 class="mode-title" data-translate="examTitle">Режим Экзамена</h2>
+                <p class="mode-description" data-translate="examDesc">
+                    Почувствуйте атмосферу настоящего экзамена. 20 случайных вопросов, 25 минут. Проверьте свои знания.
+                </p>
+                <button class="mode-button">
+                    <span data-translate="examButton">Перейти к Экзамену</span>
+                    <span>→</span>
+                </button>
+            </div>
+
+            <!-- Мои Ошибки -->
+            <div class="mode-card disabled">
+                <div class="mode-icon">🔄</div>
+                <h2 class="mode-title" data-translate="errorsTitle">Мои Ошибки</h2>
+                <p class="mode-description" data-translate="errorsDesc">
+                    Работайте над вопросами, на которые вы ответили неправильно, и укрепляйте свои знания. Правильно отвеченные вопросы будут удалены из списка.
+                </p>
+                <button class="mode-button">
+                    <span data-translate="errorsButton">Посмотреть Ошибки</span>
+                    <span>→</span>
+                </button>
+            </div>
+
+            <!-- Все Вопросы -->
+            <div class="mode-card disabled">
+                <div class="mode-icon">📚</div>
+                <h2 class="mode-title" data-translate="allQuestionsTitle">Все Вопросы</h2>
+                <p class="mode-description" data-translate="allQuestionsDesc">
+                    Просмотрите все вопросы экзамена. Изучайте систематически и укрепляйте свои знания по каждой теме.
+                </p>
+                <button class="mode-button">
+                    <span data-translate="allQuestionsButton">Все Вопросы</span>
+                    <span>→</span>
+                </button>
+            </div>
+
+            <!-- Правила и Советы -->
+            <div class="mode-card disabled">
+                <div class="mode-icon">📖</div>
+                <h2 class="mode-title" data-translate="rulesTitle">Правила и Советы</h2>
+                <p class="mode-description" data-translate="rulesDesc">
+                    Важные правила ПДД, таблица штрафов и полезные советы для подготовки к экзамену.
+                </p>
+                <button class="mode-button">
+                    <span data-translate="rulesButton">Узнать Больше</span>
+                    <span>→</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api-client.js"></script>
+    <script src="js/auth.js"></script>
+    <script>
+        // Переводы
+        const translations = {
+            uz: {
+                mainTitle: "Bosh sahifa",
+                welcome: "Xush kelibsiz",
+                profile: "Profil",
+                adminPanel: "Admin panel",
+                logout: "Chiqish",
+                completedTickets: "O'tilgan biletlar",
+                averageScore: "O'rtacha ball",
+                timeSpent: "Sarflangan daqiqalar",
+                ticketsTitle: "Biletlar",
+                ticketsDesc: "YHQ bo'yicha biletlar bilan bilimingizni tekshiring. Biletlar bo'yicha jarayoningizni kuzatib boring va imtihonga to'liq tayyor bo'ling.",
+                ticketsButton: "Biletlarni Ko'rish",
+                examTitle: "Imtihon Rejimi",
+                examDesc: "Haqiqiy imtihon muhitini his qiling. 20 ta tasodifiy savol, 25 daqiqa. Bilimingizni tekshiring.",
+                examButton: "Imtihonga O'tish",
+                errorsTitle: "Mening Xatolarim",
+                errorsDesc: "Noto'g'ri javob bergan savollaringiz ustida ishlang va bilimingizni mustahkamlang. To'g'ri javob berilgan savollar ro'yxatdan o'chiriladi.",
+                errorsButton: "Xatolarni Ko'rish",
+                allQuestionsTitle: "Barcha Savollar",
+                allQuestionsDesc: "Imtihonning barcha savollarini ko'rib chiqing. Tizimli ravishda o'rganing va har bir mavzu bo'yicha bilimingizni mustahkamlang.",
+                allQuestionsButton: "Barcha Savollar",
+                rulesTitle: "Qoidalar va Maslahatlar",
+                rulesDesc: "Muhim YHQ qoidalari, jarimalar jadvali va imtihonga tayyorgarlik uchun foydali maslahatlar.",
+                rulesButton: "Ko'proq Bilish"
+            },
+            ru: {
+                mainTitle: "Главная",
+                welcome: "Добро пожаловать",
+                profile: "Профиль",
+                adminPanel: "Админ панель",
+                logout: "Выйти",
+                completedTickets: "Пройдено билетов",
+                averageScore: "Средний балл",
+                timeSpent: "Минут потрачено",
+                ticketsTitle: "Билеты",
+                ticketsDesc: "Проверьте свои знания с билетами по ПДД. Отслеживайте свой прогресс по билетам и будьте полностью готовы к экзамену.",
+                ticketsButton: "Посмотреть Билеты",
+                examTitle: "Режим Экзамена",
+                examDesc: "Почувствуйте атмосферу настоящего экзамена. 20 случайных вопросов, 25 минут. Проверьте свои знания.",
+                examButton: "Перейти к Экзамену",
+                errorsTitle: "Мои Ошибки",
+                errorsDesc: "Работайте над вопросами, на которые вы ответили неправильно, и укрепляйте свои знания. Правильно отвеченные вопросы будут удалены из списка.",
+                errorsButton: "Посмотреть Ошибки",
+                allQuestionsTitle: "Все Вопросы",
+                allQuestionsDesc: "Просмотрите все вопросы экзамена. Изучайте систематически и укрепляйте свои знания по каждой теме.",
+                allQuestionsButton: "Все Вопросы",
+                rulesTitle: "Правила и Советы",
+                rulesDesc: "Важные правила ПДД, таблица штрафов и полезные советы для подготовки к экзамену.",
+                rulesButton: "Узнать Больше"
+            },
+            uzk: {
+                mainTitle: "Бош саҳифа",
+                welcome: "Хуш келибсиз",
+                profile: "Профил",
+                adminPanel: "Админ панел",
+                logout: "Чиқиш",
+                completedTickets: "Ўтилган билетлар",
+                averageScore: "Ўртача балл",
+                timeSpent: "Сарфланган дақиқалар",
+                ticketsTitle: "Билетлар",
+                ticketsDesc: "ЙҲҚ бўйича билетлар билан билимингизни текширинг. Билетлар бўйича жараёнингизни кузатиб боринг ва имтиҳонга тўлиқ тайёр бўлинг.",
+                ticketsButton: "Билетларни Кўриш",
+                examTitle: "Имтиҳон Режими",
+                examDesc: "Ҳақиқий имтиҳон муҳитини ҳис қилинг. 20 та тасодифий савол, 25 дақиқа. Билимингизни текширинг.",
+                examButton: "Имтиҳонга Ўтиш",
+                errorsTitle: "Менинг Хатоларим",
+                errorsDesc: "Нотўғри жавоб берган саволларингиз устида ишланг ва билимингизни мустаҳкамланг. Тўғри жавоб берилган саволлар рўйхатдан ўчирилади.",
+                errorsButton: "Хатоларни Кўриш",
+                allQuestionsTitle: "Барча Саволлар",
+                allQuestionsDesc: "Имтиҳоннинг барча саволларини кўриб чиқинг. Тизимли равишда ўрганинг ва ҳар бир мавзу бўйича билимингизни мустаҳкамланг.",
+                allQuestionsButton: "Барча Саволлар",
+                rulesTitle: "Қоидалар ва Маслаҳатлар",
+                rulesDesc: "Муҳим ЙҲҚ қоидалари, жарималар жадвали ва имтиҳонга тайёргарлик учун фойдали маслаҳатлар.",
+                rulesButton: "Кўпроқ Билиш"
+            }
+        };
+
+        let currentLang = localStorage.getItem('language') || 'uz';
+
+        function updateLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('language', lang);
+
+            // Обновление текстов
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (translations[lang][key]) {
+                    element.textContent = translations[lang][key];
+                }
+            });
+
+            // Обновление активной кнопки языка
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+            });
+
+            // Обновление заголовка header
+            const headerTitle = document.querySelector('.header h1 span:last-child');
+            if (headerTitle) {
+                headerTitle.textContent = translations[lang].mainTitle;
+            }
+        }
+
+        // Инициализация при загрузке
+        window.addEventListener('DOMContentLoaded', function() {
+            // Проверка аутентификации
+            if (!window.authSystem) {
+                window.authSystem = new AuthSystem();
+            }
+
+            const user = authSystem.getCurrentUser();
+            if (!user) {
+                window.location.href = 'login.html';
+                return;
+            }
+
+            // Отображение имени пользователя
+            document.getElementById('userDisplayName').textContent = user.name || user.username;
+
+            // Показать кнопку админа, если пользователь - админ
+            if (user.role === 'admin') {
+                const adminBtn = document.getElementById('adminBtn');
+                if (adminBtn) {
+                    adminBtn.style.display = 'block';
+                }
+            }
+
+            // Применение сохраненного языка
+            updateLanguage(currentLang);
+
+            // Globe button dropdown toggle
+            const globeBtn = document.getElementById('globeBtn');
+            const langSwitcher = document.getElementById('langSwitcher');
+            
+            globeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                langSwitcher.classList.toggle('show');
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!langSwitcher.contains(e.target) && e.target !== globeBtn) {
+                    langSwitcher.classList.remove('show');
+                }
+            });
+
+            // Обработчики переключения языка
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    updateLanguage(btn.getAttribute('data-lang'));
+                    langSwitcher.classList.remove('show');
+                });
+            });
+
+            // Logo navigation
+            document.querySelector('.header-logo')?.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            });
+
+            // Кнопки навигации
+            document.getElementById('profileBtn')?.addEventListener('click', () => {
+                window.location.href = 'profile.html';
+            });
+
+            document.getElementById('adminBtn')?.addEventListener('click', () => {
+                window.location.href = 'admin.html';
+            });
+
+            document.getElementById('logoutBtn')?.addEventListener('click', () => {
+                authSystem.logout();
+                window.location.href = 'login.html';
+            });
+
+            // Tickets button
+            document.getElementById('ticketsButton')?.addEventListener('click', (e) => {
+                e.stopPropagation();
+                window.location.href = 'dashboard.html';
+            });
+
+            // Загрузка статистики (заглушка)
+            loadUserStats();
+        });
+
+        async function loadUserStats() {
+            try {
+                // Здесь будет загрузка реальной статистики из API
+                // Пока заглушка
+                document.getElementById('completedTicketsCount').textContent = '0';
+                document.getElementById('averageScore').textContent = '0';
+                document.getElementById('totalTimeSpent').textContent = '0';
+                document.getElementById('progressBar').style.width = '0%';
+                document.getElementById('progressText').textContent = '0%';
+            } catch (error) {
+                console.error('Ошибка загрузки статистики:', error);
+            }
+        }
+    </script>
+</body>
+</html>

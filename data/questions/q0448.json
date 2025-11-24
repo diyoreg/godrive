@@ -1,0 +1,36 @@
+{
+    "questionId": 448,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Haydovchi to'xtash oldidan ogohlantiruvchi ishora berishga qachon majbur?",
+            "options": [
+                "F1. Faqat shu holdaki, agar uning orqasidan boshqa transport vositasi harakat qilsa",
+                "F2. Faqat aholi punktlarida",
+                "F3. Barcha hollarda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 8-bobi 45-bandining birinchi xatboshisiga asosan: Haydovchi harakatlanishni boshlashdan, qayta tizilishdan, burilish (qayrilib olish)dan va to'xtashdan oldin tegishli yoʻnalishni koʻrsatuvchi yorug'lik ishoralarini yoqishi, ular boʻlmaganda yoki ishlamaganda qo'l bilan ishoralar berishi shart."
+        },
+        "ru": {
+            "text": "Когда водитель обязан подавать предупредительный сигнал перед остановкой?",
+            "options": [
+                "F1. Только в случае, если сзади него движется другое транспортное средство",
+                "F2. Только в населенных пунктах",
+                "F3. Во всех случаях"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 45 главы 8 ПДД, гласит: Водитель перед началом движения, перестроением, поворотом (разворотом) и остановкой обязан подавать сигналы световыми указателями поворотов соответствующего направления, а если они отсутствуют или неисправны - рукой. Особых условий для населенных пунктов или наличия других транспортных средств нет."
+        },
+        "uzk": {
+            "text": "Ҳайдовчи тўхташ олдидан огоҳлантирувчи ишора беришга қачон мажбур?",
+            "options": [
+                "F1. Фақат шу ҳолдаки, агар унинг орқасидан бошқа транспорт воситаси ҳаракат килса",
+                "F2. Фақат аҳоли пунктларида",
+                "F3. Барча ҳолларда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 8-боби 45-бандининг биринчи хатбошисига асосан: Ҳайдовчи ҳаракатланишни бошлашдан, қайта тизилишдан, бурилиш (қайрилиб олиш) дан ва тўхташдан олдин тегишли йўналишни кўрсатувчи ёруғлик ишораларини ёқиши, улар бўлмаганда ёки ишламаганда қўл билан ишоралар бериши шарт."
+        }
+    }
+}

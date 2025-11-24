@@ -1,0 +1,36 @@
+{
+    "questionId": 719,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Transport vositalari qattiq ulagichda shatakka olinganda shatakka olgan va shatakka olingan transport vositalari orasidagi masofa qancha bo'lishi kerak?",
+            "options": [
+                "F1. Qoidalarda belgilanmagan",
+                "F2. 4 metrdan oshmasligi",
+                "F3. 4 metrdan 6 metrgacha"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 24-bobi 144-bandi: Egiluvchan ulagich bilan shatakka olishda shatakka olgan va shatakka olingan transport vositalari oʻrtasidagi masofa 4 — 6 metr oraligʻida bo'lishi, qattiq ulagich yordamida shatakka olishda esa 4 metrdan ko'p bo'lmasligi kerak.\nEgiluvchan ulagich ushbu Qoidalarning 177-bandi talablariga muvofiq belgilanishi kerak."
+        },
+        "ru": {
+            "text": "Какое расстояние должно быть обеспечено между буксирующим и буксируемым транспортными средствами при буксировке на жесткой сцепке?",
+            "options": [
+                "F1. Правилами не регламентируется",
+                "F2. Не более 4 м",
+                "F3. От 4 до 6 м"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 144 главы 24 ПДД, гласит: При буксировке на гибкой сцепке расстояние между буксирующим и буксируемым транспортными средствами должно быть в пределах 4 — 6 метров, а при жесткой — не более 4 метров.\nПри гибкой сцепке связующее звено обозначается сигнальными щитками или флажками в соответствии с пунктом 177 настоящих Правил."
+        },
+        "uzk": {
+            "text": "Транспорт воситалари қаттиқ улагичда шатакка олинганда шатакка олган ва шатакка олинган транспорт воситалари орасидаги масофа қанча бўлиши керак?",
+            "options": [
+                "F1. Қоидаларда белгиланмаган",
+                "F2. 4 метрдан ошмаслиги",
+                "F3. 4 метрдан 6 метргача"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 24-боби 144-банди: Эгилувчан улагич билан шатакка олишда шатакка олган ва шатакка олинган транспорт воситалари ўртасидаги масофа 4 — 6 метр оралиғида бўлиши, қаттиқ улагич ёрдамида шатакка олишда эса 4 метрдан кўп бўлмаслиги керак.\nЭгилувчан улагич ушбу Қоидаларнинг 177-банди талабларига мувофиқ белгиланиши керак."
+        }
+    }
+}

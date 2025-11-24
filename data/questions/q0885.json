@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  885,
+    "image":  "data/images/q0885.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu chorrahada avtobus haydovchisi kimga yo\u0027l berishi kerak?",
+                                    "options":  [
+                                                    "F1. Hech kimga",
+                                                    "F2. Ko\u0027k avtomobilga",
+                                                    "F3. Qizil avtomobilga"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 16-bobi 106-bandi: Asosiy yo\u0027lning yo\u0027nalishi chorrahada o\u0027zgarganda, asosiy yo\u0027lda harakatlanayotgan haydovchilar o\u0027zaro teng ahamiyatli yo\u0027llar chorrahasidan o\u0027tish qoidasiga amal qilishlari kerak.\nIkkinchi darajali yo\u0027llarda harakatlanayotgan haydovchilar ham o\u0027zaro shu qoidaga amal qilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Кому водитель автобуса должен уступить дорогу на этом перекрестке?",
+                                    "options":  [
+                                                    "F1. Никому",
+                                                    "F2. Синему автомобилю",
+                                                    "F3. Красному автомобилю"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 106 главы 16 ПДД, гласит: Если главная дорога на перекрестке меняет направление, водители, движущиеся по главной дороге, должны руководствоваться между собой правилами проезда перекрестков равнозначных дорог. Этим же правилом должны руководствоваться между собой и водители, движущиеся по Второстепенным дорогам."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу чорраҳада автобус ҳайдовчиси кимга йўл бериши керак?",
+                                     "options":  [
+                                                     "F1. Ҳеч кимга",
+                                                     "F2. Кўк автомобилга",
+                                                     "F3. Қизил автомобилга"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 16-боби 106-банди: Асосий йўлнинг йўналиши чорраҳада ўзгарганда асосий йўлда ҳаракатланаётган ҳайдовчилар ўзаро тенг аҳамиятли йўллар чорраҳасидан ўтиш қоидасига амал қилишлари керак.\nИккинчи даражали йўлларда ҳаракатланаётган ҳайдовчилар ҳам ўзаро шу қоидага амал қилишлари керак."
+                                 }
+                     }
+}

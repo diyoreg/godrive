@@ -1,0 +1,36 @@
+{
+    "questionId": 499,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar jonlantirishni (reanimatsiyani) 2 kishi bir vaqtda olib borganda, yurakni bilvosita massaj qilish va sun'iy nafas oldirish qanday bajariladi?",
+            "options": [
+                "F1. Bir marta ko'krak qafasi bosiladi, bir marta havo puflanadi va hokazo",
+                "F2. Ikki marta havo puflanadi, so'ng yurak sohasi 30 marta bosiladi va hokazo",
+                "F3. 2-3 marta havo puflangandan so'ng 15 marta ko'krak qafasi bosiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Agar jonlantirishni (reanimatsiyani) 2 kishi bir vaqtda olib borganda, yurakni bilvosita massaj qilish va sun'iy nafas oldirish qanday bajariladi? Bir marta ko'krak qafasi bosiladi, bir marta havo puflanadi va hokazo Ikki marta havo puflanadi, so'ng yurak sohasi 30 marta bosiladi va hokazo 2-3 marta havo puflangandan so'ng 15 marta ko'krak qafasi bosiladi Agar jabrlanuvchida yurak urish faoliyati va nafas olishi toʻxtagan bo'lsa, yurakning tashqi massaji bilan birga sun'iy nafas oldirish amalga oshiriladi. Bunday hollarda nafas olish oraliqlarida koʻkrak qafasi 30 marta keskin bosiladi."
+        },
+        "ru": {
+            "text": "Как выполнять непрямой массаж сердца и искусственное дыхание, если оживление (реанимацию) проводят 2 человека одновременно?",
+            "options": [
+                "F1. Один раз надавливать на грудную клетку, один раз вдувать воздух и т.д",
+                "F2. Два раз вдувать воздух, затем 30 раз надавливать на область сердца и т.д",
+                "F3. После 2-3 раз вдуваний воздуха 15 раз надавливать на грудную клетку"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Если у пострадавшего помимо отсутствия сердечной деятельности отсутствует и дыхание, то наряду с проведением наружного массажа сердца проводят и искусственное дыхание. В таких случаях в перерывах между двумя вдохами проводят 30 энергичных надавливаний на грудную клетку."
+        },
+        "uzk": {
+            "text": "Агар жонлантиришни (реанимацияни) 2 киши бир вақтда олиб борганда, юракни билвосита массаж қилиш ва сунъий нафас олдириш қандай бажарилади?",
+            "options": [
+                "F1. Бир марта кўкрак қафаси босилади, бир марта ҳаво пуфланади ва ҳоказо",
+                "F2. Икки марта ҳаво пуфланади, сўнг юрак соҳаси 30 марта босилади ва ҳоказо",
+                "F3. 2-3 марта ҳаво пуфлангандан сўнг 15 марта кўкрак қафаси босилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Агар жонлантиришни (реанимацияни) 2 киши бир вақтда олиб борганда, юракни билвосита массаж қилиш ва сунъий нафас олдириш қандай бажарилади? Бир марта кўкрак қафаси босилади, бир марта ҳаво пуфланади ва ҳоказо Икки марта ҳаво пуфланади, сўнг юрак соҳаси 30 марта босилади ва ҳоказо 2-3 марта ҳаво пуфлангандан сўнг 15 марта кўкрак қафаси босилади Агар жабрланувчида юрак уриш фаолияти ва нафас олиши тўхтаган бўлса, юракнинг ташқи массажи билан бирга сунъий нафас олдириш амалга оширилади. Бундай ҳолларда нафас олиш оралиқларида кўкрак қафаси 30 марта кескин босилади."
+        }
+    }
+}

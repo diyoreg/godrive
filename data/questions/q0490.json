@@ -1,0 +1,36 @@
+{
+    "questionId": 490,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sanab o'tilgan shartlardan qay birida avtomobillar va avtopoyezdlardan foydalanish taqiqlanadi?",
+            "options": [
+                "F1. Gidravlik tormoz tizimining zichligi buzilganda",
+                "F2. Tormoz tizimining samaradorligi qoida talablariga javob beradi",
+                "F3. To'xtab turish tormoz tizimi harakatsiz holatda to'la vazndagi transport vositalarini 16 foizidan kam bo'lmagan qiyalikda ushlab tura olganda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 3-ilovasi 1-boʻlimining 1.3-bandiga asosan: 1.3. Gidravlik tormoz yuritmasining zichligi (germetikligi) buzilgan bo'lsa."
+        },
+        "ru": {
+            "text": "При каких из перечисленных условий запрещается эксплуатация автомобилей и автопоездов?",
+            "options": [
+                "F1. Нарушена герметичность гидравлического тормозного привода",
+                "F2. Стояночная тормозная система обеспечивает неподвижное состояние транспортных средств с полной нагрузкой на уклоне не менее 16%",
+                "F3. Рычаг стояночной тормозной системы удерживается запирающим устройством"
+            ],
+            "correctAnswer": 1,
+            "explanation": "В \"Условиях, при которых запрещается эксплуатация транспортных средств\" (приложение №3 к ПДД) сказано, что эксплуатация транспортных средств запрещена, если: 1.3. Нарушена герметичность гидравлического тормозного привода."
+        },
+        "uzk": {
+            "text": "Санаб ўтилган шартлардан қай бирида автомобиллар ва автопоездлардан фойдаланиш тақиқланади?",
+            "options": [
+                "F1. Гидравлик тормоз тизимининг зичлиги бузилганда",
+                "F2. Тормоз тизимининг самарадорлиги қоида талабларига жавоб беради",
+                "F3. Тўхтаб туриш тормоз тизими ҳаракатсиз ҳолатда тўла вазндаги транспорт воситаларини 16 фоизидан кам бўлмаган қияликда ушлаб тура олганда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 3-иловаси 1-бўлимининг 1.3-бандига асосан: 1.3. Гидравлик тормоз юритмасининг зичлиги (герметиклиги) бузилган бўлса."
+        }
+    }
+}

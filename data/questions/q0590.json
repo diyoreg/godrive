@@ -1,0 +1,36 @@
+{
+    "questionId": 590,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Mexanik transport vositalaridan foydalanish qanday shartlarda taqiqlanadi?",
+            "options": [
+                "F1. Yurgizgich ishida nuqson bo'lganda",
+                "F2. Uzatma qutisida shovqin bo'lganda",
+                "F3. Davlat davriy texnik ko'rigidan belgilangan tartibda o'tmaganda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 29-bobi 179-bandining uchinchi xatboshisiga asosan, quyidagi hollarda transport vositalaridan foydalanish taqiqlanadi: transport vositalari belgilangan tartibda davlat texnik ko'rigidan o'tmagan bo'lsa."
+        },
+        "ru": {
+            "text": "При каких условиях запрещается эксплуатация механических транспортных средств?",
+            "options": [
+                "F1. Перебои в работе двигателя",
+                "F2. Шум в коробке передач",
+                "F3. Не прошедших государственный периодический технический осмотр в установленном порядке"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 3 пункта 179 главы 29 ПДД, запрещается эксплуатация транспортных средств в следующих случаях: транспортных средств, не прошедших государственный технический осмотр."
+        },
+        "uzk": {
+            "text": "Механик транспорт воситаларидан фойдаланиш қандай шартларда тақиқланади?",
+            "options": [
+                "F1. Юргизгич ишида нуқсон бўлганда",
+                "F2. Узатма қутисида шовкин бўлганда",
+                "F3. Давлат даврий техник кўригидан белгиланган тартибда ўтмаганда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 29-боби 179-бандининг учинчи хатбошисига асосан, қуйидаги ҳолларда транспорт воситаларидан фойдаланиш тақиқланади: транспорт воситалари белгиланган тартибда давлат техник кўригидан ўтмаган бўлса;"
+        }
+    }
+}

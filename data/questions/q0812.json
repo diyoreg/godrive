@@ -1,0 +1,36 @@
+{
+    "questionId": 812,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Dvigatel bilan tormozlash orqali tezlikni kamaytirishi lozim",
+                "F2. Tezlikni oshirishi lozim",
+                "F3. Tormoz tepkisini keskin bosish bilan tezlikni kamaytirishi lozim"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Suvda sirpanish kuchli yomg'ir, sel yoki suv toshgan yoʻl qismlarida sodir bo'ladi bu holda harakat xavfsizligini ta'minlash maqsadida avtomobilni dvigatel bilan tormozlash yaxshi samara beradi. Bahorgi, kuzgi yomg'irlar va suv toshgan yo'lning pastqam qismlarida harakatlanishda yuqoridagi usulda tomozlash tavsiya etiladi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Снизить скорость, применяя торможение двигателем",
+                "F2. Увеличить скорость",
+                "F3. Снизить скорость резким нажатием на педаль тормоза"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Водяное скольжение - или так называемое аквапланирование - возникает при езде на легковом автомобиле при проливном дожде или при проезде скопления воды на дороге в низинах: осенью, весной или в оттепель. Зная об этом явлении, водитель не должен быть захвачен врасплох. Совет может быть только один - сразу же снизить скорость движения, применяя торможение двигателем. (Техника управления автомобилем)."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Двигатель билан тормозлаш орқали тезликни камайтириши лозим",
+                "F2. Тезликни ошириши лозим",
+                "F3. Тормоз тепкисини кескин босиш билан тезликни камайтириши лозим"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Сувда сирпаниш кучли ёмғир, сел ёки сув тошган йўл қисмларида содир бўлади бу ҳолда ҳаракат хавфсизлигини таъминлаш мақсадида автомобилни двигател билан тормозлаш яхши самара беради. Баҳорги, кузги ёмғирлар ва сув тошган йўлнинг пастқам қисмларида ҳаракатланишда юқоридаги усулда томозлаш тавсия этилади."
+        }
+    }
+}

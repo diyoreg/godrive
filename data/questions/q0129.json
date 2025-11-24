@@ -1,0 +1,36 @@
+{
+    "questionId": 129,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Shikastlangan kishining o'mrov suyagi singanda nima qilish kerak?",
+            "options": [
+                "F1. Singan joyga sovuq kompress qo'yish, bint bilan tarangroq bog'lash",
+                "F2. Qo'ltiq sohasiga taxtakach qo'yish va to'g'rilab qo'yilgan qo'lini gavdasiga qo'shib bint bilan bog'lash",
+                "F3. Paxta yoki bint o'ramasini qo'ltiq sohasiga qo'yib tirsagidan bukilgan qoʻlini gavdasiga qo'shib bint bilan bog'lash"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Qon tomirlari oʻmrov ostidagi arteriya (koʻktomir) va nervlarning shikastlanishiga olib kelishi mumkin boʻlgan singan o'mrov suyagining siljishiga yoʻl qoʻymaslik uchun to'g'ri burchak ostida qo'ltiq sohasiga paxta yoki bint oʻ'ramasini qo'yib, tirsagidan bukilgan qo'lni, gavdasiga qo'shib bint bilan bog'lash lozim."
+        },
+        "ru": {
+            "text": "Что необходимо сделать при переломе ключицы у пострадавшего?",
+            "options": [
+                "F1. Наложить холодный компресс на место перелома, туже забинтовать",
+                "F2. Наложить шину в подмышечную область и прибинтовать выпрямленную руку к туловищу",
+                "F3. Подложить валик из ваты или бинта в подмышечную область и прибинтовать согнутую в локте руку к туловищу"
+            ],
+            "correctAnswer": 3,
+            "explanation": "При переломе ключицы у пострадавшего необходимо подложить валик из ваты или бинта B подмышечную область и прибинтовать согнутую в локте руку к туловищу."
+        },
+        "uzk": {
+            "text": "Шикастланган кишининг ўмров суяги синганда нима қилиш керак?",
+            "options": [
+                "F1. Синган жойга совук компресс қўйиш, бинт билан тарангроқ боғлаш",
+                "F2. Қўлтиқ соҳасига тахтакач қўйиш ва тўғрилаб қўйилган қўлини гавдасига қўшиб бинт билан боғлаш",
+                "F3. Пахта ёки бинт ўрамасини қўлтиқ соҳасига куйиб тирсагидан букилган қўлини гавдасига кўшиб бинт билан боғлаш"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Қон томирлари ўмров остидаги артерия (кўктомир) ва нервларнинг шикастланишига олиб келиши мумкин бўлган синган ўмров суягининг силжишига йўл қўймаслик учун тўғри бурчак остида қўлтиқ соҳасига пахта ёки бинт ўрамасини қўйиб, тирсагидан букилган қўлни, гавдасига қўшиб бинт билан боғлаш лозим."
+        }
+    }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  132,
+    "image":  "data/images/q0132.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Agar yo\u0027l boshlanishida ushbu belgi turgan bo\u0027lsa, qatnov qismining chap chetidagi tasmaga o\u0027tish mumkinmi?",
+                                    "options":  [
+                                                    "F1. Chapga burilish uchun mumkin",
+                                                    "F2. Quvib o\u0027tish uchun mumkin, agar ro\u0027paradan harakatlanish bo\u0027lmasa va tasma qatnov qismining qolgan tasmalaridan uzuq-uzuq chizig\u0027i bilan ajratilgan bo\u0027lsa",
+                                                    "F3. Hech qanday holatda mumkin emas"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "YHQ 22-bobi 132-bandining birinchi xatboshisiga asosan: Yo\u0027nalishli transport vositalarining harakatlanishi uchun 5.9, 5.10.1 — 5.10.3 yo\u0027l belgilari bilan ajratilgan tasmada boshqa transport vositalarining harakatlanishi va to\u0027xtashi taqiqlanadi. \nShuningdek, bunday joylarda yo\u0027nalishli transport vositalarining harakatiga xalaqit bermaslik sharti bilan yo\u0027lga chiqish, qatnov qismining chetki o\u0027ng tomonida yo\u0027lovchilarni chiqarish va tushirish uchun bu bo\u0027lakka o\u0027tishga ruxsat etiladi."
+                                },
+                         "ru":  {
+                                    "text":  "Можно ли заезжать на крайнюю левую полосу проезжей части, если в начале участка дороги стоит этот знак?",
+                                    "options":  [
+                                                    "F1. Можно для поворота налево",
+                                                    "F2. Можно для обгона, если нет встречного движения и полоса отделена от остальной проезжей части прерывистой линией разметки",
+                                                    "F3. Нельзя ни при каких обстоятельствах"
+                                                ],
+                                    "correctAnswer":  3,
+                                    "explanation":  "Информационно-указателънъй знак 5.10.1 \"Дорога с полосой для маршрутных транспортных средств\". Дорога, по которой движение маршрутных транспортных средств осуществляется навстречу общему потоку транспортных средств по выделенной полосе. Пункт \nПункта 132 главы 22 ПДД гласит: По полосе, обозначенной знаками 5.9, 5.10.1-5.10.3 для движения маршрутных транспортных средств, движение и остановка других транспортных средств запрещается. Если эта полоса отделена от остальной проезжей части дороги прерывистой линией разметки, то при поворотах транспортные средства должны перестраиваться на эту полосу. Разрешается также в таких местах заезжать на эту полосу при въезде на дорогу и для посадки и высадки пассажиров у правого края проезжей части при условии, что это не создаст помех движению маршрутных транспортных средств."
+                                },
+                         "uzk":  {
+                                     "text":  "Агар йўл бошланишида ушбу белги турган бўлса, қатнов қисмининг чап четидаги бўлакка ўтиш мумкинми?",
+                                     "options":  [
+                                                     "F1. Чапга бурилиш учун мумкин",
+                                                     "F2. Қувиб ўтиш учун мумкин, агар рўпарадан ҳаракатланиш бўлмаса ва тасма қатнов қисмининг қолган тасмаларидан узуқ-узуқ чизиғи билан ажратылган бўлса",
+                                                     "F3. Ҳеч қандай ҳолатда мумкин эмас"
+                                                 ],
+                                     "correctAnswer":  3,
+                                     "explanation":  "ЙҲҚ 22-боби 132-бандининг биринчи хатбошисига асосан: Йўналишли транспорт воситаларининг ҳаракатланиши учун 5.9, 5.10.1 — 5.10.3 йўл белгилари билан ажратилган тасмада бошқа транспорт воситаларининг ҳаракатланиши ва тўхташи тақиқланади. \nШунингдек, бундай жойларда йўналишли транспорт воситаларининг ҳаракатига халақит бермаслик шарти билан йўлга чиқиш, қатнов қисмининг четки ўнг томонида йўловчиларни чиқариш ва тушириш учун бу бўлакка ўтишга рухсат етилади."
+                                 }
+                     }
+}

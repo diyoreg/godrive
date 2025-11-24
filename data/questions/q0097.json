@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  97,
+    "image":  "data/images/q0097.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Bu yerda quvib o\u0027tishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat etiladi",
+                                                    "F2. Taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 12-bobi 86-bandining oltinchi xatboshisiga asosan, quvib o\u0027tish quyidagi hollarda taqiqlanadi: tepalikning oxirida va yo\u0027lning ko\u0027rinishi cheklangan joylarida;"
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли обгон в данной ситуации?",
+                                    "options":  [
+                                                    "F1. Разрешается",
+                                                    "F2. Запрещается"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 86 главы 12 ПДД, гласит: запрещается обгон — в конце подъема и на других участках дорог с ограниченной видимостью;"
+                                },
+                         "uzk":  {
+                                     "text":  "Бу ерда қувиб ўтишга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Рухсат этилади",
+                                                     "F2. Тақиқланади"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 12-боби 86-бандининг олтинчи хатбошисига асосан, қувиб ўтиш қуйидаги ҳолларда тақиқланади: тепаликнинг охирида ва йўлнинг кўриниши чекланган жойларида;"
+                                 }
+                     }
+}

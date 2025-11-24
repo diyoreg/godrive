@@ -1,0 +1,39 @@
+{
+    "questionId": 112,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Boshlangan tormozlashni to'xtatish",
+                "F2. Uzgichni ajratishi",
+                "F3. Tormoz tepkisini oxirigacha bosishi",
+                "F4. Uzgichni ajratishi va to'xtab turish tormozi bilan tormozlashi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Avtomobilning sirpanchiq yoʻlda surilish va orqa g'ildiraklarining blokirovkasi sababli tormozlashda vujudga keladi. Bu holda birinchi navbatda surilish sababini bartaraf etish, ya'ni boshlangan tormozlanishni toʻxtatish lozim. Keyinchalik rul chambaragini surilish tomon burib, harakat yo'nalishini to'g'rilab olish mumkin."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Прекратить начатое торможение",
+                "F2. Выключить сцепление",
+                "F3. До предела нажать тормозную педаль",
+                "F4. Выключить сцепление и тормозить стояночным тормозом"
+            ],
+            "correctAnswer": 1,
+            "explanation": "При возникновении заноса в результате торможения, водитель должен: Прекратить начатое торможение. До предела нажать тормозную педаль. Выключить сцепление и тормозить стояночным тормозом. При возникновении заноса в результате торможения, водитель должен прекратить начатое торможение. Если до предела нажать тормозную педаль, то занос еще больше усилится. Выключение сцепления особым образом не отразится на заносе."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Бошланган тормозлашни тўхтатиш",
+                "F2. Узгични ажратиши",
+                "F3. Тормоз тепкисини охиригача босиши",
+                "F4. Узгични ажратиши ва тўхтаб туриш тормози билан тормозлаши"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Автомобилнинг сирпанчиқ йўлда сурилиш ва орқа ғилдиракларининг блокировкаси сабабли тормозлашда вужудга келади. Бу ҳолда биринчи навбатда сурилиш сабабини бартараф этиш, яъни бошланган тормозланишни тўхтатиш лозим. Кейинчалик рул чамбарагини сурилиш томон буриб, ҳаракат йўналишини тўғрилаб олиш мумкин."
+        }
+    }
+}

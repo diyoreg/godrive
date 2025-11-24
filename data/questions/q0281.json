@@ -1,0 +1,36 @@
+{
+    "questionId": 281,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Piyodalar o'tish joyi bo'lmaganda piyodalarga yo'l qatnov qismining qaysi joyidan kesib o'tishga ruxsat etiladi?",
+            "options": [
+                "F1. Chorrahalarda trotuar chiziqlari yoki yo'l yoqasi bo'ylab",
+                "F2. Ajratuvchi mintaqasiz va to'siqsiz yo'llardan yo'lning ikki tomoni yaxshi ko'rinadigan joyidan, qatnov qismining chetiga nisbatan to'g'ri burchak ostida",
+                "F3. Barcha sanab o'tilgan joylardan"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 4-bobi 17-bandiga asosan: Piyodalar yoʻlning qatnov qismini piyodalar o'tish joylaridan, shuningdek yer osti va yer usti oʻtish joylaridan, ular bo'lmaganda esa chorrahalarda trotuar chiziqlari yoki yoʻl yoqasi bo'ylab kesib o'tishlari kerak. Piyodalarga ko'rinadigan oraliqda o'tish joyi yoki chorraha boʻlmasa, ajratuvchi mintaqasiz va to'siqsiz yo'llardan yo'lning ikki tomoni yaxshi ko'rinadigan joyidan, qatnov qismining chetiga nisbatan to'g'ri burchak ostida kesib o'tishlariga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "В каком месте разрешается пешеходам пересекать проезжую часть при отсутствии пешеходного перехода?",
+            "options": [
+                "F1. На перекрестках по линии тротуаров или обочин",
+                "F2. На участках, где она хорошо просматривается в обе стороны под прямым углом к краю проезжей части и не имеет разделительной полосы и ограждений",
+                "F3. Во всех перечисленных местах"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 17 главы 4 ПДД гласит: Пешеходы должны пересекать проезжую часть дороги по пешеходным переходам, а также по подземным и надземным, а при их отсутствии - на перекрестках - по линии тротуаров или обочин. При отсутствии в зоне видимости перехода или перекрестка разрешается переходить дорогу под прямым углом к краю проезжей части на участках без разделительной полосы и ограждений там, где она хорошо просматривается в обе стороны. Соответственно, во всех перечисленных местах разрешается пешеходам пересекать проезжую часть при отсутствии пешеходного перехода."
+        },
+        "uzk": {
+            "text": "Пиёдалар ўтиш жойи бўлмаганда пиёдаларга йўл қатнов қисмининг қайси жойидан кесиб ўтишга рухсат этилади?",
+            "options": [
+                "F1. Чорраҳаларда тротуар чизиқлари ёки йўл ёқаси бўйлаб",
+                "F2. Aжратувчи минтақасиз ва тўсиқсиз йўллардан йўлнинг икки томони яхши кўринадиган жойидан, қатнов қисмининг четига нисбатан тўғри бурчак остида",
+                "F3. Барча санаб ўтилган жойлардан"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 4-боби 17-бандига асосан: Пиёдалар йўлнинг қатнов қисмини пиёдалар ўтиш жойларидан, шунингдек ер ости ва ер усти ўтиш жойларидан, улар бўлмаганда эса чорраҳаларда тротуар чизиқлари ёки йўл ёқаси бўйлаб кесиб ўтишлари керак. Пиёдаларга кўринадиган оралиқда ўтиш жойи ёки чорраҳа бўлмаса, ажратувчи минтақасиз ва тўсиқсиз йўллардан йўлнинг икки томони яхши кўринадиган жойидан, қатнов қисмининг четига нисбатан тўғри бурчак остида кесиб ўтишларига рухсат этилади."
+        }
+    }
+}

@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1038,
+    "image":  "data/images/q1038.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Mototsikl haydovchisi qoidani buzayaptimi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 12-bobi 86-bandi: Quvib o\u0027tish quyidagi hollarda taqiqlanadi: tepalikning OXIRIDA va yo\u0027lning ko\u0027rinishi cheklangan joylarida;\nQoidani buzmadi sababi Mototsiklchi tepalikning oxirida emas."
+                                },
+                         "ru":  {
+                                    "text":  "Нарушает ли правила водитель мотоцикла?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 86 главы 12 ПДД, гласит: Обгон запрещен: — в КОНЦЕ подъема и на других участках дорог с ограниченной видимостью;\nНе нарушает, потому что мотоциклист не на КОНЦЕ подъема."
+                                },
+                         "uzk":  {
+                                     "text":  "Мотоцикл ҳайдовчиси қоидани бузаяптими?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 12-боби 86-банди: Қувиб ўтиш қуйидаги ҳолларда тақиқланади: тепаликнинг ОХИРИДА ва йўлнинг кўриниши чекланган жойларида;\nҚоидани бузмади сабаби Мотоциклчи тепаликнинг охирида эмас."
+                                 }
+                     }
+}

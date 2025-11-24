@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  445,
+    "image":  "data/images/q0445.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Qizil avtomobil, tramvay ayni vaqtda yashil avtomobil bilan",
+                                                    "F2. Tramvay, qizil, yashil avtomobillar",
+                                                    "F3. Tramvay ayni vaqtda yashil avtomobil, qizil avtomobil"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 15-bobi 100-bandiga asosan: Svetoforning qizil yoki sariq ishorasi bilan bir vaqtda yongan qo\u0027shimcha tarmoqning yo\u0027ʻnaltirgichli yashil ishorasi yo\u0027nalishida harakatlanayotgan transport vositasining haydovchisi boshqa yo\u0027nalishlarda harakatlanayotgan transport vositalariga yoʻl berishi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Красный автомобиль, трамвай одновременно с зеленым автомобилем",
+                                                    "F2. Трамвай, красный, зеленый автомобили",
+                                                    "F3. Трамвай одновременно с зеленым автомобилем, красный автомобиль"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункту 100 главы 15 ПДД, гласит: При движении в направлении зеленой стрелки, включенной в дополнительной секции одновременно с желтым или красным сигналом светофора, водитель транспортного средства должен уступить дорогу транспортным средствам, движущимся с других направлений."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Қизил автомобиль, трамвай айни вактда яшил автомобиль билан",
+                                                     "F2. Трамвай, қизил, яшил автомобиллар",
+                                                     "F3. Трамвай айни вақтда яшил автомобиль, қизил автомобиль"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 15-боби 100-бандига асосан: Светофорнинг қизил ёки сариқ ишораси билан бир вақтда ёнган қўшимча тармоқнинг йўналтиргичли яшил ишораси йўналишида ҳаракатланаётган транспорт воситасининг ҳайдовчиси бошқа йўналишларда ҳаракатланаётган транспорт воситаларига йўл бериши керак."
+                                 }
+                     }
+}

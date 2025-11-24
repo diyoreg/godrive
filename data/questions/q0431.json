@@ -1,0 +1,42 @@
+{
+    "questionId": 431,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Aholi punktidan tashqarida yuk avtomobil yukxonasida odamlarni tashishda qanday eng yuqori tezlikda harakatlanishga ruxsat etiladi?",
+            "options": [
+                "F1. 40 km/s",
+                "F2. 50 km/s",
+                "F3. 60 km/s",
+                "F4. 70 km/s",
+                "F5. 80 km/s"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 11-bobi 80-bandining birinchi xatboshisiga asosan, har qanday yo'llarda: yukxonasida odam tashiyotgan yuk avtomobillariga tezlikni soatiga 60 kilometrdan oshirmasdan."
+        },
+        "ru": {
+            "text": "С какой максимальной скоростью разрешается движение грузового автомобиля при перевозке людей вне населенного пункта?",
+            "options": [
+                "F1. 40 км/ч",
+                "F2. 50 км/ч",
+                "F3. 60 км/ч",
+                "F4. 70 км/ч",
+                "F5. 80 км/ч"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 80 главы 11 ПДД, гласит: На всех дорогах: - грузовым автомобилям, перевозящим людей - не более 60 км/ч."
+        },
+        "uzk": {
+            "text": "Аҳоли пунктидан ташқарида юк автомобиль юкхонасида одамларни ташишда қандай энг юқори тезликда ҳаракатланишга рухсат этилади?",
+            "options": [
+                "F1. 40 км/с",
+                "F2. 50 км/с",
+                "F3. 60 км/с",
+                "F4. 70 км/с",
+                "F5. 80 км/с"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 11-боби 80-бандининг биринчи хатбошисига асосан, ҳар қандай йўлларда: юкхонасида одам ташиётган юк автомобилларига тезликни соатига 60 километрдан оширмасдан."
+        }
+    }
+}

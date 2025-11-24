@@ -1,0 +1,39 @@
+{
+    "questionId": 407,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Relssiz transport vositalarining harakatlanishi uchun tasmalar soni qanday aniqlanadi?",
+            "options": [
+                "F1. Yo'l yotiq chiziqlari bilan",
+                "F2. «Tasmalar bo'yicha harakat yo'nalishi» yoki «Tasma bo'yicha harakatlanish yo'nalishi» yo'l belgilari bilan",
+                "F3. Haydovchining o'zi tomonidan qatnov qismining kengligini, transport vositalarining o'lchamlarini va ular o'rtasidagi zarur yonlama oraliq masofani hisobga olib",
+                "F4. Barcha sanab o'tilgan usullar bilan"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 10-bobi 64-bandiga asosan: Relssiz transport vositalari harakatlanadigan tasmalar soni chiziqlar va (yoki) 5.8.1, 5.8.2, 5.8.7, 5.8.8 yo'l belgilari bilan belgilanadi. Bunday chiziqlar yoki yo'l belgilari bo'lmasa, haydovchilar harakatlanish tasmalari sonini, qatnov qismining kengligini, transport vositalari orasidagi zarur yonlama oraliq masofani va ularning gabarit o'lchamlarini hisobga olgan holda o'zlari aniqlaydilar. Bunda harakatlanish ikki tomonlama bo'lgan yo'l qatnov qismining chap tomondagi yarmi, qatnov qismining joylardagi kengayishlari (sekinlashish va tezlashish tasmalari, balandlikka ko'tarilishdagi qo'shimcha tasmalar, yo'nalishli transport vositalarining to'xtash joylaridagi kengayishlar)ni hisobga olmagan holda, qarama-qarshi yo'nalishda harakatlanish uchun mo'ljallangan deb hisoblanadi."
+        },
+        "ru": {
+            "text": "Как определяется количество полос для движения безрельсовых транспортных средств?",
+            "options": [
+                "F1. Дорожной разметкой",
+                "F2. Дорожными знаками «Направления движения по полосам» или «Направление движения по полосе»",
+                "F3. Самим водителем с учетом ширины проезжей части, габаритов транспортных средств и необходимых интервалов между ними",
+                "F4. Всеми перечисленными способами"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункту 64 главы 10 ПДД, гласит: Количество полос для движения безрельсовых транспортных средств определяется разметкой или знаками 5.8.1, 5.8.2, 5.8.7 и 5.8.8. Если нет такой разметки или дорожных знаков, то водители сами определяют полосы движения с учетом ширины проезжей части, габаритов транспортных средств и необходимых интервалов между ними. В этих случаях на дорогах с двусторонним движением левая половина проезжей части считается полосой встречного движения. Соответственно, количество полос для движения безрельсовых транспортных средств определяется всеми перечисленными способами."
+        },
+        "uzk": {
+            "text": "Рельссиз транспорт воситаларининг ҳаракатланиши учун бўлаклар сони қандай аниқланади?",
+            "options": [
+                "F1. Йўл ётиқ чизиқлари билан",
+                "F2. «Тасмалар бўйича ҳаракат йўналиши» ёки «Тасма бўйича ҳаракатланиш йўналиши» йўл белгилари билан",
+                "F3. Ҳайдовчининг ўзи томонидан қатнов қисмининг кенглигини, транспорт воситаларининг ўлчамларини ва улар ўртасидаги зарур ёнлама оралиқ масофани ҳисобга олиб",
+                "F4. Барча санаб ўтилган усуллар билан"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 10-боби 64-бандига асосан: Релссиз транспорт воситалари ҳаракатланадиган тасмалар сони чизиқлар ва (ёки) 5.8.1, 5.8.2, 5.8.7, 5.8.8 йўл белгилари билан белгиланади. Бундай чизиқлар ёки йўл белгилари бўлмаса, ҳайдовчилар ҳаракатланиш тасмалари сонини, қатнов қисмининг кенглигини, транспорт воситалари орасидаги зарур ёнлама оралиқ масофани ва уларнинг габарит ўлчамларини ҳисобга олган ҳолда ўзлари аниқлайдилар. Бунда ҳаракатланиш икки томонлама бўлган йўл қатнов қисмининг чап томондаги ярми, қатнов қисмининг жойлардаги кенгайишлари (секинлашиш ва тезлашиш тасмалари, баландликка кўтарилишдаги қўшимча тасмалар, йўналишли транспорт воситаларининг тўхташ жойларидаги кенгайишлар)ни ҳисобга олмаган ҳолда, қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган деб ҳисобланади."
+        }
+    }
+}

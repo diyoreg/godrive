@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  796,
+    "image":  "data/images/q0796.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Yo\u0027nalishli transport vositasi bekatidan tashqarida yo\u0027l chetidan qo\u0027zg\u0027alayotgan yo\u0027nalishli transport vositasiga yo\u0027l berishingiz kerakmi?",
+                                    "options":  [
+                                                    "F1. Yo\u0027q"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 9-bobi 53-bandi: Haydovchi harakatlanishni boshlash, manyovr qilish (qayta tizilish, burilish, qayrilib olish, quvib o\u0027tish va aylanib o\u0027tish) va to\u0027xtashdan oldin bajarilayotgan manyovr boshqa yo\u0027l harakati ishtirokchilarini harakatlanishiga xavf tug\u0027dirmasligi kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Обязаны ли Вы уступить дорогу маршрутному транспортному средству, отъезжающему от тротуара, где нет обозначенного места остановки?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 53 главы 9 ПДД, гласит: Перед началом движения и маневром (перестроение, поворот, разворот, обгон, объезд) и остановкой водитель должен убедиться в том, что маневр безопасен и не создает помех другим участникам движения."
+                                },
+                         "uzk":  {
+                                     "text":  "Йўналишли транспорт воситаси бекатидан ташқарида йўл четидан қўзғалаётган йўналишли транспорт воситасига йўл беришингиз керакми?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 9-боби 53-банди: Ҳайдовчи ҳаракатланишни бошлаш, манёвр қилиш (қайта тизилиш, бурилиш, қайрилиб олиш, қувиб ўтиш ва айланиб ўтиш) ва тўхташдан олдин бажарилаётган манёвр бошқа йўл ҳаракати иштирокчиларини ҳаракатланишига хавф туғдирмаслиги керак."
+                                 }
+                     }
+}

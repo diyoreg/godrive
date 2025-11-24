@@ -1,0 +1,39 @@
+{
+    "questionId": 346,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Transport vositasining haydovchisi, agar svetoforning ruxsat etuvchi chirog'i yoqilsa-yu, harakat yo'nalishining qatnov qismidan o'tishga ulgurmagan piyodalar bo'lsa, nima qilishi kerak?",
+            "options": [
+                "F1. Tezlikni kamaytirishi, tovush ishorasini berishi va eng kam tezlik bilan piyodalarning o'tish joyidan o'tishi",
+                "F2. Tovush ishorasini berishi va tezlikni kamaytirmay piyodalarning o'tish joyidan o'tishi",
+                "F3. Mazkur yo'nalishning qatnov qismidan piyodalarning o'tib olishiga imkon berishi",
+                "F4. Ehtiyotkorlik choralariga rioya etgan holda piyodalarning o'tish joyidan o'tishi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 15-bobi 103-bandiga asosan: Svetoforning ruxsat etuvchi ishorasi yonganda haydovchi chorraha orqali harakatlanishni tugallayotgan transport vositalari va qatnov qismidan tegishli yoʻnalishda o'tishni tugallayotgan ртуода (Гаг)да yo'l berishi shart."
+        },
+        "ru": {
+            "text": "Как должен поступить водитель транспортного средства, если включился разрешающий сигнал светофора, а на проезжей части в направлении движения находятся пешеходы, не успевшие перейти дорогу?",
+            "options": [
+                "F1. Снизить скорость, подать звуковой сигнал и проехать пешеходный переход на минимальной скорости",
+                "F2. Подать звуковой сигнал и проехать пешеходный переход, не снижая скорости",
+                "F3. Дать возможность пешеходам закончить переход проезжей части данного направления",
+                "F4. Проехать пешеходный переход, соблюдая меры предосторожности"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 103 главы 15 ПДД, гласит: При включении разрешающего сигнала светофора водитель обязан уступить дорогу транспортным средствам, завершающим движение через перекресток, и пешеходам, не закончившим переход проезжей части данного направления. Соответственно, необходимо дать возможность пешеходам закончить переход проезжей части."
+        },
+        "uzk": {
+            "text": "Транспорт воситасининг ҳайдовчиси, агар светофорнинг рухсат этувчи чироғи ёқилса-ю, ҳаракат йўналишининг қатнов қисмидан ўтишга улгурмаган пиёдалар бўлса, нима қилиши керак?",
+            "options": [
+                "F1. Тезликни камайтириши, товуш ишорасини бериши ва энг кам тезлик билан пиёдаларнинг ўтиш жойидан ўтиши",
+                "F2. Товуш ишорасини бериши ва тезликни камайтирмай пиёдаларнинг ўтиш жойидан ўтиши",
+                "F3. Мазкур йўналишнинг қатнов қисмидан пиёдаларнинг ўтиб олишига имкон бериши",
+                "F4. Эҳтиёткорлик чораларига риоя этган ҳолда пиёдаларнинг ўтиш жойидан ўтиши"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 15-боби 103-бандига асосан: Светофорнинг рухсат этувчи ишораси ёнганда ҳайдовчи чорраҳа орқали ҳаракатланишни тугаллаётган транспорт воситалари ва қатнов қисмидан тегишли йўналишда ўтишни тугаллаётган пиёда (лар)га йўл бериши шарт."
+        }
+    }
+}

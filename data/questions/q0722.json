@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  722,
+    "image":  "data/images/q0722.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu ko\u0027rsatilgan vaziyatda Sizga hovliga orqa bilan kirib qayrilib olishga ruxsat beriladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat beriladi agarda bunda harakatning boshqa ishtirokchilariga halaqit berilmasa",
+                                                    "F2. Taqiqlanadi",
+                                                    "F3. Ruxsat beriladi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 9-bobi 63-bandi: Transport vositasini orqaga harakatlantirishda haydovchi yo\u0027l harakati xavfsizligini ta\u0027minlashi va boshqa yoʻl harakati qatnashchilariga xalaqit bermasligi shart. Zarurat tug\u0027ilganda haydovchi boshqa shaxslarning yordamidan foydalanishi kerak.\nOrqaga harakatlanish chorrahalarda va ushbu Qoidalarning 62-bandiga muvofiq qayrilib olish mumkin boʻlmagan joylarda taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли Вам выполнить разворот с заездом во двор задним ходом?",
+                                    "options":  [
+                                                    "F1. Разрешается, если при этом не будут созданы помехи другим участникам движения",
+                                                    "F2. Запрещается",
+                                                    "F3. Разрешается"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Пункта 63 главы 9 ПДД, гласит: При движении транспортного средства задним ходом водитель должен обеспечить безопасность движения и не создавать помех другим участникам движения. При необходимости водитель должен прибегнуть к помощи других лиц.\nДвижение задним ходом запрещается на перекрестках и в местах, где запрещен разворот согласно пункту 62 настоящих Правил."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу кўрсатилган вазиятда сизга ҳовлига орқа билан кириб қайрилиб олишга рухсат бериладими?",
+                                     "options":  [
+                                                     "F1. Рухсат берилади агарда бунда ҳаракатнинг бошқа иштирокчиларига ҳалақит берилмаса",
+                                                     "F2. Тақиқланади",
+                                                     "F3. Рухсат берилади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 9-боби 63-банди: Транспорт воситасини орқага ҳаракатлантиришда ҳайдовчи йўл ҳаракати хавфсизлигини таъминлаши ва бошқа йўл ҳаракати қатнашчиларига халақит бермаслиги шарт. Зарурат туғилганда ҳайдовчи бошқа шахсларнинг ёрдамидан фойдаланиши керак.\nОрқага ҳаракатланиш чорраҳаларда ва ушбу Қоидаларнинг 62-бандига мувофиқ қайрилиб олиш мумкин бўлмаган жойларда тақиқланади."
+                                 }
+                     }
+}

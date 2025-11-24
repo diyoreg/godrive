@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  301,
+    "image":  "data/images/q0301.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu belgilar amal qiladigan hududda «Nogiron» taniqlik belgisi bilan belgilangan avtomobilga to\u0027xtashga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat etiladi",
+                                                    "F2. Taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1-ilovasi 7-boʻlimining o\u0027ttiz birinchi xatboshisiga asosan: 7.18. «Nogironlar mustasno». Belgilarning ta\u0027siri ushbu Qoidalarning 175-bandiga muvofiq «Nogiron» taniqlik belgisi o\u0027rnatilgan transport vositalariga joriy etilmaydi."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли остановка автомобиля с опознавательным знаком «Инвалид» в зоне действия этих знаков?",
+                                    "options":  [
+                                                    "F1. Разрешается",
+                                                    "F2. Запрещается"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "Знак дополнительной информации 7.18 \"Кроме инвалидов\". Указывает, что действие знаков не распространяется на транспортные средства и мотоколяски, на которых установлены опознавательные знаки \"Инвалид\" в соответствии с пунктом 28.3 настоящих Правил. В данном случае знак дополнительной информации 7.18 означает, что действие знака 3.27 не распространяется на автомобили с опознавательным знаком \"Инвалид\". Соответственно, остановка для них разрешена."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу белгилар амал қиладиган ҳудудда «Ногирон» таниқлик белгиси билан белгиланган автомобилга тўхташга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Рухсат этилади",
+                                                     "F2. Тақиқланади"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1-иловаси 7-бўлимининг ўттиз биринчи хатбошисига асосан: 7.18. «Ногиронлар мустасно». Белгиларнинг таъсири ушбу Қоидаларнинг 175-бандига мувофиқ «Ногирон» таниқлик белгиси ўрнатилган транспорт воситаларига жорий этилмайди."
+                                 }
+                     }
+}

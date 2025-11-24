@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  542,
+    "image":  "data/images/q0542.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi shlagbaumli temir yo\u0027l kesishmasiga yaqinlashganlik haqida ogohlantiradi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 1-ilovasi 1-boʻlimining ikkininchi xatboshisiga asosan: 1.1. «Shlagbaumli temir yo\u0027l kesishmasi»."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак предупреждает о приближении к железнодорожному переезду со шлагбаумом?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "Предупреждающий знак 1.1 \"Железнодорожный переезд со шлагбаумом\"."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги шлагбаумли темир йўл кесишмасига яқинлашганлик ҳақида огоҳлантиради?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 1-иловаси 1-бўлимининг иккининчи хатбошисига асосан: 1.1. «Шлагбаумли темир йўл кесишмаси»."
+                                 }
+                     }
+}

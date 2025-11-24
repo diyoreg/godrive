@@ -1,0 +1,39 @@
+﻿{
+    "questionId":  903,
+    "image":  "data/images/q0903.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi belgi to\u0027siqni o\u0027ng yoki chap tomonidan chetlab o\u0027tishga ruxsat etilishini bildiradi?",
+                                    "options":  [
+                                                    "F1. AvtoImtihon",
+                                                    "F2. Noto\u0027g\u0027ri:",
+                                                    "F3. Yakunlash",
+                                                    "F4. To\u0027g\u0027ri:"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "YHQ 1 ilova: 4.2.3. «To\u0027siqni o\u0027ngdan yoki chapdan chetlab o\u0027tish». To\u0027siqni har tomonidan chetlab o\u0027tishga ruxsat etilishini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Какой знак указывает на то, что объезд препятствия разрешен с правой или левой стороны?",
+                                    "options":  [
+                                                    "F1. Неправильно:",
+                                                    "F2. AvtoImtihon",
+                                                    "F3. Правильно:",
+                                                    "F4. Завершить"
+                                                ],
+                                    "correctAnswer":  4,
+                                    "explanation":  "ПДД приложение № 1: 4.2.3. «Объезд препятствия справа или слева». Объезд разрешается с любой стороны."
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси белги тўсиқни ўнг ёки чап томонидан четлаб ўтишга рухсат этилишини билдиради?",
+                                     "options":  [
+                                                     "F1. AvtoImtihon",
+                                                     "F2. Нотўғри:",
+                                                     "F3. Якунлаш",
+                                                     "F4. Кейинги"
+                                                 ],
+                                     "correctAnswer":  4,
+                                     "explanation":  "ЙҲҚ 1 илова: 4.2.3. «Тўсиқни ўнгдан ёки чапдан четлаб ўтиш». Тўсиқни ҳар томонидан четлаб ўтишга рухсат этилишини билдиради."
+                                 }
+                     }
+}

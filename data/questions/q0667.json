@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  667,
+    "image":  "data/images/q0667.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Yuk avtomobili haydovchisi rasmda ko\u0027rsatilgan holatda maxsus tovush ishorasini eshitib yoki yalt-yalt etuvchi chiroq-mayoqchani ko\u0027rib nima qilishi kerak?",
+                                    "options":  [
+                                                    "F1. Qatnov qismidagi o\u0027z bo\u0027lagi bo\u0027ylab harakatni davom ettirishi",
+                                                    "F2. Haydovchi maxsus tovushli ishoralarini yoqqan holda yaqinlashib kelayotgan transport vositalariga yo\u0027l berishlari, zarur bo\u0027lgan hollarda ularniing toʻsiqsiz o\u0027tib ketishlari uchun o\u0027zlarini yo\u0027lning o\u0027ng tomoniga olib to\u0027xtashlari shart"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 6-bobi 26-bandiga asosan: Haydovchilar tezkor va maxsus xizmatlarning ko\u0027k yoki qizil yoxud ko\u0027k va qizil rangli yalt-yalt etuvchi mayoqchalar va maxsus tovushli ishorasi yoqilgan holda yaqinlashayotgan transport vositalariga, shuningdek ularning kuzatuvidagi, yaqinni yorituvchi fara chiroqlari yoqilgan transport vositasi (transport vositalari)ga yo\u0027l berishlari shart.\nMazkur turdagi transport vositalarini quvib o\u0027tish taqiqlanadi."
+                                },
+                         "ru":  {
+                                    "text":  "Что должен сделать водитель грузового автомобиля в случае, когда он слышит специальные звуковые или видит проблесковые сигналы?",
+                                    "options":  [
+                                                    "F1. Продолжать свое движение по полосе",
+                                                    "F2. Водитель при приближении к нему специального транспортного средства с включенным проблесковым маячком и специальным звуковым сигналом, обязан уступить дорогу, при необходимости остановиться у правого края проезжей части"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 26 главы 6 ПДД, гласит: При приближении транспортных средств оперативных и специальных служб с включенными проблесковым маячком синего или красного или синего и красного цветов и специальным звуковым сигналом, а также сопровождаемого ими транспортного средства (транспортных средств) с включенным ближним светом фар водители обязаны уступить им дорогу для обеспечения их беспрепятственного проезда. Запрещается обгонять данные транспортные средства."
+                                },
+                         "uzk":  {
+                                     "text":  "Юк автомобили ҳайдовчиси расмда кўрсатилган ҳолатда махсус товуш ишорасини эшитиб ёки ялт-ялт этувчи чироқ-маёқчани кўриб нима қилиши керак?",
+                                     "options":  [
+                                                     "F1. Қатнов қисмидаги ўз бўлаги бўйлаб ҳаракатни давом эттириши",
+                                                     "F2. Ҳайдовчи махсус товушли ишораларини ёққан ҳолда яқинлашиб келаётган транспорт воситаларига йўл беришлари, зарур бўлган ҳолларда уларниинг тўсиқсиз ўтиб кетишлари учун ўзларини йўлнинг ўнг томонига олиб тўхташлари шарт"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 6-боби 26-бандига асосан: Ҳайдовчилар тезкор ва махсус хизматларнинг кўк ёки қизил ёхуд кўк ва қизил рангли ялт-ялт этувчи маёқчалар ва махсус товушли ишораси ёқилган ҳолда яқинлашаётган транспорт воситаларига, шунингдек уларнинг кузатувидаги, яқинни ёритувчи фара чироқлари ёқилган транспорт воситаси (транспорт воситалари)га йўл беришлари шарт.\nМазкур турдаги транспорт воситаларини қувиб ўтиш тақиқланади."
+                                 }
+                     }
+}

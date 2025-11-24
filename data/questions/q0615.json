@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  615,
+    "image":  "data/images/q0615.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qizil avtomobilning haydovchisiga shu vaziyatda piyodalar o\u0027tish joyi orqali harakatlanishni davom ettirishga ruxsat etiladimi?",
+                                    "options":  [
+                                                    "F1. Ruxsat etiladi",
+                                                    "F2. Taqiqlanadi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 17-bobi 110-bandiga asosan: Agar tartibga solinmagan piyodalar o\u0027tish joyi oldida transport vositasi harakatini sekinlashtirsa yoki to\u0027xtasa, qo\u0027shni tasmalarda harakatlanayotgan boshqa haydovchilar bu transport vositasi oldida piyoda (lаг) yo\u0027qligiga ishonch hosil qilganlaridan soʻnggina harakatlanishni davom ettirishlari mumkin."
+                                },
+                         "ru":  {
+                                    "text":  "Разрешается ли в этой обстановке водителю красного автомобиля продолжать движение через пешеходный переезд?",
+                                    "options":  [
+                                                    "F1. Разрешается",
+                                                    "F2. Запрещается"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункту 110 главы 17 ПДД, гласит: Если перед нерегулируемым пешеходным переходом транспортное средство замедлило движение или остановилось, то водители других транспортных средств, движущихся по соседним полосам, могут продолжать движение, лишь убедившись, что перед остановившимся транспортным средством нет пешеходов.\nВ данном случае перед пешеходным переходом остановился синий автомобиль. Соответственно, красный автомобиль не может продолжить движение, т.к. перед синим автомобилем есть пешеходы."
+                                },
+                         "uzk":  {
+                                     "text":  "Қизил автомобилнинг ҳайдовчисига шу вазиятда пиёдалар ўтиш жойи орқали ҳаракатланишни давом эттиришга рухсат этиладими?",
+                                     "options":  [
+                                                     "F1. Рухсат этилади",
+                                                     "F2. Тақиқланади"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 17-боби 110-бандига асосан: Агар тартибга солинмаган пиёдалар ўтиш жойи олдида транспорт воситаси ҳаракатини секинлаштирса ёки тўхтаса, қўшни тасмаларда ҳаракатланаётган бошқа ҳайдовчилар бу транспорт воситаси олдида пиёда (лар) йўқлигига ишонч ҳосил қилганларидан сўнггина ҳаракатланишни давом эттиришлари мумкин."
+                                 }
+                     }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  706,
+    "image":  "data/images/q0706.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Siz chorrahada chapga burilmoqchisiz. Ushbu vaziyatda Siz kimga yo\u0027l berasiz?",
+                                    "options":  [
+                                                    "F1. Faqat avtobusga",
+                                                    "F2. Hech biriga",
+                                                    "F3. Faqat yengil avtomobilga"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 16-bobi 106-bandi: Asosiy yo\u0027lning yo\u0027nalishi chorrahada o\u0027zgarganda, asosiy yo\u0027lda harakatlanayotgan haydovchilar o\u0027zaro teng ahamiyatli yo\u0027llar chorrahasidan o\u0027tish qoidasiga amal qilishlari kerak.\nIkkinchi darajali yo\u0027llarda harakatlanayotgan haydovchilar ham o\u0027zaro shu qoidaga amal qilishlari kerak."
+                                },
+                         "ru":  {
+                                    "text":  "Вы намерены повернуть налево. Кому следует уступить дорогу?",
+                                    "options":  [
+                                                    "F1. Только автобусу",
+                                                    "F2. Никому",
+                                                    "F3. Только легковому автомобилю"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункта 106 главы 16 ПДД, гласит: Если главная дорога на перекрестке меняет направление, водители, движущиеся по главной дороге, должны руководствоваться между собой правилами проезда перекрестков равнозначных дорог.\nЭтим же правилом должны руководствоваться между собой и водители, движущиеся по второстепенным дорогам."
+                                },
+                         "uzk":  {
+                                     "text":  "Сиз чорраҳада чапга бурилмоқчисиз. Ушбу вазиятда Сиз кимга йўл берасиз?",
+                                     "options":  [
+                                                     "F1. Фақат автобусга",
+                                                     "F2. Ҳеч бирига",
+                                                     "F3. Фақат енгил автомобилга"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 16-боби 106-банди: Aсосий йўлнинг йўналиши чорраҳада ўзгарганда, асосий йўлда ҳаракатланаётган ҳайдовчилар ўзаро тенг аҳамиятли йўллар чорраҳасидан ўтиш қоидасига амал қилишлари керак.\nИккинчи даражали йўлларда ҳаракатланаётган ҳайдовчилар ҳам ўзаро шу қоидага амал қилишлари керак."
+                                 }
+                     }
+}

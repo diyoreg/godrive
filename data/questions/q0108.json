@@ -1,0 +1,39 @@
+{
+    "questionId": 108,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Ogohlantirish ishorasini berish haydovchiga birinchi harakatlanish huquqini beradimi?",
+            "options": [
+                "F1. Bermaydi",
+                "F2. Manyovrni tugatish vaqtida beradi",
+                "F3. Manyovrni boshlash vaqtida beradi",
+                "F4. Hamma hollarda beradi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 8-bobi 46-bandining uchinchi xatboshisiga asosan: Ogohlantiruvchi ishora berish haydovchiga oldin o'tish huquqini bermaydi va uni zaruriy ehtiyot choralarini koʻrish mas'uliyatidan ozod etmaydi."
+        },
+        "ru": {
+            "text": "Дает ли водителю преимущественное право проезда подача предупредительного сигнала?",
+            "options": [
+                "F1. Не дает",
+                "F2. Дает при завершении маневра",
+                "F3. Дает при начале маневра",
+                "F4. Дает во всех случаях"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 46 главы 8 ПДД, гласит: Подача сигнала указателями поворотов или рукой должна производиться заблаговременно до начала выполнения маневра и прекращаться немедленно после его завершения (подача сигнала рукой может быть закончена непосредственно перед выполнением маневра). Подаваемый сигнал не должен вводить в заблуждение других участников дорожного движения. Подача предупредительного сигнала не дает водителю право на первоочередное движение и не освобождает его от принятия необходимых мер предосторожности."
+        },
+        "uzk": {
+            "text": "Огоҳлантириш ишорасини бериш ҳайдовчига биринчи ҳаракатланиш ҳуқуқини берадими?",
+            "options": [
+                "F1. Бермайди",
+                "F2. Манёврни тугатиш вақтида беради",
+                "F3. Манёврни бошлаш вақтида беради",
+                "F4. Ҳамма ҳолларда беради"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 8-боби 46-бандининг учинчи хатбошисига асосан: Огоҳлантирувчи ишора бериш ҳайдовчига олдин ўтиш ҳуқуқини бермайди ва уни зарурий эҳтиёт чораларини кўриш масъулиятидан озод этмайди."
+        }
+    }
+}

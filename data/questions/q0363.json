@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  363,
+    "image":  "data/images/q0363.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Ushbu yotiq chiziq nimani bildiradi?",
+                                    "options":  [
+                                                    "F1. Mazkur yo\u0027nalishda harakatlanish bo\u0027lagi soni kamaya borib, qatnov qismining torayishini",
+                                                    "F2. Kesib o\u0027tiladigan yo\u0027l bo\u0027ylab harakatlanayotgan transport vositasiga yo\u0027l berar ekan, haydovchi zarur holda qayerda to\u0027xtashi kerak bo\u0027lgan joyni",
+                                                    "F3. To\u0027xtash taqiqlangan joyga yaqinlashganlikni"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining yigirma ikkinchi xatboshisiga asosan: 1.18 — chorrahada bo\u0027laklar bo\u0027yicha ruxsat etilgan harakatlanish yoʻnalishlarini ko\u0027rsatadi. Mustaqil yoki 5.8.1, 5.8.2 belgilari bilan birgalikda qo\u0027llanilishi mumkin;\noxiri berk yo\u0027l tasvirlangan chiziq shu yo\u0027nalishdagi yon tomonda joylashgan qatnov qismiga burilish taqiqlanganligini koʻrsatish uchun chiziladi;\nchetki chap tasmadan chapga burilishga ruxsat beruvchi yo\u0027naltirgich shu tasmadan qayrilishga ham ruxsat beradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Сужение проезжей части, где уменьшается количество полос движения в данном направлении",
+                                                    "F2. Место, где водитель должен при необходимости остановиться, уступая дорогу транспортным средствам, движущимся по пересекаемой дороге",
+                                                    "F3. Приближение к месту, где запрещена остановка"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Горизонтальная разметка 1.13 - указывает место, где водитель должен при необходимости остановиться, уступая дорогу транспортным средствам, движущимся по пересекаемой дороге."
+                                },
+                         "uzk":  {
+                                     "text":  "Ушбу ётиқ чизиқ нимани билдиради?",
+                                     "options":  [
+                                                     "F1. Мазкур йўналишда ҳаракатланиш бўлаги сони камая бориб, қатнов қисмининг торайишини",
+                                                     "F2. Кесиб ўтиладиган йўл бўйлаб ҳаракатланаётган транспорт воситасига йўл берар экан, ҳайдовчи зарур ҳолда қаерда тўхташи керак бўлган жойни",
+                                                     "F3. Тўхташ тақиқланган жойга яқинлашганликни"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг йигирма иккинчи хатбошисига асосан: 1.18 — чорраҳада бўлаклар бўйича рухсат этилган ҳаракатланиш йўналишларини кўрсатади. Мустақил ёки 5.8.1, 5.8.2 белгилари билан биргаликда қўлланилиши мумкин;\nохири берк йўл тасвирланган чизиқ шу йўналишдаги ён томонда жойлашган қатнов қисмига бурилиш тақиқланганлигини кўрсатиш учун чизилади;\nчетки чап тасмадан чапга бурилишга рухсат берувчи йўналтиргич Шу тасмадан қайрилишга ҳам рухсат беради."
+                                 }
+                     }
+}

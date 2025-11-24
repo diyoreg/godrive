@@ -1,0 +1,39 @@
+{
+    "questionId": 871,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yo'lning xavfli burilishlarida oldingi uzatmali avtomobilning orqa o'qi yon tomonga sirpanayotganda siz qanday harakat qilasiz?",
+            "options": [
+                "F1. Gaz pedalini ko'proq bosib, avtomobilni rul chambaragini o'zgartirmasdan sirpanishdan olib chiqasiz",
+                "F2. Gaz pedalini ohista bosib, avtomobilni rul chambaragini to'g'irlab, avtomobilni sirpanishdan olib chiqib ketasiz",
+                "F3. Tormozlab turib rul chambaragini sirpangan tomonga burasiz",
+                "F4. Gaz berishni kamaytirib rul chambaragi bilan boshqaruvni barqarorlashtirasiz"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Oldingi uzatmali avtomobillar orqa uzatmali avtomobillardan yetarlicha farq qiladi. Bu farqni avtomobil boshqaruvida e’tiborga olish kerak. To'g'ri yo'lda yuqori tezlikda harakatlanishda orqa yetaklovchi avtomobilga nisbatan yonga siljish extimoli kam. Biroq nam qoplamali burilishlarda avtomobil boshqarish texnikasiga rioya etilmasa, nafaqat yonga sirpanish balki avtomobil barcha g'ildiraklarining yonga siljishi va yo'l-transport hodisalari kelib chiqishi ehtimoli mavjud."
+        },
+        "ru": {
+            "text": "На повороте возник занос оси переднеприводного автомобиля Ваши действия?",
+            "options": [
+                "F1. Уменьшаете подачу топлива, рулевым колесом стабилизируете движение",
+                "F2. Слегка увеличиваете подачу топлива, корректируя направление движения рулевым колесом",
+                "F3. Притормаживаете и руль поворачиваете в сторону заноса",
+                "F4. Значительно увеличиваете подачу топлива не меняя положения рулевого колеса"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Переднеприводные автомобили значительно отличаются своим поведением от заднеприводных. Это обстоятельство следует учитывать во время управления. Учитывайте обстоятельство, что при движении по прямой переднеприводный автомобиль не склонен к заносу на значительно более высоких скоростях по сравнению сзаднеприводным. Он хорошо держит дорогу. Но на поворотах, особенно мокрых, обледенелых, если не использовать «технику прохождения поворотов», его может не только занести, а снести, при этом происходит одновременная потеря сцепления колёс обеих осей с дорогой. Это явление, как правило, заканчивается ДТП. Случай заноса задней оси — это «полбеды». В такой ситуации плавно увеличивайте подачу топлива. Сцепление задних колес возрастёт. Рулевым колесом корректируйте направление движения. («Техника управления автомобилем»)."
+        },
+        "uzk": {
+            "text": "Йўлнинг хавфли бурилишларида олдинги узатмали автомобилнинг орқа ўқи ён томонга сирпанаётганда сиз қандай ҳаракат қиласиз?",
+            "options": [
+                "F1. Газ педалини кўпроқ босиб, автомобилни рул чамбарагини ўзгартирмасдан сирпанишдан олиб чиқасиз",
+                "F2. Газ педалини оҳиста босиб, автомобилни рул чамбарагини тўғирлаб, автомобилни сирпанишдан олиб чиқиб кетасиз",
+                "F3. Тормозлаб туриб рул чамбарагини сирпанган томонга бурасиз",
+                "F4. Газ беришни камайтириб рул чамбараги билан бошқарувни барқарорлаштирасиз"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Олдинги узатмали автомобиллар орқа узатмали автомобиллардан етарлича фарқ қилади. Бу фарқни автомобил бошқарувида эътиборга олиш керак. Тўғри йўлда юқори тезликда ҳаракатланишда орқа етакловчи автомобилга нисбатан ёнга силжиш эхтимоли кам. Бироқ нам қопламали бурилишларда автомобил бошқариш техникасига риоя этилмаса, нафақат ёнга сирпаниш балки автомобил барча ғилдиракларининг ёнга силжиши ва йўл-транспорт ҳодисалари келиб чиқиши эҳтимоли мавжуд."
+        }
+    }
+}

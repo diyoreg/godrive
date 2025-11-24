@@ -1,0 +1,33 @@
+{
+    "questionId": 855,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar biror-bir to'siq sababli qarama-qarshi yo'nalishlarda harakatlanish qiyin bo'lsa kim yo'l berishi kerak?",
+            "options": [
+                "F1. To'siq o'z tomonida bo'lgan haydovchi",
+                "F2. To'siq bo'lmagan tomondagi haydovchi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 10-bobi 75-bandi: Agar biror to'siq sababli qarama-qarshi yo'nalishlarda harakatlanish qiyin bo'lsa, to'siq o'z tomonida bo'lgan haydovchi yo'l berishi kerak."
+        },
+        "ru": {
+            "text": "Кто должен уступить дорогу если встречный разъезд затруднён?",
+            "options": [
+                "F1. Водитель на стороне которого имеется препятствие",
+                "F2. Водитель на стороне которого не имеется препятствие"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 75 главы 10 ПДД, гласит: Если встречный разъезд затруднён, то водитель на стороне которого имеется препятствие, должен уступить дорогу."
+        },
+        "uzk": {
+            "text": "Aгар бирор-бир тўсиқ сабабли қарама-қарши йўналишларда ҳаракатланиш қийин бўлса ким йўл бериши керак?",
+            "options": [
+                "F1. Тўсиқ ўз томонида бўлган ҳайдовчи",
+                "F2. Тўсиқ бўлмаган томондаги ҳайдовчи"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 10-боби 75-банди: Агар бирор-бир тўсиқ сабабли қарама-қарши йўналишларда ҳаракатланиш қийин бўлса, тўсиқ ўз томонида бўлган ҳайдовчи йўл бериши керак."
+        }
+    }
+}

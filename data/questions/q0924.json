@@ -1,0 +1,36 @@
+﻿{
+    "questionId":  924,
+    "image":  "data/images/q0924.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Belgi ta\u0027sir oralig\u0027ida to\u0027xtagan transport vositalari majburiy evakuatsiya qilinishini ko\u0027rsatadi",
+                                                    "F2. Belgi ta\u0027sir oralig\u0027ida to\u0027xtagan transport vositalarini evakuatsiya qilish taqiqlanganligini bildiradi",
+                                                    "F3. Belgi ta\u0027sir oralig\u0027ida to\u0027xtagan transport vositalarini evakuatsiya qilinish ruxsat etilganligini bildiradi"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "YHQ 1 ilova: 7.6.1. «Transport vositasini to\u0027xtab turish joyiga qo\u0027yish usuli». 7.6.1 barcha turdagi transport vositalarini to\u0027xtab turishi uchun yo\u0027lning qatnov qismida, trotuar yoniga qo\u0027yish usulini, 7.6.2 — 7.6.9 trotuar yonidagi to\u0027xtab turish joyiga yengil avtomobillar, mototsikllar, mopedlar va skuterlarni qo\u0027yish usulini bildiradi."
+                                },
+                         "ru":  {
+                                    "text":  "Текст вопроса не найден",
+                                    "options":  [
+                                                    "F1. Указывает на принудительную эвакуацию автомобилей, остановившихся в зоне действие знака",
+                                                    "F2. Запрещает эвакуацию остановившихся транспортных средств в зоне действие знака",
+                                                    "F3. Разрешает эвакуацию остановившихся транспортных средств в зоне действие знака"
+                                                ],
+                                    "correctAnswer":  1,
+                                    "explanation":  "ПДД, приложение № 1: 7.6.1. «Способ постановки транспортного средства на стоянку». 7.6.1 указывает способ постановки транспортного средства на проезжую часть, вдоль тротуара, 7.6.2 — 7.6.9. Указывает способ постановки легковых автомобилей, мотоциклы, мопеды и скутеры на околотротуарной стоянке."
+                                },
+                         "uzk":  {
+                                     "text":  "Текст вопроса не найден",
+                                     "options":  [
+                                                     "F1. Белги таъсир оралиғида тўхтаган транспорт воситалари мажбурий евакуатсия қилинишини кўрсатади",
+                                                     "F2. Белги таъсир оралиғида тўхтаган транспорт воситаларини эвакуатсия қилиш тақиқланганлигини билдиради",
+                                                     "F3. Белги таъсир оралиғида тўхтаган транспорт воситаларини эвакуатсия қилиниш рухсат этилганлигини билдиради"
+                                                 ],
+                                     "correctAnswer":  1,
+                                     "explanation":  "ЙҲҚ 1 илова: 7.6.1. «Транспорт воситасини тўхтаб туриш жойига қўйиш усули». 7.6.1 барча турдаги транспорт воситаларини тўхтаб туриши учун йўлнинг қатнов қисмида, тротуар ёнига қўйиш усулини, 7.6.2 — 7.6.9 тротуар ёнидаги тўхтаб туриш жойига енгил автомобиллар, мотоцикллар, мопедлар ва скутерларни қўйиш усулини билдиради."
+                                 }
+                     }
+}

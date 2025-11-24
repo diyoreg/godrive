@@ -1,0 +1,36 @@
+{
+    "questionId": 587,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Mexanik transport vositasi shatakka olinganda egiluvchan ulagich qanday belgilanishi kerak?",
+            "options": [
+                "F1. Diagonali bo'yicha qizil va oq rangli chiziqlar tushirilgan, yorug'lik qaytaradigan yuzali, bayroqchalar yoki taxtachalar bilan.",
+                "F2. Transport vositasi orqasiga mustahkamlangan avariya sababli toʻxtash belgisi bilan belgilanishi kerak",
+                "F3. Transport vositasi oldi tomoni oq rangli, orqasi qizil rangli fonarlar bilan belgilanishi kerak"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 24-bobi 144-bandiga asosan: Egiluvchan ulagich bilan shatakka olishda shatakka olgan va shatakka olingan transport vositalari o'rtasidagi masofa 4 — 6 metr oralig'ida bo'lishi, qattiq ulagich bilan shatakka olishda esa 4 metrdan ko'p bo'lmasligi kerak. YHQning 177-bandida ko'rsatilganidek, oq va qizil rangdagi chiziqli bayroqcha yoki taxtakach bilan belgilanadi."
+        },
+        "ru": {
+            "text": "Каким образом должно быть обозначено гибкое связывающее устройство во время буксировки механического транспортного средства?",
+            "options": [
+                "F1. Сигнальными флажками или щитками с красными и белыми полосами со световозвращаюшей поверхностью",
+                "F2. Знаком аварийной остановки на транспортном средстве, укрепленным на нем сзади",
+                "F3. Транспортное средство, обозначенное спереди фонарями белого, а сзади красного цвета"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункту 144 главы 24 ПДД, при буксировке на гибкой сцепке расстояние между буксирующим и буксируемым транспортными средствами должно быть в пределах 4-6 м, а при жесткой - не более 4 м. При гибкой сцепке связующее звено обозначается сигнальными щитками или флажками с красными и белыми полосами со световозвращающей поверхностью в соответствии с пунктом 177 ПДД."
+        },
+        "uzk": {
+            "text": "Механик транспорт воситаси шатакка олинганда эгилувчан улагич қандай белгиланиши керак?",
+            "options": [
+                "F1. Қизил ва оқ рангли чизиқлар туширилган, ёруғлик қайтарадиган юзали, байроқчалар ёки тахтачалар билан",
+                "F2. Транспорт воситаси орқасига мустаҳкамланган авария сабабли тўхташ белгиси билан белгиланиши керак",
+                "F3. Транспорт воситаси олди томони оқ рангли, орқаси қизил рангли фонарлар билан белгиланиши керак"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 24-боби 144-бандига асосан: Эгилувчан улагич билан шатакка олишда шатакка олган ва шатакка олинган транспорт воситалари ўртасидаги масофа 4 — 6 метр оралиғида бўлиши, қаттиқ улагич билан шатакка олишда эса 4 метрдан кўп бўлмаслиги керак. ЙҲҚнинг 177-бандида кўрсатилганидек, оқ ва қизил рангдаги чизиқли байроқча ёки тахтакач билан белгиланади."
+        }
+    }
+}

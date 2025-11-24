@@ -1,0 +1,33 @@
+﻿{
+    "questionId":  354,
+    "image":  "data/images/q0354.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Haydovchilardan qay biri birinchi bo\u0027lib harakatlanish uchun imtiyozga ega?",
+                                    "options":  [
+                                                    "F1. Mototsikl haydovchisi",
+                                                    "F2. Avtomobil haydovchisi"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 16-bobi 105-bandiga asosan: Teng ahamiyatga ega bo\u0027lgan yo\u0027llar kesishgan chorrahada relssiz transport vositasining haydovchisi o\u0027ngdan kelayotgan transport vositalariga yo\u0027l berishi shart."
+                                },
+                         "ru":  {
+                                    "text":  "Кто из водителей имеет право на первоочередное движение?",
+                                    "options":  [
+                                                    "F1. Водитель мотоцикла",
+                                                    "F2. Водитель автомобиля"
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "Пункту 105 главы 16 ПДД, гласит: На перекрестке равнозначных дорог водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, приближающимся справа.\nВ данном случае автомобиль приближается к перекрестку справа от мотоцикла, соответственно, водитель автомобиля имеет право на первоочередное движение."
+                                },
+                         "uzk":  {
+                                     "text":  "Ҳайдовчилардан кай бири биринчи бўлиб ҳаракатланиш учун имтиёзга эга?",
+                                     "options":  [
+                                                     "F1. Мотоцикл ҳайдовчиси",
+                                                     "F2. Автомобиль ҳайдовчиси"
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 16-боби 105-бандига асосан: Тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада релъссиз транспорт воситасининг ҳайдовчиси ўнгдан келаётган транспорт воситаларига йўл бериши шарт."
+                                 }
+                     }
+}

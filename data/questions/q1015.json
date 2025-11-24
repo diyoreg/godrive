@@ -1,0 +1,39 @@
+{
+    "questionId": 1015,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Yengil avtomobilning tom qismiga o'rnatilgan yukxonasida yuk tashishda, yukning uzunligi avtomobilning gabaritidan necha metrdan oshmasa tashishga yo'l qo'yiladi?",
+            "options": [
+                "F1. 2 metr",
+                "F2. 1 metr",
+                "F3. 1.2 metr",
+                "F4. 0.5 metr"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 27-bobi 162-bandi: Yengil avtomobilning tom qismiga o'rnatilgan yukxonasidagi yukning balandligi 1 metrdan (maxsus moslamalar bilan mustahkamlangan holda velosipedlar va individual harakatlanish vositalarini tashish bundan mustasno) va uzunligi avtomobilning gabaritidan 0,5 metrdan oshmasa yukni tashishga ruxsat beriladi."
+        },
+        "ru": {
+            "text": "Не более скольких метров разрешается превышать длину габарита легкового автомобиля при перевозке груза, закрепленного на крыше?",
+            "options": [
+                "F1. 2 метр",
+                "F2. 1 метр",
+                "F3. 1.2 метр",
+                "F4. 0.5 метр"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 162 главы 27 ПДД, гласит: Разрешается перевозить груз в багажнике легкового автомобиля, если его высота не превышает 1 метра (кроме случаев перевозки велосипедов и индивидуальные транспортных средствам закрепленных специальными приспособлениями) и если его длина не превышает 0,5 метра габаритов автомобиля."
+        },
+        "uzk": {
+            "text": "Енгил автомобилнинг том қисмига ўрнатилган юкхонасида юк ташишда, юкнинг узунлиги автомобилнинг габаритидан неча метрдан ошмаса ташишга йўл қўйилади?",
+            "options": [
+                "F1. 2 метр",
+                "F2. 1 метр",
+                "F3. 1.2 метр",
+                "F4. 0.5 метр"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 27-боби 162-банди: Енгил автомобилнинг том қисмига ўрнатилган юкхонасидаги юкнинг баландлиги 1 метрдан (махсус мосламалар билан мустаҳкамланган ҳолда велосипедлар ва индивидуал ҳаракатланиш воситаларини ташиш бундан мустасно) ва узунлиги автомобилнинг габаритидан 0,5 метрдан ошмаса юкни ташишга рухсат берилади."
+        }
+    }
+}

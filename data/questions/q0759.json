@@ -1,0 +1,36 @@
+{
+    "questionId": 759,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qanday hollarda yo'lning burilish qismlarida yengil avtomobil ag'darilishga qarshi turg'unroq?",
+            "options": [
+                "F1. Yo'lovchilar bilan yuksiz",
+                "F2. Yuksiz va yo'lovchilarsiz",
+                "F3. Yo'lovchilarsiz, yuqori yukxonasida yuki bilan"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Avtomobilning og'irlik markazi qanchalik past va simmetrik bo'lsa, u shunchalik barqaror bo'ladi."
+        },
+        "ru": {
+            "text": "В каком случае легковой автомобиль более устойчив против опрокидывания на повороте?",
+            "options": [
+                "F1. С пассажирами, но без груза",
+                "F2. Без груза и пассажиров",
+                "F3. Без пассажиров, но с грузом на верхнем багажнике"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Чем ниже и симметричнее расположен центр тяжести автомобиля, тем более он устойчив."
+        },
+        "uzk": {
+            "text": "Қандай ҳолларда йўлнинг бурилиш қисмларида енгил автомобиль ағдарилишга қарши турғунроқ?",
+            "options": [
+                "F1. Йўловчилар билан юксиз",
+                "F2. Юксиз ва йўловчиларсиз",
+                "F3. Йўловчиларсиз, юқори юкхонасида юки билан"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Автомобилнинг оғирлик маркази қанчалик паст ва симметрик бўлса, у шунчалик барқарор бўлади."
+        }
+    }
+}

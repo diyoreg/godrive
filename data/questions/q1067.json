@@ -1,0 +1,30 @@
+﻿{
+    "questionId":  1067,
+    "image":  "data/images/q1067.webp",
+    "translations":  {
+                         "uz":  {
+                                    "text":  "Qaysi yotiq yo\u0027l chizig\u0027i avtomobil yo\u0027llarida 3D ko\u0027rinishidagi baland piyodalar o\u0027tish joyini bildiradi?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "YHQ 2 ilova: 1.29.2-sun’iy notekislik (avtomobil yo\u0027llarida “3D” ko\u0027rinishdagi BALAND piyodalar o\u0027tish joyini bildiradi);"
+                                },
+                         "ru":  {
+                                    "text":  "Какая горизонтальная разметка обозначает «3D»-приподнятый пешеходный переход?",
+                                    "options":  [
+
+                                                ],
+                                    "correctAnswer":  2,
+                                    "explanation":  "ПДД приложение № 2: 1.29.2 искусственная неровность (означает ПРИПОДНЯТЫЙ пешеходный переход в формате «3D» на автомобильных дорогах);"
+                                },
+                         "uzk":  {
+                                     "text":  "Қайси ётиқ йўл чизиғи автомобил йўлларида 3D кўринишидаги баланд пиёдалар ўтиш жойини билдиради?",
+                                     "options":  [
+
+                                                 ],
+                                     "correctAnswer":  2,
+                                     "explanation":  "ЙҲҚ 2 илова: 1.29.2-сунъий нотекислик (автомобил йўлларида “3D” кўринишдаги БАЛАНД пиёдалар ўтиш жойини билдиради);"
+                                 }
+                     }
+}
