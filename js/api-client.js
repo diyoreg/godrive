@@ -1,7 +1,12 @@
 // 🔗 API клиент для интеграции с backend
 
 class GoDriveAPI {
-    constructor(baseURL = 'http://localhost:3000/api') {
+    constructor(baseURL) {
+        // Автоматически определяем API URL
+        if (!baseURL) {
+            const origin = window.location.origin;
+            baseURL = `${origin}/api`;
+        }
         this.baseURL = baseURL;
         this.token = localStorage.getItem('authToken');
     }
