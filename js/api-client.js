@@ -320,7 +320,7 @@ async function loadUserStats() {
 if (typeof window !== 'undefined') {
     // Настройка обработчиков после загрузки DOM
     document.addEventListener('DOMContentLoaded', () => {
-        setupLoginForm();
+        // setupLoginForm() закомментирован - форма входа управляется вручную в login.html
         loadUserStats();
     });
 }
