@@ -183,7 +183,18 @@ async function startServer() {
     try {
         // Проверяем подключение к БД
         const db = require('./database/connection');
-        await db.checkTables();
+        
+        try {
+            await db.checkTables();
+        } catch (error) {
+            // Если таблиц нет - инициализируем БД
+            console.log('⚠️  Таблицы не найдены, инициализация базы данных...');
+            const DatabaseInitializer = require('./database/init');
+            const initializer = new DatabaseInitializer();
+            await initializer.initializeDatabase();
+            initializer.close();
+            console.log('✅ База данных инициализирована');
+        }
         
         // Запускаем сервер
         app.listen(PORT, () => {
