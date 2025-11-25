@@ -11,11 +11,11 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
-database/*.db
+# Database (разрешаем godrive.db для деплоя)
+# *.db
+# *.sqlite
+# *.sqlite3
+# database/*.db
 
 # Logs
 logs/
