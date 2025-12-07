@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  673,
-    "image":  "data/images/q0673.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ko\u0027rsatilgan belgilardan qaysi biri orqaga harakatlanishni taqiqlaydi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 19-bobi 121-bandining beshinchi xatboshisiga asosan, avtomagistrallarda quyidagilar taqiqlanadi: orqaga harakatlanish."
-                                },
-                         "ru":  {
-                                    "text":  "Какой из показанных знаков запрещает движение задним ходом?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 121 главы 19 ПДД, гласит: На автомагистралях запрещается: - движение задним ходом;\nСоответственно, в зоне действия знака 5.1 \"Автомагистраль\" движение задним ходом запрещено."
-                                },
-                         "uzk":  {
-                                     "text":  "Кўрсатилган белгилардан қайси бири орқага ҳаракатланишни тақиқлайди?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 19-боби 121-бандининг бешинчи хатбошисига асосан, автомагистралларда қуйидагилар тақиқланади: орқага ҳаракатланиш."
-                                 }
-                     }
+{
+    "questionId": 673,
+    "image": "data/images/q0673.webp",
+    "translations": {
+        "uz": {
+            "text": "Ko'rsatilgan belgilardan qaysi biri orqaga harakatlanishni taqiqlaydi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 19-bobi 121-bandining beshinchi xatboshisiga asosan, avtomagistrallarda quyidagilar taqiqlanadi: orqaga harakatlanish."
+        },
+        "ru": {
+            "text": "Какой из показанных знаков запрещает движение задним ходом?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 121 главы 19 ПДД, гласит: На автомагистралях запрещается: - движение задним ходом;\nСоответственно, в зоне действия знака 5.1 \"Автомагистраль\" движение задним ходом запрещено."
+        },
+        "uzk": {
+            "text": "Кўрсатилган белгилардан қайси бири орқага ҳаракатланишни тақиқлайди?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 19-боби 121-бандининг бешинчи хатбошисига асосан, автомагистралларда қуйидагилар тақиқланади: орқага ҳаракатланиш."
+        }
+    }
 }

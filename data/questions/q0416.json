@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  416,
-    "image":  "data/images/q0416.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi transport vositasining haydovchisi qayrilib olishni to\u0027g\u0027ri bajarmoqda?",
-                                    "options":  [
-                                                    "F1. Ko\u0027k avtomobil haydovchisi",
-                                                    "F2. Qizil avtomobil haydovchisi",
-                                                    "F3. Har ikki haydovchi"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 9-bobi 59-bandining ikkinchi xatboshisiga asosan: Chorrahadan tashqarida qayrilib olishda, agar qatnov qismining kengligi manyovrni chetki chap holatdan bajarish uchun yetarli bo\u0027lmasa, uni qatnov qismining o\u0027ng chetidan (o\u0027ng yo\u0027l yoqasidan) amalga oshirishga yo\u0027l qo\u0027yiladi. Bu holda haydovchi shu yo\u0027nalishdagi va qarama-qarshi yo\u0027nalishdagi transport vositalariga yo\u0027l berishi shart."
-                                },
-                         "ru":  {
-                                    "text":  "Водитель какого транспортного средства правильно выполняет разворот?",
-                                    "options":  [
-                                                    "F1. Водитель синего автомобиля",
-                                                    "F2. Водитель красного автомобиля",
-                                                    "F3. Оба водителя"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Aбзацу 2 пункта 59 главы 9 ПДД, если ширина проезжей части вне перекрестка недостаточна для разворота из крайнего левого положения, допускается производить его от правого края проезжей части (с правой обочины). При этом водитель должен уступить дорогу попутным и встречным транспортным средствам."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси транспорт воситасининг ҳайдовчиси қайрилиб олишни тўғри бажармоқда?",
-                                     "options":  [
-                                                     "F1. Кўк автомобиль ҳайдовчиси",
-                                                     "F2. Қизил автомобиль ҳайдовчиси",
-                                                     "F3. Ҳар икки ҳайдовчи"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 9-боби 59-бандининг иккинчи хатбошисига асосан: Чорраҳадан ташқарида қайрилиб олишда, агар қатнов қисмининг кенглиги манёврни четки чап ҳолатдан бажариш учун йетарли бўлмаса, уни қатнов қисмининг ўнг четидан (ўнг йўл ёқасидан) амалга оширишга йўл қўйилади. Бу ҳолда ҳайдовчи шу йўналишдаги ва қарама-қарши йўналишдаги транспорт воситаларига йўл бериши шарт."
-                                 }
-                     }
+{
+    "questionId": 416,
+    "image": "data/images/q0416.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi transport vositasining haydovchisi qayrilib olishni to'g'ri bajarmoqda?",
+            "options": [
+                "F1. Ko'k avtomobil haydovchisi",
+                "F2. Qizil avtomobil haydovchisi",
+                "F3. Har ikki haydovchi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 9-bobi 59-bandining ikkinchi xatboshisiga asosan: Chorrahadan tashqarida qayrilib olishda, agar qatnov qismining kengligi manyovrni chetki chap holatdan bajarish uchun yetarli bo'lmasa, uni qatnov qismining o'ng chetidan (o'ng yo'l yoqasidan) amalga oshirishga yo'l qo'yiladi. Bu holda haydovchi shu yo'nalishdagi va qarama-qarshi yo'nalishdagi transport vositalariga yo'l berishi shart."
+        },
+        "ru": {
+            "text": "Водитель какого транспортного средства правильно выполняет разворот?",
+            "options": [
+                "F1. Водитель синего автомобиля",
+                "F2. Водитель красного автомобиля",
+                "F3. Оба водителя"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 2 пункта 59 главы 9 ПДД, если ширина проезжей части вне перекрестка недостаточна для разворота из крайнего левого положения, допускается производить его от правого края проезжей части (с правой обочины). При этом водитель должен уступить дорогу попутным и встречным транспортным средствам."
+        },
+        "uzk": {
+            "text": "Қайси транспорт воситасининг ҳайдовчиси қайрилиб олишни тўғри бажармоқда?",
+            "options": [
+                "F1. Кўк автомобиль ҳайдовчиси",
+                "F2. Қизил автомобиль ҳайдовчиси",
+                "F3. Ҳар икки ҳайдовчи"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 9-боби 59-бандининг иккинчи хатбошисига асосан: Чорраҳадан ташқарида қайрилиб олишда, агар қатнов қисмининг кенглиги манёврни четки чап ҳолатдан бажариш учун йетарли бўлмаса, уни қатнов қисмининг ўнг четидан (ўнг йўл ёқасидан) амалга оширишга йўл қўйилади. Бу ҳолда ҳайдовчи шу йўналишдаги ва қарама-қарши йўналишдаги транспорт воситаларига йўл бериши шарт."
+        }
+    }
 }

@@ -1,0 +1,39 @@
+{
+    "questionId": 961,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Transport vositasi harakatlanayotgan vaqtda uning eshiklarini ochish",
+                "F2. Harakatlanayotgan bortli yuk avtomobillarida tik turish, bortlarda yoki undan yuqoridagi yuk ustida o'tirish",
+                "F3. Transport vositasi harakatlanayotgan vaqtda haydovchini boshqarishdan chalg'itish va unga xalaqit berish",
+                "F4. Barcha ko'rsatilgan javoblar to'g'ri"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 5-bobi 24-bandi: Yo'lovchilarga quyidagilar taqiqlanadi: transport vositasi harakatlanayotgan vaqtda haydovchini boshqarishdan chalgʻitish (unga xalaqit berish);\nharakatlanayotgan bortli yuk avtomobillarida tik turish, bortlarda yoki undan yuqoridagi yuk ustida o'tirish;\ntransport vositasi harakatlanayotgan vaqtda uning eshiklarini ochish;\ntransport vositasi harakatlanayotgan vaqtda salondan tana qismlarini (qo'ldan tashqari) chiqarish taqiqlanadi.\nBu talablarning bajarilishini haydovchi nazorat qilishi kerak."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Открывать двери транспортного средства во время движения",
+                "F2. Стоять, сидеть на бортах или на грузе, расположенном на уровне или выше бортов, во время движения на бортовом грузовом автомобиле",
+                "F3. Отвлекать водителя или мешать ему во время движения транспортного средства",
+                "F4. Все выше указанные ответы верны"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 24 главы 5 ПДД, гласит: Пассажирам запрещается: отвлекать водителя или мешать ему во время движения транспортного средства;\nстоять, сидеть на бортах или на грузе, расположенном на уровне или выше бортов, во время движения на бортовом грузовом автомобиле;\nоткрывать двери транспортного средства во время движения;\nвысовывать части тела (кроме рук) из салона во время движения транспортного средства.\nВодитель должен следить за выполнением этих требований."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Транспорт воситаси ҳаракатланаётган вақтда унинг эшикларини очиш",
+                "F2. Ҳаракатланаётган бортли юк автомобилларида тик туриш, бортларда ёки ундан юқоридаги юк устида ўтириш",
+                "F3. Транспорт воситаси ҳаракатланаётган вақтда ҳайдовчини бошқаришдан чалғитиш ва унга халақит бериш",
+                "F4. Барча кўрсатилган жавоблар тўғри"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 5-боби 24-банди: Йўловчиларга қуйидагилар тақиқланади: транспорт воситаси ҳаракатланаётган вақтда ҳайдовчини бошқаришдан чалғитиш (унга халақит бериш);\nҳаракатланаётган бортли юк автомобилларида тик туриш, бортларда ёки ундан юқоридаги юк устида ўтириш;\nтранспорт воситаси ҳаракатланаётган вақтда унинг эшикларини очиш;\nтранспорт воситаси ҳаракатланаётган вақтда салондан тана қисмларини (қўлдан ташқари) чиқариш тақиқланади.\nБу талабларнинг бажарилишини ҳайдовчи назорат қилиши керак."
+        }
+    }
+}

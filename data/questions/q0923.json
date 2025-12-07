@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  923,
-    "image":  "data/images/q0923.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi ikkinchi darajali yo\u0027l bilan tutashuvni bildiradi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "YHQ 1 ilova: 2.3.2, 2.3.3. «Ikkinchi darajali yo\u0027l bilan tutashuv». 2.3.2 — tutashuv o\u0027ngdan, 2.3.3 — tutashuv chapdan. 2.3.1 — 2.3.3 yo\u0027l belgilari aholi punktlarida kesishmagacha 50 — 100 metr masofada, aholi punktlaridan tashqarida esa 150 — 300 metr masofada o\u0027rnatiladi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак обозначает примыкание второстепенной дороги?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Приложение №1 к ПДД: Пункты 2.3.2-2.3.3. «Примыкание второстепенной дороги». 2.3.2 примыкание справа, 2.3.3 - примыкание слева. Дорожные знаки 2.3.1 - 2.3.3 устанавливаются в населенных пунктах на расстоянии 50 100 м, а вне населенных пунктов - на расстоянии 150 300 м до пересечения."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги иккинчи даражали йўл билан туташувни билдиради?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ЙҲҚ 1 илова: 2.3.2, 2.3.3. «Иккинчи даражали йўл билан туташув». 2.3.2 — туташув ўнгдан, 2.3.3 — туташув чапдан. 2.3.1 — 2.3.3 йўл белгилари аҳоли пунктларида кесишмагача 50 — 100 метр масофада, аҳоли пунктларидан ташқарида эса 150 — 300 метр масофада ўрнатилади."
-                                 }
-                     }
+{
+    "questionId": 923,
+    "image": "data/images/q0923.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi ikkinchi darajali yo'l bilan tutashuvni bildiradi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 1 ilova: 2.3.2, 2.3.3. «Ikkinchi darajali yo'l bilan tutashuv». 2.3.2 — tutashuv o'ngdan, 2.3.3 — tutashuv chapdan. 2.3.1 — 2.3.3 yo'l belgilari aholi punktlarida kesishmagacha 50 — 100 metr masofada, aholi punktlaridan tashqarida esa 150 — 300 metr masofada o'rnatiladi."
+        },
+        "ru": {
+            "text": "Какой знак обозначает примыкание второстепенной дороги?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Приложение №1 к ПДД: Пункты 2.3.2-2.3.3. «Примыкание второстепенной дороги». 2.3.2 примыкание справа, 2.3.3 - примыкание слева. Дорожные знаки 2.3.1 - 2.3.3 устанавливаются в населенных пунктах на расстоянии 50 100 м, а вне населенных пунктов - на расстоянии 150 300 м до пересечения."
+        },
+        "uzk": {
+            "text": "Қайси белги иккинчи даражали йўл билан туташувни билдиради?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 1 илова: 2.3.2, 2.3.3. «Иккинчи даражали йўл билан туташув». 2.3.2 — туташув ўнгдан, 2.3.3 — туташув чапдан. 2.3.1 — 2.3.3 йўл белгилари аҳоли пунктларида кесишмагача 50 — 100 метр масофада, аҳоли пунктларидан ташқарида эса 150 — 300 метр масофада ўрнатилади."
+        }
+    }
 }

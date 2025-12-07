@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  1090,
-    "image":  "data/images/q1090.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi avtomobil haydovchisi qoidani buzib hovliga burildi?",
-                                    "options":  [
-                                                    "F1. Faqat oq avtomobil haydovchisi",
-                                                    "F2. Faqat sariq avtomobil haydovchisi",
-                                                    "F3. Hech qaysi buzmadi",
-                                                    "F4. Ikkisi ham buzdi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1 ilova: 4.1.1. “Harakatlanish to\u0027g\u0027riga”. Yo\u0027lning qismi boshlanishida o\u0027rnatilgan 4.1.1 belgisining ta’siri yaqin chorrahagacha joriy qilinadi. Belgi o\u0027ng tomonda joylashgan hovlilarga va yo\u0027lga yondosh boshqa hududlarga burilishni taqiqlamaydi."
-                                },
-                         "ru":  {
-                                    "text":  "Водителю какого автомобиля нарушил правило повернув во двор?",
-                                    "options":  [
-                                                    "F1. Только водитель белого автомобиля",
-                                                    "F2. Только водитель жёлтого автомобиля",
-                                                    "F3. Никто не нарушил",
-                                                    "F4. Оба нарушили"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "ПДД приложение № 1: 4.1.1 Движение прямо. Действие знака 4.1.1, установленного в начале участка дороги, распространяется до ближайшего перекрестка. Знак не запрещает поворот направо на прилегающие к дороге территории."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси автомобил ҳайдовчиси қоидани бузиб ҳовлига бурилди?",
-                                     "options":  [
-                                                     "F1. Фақат оқ автомобил ҳайдовчиси",
-                                                     "F2. Фақат сариқ автомобил ҳайдовчиси",
-                                                     "F3. Ҳеч қайси бузмади",
-                                                     "F4. Иккала ҳайдовчи бузди"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1 илова: 4.1.1. “Ҳаракатланиш тўғрига”. Йўлнинг қисми бошланишида ўрнатилган 4.1.1 белгисининг таъсири яқин чорраҳагача жорий қилинади. Белги ўнг томонда жойлашган ҳовлиларга ва йўлга ёндош бошқа ҳудудларга бурилишни тақиқламайди."
-                                 }
-                     }
+{
+    "questionId": 1090,
+    "image": "data/images/q1090.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi avtomobil haydovchisi qoidani buzib hovliga burildi?",
+            "options": [
+                "F1. Faqat oq avtomobil haydovchisi",
+                "F2. Faqat sariq avtomobil haydovchisi",
+                "F3. Hech qaysi buzmadi",
+                "F4. Ikkisi ham buzdi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1 ilova: 4.1.1. “Harakatlanish to'g'riga”. Yo'lning qismi boshlanishida o'rnatilgan 4.1.1 belgisining ta’siri yaqin chorrahagacha joriy qilinadi. Belgi o'ng tomonda joylashgan hovlilarga va yo'lga yondosh boshqa hududlarga burilishni taqiqlamaydi."
+        },
+        "ru": {
+            "text": "Водителю какого автомобиля нарушил правило повернув во двор?",
+            "options": [
+                "F1. Только водитель белого автомобиля",
+                "F2. Только водитель жёлтого автомобиля",
+                "F3. Никто не нарушил",
+                "F4. Оба нарушили"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД приложение № 1: 4.1.1 Движение прямо. Действие знака 4.1.1, установленного в начале участка дороги, распространяется до ближайшего перекрестка. Знак не запрещает поворот направо на прилегающие к дороге территории."
+        },
+        "uzk": {
+            "text": "Қайси автомобил ҳайдовчиси қоидани бузиб ҳовлига бурилди?",
+            "options": [
+                "F1. Фақат оқ автомобил ҳайдовчиси",
+                "F2. Фақат сариқ автомобил ҳайдовчиси",
+                "F3. Ҳеч қайси бузмади",
+                "F4. Иккала ҳайдовчи бузди"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1 илова: 4.1.1. “Ҳаракатланиш тўғрига”. Йўлнинг қисми бошланишида ўрнатилган 4.1.1 белгисининг таъсири яқин чорраҳагача жорий қилинади. Белги ўнг томонда жойлашган ҳовлиларга ва йўлга ёндош бошқа ҳудудларга бурилишни тақиқламайди."
+        }
+    }
 }

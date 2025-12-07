@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  931,
-    "image":  "data/images/q0931.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi yo\u0027lning kichik radiusli xavfli burilish joyiga yaqinlashayotganlik haqida ogohlantiradi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "YHQ 1 ilova: 1.11.1, 1.11.2. «Xavfli burilishi». 1.11.1 — o\u0027ngga, 1.11.2 — chapga yo\u0027l belgilari yo\u0027lning kichik radiusli yoki ko\u0027rinishi cheklangan burilish joyini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак предупреждают что впереди имеется закругление дороги малого радиуса?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Приложение № 1 ПДД: 1.11.1, 1.11.2. «Опасный поворот». Закругление дороги малого радиуса или с ограниченной видимостью: 1.11.1 - направо, 1.11.2 -\nналево."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги йўлнинг кичик радиусли хавфли бурилиш жойига яқинлашаётганлик ҳақида огоҳлантиради?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ЙҲҚ 1 илова: 1.11.1, 1.11.2. «Хавфли бурилиши». 1.11.1 — ўнгга, 1.11.2 — чапга йўл белгилари йўлнинг кичик радиусли ёки кўриниши чекланган бурилиш жойини билдиради."
-                                 }
-                     }
+{
+    "questionId": 931,
+    "image": "data/images/q0931.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi yo'lning kichik radiusli xavfli burilish joyiga yaqinlashayotganlik haqida ogohlantiradi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 1 ilova: 1.11.1, 1.11.2. «Xavfli burilishi». 1.11.1 — o'ngga, 1.11.2 — chapga yo'l belgilari yo'lning kichik radiusli yoki ko'rinishi cheklangan burilish joyini bildiradi."
+        },
+        "ru": {
+            "text": "Какой знак предупреждают что впереди имеется закругление дороги малого радиуса?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Приложение № 1 ПДД: 1.11.1, 1.11.2. «Опасный поворот». Закругление дороги малого радиуса или с ограниченной видимостью: 1.11.1 - направо, 1.11.2 -\nналево."
+        },
+        "uzk": {
+            "text": "Қайси белги йўлнинг кичик радиусли хавфли бурилиш жойига яқинлашаётганлик ҳақида огоҳлантиради?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 1 илова: 1.11.1, 1.11.2. «Хавфли бурилиши». 1.11.1 — ўнгга, 1.11.2 — чапга йўл белгилари йўлнинг кичик радиусли ёки кўриниши чекланган бурилиш жойини билдиради."
+        }
+    }
 }

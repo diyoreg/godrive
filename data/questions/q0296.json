@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  296,
-    "image":  "data/images/q0296.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qanday holda markazdan qochirma kuch burilishda kamayadi?",
-                                    "options":  [
-                                                    "F1. Boshqaruv rulini burilish tomonga keskin burganda",
-                                                    "F2. Harakat tezligi pasayganda",
-                                                    "F3. Burilish radiusi kamayganda"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Burilishda o\u0027tayotgan vaqtda haydovchi shuni inobatga olishi lozimki, avtomobil harakati tezligi kattalashganida markazdan qochirma kuch ortadi va transport vositasini agʻdarilishiga olib kelishi mumkin."
-                                },
-                         "ru":  {
-                                    "text":  "В каком случае центробежная сила при повороте уменьшается?",
-                                    "options":  [
-                                                    "F1. При резком повороте рулевого колеса в сторону поворота",
-                                                    "F2. При снижении скорости движения",
-                                                    "F3. При уменьшении радиуса поворота"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Центробежная сила при повороте уменьшается при снижении скорости движения. Если резко повернуть рулевое колесо в сторону поворота, может произойти опрокидывание автомобиля."
-                                },
-                         "uzk":  {
-                                     "text":  "Қандай ҳолда марказдан қочирма куч бурилишда камаяди?",
-                                     "options":  [
-                                                     "F1. Бошқарув рулини бурилиш томонга кескин бурганда",
-                                                     "F2. Ҳаракат тезлиги пасайганда",
-                                                     "F3. Бурилиш радиуси камайганда"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "Бурилишда ўтаётган вақтда ҳайдовчи шуни инобатга олиши лозимки, автомобил ҳаракати тезлиги катталашганида марказдан қочирма куч ортади ва транспорт воситасини ағдарилишига олиб келиши мумкин."
-                                 }
-                     }
+{
+    "questionId": 296,
+    "image": "data/images/q0296.webp",
+    "translations": {
+        "uz": {
+            "text": "Qanday holda markazdan qochirma kuch burilishda kamayadi?",
+            "options": [
+                "F1. Boshqaruv rulini burilish tomonga keskin burganda",
+                "F2. Harakat tezligi pasayganda",
+                "F3. Burilish radiusi kamayganda"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Burilishda o'tayotgan vaqtda haydovchi shuni inobatga olishi lozimki, avtomobil harakati tezligi kattalashganida markazdan qochirma kuch ortadi va transport vositasini agʻdarilishiga olib kelishi mumkin."
+        },
+        "ru": {
+            "text": "В каком случае центробежная сила при повороте уменьшается?",
+            "options": [
+                "F1. При резком повороте рулевого колеса в сторону поворота",
+                "F2. При снижении скорости движения",
+                "F3. При уменьшении радиуса поворота"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Центробежная сила при повороте уменьшается при снижении скорости движения. Если резко повернуть рулевое колесо в сторону поворота, может произойти опрокидывание автомобиля."
+        },
+        "uzk": {
+            "text": "Қандай ҳолда марказдан қочирма куч бурилишда камаяди?",
+            "options": [
+                "F1. Бошқарув рулини бурилиш томонга кескин бурганда",
+                "F2. Ҳаракат тезлиги пасайганда",
+                "F3. Бурилиш радиуси камайганда"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Бурилишда ўтаётган вақтда ҳайдовчи шуни инобатга олиши лозимки, автомобил ҳаракати тезлиги катталашганида марказдан қочирма куч ортади ва транспорт воситасини ағдарилишига олиб келиши мумкин."
+        }
+    }
 }

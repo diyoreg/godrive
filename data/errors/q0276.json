@@ -1,0 +1,39 @@
+{
+    "questionId": 276,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Haydovchi yaqinlashib kelayotgan poyezdni o'tkazib yuborishi uchun «To'xtash» yotiq chizig'i yoki «To'xtamasdan harakatlanish taqiqlangan» belgisidan qanday masofada to'xtashi kerak?",
+            "options": [
+                "F1. 1,5 m",
+                "F2. 2,5 m",
+                "F3. 1,0 m",
+                "F4. Bevosita «To'xtash» yotiq chizig'i yoki belgi oldida"
+            ],
+            "correctAnswer": 5,
+            "explanation": "YHQ 18-bobi 119-bandiga asosan: Kesishma orqali harakatlanish taqiqlangan hollarda haydovchi to'xtash chizig'i, 2.5 yo'l belgisi yoki svetofor oldida, ular bo'lmaganda shlagbaumga kamida 5 metr, shlagbaum boʻlmaganda esa birinchi temir yo'l iziga kamida 10 metr qolganda to'xtashi kerak."
+        },
+        "ru": {
+            "text": "На каком расстоянии от «Стоп-линий» или знака «Движение без остановки запрещено» должен остановиться водитель для пропуска приближающегося поезда?",
+            "options": [
+                "F1. 1,5 м",
+                "F2. 2,5 м",
+                "F3. 10 м",
+                "F4. Непосредственно у «Стоп-линии» или знака"
+            ],
+            "correctAnswer": 5,
+            "explanation": "Пункту 119 главы 18 ПДД гласит: В случаях, когда движение через переезд запрещено, водитель должен остановиться у стоп-линий, знака 2.5 или светофора, если их нет - не ближе 5 м от шлагбаума, а при отсутствии шлагбаума - не ближе 10 м до первого рельса. Как видно, остановиться нужно непосредственно у \"Стоп-линии\" или знака 2.5."
+        },
+        "uzk": {
+            "text": "Ҳайдовчи яқинлашиб келаётган поездни ўтказиб юбориши учун «Тўхташ» ётиқ чизиғи ёки «Тўхтамасдан ҳаракатланиш тақиқланган» белгисидан қандай масофада тўхташи керак?",
+            "options": [
+                "F1. 1,5 м",
+                "F2. 2,5 м",
+                "F3. 10 м",
+                "F4. Бевосита «Тўхташ» ётиқ чизиғи ёки белги олдида"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ЙҲҚ 18-боби 119-бандига асосан: Кесишма орқали ҳаракатланиш тақиқланган ҳолларда ҳайдовчи тўхташ чизиғи, 2.5 йўл белгиси ёки светофор олдида, улар бўлмаганда шлагбаумга камида 5 метр, шлагбаум бўлмаганда эса биринчи темир йўл изига камида 10 метр қолганда тўхташи керак."
+        }
+    }
+}

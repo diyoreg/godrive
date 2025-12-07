@@ -1,0 +1,39 @@
+{
+    "questionId": 681,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Temir yo'l kesishmalarida",
+                "F2. Piyodalar o'tish joylarida va ulardan oldin 10 metrdan kam masofa qolganda",
+                "F3. Piyodalarning harakatiga xalaqit beradigan joylarda",
+                "F4. Sanab o'tilgan barcha joylarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 13-bobi 91-bandining ikkinchi, beshinchi va oʻninchi xatboshlariga asosan, quyidagi joy va holatlarda to'xtash taqiqlanadi: tunnellarda, temir yoʻl kesishmalarida;\npiyodalar o'tish joylarida va ulardan oldin 10 metrdan kam masofa qolganda;\ntransport vositasi svetofor ishoralari, yoʻl belgilarini boshqa haydovchilardan toʻsib qo'yadigan, boshqa transport vositalarining harakatlanishiga (kirish va chiqishiga) imkon qoldirmaydigan yoki piyodalarning harakatiga xalaqit beradigan joylarda."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. На железнодорожных переездах",
+                "F2. на пешеходных переходах и ближе 10 м перед ними",
+                "F3. В местах, где движение транспорта мешает движению пешеходов",
+                "F4. Во всех перечисленных случаях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 91 главы 13 ПДД, гласит: Остановка запрещается в следующих местах: - в тоннелях, на железнодорожных переездах;\n- на пешеходных переходах и ближе 10 м перед ними;\n- в местах, где транспортное средство закроет от других водителей сигналы светофора, дорожные знаки или сделает невозможным движение (въезд или выезд) других транспортных средств, или создаст помехи для движения пешеходов;"
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Темир йўл кесишмаларида",
+                "F2. Пиёдалар ўтиш жойларида ва улардан олдин 10 метрдан кам масофа қолганда",
+                "F3. Пиёдаларнинг ҳаракатига халақит берадиган жойларда",
+                "F4. Санаб ўтилган барча жойларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 13-боби 91-бандининг иккинчи, бешинчи ва ўнинчи хатбошларига асосан, қуйидаги жой ва ҳолатларда тўхташ тақиқланади: туннелларда, темир йўл кесишмаларида;\nпиёдалар ўтиш жойларида ва улардан олдин 10 метрдан кам масофа қолганда;\nтранспорт воситаси светофор ишоралари, йўл белгиларини бошқа ҳайдовчилардан тўсиб қўядиган, бошқа транспорт воситаларининг ҳаракатланишига (кириш ва чиқишига) имкон қолдирмайдиган ёки пиёдаларнинг ҳаракатига халақит берадиган жойларда."
+        }
+    }
+}

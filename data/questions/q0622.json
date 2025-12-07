@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  622,
-    "image":  "data/images/q0622.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Bu belgida ko\u0027k fon bilan ajratilgan aholi punkti nimani bildiradi?",
-                                    "options":  [
-                                                    "F1. Bu manzil shu aholi punktidan tashqarida joylashganini va u manzilga avtomagistral bo\u0027lmagan, boshqa yo\u0027l orqali borilishni",
-                                                    "F2. Ko\u0027rsatilgan aholi punktiga harakatlanish avtomagistral boʻylab amalga oshiriladi",
-                                                    "F3. Ko\u0027rsatilgan manzil mazkur aholi punktida joylashgan"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1-ilovasi 5-bo\u0027limining o\u0027ttiz sakkizinchi va oltmish sakkizinchi xatboshlariga asosan: 5.21.1. «Yo\u0027nalish ko\u0027rsatkichi». Aholi punktida oʻrnatilgan 5.20.1 yo\u0027l belgisidagi yashil, koʻk rang ko\u0027rsatilgan aholi punktiga yoki ob\u0027ektga ushbu aholi punktidan chiqqandan so\u0027ng avtomagistral yoxud boshqa yo\u0027l orqali harakatlanish mumkinligini anglatadi, oq rang esa ko\u0027rsatilgan ob\u0027ekt shu aholi punktida joylashganligini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Что означает вставка на синем фоне с наименованием населенного пункта на этом знаке?",
-                                    "options":  [
-                                                    "F1. Данный объект находится вне этого населенного пункта и движение к нему осуществляется не по автомагистрали",
-                                                    "F2. К указанному населенному пункту будет осуществляться движение по автомагистрали",
-                                                    "F3. Указанный объект находится в данном населенном пункте"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Информационно-указательный знак 5.20.1 \"Предварительный указатель направлений\". Направления движения к обозначенным на знаке населенным пунктам и другим объектам. На знаках могут быть нанесены изображения знака 5.29.1, символы автомагистрали, аэропорта и иные пиктограммы. Знак 5.20.1 применяется также для указания объезда участков дорог, на которых установлен один из запрещающих знаков 3.11-3.15. На знаках 5.20.1, 5.20.2, 5.21.1 и 5.21.2, установленных вне населенного пункта, зеленый или синий фон означает, что движение к указанному населенному пункту или объекту будет осуществляться соответственно по автомагистрали или другой дороге. Белый фон означает, что указанный объект находится в данном населенном пункте."
-                                },
-                         "uzk":  {
-                                     "text":  "Бу белгида кўк фон билан ажратилган аҳоли пункти нимани билдиради?",
-                                     "options":  [
-                                                     "F1. Бу манзил шу аҳоли пунктидан ташқарида жойлашганини ва у манзилга автомагистраль бўлмаган, бошқа йўл орқали борилишни",
-                                                     "F2. Кўрсатилган аҳоли пунктига ҳаракатланиш автомагистраль бўйлаб амалга оширилади",
-                                                     "F3. Кўрсатилган манзил мазкур аҳоли пунктида жойлашган"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1-иловаси 5-бўлимининг ўттиз саккизинчи ва олтмиш саккизинчи хатбошларига асосан: 5.21.1. «Йўналиш курсаткичи». Аҳоли пунктида ўрнатилган 5.20.1 йўл белгисидаги яшил, кўк ранг кўрсатилган аҳоли пунктига ёки объектга ушбу аҳоли пунктидан чиққандан сўнг автомагистрал ёхуд бошқа йўл орқали ҳаракатланиш мумкинлигини англатади, оқ ранг эса кўрсатилган объект шу аҳоли пунктида жойлашганлигини билдиради."
-                                 }
-                     }
+{
+    "questionId": 622,
+    "image": "data/images/q0622.webp",
+    "translations": {
+        "uz": {
+            "text": "Bu belgida ko'k fon bilan ajratilgan aholi punkti nimani bildiradi?",
+            "options": [
+                "F1. Bu manzil shu aholi punktidan tashqarida joylashganini va u manzilga avtomagistral bo'lmagan, boshqa yo'l orqali borilishni",
+                "F2. Ko'rsatilgan aholi punktiga harakatlanish avtomagistral boʻylab amalga oshiriladi",
+                "F3. Ko'rsatilgan manzil mazkur aholi punktida joylashgan"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilovasi 5-bo'limining o'ttiz sakkizinchi va oltmish sakkizinchi xatboshlariga asosan: 5.21.1. «Yo'nalish ko'rsatkichi». Aholi punktida oʻrnatilgan 5.20.1 yo'l belgisidagi yashil, koʻk rang ko'rsatilgan aholi punktiga yoki ob'ektga ushbu aholi punktidan chiqqandan so'ng avtomagistral yoxud boshqa yo'l orqali harakatlanish mumkinligini anglatadi, oq rang esa ko'rsatilgan ob'ekt shu aholi punktida joylashganligini bildiradi."
+        },
+        "ru": {
+            "text": "Что означает вставка на синем фоне с наименованием населенного пункта на этом знаке?",
+            "options": [
+                "F1. Данный объект находится вне этого населенного пункта и движение к нему осуществляется не по автомагистрали",
+                "F2. К указанному населенному пункту будет осуществляться движение по автомагистрали",
+                "F3. Указанный объект находится в данном населенном пункте"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Информационно-указательный знак 5.20.1 \"Предварительный указатель направлений\". Направления движения к обозначенным на знаке населенным пунктам и другим объектам. На знаках могут быть нанесены изображения знака 5.29.1, символы автомагистрали, аэропорта и иные пиктограммы. Знак 5.20.1 применяется также для указания объезда участков дорог, на которых установлен один из запрещающих знаков 3.11-3.15. На знаках 5.20.1, 5.20.2, 5.21.1 и 5.21.2, установленных вне населенного пункта, зеленый или синий фон означает, что движение к указанному населенному пункту или объекту будет осуществляться соответственно по автомагистрали или другой дороге. Белый фон означает, что указанный объект находится в данном населенном пункте."
+        },
+        "uzk": {
+            "text": "Бу белгида кўк фон билан ажратилган аҳоли пункти нимани билдиради?",
+            "options": [
+                "F1. Бу манзил шу аҳоли пунктидан ташқарида жойлашганини ва у манзилга автомагистраль бўлмаган, бошқа йўл орқали борилишни",
+                "F2. Кўрсатилган аҳоли пунктига ҳаракатланиш автомагистраль бўйлаб амалга оширилади",
+                "F3. Кўрсатилган манзил мазкур аҳоли пунктида жойлашган"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-иловаси 5-бўлимининг ўттиз саккизинчи ва олтмиш саккизинчи хатбошларига асосан: 5.21.1. «Йўналиш курсаткичи». Аҳоли пунктида ўрнатилган 5.20.1 йўл белгисидаги яшил, кўк ранг кўрсатилган аҳоли пунктига ёки объектга ушбу аҳоли пунктидан чиққандан сўнг автомагистрал ёхуд бошқа йўл орқали ҳаракатланиш мумкинлигини англатади, оқ ранг эса кўрсатилган объект шу аҳоли пунктида жойлашганлигини билдиради."
+        }
+    }
 }

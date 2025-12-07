@@ -1,0 +1,39 @@
+{
+    "questionId": 608,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Majburiy toʻxtash yoritgichini yoqishni",
+                "F2. 40 km/soatdan oshmaydigan tezlik bilan harakatlanishni",
+                "F3. Tovushli xabar berishni",
+                "F4. Uzoqni yoki yaqinni yorituvchi chiroqlarini yoqishni"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 23-bobi 134-bandining birinchi xatboshisiga asosan, qorong'i vaqtda va yetarlicha ko'rinmaydigan sharoitda, shuningdek yo'lning yoritilganligidan qat'i nazar, tunnellarda harakatlanayotgan transport vositalarida quyidagi yoritish asboblari yoqilgan bo'lishi kerak: barcha mexanik transport vositalari — uzoqni yoki yaqinni yorituvchi chiroqlar."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Включить аварийную световую сигнализацию",
+                "F2. Двигаться со скоростью не более 40 км/ч",
+                "F3. Подавать звуковой сигнал",
+                "F4. Включить дальний или ближний свет фар"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Aбзацу 1 пункта 134 главы 23 ПДД, гласит: В темное время суток и в условиях недостаточной видимости, а также в тоннелях на всех движущихся транспортных средствах должны быть включены: - на неосвещенных участках дороги ближний или дальний свет фар;"
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Мажбурий тўхташ ёритгичини ëкишни",
+                "F2. 40 км/соатдан ошмайдиган тезлик билан ҳаракатланишни",
+                "F3. Товушли хабар беришни",
+                "F4. Узоқни ёки яқинни ёритувчи чироқларини ёқишни"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 23-боби 134-бандининг биринчи хатбошисига асосан, қоронғи вақтда ва етарлича кўринмайдиган шароитда, шунингдек йўлнинг ёритилганлигидан қатъи назар, туннелларда ҳаракатланаётган транспорт воситаларида қуйидаги ёритиш асбоблари ёқилган бўлиши керак: барча механик транспорт воситалари — узоқни ёки яқинни ёритувчи чироқлар."
+        }
+    }
+}

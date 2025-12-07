@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  572,
-    "image":  "data/images/q0572.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Quyidagi belgi ostidagi qo\u0027shimcha axborot belgisi haydovchiga nima haqida xabar beradi?",
-                                    "options":  [
-                                                    "F1. To\u0027xtab turish paytida yurgizgichni o\u0027chirish taqiqlanadi",
-                                                    "F2. Yurgizgichni o\u0027chirish sharti bilan to\u0027xtab turish"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 7-bo\u0027limining yigirmanchi xatboshisiga asosan: 7.7. «Dvigatelni ishlatmasdan toʻxtab turish joyi». 5.15 belgisi bilan belgilangan toʻxtab turish joyida transport vositalarining dvigatelini ishlatmasdan toʻxtab turishiga ruxsat etilganligini koʻrsatadi."
-                                },
-                         "ru":  {
-                                    "text":  "О чем информирует водителя табличка, установленная под данным знаком?",
-                                    "options":  [
-                                                    "F1. Во время стоянки запрещено выключать двигатель",
-                                                    "F2. Стоянка разрешена только с выключенным двигателем"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Знак дополнительной информации 7.7 \"Стоянка с неработающим двигателем\". Указывает, что на стоянке, обозначенной знаком 5.15, разрешается стоянка транспортных средств только с неработающим двигателем."
-                                },
-                         "uzk":  {
-                                     "text":  "Қуйидаги белги остидаги қўшимча ахборот белгиси ҳайдовчига нима ҳақида хабар беради?",
-                                     "options":  [
-                                                     "F1. Тўхтаб туриш пайтида юргизгични ўчириш тақиқланади",
-                                                     "F2. Юргизгични ўчириш шарти билан тўхтаб туриш"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 7-бўлимининг йигирманчи хатбошисига асосан: 7.7. «Двигателни ишлатмасдан тўхтаб туриш жойи». 5.15 белгиси билан белгиланган тўхтаб туриш жойида транспорт воситаларининг двигателини ишлатмасдан тўхтаб туришига рухсат этилганлигини кўрсатади."
-                                 }
-                     }
+{
+    "questionId": 572,
+    "image": "data/images/q0572.webp",
+    "translations": {
+        "uz": {
+            "text": "Quyidagi belgi ostidagi qo'shimcha axborot belgisi haydovchiga nima haqida xabar beradi?",
+            "options": [
+                "F1. To'xtab turish paytida yurgizgichni o'chirish taqiqlanadi",
+                "F2. Yurgizgichni o'chirish sharti bilan to'xtab turish"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 7-bo'limining yigirmanchi xatboshisiga asosan: 7.7. «Dvigatelni ishlatmasdan toʻxtab turish joyi». 5.15 belgisi bilan belgilangan toʻxtab turish joyida transport vositalarining dvigatelini ishlatmasdan toʻxtab turishiga ruxsat etilganligini koʻrsatadi."
+        },
+        "ru": {
+            "text": "О чем информирует водителя табличка, установленная под данным знаком?",
+            "options": [
+                "F1. Во время стоянки запрещено выключать двигатель",
+                "F2. Стоянка разрешена только с выключенным двигателем"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Знак дополнительной информации 7.7 \"Стоянка с неработающим двигателем\". Указывает, что на стоянке, обозначенной знаком 5.15, разрешается стоянка транспортных средств только с неработающим двигателем."
+        },
+        "uzk": {
+            "text": "Қуйидаги белги остидаги қўшимча ахборот белгиси ҳайдовчига нима ҳақида хабар беради?",
+            "options": [
+                "F1. Тўхтаб туриш пайтида юргизгични ўчириш тақиқланади",
+                "F2. Юргизгични ўчириш шарти билан тўхтаб туриш"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 7-бўлимининг йигирманчи хатбошисига асосан: 7.7. «Двигателни ишлатмасдан тўхтаб туриш жойи». 5.15 белгиси билан белгиланган тўхтаб туриш жойида транспорт воситаларининг двигателини ишлатмасдан тўхтаб туришига рухсат этилганлигини кўрсатади."
+        }
+    }
 }

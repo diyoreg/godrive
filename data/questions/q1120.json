@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  1120,
-    "image":  "data/images/q1120.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi transport vositasi qoidani buzmoqda?",
-                                    "options":  [
-                                                    "F1. Har ikkalasi buzdi",
-                                                    "F2. Har ikkalasi buzmadi",
-                                                    "F3. Oq buzdi",
-                                                    "F4. Yashil buzdi"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1 ilova: 5.11.1. “Qayrilib olish joyi”. Chapga burilish taqiqlanadi."
-                                },
-                         "ru":  {
-                                    "text":  "Какие транспортного средства нарушает правило?",
-                                    "options":  [
-                                                    "F1. Оба нарушили",
-                                                    "F2. Оба не нарушили",
-                                                    "F3. Белый нарушил",
-                                                    "F4. Зелёный нарушил"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "ПДД приложение № 1: Знак 5.11.1 Место для разворота.\nПоворот налево запрещается"
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси транспорт воситаси қоидани бузмоқда?",
-                                     "options":  [
-                                                     "F1. Ҳар иккаласи бузди",
-                                                     "F2. Ҳар иккаласи бузмади",
-                                                     "F3. Оқ бузди",
-                                                     "F4. Яшил бузди"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1 илова: 5.11.1. “Қайрилиб олиш жойи”. Чапга бурилиш тақиқланади."
-                                 }
-                     }
+{
+    "questionId": 1120,
+    "image": "data/images/q1120.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi transport vositasi qoidani buzmoqda?",
+            "options": [
+                "F1. Har ikkalasi buzdi",
+                "F2. Har ikkalasi buzmadi",
+                "F3. Oq buzdi",
+                "F4. Yashil buzdi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1 ilova: 5.11.1. “Qayrilib olish joyi”. Chapga burilish taqiqlanadi."
+        },
+        "ru": {
+            "text": "Какие транспортного средства нарушает правило?",
+            "options": [
+                "F1. Оба нарушили",
+                "F2. Оба не нарушили",
+                "F3. Белый нарушил",
+                "F4. Зелёный нарушил"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД приложение № 1: Знак 5.11.1 Место для разворота.\nПоворот налево запрещается"
+        },
+        "uzk": {
+            "text": "Қайси транспорт воситаси қоидани бузмоқда?",
+            "options": [
+                "F1. Ҳар иккаласи бузди",
+                "F2. Ҳар иккаласи бузмади",
+                "F3. Оқ бузди",
+                "F4. Яшил бузди"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1 илова: 5.11.1. “Қайрилиб олиш жойи”. Чапга бурилиш тақиқланади."
+        }
+    }
 }

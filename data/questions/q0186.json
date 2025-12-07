@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  186,
-    "image":  "data/images/q0186.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ishchi tormozi to\u0027satdan ishlamay qolganda avtomobilni qanday to\u0027xtatish kerak?",
-                                    "options":  [
-                                                    "F1. Eng past uzatmaga o\u0027tish, to\u0027xtab turish tormozi bilan tormozlash. Zarur bo\u0027lganda biron-bir toʻsiqdan foydalanish",
-                                                    "F2. Ulagichni ajratish va to\u0027xtab turish tormozi bilan keskin tormozlash"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Ishlayotgan tormozning birdan ishdan chiqish holati alomatlari ko\u0027p: avtomobil tezligi, toʻxtab turish tormozining ishlash qobiliyati, harakat oqimining zichligi, yoʻl kengligi, piyodalar, koʻkalamzorlashtirilgan joylar, qurilayotgan imoratlarning zichligi qarama-qarshi yo\u0027nalishda kelayotgan transport vositalarining zichligi va boshqalar. Shuningdek ko\u0027pgina toʻxtamlarga kelish mumkin. Tormoz ishlamay qolganda nima qilish kerak? degan savolga barcha holatlarga to\u0027g\u0027ri keladigan javob berib bo\u0027lmaydi. Shunday qilib, xavfli vaziyatda eng asosiy narsa bu: o\u0027ziga ishonish va osoyishtalikni saqlash; kelib chiqqan holatni tezda baholash; inson hayotiga xavf-xatar solmaydigan va ziyon yetkazmaydigan qaror qabul qilish va qabul qilingan qarorni amalga oshirayotgan vaqtda vaziyatning oʻzgarishi natijasida taktikani o\u0027zgartirishga tayyor turish."
-                                },
-                         "ru":  {
-                                    "text":  "Как остановить автомобиль в случае внезапного отказа рабочего тормоза?",
-                                    "options":  [
-                                                    "F1. Перейти на низшую передачу, затормозить стояночным тормозом. При необходимости воспользоваться каким-либо препятствием",
-                                                    "F2. Выключить сцепление и резко тормозить стояночным тормозом"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "В случае внезапного отказа рабочего тормоза необходимо перейти на низшую передачу, затормозить стояночным тормозом. При необходимости воспользоваться каким-либо препятствием. Не рекомендуется выключать сцепление, т.к. при включеном сцеплении двигатель \"помогает\" замедлить движение (\"торможение двигателем\")."
-                                },
-                         "uzk":  {
-                                     "text":  "Ишчи тормози тўсатдан ишламай қолганда автомобилни қандай тўхтатиш керак?",
-                                     "options":  [
-                                                     "F1. Энг паст узатмага ўтиш, тўхтаб туриш тормози билан тормозлаш. Зарур бўлганда бирон-бир тўсикдан фойдаланиш",
-                                                     "F2. Улагични ажратиш ва тўхтаб туриш тормози билан кескин тормозлаш"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "Ишлаётган тормознинг бирдан ишдан чиқиш ҳолати аломатлари кўп: автомобил тезлиги, тўхтаб туриш тормозининг ишлаш қобилияти, ҳаракат оқимининг зичлиги, йўл кенглиги, пиёдалар, кўкаламзорлаштирилган жойлар, қурилаётган иморатларнинг зичлиги қарама-қарши йўналишда келаётган транспорт воситаларининг зичлиги ва бошқалар. Шунингдек кўпгина тўхтамларга келиш мумкин. Тормоз ишламай қолганда нима қилиш керак деган саволга барча ҳолатларга тўғри келадиган жавоб бериб бўлмайди. Шундай қилиб, хавфли вазиятда энг асосий нарса бу: ўзига ишониш ва осойишталикни сақлаш; келиб чиққан ҳолатни тезда баҳолаш; инсон ҳаётига хавф-хатар солмайдиган ва зиён етказмайдиган қарор қабул қилиш ва қабул қилинган қарорни амалга ошираётган вақтда вазиятнинг ўзгариши натижасида тактикани ўзгартиришга тайёр туриш."
-                                 }
-                     }
+{
+    "questionId": 186,
+    "image": "data/images/q0186.webp",
+    "translations": {
+        "uz": {
+            "text": "Ishchi tormozi to'satdan ishlamay qolganda avtomobilni qanday to'xtatish kerak?",
+            "options": [
+                "F1. Eng past uzatmaga o'tish, to'xtab turish tormozi bilan tormozlash. Zarur bo'lganda biron-bir toʻsiqdan foydalanish",
+                "F2. Ulagichni ajratish va to'xtab turish tormozi bilan keskin tormozlash"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Ishlayotgan tormozning birdan ishdan chiqish holati alomatlari ko'p: avtomobil tezligi, toʻxtab turish tormozining ishlash qobiliyati, harakat oqimining zichligi, yoʻl kengligi, piyodalar, koʻkalamzorlashtirilgan joylar, qurilayotgan imoratlarning zichligi qarama-qarshi yo'nalishda kelayotgan transport vositalarining zichligi va boshqalar. Shuningdek ko'pgina toʻxtamlarga kelish mumkin. Tormoz ishlamay qolganda nima qilish kerak? degan savolga barcha holatlarga to'g'ri keladigan javob berib bo'lmaydi. Shunday qilib, xavfli vaziyatda eng asosiy narsa bu: o'ziga ishonish va osoyishtalikni saqlash; kelib chiqqan holatni tezda baholash; inson hayotiga xavf-xatar solmaydigan va ziyon yetkazmaydigan qaror qabul qilish va qabul qilingan qarorni amalga oshirayotgan vaqtda vaziyatning oʻzgarishi natijasida taktikani o'zgartirishga tayyor turish."
+        },
+        "ru": {
+            "text": "Как остановить автомобиль в случае внезапного отказа рабочего тормоза?",
+            "options": [
+                "F1. Перейти на низшую передачу, затормозить стояночным тормозом. При необходимости воспользоваться каким-либо препятствием",
+                "F2. Выключить сцепление и резко тормозить стояночным тормозом"
+            ],
+            "correctAnswer": 1,
+            "explanation": "В случае внезапного отказа рабочего тормоза необходимо перейти на низшую передачу, затормозить стояночным тормозом. При необходимости воспользоваться каким-либо препятствием. Не рекомендуется выключать сцепление, т.к. при включеном сцеплении двигатель \"помогает\" замедлить движение (\"торможение двигателем\")."
+        },
+        "uzk": {
+            "text": "Ишчи тормози тўсатдан ишламай қолганда автомобилни қандай тўхтатиш керак?",
+            "options": [
+                "F1. Энг паст узатмага ўтиш, тўхтаб туриш тормози билан тормозлаш. Зарур бўлганда бирон-бир тўсикдан фойдаланиш",
+                "F2. Улагични ажратиш ва тўхтаб туриш тормози билан кескин тормозлаш"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Ишлаётган тормознинг бирдан ишдан чиқиш ҳолати аломатлари кўп: автомобил тезлиги, тўхтаб туриш тормозининг ишлаш қобилияти, ҳаракат оқимининг зичлиги, йўл кенглиги, пиёдалар, кўкаламзорлаштирилган жойлар, қурилаётган иморатларнинг зичлиги қарама-қарши йўналишда келаётган транспорт воситаларининг зичлиги ва бошқалар. Шунингдек кўпгина тўхтамларга келиш мумкин. Тормоз ишламай қолганда нима қилиш керак деган саволга барча ҳолатларга тўғри келадиган жавоб бериб бўлмайди. Шундай қилиб, хавфли вазиятда энг асосий нарса бу: ўзига ишониш ва осойишталикни сақлаш; келиб чиққан ҳолатни тезда баҳолаш; инсон ҳаётига хавф-хатар солмайдиган ва зиён етказмайдиган қарор қабул қилиш ва қабул қилинган қарорни амалга ошираётган вақтда вазиятнинг ўзгариши натижасида тактикани ўзгартиришга тайёр туриш."
+        }
+    }
 }

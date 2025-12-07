@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  583,
-    "image":  "data/images/q0583.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Sariq uzuq-uzuq yotiq chiziq qaysi yo\u0027l belgisi bilan qo\u0027llanilishi mumkin?",
-                                    "options":  [
-                                                    "F1. «To\u0027xtash taqiqlangan»",
-                                                    "F2. «To\u0027xtab turish taqiqlangan»",
-                                                    "F3. «Oyning toq sonli kunlarida to\u0027xtab turish taqiqlangan»"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 2-ilovasi 1-boʻlimining oʻn ikkinchi xatboshisiga asosan: 1.10 — toʻxtab turish taqiqlangan joyni bildiradi; yakka holda yoki 3.28 yo\u0027l belgisi bilan qo\u0027llaniladi va yo\u0027lning qatnov qismi chetiga yoki yo\u0027l chetidagi toʻsiq ustidan chiziladi."
-                                },
-                         "ru":  {
-                                    "text":  "С каким дорожным знаком может быть применена разметка в виде желтой прерывистой линии?",
-                                    "options":  [
-                                                    "F1. «Остановка запрещена»",
-                                                    "F2. «Стоянка запрещена»",
-                                                    "F3. «Стоянка по нечетным числам запрещена»"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Горизонтальная разметка 1.10 - обозначает места, где запрещена стоянка. Применяется самостоятельно или в сочетании со знаком 3.28 \"Стоянка запрещена\" и наносится у края проезжей части или по верху бордюра."
-                                },
-                         "uzk":  {
-                                     "text":  "Сариқ узуқ-узуқ ётиқ чизиқ қайси йўл белгиси билан қўлланилиши мумкин?",
-                                     "options":  [
-                                                     "F1. «Тўхташ тақиқланган»",
-                                                     "F2. «Тўхтаб туриш тақиқланган»",
-                                                     "F3. «Ойнинг тоқ сонли кунларида тўхтаб туриш тақиқланган»"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг ўн иккинчи хатбошисига асосан: 1.10 — тўхтаб туриш тақиқланган жойни билдиради; якка ҳолда ёки 3.28 йўл белгиси билан қўлланилади ва йўлнинг қатнов қисми четига ёки йўл четидаги тўсиқ устидан чизилади."
-                                 }
-                     }
+{
+    "questionId": 583,
+    "image": "data/images/q0583.webp",
+    "translations": {
+        "uz": {
+            "text": "Sariq uzuq-uzuq yotiq chiziq qaysi yo'l belgisi bilan qo'llanilishi mumkin?",
+            "options": [
+                "F1. «To'xtash taqiqlangan»",
+                "F2. «To'xtab turish taqiqlangan»",
+                "F3. «Oyning toq sonli kunlarida to'xtab turish taqiqlangan»"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2-ilovasi 1-boʻlimining oʻn ikkinchi xatboshisiga asosan: 1.10 — toʻxtab turish taqiqlangan joyni bildiradi; yakka holda yoki 3.28 yo'l belgisi bilan qo'llaniladi va yo'lning qatnov qismi chetiga yoki yo'l chetidagi toʻsiq ustidan chiziladi."
+        },
+        "ru": {
+            "text": "С каким дорожным знаком может быть применена разметка в виде желтой прерывистой линии?",
+            "options": [
+                "F1. «Остановка запрещена»",
+                "F2. «Стоянка запрещена»",
+                "F3. «Стоянка по нечетным числам запрещена»"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Горизонтальная разметка 1.10 - обозначает места, где запрещена стоянка. Применяется самостоятельно или в сочетании со знаком 3.28 \"Стоянка запрещена\" и наносится у края проезжей части или по верху бордюра."
+        },
+        "uzk": {
+            "text": "Сариқ узуқ-узуқ ётиқ чизиқ қайси йўл белгиси билан қўлланилиши мумкин?",
+            "options": [
+                "F1. «Тўхташ тақиқланган»",
+                "F2. «Тўхтаб туриш тақиқланган»",
+                "F3. «Ойнинг тоқ сонли кунларида тўхтаб туриш тақиқланган»"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2-иловаси 1-бўлимининг ўн иккинчи хатбошисига асосан: 1.10 — тўхтаб туриш тақиқланган жойни билдиради; якка ҳолда ёки 3.28 йўл белгиси билан қўлланилади ва йўлнинг қатнов қисми четига ёки йўл четидаги тўсиқ устидан чизилади."
+        }
+    }
 }

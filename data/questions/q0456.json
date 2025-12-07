@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  456,
-    "image":  "data/images/q0456.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ko\u0027k avtomobilga qaysi yo\u0027nalishda harakatlanishga ruxsat etiladi?",
-                                    "options":  [
-                                                    "F1. Faqat orqa yo\u0027nalishda",
-                                                    "F2. To\u0027g\u0027riga, chap va orqa yo\u0027nalishda",
-                                                    "F3. Chap va orqa yo\u0027nalishda",
-                                                    "F4. Barcha yo\u0027nalishlarda"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 10-bobi 66-bandiga asosan: Harakat ikki tomonlama bo\u0027lgan va chiziqlar bilan belgilangan (1.9 yo\u0027l chizig\u0027i bilan belgilanganidan tashqari) uchta tasmali yo\u0027llarda, ikki yo\u0027nalishda harakatlanish uchun mo\u0027ljallangan o\u0027rta qatorga faqat quvib o\u0027tish, aylanib o\u0027tish, chapga burilish va qayrilib olish uchungina chiqishga ruxsat etiladi. Qarama-qarshi yo\u0027nalishda harakatlanish uchun mo\u0027ljallangan chetki chap qatorni egallash taqiqlanadi."
-                                },
-                         "ru":  {
-                                    "text":  "В каком направлении разрешается движение синему автомобилю?",
-                                    "options":  [
-                                                    "F1. Только в обратном направлении",
-                                                    "F2. Прямо, налево и в обратном направлении",
-                                                    "F3. Налево и в обратном направлении",
-                                                    "F4. Во всех направлениях"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Пункту 66 главы 10 ПДД, гласит: На дорогах с двусторонним движением, имеющих три полосы (кроме обозначенных разметкой 1.9), на среднюю полосу разрешается выезжать только для обгона, поворота налево, разворота и объезда. Выезжать на крайнюю левую полосу, предназначенную для встречного движения, запрещается. Соответственно, синему автомобилю разрешается движение только налево и в обратном направлении."
-                                },
-                         "uzk":  {
-                                     "text":  "Кўк автомобилга қайси йўналишда ҳаракатланишга рухсат этилади?",
-                                     "options":  [
-                                                     "F1. Фақат орқа йўналишда",
-                                                     "F2. Тўғрига, чап ва орқа йўналишда",
-                                                     "F3. Чап ва орқа йўналишда",
-                                                     "F4. Барча йўналишларда"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 10-боби 66-бандига асосан: Ҳаракат икки томонлама бўлган ва чизиқлар билан белгиланган (1.9 йўл чизиғи билан белгиланганидан ташқари) учта тасмали йўлларда, икки йўналишда ҳаракатланиш учун мўлжалланган ўрта қаторга фақат қувиб ўтиш, айланиб ўтиш, чапга бурилиш ва қайрилиб олиш учунгина чиқишга рухсат етилади. Қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган четки чап қаторни егаллаш тақиқланади."
-                                 }
-                     }
+{
+    "questionId": 456,
+    "image": "data/images/q0456.webp",
+    "translations": {
+        "uz": {
+            "text": "Ko'k avtomobilga qaysi yo'nalishda harakatlanishga ruxsat etiladi?",
+            "options": [
+                "F1. Faqat orqa yo'nalishda",
+                "F2. To'g'riga, chap va orqa yo'nalishda",
+                "F3. Chap va orqa yo'nalishda",
+                "F4. Barcha yo'nalishlarda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 10-bobi 66-bandiga asosan: Harakat ikki tomonlama bo'lgan va chiziqlar bilan belgilangan (1.9 yo'l chizig'i bilan belgilanganidan tashqari) uchta tasmali yo'llarda, ikki yo'nalishda harakatlanish uchun mo'ljallangan o'rta qatorga faqat quvib o'tish, aylanib o'tish, chapga burilish va qayrilib olish uchungina chiqishga ruxsat etiladi. Qarama-qarshi yo'nalishda harakatlanish uchun mo'ljallangan chetki chap qatorni egallash taqiqlanadi."
+        },
+        "ru": {
+            "text": "В каком направлении разрешается движение синему автомобилю?",
+            "options": [
+                "F1. Только в обратном направлении",
+                "F2. Прямо, налево и в обратном направлении",
+                "F3. Налево и в обратном направлении",
+                "F4. Во всех направлениях"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 66 главы 10 ПДД, гласит: На дорогах с двусторонним движением, имеющих три полосы (кроме обозначенных разметкой 1.9), на среднюю полосу разрешается выезжать только для обгона, поворота налево, разворота и объезда. Выезжать на крайнюю левую полосу, предназначенную для встречного движения, запрещается. Соответственно, синему автомобилю разрешается движение только налево и в обратном направлении."
+        },
+        "uzk": {
+            "text": "Кўк автомобилга қайси йўналишда ҳаракатланишга рухсат этилади?",
+            "options": [
+                "F1. Фақат орқа йўналишда",
+                "F2. Тўғрига, чап ва орқа йўналишда",
+                "F3. Чап ва орқа йўналишда",
+                "F4. Барча йўналишларда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 10-боби 66-бандига асосан: Ҳаракат икки томонлама бўлган ва чизиқлар билан белгиланган (1.9 йўл чизиғи билан белгиланганидан ташқари) учта тасмали йўлларда, икки йўналишда ҳаракатланиш учун мўлжалланган ўрта қаторга фақат қувиб ўтиш, айланиб ўтиш, чапга бурилиш ва қайрилиб олиш учунгина чиқишга рухсат етилади. Қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган четки чап қаторни егаллаш тақиқланади."
+        }
+    }
 }

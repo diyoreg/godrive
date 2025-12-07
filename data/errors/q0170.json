@@ -1,0 +1,42 @@
+{
+    "questionId": 170,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "M1 toifadagi transport vositalari shinalari protektori naqshining qoldiq balandligi necha mm.dan kam bo'lmasligi kerak?",
+            "options": [
+                "F1. 0,8 mm",
+                "F2. 1,0 mm",
+                "F3. 1,6 mm",
+                "F4. 2,0 mm",
+                "F5. 2,5 mm"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 3-ilovasi 5-Bo'limi 5.1-bandiga asosan: Shina protektori naqshlarining qoldiq balandligi М1, N1, О1, О2 toifadagi avtotransport vositalari uchun — 1,6 mm dan, kam bo'lsa taqiqlanadi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 0,8 мм",
+                "F2. 1,0 мм",
+                "F3. 1,6 мм",
+                "F4. 2,0 мм",
+                "F5. 2,5 мм"
+            ],
+            "correctAnswer": 3,
+            "explanation": "В \"Условиях, при которых запрещается эксплуатация транспортных средств\" (приложение №3 к ПДД) сказано, что эксплуатация транспортных средств запрещена, если шины легковых автомобилей имеют остаточную глубину рисунка протектора менее 1,6 мм, грузовых автомобилей - 1,0 мм, автобусов - 2,0 мм, мотоциклов и мопедов - 0,8 мм (пункт 5.1 приложения №3 к ПДД)."
+        },
+        "uzk": {
+            "text": "М1 тоифадаги транспорт воситалари шиналари протектори нақшининг колдик баландлиги неча мм.дан кам бўлмаслиги керак?",
+            "options": [
+                "F1. 0,8 мм",
+                "F2. 1,0 мм",
+                "F3. 1,6 мм",
+                "F4. 2,0 мм",
+                "F5. 2,5 мм"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 3-иловаси 5-бўлими 5.1-бандига асосан: Шина протектори накшларининг қолдиқ баландлиги М1, N1, О1, О2 тоифадаги автотранспорт воситалари учун — 1,6 мм дан, кам бўлса тақиқланади."
+        }
+    }
+}

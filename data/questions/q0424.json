@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  424,
-    "image":  "data/images/q0424.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi transport vositasi haydovchisi yo\u0027l berishi kerak?",
-                                    "options":  [
-                                                    "F1. Avtomobil haydovchisi",
-                                                    "F2. Mototsikl haydovchisi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng ahamiyatga ega boʻlmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yoʻldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat\u0027i nazar, yoʻl berishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Водитель какого транспортного средства должен уступить дорогу?",
-                                    "options":  [
-                                                    "F1. Водитель автомобиля",
-                                                    "F2. Водитель мотоцикла"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Пункта 104 главы 16 ПДД гласит: На перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси транспорт воситаси ҳайдовчиси йўл бериши керак?",
-                                     "options":  [
-                                                     "F1. Автомобиль ҳайдовчиси",
-                                                     "F2. Мотоцикл ҳайдовчиси"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 16-боби 104-бандининг биринчи хатбошисига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак."
-                                 }
-                     }
+{
+    "questionId": 424,
+    "image": "data/images/q0424.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi transport vositasi haydovchisi yo'l berishi kerak?",
+            "options": [
+                "F1. Avtomobil haydovchisi",
+                "F2. Mototsikl haydovchisi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng ahamiyatga ega boʻlmagan yo'llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yoʻldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo'nalishidan qat'i nazar, yoʻl berishi kerak."
+        },
+        "ru": {
+            "text": "Водитель какого транспортного средства должен уступить дорогу?",
+            "options": [
+                "F1. Водитель автомобиля",
+                "F2. Водитель мотоцикла"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 104 главы 16 ПДД гласит: На перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения."
+        },
+        "uzk": {
+            "text": "Қайси транспорт воситаси ҳайдовчиси йўл бериши керак?",
+            "options": [
+                "F1. Автомобиль ҳайдовчиси",
+                "F2. Мотоцикл ҳайдовчиси"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 16-боби 104-бандининг биринчи хатбошисига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак."
+        }
+    }
 }

@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  693,
-    "image":  "data/images/q0693.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Belgi ostidagi qo\u0027shimcha axborot belgisi nimani anglatadi?",
-                                    "options":  [
-                                                    "F1. Yo\u0027lning tor qismi uzunligini",
-                                                    "F2. Belgidan yo\u0027lning tor qismigacha bo\u0027lgan masofani",
-                                                    "F3. Tor qismini aylanib o\u0027tish joyigacha masofani"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 7-bo\u0027limining ikkinchi xatboshisiga asosan: 7.1.1. «Ob\u0027ektgacha bo\u0027lgan masofa». Belgidan yo\u0027lning xavfli joyi, yoʻl harakatiga tegishli cheklovlar kiritiladigan joyi yoki harakat yo\u0027nalishi boʻyicha oldindagi muayyan joygacha boʻlgan masofani ko\u0027rsatadi."
-                                },
-                         "ru":  {
-                                    "text":  "Что указывает табличка под знаком?",
-                                    "options":  [
-                                                    "F1. Протяженность узкого участка дороги",
-                                                    "F2. Расстояние от знака до узкого участка дороги",
-                                                    "F3. Расстояние до объезда узкого участка дороги"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Знак дополнительной информации 7.1.1 \"Расстояние до объекта\". Указывает расстояние от знака до начала опасного участка, места введения соответствующего ограничения или определенного места (объекта), находящегося впереди по ходу движения.\nВ данном случае дополнительный знак 7.1.1 указывает на расстояние от знака до узкого участка дороги."
-                                },
-                         "uzk":  {
-                                     "text":  "Белги остидаги қўшимча ахборот белгиси нимани англатади?",
-                                     "options":  [
-                                                     "F1. Йўлнинг тор қисми узунлигини",
-                                                     "F2. Белгидан йўлнинг тор қисмигача бўлган масофани",
-                                                     "F3. Тор қисмини айланиб ўтиш жойигача масофани"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 7-бўлимининг иккинчи хатбошисига асосан: 7.1.1. «Объектгача бўлган масофа». Белгидан йўлнинг хавфли жойи, йўл ҳаракатига тегишли чекловлар киритиладиган жойи ёки ҳаракат йўналиши бўйича олдиндаги муайян жойгача бўлган масофани кўрсатади."
-                                 }
-                     }
+{
+    "questionId": 693,
+    "image": "data/images/q0693.webp",
+    "translations": {
+        "uz": {
+            "text": "Belgi ostidagi qo'shimcha axborot belgisi nimani anglatadi?",
+            "options": [
+                "F1. Yo'lning tor qismi uzunligini",
+                "F2. Belgidan yo'lning tor qismigacha bo'lgan masofani",
+                "F3. Tor qismini aylanib o'tish joyigacha masofani"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 7-bo'limining ikkinchi xatboshisiga asosan: 7.1.1. «Ob'ektgacha bo'lgan masofa». Belgidan yo'lning xavfli joyi, yoʻl harakatiga tegishli cheklovlar kiritiladigan joyi yoki harakat yo'nalishi boʻyicha oldindagi muayyan joygacha boʻlgan masofani ko'rsatadi."
+        },
+        "ru": {
+            "text": "Что указывает табличка под знаком?",
+            "options": [
+                "F1. Протяженность узкого участка дороги",
+                "F2. Расстояние от знака до узкого участка дороги",
+                "F3. Расстояние до объезда узкого участка дороги"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Знак дополнительной информации 7.1.1 \"Расстояние до объекта\". Указывает расстояние от знака до начала опасного участка, места введения соответствующего ограничения или определенного места (объекта), находящегося впереди по ходу движения.\nВ данном случае дополнительный знак 7.1.1 указывает на расстояние от знака до узкого участка дороги."
+        },
+        "uzk": {
+            "text": "Белги остидаги қўшимча ахборот белгиси нимани англатади?",
+            "options": [
+                "F1. Йўлнинг тор қисми узунлигини",
+                "F2. Белгидан йўлнинг тор қисмигача бўлган масофани",
+                "F3. Тор қисмини айланиб ўтиш жойигача масофани"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 7-бўлимининг иккинчи хатбошисига асосан: 7.1.1. «Объектгача бўлган масофа». Белгидан йўлнинг хавфли жойи, йўл ҳаракатига тегишли чекловлар киритиладиган жойи ёки ҳаракат йўналиши бўйича олдиндаги муайян жойгача бўлган масофани кўрсатади."
+        }
+    }
 }

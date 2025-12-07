@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  756,
-    "image":  "data/images/q0756.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi qo\u0027shimcha axborot belgilari birga qo\u0027llanilganda belgilarning ta’sir oralig\u0027ini ko\u0027rsatadi?",
-                                    "options":  [
-                                                    "F1. «Б» va «B»",
-                                                    "F2. Faqat «Б»",
-                                                    "F3. Faqat «A»"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1 ilova: 7.2.1. «Ta\u0027sir oralig\u0027i». Ogohlantiruvchi belgilar bilan belgilangan xavfli joyning uzunligini yoki taqiqlovchi va axborot-ko\u0027rsatkich belgilarining ta\u0027sir oraligʻini ko\u0027rsatadi. 7.2.2 — 7.2.6. «Ta\u0027sir oralig\u0027i»."
-                                },
-                         "ru":  {
-                                    "text":  "Какие знаки дополнительной информации указывают протяженность зоны действия знаков, с которыми они применяются?",
-                                    "options":  [
-                                                    "F1. «Б» и «В»",
-                                                    "F2. Только «Б»",
-                                                    "F3. Только «А»"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Приложение №1 к ПДД пункт 7.2.1. «Зона действия». Указывает протяженность опасного участка дороги, обозначенного предупреждающими знаками, или зону действия запрещающих и информационно-указательных знаков. 7.2.2-7.2.6 «Зона действия»."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси қўшимча ахборот белгилари бирга қўлланилганда белгиларнинг таъсир оралиғини кўрсатади?",
-                                     "options":  [
-                                                     "F1. «Б» ва «В»",
-                                                     "F2. Фақат «Б»",
-                                                     "F3. Фақат «A»"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1 илова: 7.2.1. «Таъсир оралиги». Огохлантирувчи белгилар билан белгиланган хавфли жойнинг узунлигини ёки такикловчи ва ахборот-курсаткич белгиларининг таъсир оралиғини кўрсатади. 7.2.2 — 7.2.6. (Таъсир оралиғи."
-                                 }
-                     }
+{
+    "questionId": 756,
+    "image": "data/images/q0756.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi qo'shimcha axborot belgilari birga qo'llanilganda belgilarning ta’sir oralig'ini ko'rsatadi?",
+            "options": [
+                "F1. «Б» va «B»",
+                "F2. Faqat «Б»",
+                "F3. Faqat «A»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1 ilova: 7.2.1. «Ta'sir oralig'i». Ogohlantiruvchi belgilar bilan belgilangan xavfli joyning uzunligini yoki taqiqlovchi va axborot-ko'rsatkich belgilarining ta'sir oraligʻini ko'rsatadi. 7.2.2 — 7.2.6. «Ta'sir oralig'i»."
+        },
+        "ru": {
+            "text": "Какие знаки дополнительной информации указывают протяженность зоны действия знаков, с которыми они применяются?",
+            "options": [
+                "F1. «Б» и «В»",
+                "F2. Только «Б»",
+                "F3. Только «А»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Приложение №1 к ПДД пункт 7.2.1. «Зона действия». Указывает протяженность опасного участка дороги, обозначенного предупреждающими знаками, или зону действия запрещающих и информационно-указательных знаков. 7.2.2-7.2.6 «Зона действия»."
+        },
+        "uzk": {
+            "text": "Қайси қўшимча ахборот белгилари бирга қўлланилганда белгиларнинг таъсир оралиғини кўрсатади?",
+            "options": [
+                "F1. «Б» ва «В»",
+                "F2. Фақат «Б»",
+                "F3. Фақат «A»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1 илова: 7.2.1. «Таъсир оралиги». Огохлантирувчи белгилар билан белгиланган хавфли жойнинг узунлигини ёки такикловчи ва ахборот-курсаткич белгиларининг таъсир оралиғини кўрсатади. 7.2.2 — 7.2.6. (Таъсир оралиғи."
+        }
+    }
 }

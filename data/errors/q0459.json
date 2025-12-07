@@ -1,0 +1,36 @@
+{
+    "questionId": 459,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Tezlikni o'zgartirmay yo'l qatnov qismining chap yoqasidan harakatni davom ettirishingiz kerak",
+                "F2. Harakat tezligini kamaytirishingiz kerak",
+                "F3. Burilishdan tezroq o'tish uchun tezlikni oshirishingiz kerak"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Burilishda o'tayotgan vaqtda haydovchi shuni inobatga olishi lozimki, avtomobilning harakat tezligi kattalashganida markazdan qochirma kuch tezlik kvadratiga mos ravishda ortadi va transport vositasini ag'darilishiga olib kelishi mumkin."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Продолжать движение, не изменяя скорости и придерживаясь левого края проезжей части дороги",
+                "F2. Снизить скорость движения",
+                "F3. Увеличить скорость с тем, чтобы быстрее пройти поворот"
+            ],
+            "correctAnswer": 2,
+            "explanation": "При прохождении поворота водителю следует учитывать, что при увеличении скорости движения автомобиля центробежная сила увеличивается пропорционально квадрату скорости, что может привести к опрокидыванию транспортного средства."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Тезликни ўзгартирмай йўл қатнов қисмининг чап ёкасидан ҳаракатни давом эттиришингиз керак",
+                "F2. Ҳаракат тезлигини камайтиришингиз керак",
+                "F3. Бурилишдан тезроқ ўтиш учун тезликни оширишингиз керак"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Бурилишда ўтаётган вақтда ҳайдовчи шуни инобатга олиши лозимки, автомобилнинг ҳаракат тезлиги катталашганида марказдан қочирма куч тезлик квадратига мос равишда ортади ва транспорт воситасини ағдарилишига олиб келиши мумкин."
+        }
+    }
+}

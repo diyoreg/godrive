@@ -1,39 +1,42 @@
-﻿{
-    "questionId":  93,
-    "image":  "data/images/q0093.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi teng ahamiyatli yo\u0027llar kesishish chorrahasiga yaqinlashib kelayotganlik haqida ogohlantiradi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  5,
-                                    "explanation":  "YHQ 1-ilovasining 1-Bo\u0027limining oʻn birinchi xatboshisiga asosan: 1.6. «Teng ahamiyatli yo\u0027llar kesishuvi»."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак предупреждает о приближении к перекрестку равнозначных дорог?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  5,
-                                    "explanation":  "Предупреждающий знак 1.6 \"Пересечение равнозначных дорог\"."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги тенг аҳамиятли йўллар кесишиш чорраҳасига яқинлашиб келаётганлик ҳақида огоҳлантиради?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  5,
-                                     "explanation":  "ЙҲҚ 1-иловасининг 1-бўлимининг ўн биринчи хатбошисига асосан: 1.6. (Тенг аҳамиятли йўллар кесишуви»."
-                                 }
-                     }
+{
+    "questionId": 93,
+    "image": "data/images/q0093.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi teng ahamiyatli yo'llar kesishish chorrahasiga yaqinlashib kelayotganlik haqida ogohlantiradi?",
+            "options": [
+                "F1. 1",
+                "F2.2",
+                "F3. 3",
+                "F4. 4",
+                "F4. 5"
+            ],
+            "correctAnswer": 5,
+            "explanation": "YHQ 1-ilovasining 1-Bo'limining oʻn birinchi xatboshisiga asosan: 1.6. «Teng ahamiyatli yo'llar kesishuvi»."
+        },
+        "ru": {
+            "text": "Какой знак предупреждает о приближении к перекрестку равнозначных дорог?",
+            "options": [
+                "F1. 1",
+                "F2.2",
+                "F3. 3",
+                "F4. 4",
+                "F4. 5"
+            ],
+            "correctAnswer": 5,
+            "explanation": "Предупреждающий знак 1.6 \"Пересечение равнозначных дорог\"."
+        },
+        "uzk": {
+            "text": "Қайси белги тенг аҳамиятли йўллар кесишиш чорраҳасига яқинлашиб келаётганлик ҳақида огоҳлантиради?",
+            "options": [
+                "F1. 1",
+                "F2.2",
+                "F3. 3",
+                "F4. 4",
+                "F4. 5"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ЙҲҚ 1-иловасининг 1-бўлимининг ўн биринчи хатбошисига асосан: 1.6. (Тенг аҳамиятли йўллар кесишуви»."
+        }
+    }
 }

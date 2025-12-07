@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  472,
-    "image":  "data/images/q0472.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi to\u0027xtamasdan o\u0027tishni taqiqlaydi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "YHQ 1-ilovasi 3-boʻlimining oʻn to\u0027qqizinchi xatboshisiga asosan: 3.17.1. «Bojxona». Bojxona (tekshiruv maskani) oldida to\u0027xtamasdan o\u0027tish taqiqlanishini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак запрещает проезд без остановки?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Запрещающий знак 3.17.1 \"Таможня\". Запрещается проезд без остановки у таможенного (контрольного) пункта."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги тўхтамасдан ўтишни тақиқлайди?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўн тўққизинчи хатбошисига асосан: 3.17.1. «Божхона». Божхона (текширув маскани) олдида тўхтамасдан ўтиш тақиқланишини билдиради."
-                                 }
-                     }
+{
+    "questionId": 472,
+    "image": "data/images/q0472.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi to'xtamasdan o'tishni taqiqlaydi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 1-ilovasi 3-boʻlimining oʻn to'qqizinchi xatboshisiga asosan: 3.17.1. «Bojxona». Bojxona (tekshiruv maskani) oldida to'xtamasdan o'tish taqiqlanishini bildiradi."
+        },
+        "ru": {
+            "text": "Какой знак запрещает проезд без остановки?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Запрещающий знак 3.17.1 \"Таможня\". Запрещается проезд без остановки у таможенного (контрольного) пункта."
+        },
+        "uzk": {
+            "text": "Қайси белги тўхтамасдан ўтишни тақиқлайди?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг ўн тўққизинчи хатбошисига асосан: 3.17.1. «Божхона». Божхона (текширув маскани) олдида тўхтамасдан ўтиш тақиқланишини билдиради."
+        }
+    }
 }

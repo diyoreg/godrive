@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  1122,
-    "image":  "data/images/q1122.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi avtomobilga qayrilib olish taqiqlanadi?",
-                                    "options":  [
-                                                    "F1. Oq avtomobilga",
-                                                    "F2. Yashil avtomobilga",
-                                                    "F3. Ikkala avtomobilga"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 9-bobi 59-bandiga asosan: Chorrahadan tashqarida qayrilib olishda, agar qatnov qismining kengligi manyovrni chetki chap holatdan bajarish uchun YETARLI BO\u0027LMASA, uni qatnov qismining o\u0027ng chetidan (o\u0027ng yo\u0027l yoqasidan) amalga oshirishga yo\u0027l qo\u0027yiladi. Bu holda haydovchi shu yo\u0027nalishdagi va qarama-qarshi yo\u0027nalishdagi transport vositalariga yo\u0027l berishi shart.\n\nYHQ 2 ilova: 1.11 — faqat bir tomondan qayta tizilishga ruxsat etilgan yo\u0027l qismlarida, bir yo\u0027nalishdagi yoki qarama-qarshi kelayotgan transport oqimlarini ajratadi; qayrilib olish, to\u0027xtash maydonchalari va shunga o\u0027xshashlarga kirish-chiqish joylarida harakatlanish faqat bir yo\u0027nalishda ruxsat etilganligini ko\u0027rsatadi;"
-                                },
-                         "ru":  {
-                                    "text":  "Какому автомобилю разворот запрещён?",
-                                    "options":  [
-                                                    "F1. Белому автомобилю",
-                                                    "F2. Зелёному автомобилю",
-                                                    "F3. Обоим автомобилям"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Пункта 59 главы 9 ПДД, гласит: Если при развороте вне перекрестка ширина проезжей части НЕДОСТАТОЧНА ДЛЯ ВЫПОЛНЕНИЕ МАНЕВРА из крайнего левого положения, его допускается производить от правого края проезжей части (с правой обочины). При этом водитель должен уступить дорогу попутным и встречным транспортным средствам.\n\nПДД приложение № 2: 1.11 nразделяет транспортные потоки противоположных или попутных направлений..."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси автомобилга қайрилиб олиш тақиқланади?",
-                                     "options":  [
-                                                     "F1. Оқ автомобилга",
-                                                     "F2. Яшил автомобилга",
-                                                     "F3. Иккала автомобилга"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 9-боби 59-бандига асосан: Чорраҳадан ташқарида қайрилиб олишда, агар қатнов қисмининг кенглиги манёврни четки чап ҳолатдан бажариш учун ЕТАРЛИ БЎЛМАСА, уни қатнов қисмининг ўнг четидан (ўнг йўл ёқасидан) амалга оширишга йўл қўйилади. Бу ҳолда ҳайдовчи шу йўналишдаги ва қарама-қарши йўналишдаги транспорт воситаларига йўл бериши шарт.\n\nЙҲҚ 2 илова: 1.11 — фақат бир томондан қайта тизилишга рухсат этилган йўл қисмларида, бир йўналишдаги ёки қарама-қарши келаётган транспорт оқимларини ажратади; қайрилиб олиш, тўхташ майдончалари ва шунга ўхшашларга кириш-чиқиш жойларида ҳаракатланиш фақат бир йўналишда рухсат этилганлигини кўрсатади;"
-                                 }
-                     }
+{
+    "questionId": 1122,
+    "image": "data/images/q1122.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi avtomobilga qayrilib olish taqiqlanadi?",
+            "options": [
+                "F1. Oq avtomobilga",
+                "F2. Yashil avtomobilga",
+                "F3. Ikkala avtomobilga"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 9-bobi 59-bandiga asosan: Chorrahadan tashqarida qayrilib olishda, agar qatnov qismining kengligi manyovrni chetki chap holatdan bajarish uchun YETARLI BO'LMASA, uni qatnov qismining o'ng chetidan (o'ng yo'l yoqasidan) amalga oshirishga yo'l qo'yiladi. Bu holda haydovchi shu yo'nalishdagi va qarama-qarshi yo'nalishdagi transport vositalariga yo'l berishi shart.\n\nYHQ 2 ilova: 1.11 — faqat bir tomondan qayta tizilishga ruxsat etilgan yo'l qismlarida, bir yo'nalishdagi yoki qarama-qarshi kelayotgan transport oqimlarini ajratadi; qayrilib olish, to'xtash maydonchalari va shunga o'xshashlarga kirish-chiqish joylarida harakatlanish faqat bir yo'nalishda ruxsat etilganligini ko'rsatadi;"
+        },
+        "ru": {
+            "text": "Какому автомобилю разворот запрещён?",
+            "options": [
+                "F1. Белому автомобилю",
+                "F2. Зелёному автомобилю",
+                "F3. Обоим автомобилям"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 59 главы 9 ПДД, гласит: Если при развороте вне перекрестка ширина проезжей части НЕДОСТАТОЧНА ДЛЯ ВЫПОЛНЕНИЕ МАНЕВРА из крайнего левого положения, его допускается производить от правого края проезжей части (с правой обочины). При этом водитель должен уступить дорогу попутным и встречным транспортным средствам.\n\nПДД приложение № 2: 1.11 nразделяет транспортные потоки противоположных или попутных направлений..."
+        },
+        "uzk": {
+            "text": "Қайси автомобилга қайрилиб олиш тақиқланади?",
+            "options": [
+                "F1. Оқ автомобилга",
+                "F2. Яшил автомобилга",
+                "F3. Иккала автомобилга"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 9-боби 59-бандига асосан: Чорраҳадан ташқарида қайрилиб олишда, агар қатнов қисмининг кенглиги манёврни четки чап ҳолатдан бажариш учун ЕТАРЛИ БЎЛМАСА, уни қатнов қисмининг ўнг четидан (ўнг йўл ёқасидан) амалга оширишга йўл қўйилади. Бу ҳолда ҳайдовчи шу йўналишдаги ва қарама-қарши йўналишдаги транспорт воситаларига йўл бериши шарт.\n\nЙҲҚ 2 илова: 1.11 — фақат бир томондан қайта тизилишга рухсат этилган йўл қисмларида, бир йўналишдаги ёки қарама-қарши келаётган транспорт оқимларини ажратади; қайрилиб олиш, тўхташ майдончалари ва шунга ўхшашларга кириш-чиқиш жойларида ҳаракатланиш фақат бир йўналишда рухсат этилганлигини кўрсатади;"
+        }
+    }
 }

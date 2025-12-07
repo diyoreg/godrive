@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  233,
-    "image":  "data/images/q0233.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qatnov qismidagi bunday yo\u0027naltirgichlar nimani bildiradi?",
-                                    "options":  [
-                                                    "F1. Haydovchini yo\u0027lning xavfli qismiga yaqinlashayotganligi haqida ogohlantiradi",
-                                                    "F2. Qatnov qismi torayishiga yaqinlashayotganligi haqida ogohlantiradi",
-                                                    "F3. Yo\u0027lning xavfli burilishi yo\u0027nalishini ko\u0027rsatadi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 2-ilovasi 1-Bo\u0027limining yigirma uchinchi xatboshisiga asosan: 1.19 — qatnov qismining toraygan (shu yoʻnalishdagi harakatlanish tasmalarining soni kamaygan) joyiga yoki qarama-qarshi yo\u0027nalishdan kelayotgan transport vositalari oqimlarini ajratuvchi 1.1 yoki 1.11 chizig\u0027iga yaqinlashganlik haqida ogohlantiruvchi chiziq. Birinchi holda 1.18.1 — 1.18.3 belgilari bilan qo\u0027llanilishi mumkin."
-                                },
-                         "ru":  {
-                                    "text":  "Что обозначают такие стрелы на проезжей части?",
-                                    "options":  [
-                                                    "F1. Предупреждают водителя о приближении к опасному участку дороги",
-                                                    "F2. Предупреждают о приближении к сужению проезжей части",
-                                                    "F3. Указывают направление опасного поворота дороги"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Горизонтальная разметка 1.19 - предупреждает о приближении к сужению проезжей части (участку, где уменьшается количество полос движения в данном направлении) или к линии разметки 1.1 или 1.11, разделяющей транспортные потоки противоположных направлений. В первом случае может применяться в сочетании со знаками 1.18.1-1.18.3."
-                                },
-                         "uzk":  {
-                                     "text":  "Қатнов қисмидаги бундай йўналтиргичлар нимани билдиради?",
-                                     "options":  [
-                                                     "F1. Ҳайдовчини йўлнинг хавфли қисмига яқинлашаётганлиги ҳақида огоҳлантиради",
-                                                     "F2. Қатнов қисми торайишига яқинлашаётганлиги ҳакида огоҳлантиради",
-                                                     "F3. Йўлнинг хавфли бурилиши йўналишини кўрсатади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг йигирма учинчи хатбошисига асосан: 1.19 — қатнов қисмининг торайган (шу йўналишдаги ҳаракатланиш тасмаларининг сони камайган) жойига ёки қарама-қарши йўналишдан келаётган транспорт воситалари оқимларини ажратувчи 1.1 ёки 1.11 чизиғига яқинлашганлик ҳақида огоҳлантирувчи чизиқ. Биринчи ҳолда 1.18.1 — 1.18.3 белгилари билан қўлланилиши мумкин."
-                                 }
-                     }
+{
+    "questionId": 233,
+    "image": "data/images/q0233.webp",
+    "translations": {
+        "uz": {
+            "text": "Qatnov qismidagi bunday yo'naltirgichlar nimani bildiradi?",
+            "options": [
+                "F1. Haydovchini yo'lning xavfli qismiga yaqinlashayotganligi haqida ogohlantiradi",
+                "F2. Qatnov qismi torayishiga yaqinlashayotganligi haqida ogohlantiradi",
+                "F3. Yo'lning xavfli burilishi yo'nalishini ko'rsatadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2-ilovasi 1-Bo'limining yigirma uchinchi xatboshisiga asosan: 1.19 — qatnov qismining toraygan (shu yoʻnalishdagi harakatlanish tasmalarining soni kamaygan) joyiga yoki qarama-qarshi yo'nalishdan kelayotgan transport vositalari oqimlarini ajratuvchi 1.1 yoki 1.11 chizig'iga yaqinlashganlik haqida ogohlantiruvchi chiziq. Birinchi holda 1.18.1 — 1.18.3 belgilari bilan qo'llanilishi mumkin."
+        },
+        "ru": {
+            "text": "Что обозначают такие стрелы на проезжей части?",
+            "options": [
+                "F1. Предупреждают водителя о приближении к опасному участку дороги",
+                "F2. Предупреждают о приближении к сужению проезжей части",
+                "F3. Указывают направление опасного поворота дороги"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Горизонтальная разметка 1.19 - предупреждает о приближении к сужению проезжей части (участку, где уменьшается количество полос движения в данном направлении) или к линии разметки 1.1 или 1.11, разделяющей транспортные потоки противоположных направлений. В первом случае может применяться в сочетании со знаками 1.18.1-1.18.3."
+        },
+        "uzk": {
+            "text": "Қатнов қисмидаги бундай йўналтиргичлар нимани билдиради?",
+            "options": [
+                "F1. Ҳайдовчини йўлнинг хавфли қисмига яқинлашаётганлиги ҳақида огоҳлантиради",
+                "F2. Қатнов қисми торайишига яқинлашаётганлиги ҳакида огоҳлантиради",
+                "F3. Йўлнинг хавфли бурилиши йўналишини кўрсатади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2-иловаси 1-бўлимининг йигирма учинчи хатбошисига асосан: 1.19 — қатнов қисмининг торайган (шу йўналишдаги ҳаракатланиш тасмаларининг сони камайган) жойига ёки қарама-қарши йўналишдан келаётган транспорт воситалари оқимларини ажратувчи 1.1 ёки 1.11 чизиғига яқинлашганлик ҳақида огоҳлантирувчи чизиқ. Биринчи ҳолда 1.18.1 — 1.18.3 белгилари билан қўлланилиши мумкин."
+        }
+    }
 }

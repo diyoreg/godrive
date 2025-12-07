@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  803,
-    "image":  "data/images/q0803.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Quyidagi belgilardan qaysi biri haydovchini boshqa xavf-xatarlar to\u0027g\u0027risida ogohlantiradi?",
-                                    "options":  [
-                                                    "F1. Faqat «Б»",
-                                                    "F2. Faqat «A»",
-                                                    "F3. Faqat «B»"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ, 1.30. \"Boshqa xavf-xatarlar”."
-                                },
-                         "ru":  {
-                                    "text":  "Какой из следующих знаков предупреждает водителя о прочих опасности?",
-                                    "options":  [
-                                                    "F1. Только «Б»",
-                                                    "F2. Только «A»",
-                                                    "F3. Только «В»"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "ПДД, знак 1.30. \"Прочие опасности”."
-                                },
-                         "uzk":  {
-                                     "text":  "Қуйидаги белгилардан қайси бири ҳайдовчини бошқа хавф-хатарлар тўғрисида огоҳлантиради?",
-                                     "options":  [
-                                                     "F1. Фақат «Б»",
-                                                     "F2. Фақат «A»",
-                                                     "F3. Фақат «В»"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ, 1.30. \"Бошқа хавф-хатарлар\"."
-                                 }
-                     }
+{
+    "questionId": 803,
+    "image": "data/images/q0803.webp",
+    "translations": {
+        "uz": {
+            "text": "Quyidagi belgilardan qaysi biri haydovchini boshqa xavf-xatarlar to'g'risida ogohlantiradi?",
+            "options": [
+                "F1. Faqat «Б»",
+                "F2. Faqat «A»",
+                "F3. Faqat «B»"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ, 1.30. \"Boshqa xavf-xatarlar”."
+        },
+        "ru": {
+            "text": "Какой из следующих знаков предупреждает водителя о прочих опасности?",
+            "options": [
+                "F1. Только «Б»",
+                "F2. Только «A»",
+                "F3. Только «В»"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ПДД, знак 1.30. \"Прочие опасности”."
+        },
+        "uzk": {
+            "text": "Қуйидаги белгилардан қайси бири ҳайдовчини бошқа хавф-хатарлар тўғрисида огоҳлантиради?",
+            "options": [
+                "F1. Фақат «Б»",
+                "F2. Фақат «A»",
+                "F3. Фақат «В»"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ, 1.30. \"Бошқа хавф-хатарлар\"."
+        }
+    }
 }

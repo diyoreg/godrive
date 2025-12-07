@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  613,
-    "image":  "data/images/q0613.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Bu joyda qayrilib olishga ruxsat etiladimi?",
-                                    "options":  [
-                                                    "F1. Ruxsat etiladi",
-                                                    "F2. Taqiqlanadi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining beshinchi va oʻttiz to\u0027rtinchi xatboshlariga asosan: 1.3 — toʻrt va undan ortiq harakatlanish boʻlagi boʻlgan yo\u0027llarda qarama-qarshi yoʻnalishdagi transport vositalari oqimini ajratadi. 1.3 chizigʻini bosib o\u0027tish taqiqlanadi."
-                                },
-                         "ru":  {
-                                    "text":  "Разрешается ли в этом месте произвести разворот?",
-                                    "options":  [
-                                                    "F1. Разрешается",
-                                                    "F2. Запрещается"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Горизонтальная разметка 1.3 (двойная сплошная линия) - разделяет транспортные потоки противоположных направлений на дорогах, имеющих четыре полосы движения и более. Линии 1.1 и 1.3 пересекать запрещается, кроме случая, когда линия 1.1 применена для обозначения края проезжей части. В данном случае разворот повлечет за собой пересечение разметки 1.3, что запрещено. Соответственно, разворот через разметку 1.3 запрещен."
-                                },
-                         "uzk":  {
-                                     "text":  "Бу жойда қайрилиб олишга рухсат этиладими?",
-                                     "options":  [
-                                                     "F1. Рухсат этилади",
-                                                     "F2. Тақиқланади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг бешинчи ва ўттиз тўртинчи хатбошларига асосан: 1.3 — тўрт ва ундан ортиқ ҳаракатланиш бўлаги бўлган йўлларда қарама-қарши йўналишдаги транспорт воситалари оқимини ажратади. 1.3 чизиғини босиб ўтиш тақиқланади."
-                                 }
-                     }
+{
+    "questionId": 613,
+    "image": "data/images/q0613.webp",
+    "translations": {
+        "uz": {
+            "text": "Bu joyda qayrilib olishga ruxsat etiladimi?",
+            "options": [
+                "F1. Ruxsat etiladi",
+                "F2. Taqiqlanadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2-ilovasi 1-bo'limining beshinchi va oʻttiz to'rtinchi xatboshlariga asosan: 1.3 — toʻrt va undan ortiq harakatlanish boʻlagi boʻlgan yo'llarda qarama-qarshi yoʻnalishdagi transport vositalari oqimini ajratadi. 1.3 chizigʻini bosib o'tish taqiqlanadi."
+        },
+        "ru": {
+            "text": "Разрешается ли в этом месте произвести разворот?",
+            "options": [
+                "F1. Разрешается",
+                "F2. Запрещается"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Горизонтальная разметка 1.3 (двойная сплошная линия) - разделяет транспортные потоки противоположных направлений на дорогах, имеющих четыре полосы движения и более. Линии 1.1 и 1.3 пересекать запрещается, кроме случая, когда линия 1.1 применена для обозначения края проезжей части. В данном случае разворот повлечет за собой пересечение разметки 1.3, что запрещено. Соответственно, разворот через разметку 1.3 запрещен."
+        },
+        "uzk": {
+            "text": "Бу жойда қайрилиб олишга рухсат этиладими?",
+            "options": [
+                "F1. Рухсат этилади",
+                "F2. Тақиқланади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2-иловаси 1-бўлимининг бешинчи ва ўттиз тўртинчи хатбошларига асосан: 1.3 — тўрт ва ундан ортиқ ҳаракатланиш бўлаги бўлган йўлларда қарама-қарши йўналишдаги транспорт воситалари оқимини ажратади. 1.3 чизиғини босиб ўтиш тақиқланади."
+        }
+    }
 }

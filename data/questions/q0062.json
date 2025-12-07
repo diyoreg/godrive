@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  62,
-    "image":  "data/images/q0062.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi javobda ruxsat etilgan harakatlanish yoʻnalishlari to\u0027g\u0027ri ko\u0027rsatilgan?",
-                                    "options":  [
-                                                    "F1. «А» ва «Б»",
-                                                    "F2. «А» ва «В»"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "YHQ 1-ilovasi 3-Bo\u0027limi: 3.18.1. «O\u0027ngga burilish taqiqlangan» belgisi qatnov qismining qaysi kesishmasi oldiga o\u0027rnatilsa, shu kesishmaga tatbiq etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "В каком ответе правильно указаны все разрешенные направления движения?",
-                                    "options":  [
-                                                    "F1. «А» и «Б»",
-                                                    "F2. «А» и «В»"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Запрешаюший знак 3.18.1 \"Поворот направо запрещен\". Действие знаков 3.18.1, 3.18.2 распространяется на пересечение проезжих частей, перед которыми установлен знак. В данном случае действие знака распространяется на направление В.\nСоответственно, разрешено движение в направлениях «А» и «Б»."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси жавобда рухсат этилган ҳаракатланиш йўналишлари тўғри кўрсатилган?",
-                                     "options":  [
-                                                     "F1. «А» ва «Б»",
-                                                     "F2. «А» ва «В»"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлими: 3.18.1. «Ўнгга бурилиш тақиқланган» белгиси қатнов қисмининг қайси кесишмаси олдига ўрнатилса, шу кесишмага татбиқ этилади."
-                                 }
-                     }
+{
+    "questionId": 62,
+    "image": "data/images/q0062.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi javobda ruxsat etilgan harakatlanish yoʻnalishlari to'g'ri ko'rsatilgan?",
+            "options": [
+                "F1. «А» ва «Б»",
+                "F2. «А» ва «В»"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 1-ilovasi 3-Bo'limi: 3.18.1. «O'ngga burilish taqiqlangan» belgisi qatnov qismining qaysi kesishmasi oldiga o'rnatilsa, shu kesishmaga tatbiq etiladi."
+        },
+        "ru": {
+            "text": "В каком ответе правильно указаны все разрешенные направления движения?",
+            "options": [
+                "F1. «А» и «Б»",
+                "F2. «А» и «В»"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Запрешаюший знак 3.18.1 \"Поворот направо запрещен\". Действие знаков 3.18.1, 3.18.2 распространяется на пересечение проезжих частей, перед которыми установлен знак. В данном случае действие знака распространяется на направление В.\nСоответственно, разрешено движение в направлениях «А» и «Б»."
+        },
+        "uzk": {
+            "text": "Қайси жавобда рухсат этилган ҳаракатланиш йўналишлари тўғри кўрсатилган?",
+            "options": [
+                "F1. «А» ва «Б»",
+                "F2. «А» ва «В»"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлими: 3.18.1. «Ўнгга бурилиш тақиқланган» белгиси қатнов қисмининг қайси кесишмаси олдига ўрнатилса, шу кесишмага татбиқ этилади."
+        }
+    }
 }

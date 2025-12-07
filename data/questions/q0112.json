@@ -3,7 +3,7 @@
     "image": "data/images/defaultpic.jpg",
     "translations": {
         "uz": {
-            "text": "Текст вопроса не найден",
+            "text": "Haydovchi tormozlanishda boshlangan avtomobilning sirpanib ketishini to'xtatish uchun bajarishi kerak",
             "options": [
                 "F1. Boshlangan tormozlashni to'xtatish",
                 "F2. Uzgichni ajratishi",
@@ -14,7 +14,7 @@
             "explanation": "Avtomobilning sirpanchiq yoʻlda surilish va orqa g'ildiraklarining blokirovkasi sababli tormozlashda vujudga keladi. Bu holda birinchi navbatda surilish sababini bartaraf etish, ya'ni boshlangan tormozlanishni toʻxtatish lozim. Keyinchalik rul chambaragini surilish tomon burib, harakat yo'nalishini to'g'rilab olish mumkin."
         },
         "ru": {
-            "text": "Текст вопроса не найден",
+            "text": "При возникновении заноса в результате торможения, водитель должен",
             "options": [
                 "F1. Прекратить начатое торможение",
                 "F2. Выключить сцепление",
@@ -25,7 +25,7 @@
             "explanation": "При возникновении заноса в результате торможения, водитель должен: Прекратить начатое торможение. До предела нажать тормозную педаль. Выключить сцепление и тормозить стояночным тормозом. При возникновении заноса в результате торможения, водитель должен прекратить начатое торможение. Если до предела нажать тормозную педаль, то занос еще больше усилится. Выключение сцепления особым образом не отразится на заносе."
         },
         "uzk": {
-            "text": "Текст вопроса не найден",
+            "text": "Ҳайдовчи тормозланишда бошланган автомобилнинг сирпаниб кетишини тўхтатиш учун бажариши керак",
             "options": [
                 "F1. Бошланган тормозлашни тўхтатиш",
                 "F2. Узгични ажратиши",

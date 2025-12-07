@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  543,
-    "image":  "data/images/q0543.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Bu belgida yuk avtomobillaridan qaysi biriga harakatlanishni davom ettirishga ruxsat etiladi?",
-                                    "options":  [
-                                                    "F1. Yukxonasida odamlar bo\u0027lgan maxsus moslashtirilgan yuk avtomobillarga",
-                                                    "F2. Furgon-yukxonada mahsulotlar tashiydigan avtomobillarga",
-                                                    "F3. «Aloqa» yozuvi bo\u0027lgan avtomobillarga"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining oltinchi xatboshisiga asosan: 3.4 yo\u0027l belgisi bortlariga qiya oq chiziq tortilgan yoki odamlarni tashish uchun mo\u0027ljallangan yuk avtomobillarining harakatlanishini taqiqlamaydi."
-                                },
-                         "ru":  {
-                                    "text":  "Каким грузовым автомобилям разрешается продолжать движение при этом знаке?",
-                                    "options":  [
-                                                    "F1. Автомобилям с пассажирами в специально оборудованном кузове",
-                                                    "F2. Автомобилям, перевозящим продукты в кузове-фургоне",
-                                                    "F3. Автомобилям с надписью «Связь»"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Запрещающий знак 3.4 \"Движение грузовых автомобилей запрещено\". Запрещается движение грузовых автомобилей и составов транспортных средств с разрешенной максимальной массой более 3,5 т (если на знаке не указана масса) или с максимальной массой, превышающей указанную на знаке, а также тракторов и самоходных машин."
-                                },
-                         "uzk":  {
-                                     "text":  "Бу белгида юк автомобилларидан қайси бирига ҳаракатланишни давом эттиришга рухсат этилади?",
-                                     "options":  [
-                                                     "F1. Юкхонасида одамлар бўлган махсус мослаштирилган юк автомобилларга",
-                                                     "F2. фургон-юкхонада маҳсулотлар ташийдиган автомобилларга",
-                                                     "F3. «Алоқа» ёзуви бўлган автомобилларга"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг олтинчи хатбошисига асосан: 3.4 йўл белгиси бортларига қия оқ чизиқ тортилган ёки одамларни ташиш учун мўлжалланган юк автомобилларининг ҳаракатланишини тақиқламайди."
-                                 }
-                     }
+{
+    "questionId": 543,
+    "image": "data/images/q0543.webp",
+    "translations": {
+        "uz": {
+            "text": "Bu belgida yuk avtomobillaridan qaysi biriga harakatlanishni davom ettirishga ruxsat etiladi?",
+            "options": [
+                "F1. Yukxonasida odamlar bo'lgan maxsus moslashtirilgan yuk avtomobillarga",
+                "F2. Furgon-yukxonada mahsulotlar tashiydigan avtomobillarga",
+                "F3. «Aloqa» yozuvi bo'lgan avtomobillarga"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilovasi 3-bo'limining oltinchi xatboshisiga asosan: 3.4 yo'l belgisi bortlariga qiya oq chiziq tortilgan yoki odamlarni tashish uchun mo'ljallangan yuk avtomobillarining harakatlanishini taqiqlamaydi."
+        },
+        "ru": {
+            "text": "Каким грузовым автомобилям разрешается продолжать движение при этом знаке?",
+            "options": [
+                "F1. Автомобилям с пассажирами в специально оборудованном кузове",
+                "F2. Автомобилям, перевозящим продукты в кузове-фургоне",
+                "F3. Автомобилям с надписью «Связь»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Запрещающий знак 3.4 \"Движение грузовых автомобилей запрещено\". Запрещается движение грузовых автомобилей и составов транспортных средств с разрешенной максимальной массой более 3,5 т (если на знаке не указана масса) или с максимальной массой, превышающей указанную на знаке, а также тракторов и самоходных машин."
+        },
+        "uzk": {
+            "text": "Бу белгида юк автомобилларидан қайси бирига ҳаракатланишни давом эттиришга рухсат этилади?",
+            "options": [
+                "F1. Юкхонасида одамлар бўлган махсус мослаштирилган юк автомобилларга",
+                "F2. фургон-юкхонада маҳсулотлар ташийдиган автомобилларга",
+                "F3. «Алоқа» ёзуви бўлган автомобилларга"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг олтинчи хатбошисига асосан: 3.4 йўл белгиси бортларига қия оқ чизиқ тортилган ёки одамларни ташиш учун мўлжалланган юк автомобилларининг ҳаракатланишини тақиқламайди."
+        }
+    }
 }

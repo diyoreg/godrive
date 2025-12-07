@@ -1,0 +1,26 @@
+{
+    "questionId": 171,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Agar tuproq yo'lda bevosita chorraha oldida to'shamali (qoplamali) yo'l qismi bo'lsa, bu uni kesib o'tayotgan asosiy yo'l bilan teng huquqli qiladimi?",
+            "options": [
+                "F1. Yo'q"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-bobi 6-bandining sakkizinchi xatboshisiga asosan: Asosiy yoʻl — tuproqli yoki shag'alli yoʻlga nisbatan qattiq qoplamali (asfalt va sement-betonli va shunga o'xshashlar yotqizilgan), kesishayotgan yoki tutashgan yoʻlga nisbatan 2.1, 2.3.1 — 2.3.3 yoki 5.1 yo'l belgilari bilan belgilangan yoxud yondosh hududdan chiqadigan yo'lga nisbatan har qanday yo'l. Ikkinchi darajali yoʻlning bevosita chorrahaga tutash qismining qoplamali bo'lishi uni asosiy yo'l bilan teng huquqli qilmaydi."
+        },
+        "ru": {
+            "text": "Если на грунтовой дороге непосредственно перед перекрестком имеется участок с покрытием, то делает ли это ее равной по значению с пересекаемой?",
+            "options": [],
+            "correctAnswer": 1,
+            "explanation": "В разделе №2 ПДД (\"Основные понятия и термины, применяемые в правилах\") сказано: Главная дорога - дорога с твердым покрытием (асфальто- и цементобетон, каменные материалы и тому подобное) по отношению к грунтовой дороге или дорога, обозначенная знаками 2.1, 2.3.1-2.3.3 или 5.1, по отношению к пересекаемой (примыкающей), либо любая дорога по отношению к выездам с прилегающих территорий. Наличие покрытия на второстепенной дороге непосредственно перед перекрестком не делает ее равной по значению с пересекаемой."
+        },
+        "uzk": {
+            "text": "Агар тупроқ йўлда бевосита чорраҳа олдида тўшамали (қопламали) йўл қисми бўлса, бу уни кесиб ўтаётган асосий йўл билан тенг ҳуқуқли қиладими?",
+            "options": [],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-боби 6-бандининг саккизинчи хатбошисига асосан: Асосий йўл — тупроқли ёки шағалли йўлга нисбатан қаттиқ қопламали (асфалът ва цемент-бетонли ва шунга ўхшашлар ётқизилган), кесишаётган ёки туташган йўлга нисбатан 2.1, 2.3.1 — 2.3.3 ёки 5.1 йўл белгилари билан белгиланган ёхуд ёндош ҳудуддан чиқадиган йўлга нисбатан ҳар қандай йўл. Иккинчи даражали йўлнинг бевосита чорраҳага туташ қисмининг қопламали бўлиши уни асосий йўл билан тенг ҳуқуқли қилмайди."
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "questionId": 234,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Qo'lni (kunduzi - bir parcha yorqin mato yoki aniq ko'rinadigan bir narsa bilan, tunda - mash'ala yoki chiroq bilan) gir aylantirish",
+                "F2. Qo'ldagi tayoqchani yoki qizil bayroqni boshidan yuqori ko'tarib turish",
+                "F3. Qo'llarini oldinga uzatib turish",
+                "F4. Oldinga uzatilgan qo'llarni yuqoriga va pastga tebratish"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 18-bobi 120-bandining beshinchi xatboshisiga asosan: To'xtash ishorasi qoʻlni (kunduzi yorqin mato parchasi yoki aniq ko'rinadigan biror narsa bilan, tunda esa mash'ala yoki chiroq bilan) gir aylantirish orqali beriladi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Круговое движение руки (днем с лоскутом яркой материи или каким-либо хорошо видимым предметом, ночью с факелом или фонарем)",
+                "F2. Поднятая над головой рука с жезлом или красным флагом",
+                "F3. Вытянутая вперед рука",
+                "F4. Покачивание вверх и вниз вытянутой вперед рукой"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Абзацу 5 пункта 120 главы 18 ПДД (\"Движение через железнодорожные переезды\") сказано: Сигналом остановки служит круговое движение руки (днем с лоскутом яркой материи или каким-либо хорошо видным предметом, ночью - с факелом или фонарем). Сигнал общей тревоги подается при помощи одного длинного и трех коротких звуковых сигналов."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Қўлни (кундузи - бир парча ёрқин мато ёки аниқ кўринадиган бир нарса билан, тунда - машъала ёки чироқ билан) гир айлантириш",
+                "F2. Қўлдаги таёқчани ёки қизил байроқни бошидан юқори кўтариб туриш",
+                "F3. Қўлларини олдинга узатиб туриш",
+                "F4. Олдинга узатилган қўлларни юқорига ва пастга тебратиш"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 18-боби 120-бандининг бешинчи хатбошисига асосан: Тўхташ ишораси қўлни (кундузи ёрқин мато парчаси ёки аниқ кўринадиган бирор нарса билан, тунда эса машъала ёки чироқ билан) гир айлантириш орқали берилади."
+        }
+    }
+}

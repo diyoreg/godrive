@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  749,
-    "image":  "data/images/q0749.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Chorrahadagi uzuq-uzuq chiziqlar nimani bildiradi?",
-                                    "options":  [
-                                                    "F1. Majburiy harakatlanish",
-                                                    "F2. Chorrahada harakatlanish bo\u0027lagini chegarasini"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 2 ilova: 1.7 (har bir chizigʻi qisqa va oralari shu chiziqlar bo\u0027yiga teng bo\u0027lgan uzuq-uzuq chiziq) — chorrahadagi harakatlanish tasmalarini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Что означают прерывистые линии на перекрестке?",
-                                    "options":  [
-                                                    "F1. Обязательное направление движения",
-                                                    "F2. Границы полос движения на перекрестке"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Приложение № 2 к ПДД пункт 1.7: (прерывистая линия с короткими штрихами и равными им промежутками) - обозначает полосы движения в пределах перекрестка."
-                                },
-                         "uzk":  {
-                                     "text":  "Чорраҳадаги узуқ-узуқ чизиқлар нимани билдиради?",
-                                     "options":  [
-                                                     "F1. Мажбурий ҳаракатни",
-                                                     "F2. Чорраҳада ҳаракатланиш бўлагини чегарасини"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 2 илова: 1.7 (ҳар бир чизиғи қисқа ва оралари шу чизиқлар бўйига тенг бўлган узуқ-узуқ чизиқ) — чорраҳадаги ҳаракатланиш тасмаларини билдиради."
-                                 }
-                     }
+{
+    "questionId": 749,
+    "image": "data/images/q0749.webp",
+    "translations": {
+        "uz": {
+            "text": "Chorrahadagi uzuq-uzuq chiziqlar nimani bildiradi?",
+            "options": [
+                "F1. Majburiy harakatlanish",
+                "F2. Chorrahada harakatlanish bo'lagini chegarasini"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2 ilova: 1.7 (har bir chizigʻi qisqa va oralari shu chiziqlar bo'yiga teng bo'lgan uzuq-uzuq chiziq) — chorrahadagi harakatlanish tasmalarini bildiradi."
+        },
+        "ru": {
+            "text": "Что означают прерывистые линии на перекрестке?",
+            "options": [
+                "F1. Обязательное направление движения",
+                "F2. Границы полос движения на перекрестке"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Приложение № 2 к ПДД пункт 1.7: (прерывистая линия с короткими штрихами и равными им промежутками) - обозначает полосы движения в пределах перекрестка."
+        },
+        "uzk": {
+            "text": "Чорраҳадаги узуқ-узуқ чизиқлар нимани билдиради?",
+            "options": [
+                "F1. Мажбурий ҳаракатни",
+                "F2. Чорраҳада ҳаракатланиш бўлагини чегарасини"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2 илова: 1.7 (ҳар бир чизиғи қисқа ва оралари шу чизиқлар бўйига тенг бўлган узуқ-узуқ чизиқ) — чорраҳадаги ҳаракатланиш тасмаларини билдиради."
+        }
+    }
 }

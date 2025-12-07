@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  794,
-    "image":  "data/images/q0794.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Yengil avtomobilda qaysi yo\u0027nalishda harakatlanishga ruxsat etiladi?",
-                                    "options":  [
-                                                    "F1. Faqat to\u0027g\u0027riga",
-                                                    "F2. Faqat o\u0027ngga va chapga",
-                                                    "F3. Istalgan yo\u0027nalishda"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 1 ilova: 4.1.1. «Harakatlanish to\u0027g\u0027riga». 7.4.1 belgi bilan o\u0027rnatilgan yo\u0027l belgisining ta’siri yuk tashuvchi, shu jumladan, tirkamali, to\u0027la vazni 3,5 tonnadan ortiq bo\u0027lgan transport vositalariga tatbiq etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "В каких направлениях Вам разрешено продолжить движение на легковом автомобиле?",
-                                    "options":  [
-                                                    "F1. Только прямо",
-                                                    "F2. Только налево или направо",
-                                                    "F3. В любом направлении"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "ПДД приложение № 1: 4.1.1. «Движение прямо». Дорожный знак 7.4.1 распространяет действие знака на грузовые автомобили, в том числе и с прицепом, с разрешенной максимальной массой более 3,5 т."
-                                },
-                         "uzk":  {
-                                     "text":  "Енгил автомобилда қайси йўналишда ҳаракатланишга рухсат этилади?",
-                                     "options":  [
-                                                     "F1. Фақат тўғрига",
-                                                     "F2. Фақат ўнгга ва чапга",
-                                                     "F3. Исталган йўналишда"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 1 илова: 4.1.1. «Ҳаракатланиш тўғрига». 7.4.1 белги билан ўрнатилган йўл белгисининг таъсири юк ташувчи, шу жумладан, тиркамали, тўла вазни 3,5 тоннадан ортиқ бўлган транспорт воситаларига татбиқ этилади."
-                                 }
-                     }
+{
+    "questionId": 794,
+    "image": "data/images/q0794.webp",
+    "translations": {
+        "uz": {
+            "text": "Yengil avtomobilda qaysi yo'nalishda harakatlanishga ruxsat etiladi?",
+            "options": [
+                "F1. Faqat to'g'riga",
+                "F2. Faqat o'ngga va chapga",
+                "F3. Istalgan yo'nalishda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 1 ilova: 4.1.1. «Harakatlanish to'g'riga». 7.4.1 belgi bilan o'rnatilgan yo'l belgisining ta’siri yuk tashuvchi, shu jumladan, tirkamali, to'la vazni 3,5 tonnadan ortiq bo'lgan transport vositalariga tatbiq etiladi."
+        },
+        "ru": {
+            "text": "В каких направлениях Вам разрешено продолжить движение на легковом автомобиле?",
+            "options": [
+                "F1. Только прямо",
+                "F2. Только налево или направо",
+                "F3. В любом направлении"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ПДД приложение № 1: 4.1.1. «Движение прямо». Дорожный знак 7.4.1 распространяет действие знака на грузовые автомобили, в том числе и с прицепом, с разрешенной максимальной массой более 3,5 т."
+        },
+        "uzk": {
+            "text": "Енгил автомобилда қайси йўналишда ҳаракатланишга рухсат этилади?",
+            "options": [
+                "F1. Фақат тўғрига",
+                "F2. Фақат ўнгга ва чапга",
+                "F3. Исталган йўналишда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 1 илова: 4.1.1. «Ҳаракатланиш тўғрига». 7.4.1 белги билан ўрнатилган йўл белгисининг таъсири юк ташувчи, шу жумладан, тиркамали, тўла вазни 3,5 тоннадан ортиқ бўлган транспорт воситаларига татбиқ этилади."
+        }
+    }
 }

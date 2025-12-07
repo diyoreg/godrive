@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  879,
-    "image":  "data/images/q0879.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu yo\u0027l belgisi qanday maqsadda qo\u0027llaniladi?",
-                                    "options":  [
-                                                    "F1. Ehtiyot choralarini ko\u0027rish uchun",
-                                                    "F2. Majburiy tarzda tezlikni kamaytirish uchun",
-                                                    "F3. To\u0027xtamasdan o\u0027tishni taqiqlaydi"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ, 1-ilova: 3.17.1. «Bojxona». Bojxona (tekshiruv maskani) oldida to\u0027xtamasdan oʻtish taqiqlanishini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "С какой целью применяется этот дорожный знак?",
-                                    "options":  [
-                                                    "F1. Для принятия мер предосторожности",
-                                                    "F2. Для принудительного снижения скорости движение",
-                                                    "F3. Движение без остановки запрещается"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "ПДД, Приложение № 1: 3.17.1. «Таможня». Запрещается проезд без остановки у таможенного (контрольного) пункта."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу йўл белгиси қандай мақсадда қўлланилади?",
-                                     "options":  [
-                                                     "F1. Еҳтиёт чораларини кўриш учун",
-                                                     "F2. Мажбурий тарзда тезликни камайтириш учун",
-                                                     "F3. Тўхтамасдан ўтишни тақиқлайди"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ, 1-Илова: 3.17.1. «Божхона». Божхона (текширув маскани) олдида тўхтамасдан ўтиш тақиқланишини билдиради."
-                                 }
-                     }
+{
+    "questionId": 879,
+    "image": "data/images/q0879.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu yo'l belgisi qanday maqsadda qo'llaniladi?",
+            "options": [
+                "F1. Ehtiyot choralarini ko'rish uchun",
+                "F2. Majburiy tarzda tezlikni kamaytirish uchun",
+                "F3. To'xtamasdan o'tishni taqiqlaydi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ, 1-ilova: 3.17.1. «Bojxona». Bojxona (tekshiruv maskani) oldida to'xtamasdan oʻtish taqiqlanishini bildiradi."
+        },
+        "ru": {
+            "text": "С какой целью применяется этот дорожный знак?",
+            "options": [
+                "F1. Для принятия мер предосторожности",
+                "F2. Для принудительного снижения скорости движение",
+                "F3. Движение без остановки запрещается"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ПДД, Приложение № 1: 3.17.1. «Таможня». Запрещается проезд без остановки у таможенного (контрольного) пункта."
+        },
+        "uzk": {
+            "text": "Ушбу йўл белгиси қандай мақсадда қўлланилади?",
+            "options": [
+                "F1. Еҳтиёт чораларини кўриш учун",
+                "F2. Мажбурий тарзда тезликни камайтириш учун",
+                "F3. Тўхтамасдан ўтишни тақиқлайди"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ, 1-Илова: 3.17.1. «Божхона». Божхона (текширув маскани) олдида тўхтамасдан ўтиш тақиқланишини билдиради."
+        }
+    }
 }

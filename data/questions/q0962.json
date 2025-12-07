@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  962,
-    "image":  "data/images/q0962.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ko\u0027rsatilgan qaysi belgilar faqat shu o\u0027rnatilgan tasmani o\u0027ziga ta’sir qiladi?",
-                                    "options":  [
-                                                    "F1. Faqat «A»",
-                                                    "F2. Faqat «Б»",
-                                                    "F3. «Б» va «B»"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ, 1 ilova 3.24: «Yukori tezlik cheklangan». Belgida kursatilganidan ortik tezlikda (km/s) harakatlanish takiklanishini bildiradi.\n7.14. «Harakatlanish tasmasi». Belgi yoki svetofor ta’siridagi harakatlanish bo\u0027lagini kursatadi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой из указанных знаков распространяет свое действие только на ту полосу, над которой он установлен?",
-                                    "options":  [
-                                                    "F1. Только «A»",
-                                                    "F2. Только «Б»",
-                                                    "F3. «Б» и «B»"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "ПДД пункт 3.24 «Ограничение максимальной скорости». Запрещается движение со скоростью (км/ч), превышающей указанную на знаке.\nЗнак 7.14 «Полоса движения» должна применяться для указания полосы, на которую распространяется действие знака 3.24, при этом знак должен располагаться над полосой движения."
-                                },
-                         "uzk":  {
-                                     "text":  "Кўрсатилган қайси белгилар фақат шу ўрнатилган тасмани ўзига таъсир қилади?",
-                                     "options":  [
-                                                     "F1. Фақат «A»",
-                                                     "F2. Фақат «Б»",
-                                                     "F3. «Б» ва «B»"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ, 1 илова 3.24: «Юкори тезлик чекланган». Белгида курсатилганидан ортик тезликда (км/с) харакатланиш такикланишини билдиради.\n7.14. «Харакатланиш тасмаси». Белги ёки светофор таъсиридаги харакатланиш булагини курсатади."
-                                 }
-                     }
+{
+    "questionId": 962,
+    "image": "data/images/q0962.webp",
+    "translations": {
+        "uz": {
+            "text": "Ko'rsatilgan qaysi belgilar faqat shu o'rnatilgan tasmani o'ziga ta’sir qiladi?",
+            "options": [
+                "F1. Faqat «A»",
+                "F2. Faqat «Б»",
+                "F3. «Б» va «B»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ, 1 ilova 3.24: «Yukori tezlik cheklangan». Belgida kursatilganidan ortik tezlikda (km/s) harakatlanish takiklanishini bildiradi.\n7.14. «Harakatlanish tasmasi». Belgi yoki svetofor ta’siridagi harakatlanish bo'lagini kursatadi."
+        },
+        "ru": {
+            "text": "Какой из указанных знаков распространяет свое действие только на ту полосу, над которой он установлен?",
+            "options": [
+                "F1. Только «A»",
+                "F2. Только «Б»",
+                "F3. «Б» и «B»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД пункт 3.24 «Ограничение максимальной скорости». Запрещается движение со скоростью (км/ч), превышающей указанную на знаке.\nЗнак 7.14 «Полоса движения» должна применяться для указания полосы, на которую распространяется действие знака 3.24, при этом знак должен располагаться над полосой движения."
+        },
+        "uzk": {
+            "text": "Кўрсатилган қайси белгилар фақат шу ўрнатилган тасмани ўзига таъсир қилади?",
+            "options": [
+                "F1. Фақат «A»",
+                "F2. Фақат «Б»",
+                "F3. «Б» ва «B»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ, 1 илова 3.24: «Юкори тезлик чекланган». Белгида курсатилганидан ортик тезликда (км/с) харакатланиш такикланишини билдиради.\n7.14. «Харакатланиш тасмаси». Белги ёки светофор таъсиридаги харакатланиш булагини курсатади."
+        }
+    }
 }

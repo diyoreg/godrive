@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  1070,
-    "image":  "data/images/q1070.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu kesishmadan o\u0027ngga burilishga ruxsat beriladimi?",
-                                    "options":  [
-                                                    "F1. Taqiqlanadi",
-                                                    "F2. Ruxsat beriladi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1 ilova: 5.19.1 — 5.19.4. “Oxiri berk yo\u0027l”. Yo\u0027lning ko\u0027rsatilgan yo\u0027nalishda oxiri berkligini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Разрешен ли поворот направо на этом перекрестке?",
-                                    "options":  [
-                                                    "F1. Запрещается",
-                                                    "F2. Разрешается"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "ПДД приложение № 1: 5.19.1 — 5.19.4 Тупик.\nДорога, не имеющая сквозного проезд."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу кесишмадан ўнгга бурилишга рухсат бериладими?",
-                                     "options":  [
-                                                     "F1. Тақиқланади",
-                                                     "F2. Рухсат берилади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1 илова: 5.19.1 — 5.19.4. “Охири берк йўл”. Йўлнинг кўрсатилган йўналишда охири берклигини билдиради."
-                                 }
-                     }
+{
+    "questionId": 1070,
+    "image": "data/images/q1070.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu kesishmadan o'ngga burilishga ruxsat beriladimi?",
+            "options": [
+                "F1. Taqiqlanadi",
+                "F2. Ruxsat beriladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1 ilova: 5.19.1 — 5.19.4. “Oxiri berk yo'l”. Yo'lning ko'rsatilgan yo'nalishda oxiri berkligini bildiradi."
+        },
+        "ru": {
+            "text": "Разрешен ли поворот направо на этом перекрестке?",
+            "options": [
+                "F1. Запрещается",
+                "F2. Разрешается"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД приложение № 1: 5.19.1 — 5.19.4 Тупик.\nДорога, не имеющая сквозного проезд."
+        },
+        "uzk": {
+            "text": "Ушбу кесишмадан ўнгга бурилишга рухсат бериладими?",
+            "options": [
+                "F1. Тақиқланади",
+                "F2. Рухсат берилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1 илова: 5.19.1 — 5.19.4. “Охири берк йўл”. Йўлнинг кўрсатилган йўналишда охири берклигини билдиради."
+        }
+    }
 }

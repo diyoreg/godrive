@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  657,
-    "image":  "data/images/q0657.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Yo\u0027lning ushbu qismida quvib o\u0027tishga ruxsat etiladimi?",
-                                    "options":  [
-                                                    "F1. Ruxsat etiladi",
-                                                    "F2. Taqiqlanadi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining oʻn birinchi, o\u0027ttiz oltinchi va oʻttiz yettinchi xatboshlariga asosan: 1.9 — reversiv harakat tashkil etilgan bo\u0027laklarning chegarasini belgilaydi; reversiv harakatlanish amalga oshirilgan yo\u0027llarda (reversiv svetofori o\u0027chirilgan holatda) qarama-qarshi yo\u0027nalishdagi transport oqimini ajratadi;\nReversiv svetofor yoqilgan paytda bir yo\u0027nalishli tasmalarni ajratayotgan 1.9 chizig\u0027ini istalgan tomondan bosib o\u0027tishga ruxsat etiladi. Reversiv svetofor o\u0027chirilganda, haydovchilar darhol 1.9 chizig\u0027idan o\u0027ngga qayta tizilishlari kerak.\nReversiv svetofor o\u0027chirilgan bo\u0027lsa, qarama-qarshi yo\u0027nalishdagi transport oqimlarini ajratuvchi 1.9 chizig\u0027ini bosib o\u0027tish taqiqlanadi."
-                                },
-                         "ru":  {
-                                    "text":  "Разрешается ли обгон на этом участке дороги?",
-                                    "options":  [
-                                                    "F1. Разрешается",
-                                                    "F2. Запрещается"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Линия 1.9 раздела 1 приложения No № к ПДД, обозначает границы полос движения, на которых осуществляется реверсивное движение; разделяет транспортные потоки противоположных направлений (при выключенных реверсивных светофорах) на дорогах, где осуществляется реверсивное движение.\nAбзацу 3 раздела 1 приложения № 2 к ПДД, при отсутствии реверсивных светофоров или когда они отключены, линию 1.9 разрешается пересекать, если она расположена справа от водителя."
-                                },
-                         "uzk":  {
-                                     "text":  "Йўлнинг ушбу қисмида қувиб ўтишга рухсат этиладими?",
-                                     "options":  [
-                                                     "F1. Рухсат этилади",
-                                                     "F2. Тақиқланади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг ўн биринчи, ўттиз олтинчи ва ўттиз еттинчи хатбошларига асосан: 1.9 — реверсив ҳаракат ташкил етилган бўлакларнинг чегарасини белгилайди; реверсив ҳаракатланиш амалга оширилган йўлларда (реверсив светофори ўчирилган ҳолатда) қарама-қарши йўналишдаги транспорт оқимини ажратади;\nРеверсив светофор ёқилган пайтда бир йўналишли тасмаларни ажратаётган 1.9 чизиғини исталган томондан босиб ўтишга рухсат етилади. Реверсив светофор ўчирилганда, ҳайдовчилар дарҳол 1.9 чизиғидан ўнгга қайта тизилишлари керак.\nРеверсив светофор ўчирилган бўлса, қарама-қарши йўналишдаги транспорт оқимларини ажратувчи 1.9 чизиғини босиб ўтиш тақиқланади."
-                                 }
-                     }
+{
+    "questionId": 657,
+    "image": "data/images/q0657.webp",
+    "translations": {
+        "uz": {
+            "text": "Yo'lning ushbu qismida quvib o'tishga ruxsat etiladimi?",
+            "options": [
+                "F1. Ruxsat etiladi",
+                "F2. Taqiqlanadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2-ilovasi 1-bo'limining oʻn birinchi, o'ttiz oltinchi va oʻttiz yettinchi xatboshlariga asosan: 1.9 — reversiv harakat tashkil etilgan bo'laklarning chegarasini belgilaydi; reversiv harakatlanish amalga oshirilgan yo'llarda (reversiv svetofori o'chirilgan holatda) qarama-qarshi yo'nalishdagi transport oqimini ajratadi;\nReversiv svetofor yoqilgan paytda bir yo'nalishli tasmalarni ajratayotgan 1.9 chizig'ini istalgan tomondan bosib o'tishga ruxsat etiladi. Reversiv svetofor o'chirilganda, haydovchilar darhol 1.9 chizig'idan o'ngga qayta tizilishlari kerak.\nReversiv svetofor o'chirilgan bo'lsa, qarama-qarshi yo'nalishdagi transport oqimlarini ajratuvchi 1.9 chizig'ini bosib o'tish taqiqlanadi."
+        },
+        "ru": {
+            "text": "Разрешается ли обгон на этом участке дороги?",
+            "options": [
+                "F1. Разрешается",
+                "F2. Запрещается"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Линия 1.9 раздела 1 приложения No № к ПДД, обозначает границы полос движения, на которых осуществляется реверсивное движение; разделяет транспортные потоки противоположных направлений (при выключенных реверсивных светофорах) на дорогах, где осуществляется реверсивное движение.\nAбзацу 3 раздела 1 приложения № 2 к ПДД, при отсутствии реверсивных светофоров или когда они отключены, линию 1.9 разрешается пересекать, если она расположена справа от водителя."
+        },
+        "uzk": {
+            "text": "Йўлнинг ушбу қисмида қувиб ўтишга рухсат этиладими?",
+            "options": [
+                "F1. Рухсат этилади",
+                "F2. Тақиқланади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2-иловаси 1-бўлимининг ўн биринчи, ўттиз олтинчи ва ўттиз еттинчи хатбошларига асосан: 1.9 — реверсив ҳаракат ташкил етилган бўлакларнинг чегарасини белгилайди; реверсив ҳаракатланиш амалга оширилган йўлларда (реверсив светофори ўчирилган ҳолатда) қарама-қарши йўналишдаги транспорт оқимини ажратади;\nРеверсив светофор ёқилган пайтда бир йўналишли тасмаларни ажратаётган 1.9 чизиғини исталган томондан босиб ўтишга рухсат етилади. Реверсив светофор ўчирилганда, ҳайдовчилар дарҳол 1.9 чизиғидан ўнгга қайта тизилишлари керак.\nРеверсив светофор ўчирилган бўлса, қарама-қарши йўналишдаги транспорт оқимларини ажратувчи 1.9 чизиғини босиб ўтиш тақиқланади."
+        }
+    }
 }

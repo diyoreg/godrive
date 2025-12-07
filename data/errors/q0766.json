@@ -1,0 +1,36 @@
+{
+    "questionId": 766,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Sanab o'tilgan qaysi hollarda haydovchi orqadagi vaziyatni e’tiborga olishi kerak?",
+            "options": [
+                "F1. Har qanday tormozlashda",
+                "F2. Faqat nam qoplama yoki yaxmalakli yo'llarda tormoz berganda",
+                "F3. Faqat keskin tormoz berishda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Har qanday tormozlashda."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. При любом торможении",
+                "F2. Только при торможении на дороге с мокрым или скользким покрытием",
+                "F3. Только при резком торможении"
+            ],
+            "correctAnswer": 1,
+            "explanation": "При любом торможении."
+        },
+        "uzk": {
+            "text": "Санаб ўтилган қайси ҳолларда ҳайдовчи орқадаги вазиятни эътиборга олиши керак?",
+            "options": [
+                "F1. Ҳар қандай тормозлашда",
+                "F2. Фақат нам қоплама ёки яхмалакли йўлларда тормоз берганда",
+                "F3. Фақат кескин тормоз беришда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Ҳар қандай тормозлашда."
+        }
+    }
+}

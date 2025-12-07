@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  10,
-    "image":  "data/images/q0010.jpg",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Bunday taniqlik belgisi bilan belgilanadigan transport vositasi",
-                                    "options":  [
-                                                    "F1. Og\u0027ir vaznli va yirik o\u0027lchamli yuklarni tashuvchi",
-                                                    "F2. Uzunligi yuk bilan yoki yuksiz 20 metrdan ortiq bo\u0027lgan transport vositasi",
-                                                    "F3. Furgon yukxonasida odamlarni tashuvchi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "IzohYHQ 29-bobi 176-bandiga asosan: “Uzun o\u0027lchamli transport vositasi” — yukli va yuksiz uzunligi 20 metrdan oshadigan transport vositasining, ikki yoki undan ko\u0027proq tirkamali avtopoyezdlarning orqasida — kengligi 40 millimetr bo\u0027lgan qizil hoshiyali, o\u0027lchami 1200x200 millimetr bo\u0027lgan, sariq rangli, nur qaytaruvchi to\u0027rtburchak shaklidagi belgi."
-                                },
-                         "ru":  {
-                                    "text":  "Таким опознавательным знаком обозначается",
-                                    "options":  [
-                                                    "F1. Транспортное средство, перевозящее тяжеловесные и крупногабаритные грузы",
-                                                    "F2. Транспортное средство, длина которого с грузом или без груза более 20м",
-                                                    "F3. Транспортное средство, перевозящее людей в кузове-фургоне"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Пункта 176 главы 29 ПДД, гласит: «Длинномерное транспортное средство» - знак в виде прямоугольника размером 1200х200 мм желтого цвета с каймой красного цвета шириной 40 мм, с символикой состава транспортных средств сзади транспортных средств, длина — которых с грузом или без груза более 20 м, и автопоездов с двумя и более прицепами."
-                                },
-                         "uzk":  {
-                                     "text":  "Бундай таниқлик белгиси билан белгиланадиган транспорт воситаси",
-                                     "options":  [
-                                                     "F1. Оғир вазнли ва йирик ўлчамли юкларни ташувчи",
-                                                     "F2. Узунлиги юк билан ёки юксиз 20 метрдан ортиқ бўлган транспорт воситаси",
-                                                     "F3. Фургон юкхонасида одамларни ташувчи"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ИзоҳЙҲҚ 29-боби 176-бандига асосан: «Узун ўлчамли транспорт воситаси» — юкли ва юксиз узунлиги 20 метрдан ошадиган транспорт воситасининг, икки ёки ундан кўпроқ тиркамали автопоездларнинг орқасида — кенглиги 40 миллиметр бўлган қизил ҳошияли, ўлчами 1200х200 миллиметр бўлган, сариқ рангли, нур қайтарувчи тўртбурчак шаклидаги белги."
-                                 }
-                     }
+{
+    "questionId": 10,
+    "image": "data/images/q0010.jpg",
+    "translations": {
+        "uz": {
+            "text": "Bunday taniqlik belgisi bilan belgilanadigan transport vositasi",
+            "options": [
+                "F1. Og'ir vaznli va yirik o'lchamli yuklarni tashuvchi",
+                "F2. Uzunligi yuk bilan yoki yuksiz 20 metrdan ortiq bo'lgan transport vositasi",
+                "F3. Furgon yukxonasida odamlarni tashuvchi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "IzohYHQ 29-bobi 176-bandiga asosan: “Uzun o'lchamli transport vositasi” — yukli va yuksiz uzunligi 20 metrdan oshadigan transport vositasining, ikki yoki undan ko'proq tirkamali avtopoyezdlarning orqasida — kengligi 40 millimetr bo'lgan qizil hoshiyali, o'lchami 1200x200 millimetr bo'lgan, sariq rangli, nur qaytaruvchi to'rtburchak shaklidagi belgi."
+        },
+        "ru": {
+            "text": "Таким опознавательным знаком обозначается",
+            "options": [
+                "F1. Транспортное средство, перевозящее тяжеловесные и крупногабаритные грузы",
+                "F2. Транспортное средство, длина которого с грузом или без груза более 20м",
+                "F3. Транспортное средство, перевозящее людей в кузове-фургоне"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 176 главы 29 ПДД, гласит: «Длинномерное транспортное средство» - знак в виде прямоугольника размером 1200х200 мм желтого цвета с каймой красного цвета шириной 40 мм, с символикой состава транспортных средств сзади транспортных средств, длина — которых с грузом или без груза более 20 м, и автопоездов с двумя и более прицепами."
+        },
+        "uzk": {
+            "text": "Бундай таниқлик белгиси билан белгиланадиган транспорт воситаси",
+            "options": [
+                "F1. Оғир вазнли ва йирик ўлчамли юкларни ташувчи",
+                "F2. Узунлиги юк билан ёки юксиз 20 метрдан ортиқ бўлган транспорт воситаси",
+                "F3. Фургон юкхонасида одамларни ташувчи"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ИзоҳЙҲҚ 29-боби 176-бандига асосан: «Узун ўлчамли транспорт воситаси» — юкли ва юксиз узунлиги 20 метрдан ошадиган транспорт воситасининг, икки ёки ундан кўпроқ тиркамали автопоездларнинг орқасида — кенглиги 40 миллиметр бўлган қизил ҳошияли, ўлчами 1200х200 миллиметр бўлган, сариқ рангли, нур қайтарувчи тўртбурчак шаклидаги белги."
+        }
+    }
 }

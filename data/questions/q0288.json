@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  288,
-    "image":  "data/images/q0288.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ko\u0027rsatilgan joyda to\u0027xtashga ruxsat etiladimi?",
-                                    "options":  [
-                                                    "F1. Ruxsat etiladi",
-                                                    "F2. Taqiqlanadi"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 13-bobi 88-bandining birinchi xatboshisiga asosan: Transport vositalariga yoʻlning oʻng tomoni yoqasida, u boʻlmaganda esa qatnov qismining chetida va ushbu Qoidalarning 89-bandida ko\u0027rsatilgan hollarda trotuarda to\u0027xtash va toʻxtab turishga ruxsat etiladi.\nAholi punktlarida o\u0027rtada tramvay yo\u0027li bo\u0027lmagan, har yo\u0027nalishda bittadan tasmasi bo\u0027lgan, shuningdek bir tomonlama harakat tashkil etilgan yo\u0027llarda yo\u0027lning chap tomonida to\u0027xtash va to\u0027xtab turishga ruxsat etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "Разрешается ли остановка в указанном месте?",
-                                    "options":  [
-                                                    "F1. Разрешается",
-                                                    "F2. Запрещается"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункт 88 главы 13 ПДД гласит: В населенных пунктах остановка и стоянка допускается на левой стороне дорог не менее с одной полосой движения в каждом направлении и не имеющих трамвайных путей посередине, только с односторонним движением."
-                                },
-                         "uzk":  {
-                                     "text":  "Кўрсатилган жойда тўхташга рухсат этиладими?",
-                                     "options":  [
-                                                     "F1. Рухсат этилади",
-                                                     "F2. Тақиқланади"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 13-боби 88-бандининг биринчи хатбошисига асосан: Транспорт воситаларига йўлнинг ўнг томони ёқасида, у бўлмаганда эса қатнов қисмининг четида ва ушбу Қоидаларнинг 89-бандида кўрсатилган ҳолларда тротуарда тўхташ ва тўхтаб туришга рухсат этилади.\nАҳоли пунктларида ўртада трамвай йўли бўлмаган, ҳар йўналишда биттадан тасмаси бўлган, шунингдек бир томонлама ҳаракат ташкил этилган йўлларда йўлнинг чап томонида тўхташ ва тўхтаб туришга рухсат этилади."
-                                 }
-                     }
+{
+    "questionId": 288,
+    "image": "data/images/q0288.webp",
+    "translations": {
+        "uz": {
+            "text": "Ko'rsatilgan joyda to'xtashga ruxsat etiladimi?",
+            "options": [
+                "F1. Ruxsat etiladi",
+                "F2. Taqiqlanadi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 13-bobi 88-bandining birinchi xatboshisiga asosan: Transport vositalariga yoʻlning oʻng tomoni yoqasida, u boʻlmaganda esa qatnov qismining chetida va ushbu Qoidalarning 89-bandida ko'rsatilgan hollarda trotuarda to'xtash va toʻxtab turishga ruxsat etiladi.\nAholi punktlarida o'rtada tramvay yo'li bo'lmagan, har yo'nalishda bittadan tasmasi bo'lgan, shuningdek bir tomonlama harakat tashkil etilgan yo'llarda yo'lning chap tomonida to'xtash va to'xtab turishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "Разрешается ли остановка в указанном месте?",
+            "options": [
+                "F1. Разрешается",
+                "F2. Запрещается"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункт 88 главы 13 ПДД гласит: В населенных пунктах остановка и стоянка допускается на левой стороне дорог не менее с одной полосой движения в каждом направлении и не имеющих трамвайных путей посередине, только с односторонним движением."
+        },
+        "uzk": {
+            "text": "Кўрсатилган жойда тўхташга рухсат этиладими?",
+            "options": [
+                "F1. Рухсат этилади",
+                "F2. Тақиқланади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 13-боби 88-бандининг биринчи хатбошисига асосан: Транспорт воситаларига йўлнинг ўнг томони ёқасида, у бўлмаганда эса қатнов қисмининг четида ва ушбу Қоидаларнинг 89-бандида кўрсатилган ҳолларда тротуарда тўхташ ва тўхтаб туришга рухсат этилади.\nАҳоли пунктларида ўртада трамвай йўли бўлмаган, ҳар йўналишда биттадан тасмаси бўлган, шунингдек бир томонлама ҳаракат ташкил этилган йўлларда йўлнинг чап томонида тўхташ ва тўхтаб туришга рухсат этилади."
+        }
+    }
 }

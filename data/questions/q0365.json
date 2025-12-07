@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  365,
-    "image":  "data/images/q0365.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Tramvay haydovchisi harakatlanayotganida svetoforning ushbu ishorasiga muvofiq boshqa yo\u0027nalishlardan harakatlanayotgan transport vositalariga yo\u0027l berishi kerakmi?",
-                                    "options":  [
-                                                    "F1. Kerak",
-                                                    "F2. Kerak emas"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 15-bobi 100-bandiga asosan: Svetoforning qizil yoki sariq ishorasi bilan bir vaqtda yongan qo\u0027shimcha tarmoqning yo\u0027naltirgichli yashil ishorasi yo\u0027nalishida harakatlanayotgan transport vositasining haydovchisi boshqa yo\u0027nalishlarda harakatlanayotgan transport vositalariga yoʻl berishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Должен ли водитель трамвая при движении на данный сигнал светофора уступить дорогу транспортным средствам, движущимся с других направлений?",
-                                    "options":  [
-                                                    "F1. Должен",
-                                                    "F2. Не должен"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 100 главы 15 ПДД, гласит: При движении в направлении зеленой стрелки, включенной в дополнительной секции одновременно с желтым или красным сигналом светофора, водитель транспортного средства должен уступить дорогу транспортным средствам, движущимся с других направлений."
-                                },
-                         "uzk":  {
-                                     "text":  "Трамвай ҳайдовчиси ҳаракатланаётганида светофорнинг ушбу ишорасига мувофиқ бошқа йўналишлардан ҳаракатланаётган транспорт воситаларига йўл бериши керакми?",
-                                     "options":  [
-                                                     "F1. Kерак",
-                                                     "F2. Керак эмас"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 15-боби 100-бандига асосан: Светофорнинг қизил ёки сариқ ишораси билан бир вақтда ёнган қўшимча тармоқнинг йўналтиргичли яшил ишораси йўналишида ҳаракатланаётган транспорт воситасининг ҳайдовчиси бошқа йўналишларда ҳаракатланаётган транспорт воситаларига йўл бериши керак."
-                                 }
-                     }
+{
+    "questionId": 365,
+    "image": "data/images/q0365.webp",
+    "translations": {
+        "uz": {
+            "text": "Tramvay haydovchisi harakatlanayotganida svetoforning ushbu ishorasiga muvofiq boshqa yo'nalishlardan harakatlanayotgan transport vositalariga yo'l berishi kerakmi?",
+            "options": [
+                "F1. Kerak",
+                "F2. Kerak emas"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 15-bobi 100-bandiga asosan: Svetoforning qizil yoki sariq ishorasi bilan bir vaqtda yongan qo'shimcha tarmoqning yo'naltirgichli yashil ishorasi yo'nalishida harakatlanayotgan transport vositasining haydovchisi boshqa yo'nalishlarda harakatlanayotgan transport vositalariga yoʻl berishi kerak."
+        },
+        "ru": {
+            "text": "Должен ли водитель трамвая при движении на данный сигнал светофора уступить дорогу транспортным средствам, движущимся с других направлений?",
+            "options": [
+                "F1. Должен",
+                "F2. Не должен"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 100 главы 15 ПДД, гласит: При движении в направлении зеленой стрелки, включенной в дополнительной секции одновременно с желтым или красным сигналом светофора, водитель транспортного средства должен уступить дорогу транспортным средствам, движущимся с других направлений."
+        },
+        "uzk": {
+            "text": "Трамвай ҳайдовчиси ҳаракатланаётганида светофорнинг ушбу ишорасига мувофиқ бошқа йўналишлардан ҳаракатланаётган транспорт воситаларига йўл бериши керакми?",
+            "options": [
+                "F1. Kерак",
+                "F2. Керак эмас"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 15-боби 100-бандига асосан: Светофорнинг қизил ёки сариқ ишораси билан бир вақтда ёнган қўшимча тармоқнинг йўналтиргичли яшил ишораси йўналишида ҳаракатланаётган транспорт воситасининг ҳайдовчиси бошқа йўналишларда ҳаракатланаётган транспорт воситаларига йўл бериши керак."
+        }
+    }
 }

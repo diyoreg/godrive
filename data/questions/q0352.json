@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  352,
-    "image":  "data/images/q0352.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Belgilarning qaysi biri ogohlantiruvchi belgilar bilan qayd etilgan xavfli yo\u0027l qismining uzunligini ko\u0027rsatadi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "YHQ 1-ilovasi 7-boʻlimining beshinchi xatboshisiga asosan: 7.2.1. «Ta\u0027sir oralig\u0027i». Ogohlantiruvchi belgilar bilan belgilangan xavfli joyning uzunligini yoki taqiqlovchi va axborot-ko\u0027rsatkich belgilarining ta\u0027sir oraligʻini koʻrsatadi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой из знаков указывает протяженность опасного участка дороги, обозначенного предупреждающими знаками?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Дополнительный знак 7.2.1 раздела 7 приложения № 1 к ПДД, «Зона действия» указывает зону действия предупреждающих, запрещающих, предписывающих и информационно- указательных знаков. Примечание: если под предупреждающими, запрещающими, предписывающими, информационно- указательными дорожными знаками установлен знак 7.2.1, указывающий протяженность или зону действия знака, устанавливать дополнительный знак, указывающий конец зоны его действия, не обязательно."
-                                },
-                         "uzk":  {
-                                     "text":  "Белгиларнинг қайси бири огоҳлантирувчи белгилар билан қайд этилган хавфли йўл қисмининг узунлигини кўрсатади?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ЙҲҚ 1-иловаси 7-бўлимининг бешинчи хатбошисига асосан: 7.2.1. «Таъсир оралиги». Огоҳлантирувчи белгилар билан белгиланган хавфли жойнинг узунлигини ёки тақиқловчи ва ахборот-кўрсаткич белгиларининг таъсир оралиғини кўрсатади."
-                                 }
-                     }
+{
+    "questionId": 352,
+    "image": "data/images/q0352.webp",
+    "translations": {
+        "uz": {
+            "text": "Belgilarning qaysi biri ogohlantiruvchi belgilar bilan qayd etilgan xavfli yo'l qismining uzunligini ko'rsatadi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 1-ilovasi 7-boʻlimining beshinchi xatboshisiga asosan: 7.2.1. «Ta'sir oralig'i». Ogohlantiruvchi belgilar bilan belgilangan xavfli joyning uzunligini yoki taqiqlovchi va axborot-ko'rsatkich belgilarining ta'sir oraligʻini koʻrsatadi."
+        },
+        "ru": {
+            "text": "Какой из знаков указывает протяженность опасного участка дороги, обозначенного предупреждающими знаками?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Дополнительный знак 7.2.1 раздела 7 приложения № 1 к ПДД, «Зона действия» указывает зону действия предупреждающих, запрещающих, предписывающих и информационно- указательных знаков. Примечание: если под предупреждающими, запрещающими, предписывающими, информационно- указательными дорожными знаками установлен знак 7.2.1, указывающий протяженность или зону действия знака, устанавливать дополнительный знак, указывающий конец зоны его действия, не обязательно."
+        },
+        "uzk": {
+            "text": "Белгиларнинг қайси бири огоҳлантирувчи белгилар билан қайд этилган хавфли йўл қисмининг узунлигини кўрсатади?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 1-иловаси 7-бўлимининг бешинчи хатбошисига асосан: 7.2.1. «Таъсир оралиги». Огоҳлантирувчи белгилар билан белгиланган хавфли жойнинг узунлигини ёки тақиқловчи ва ахборот-кўрсаткич белгиларининг таъсир оралиғини кўрсатади."
+        }
+    }
 }

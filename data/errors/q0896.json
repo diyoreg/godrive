@@ -1,0 +1,33 @@
+{
+    "questionId": 896,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Yo'l harakati qatnashchilarining yo'l-transport hodisalari va ularning oqibatlaridan himoyalanganlik darajasini aks ettiruvchi yo'l harakati holati",
+                "F2. Yo'l-transport hodisalarining kelib chiqish sabablarini oldini olishga, ularning og'ir oqibatlarini kamaytirishga qaratilgan faoliyat"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilova Umumiy qoidalar: Yo'l harakati xavfsizligi — yo'l harakati qatnashchilarining yo'l-transport hodisalari va ularning oqibatlaridan himoyalanganlik darajasini aks ettiruvchi yo'l harakati holati."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Состояние дорожного движения, отражающее степень защищенности его участников от дорожно-транспортных происшествий и их последствий",
+                "F2. Деятельность, направленная на предупреждение причин возникновения дорожно-транспортных происшествий, снижение тяжести их последствий"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения: Безопасность дорожного движения — состояние дорожного движения, отражающее степень защищенности его участников от дорожно-транспортных происшествий и их последствий."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Йўл ҳаракати қатнашчиларининг йўл-транспорт ҳодисалари ва уларнинг оқибатларидан ҳимояланганлик даражасини акс еттирувчи йўл ҳаракати ҳолати",
+                "F2. Йўл-транспорт ҳодисаларининг келиб чиқиш сабабларини олдини олишга, уларнинг оғир оқибатларини камайтиришга қаратилган фаолият"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-илова Умумий қоидалар: Йўл ҳаракати хавфсизлиги — йўл ҳаракати қатнашчиларининг йўл-транспорт ҳодисалари ва уларнинг оқибатларидан ҳимояланганлик даражасини акс еттирувчи йўл ҳаракати ҳолати."
+        }
+    }
+}

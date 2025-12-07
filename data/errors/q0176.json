@@ -1,0 +1,36 @@
+{
+    "questionId": 176,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Kunning qorong'u vaqtida yo'lning yoritilmagan qismlarida harakatlanayotganda mexanik transport vositasining qaysi chiroqlari yoqilgan bo'lishi kerak?",
+            "options": [
+                "F1. Yaqinni yoki uzoqni yorituvchi faralar",
+                "F2. Faqat yaqinni yorituvchi faralar",
+                "F3. Faqat uzoqni yorituvchi faralar"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 23-bobi 134-bandining birinchi va ikkinchi xatboshilariga asosan: Qorong'i vaqtda va yetarlicha ko'rinmaydigan sharoitda, shuningdek yoʻlning yoritilganligidan qat'i nazar, tunnellarda harakatlanayotgan transport vositalarida quyidagi yoritish asboblari yoqilgan bo'lishi kerak: barcha mexanik transport vositalari — uzoqni yoki yaqinni yorituvchi chiroqlar."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Ближний или дальний свет фар",
+                "F2. Только ближний свет фар",
+                "F3. Только дальний свет фар"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 134 главы 23 ПДД гласит: В темное время суток и в условиях недостаточной видимости, а также в тоннелях на всех движущихся транспортных средствах должны быть включены: - на неосвещенных участках дороги ближний или дальний свет фар;\n- на освещенных участках дороги - ближний свет фар; - на прицепах, независимо от освещения дороги - габаритные огни."
+        },
+        "uzk": {
+            "text": "Куннинг қоронғу вақтида йўлнинг ёритилмаган қисмларида ҳаракатланаётганда механик транспорт воситасининг қайси чироқлари ёқилган бўлиши керак?",
+            "options": [
+                "F1. Яқинни ёки узоқни ёритувчи фаралар",
+                "F2. фақат яқинни ёритувчи фаралар",
+                "F3. Фақат узоқни ёритувчи фаралар"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 23-боби 134-бандининг биринчи ва иккинчи хатбошиларига асосан: Қоронғи вақтда ва етарлича кўринмайдиган шароитда, шунингдек йўлнинг ёритилганлигидан қатъи назар, туннелларда ҳаракатланаётган транспорт воситаларида қуйидаги ёритиш асбоблари ёқилган бўлиши керак: барча механик транспорт воситалари — узоқни ёки яқинни ёритувчи чироқлар."
+        }
+    }
+}

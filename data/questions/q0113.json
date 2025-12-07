@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  113,
-    "image":  "data/images/q0113.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Haydovchiga transport vositalarining to\u0027xtab turish joylari chegarasini bildiradigan uzluksiz chiziqni kesib o\u0027tishga ruxsat etiladimi?",
-                                    "options":  [
-                                                    "F1. To\u0027xtash uchun ruxsat etiladi",
-                                                    "F2. Taqiqlanadi",
-                                                    "F3. Kirish va chiqish uchun ruxsat etiladi",
-                                                    "F4. Hamma hollarda ruxsat etiladi, agar to\u0027xtab turish joyida boshqa transport vositalari yo\u0027q bo\u0027lsa"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining uchinchi va o\u0027ttiz to\u0027rtinchi xatboshlariga asosan: 1.1— qarama-qarshi yo\u0027nalishlarda harakatlanayotgan transport oqimlarini ajratadi, yoʻlning xavfli joylaridagi harakatlanish bo\u0027lagi chegarasini bildiradi; yo\u0027lning kirish taqiqlangan qismi chegarasini belgilaydi;\ntransport vositalarining to\u0027xtab turish joyi chegarasini hamda avtomagistral qatoriga kiritilmagan yoʻlning qatnov qismi chegarasini bildiradi. 1.1 va 1.3 chiziqlarini bosib o\u0027tish taqiqlanadi, qatnov qismining chetini bildirish uchun qoʻllanilgan 1.1 chizigʻi bundan mustasno."
-                                },
-                         "ru":  {
-                                    "text":  "Разрешается ли водителю пересекать сплошную линию разметки, обозначающую границы стояночных мест транспортных средств?",
-                                    "options":  [
-                                                    "F1. Разрешается для остановки",
-                                                    "F2. Запрещается",
-                                                    "F3. Разрешается для въезда и выезда",
-                                                    "F4. Разрешается в любом случае, если на стоянке нет других транспортных средств"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Горизонтальная разметка 1.1 - разделяет транспортные потоки противоположных направлений и обозначает границы полос движения в опасных местах на дорогах;\nобозначает границы проезжей части, на которые въезд запрещен;\nобозначает границы стояночных мест транспортных средств и край проезжей части дорог, не отнесенных по условиям движения к автомагистралям. Линию 1.1 пересекать запрещается, кроме случая, когда линия 1.1 применена для обозначения края проезжей части."
-                                },
-                         "uzk":  {
-                                     "text":  "Ҳайдовчига транспорт воситаларининг тўхтаб туриш жойлари чегарасини билдирадиган узлуксиз чизиқни кесиб ўтишга рухсат этиладими?",
-                                     "options":  [
-                                                     "F1. Тўхташ учун рухсат этилади",
-                                                     "F2. Тақиқланади",
-                                                     "F3. Кириш ва чикиш учун рухсат этилади",
-                                                     "F4. Ҳамма ҳолларда рухсат этилади, агар тўхтаб туриш жойида бошқа транспорт воситалари йўқ бўлса"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг учинчи ва ўттиз тўртинчи хатбошларига асосан: 1.1 — қарама-қарши йўналишларда ҳаракатланаётган транспорт оқимларини ажратади, йўлнинг хавфли жойларидаги ҳаракатланиш бўлаги чегарасини билдиради;\nйўлнинг кириш тақиқланган қисми чегарасини белгилайди;\nтранспорт воситаларининг тўхтаб туриш жойи чегарасини ҳамда автомагистрал қаторига киритилмаган йўлнинг қатнов қисми чегарасини билдиради. 1.1 ва 1.3 чизиқларини босиб ўтиш тақиқланади, қатнов қисмининг четини билдириш учун қўлланилган 1.1 чизиғи бундан мустасно."
-                                 }
-                     }
+{
+    "questionId": 113,
+    "image": "data/images/q0113.webp",
+    "translations": {
+        "uz": {
+            "text": "Haydovchiga transport vositalarining to'xtab turish joylari chegarasini bildiradigan uzluksiz chiziqni kesib o'tishga ruxsat etiladimi?",
+            "options": [
+                "F1. To'xtash uchun ruxsat etiladi",
+                "F2. Taqiqlanadi",
+                "F3. Kirish va chiqish uchun ruxsat etiladi",
+                "F4. Hamma hollarda ruxsat etiladi, agar to'xtab turish joyida boshqa transport vositalari yo'q bo'lsa"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2-ilovasi 1-bo'limining uchinchi va o'ttiz to'rtinchi xatboshlariga asosan: 1.1— qarama-qarshi yo'nalishlarda harakatlanayotgan transport oqimlarini ajratadi, yoʻlning xavfli joylaridagi harakatlanish bo'lagi chegarasini bildiradi; yo'lning kirish taqiqlangan qismi chegarasini belgilaydi;\ntransport vositalarining to'xtab turish joyi chegarasini hamda avtomagistral qatoriga kiritilmagan yoʻlning qatnov qismi chegarasini bildiradi. 1.1 va 1.3 chiziqlarini bosib o'tish taqiqlanadi, qatnov qismining chetini bildirish uchun qoʻllanilgan 1.1 chizigʻi bundan mustasno."
+        },
+        "ru": {
+            "text": "Разрешается ли водителю пересекать сплошную линию разметки, обозначающую границы стояночных мест транспортных средств?",
+            "options": [
+                "F1. Разрешается для остановки",
+                "F2. Запрещается",
+                "F3. Разрешается для въезда и выезда",
+                "F4. Разрешается в любом случае, если на стоянке нет других транспортных средств"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Горизонтальная разметка 1.1 - разделяет транспортные потоки противоположных направлений и обозначает границы полос движения в опасных местах на дорогах;\nобозначает границы проезжей части, на которые въезд запрещен;\nобозначает границы стояночных мест транспортных средств и край проезжей части дорог, не отнесенных по условиям движения к автомагистралям. Линию 1.1 пересекать запрещается, кроме случая, когда линия 1.1 применена для обозначения края проезжей части."
+        },
+        "uzk": {
+            "text": "Ҳайдовчига транспорт воситаларининг тўхтаб туриш жойлари чегарасини билдирадиган узлуксиз чизиқни кесиб ўтишга рухсат этиладими?",
+            "options": [
+                "F1. Тўхташ учун рухсат этилади",
+                "F2. Тақиқланади",
+                "F3. Кириш ва чикиш учун рухсат этилади",
+                "F4. Ҳамма ҳолларда рухсат этилади, агар тўхтаб туриш жойида бошқа транспорт воситалари йўқ бўлса"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2-иловаси 1-бўлимининг учинчи ва ўттиз тўртинчи хатбошларига асосан: 1.1 — қарама-қарши йўналишларда ҳаракатланаётган транспорт оқимларини ажратади, йўлнинг хавфли жойларидаги ҳаракатланиш бўлаги чегарасини билдиради;\nйўлнинг кириш тақиқланган қисми чегарасини белгилайди;\nтранспорт воситаларининг тўхтаб туриш жойи чегарасини ҳамда автомагистрал қаторига киритилмаган йўлнинг қатнов қисми чегарасини билдиради. 1.1 ва 1.3 чизиқларини босиб ўтиш тақиқланади, қатнов қисмининг четини билдириш учун қўлланилган 1.1 чизиғи бундан мустасно."
+        }
+    }
 }

@@ -1,0 +1,33 @@
+{
+    "questionId": 626,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Belgida ko'rsatilgan tezlikdan oshirishga faqat tezlik tegishli yo'l belgisi o'rnatilib oshirilgan yo'l qismlarida ruxsat beriladi",
+                "F2. Belgida ko'rsatilgan tezlikdan oshirish taqiqlanadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 11-bobi 81-bandining ikkinchi xatboshisiga asosan, haydovchilarga quyidagilar taqiqlanadi: tezlikni transport vositasiga o'rnatilgan «Tezlik cheklangan» taniqlik belgisida ko'rsatilganidan oshirish."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Разрешается превышать указанную на знаке скорость только на участках дорог, где скорость движения повышена установкой соответствующего дорожного знака",
+                "F2. Запрещается превышать указанную на знаке скорость"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Aбзацу 2 пункта 81 главы 11 ПДД, гласит: водителю запрещается: превышать скорость, указанную на опознавательном знаке «Ограничение скорости»,\nустановленном на транспортном средстве."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Белгида кўрсатилган тезликдан оширишга фақат тезлик тегишли йўл белгиси ўрнатилиб оширилган йўл қисмларида рухсат берилади",
+                "F2. Белгида кўрсатилган тезликдан ошириш тақиқланади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 11-боби 81-бандининг иккинчи хатбошисига асосан, ҳайдовчиларга қуйидагилар тақиқланади: тезликни транспорт воситасига ўрнатилган «Тезлик чекланган» таниқлик белгисида кўрсатилганидан ошириш."
+        }
+    }
+}

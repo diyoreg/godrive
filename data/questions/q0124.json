@@ -3,7 +3,7 @@
     "image": "data/images/defaultpic.jpg",
     "translations": {
         "uz": {
-            "text": "Текст вопроса не найден",
+            "text": "Temir yo'l kesishmasida umumiy xatar ishorasi sifatida quyidagi ishoralar turkumi xizmat qiladi:",
             "options": [
                 "F1. Ikkita uzun va ikkita qisqa tovush ishoralari",
                 "F2. Bitta uzun va uchta qisqa tovush ishoralari",
@@ -14,7 +14,7 @@
             "explanation": "YHQ 18-bobi 120-bandining yettinchi xatboshisiga asosan: Umumiy xatar ishorasi bo'lib, berilgan bitta uzun va uchta qisqa tovush seriyasi xizmat qiladi."
         },
         "ru": {
-            "text": "Текст вопроса не найден",
+            "text": "Звуковым сигналом общей тревоги на железнодорожном переезде служат серия из:",
             "options": [
                 "F1. Двух длинных и двух коротких сигналов",
                 "F2. Одного длинного и трех коротких сигналов",
@@ -25,7 +25,7 @@
             "explanation": "Пункта 120 главы 18 ПДД, гласит: (\"Движение через железнодорожные переезды\") сказано, что сигнал общей тревоги подается при помощи одного длинного и трех коротких звуковых сигналов."
         },
         "uzk": {
-            "text": "Текст вопроса не найден",
+            "text": "Темир йўл кесишмасида умумий хатар ишораси сифатида қуйидаги ишоралар туркуми хизмат қилади:",
             "options": [
                 "F1. Иккита узун ва иккита қиска товуш ишоралари",
                 "F2. Битта узун ва учта киска товуш ишоралари",

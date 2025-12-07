@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  1105,
-    "image":  "data/images/q1105.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu belgi qanday nomlanadi?",
-                                    "options":  [
-                                                    "F1. To\u0027xtab turish joyi",
-                                                    "F2. Pullik to\u0027xtab turish joyi",
-                                                    "F3. Yer usti avtomobil qo\u0027yish joyi",
-                                                    "F4. Yer osti avtomobil qo\u0027yish joyi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1 ilova: 5.15.1. “Pullik to\u0027xtab turish joyi”."
-                                },
-                         "ru":  {
-                                    "text":  "Как называется этот знак?",
-                                    "options":  [
-                                                    "F1. Место стоянки",
-                                                    "F2. Платная стоянка",
-                                                    "F3. Надземная автомобильная стоянка",
-                                                    "F4. Подземная автомобильная стоянка"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "ПДД приложение № 1: 5.15.1 Платная стоянка"
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу белги қандай номланади?",
-                                     "options":  [
-                                                     "F1. Тўхтаб туриш жойи",
-                                                     "F2. Пуллик тўхтаб туриш жойи",
-                                                     "F3. Ер усти автомобил қўйиш жойи",
-                                                     "F4. Ер ости автомобил қўйиш жойи"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1 илова: 5.15.1. “Пуллик тўхтаб туриш жойи”."
-                                 }
-                     }
+{
+    "questionId": 1105,
+    "image": "data/images/q1105.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu belgi qanday nomlanadi?",
+            "options": [
+                "F1. To'xtab turish joyi",
+                "F2. Pullik to'xtab turish joyi",
+                "F3. Yer usti avtomobil qo'yish joyi",
+                "F4. Yer osti avtomobil qo'yish joyi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1 ilova: 5.15.1. “Pullik to'xtab turish joyi”."
+        },
+        "ru": {
+            "text": "Как называется этот знак?",
+            "options": [
+                "F1. Место стоянки",
+                "F2. Платная стоянка",
+                "F3. Надземная автомобильная стоянка",
+                "F4. Подземная автомобильная стоянка"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД приложение № 1: 5.15.1 Платная стоянка"
+        },
+        "uzk": {
+            "text": "Ушбу белги қандай номланади?",
+            "options": [
+                "F1. Тўхтаб туриш жойи",
+                "F2. Пуллик тўхтаб туриш жойи",
+                "F3. Ер усти автомобил қўйиш жойи",
+                "F4. Ер ости автомобил қўйиш жойи"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1 илова: 5.15.1. “Пуллик тўхтаб туриш жойи”."
+        }
+    }
 }

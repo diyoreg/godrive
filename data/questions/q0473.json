@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  473,
-    "image":  "data/images/q0473.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu tik chizig\u0027i nimani bildiradi?",
-                                    "options":  [
-                                                    "F1. Yo\u0027lning xavfli joylaridagi harakatlanish bo\u0027lagi yuzasini bildiradi",
-                                                    "F2. Yo\u0027lning boshqa qismlarida yo\u0027l chetidagi to\u0027siqlarning yon chegarasini belgilaydi",
-                                                    "F3. Xavfli yo\u0027l qismlarida bordyurlarni belgilaydi",
-                                                    "F4. Yo\u0027naltiruvchi ustunchalar, beton yoki temir-beton ustunchalar, to\u0027siq ustunchalari va shunga o\u0027xshashlarni belgilaydi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 2-ilovasi 2-bo\u0027limining yettinchi xatboshisiga asosan: 2.6 — boshqa joylardagi to\u0027siqlarning yon yuzalarini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Что обозначает эта вертикальная разметка?",
-                                    "options":  [
-                                                    "F1. Обозначает границы полос движения в опасных местах на дорогах",
-                                                    "F2. Обозначает боковые поверхности ограждений дорог на дорогах участках",
-                                                    "F3. Обозначает бордюры на опасных участках",
-                                                    "F4. Обозначает направляющие столбики, надолбы, опоры ограждений и т.п"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Вертикальная разметка 2.6 - обозначает боковые поверхности ограждения дорог на других участках."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу тик чизиғи нимани билдиради?",
-                                     "options":  [
-                                                     "F1. Йўлнинг хавфли жойларидаги ҳаракатланиш бўлаги юзасини билдиради",
-                                                     "F2. Йўлнинг бошқа қисмларида йўл четидаги тўсиқларнинг ён чегарасини белгилайди",
-                                                     "F3. Хавфли йўл қисмларида бордюрларни белгилайди",
-                                                     "F4. Йўналтирувчи устунчалар, бетон ëки темир бетон устунчалар, тўсик устунчалари ва шунга ўхшашларни белгилайди"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 2-иловаси 2-бўлимининг еттинчи хатбошисига асосан: 2.6 — бошқа жойлардаги тўсиқларнинг ён юзаларини билдиради."
-                                 }
-                     }
+{
+    "questionId": 473,
+    "image": "data/images/q0473.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu tik chizig'i nimani bildiradi?",
+            "options": [
+                "F1. Yo'lning xavfli joylaridagi harakatlanish bo'lagi yuzasini bildiradi",
+                "F2. Yo'lning boshqa qismlarida yo'l chetidagi to'siqlarning yon chegarasini belgilaydi",
+                "F3. Xavfli yo'l qismlarida bordyurlarni belgilaydi",
+                "F4. Yo'naltiruvchi ustunchalar, beton yoki temir-beton ustunchalar, to'siq ustunchalari va shunga o'xshashlarni belgilaydi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2-ilovasi 2-bo'limining yettinchi xatboshisiga asosan: 2.6 — boshqa joylardagi to'siqlarning yon yuzalarini bildiradi."
+        },
+        "ru": {
+            "text": "Что обозначает эта вертикальная разметка?",
+            "options": [
+                "F1. Обозначает границы полос движения в опасных местах на дорогах",
+                "F2. Обозначает боковые поверхности ограждений дорог на дорогах участках",
+                "F3. Обозначает бордюры на опасных участках",
+                "F4. Обозначает направляющие столбики, надолбы, опоры ограждений и т.п"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Вертикальная разметка 2.6 - обозначает боковые поверхности ограждения дорог на других участках."
+        },
+        "uzk": {
+            "text": "Ушбу тик чизиғи нимани билдиради?",
+            "options": [
+                "F1. Йўлнинг хавфли жойларидаги ҳаракатланиш бўлаги юзасини билдиради",
+                "F2. Йўлнинг бошқа қисмларида йўл четидаги тўсиқларнинг ён чегарасини белгилайди",
+                "F3. Хавфли йўл қисмларида бордюрларни белгилайди",
+                "F4. Йўналтирувчи устунчалар, бетон ëки темир бетон устунчалар, тўсик устунчалари ва шунга ўхшашларни белгилайди"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2-иловаси 2-бўлимининг еттинчи хатбошисига асосан: 2.6 — бошқа жойлардаги тўсиқларнинг ён юзаларини билдиради."
+        }
+    }
 }

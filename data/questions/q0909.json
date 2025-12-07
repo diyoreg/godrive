@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  909,
-    "image":  "data/images/q0909.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qanday hollarda sizga 50 km/s dan yuqori tezlikda harakatlanish taqiqlangan?",
-                                    "options":  [
-                                                    "F1. Faqat qatnov qismi nam bo\u0027lsa",
-                                                    "F2. Har qanday holatda ham"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1 ilova: 3.24. «Yuqori tezlik cheklangan». Belgida ko\u0027rsatilganidan ortiq tezlikda (km/s) harakatlanish taqiqlanishini bildiradi. 7.16. «Nam qoplama». Belgi qatnov qismining qoplamasi nam boʻlgan vaqtda ta\u0027sir etishini koʻrsatadi."
-                                },
-                         "ru":  {
-                                    "text":  "В каких случаях запрещается движение со скоростью Выше 50 км/с?",
-                                    "options":  [
-                                                    "F1. Только если дорога мокрая",
-                                                    "F2. В любом случае"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "ПДД приложение № 1: 3.24. «Ограничение максимальной скорости». Запрещается движение со скоростью (км/ч), превышающей указанную на знаке. 7.16. «Влажное покрытие». Указывает, что действие знака распространяется на период времени, когда покрытие проезжей части влажное."
-                                },
-                         "uzk":  {
-                                     "text":  "Қандай ҳолларда сизга 50 км/с дан юқори тезликда ҳаракатланиш тақиқланган?",
-                                     "options":  [
-                                                     "F1. Фақат қатнов қисми нам бўлса",
-                                                     "F2. Ҳар қандай ҳолатда ҳам"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1 илова: 3.24. «Юқори тезлик чекланган». Белгида кўрсатилганидан ортиқ тезликда (км/с) ҳаракатланиш тақиқланишини билдиради. 7.16. «Нам коплама». Белги қатнов қисмининг қопламаси нам бўлган вақтда таъсир этишини кўрсатади."
-                                 }
-                     }
+{
+    "questionId": 909,
+    "image": "data/images/q0909.webp",
+    "translations": {
+        "uz": {
+            "text": "Qanday hollarda sizga 50 km/s dan yuqori tezlikda harakatlanish taqiqlangan?",
+            "options": [
+                "F1. Faqat qatnov qismi nam bo'lsa",
+                "F2. Har qanday holatda ham"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1 ilova: 3.24. «Yuqori tezlik cheklangan». Belgida ko'rsatilganidan ortiq tezlikda (km/s) harakatlanish taqiqlanishini bildiradi. 7.16. «Nam qoplama». Belgi qatnov qismining qoplamasi nam boʻlgan vaqtda ta'sir etishini koʻrsatadi."
+        },
+        "ru": {
+            "text": "В каких случаях запрещается движение со скоростью Выше 50 км/с?",
+            "options": [
+                "F1. Только если дорога мокрая",
+                "F2. В любом случае"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД приложение № 1: 3.24. «Ограничение максимальной скорости». Запрещается движение со скоростью (км/ч), превышающей указанную на знаке. 7.16. «Влажное покрытие». Указывает, что действие знака распространяется на период времени, когда покрытие проезжей части влажное."
+        },
+        "uzk": {
+            "text": "Қандай ҳолларда сизга 50 км/с дан юқори тезликда ҳаракатланиш тақиқланган?",
+            "options": [
+                "F1. Фақат қатнов қисми нам бўлса",
+                "F2. Ҳар қандай ҳолатда ҳам"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1 илова: 3.24. «Юқори тезлик чекланган». Белгида кўрсатилганидан ортиқ тезликда (км/с) ҳаракатланиш тақиқланишини билдиради. 7.16. «Нам коплама». Белги қатнов қисмининг қопламаси нам бўлган вақтда таъсир этишини кўрсатади."
+        }
+    }
 }

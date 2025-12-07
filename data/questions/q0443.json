@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  443,
-    "image":  "data/images/q0443.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Bu yo\u0027l belgisi nimani bildiradi?",
-                                    "options":  [
-                                                    "F1. Yo\u0027l (marshrut) raqamini ko\u0027rsatadi",
-                                                    "F2. Eng yaqin aholi yashaydigan joygacha bo\u0027lgan masofani ko\u0027rsatadi",
-                                                    "F3. DANning eng yaqin postigacha bo\u0027lgan masofani ko\u0027rsatadi",
-                                                    "F4. «Kilometr belgisi» vazifasini bajaradi"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1-ilovasi 5-bo\u0027limining qirq yettinchi xatboshisiga asosan: 5.29.1. «Yo\u0027l raqami». 5.29.1 — yo\u0027lga berilgan raqamini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Что обозначает эта дорожная разметка?",
-                                    "options":  [
-                                                    "F1. Указывает номер дороги (маршрута)",
-                                                    "F2. Указывает расстояние до ближайшего населенного пункта",
-                                                    "F3. Указывает расстояние до ближайшего поста ГСБДД",
-                                                    "F4. Дублирует «Километровый знак»"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Знак 5.29 «Номер дороги» раздела 5 приложения № 1 к ПДД."
-                                },
-                         "uzk":  {
-                                     "text":  "Бу йўл белгиси нимани билдиради?",
-                                     "options":  [
-                                                     "F1. Йўл (маршрут) рақамини кўрсатади",
-                                                     "F2. Энг яқин аҳоли яшайдиган жойгача бўлган масофани кўрсатади",
-                                                     "F3. ДАНнинг энг яқин постигача бўлган масофани кўрсатади",
-                                                     "F4. «Километр белгиси» вазифасини бажаради"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1-иловаси 5-бўлимининг қирқ еттинчи хатбошисига асосан: 5.29.1. «Иул раками». 5.29.1 — йўлга берилган ракамини билдиради."
-                                 }
-                     }
+{
+    "questionId": 443,
+    "image": "data/images/q0443.webp",
+    "translations": {
+        "uz": {
+            "text": "Bu yo'l belgisi nimani bildiradi?",
+            "options": [
+                "F1. Yo'l (marshrut) raqamini ko'rsatadi",
+                "F2. Eng yaqin aholi yashaydigan joygacha bo'lgan masofani ko'rsatadi",
+                "F3. DANning eng yaqin postigacha bo'lgan masofani ko'rsatadi",
+                "F4. «Kilometr belgisi» vazifasini bajaradi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilovasi 5-bo'limining qirq yettinchi xatboshisiga asosan: 5.29.1. «Yo'l raqami». 5.29.1 — yo'lga berilgan raqamini bildiradi."
+        },
+        "ru": {
+            "text": "Что обозначает эта дорожная разметка?",
+            "options": [
+                "F1. Указывает номер дороги (маршрута)",
+                "F2. Указывает расстояние до ближайшего населенного пункта",
+                "F3. Указывает расстояние до ближайшего поста ГСБДД",
+                "F4. Дублирует «Километровый знак»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Знак 5.29 «Номер дороги» раздела 5 приложения № 1 к ПДД."
+        },
+        "uzk": {
+            "text": "Бу йўл белгиси нимани билдиради?",
+            "options": [
+                "F1. Йўл (маршрут) рақамини кўрсатади",
+                "F2. Энг яқин аҳоли яшайдиган жойгача бўлган масофани кўрсатади",
+                "F3. ДАНнинг энг яқин постигача бўлган масофани кўрсатади",
+                "F4. «Километр белгиси» вазифасини бажаради"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-иловаси 5-бўлимининг қирқ еттинчи хатбошисига асосан: 5.29.1. «Иул раками». 5.29.1 — йўлга берилган ракамини билдиради."
+        }
+    }
 }

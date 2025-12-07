@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  268,
-    "image":  "data/images/q0268.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu joyda avtomobilning to\u0027xtab turishiga ruxsat etiladimi?",
-                                    "options":  [
-                                                    "F1. Ruxsat etiladi",
-                                                    "F2. Taqiqlanadi"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 13-bobi 88-bandining ikkinchi xatboshisiga asosan: Aholi punktlarida o\u0027rtada tramvay yo\u0027li bo\u0027lmagan, har yo\u0027nalishda bittadan tasmasi bo\u0027lgan, shuningdek bir tomonlama harakat tashkil etilgan yo\u0027llarda yo\u0027lning chap tomonida to\u0027xtash va to\u0027xtab turishga ruxsat etiladi.\nYHQ 13-bobi 91-bandiga asosan: Quyidagilarda to\u0027xtash taqiqlanadi:\nqatnov qismi kesishmalarida va kesishayotgan qatnov qismi chetiga 30 metrdan kam masofada (uch tomonlama kesishadigan chorrahalarda yondan tutashgan yo\u0027lning sidirg\u0027a chiziq yoki ajratuvchi mintaqa bilan ajratilgan qarama-qarshi tomoni bundan mustasno);"
-                                },
-                         "ru":  {
-                                    "text":  "Разрешается ли стоянка автомобиля в этом месте?",
-                                    "options":  [
-                                                    "F1. Разрешается",
-                                                    "F2. Запрещается"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Абзацу 2 пункта 88 главы 13 ПДД, в населенных пунктах остановка и стоянка допускаются на левой стороне дорог с одной полосой движения в каждом направлении и не имеющих трамвайных путей посередине, а так же дорог только с односторонним движением.\nПункта 91 главы 13 ПДД, гласит: Остановка запрещается в следующих местах:\n— на пересечении проезжих частей и ближе 30 м от края пересекаемой проезжей части, за исключением стороны напротив бокового проезда трехсторонних пересечений (перекрестков), имеющих сплошную линию дорожной разметки или разделительную полосу;"
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу жойда автомобилнинг тўхтаб туришига рухсат этиладими?",
-                                     "options":  [
-                                                     "F1. Рухсат этилади",
-                                                     "F2. Тақиқланади"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 13-боби 88-бандининг иккинчи хатбошисига асосан: Аҳоли пунктларида ўртада трамвай йўли бўлмаган, ҳар йўналишда биттадан тасмаси бўлган, шунингдек бир томонлама ҳаракат ташкил этилган йўлларда йўлнинг чап томонида тўхташ ва тўхтаб туришга рухсат этилади.\nЙҲҚ 13-боби 91-бандига асосан: Қуйидагиларда тўхташ тақиқланади:\nқатнов қисми кесишмаларида ва кесишаётган қатнов қисми четига 30 метрдан кам масофада (уч томонлама кесишадиган чорраҳаларда ёндан туташган йўлнинг сидирға чизиқ ёки ажратувчи минтақа билан ажратилган қарама-қарши томони бундан мустасно);"
-                                 }
-                     }
+{
+    "questionId": 268,
+    "image": "data/images/q0268.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu joyda avtomobilning to'xtab turishiga ruxsat etiladimi?",
+            "options": [
+                "F1. Ruxsat etiladi",
+                "F2. Taqiqlanadi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 13-bobi 88-bandining ikkinchi xatboshisiga asosan: Aholi punktlarida o'rtada tramvay yo'li bo'lmagan, har yo'nalishda bittadan tasmasi bo'lgan, shuningdek bir tomonlama harakat tashkil etilgan yo'llarda yo'lning chap tomonida to'xtash va to'xtab turishga ruxsat etiladi.\nYHQ 13-bobi 91-bandiga asosan: Quyidagilarda to'xtash taqiqlanadi:\nqatnov qismi kesishmalarida va kesishayotgan qatnov qismi chetiga 30 metrdan kam masofada (uch tomonlama kesishadigan chorrahalarda yondan tutashgan yo'lning sidirg'a chiziq yoki ajratuvchi mintaqa bilan ajratilgan qarama-qarshi tomoni bundan mustasno);"
+        },
+        "ru": {
+            "text": "Разрешается ли стоянка автомобиля в этом месте?",
+            "options": [
+                "F1. Разрешается",
+                "F2. Запрещается"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Абзацу 2 пункта 88 главы 13 ПДД, в населенных пунктах остановка и стоянка допускаются на левой стороне дорог с одной полосой движения в каждом направлении и не имеющих трамвайных путей посередине, а так же дорог только с односторонним движением.\nПункта 91 главы 13 ПДД, гласит: Остановка запрещается в следующих местах:\n— на пересечении проезжих частей и ближе 30 м от края пересекаемой проезжей части, за исключением стороны напротив бокового проезда трехсторонних пересечений (перекрестков), имеющих сплошную линию дорожной разметки или разделительную полосу;"
+        },
+        "uzk": {
+            "text": "Ушбу жойда автомобилнинг тўхтаб туришига рухсат этиладими?",
+            "options": [
+                "F1. Рухсат этилади",
+                "F2. Тақиқланади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 13-боби 88-бандининг иккинчи хатбошисига асосан: Аҳоли пунктларида ўртада трамвай йўли бўлмаган, ҳар йўналишда биттадан тасмаси бўлган, шунингдек бир томонлама ҳаракат ташкил этилган йўлларда йўлнинг чап томонида тўхташ ва тўхтаб туришга рухсат этилади.\nЙҲҚ 13-боби 91-бандига асосан: Қуйидагиларда тўхташ тақиқланади:\nқатнов қисми кесишмаларида ва кесишаётган қатнов қисми четига 30 метрдан кам масофада (уч томонлама кесишадиган чорраҳаларда ёндан туташган йўлнинг сидирға чизиқ ёки ажратувчи минтақа билан ажратилган қарама-қарши томони бундан мустасно);"
+        }
+    }
 }

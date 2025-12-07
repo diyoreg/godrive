@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  870,
-    "image":  "data/images/q0870.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Yengil avtomobil qaysi yo\u0027nalishlarda harakatlanishga ruxsat etiladi?",
-                                    "options":  [
-                                                    "F1. Faqat o\u0027ngga va chapga",
-                                                    "F2. Istalgan yo\u0027nalishda",
-                                                    "F3. Faqat to\u0027g\u0027riga"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ, 7.4.1 belgi bilan oʻrnatilgan yoʻl belgisining ta\u0027siri yuk tashuvchi, shu jumladan, tirkamali, toʻla vazni 3,5 tonnadan ortiq bo\u0027lgan transport vositalariga tatbiq etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "В каких направлениях разрешено движение автомобиля?",
-                                    "options":  [
-                                                    "F1. Только налево или направо",
-                                                    "F2. В любых направлениях",
-                                                    "F3. Только прямо"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "ПДД, Знак 7.4.1 «Вид транспортного средства». Указывают вид транспортного средства, на который распространяется действие знака."
-                                },
-                         "uzk":  {
-                                     "text":  "Енгил автомобиль қайси йўналишларда ҳаракатланишга рухсат этилади?",
-                                     "options":  [
-                                                     "F1. Фақат ўнгга ва чапга",
-                                                     "F2. Исталган йўналишда",
-                                                     "F3. Фақат тўғрига"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 7.4.1 «Транспорт воситасининг тури», белгиси. Белгининг таъсири жорий этилган транспорт воситалари турини кўрсатади."
-                                 }
-                     }
+{
+    "questionId": 870,
+    "image": "data/images/q0870.webp",
+    "translations": {
+        "uz": {
+            "text": "Yengil avtomobil qaysi yo'nalishlarda harakatlanishga ruxsat etiladi?",
+            "options": [
+                "F1. Faqat o'ngga va chapga",
+                "F2. Istalgan yo'nalishda",
+                "F3. Faqat to'g'riga"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ, 7.4.1 belgi bilan oʻrnatilgan yoʻl belgisining ta'siri yuk tashuvchi, shu jumladan, tirkamali, toʻla vazni 3,5 tonnadan ortiq bo'lgan transport vositalariga tatbiq etiladi."
+        },
+        "ru": {
+            "text": "В каких направлениях разрешено движение автомобиля?",
+            "options": [
+                "F1. Только налево или направо",
+                "F2. В любых направлениях",
+                "F3. Только прямо"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД, Знак 7.4.1 «Вид транспортного средства». Указывают вид транспортного средства, на который распространяется действие знака."
+        },
+        "uzk": {
+            "text": "Енгил автомобиль қайси йўналишларда ҳаракатланишга рухсат этилади?",
+            "options": [
+                "F1. Фақат ўнгга ва чапга",
+                "F2. Исталган йўналишда",
+                "F3. Фақат тўғрига"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 7.4.1 «Транспорт воситасининг тури», белгиси. Белгининг таъсири жорий этилган транспорт воситалари турини кўрсатади."
+        }
+    }
 }

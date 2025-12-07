@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  401,
-    "image":  "data/images/q0401.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi avtomobil to\u0027xtash qoidasini buzdi?",
-                                    "options":  [
-                                                    "F1. Yashil avtomobil",
-                                                    "F2. Har ikkisi buzdi",
-                                                    "F3. Har ikkisi ham buzmadi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 3-boʻlimining o\u0027ttiz birinchi xatboshisiga asosan: 3.27. «To\u0027xtash taqiqlangan». Transport vositalarining to\u0027xtashi va toʻxtab turishi taqiqlanishini bildiradi. YHQ 1-ilovasi 7-boʻlimining o\u0027ttiz birinchi xatboshisiga asosan: 7.18. «Nogironlar mustasno». Belgilarning ta\u0027siri ushbu Qoidalarning 175-bandiga muvofiq «Nogiron» taniqlik belgisi oʻrnatilgan transport vositalariga joriy etilmaydi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой автомобиль нарушил правила остановки?",
-                                    "options":  [
-                                                    "F1. Зеленый автомобиль",
-                                                    "F2. Оба нарушили",
-                                                    "F3. Оба не нарушали"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Запрешаюший знак 3.27 \"Остановка запрещена\". Запрещается остановка и стоянка транспортных средств. Знаки дополнительной информации 7.18 \"Кроме инвалидов\". Указывает, что действие знаков не распространяется на транспортные средства и мотоколяски, на которых установлены опознавательные знаки \"Инвалид\" в соответствии с пунктом 28.3 настоящих Правил. В данном случае запрещающий остановку знак 3.27 не распространяется на транспортные средства, на которых установлен знак \"Инвалид\". Так как оба автомобиля не удовлетворяют этому требованию, они нарушают правила остановки."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси автомобиль тўхташ қоидасини бузди?",
-                                     "options":  [
-                                                     "F1. Яшил автомобиль",
-                                                     "F2. Ҳар иккиси бузди",
-                                                     "F3. Ҳар иккиси ҳам бузмади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўттиз биринчи хатбошисига асосан: 3.27. «Тухташ тақиқланган». Транспорт воситаларининг тўхташи ва тўхтаб — туриши тақиқланишини билдиради. ЙҲҚ 1-иловаси 7-бўлимининг ўттиз биринчи хатбошисига асосан: 7.18. «Ногиронлар мустасно». Белгиларнинг таъсири ушбу Қоидаларнинг 175-бандига мувофиқ «Ногирон» таниқлик белгиси ўрнатилган транспорт воситаларига жорий этилмайди."
-                                 }
-                     }
+{
+    "questionId": 401,
+    "image": "data/images/q0401.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi avtomobil to'xtash qoidasini buzdi?",
+            "options": [
+                "F1. Yashil avtomobil",
+                "F2. Har ikkisi buzdi",
+                "F3. Har ikkisi ham buzmadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 3-boʻlimining o'ttiz birinchi xatboshisiga asosan: 3.27. «To'xtash taqiqlangan». Transport vositalarining to'xtashi va toʻxtab turishi taqiqlanishini bildiradi. YHQ 1-ilovasi 7-boʻlimining o'ttiz birinchi xatboshisiga asosan: 7.18. «Nogironlar mustasno». Belgilarning ta'siri ushbu Qoidalarning 175-bandiga muvofiq «Nogiron» taniqlik belgisi oʻrnatilgan transport vositalariga joriy etilmaydi."
+        },
+        "ru": {
+            "text": "Какой автомобиль нарушил правила остановки?",
+            "options": [
+                "F1. Зеленый автомобиль",
+                "F2. Оба нарушили",
+                "F3. Оба не нарушали"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Запрешаюший знак 3.27 \"Остановка запрещена\". Запрещается остановка и стоянка транспортных средств. Знаки дополнительной информации 7.18 \"Кроме инвалидов\". Указывает, что действие знаков не распространяется на транспортные средства и мотоколяски, на которых установлены опознавательные знаки \"Инвалид\" в соответствии с пунктом 28.3 настоящих Правил. В данном случае запрещающий остановку знак 3.27 не распространяется на транспортные средства, на которых установлен знак \"Инвалид\". Так как оба автомобиля не удовлетворяют этому требованию, они нарушают правила остановки."
+        },
+        "uzk": {
+            "text": "Қайси автомобиль тўхташ қоидасини бузди?",
+            "options": [
+                "F1. Яшил автомобиль",
+                "F2. Ҳар иккиси бузди",
+                "F3. Ҳар иккиси ҳам бузмади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг ўттиз биринчи хатбошисига асосан: 3.27. «Тухташ тақиқланган». Транспорт воситаларининг тўхташи ва тўхтаб — туриши тақиқланишини билдиради. ЙҲҚ 1-иловаси 7-бўлимининг ўттиз биринчи хатбошисига асосан: 7.18. «Ногиронлар мустасно». Белгиларнинг таъсири ушбу Қоидаларнинг 175-бандига мувофиқ «Ногирон» таниқлик белгиси ўрнатилган транспорт воситаларига жорий этилмайди."
+        }
+    }
 }

@@ -1,0 +1,36 @@
+{
+    "questionId": 807,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Yo'l qatnov qismining piyodalar kesib o'tishi uchun mo'ljallangan, 5.16.1, 5.16.2 yo'l belgilari va 1.14.1-1.14.3 yo'l chiziqlari bilan ajratilgan bo'lagi",
+                "F2. Yo'lning piyodalar harakatlanishi uchun mo'ljallangan va transport vositalari harakati taqiqlangan qismi",
+                "F3. Qatnov qismiga tutashgan yoki undan maysazor, ariq, maxsus to'siqlar bilan ajratilgan va piyodalarning harakatlanishi uchun mo'ljallangan yo'l qismi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ umumiy qoidalar 6 band: Piyodalar o'tish joyi — yoʻl qatnov qismining piyodalar kesib o'tishi uchun mo'ljallangan, 5.16.1, 5.16.2 yo'l belgilari va 1.14.1 — 1.14.3 yo'l chiziqlari bilan ajratilgan bo'lagi. Yo'l chiziqlari boʻlmasa, piyodalar o'tish joyining kengligi 5.16.1 va 5.16.2 yo'l belgilari orasidagi masofa bilan aniqlanadi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Участок проезжей части дороги, предназначенный для пересечения пешеходами, обозначенный дорожными знаками 5.16.1, 5.16.2 и дорожной разметкой 1.14.1-1.14.3",
+                "F2. Часть дороги, примыкающая к проезжей части или отделенная от нее газоном, арыком или специальным сооружением, предназначенная для движения пешеходов",
+                "F3. Часть дороги, предназначенная для движения пешеходов, по которой запрещено движение транспортных средств"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения пункт 6: Пешеходный переход — участок проезжей части дороги, предназначенный для пересечения пешеходами, обозначенный дорожными знаками 5.16.1, 5.16.2 и дорожной разметкой 1.14.1 — 1.14.3. При отсутствии дорожной разметки ширина пешеходного перехода определяется расстоянием между дорожными знаками 5.16.1 и 5.16.2."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Йўл қатнов қисмининг пиёдалар кесиб ўтиши учун мўлжалланган, 5.16.1, 5.16.2 йўл белгилари ва 1.14.1-1.14.3 йўл чизиқлари билан ажратилган бўлаги",
+                "F2. Йўлнинг пиёдалар ҳаракатланиши учун мўлжалланган ва транспорт воситалари ҳаракати тақиқланган қисми",
+                "F3. Қатнов қисмига туташган ёки ундан майсазор, ариқ, махсус тўсиқлар билан ажратилган ва пиёдаларнинг ҳаракатланиши учун мўлжалланган йўл қисми"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ умумий қоидалар 6 банд: Пиёдалар ўтиш жойи — йўл қатнов қисмининг пиёдалар кесиб ўтиши учун мўлжалланган, 5.16.1, 5.16.2 йўл белгилари ва 1.14.1 — 1.14.3 йўл чизиқлари билан ажратилган бўлаги. Йўл чизиқлари бўлмаса, пиёдалар ўтиш жойининг кенглиги 5.16.1 ва 5.16.2 йўл белгилари орасидаги масофа билан аниқланади."
+        }
+    }
+}

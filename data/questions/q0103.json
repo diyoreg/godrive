@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  103,
-    "image":  "data/images/q0103.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Haydovchiga belgilangan trayektoriya bo\u0027yicha harakatlanib, manyovrlar bajarishga ruxsat berilganmi?",
-                                    "options":  [
-                                                    "F1. «A» bo\u0027yicha ruxsat etilgan",
-                                                    "F2. «Б» bo\u0027yicha ruxsat etilgan",
-                                                    "F3. Ikkovi bo\u0027yicha ham ruxsat etilgan"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining yettinchi, sakkizinchi va o\u0027ttiz beshinchi xatboshlariga asosan: 1.5 — ikki yoki uch tasmali yo\u0027llarda qarama-qarshi yo\u0027nalishlarda harakatlanayotgan transport vositalari oqimlarini ajratadi; bir yo\u0027nalishda harakatlanish uchun mo\u0027ljallangan ikki yoki undan ko\u0027proq tasmali yo\u0027llarda tasmalarning chegaralarini va bir yo\u0027nalishdagi harakatlanish bo\u0027lagi bilan velosiped bo\u0027lagi chegarasini bildiradi;\n1.6 (yaqinlashish chizig\u0027i — har bir chiziq uzunligi ular orasidagi masofadan uch barobar katta bo\u0027lgan uzuq-uzuq chiziq) — qarama-qarshi yoki bir yo\u0027nalishda harakatlanayotgan transport vositalari oqimlarini ajratuvchi 1.1 yoki 1.11 chizig\u0027iga yaqinlashayotganlik haqida ogohlantiradi;\nYHQ 2-ilovasi 1-bo\u0027limining o\u0027ttiz beshinchi xatboshisiga asosan: 1.2, 1.5 — 1.8 chiziqlarini istalgan tomondan bosib oʻtish mumkin."
-                                },
-                         "ru":  {
-                                    "text":  "Разрешено ли водителю легкового автомобиля совершить маневр, двигаясь по обозначенным траекториям?",
-                                    "options":  [
-                                                    "F1. Разрешено только по «А»",
-                                                    "F2. Разрешено только по «Б»",
-                                                    "F3. Разрешено по обеим"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Горизонтльной разметке 1.5, 1.6, раздела 1 приложения №2 к ПДД, линия 1.5 - разделяет транспортные потоки — противоположных направлений на дорогах, имеющих две или три полосы;\nобозначает границы полос движения при наличии двух и более полос, предназначенных для движения в одном направлении;\n(1.6 - линия приближения - прерывистая линия, у которой длина штрихов в три раза превышает промежутки между ними) предупреждает о приближении к разметке 1.1 или 1.11, которая разделяет - транспортные потоки противоположных или попутных направлений;\nAбзацу 2, линии 1.2, 1.5-1.8 пересекать разрешается с любой стороны."
-                                },
-                         "uzk":  {
-                                     "text":  "Ҳайдовчига белгиланган траектория бўйича ҳаракатланиб, манёврлар бажаришга рухсат берилганми?",
-                                     "options":  [
-                                                     "F1. «А» бўйича рухсат этилган",
-                                                     "F2. «Б» бўйича рухсат этилган",
-                                                     "F3. Иккови бўйича ҳам рухсат этилган"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг еттинчи, саккизинчи ва ўттиз бешинчи хатбошларига асосан: 1.5 — икки ёки уч тасмали йўлларда қарама-қарши йўналишларда ҳаракатланаётган транспорт воситалари оқимларини ажратади; бир йўналишда ҳаракатланиш учун мўлжалланган икки ёки ундан кўпроқ тасмали йўлларда тасмаларнинг чегараларини ва бир йўналишдаги ҳаракатланиш бўлаги билан велосипед бўлаги чегарасини билдиради;\n1.6 (яқинлашиш чизиғи — ҳар бир чизиқ узунлиги улар орасидаги масофадан уч баробар катта бўлган узуқ-узуқ чизиқ) — қарама-қарши ёки бир йўналишда ҳаракатланаётган транспорт воситалари оқимларини ажратувчи 1.1 ёки 1.11 чизиғига яқинлашаётганлик ҳақида огоҳлантиради;\nЙҲҚ 2-иловаси 1-бўлимининг ўттиз бешинчи хатбошисига асосан: 1.2, 1.5 — 1.8 чизиқларини исталган томондан босиб ўтиш мумкин."
-                                 }
-                     }
+{
+    "questionId": 103,
+    "image": "data/images/q0103.webp",
+    "translations": {
+        "uz": {
+            "text": "Haydovchiga belgilangan trayektoriya bo'yicha harakatlanib, manyovrlar bajarishga ruxsat berilganmi?",
+            "options": [
+                "F1. «A» bo'yicha ruxsat etilgan",
+                "F2. «Б» bo'yicha ruxsat etilgan",
+                "F3. Ikkovi bo'yicha ham ruxsat etilgan"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 2-ilovasi 1-bo'limining yettinchi, sakkizinchi va o'ttiz beshinchi xatboshlariga asosan: 1.5 — ikki yoki uch tasmali yo'llarda qarama-qarshi yo'nalishlarda harakatlanayotgan transport vositalari oqimlarini ajratadi; bir yo'nalishda harakatlanish uchun mo'ljallangan ikki yoki undan ko'proq tasmali yo'llarda tasmalarning chegaralarini va bir yo'nalishdagi harakatlanish bo'lagi bilan velosiped bo'lagi chegarasini bildiradi;\n1.6 (yaqinlashish chizig'i — har bir chiziq uzunligi ular orasidagi masofadan uch barobar katta bo'lgan uzuq-uzuq chiziq) — qarama-qarshi yoki bir yo'nalishda harakatlanayotgan transport vositalari oqimlarini ajratuvchi 1.1 yoki 1.11 chizig'iga yaqinlashayotganlik haqida ogohlantiradi;\nYHQ 2-ilovasi 1-bo'limining o'ttiz beshinchi xatboshisiga asosan: 1.2, 1.5 — 1.8 chiziqlarini istalgan tomondan bosib oʻtish mumkin."
+        },
+        "ru": {
+            "text": "Разрешено ли водителю легкового автомобиля совершить маневр, двигаясь по обозначенным траекториям?",
+            "options": [
+                "F1. Разрешено только по «А»",
+                "F2. Разрешено только по «Б»",
+                "F3. Разрешено по обеим"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Горизонтльной разметке 1.5, 1.6, раздела 1 приложения №2 к ПДД, линия 1.5 - разделяет транспортные потоки — противоположных направлений на дорогах, имеющих две или три полосы;\nобозначает границы полос движения при наличии двух и более полос, предназначенных для движения в одном направлении;\n(1.6 - линия приближения - прерывистая линия, у которой длина штрихов в три раза превышает промежутки между ними) предупреждает о приближении к разметке 1.1 или 1.11, которая разделяет - транспортные потоки противоположных или попутных направлений;\nAбзацу 2, линии 1.2, 1.5-1.8 пересекать разрешается с любой стороны."
+        },
+        "uzk": {
+            "text": "Ҳайдовчига белгиланган траектория бўйича ҳаракатланиб, манёврлар бажаришга рухсат берилганми?",
+            "options": [
+                "F1. «А» бўйича рухсат этилган",
+                "F2. «Б» бўйича рухсат этилган",
+                "F3. Иккови бўйича ҳам рухсат этилган"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 2-иловаси 1-бўлимининг еттинчи, саккизинчи ва ўттиз бешинчи хатбошларига асосан: 1.5 — икки ёки уч тасмали йўлларда қарама-қарши йўналишларда ҳаракатланаётган транспорт воситалари оқимларини ажратади; бир йўналишда ҳаракатланиш учун мўлжалланган икки ёки ундан кўпроқ тасмали йўлларда тасмаларнинг чегараларини ва бир йўналишдаги ҳаракатланиш бўлаги билан велосипед бўлаги чегарасини билдиради;\n1.6 (яқинлашиш чизиғи — ҳар бир чизиқ узунлиги улар орасидаги масофадан уч баробар катта бўлган узуқ-узуқ чизиқ) — қарама-қарши ёки бир йўналишда ҳаракатланаётган транспорт воситалари оқимларини ажратувчи 1.1 ёки 1.11 чизиғига яқинлашаётганлик ҳақида огоҳлантиради;\nЙҲҚ 2-иловаси 1-бўлимининг ўттиз бешинчи хатбошисига асосан: 1.2, 1.5 — 1.8 чизиқларини исталган томондан босиб ўтиш мумкин."
+        }
+    }
 }

@@ -1,0 +1,39 @@
+{
+    "questionId": 517,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Chorrahalarda va ularga 15 metrdan yaqinroqda",
+                "F2. Chorrahalar oldiga 15 metrdan yaqinroqda",
+                "F3. Yo'lning loaqal bir yo'nalishida 100 metrdan kamroq, qismi ko'rinadigan aholi punktlaridan tashqarida",
+                "F4. Loaqal bir yo'nalishda yo'lning 100 metrdan kamroq qismi ko'ringanda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 9-bobi 62-bandiga asosan, quyidagi joylarda qayrilib olish taqiqlanadi: yo'lning ko'rinishi biror-bir yo'nalishda 100 metrdan kam bo'lgan joylarda."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. На перекрестках и ближе 15 м от них",
+                "F2. Ближе 15 м перед перекрестками",
+                "F3. Вне населенных пунктов на участках с видимостью дороги в одном направлении менее 100 м",
+                "F4. При видимости дороги менее 100 м в одном направлении"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Aбзацу 4 пункт 62 главы 9 ПДД, гласит: Разворот запрещается:\n- в местах с видимостью дороги хотя бы в одном направлении менее 100 м."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Чорраҳаларда ва уларга 15 метрдан яқинрокда",
+                "F2. Чорраҳалар олдига 15 метрдан яқинрокда",
+                "F3. Йўлнинг лоақал бир йўналишида 100 метрдан камроқ, қисми кўринадиган аҳоли пунктларидан ташкарида",
+                "F4. Лоакал бир йўналишда йўлнинг 100 метрдан камрок қисми кўринганда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 9-боби 62-бандига асосан, қуйидаги жойларда қайрилиб олиш тақиқланади: йўлнинг кўриниши бирор-бир йўналишда 100 метрдан кам бўлган жойларда."
+        }
+    }
+}

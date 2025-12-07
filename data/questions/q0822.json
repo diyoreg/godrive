@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  822,
-    "image":  "data/images/q0822.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu chorrahada kim yo\u0027l beradi?",
-                                    "options":  [
-                                                    "F1. Mototsikl va sariq avtomobil",
-                                                    "F2. Ko\u0027k avtomobil"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 14-bobi 98-bandi: Aylanma harakatlanish chorrahasida harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka (imtiyozga) ega."
-                                },
-                         "ru":  {
-                                    "text":  "Кто должен уступить дорогу на этом перекрестке?",
-                                    "options":  [
-                                                    "F1. Мотоцикл и желтый автомобиль",
-                                                    "F2. Синий автомобиль"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Пункта 98 главы 14 ПДД, гласит: Транспортные средства, движущиеся на перекрестке с круговым движением, имеют приоритет (преимущество) по отношению к транспортным средствам, въезжающим на перекресток."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу чорраҳада ким йўл беради?",
-                                     "options":  [
-                                                     "F1. Мотоцикл ва сариқ автомобиль",
-                                                     "F2. Кўк автомобиль"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 14-боби 98-банди: Айланма ҳаракатланиш чорраҳасида ҳаракатланаётган транспорт воситалари айланага кириб келаётган транспорт воситаларига нисбатан устунликка (имтиёзга) эга."
-                                 }
-                     }
+{
+    "questionId": 822,
+    "image": "data/images/q0822.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu chorrahada kim yo'l beradi?",
+            "options": [
+                "F1. Mototsikl va sariq avtomobil",
+                "F2. Ko'k avtomobil"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 14-bobi 98-bandi: Aylanma harakatlanish chorrahasida harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka (imtiyozga) ega."
+        },
+        "ru": {
+            "text": "Кто должен уступить дорогу на этом перекрестке?",
+            "options": [
+                "F1. Мотоцикл и желтый автомобиль",
+                "F2. Синий автомобиль"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 98 главы 14 ПДД, гласит: Транспортные средства, движущиеся на перекрестке с круговым движением, имеют приоритет (преимущество) по отношению к транспортным средствам, въезжающим на перекресток."
+        },
+        "uzk": {
+            "text": "Ушбу чорраҳада ким йўл беради?",
+            "options": [
+                "F1. Мотоцикл ва сариқ автомобиль",
+                "F2. Кўк автомобиль"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 14-боби 98-банди: Айланма ҳаракатланиш чорраҳасида ҳаракатланаётган транспорт воситалари айланага кириб келаётган транспорт воситаларига нисбатан устунликка (имтиёзга) эга."
+        }
+    }
 }

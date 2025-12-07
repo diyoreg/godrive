@@ -1,0 +1,39 @@
+{
+    "questionId": 732,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Tovush signalidan foydalanish",
+                "F2. Faqat yaqinni yorituvchi chiroqni uzoqni yorituvchi chiroqqa qisqa muddat orasida o'tkazish bilan ishora berish",
+                "F3. Faqat birgalikda yorug'lik ishoralari bilan birga tovush signallarini qo'llash",
+                "F4. Sanab o'tilganlarning barchasidan foydalanish"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 8-bobi 48-bandi: Tovushli ishoralar faqat quyidagi hollarda qo'llanilishi mumkin: aholi punktlaridan tashqarida boshqa haydovchilarni quvib o'tish haqida ogohlantirish uchun;\nzarur bo'lgan hollarda yo'l-transport hodisasining oldini olish uchun.\nYuqorida ko'rsatilgan hollardan tashqari tovushli ishoralardan foydalanish taqiqlanadi.\nYHQ 8-bobi 49-bandi: Quvib o'tish haqida tovushli ishora o'rniga yoki u bilan birga fara chiroqlarini yoqib-o'chirib, ogohlantirish ishorasini ham berish mumkin."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Только звуковым сигналом",
+                "F2. Только кратковременным переключением фар ближнего света на дальний",
+                "F3. Только совместной подачей звукового и светового сигнала",
+                "F4. Любые из перечисленных способов"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 48 главы 8 ПДД, гласит: Звуковые сигналы могут применяться в следующих случаях: вне населенных пунктов при обгоне, для предупреждения других водителей;\nв необходимых случаях — для предотвращения дорожно-транспортного происшествия.\nПункта 49 главы 8 ПДД, гласит: Вместо звукового сигнала об обгоне или же вместе с ним может подаваться предупредительный сигнал переключением фар."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Товуш сигналидан фойдаланиш",
+                "F2. Фақат яқинни ёритувчи чироқни узоқни ёритувчи чироққа қисқа муддат орасида ўтказиш билан ишора бериш",
+                "F3. Фақат биргаликда ёруғлик ишоралари билан бирга товуш сигналларини қўллаш",
+                "F4. Санаб ўтилганларнинг барчасидан фойдаланиш"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 8-боби 48-банди: Товушли ишоралар фақат қуйидаги ҳолларда қўлланилиши мумкин: аҳоли пунктларидан ташқарида бошқа ҳайдовчиларни қувиб ўтиш ҳақида огоҳлантириш учун;\nзарур бўлган ҳолларда йўл-транспорт ҳодисасининг олдини олиш учун.\nЮқорида кўрсатилган ҳоллардан ташқари товушли ишоралардан фойдаланиш тақиқланади.\nЙҲҚ 8-боби 49-банди: Қувиб ўтиш ҳақида товушли ишора ўрнига ёки у билан бирга фара чироқларини ёқиб-ўчириб, огоҳлантириш ишорасини ҳам бериш мумкин."
+        }
+    }
+}

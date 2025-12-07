@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  101,
-    "image":  "data/images/q0101.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Avtomobil qaysi yo\u0027nalishlarda harakatlanishi mumkin?",
-                                    "options":  [
-                                                    "F1. Faqat o\u0027ngga",
-                                                    "F2. To\u0027xtash va svetoforning yashil chirog\u0027ini kutish",
-                                                    "F3. Faqat to\u0027g\u0027riga",
-                                                    "F4. Barcha yo\u0027nalishlar bo\u0027yicha"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining oʻng qo\u0027li oldinga uzatilganda: chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo\u0027nalishlarda;\noldi tomonidan barcha transport vositalariga faqat oʻngga harakatlanishga ruxsat beriladi;\norqa tomonidan va oʻng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi;\npiyodalarga tartibga soluvchining orqa tomonidan qatnov qismini kesib oʻtishga ruxsat etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "В каких направлениях может двигаться автомобиль?",
-                                    "options":  [
-                                                    "F1. Только направо",
-                                                    "F2. Остановиться и ждать зеленого сигнала светофора.",
-                                                    "F3. Только прямо",
-                                                    "F4. Во всех направлениях"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Пункта 38 главы 7 ПДД, гласит: Сигналы регулировщика имеют следующие значения: ПРАВАЯ РУКА ВЫТЯНУТА ВПЕРЕД - со стороны левого бока разрешено движение трамваю налево, безрельсовым транспортным средствам - во всех направлениях, со стороны груди всем транспортным средствам разрешено движение только направо. Со стороны правого бока и спины движение всех транспортных средств запрещено. Пешеходам разрешено переходить проезжую часть за спиной регулировщика. Автомобиль находится со стороны левого бока регулировшика, а значит может двигаться в любом направлении. Следует помнить пункт 8.14 ПДД, где сказано, что водители и пешеходы должны выполнять требования сигналов и указания регулировщика, даже если они противоречат сигналам светофора, дорожным знакам и разметке."
-                                },
-                         "uzk":  {
-                                     "text":  "Автомобиль қайси йўналишларда ҳаракатланиши мумкин?",
-                                     "options":  [
-                                                     "F1. Фақат ўнгга",
-                                                     "F2. Тўхташ ва светофорнинг яшил чироғини кутиш",
-                                                     "F3. Фақат тўғрига",
-                                                     "F4. Барча йўналишлар бўйича"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ЙҲҚ 7-боби 38-бандига асосан, тартибга солувчининг ўнг қўли олдинга узатилганда: чап ёнидан трамвайга чапга, релъссиз транспорт воситаларига барча йўналишларда;\nолди томонидан барча транспорт воситаларига фақат ўнгга ҳаракатланишга рухсат берилади;\nорқа томонидан ва ўнг ёнидан барча транспорт воситаларининг ҳаракатланиши тақиқланади; пиёдаларга тартибга солувчининг орқа томонидан қатнов қисмини кесиб ўтишга рухсат этилади."
-                                 }
-                     }
+{
+    "questionId": 101,
+    "image": "data/images/q0101.webp",
+    "translations": {
+        "uz": {
+            "text": "Avtomobil qaysi yo'nalishlarda harakatlanishi mumkin?",
+            "options": [
+                "F1. Faqat o'ngga",
+                "F2. To'xtash va svetoforning yashil chirog'ini kutish",
+                "F3. Faqat to'g'riga",
+                "F4. Barcha yo'nalishlar bo'yicha"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining oʻng qo'li oldinga uzatilganda: chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo'nalishlarda;\noldi tomonidan barcha transport vositalariga faqat oʻngga harakatlanishga ruxsat beriladi;\norqa tomonidan va oʻng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi;\npiyodalarga tartibga soluvchining orqa tomonidan qatnov qismini kesib oʻtishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "В каких направлениях может двигаться автомобиль?",
+            "options": [
+                "F1. Только направо",
+                "F2. Остановиться и ждать зеленого сигнала светофора.",
+                "F3. Только прямо",
+                "F4. Во всех направлениях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 38 главы 7 ПДД, гласит: Сигналы регулировщика имеют следующие значения: ПРАВАЯ РУКА ВЫТЯНУТА ВПЕРЕД - со стороны левого бока разрешено движение трамваю налево, безрельсовым транспортным средствам - во всех направлениях, со стороны груди всем транспортным средствам разрешено движение только направо. Со стороны правого бока и спины движение всех транспортных средств запрещено. Пешеходам разрешено переходить проезжую часть за спиной регулировщика. Автомобиль находится со стороны левого бока регулировшика, а значит может двигаться в любом направлении. Следует помнить пункт 8.14 ПДД, где сказано, что водители и пешеходы должны выполнять требования сигналов и указания регулировщика, даже если они противоречат сигналам светофора, дорожным знакам и разметке."
+        },
+        "uzk": {
+            "text": "Автомобиль қайси йўналишларда ҳаракатланиши мумкин?",
+            "options": [
+                "F1. Фақат ўнгга",
+                "F2. Тўхташ ва светофорнинг яшил чироғини кутиш",
+                "F3. Фақат тўғрига",
+                "F4. Барча йўналишлар бўйича"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 7-боби 38-бандига асосан, тартибга солувчининг ўнг қўли олдинга узатилганда: чап ёнидан трамвайга чапга, релъссиз транспорт воситаларига барча йўналишларда;\nолди томонидан барча транспорт воситаларига фақат ўнгга ҳаракатланишга рухсат берилади;\nорқа томонидан ва ўнг ёнидан барча транспорт воситаларининг ҳаракатланиши тақиқланади; пиёдаларга тартибга солувчининг орқа томонидан қатнов қисмини кесиб ўтишга рухсат этилади."
+        }
+    }
 }

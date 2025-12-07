@@ -1,0 +1,36 @@
+{
+    "questionId": 137,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Transport vositasining bitta o'qiga har xil naqshli shinalarni o'rnatishga ruxsat etiladimi?",
+            "options": [
+                "F1. Faqat oldingi o'qiga ruxsat etiladi",
+                "F2. Oldingi yetakchi koʻprikli avtomobilning faqat orqa o'qiga ruxsat etiladi",
+                "F3. Taqiqlanadi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 3-ilovasi 5-bo'limining 5.5-bandiga asosan: Transport vositasining bitta oʻqiga har xil o'lchamli va konstruksiyali (dioganal va radial, kamerali va kamerasiz), har xil naqshli, sovuqqa chidamli va chidamsiz, yangi va qayta tiklangan, yangi va protektor naqshi chuqurlashtirilgan shinalar oʻrnatilgan boʻlsa taqiqlanadi."
+        },
+        "ru": {
+            "text": "Разрешается ли устанавливать на одну ось автомобиля шины с различным рисунком протектора?",
+            "options": [
+                "F1. Разрешается только на переднюю ось",
+                "F2. Разрешается на автомобиль с передним ведущим мостом только на заднюю ось",
+                "F3. Запрещается"
+            ],
+            "correctAnswer": 3,
+            "explanation": "В пункте 5.5 \"Условий, при которых запрещается эксплуатация транспортных средств\" (приложение №3 к ПДД) сказано, что запрещается эксплуатация транспортных средств, если на одну ось транспортного средства установлены диагональные шины совместно с радиальными, а также шины с различным рисунком протектора."
+        },
+        "uzk": {
+            "text": "Транспорт воситасининг битта ўқига ҳар хил нақшли шиналарни ўрнатишга рухсат этиладими?",
+            "options": [
+                "F1. Фақат олдинги ўқига рухсат этилади",
+                "F2. Олдинги етакчи кўприкли автомобилнинг фақат орқа ўқига рухсат этилади",
+                "F3. Тақиқланади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 3-иловаси 5-бўлимининг 5.5-бандига асосан: Транспорт воситасининг битта ўқига ҳар хил ўлчамли ва конструкцияли (диоганал ва радиал, камерали ва камерасиз), ҳар хил нақшли, совуққа чидамли ва чидамсиз, янги ва қайта тикланган, янги ва протектор нақши чуқурлаштирилган шиналар ўрнатилган бўлса тақиқланади."
+        }
+    }
+}

@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  897,
-    "image":  "data/images/q0897.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu ko\u0027rsatilgan holatda kim yo\u0027l berishi kerak?",
-                                    "options":  [
-                                                    "F1. Mototsikl haydovchisi",
-                                                    "F2. Avtomobil haydovchisi"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 9-bobi 61-bandi: Yo\u0027lga chiqish joyida tezlashish bo\u0027lagi bo\u0027lsa, haydovchi unda harakatlanishi va qo\u0027shni bo\u0027lakda harakatlanayotgan transport vositalariga yo\u0027l berib, transport oqimiga qo\u0027shilishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Кто должен уступить в этом случае ?",
-                                    "options":  [
-                                                    "F1. Мотоциклист",
-                                                    "F2. Водитель автомобиля"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 61 главы 9 ПДД, гласит: При наличии в месте выезда на дорогу полосы разгона водитель должен двигаться по ней и перестраиваться на соседнюю полосу, уступая дорогу транспортным средствам, движущимся по этой дороге."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу кўрсатилган ҳолатда ким йўл бериши керак?",
-                                     "options":  [
-                                                     "F1. Мотоцикл ҳайдовчиси",
-                                                     "F2. Aвтомобиль ҳайдовчиси"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 9-боби 61-банди: Йўлга чиқиш жойида тезлашиш бўлаги бўлса, ҳайдовчи унда ҳаракатланиши ва қўшни бўлакда ҳаракатланаётган транспорт воситаларига йўл бериб, транспорт оқимига қўшилиши керак."
-                                 }
-                     }
+{
+    "questionId": 897,
+    "image": "data/images/q0897.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu ko'rsatilgan holatda kim yo'l berishi kerak?",
+            "options": [
+                "F1. Mototsikl haydovchisi",
+                "F2. Avtomobil haydovchisi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 9-bobi 61-bandi: Yo'lga chiqish joyida tezlashish bo'lagi bo'lsa, haydovchi unda harakatlanishi va qo'shni bo'lakda harakatlanayotgan transport vositalariga yo'l berib, transport oqimiga qo'shilishi kerak."
+        },
+        "ru": {
+            "text": "Кто должен уступить в этом случае ?",
+            "options": [
+                "F1. Мотоциклист",
+                "F2. Водитель автомобиля"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 61 главы 9 ПДД, гласит: При наличии в месте выезда на дорогу полосы разгона водитель должен двигаться по ней и перестраиваться на соседнюю полосу, уступая дорогу транспортным средствам, движущимся по этой дороге."
+        },
+        "uzk": {
+            "text": "Ушбу кўрсатилган ҳолатда ким йўл бериши керак?",
+            "options": [
+                "F1. Мотоцикл ҳайдовчиси",
+                "F2. Aвтомобиль ҳайдовчиси"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 9-боби 61-банди: Йўлга чиқиш жойида тезлашиш бўлаги бўлса, ҳайдовчи унда ҳаракатланиши ва қўшни бўлакда ҳаракатланаётган транспорт воситаларига йўл бериб, транспорт оқимига қўшилиши керак."
+        }
+    }
 }

@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  455,
-    "image":  "data/images/q0455.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Mototsiklning haydovchisi qanday holda chapga to\u0027g\u0027ri burildi?",
-                                    "options":  [
-                                                    "F1. Chorrahaga chiqdi, yuk avtomobilini o\u0027tkazib yubordi, burilishni tugalladi",
-                                                    "F2. Chorrahaga chiqdi va tartibga soluvchining ruxsat etuvchi ishorasini kutib, burilishni tugalladi",
-                                                    "F3. Chorrahaga chiqmasdan to\u0027xtab, tartibga soluvchining chapga burilishga ruxsat etuvchi ishorasini kutib, burilishni tugalladi"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining qo\u0027llari yon tomonga uzatilganda yoki tushirilganda: chap va oʻng yon tomonidan tramvayga bo\u0027g\u0027riga, relssiz transport vositalariga to\u0027g\u0027riga va o\u0027ngga harakatlanishga, piyodalarga qatnov qismini kesib oʻtishga ruxsat beriladi."
-                                },
-                         "ru":  {
-                                    "text":  "В каком случае водитель мотоцикла повернул налево правильно?",
-                                    "options":  [
-                                                    "F1. Выехал на перекресток, пропустил грузовой автомобиль, закончил поворот",
-                                                    "F2. Выехал на перекресток и, дождавшись разрешающего жеста регулировщика, закончил поворот",
-                                                    "F3. Останавливается не выезжая на перекресток, ожидает жест регулировщика разрешающий поворот налево и заканчивает поворот"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Пункту 38 главы 7 ПДД, гласит: Сигналы регулировщика имеют следующие значения: РУКИ ВЫТЯНУТЫ В СТОРОНЫ ИЛИ ОПУЩЕНЫ - со стороны левого и правого бока разрешено движение трамваю прямо, безрельсовым транспортным средствам прямо и направо, пешеходам разрешено переходить проезжую часть. Со стороны груди и спины движение всех транспортных средств и пешеходов запрещено. В данном случае мотоциклу и грузовому автомобилю разрешено движение прямо и направо. А значит при таком положении регулировщика мотоцикл не может повернуть налево. Поэтому он должен остановиться у стоп-линии, дождаться разрешающего жеста регулировщика и повернуть налево."
-                                },
-                         "uzk":  {
-                                     "text":  "Мотоциклнинг ҳайдовчиси қандай ҳолда чапга тўғри бурилди?",
-                                     "options":  [
-                                                     "F1. Чорраҳага чикди, юк автомобилини ўтказиб юборди, бурилишни тугаллади",
-                                                     "F2. Чорраҳага чикди ва тартибга солувчининг рухсат этувчи ишорасини кутиб, бурилишни тугаллади",
-                                                     "F3. Чорраҳага чиқмасдан тўхтаб, тартибга солувчининг чапга бурилишга рухсат етувчи ишорасини кутиб, бурилишни тугаллади"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 7-боби 38-бандига асосан, тартибга солувчининг қўллари ён томонга узатилганда ёки туширилганда: чап ва ўнг ён томонидан трамвайга тўғрига, релъссиз транспорт воситаларига тўғрига ва ўнгга ҳаракатланишга, пиёдаларга қатнов қисмини кесиб ўтишга рухсат берилади."
-                                 }
-                     }
+{
+    "questionId": 455,
+    "image": "data/images/q0455.webp",
+    "translations": {
+        "uz": {
+            "text": "Mototsiklning haydovchisi qanday holda chapga to'g'ri burildi?",
+            "options": [
+                "F1. Chorrahaga chiqdi, yuk avtomobilini o'tkazib yubordi, burilishni tugalladi",
+                "F2. Chorrahaga chiqdi va tartibga soluvchining ruxsat etuvchi ishorasini kutib, burilishni tugalladi",
+                "F3. Chorrahaga chiqmasdan to'xtab, tartibga soluvchining chapga burilishga ruxsat etuvchi ishorasini kutib, burilishni tugalladi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining qo'llari yon tomonga uzatilganda yoki tushirilganda: chap va oʻng yon tomonidan tramvayga bo'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib oʻtishga ruxsat beriladi."
+        },
+        "ru": {
+            "text": "В каком случае водитель мотоцикла повернул налево правильно?",
+            "options": [
+                "F1. Выехал на перекресток, пропустил грузовой автомобиль, закончил поворот",
+                "F2. Выехал на перекресток и, дождавшись разрешающего жеста регулировщика, закончил поворот",
+                "F3. Останавливается не выезжая на перекресток, ожидает жест регулировщика разрешающий поворот налево и заканчивает поворот"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункту 38 главы 7 ПДД, гласит: Сигналы регулировщика имеют следующие значения: РУКИ ВЫТЯНУТЫ В СТОРОНЫ ИЛИ ОПУЩЕНЫ - со стороны левого и правого бока разрешено движение трамваю прямо, безрельсовым транспортным средствам прямо и направо, пешеходам разрешено переходить проезжую часть. Со стороны груди и спины движение всех транспортных средств и пешеходов запрещено. В данном случае мотоциклу и грузовому автомобилю разрешено движение прямо и направо. А значит при таком положении регулировщика мотоцикл не может повернуть налево. Поэтому он должен остановиться у стоп-линии, дождаться разрешающего жеста регулировщика и повернуть налево."
+        },
+        "uzk": {
+            "text": "Мотоциклнинг ҳайдовчиси қандай ҳолда чапга тўғри бурилди?",
+            "options": [
+                "F1. Чорраҳага чикди, юк автомобилини ўтказиб юборди, бурилишни тугаллади",
+                "F2. Чорраҳага чикди ва тартибга солувчининг рухсат этувчи ишорасини кутиб, бурилишни тугаллади",
+                "F3. Чорраҳага чиқмасдан тўхтаб, тартибга солувчининг чапга бурилишга рухсат етувчи ишорасини кутиб, бурилишни тугаллади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 7-боби 38-бандига асосан, тартибга солувчининг қўллари ён томонга узатилганда ёки туширилганда: чап ва ўнг ён томонидан трамвайга тўғрига, релъссиз транспорт воситаларига тўғрига ва ўнгга ҳаракатланишга, пиёдаларга қатнов қисмини кесиб ўтишга рухсат берилади."
+        }
+    }
 }

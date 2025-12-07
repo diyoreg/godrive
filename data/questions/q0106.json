@@ -3,7 +3,7 @@
     "image": "data/images/defaultpic.jpg",
     "translations": {
         "uz": {
-            "text": "Текст вопроса не найден",
+            "text": "Yetarli ko'rinmaslik sharoitida yo'lning yoritilmagan qismida to'xtagan yoki to'xtab turgan mexanik transport vositasining haydovchisi bajarishi kerak:",
             "options": [
                 "F1. Tumanga qarshi faralarni yoki yaqinni yoritish faralarini yoqishi",
                 "F2. Faralarning uzoqni yoritish chiroqlarini yoqishi",
@@ -13,7 +13,7 @@
             "explanation": "YHQ 23-bobi 136-bandiga asosan: Qorong'i vaqtda yo'lning yoritilmagan qismida, shuningdek yetarlicha ko'rinmaydigan sharoitda to'xtagan yoki to'xtab turgan transport vositasida gabarit chiroqlari yoqilgan bo'lishi kerak."
         },
         "ru": {
-            "text": "Текст вопроса не найден",
+            "text": "При остановке или стоянке на неосвещенных участках дорог и в условиях недостаточной видимости водитель механического транспортного средства должен:",
             "options": [
                 "F1. Выключить противотуманные фары или ближний свет фар",
                 "F2. Включить дальний свет фар",
@@ -23,7 +23,7 @@
             "explanation": "Пункта 136 главы 23 ПДД, гласит: При остановке и стоянке в темное время суток на неосвещенных участках дорог, а также в условиях недостаточной видимости на транспортном средстве должны быть включены габаритные огни. В условиях недостаточной видимости дополнительно к габаритнъим огням могут быть включены фары ближнего света, противотуманные фары и задние противотуманные фонари."
         },
         "uzk": {
-            "text": "Текст вопроса не найден",
+            "text": "Етарли кўринмаслик шароитида йўлнинг ёритилмаган қисмида тўхтаган ёки тўхтаб турган механик транспорт воситасининг ҳайдовчиси бажариши керак:",
             "options": [
                 "F1. Туманга қарши фараларни ёки яқинни ёритиш фараларини ёқиши",
                 "F2. Фараларнинг узоқни ёритиш чироқларини ёқиши",

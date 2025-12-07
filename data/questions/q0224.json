@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  224,
-    "image":  "data/images/q0224.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Haydovchilardan qaysi biri to\u0027xtashga majbur?",
-                                    "options":  [
-                                                    "F1. Yengil avtomobil haydovchisi",
-                                                    "F2. Avtobus haydovchisi",
-                                                    "F3. Har ikki haydovchi"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 17-bobi 109-bandiga asosan: Tartibga solinmagan piyodalar o\u0027tish joyiga yaqinlashayotgan transport vositasining haydovchisi qatnov qismini kesib o\u0027tayotgan piyoda (lar)ni oʻtkazib yuborish uchun tezligini kamaytirishi yoki to\u0027xtashi shart."
-                                },
-                         "ru":  {
-                                    "text":  "Кто из водителей обязан остановиться?",
-                                    "options":  [
-                                                    "F1. Водитель легкового автомобиля",
-                                                    "F2. Водитель автобуса",
-                                                    "F3. Оба водителя"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 109 главы 17 ПДД гласит: Водитель транспортного средства обязан уступить дорогу пешеходам, переходящим проезжую часть по нерегулируемому пешеходному переходу.\nВ данном случае водитель легкового автомобиля должен дать возможность пешеходам закончить переход проезжей части."
-                                },
-                         "uzk":  {
-                                     "text":  "Ҳайдовчилардан қайси бири тўхташга мажбур?",
-                                     "options":  [
-                                                     "F1. Енгил автомобиль ҳайдовчиси",
-                                                     "F2. Автобус ҳайдовчиси",
-                                                     "F3. Ҳар икки ҳайдовчи"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 17-боби 109-бандига асосан: Тартибга солинмаган пиёдалар ўтиш жойига яқинлашаётган транспорт воситасининг ҳайдовчиси қатнов қисмини кесиб ўтаётган пиёда (лар)ни ўтказиб юбориш учун тезлигини камайтириши ёки тўхташи шарт."
-                                 }
-                     }
+{
+    "questionId": 224,
+    "image": "data/images/q0224.webp",
+    "translations": {
+        "uz": {
+            "text": "Haydovchilardan qaysi biri to'xtashga majbur?",
+            "options": [
+                "F1. Yengil avtomobil haydovchisi",
+                "F2. Avtobus haydovchisi",
+                "F3. Har ikki haydovchi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 17-bobi 109-bandiga asosan: Tartibga solinmagan piyodalar o'tish joyiga yaqinlashayotgan transport vositasining haydovchisi qatnov qismini kesib o'tayotgan piyoda (lar)ni oʻtkazib yuborish uchun tezligini kamaytirishi yoki to'xtashi shart."
+        },
+        "ru": {
+            "text": "Кто из водителей обязан остановиться?",
+            "options": [
+                "F1. Водитель легкового автомобиля",
+                "F2. Водитель автобуса",
+                "F3. Оба водителя"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 109 главы 17 ПДД гласит: Водитель транспортного средства обязан уступить дорогу пешеходам, переходящим проезжую часть по нерегулируемому пешеходному переходу.\nВ данном случае водитель легкового автомобиля должен дать возможность пешеходам закончить переход проезжей части."
+        },
+        "uzk": {
+            "text": "Ҳайдовчилардан қайси бири тўхташга мажбур?",
+            "options": [
+                "F1. Енгил автомобиль ҳайдовчиси",
+                "F2. Автобус ҳайдовчиси",
+                "F3. Ҳар икки ҳайдовчи"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 17-боби 109-бандига асосан: Тартибга солинмаган пиёдалар ўтиш жойига яқинлашаётган транспорт воситасининг ҳайдовчиси қатнов қисмини кесиб ўтаётган пиёда (лар)ни ўтказиб юбориш учун тезлигини камайтириши ёки тўхташи шарт."
+        }
+    }
 }

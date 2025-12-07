@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  776,
-    "image":  "data/images/q0776.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Siz chapga burilmoqchisiz, kimga yo\u0027l berishingiz kerak?",
-                                    "options":  [
-                                                    "F1. Har ikki transport vositasiga",
-                                                    "F2. Faqat avtobusga",
-                                                    "F3. Faqat yuk avtomobiliga"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 16-bobi 104-bandi: Teng ahamiyatga ega bo\u0027lmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yoʻldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat\u0027i nazar, yoʻl berishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-                                    "options":  [
-                                                    "F1. Обоим транспортным средствам",
-                                                    "F2. Только автобусу",
-                                                    "F3. Только грузовому автомобилю"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 104 главы 16 ПДД, гласит: Ha перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортным средствам, приближающимся по главной дороге, независимо от направления их дальнейшего движения."
-                                },
-                         "uzk":  {
-                                     "text":  "Сиз чапга бурилмоқчисиз, кимга йўл беришингиз керак?",
-                                     "options":  [
-                                                     "F1. Ҳар икки транспорт воситасига",
-                                                     "F2. Фақат автобусга",
-                                                     "F3. Фақат юк автомобилига"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 16-боби 104-банди: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак."
-                                 }
-                     }
+{
+    "questionId": 776,
+    "image": "data/images/q0776.webp",
+    "translations": {
+        "uz": {
+            "text": "Siz chapga burilmoqchisiz, kimga yo'l berishingiz kerak?",
+            "options": [
+                "F1. Har ikki transport vositasiga",
+                "F2. Faqat avtobusga",
+                "F3. Faqat yuk avtomobiliga"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 16-bobi 104-bandi: Teng ahamiyatga ega bo'lmagan yo'llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yoʻldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo'nalishidan qat'i nazar, yoʻl berishi kerak."
+        },
+        "ru": {
+            "text": "Вы намерены повернуть налево. Кому следует уступить дорогу?",
+            "options": [
+                "F1. Обоим транспортным средствам",
+                "F2. Только автобусу",
+                "F3. Только грузовому автомобилю"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 104 главы 16 ПДД, гласит: Ha перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортным средствам, приближающимся по главной дороге, независимо от направления их дальнейшего движения."
+        },
+        "uzk": {
+            "text": "Сиз чапга бурилмоқчисиз, кимга йўл беришингиз керак?",
+            "options": [
+                "F1. Ҳар икки транспорт воситасига",
+                "F2. Фақат автобусга",
+                "F3. Фақат юк автомобилига"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 16-боби 104-банди: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак."
+        }
+    }
 }

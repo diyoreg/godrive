@@ -1,0 +1,36 @@
+{
+    "questionId": 898,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Avtomobilni tormozlamasdan yo'lning qatnov qismiga ohista ravon burish",
+                "F2. Avtomobilni tormozlash va to'liq to'xtatish",
+                "F3. Avtomobilni tormozlab, yo'lning qatnov qismiga ohista ravon burish"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Bunday holatda avtomobilni moment kuchlar burib yuborishga moyil bo'ladi, shuning uchun uchinchi javobdagi usulni qo'llang."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Мягко и плавно поворачивайте автомобиль на проезжую часть дороги без торможения",
+                "F2. Торможение и полная остановка транспортного средства",
+                "F3. Торможение автомобиля и плавный поворот на проезжую часть дороги"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Такая ситуация опасна вследствие возникновения момента сил, стремящегося развернуть автомобиль. Старайтесь выполнить действия, указанные в третьем ответе."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Aвтомобилни тормозламасдан йўлнинг қатнов қисмига оҳиста равон буриш",
+                "F2. Aвтомобилни тормозлаш ва тўлиқ тўхтатиш",
+                "F3. Aвтомобилни тормозлаб, йўлнинг қатнов қисмига оҳиста равон буриш"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Бундай ҳолатда автомобилни момент кучлар буриб юборишга мойил бўлади, шунинг учун учинчи жавобдаги усулни қўлланг."
+        }
+    }
+}

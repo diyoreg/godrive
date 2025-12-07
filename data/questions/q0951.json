@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  951,
-    "image":  "data/images/q0951.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Chapga burilayotgan sariq avtomobil haydovchisi qaysi tasmani egallashi kerak?",
-                                    "options":  [
-                                                    "F1. Chap tasmani",
-                                                    "F2. O\u0027rta tasmani",
-                                                    "F3. Istalgan tasmani",
-                                                    "F4. O\u0027ng tasmani"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 9-bobi 57-bandi: Burilishni shunday amalga oshirish kerakki, bunda qatnov qismlarining kesishmasidan chiqayotgan transport vositasi qarama-qarshi yo\u0027nalishdagi harakat tomoniga o\u0027tib ketmasligi kerak.\nO\u0027ngga burilayotgan transport vositasi iloji boricha qatnov qismining oʻng tomoniga yaqinroqda harakatlanishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Жёлтый автомобиль поворачивая налево какую полосу должен занимать?",
-                                    "options":  [
-                                                    "F1. Левую полосу",
-                                                    "F2. Среднюю полосу",
-                                                    "F3. Любую полосу",
-                                                    "F4. Правую полосу"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Пункта 57 главы 9 ПДД, гласит: Поворот должен осуществляться таким образом, чтобы при выезде с пересечения проезжих частей транспортное средство не оказалось на стороне встречного движения.\nПри повороте направо транспортное средство должно двигаться по возможности ближе к правому краю проезжей части."
-                                },
-                         "uzk":  {
-                                     "text":  "Чапга бурилаётган сариқ автомобиль ҳайдовчиси қайси тасмани эгаллаши керак?",
-                                     "options":  [
-                                                     "F1. Чап тасмани",
-                                                     "F2. Ўрта тасмани",
-                                                     "F3. Исталган тасмани",
-                                                     "F4. Ўнг тасмани"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 9-боби 57-банди: Бурилишни шундай амалга ошириш керакки, бунда қатнов қисмларининг кесишмасидан чиқаётган транспорт воситаси қарама-қарши йўналишдаги ҳаракат томонига ўтиб кетмаслиги керак.\nЎнгга бурилаётган транспорт воситаси иложи борича қатнов қисмининг ўнг томонига яқинроқда ҳаракатланиши керак."
-                                 }
-                     }
+{
+    "questionId": 951,
+    "image": "data/images/q0951.webp",
+    "translations": {
+        "uz": {
+            "text": "Chapga burilayotgan sariq avtomobil haydovchisi qaysi tasmani egallashi kerak?",
+            "options": [
+                "F1. Chap tasmani",
+                "F2. O'rta tasmani",
+                "F3. Istalgan tasmani",
+                "F4. O'ng tasmani"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 9-bobi 57-bandi: Burilishni shunday amalga oshirish kerakki, bunda qatnov qismlarining kesishmasidan chiqayotgan transport vositasi qarama-qarshi yo'nalishdagi harakat tomoniga o'tib ketmasligi kerak.\nO'ngga burilayotgan transport vositasi iloji boricha qatnov qismining oʻng tomoniga yaqinroqda harakatlanishi kerak."
+        },
+        "ru": {
+            "text": "Жёлтый автомобиль поворачивая налево какую полосу должен занимать?",
+            "options": [
+                "F1. Левую полосу",
+                "F2. Среднюю полосу",
+                "F3. Любую полосу",
+                "F4. Правую полосу"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 57 главы 9 ПДД, гласит: Поворот должен осуществляться таким образом, чтобы при выезде с пересечения проезжих частей транспортное средство не оказалось на стороне встречного движения.\nПри повороте направо транспортное средство должно двигаться по возможности ближе к правому краю проезжей части."
+        },
+        "uzk": {
+            "text": "Чапга бурилаётган сариқ автомобиль ҳайдовчиси қайси тасмани эгаллаши керак?",
+            "options": [
+                "F1. Чап тасмани",
+                "F2. Ўрта тасмани",
+                "F3. Исталган тасмани",
+                "F4. Ўнг тасмани"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 9-боби 57-банди: Бурилишни шундай амалга ошириш керакки, бунда қатнов қисмларининг кесишмасидан чиқаётган транспорт воситаси қарама-қарши йўналишдаги ҳаракат томонига ўтиб кетмаслиги керак.\nЎнгга бурилаётган транспорт воситаси иложи борича қатнов қисмининг ўнг томонига яқинроқда ҳаракатланиши керак."
+        }
+    }
 }

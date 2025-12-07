@@ -1,0 +1,39 @@
+{
+    "questionId": 1079,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 16 yoshga to'lgan bo'lishi",
+                "F2. Motoshlem kiyishlari va uni qadab olishlari",
+                "F3. Kunduzgi vaqtda ham yaqinni yorituvchi chiroqlarni yoqib yurishi",
+                "F4. Barcha sanab o'tilgan javoblar"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 28-bobi 165-bandi: Yo'lda velosiped, individual harakatlanish vositalarini va aravani boshqarish, miniladigan yoki yuk ortiladigan hayvonlarni haydab o'tish 14 yoshdan kichik bo'lmagan, moped va skuterni boshqarish esa 16 yoshdan kichik bo'lmagan shaxslarga ruxsat etiladi.\n\nYHQ 2-bobi 9-bandi: Mototsikl, elektromototsikl, moped va skuterda harakatlanayotgan haydovchi hamda yo'lovchilar maxsus motoshlem kiyishlari va uni qadab olishlari shart.\n\nYHQ 23-bobi 138-bandi: Sutkaning yorug' vaqtida quyidagi hollarda yaqinni yorituvchi fara chiroqlari yoqilishi kerak:\nmototsikl, elektromototsikl, skuter va mopedlarda."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Должен достичь 16-летнего возраста",
+                "F2. Носить мотоциклетный шлем и пристегивать",
+                "F3. Днём также включать ближний свет фар",
+                "F4. Все перечисленные ответы"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 165 главы 28 ПДД, гласит: Управлять велосипедом, индивидуальные транспортных средствам гужевой повозкой, быть погонщиком вьючных или верховых животных при движении по дорогам разрешается лицам не моложе 14 лет, а мопедом — не моложе 16 лет.\n\nПункта 9 главы 2 ПДД, гласит: Водители и пассажиры мотоциклов, электромотоциклов, мопедов и скутеров должны носить специальный мотоциклетный шлем и пристегивать его.\n\nПункта 138 главы 23 ПДД, гласит: В светлое время суток ближний свет фар должен быть включен в следующих случаях:\n— на мотоциклах, электромотоциклах, скутерах и мопедах."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 16 ёшга тўлган бўлиши",
+                "F2. Мотошлем кийишлари ва уни қадаб олишлари",
+                "F3. Кундузги вақтда ҳам яқинни ёритувчи чироқларни ёқиб юриши",
+                "F4. Барча санаб ўтилган жавоблар"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 28-боби 165-банди: Йўлда велосипед, индивидуал ҳаракатланиш воситаларини ва аравани бошқариш, миниладиган ёки юк ортиладиган ҳайвонларни ҳайдаб ўтиш 14 ёшдан кичик бўлмаган, мопед ва скутерни бошқариш эса 16 ёшдан кичик бўлмаган шахсларга рухсат этилади.\n\nЙҲҚ 2-боби 9-банди: Мотоцикл, электромотоцикл, мопед ва скутерда ҳаракатланаётган ҳайдовчи ҳамда йўловчилар махсус мотошлем кийишлари ва уни қадаб олишлари шарт.\n\nЙҲҚ 23-боби 138-банди: Сутканинг ёруғ вақтида қуйидаги ҳолларда яқинни ёритувчи фара чироқлари ёқилиши керак:\nмотоцикл, электромотоцикл, скутер ва мопедларда."
+        }
+    }
+}

@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  705,
-    "image":  "data/images/q0705.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu yo\u0027l nechta harakatlanish tasmasiga ega?",
-                                    "options":  [
-                                                    "F1. Bitta harakatlanish tasmasiga",
-                                                    "F2. Ikkita harakatlanish tasmasiga",
-                                                    "F3. Uchta harakatlanish tasmasiga"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ umumiy qoidalar: Harakatlanish bo\u0027lagi — avtomobillarning bir qator bo\u0027lib harakatlanishi uchun yetarlicha keng bo\u0027lgan, yoʻl chiziqlari bilan belgilangan yoki belgilanmagan yo\u0027l qatnov qismining har qanday bo\u0027ylama bo\u0027lagi."
-                                },
-                         "ru":  {
-                                    "text":  "Сколько полос движений имеет данная дорога?",
-                                    "options":  [
-                                                    "F1. Одну полосу для движения",
-                                                    "F2. Две полосы для движения",
-                                                    "F3. Три полосы для движения"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "ПДД Общие положения: Полоса движения - любая из продольных полос проезжей части, обозначенная или необозначенная дорожной разметкой и имеющая ширину, достаточную для движения автомобилей в один ряд."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу йўл нечта ҳаракатланиш тасмасига эга?",
-                                     "options":  [
-                                                     "F1. Битта ҳаракатланиш тасмасига",
-                                                     "F2. Иккита  ҳаракатланиш тасмасига",
-                                                     "F3. Учта ҳаракатланиш тасмасига"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ умумий қоидалар: Ҳаракатланиш бўлаги — автомобилларнинг бир қатор бўлиб ҳаракатланиши учун етарлича кенг бўлган, йўл чизиқлари билан белгиланган ёки белгиланмаган йўл қатнов қисмининг ҳар қандай бўйлама бўлаги."
-                                 }
-                     }
+{
+    "questionId": 705,
+    "image": "data/images/q0705.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu yo'l nechta harakatlanish tasmasiga ega?",
+            "options": [
+                "F1. Bitta harakatlanish tasmasiga",
+                "F2. Ikkita harakatlanish tasmasiga",
+                "F3. Uchta harakatlanish tasmasiga"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ umumiy qoidalar: Harakatlanish bo'lagi — avtomobillarning bir qator bo'lib harakatlanishi uchun yetarlicha keng bo'lgan, yoʻl chiziqlari bilan belgilangan yoki belgilanmagan yo'l qatnov qismining har qanday bo'ylama bo'lagi."
+        },
+        "ru": {
+            "text": "Сколько полос движений имеет данная дорога?",
+            "options": [
+                "F1. Одну полосу для движения",
+                "F2. Две полосы для движения",
+                "F3. Три полосы для движения"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД Общие положения: Полоса движения - любая из продольных полос проезжей части, обозначенная или необозначенная дорожной разметкой и имеющая ширину, достаточную для движения автомобилей в один ряд."
+        },
+        "uzk": {
+            "text": "Ушбу йўл нечта ҳаракатланиш тасмасига эга?",
+            "options": [
+                "F1. Битта ҳаракатланиш тасмасига",
+                "F2. Иккита  ҳаракатланиш тасмасига",
+                "F3. Учта ҳаракатланиш тасмасига"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ умумий қоидалар: Ҳаракатланиш бўлаги — автомобилларнинг бир қатор бўлиб ҳаракатланиши учун етарлича кенг бўлган, йўл чизиқлари билан белгиланган ёки белгиланмаган йўл қатнов қисмининг ҳар қандай бўйлама бўлаги."
+        }
+    }
 }

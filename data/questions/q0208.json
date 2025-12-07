@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  208,
-    "image":  "data/images/q0208.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Harakatlanish mumkin bo\u0027lgan yo\u0027nalish qaysi rasmda ko\u0027rsatilgan?",
-                                    "options":  [
-                                                    "F1. Chapdagi rasmda",
-                                                    "F2. Pastdagi rasmda",
-                                                    "F3. O\u0027ngdagi rasmda",
-                                                    "F4. O\u0027rtadagi va o\u0027ngdagi rasmda"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining yigirma uchinchi xatboshisiga asosan: 3.19. «Qayrilish taqiqlangan» belgisida faqat qayrilib olish taqiqlanadi."
-                                },
-                         "ru":  {
-                                    "text":  "На каком рисунке показаны разрешенные направления движения?",
-                                    "options":  [
-                                                    "F1. На левом рисунке",
-                                                    "F2. На среднем рисунке",
-                                                    "F3. На правом рисунке",
-                                                    "F4. На среднем и правом рисунке"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Запрешаюший знак 3.19 \"Разворот запрещен\". В данном случае на левом и среднем рисунках показаны запрещенные маневры, т.к. разворот на перекрестке запрещен. Соответственно, правильные направления отображены только на правом рисунке."
-                                },
-                         "uzk":  {
-                                     "text":  "Ҳаракатланиш мумкин бўлган йўналиш қайси расмда кўрсатилган?",
-                                     "options":  [
-                                                     "F1. Чапдаги расмда",
-                                                     "F2. Пастдаги расмда",
-                                                     "F3. Ўнгдаги расмда",
-                                                     "F4. Ўртадаги ва ўнгдаги расмда"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг йигирма учинчи хатбошисига асосан: 3.19. «Кайрилиш тақиқланган» белгисида фақат қайрилиб олиш тақиқланади."
-                                 }
-                     }
+{
+    "questionId": 208,
+    "image": "data/images/q0208.webp",
+    "translations": {
+        "uz": {
+            "text": "Harakatlanish mumkin bo'lgan yo'nalish qaysi rasmda ko'rsatilgan?",
+            "options": [
+                "F1. Chapdagi rasmda",
+                "F2. Pastdagi rasmda",
+                "F3. O'ngdagi rasmda",
+                "F4. O'rtadagi va o'ngdagi rasmda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 1-ilovasi 3-bo'limining yigirma uchinchi xatboshisiga asosan: 3.19. «Qayrilish taqiqlangan» belgisida faqat qayrilib olish taqiqlanadi."
+        },
+        "ru": {
+            "text": "На каком рисунке показаны разрешенные направления движения?",
+            "options": [
+                "F1. На левом рисунке",
+                "F2. На среднем рисунке",
+                "F3. На правом рисунке",
+                "F4. На среднем и правом рисунке"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Запрешаюший знак 3.19 \"Разворот запрещен\". В данном случае на левом и среднем рисунках показаны запрещенные маневры, т.к. разворот на перекрестке запрещен. Соответственно, правильные направления отображены только на правом рисунке."
+        },
+        "uzk": {
+            "text": "Ҳаракатланиш мумкин бўлган йўналиш қайси расмда кўрсатилган?",
+            "options": [
+                "F1. Чапдаги расмда",
+                "F2. Пастдаги расмда",
+                "F3. Ўнгдаги расмда",
+                "F4. Ўртадаги ва ўнгдаги расмда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг йигирма учинчи хатбошисига асосан: 3.19. «Кайрилиш тақиқланган» белгисида фақат қайрилиб олиш тақиқланади."
+        }
+    }
 }

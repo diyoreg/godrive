@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  183,
-    "image":  "data/images/q0183.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi «To\u0027siqni chapdan chetlab o\u0027tish» deb ataladi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 1-ilovasi 4-boʻlimining o\u0027n birinchi xatboshisiga asosan: 4.2.2. «To\u0027siqni chapdan chetlab o\u0027tish». To\u0027siqni ko\u0027rsatilgan yoʻnalish bo\u0027yicha chetlab o\u0027tishga ruxsat etilishini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак называется «Объезд препятствия слева»?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Предписывающий знак 4.2.2 \"Объезд препятствия слева\". Объезд разрешается только со стороны, указанной стрелкой."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги «Тўсиқни чапдан четлаб ўтиш» деб аталади?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 1-иловаси 4-бўлимининг ўн биринчи хатбошисига асосан: 4.2.2. «Тусикни чапдан четлаб ўтиш». Тўсиқни кўрсатилган йўналиш бўйича четлаб ўтишга рухсат этилишини билдиради."
-                                 }
-                     }
+{
+    "questionId": 183,
+    "image": "data/images/q0183.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi «To'siqni chapdan chetlab o'tish» deb ataladi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 1-ilovasi 4-boʻlimining o'n birinchi xatboshisiga asosan: 4.2.2. «To'siqni chapdan chetlab o'tish». To'siqni ko'rsatilgan yoʻnalish bo'yicha chetlab o'tishga ruxsat etilishini bildiradi."
+        },
+        "ru": {
+            "text": "Какой знак называется «Объезд препятствия слева»?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Предписывающий знак 4.2.2 \"Объезд препятствия слева\". Объезд разрешается только со стороны, указанной стрелкой."
+        },
+        "uzk": {
+            "text": "Қайси белги «Тўсиқни чапдан четлаб ўтиш» деб аталади?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 1-иловаси 4-бўлимининг ўн биринчи хатбошисига асосан: 4.2.2. «Тусикни чапдан четлаб ўтиш». Тўсиқни кўрсатилган йўналиш бўйича четлаб ўтишга рухсат этилишини билдиради."
+        }
+    }
 }

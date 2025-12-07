@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  610,
-    "image":  "data/images/q0610.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi yo\u0027l boshi yoki oxirigacha boʻlgan masofani bildiradi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1-ilovasi 5-boʻ\u0027limining qirq oltinchi xatboshisiga asosan: 5.28. «Kilometr belgisi». Yoʻlning boshi yoki oxirigacha bo\u0027lgan masofani bildiradi. (km)."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак указывает расстояние до начала или конца дороги?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Информационно-указательный знак 5.28 \"Километровый знак\". Расстояние до начала или конца дороги (км)."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги йўл боши ёки охиригача бўлган масофани билдиради?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1-иловаси 5-бўлимининг қирқ олтинчи хатбошисига асосан: 5.28. «Километр белгиси». Йўлнинг боши ёки охиригача бўлган масофани билдиради. (км)."
-                                 }
-                     }
+{
+    "questionId": 610,
+    "image": "data/images/q0610.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi yo'l boshi yoki oxirigacha boʻlgan masofani bildiradi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilovasi 5-boʻ'limining qirq oltinchi xatboshisiga asosan: 5.28. «Kilometr belgisi». Yoʻlning boshi yoki oxirigacha bo'lgan masofani bildiradi. (km)."
+        },
+        "ru": {
+            "text": "Какой знак указывает расстояние до начала или конца дороги?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Информационно-указательный знак 5.28 \"Километровый знак\". Расстояние до начала или конца дороги (км)."
+        },
+        "uzk": {
+            "text": "Қайси белги йўл боши ёки охиригача бўлган масофани билдиради?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-иловаси 5-бўлимининг қирқ олтинчи хатбошисига асосан: 5.28. «Километр белгиси». Йўлнинг боши ёки охиригача бўлган масофани билдиради. (км)."
+        }
+    }
 }

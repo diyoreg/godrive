@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  982,
-    "image":  "data/images/q0982.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu «50» yozuvli yo\u0027l chizig\u0027i nimani bildiradi?",
-                                    "options":  [
-                                                    "F1. Yo\u0027l yoki marshrut raqamini",
-                                                    "F2. Yo\u0027lning ushbu qismida tavsiya berilgan tezlikni",
-                                                    "F3. Yo\u0027lning ushbu qismida ruxsat berilgan eng yuqori tezlikni"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 2 ilova: 1.28 — taqiqlovchi yo\u0027l belgilarini takrorlovchi yo\u0027l chizig\u0027i."
-                                },
-                         "ru":  {
-                                    "text":  "Что обозначает эта разметка с надписью «50»?",
-                                    "options":  [
-                                                    "F1. Номер дороги или маршрута",
-                                                    "F2. Рекомендуемую скорость движения на данном участке дороги",
-                                                    "F3. Разрешенную максимальную скорость на данном участке дороги"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Приложение №2 к ПДД: 1.28 — дорожная разметка, дублирующая запрещающие знаки."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу «50» ёзувли йўл чизиғи нимани билдиради?",
-                                     "options":  [
-                                                     "F1. Йўл ёки маршрут рақамини",
-                                                     "F2. Йўлнинг ушбу қисмида тавсия берилган тезликни",
-                                                     "F3. Йўлнинг ушбу қисмида рухсат берилган энг юқори тезликни"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 2 илова: 1.28 — тақиқловчи йўл белгиларини такрорловчи йўл чизиғи."
-                                 }
-                     }
+{
+    "questionId": 982,
+    "image": "data/images/q0982.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu «50» yozuvli yo'l chizig'i nimani bildiradi?",
+            "options": [
+                "F1. Yo'l yoki marshrut raqamini",
+                "F2. Yo'lning ushbu qismida tavsiya berilgan tezlikni",
+                "F3. Yo'lning ushbu qismida ruxsat berilgan eng yuqori tezlikni"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 2 ilova: 1.28 — taqiqlovchi yo'l belgilarini takrorlovchi yo'l chizig'i."
+        },
+        "ru": {
+            "text": "Что обозначает эта разметка с надписью «50»?",
+            "options": [
+                "F1. Номер дороги или маршрута",
+                "F2. Рекомендуемую скорость движения на данном участке дороги",
+                "F3. Разрешенную максимальную скорость на данном участке дороги"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Приложение №2 к ПДД: 1.28 — дорожная разметка, дублирующая запрещающие знаки."
+        },
+        "uzk": {
+            "text": "Ушбу «50» ёзувли йўл чизиғи нимани билдиради?",
+            "options": [
+                "F1. Йўл ёки маршрут рақамини",
+                "F2. Йўлнинг ушбу қисмида тавсия берилган тезликни",
+                "F3. Йўлнинг ушбу қисмида рухсат берилган энг юқори тезликни"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 2 илова: 1.28 — тақиқловчи йўл белгиларини такрорловчи йўл чизиғи."
+        }
+    }
 }

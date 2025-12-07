@@ -1,39 +1,42 @@
-﻿{
-    "questionId":  43,
-    "image":  "data/images/q0043.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi transport vositalarining belgida ko\u0027rsatilgandan kam oraliq masofada harakatlanishini taqiqlaydi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 1-ilovasi 3-bobning 3.16. bandi: 3.16. «Eng kam oraliq». Belgida koʻrsatilganidan kam bo\u0027ylama oraliq masofada harakatlanish taqiqlanadi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак запрещает движение транспортных средств с дистанцией между ними, меньше указанной на знаке?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Глава 3-ПДД Пункт 3.16: «Ограничение минимальной дистанции». Запрещается движение транспортных средств с дистанцией между ними меньше указанной на знаке."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги транспорт воситаларининг белгида кўрсатилгандан кам оралиқ масофада ҳаракатланишини тақиқлайди?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бобнинг 3.16. банди: 3.16. «Энг кам оралиқ. Белгида кўрсатилганидан кам бўйлама оралиқ масофада ҳаракатланиш тақиқланади."
-                                 }
-                     }
+{
+    "questionId": 43,
+    "image": "data/images/q0043.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi transport vositalarining belgida ko'rsatilgandan kam oraliq masofada harakatlanishini taqiqlaydi?",
+            "options": [
+                "F1. 1",
+                "F2. 2",
+                "F3. 3",
+                "F4. 4",
+                "F5. 5"
+            ],
+            "correctAnswer": 5,
+            "explanation": "YHQ 1-ilovasi 3-bobning 3.16. bandi: 3.16. «Eng kam oraliq». Belgida koʻrsatilganidan kam bo'ylama oraliq masofada harakatlanish taqiqlanadi."
+        },
+        "ru": {
+            "text": "Какой знак запрещает движение транспортных средств с дистанцией между ними, меньше указанной на знаке?",
+            "options": [
+                "F1. 1",
+                "F2. 2",
+                "F3. 3",
+                "F4. 4",
+                "F5. 5"
+            ],
+            "correctAnswer": 5,
+            "explanation": "Глава 3-ПДД Пункт 3.16: «Ограничение минимальной дистанции». Запрещается движение транспортных средств с дистанцией между ними меньше указанной на знаке."
+        },
+        "uzk": {
+            "text": "Қайси белги транспорт воситаларининг белгида кўрсатилгандан кам оралиқ масофада ҳаракатланишини тақиқлайди?",
+            "options": [
+                "F1. 1",
+                "F2. 2",
+                "F3. 3",
+                "F4. 4",
+                "F5. 5"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ЙҲҚ 1-иловаси 3-бобнинг 3.16. банди: 3.16. «Энг кам оралиқ. Белгида кўрсатилганидан кам бўйлама оралиқ масофада ҳаракатланиш тақиқланади."
+        }
+    }
 }

@@ -1,0 +1,36 @@
+{
+    "questionId": 501,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Belgilangan yo'nalishli transport vositalariga qaysilar kiradi?",
+            "options": [
+                "F1. Avtobus va yo'nalishli taksilar",
+                "F2. Tramvay va trolleybuslar",
+                "F3. Belgilangan yo'nalish bo'yicha harakatlanadigan avtobus, trolleybus, tramvay va yo'nalishli taksilar"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 1-bobi 6-bandining o'n to'rtinchi xatboshiga asosan: Yo'nalishli transport vositasi — belgilangan yoʻnalishi va bekatlari boʻlgan, yo'lovchi tashish uchun mo'ljallangan umum foydalanishdagi transport vositalari (trolleybus, tramvay, avtobus, yo'nalishli taksi)."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Автобусы и маршрутные такси",
+                "F2. Трамваи и троллейбусы",
+                "F3. Автобусы, троллейбусы, трамваи и маршрутные такси, движущиеся по установленным маршрутам"
+            ],
+            "correctAnswer": 3,
+            "explanation": "В разделе №2 ПДД (\"Основные понятия и термины, применяемые в правилах\") сказано: Маршрутное транспортное средство - транспортное средство общего пользования (троллейбус, автобус, трамвай, маршрутное такси), предназначенное для перевозки пассажиров и имеющее установленный маршрут с остановочными пунктами (остановками)."
+        },
+        "uzk": {
+            "text": "Белгиланган йўналишли транспорт воситаларига қайсилар киради?",
+            "options": [
+                "F1. Автобус ва йўналишли таксилар",
+                "F2. Трамвай ва троллейбуслар",
+                "F3. Белгиланган йўналиш бўйича ҳаракатланадиган а в тобус, тролдолейбус, трамвай ва йўналишли таксилар"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 1-боби 6-бандининг ўн тўртинчи хатбошига асосан: Йўналишли транспорт воситаси — белгиланган йўналиши ва бекатлари бўлган, йўловчи ташиш учун мўлжалланган умум фойдаланишдаги транспорт воситалари (троллейбус, трамвай, автобус, йўналишли такси)."
+        }
+    }
+}

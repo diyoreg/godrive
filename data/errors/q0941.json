@@ -1,0 +1,39 @@
+{
+    "questionId": 941,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Yo'lovchisiz, biroq yuqori yukxonasidagi yuki bilan",
+                "F2. Yo'lovchisiz va yuksiz",
+                "F3. Yo'lovchilari va yuksiz",
+                "F4. Yo'lovchi va yuki bilan"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Avtomobil ogʻirlik markazi qancha pastda boʻlsa va undagi yuklar to'g'ri (simmetrik) joylashsa u shuncha turg'unroq bo'ladi. Yuksiz yo'lavchilarsiz avtomobil yo'lovchisi bor va yuki bor avtomobilga nisbatan turg'unroqdir."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Без пассажиров, но с грузом на верхнем багажнике",
+                "F2. Без пассажиров и груза",
+                "F3. С пассажирами, но без груза",
+                "F4. С пассажирами и грузом"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Более устойчив на повороте автомобиль без груза и пассажиров, так как у такого автомобиля самое низкое расположение центра тяжести, а значит, самый маленький опрокидывающий момент."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Йўловчисиз, бироқ юқори юкхонасидаги юки билан",
+                "F2. Йўловчисиз ва юксиз",
+                "F3. Йўловчилари ва юксиз",
+                "F4. Йўловчи ва юки билан"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Автомобил оғирлик маркази қанча пастда бўлса ва ундаги юклар тўғри (симметрик) жойлашса у шунча турғунроқ бўлади. Юксиз йўловчисиз автомобил йўловчиси бор ва юки бор автомобилга нисбатан турғунроқдир."
+        }
+    }
+}

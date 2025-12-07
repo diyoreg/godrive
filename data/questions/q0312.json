@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  312,
-    "image":  "data/images/q0312.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Bu belgi nimani bildiradi?",
-                                    "options":  [
-                                                    "F1. To\u0027la vazni 3,5 tonnadan ortiq bo\u0027lgan yuk avtomobilining majburiy harakat yo\u0027nalishini",
-                                                    "F2. Faqat yuk avtomobillari uchun harakat yo\u0027nalishini",
-                                                    "F3. Yuk avtomobillari, traktorlar, o\u0027ziyurar mashinalar uchun, agar chorrahada yo\u0027nalishlardan birida harakatlanish taqiqlangan bo\u0027lsa, tavsiya etiladigan harakat yo\u0027nalishini",
-                                                    "F4. Shaharlararo yuk tashuvchi yuk avtomobillarining harakat yo\u0027nalishini"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 1-ilovasining 5-bo\u0027limidagi 5.30.2 «Yuk avtomobillari uchun harakatlanish yo\u0027nalishi» belgisiga asosan, yuk avtomobillari haydovchilariga eng qulay yo\u0027lni ko\u0027rsatadi va shu yo\u0027l bo\u0027yicha harakatlanishni tavsiya etadi."
-                                },
-                         "ru":  {
-                                    "text":  "Что означает этот знак?",
-                                    "options":  [
-                                                    "F1. Обязательное направление движения грузовых автомобилей, полная масса которых более 3,5 т",
-                                                    "F2. Направление движения только для грузовых автомобилей",
-                                                    "F3. Рекомендуемое направление движения для грузовых автомобилей, тракторов и самоходных машин, если на перекрестке их движение в одном из направлений запрещено",
-                                                    "F4. Направление движения грузовых автомобилей, осуществляющих междугородние перевозки"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Информационно-указательный знак 5.30.2 \"Направление движения для грузовых автомобилей\". Рекомендуемое направление движения для грузовых автомобилей, тракторов и самоходных машин, если на перекрестке их движение в одном из направлений запрещено."
-                                },
-                         "uzk":  {
-                                     "text":  "Бу белги нимани билдиради?",
-                                     "options":  [
-                                                     "F1. Тўла вазни 3,5 тоннадан ортиқ бўлган юк автомобилининг мажбурий ҳаракат йўналишини",
-                                                     "F2. Фақат юк автомобиллари учун ҳаракат йўналишини",
-                                                     "F3. Юк автомобиллари, тракторлар, ўзиюрар машиналар учун, агар чорраҳада йўналишлардан бирида ҳаракатланиш тақиқланган бўлса, тавсия этиладиган ҳаракат йўналишини",
-                                                     "F4. Шаҳарлараро юк ташувчи юк автомобилларининг ҳаракат йўналишини"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 1-иловасининг 5-бўлимидаги 5.30.2 «Юк автомобиллари учун ҳаракатланиш йўналиши» белгисига асосан, юк автомобиллари ҳайдовчиларига энг қулай йўлни кўрсатади ва шу йўл бўйича ҳаракатланишни тавсия этади."
-                                 }
-                     }
+{
+    "questionId": 312,
+    "image": "data/images/q0312.webp",
+    "translations": {
+        "uz": {
+            "text": "Bu belgi nimani bildiradi?",
+            "options": [
+                "F1. To'la vazni 3,5 tonnadan ortiq bo'lgan yuk avtomobilining majburiy harakat yo'nalishini",
+                "F2. Faqat yuk avtomobillari uchun harakat yo'nalishini",
+                "F3. Yuk avtomobillari, traktorlar, o'ziyurar mashinalar uchun, agar chorrahada yo'nalishlardan birida harakatlanish taqiqlangan bo'lsa, tavsiya etiladigan harakat yo'nalishini",
+                "F4. Shaharlararo yuk tashuvchi yuk avtomobillarining harakat yo'nalishini"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 1-ilovasining 5-bo'limidagi 5.30.2 «Yuk avtomobillari uchun harakatlanish yo'nalishi» belgisiga asosan, yuk avtomobillari haydovchilariga eng qulay yo'lni ko'rsatadi va shu yo'l bo'yicha harakatlanishni tavsiya etadi."
+        },
+        "ru": {
+            "text": "Что означает этот знак?",
+            "options": [
+                "F1. Обязательное направление движения грузовых автомобилей, полная масса которых более 3,5 т",
+                "F2. Направление движения только для грузовых автомобилей",
+                "F3. Рекомендуемое направление движения для грузовых автомобилей, тракторов и самоходных машин, если на перекрестке их движение в одном из направлений запрещено",
+                "F4. Направление движения грузовых автомобилей, осуществляющих междугородние перевозки"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Информационно-указательный знак 5.30.2 \"Направление движения для грузовых автомобилей\". Рекомендуемое направление движения для грузовых автомобилей, тракторов и самоходных машин, если на перекрестке их движение в одном из направлений запрещено."
+        },
+        "uzk": {
+            "text": "Бу белги нимани билдиради?",
+            "options": [
+                "F1. Тўла вазни 3,5 тоннадан ортиқ бўлган юк автомобилининг мажбурий ҳаракат йўналишини",
+                "F2. Фақат юк автомобиллари учун ҳаракат йўналишини",
+                "F3. Юк автомобиллари, тракторлар, ўзиюрар машиналар учун, агар чорраҳада йўналишлардан бирида ҳаракатланиш тақиқланган бўлса, тавсия этиладиган ҳаракат йўналишини",
+                "F4. Шаҳарлараро юк ташувчи юк автомобилларининг ҳаракат йўналишини"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 1-иловасининг 5-бўлимидаги 5.30.2 «Юк автомобиллари учун ҳаракатланиш йўналиши» белгисига асосан, юк автомобиллари ҳайдовчиларига энг қулай йўлни кўрсатади ва шу йўл бўйича ҳаракатланишни тавсия этади."
+        }
+    }
 }

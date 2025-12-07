@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  1044,
-    "image":  "data/images/q1044.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Quyidagi belgilardan qaysi biri yengil avtomobillar harakati deb nomlanadi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1 ilova: 4.4. “Yengil avtomobillar harakati”. Yengil avtomobillar, avtobus, mototsikllar, mopedlar, skuterlar, belgilangan yo\u0027nalishli transport vositalari va ruxsat etilgan to\u0027liq vazni 3,5 tonnadan oshmaydigan yuk avtomobillari harakatlanishiga ruxsat etilishini bildiradi.\nBelgining ta’sir oralig\u0027ida yashovchi va ishlovchi fuqarolarga tegishli, ularga va korxonalarga xizmat ko\u0027rsatuvchi transport vositalariga bu belgi tatbiq etilmaydi. Bunday hollarda transport vositalari belgilangan joyga eng yaqin chorrahadan kirib yoki chiqib ketishlari kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Какой из перечисленных знаков называется движением легковых автомобилей?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "ПДД приложение № 1: 4.4. Движение легковых автомобилей. Разрешается движение легковых автомобилей, автобусов, мотоциклов, мопеды, скутеры и грузовых автомобилей, разрешенная максимальная масса которых не превышает 3,5 т.\nДействие знака не распространяется на транспортные средства, которые обслуживают предприятия, находящиеся в обозначенной зоне, а также обслуживают граждан или принадлежат гражданам, проживающим или работающим в обозначенной зоне. В этих случаях транспортные средства должны въезжать в обозначенную зону и выезжать из нее на ближайшем к месту назначения перекрестке."
-                                },
-                         "uzk":  {
-                                     "text":  "Қуйидаги белгилардан қайси бири енгил автомобиллар ҳаракати деб номланади?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1 илова: 4.4. “Енгил автомобиллар ҳаракати”. Енгил автомобиллар, автобус, мотоцикллар, мопедлар, скутерлар, белгиланган йўналишли транспорт воситалари ва рухсат этилган тўлиқ вазни 3,5 тоннадан ошмайдиган юк автомобиллари ҳаракатланишига рухсат этилишини билдиради.\nБелгининг таъсир оралиғида яшовчи ва ишловчи фуқароларга тегишли, уларга ва корхоналарга хизмат кўрсатувчи транспорт воситаларига бу белги татбиқ этилмайди. Бундай ҳолларда транспорт воситалари белгиланган жойга энг яқин чорраҳадан кириб ёки чиқиб кетишлари керак."
-                                 }
-                     }
+{
+    "questionId": 1044,
+    "image": "data/images/q1044.webp",
+    "translations": {
+        "uz": {
+            "text": "Quyidagi belgilardan qaysi biri yengil avtomobillar harakati deb nomlanadi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1 ilova: 4.4. “Yengil avtomobillar harakati”. Yengil avtomobillar, avtobus, mototsikllar, mopedlar, skuterlar, belgilangan yo'nalishli transport vositalari va ruxsat etilgan to'liq vazni 3,5 tonnadan oshmaydigan yuk avtomobillari harakatlanishiga ruxsat etilishini bildiradi.\nBelgining ta’sir oralig'ida yashovchi va ishlovchi fuqarolarga tegishli, ularga va korxonalarga xizmat ko'rsatuvchi transport vositalariga bu belgi tatbiq etilmaydi. Bunday hollarda transport vositalari belgilangan joyga eng yaqin chorrahadan kirib yoki chiqib ketishlari kerak."
+        },
+        "ru": {
+            "text": "Какой из перечисленных знаков называется движением легковых автомобилей?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД приложение № 1: 4.4. Движение легковых автомобилей. Разрешается движение легковых автомобилей, автобусов, мотоциклов, мопеды, скутеры и грузовых автомобилей, разрешенная максимальная масса которых не превышает 3,5 т.\nДействие знака не распространяется на транспортные средства, которые обслуживают предприятия, находящиеся в обозначенной зоне, а также обслуживают граждан или принадлежат гражданам, проживающим или работающим в обозначенной зоне. В этих случаях транспортные средства должны въезжать в обозначенную зону и выезжать из нее на ближайшем к месту назначения перекрестке."
+        },
+        "uzk": {
+            "text": "Қуйидаги белгилардан қайси бири енгил автомобиллар ҳаракати деб номланади?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1 илова: 4.4. “Енгил автомобиллар ҳаракати”. Енгил автомобиллар, автобус, мотоцикллар, мопедлар, скутерлар, белгиланган йўналишли транспорт воситалари ва рухсат этилган тўлиқ вазни 3,5 тоннадан ошмайдиган юк автомобиллари ҳаракатланишига рухсат этилишини билдиради.\nБелгининг таъсир оралиғида яшовчи ва ишловчи фуқароларга тегишли, уларга ва корхоналарга хизмат кўрсатувчи транспорт воситаларига бу белги татбиқ этилмайди. Бундай ҳолларда транспорт воситалари белгиланган жойга энг яқин чорраҳадан кириб ёки чиқиб кетишлари керак."
+        }
+    }
 }

@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  264,
-    "image":  "data/images/q0264.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Avtomobil haydovchisi harakatining tartibi qaysi javobda to\u0027g\u0027ri ko\u0027rsatilgan?",
-                                    "options":  [
-                                                    "F1. Mototsiklni o\u0027tkazib yubordi va chorrahada qayrilib oldi",
-                                                    "F2. Tramvayni o\u0027tkazib yubordi va chorrahada qayrilib oldi",
-                                                    "F3. Tramvay va mototsiklni o\u0027tkazib chorrahadan qayrilib oldi"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 16-bobi 105-bandiga asosan: Teng ahamiyatga ega bo\u0027lgan yo\u0027llar kesishgan chorrahada relssiz transport vositasining haydovchisi o\u0027ngdan kelayotgan transport vositalariga yo\u0027l berishi shart. Bu qoidaga tramvay haydovchilari ham o\u0027zaro amal qilishlari kerak. Bunday chorrahalarda, keyingi harakat yo\u0027nalishidan qat\u0027i nazar, tramvay relssiz transport vositalariga nisbatan oldin oʻtish huquqiga ega bo\u0027ladi.\nYHQ 16-bobi 107-bandiga asosan: Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yoʻldan qarama-qarshi yo\u0027nalishdan to\u0027g\u0027riga yoki o\u0027ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib oʻtayotgan transport vositalariga yo\u0027l berishi shart. Bu qoidaga tramvay haydovchilari ham o\u0027zaro amal qilishlari kerak."
-                                },
-                         "ru":  {
-                                    "text":  "B каком ответе правильно указана последовательность действий водителя автомобиля?",
-                                    "options":  [
-                                                    "F1. Пропустил мотоцикл и развернулся на перекрестке",
-                                                    "F2. Пропустил трамвай и развернулся на перекрестке",
-                                                    "F3. Пропустил трамвай, мотоцикл и развернулся на перекрестке"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Пункта 105 главы 16 ПДД гласит: На перекрестках равнозначных дорог трамвай имеет право на первоочередное движение перед безрельсовыми транспортными средствами независимо от направления его движения.\nПункта 107 главы 16 ПДД гласит: При повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
-                                },
-                         "uzk":  {
-                                     "text":  "Автомобиль ҳайдовчиси ҳаракатининг тартиби қайси жавобда тўғри кўрсатилган?",
-                                     "options":  [
-                                                     "F1. Мотоциклни ўтказиб юборди ва чорраҳада қайрилиб олди",
-                                                     "F2. Трамвайни ўтказиб юборди ва чорраҳада қайрилиб олди",
-                                                     "F3. Трамвай ва мотоциклни ўтказиб чорраҳадан қайрилиб олди"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 16-боби 105-бандига асосан: Тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада рельссиз транспорт воситасининг ҳайдовчиси ўнгдан келаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак. Бундай чорраҳаларда, кейинги ҳаракат йўналишидан қатъи назар, трамвай рельссиз транспорт воситаларига нисбатан олдин ўтиш ҳуқуқига эга бўлади.\nЙҲҚ 16-боби 107-бандига асосан: Чапга бурилишда ёки қайрилиб олишда релъссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак."
-                                 }
-                     }
+{
+    "questionId": 264,
+    "image": "data/images/q0264.webp",
+    "translations": {
+        "uz": {
+            "text": "Avtomobil haydovchisi harakatining tartibi qaysi javobda to'g'ri ko'rsatilgan?",
+            "options": [
+                "F1. Mototsiklni o'tkazib yubordi va chorrahada qayrilib oldi",
+                "F2. Tramvayni o'tkazib yubordi va chorrahada qayrilib oldi",
+                "F3. Tramvay va mototsiklni o'tkazib chorrahadan qayrilib oldi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 16-bobi 105-bandiga asosan: Teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ngdan kelayotgan transport vositalariga yo'l berishi shart. Bu qoidaga tramvay haydovchilari ham o'zaro amal qilishlari kerak. Bunday chorrahalarda, keyingi harakat yo'nalishidan qat'i nazar, tramvay relssiz transport vositalariga nisbatan oldin oʻtish huquqiga ega bo'ladi.\nYHQ 16-bobi 107-bandiga asosan: Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yoʻldan qarama-qarshi yo'nalishdan to'g'riga yoki o'ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib oʻtayotgan transport vositalariga yo'l berishi shart. Bu qoidaga tramvay haydovchilari ham o'zaro amal qilishlari kerak."
+        },
+        "ru": {
+            "text": "B каком ответе правильно указана последовательность действий водителя автомобиля?",
+            "options": [
+                "F1. Пропустил мотоцикл и развернулся на перекрестке",
+                "F2. Пропустил трамвай и развернулся на перекрестке",
+                "F3. Пропустил трамвай, мотоцикл и развернулся на перекрестке"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 105 главы 16 ПДД гласит: На перекрестках равнозначных дорог трамвай имеет право на первоочередное движение перед безрельсовыми транспортными средствами независимо от направления его движения.\nПункта 107 главы 16 ПДД гласит: При повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
+        },
+        "uzk": {
+            "text": "Автомобиль ҳайдовчиси ҳаракатининг тартиби қайси жавобда тўғри кўрсатилган?",
+            "options": [
+                "F1. Мотоциклни ўтказиб юборди ва чорраҳада қайрилиб олди",
+                "F2. Трамвайни ўтказиб юборди ва чорраҳада қайрилиб олди",
+                "F3. Трамвай ва мотоциклни ўтказиб чорраҳадан қайрилиб олди"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 16-боби 105-бандига асосан: Тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада рельссиз транспорт воситасининг ҳайдовчиси ўнгдан келаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак. Бундай чорраҳаларда, кейинги ҳаракат йўналишидан қатъи назар, трамвай рельссиз транспорт воситаларига нисбатан олдин ўтиш ҳуқуқига эга бўлади.\nЙҲҚ 16-боби 107-бандига асосан: Чапга бурилишда ёки қайрилиб олишда релъссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак."
+        }
+    }
 }

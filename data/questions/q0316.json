@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  316,
-    "image":  "data/images/q0316.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Yengil avtomobil haydovchilarining qaysi biri aholi punktlarida harakatlanish qoidalarini buzmoqda?",
-                                    "options":  [
-                                                    "F1. Faqat «Б» avtomobil haydovchisi",
-                                                    "F2. Ikkalasi ham buzmoqda",
-                                                    "F3. Ikkalasi ham buzmayapti"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 10-bobi 67-bandi 2-xatboshiga asosan, aholi punktlarida Qoidalarning 69, 123, 161 bandlaridagi talablarni hisobga olgan holda haydovchilar o\u0027zlariga qulay bo\u0027lgan harakatlanish bo\u0027lagidan foydalanishlari mumkin. Biroq, bir yo\u0027nalishdagi uch va undan ortiq tasmali har qanday yo\u0027lda chetki chap qatorni harakat serqatnovligi sababli boshqa bo\u0027laklar band bo\u0027lgan hollarda, shuningdek, quvib o\u0027tish, chapga burilish yoki qayrilib olishga, yuk avtomobillariga faqat chapga burilish yoki qayrilib olish uchun chetki chap qatorni egallashga ruxsat etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "Кто из водителей легковых автомобилей нарушает правила при движении в населенном пункте?",
-                                    "options":  [
-                                                    "F1. Только водитель автомобиля «Б»",
-                                                    "F2. Оба нарушают",
-                                                    "F3. Оба не нарушают"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Aбзацу 2 пункта 67 главы 10 ПДД, в населенных пунктах водители транспортных средств могут использовать наиболее удобную для них полосу движения, с учетом требований абзаца первого настоящего пункта, пунктов 69, 123 и 161 настоящих Правил. При интенсивном движении, когда все полосы движения заняты, менять полосу разрешается только для поворота налево или направо, разворота, остановки или объезда препятствия. Однако на любых дорогах, имеющих для движения в данном направлении три полосы и более, занимать крайний левый ряд разрешается только при интенсивном движении, когда заняты другие полосы, а также для обгона, поворота налево или разворота, а грузовым автомобилям — только для поворота налево или разворота."
-                                },
-                         "uzk":  {
-                                     "text":  "Енгил автомобиль ҳайдовчиларининг қайси бири аҳоли пунктларида ҳаракатланиш қоидаларини бузмоқда?",
-                                     "options":  [
-                                                     "F1. Фақат «Б» автомобиль ҳайдовчиси",
-                                                     "F2. Иккаласи ҳам бузмокда",
-                                                     "F3. Иккаласи ҳам бузмаяпти"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 10-боби 67-банди 2-хатбошига асосан, аҳоли пунктларида Қоидаларнинг 69, 123, 161 бандларидаги талабларни ҳисобга олган ҳолда ҳайдовчилар ўзларига қулай бўлган ҳаракатланиш бўлагидан фойдаланишлари мумкин. Бироқ, бир йўналишдаги уч ва ундан ортиқ тасмали ҳар қандай йўлда четки чап қаторни ҳаракат серқатновлиги сабабли бошқа бўлаклар банд бўлган ҳолларда, шунингдек, қувиб ўтиш, чапга бурилиш ёки қайрилиб олишга, юк автомобилларига фақат чапга бурилиш ёки қайрилиб олиш учун четки чап қаторни егаллашга рухсат етилади."
-                                 }
-                     }
+{
+    "questionId": 316,
+    "image": "data/images/q0316.webp",
+    "translations": {
+        "uz": {
+            "text": "Yengil avtomobil haydovchilarining qaysi biri aholi punktlarida harakatlanish qoidalarini buzmoqda?",
+            "options": [
+                "F1. Faqat «Б» avtomobil haydovchisi",
+                "F2. Ikkalasi ham buzmoqda",
+                "F3. Ikkalasi ham buzmayapti"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 10-bobi 67-bandi 2-xatboshiga asosan, aholi punktlarida Qoidalarning 69, 123, 161 bandlaridagi talablarni hisobga olgan holda haydovchilar o'zlariga qulay bo'lgan harakatlanish bo'lagidan foydalanishlari mumkin. Biroq, bir yo'nalishdagi uch va undan ortiq tasmali har qanday yo'lda chetki chap qatorni harakat serqatnovligi sababli boshqa bo'laklar band bo'lgan hollarda, shuningdek, quvib o'tish, chapga burilish yoki qayrilib olishga, yuk avtomobillariga faqat chapga burilish yoki qayrilib olish uchun chetki chap qatorni egallashga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "Кто из водителей легковых автомобилей нарушает правила при движении в населенном пункте?",
+            "options": [
+                "F1. Только водитель автомобиля «Б»",
+                "F2. Оба нарушают",
+                "F3. Оба не нарушают"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 2 пункта 67 главы 10 ПДД, в населенных пунктах водители транспортных средств могут использовать наиболее удобную для них полосу движения, с учетом требований абзаца первого настоящего пункта, пунктов 69, 123 и 161 настоящих Правил. При интенсивном движении, когда все полосы движения заняты, менять полосу разрешается только для поворота налево или направо, разворота, остановки или объезда препятствия. Однако на любых дорогах, имеющих для движения в данном направлении три полосы и более, занимать крайний левый ряд разрешается только при интенсивном движении, когда заняты другие полосы, а также для обгона, поворота налево или разворота, а грузовым автомобилям — только для поворота налево или разворота."
+        },
+        "uzk": {
+            "text": "Енгил автомобиль ҳайдовчиларининг қайси бири аҳоли пунктларида ҳаракатланиш қоидаларини бузмоқда?",
+            "options": [
+                "F1. Фақат «Б» автомобиль ҳайдовчиси",
+                "F2. Иккаласи ҳам бузмокда",
+                "F3. Иккаласи ҳам бузмаяпти"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 10-боби 67-банди 2-хатбошига асосан, аҳоли пунктларида Қоидаларнинг 69, 123, 161 бандларидаги талабларни ҳисобга олган ҳолда ҳайдовчилар ўзларига қулай бўлган ҳаракатланиш бўлагидан фойдаланишлари мумкин. Бироқ, бир йўналишдаги уч ва ундан ортиқ тасмали ҳар қандай йўлда четки чап қаторни ҳаракат серқатновлиги сабабли бошқа бўлаклар банд бўлган ҳолларда, шунингдек, қувиб ўтиш, чапга бурилиш ёки қайрилиб олишга, юк автомобилларига фақат чапга бурилиш ёки қайрилиб олиш учун четки чап қаторни егаллашга рухсат етилади."
+        }
+    }
 }

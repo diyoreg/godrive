@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  191,
-    "image":  "data/images/q0191.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi transport vositasining haydovchisi birinchi navbatda harakatlanish ustunligiga ega?",
-                                    "options":  [
-                                                    "F1. Yo\u0027l xizmati mashinasining haydovchisi",
-                                                    "F2. Yengil avtomobil haydovchisi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 16-bobi 105-bandiga asosan: Teng ahamiyatga ega bo\u0027lgan yo\u0027llar kesishgan chorrahada relssiz transport vositasining haydovchisi o\u0027ngdan kelayotgan transport vositalariga yo\u0027l berishi shart.\nYHQ 6-bobi 29-bandiga asosan: Zarg\u0027aldoq yoki sariq rangli chiroq-mayoqchasi yoqilgan transport vositalarining haydovchilari yoʻl qurilishi, ta\u0027mirlanishi va tozalanishi jarayonida hamda texnik shikastlangan, nosoz bo\u0027lgan, shuningdek qonunda koʻzda tutilgan hollarda boshqa transport vositalarini ortishda yo\u0027l harakati xavfsizligini ta\u0027minlash sharti bilan ushbu Qoidalarning yo\u0027l belgilari (2.2, 2.4 — 2.6, 3.11 — 3.14, 3.17.2, 3.20 yo\u0027l belgilaridan tashqari), yoʻl chiziqlari hamda 67 — 71 va 121-bandlari talablaridan chetga chiqishlari mumkin."
-                                },
-                         "ru":  {
-                                    "text":  "Водитель какого транспортного средства имеет право на первоочередное движение?",
-                                    "options":  [
-                                                    "F1. Водитель дорожной машины",
-                                                    "F2. Водитель легкового автомобиля"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Пункта 105 главы 16 ПДД гласит: на перекрестке равнозначных дорог водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, приближающимся справа.\nПункта 29 главы 6 ПДД гласит: водители транспортных средств дорожной службы с включенным маячком оранжевого или желтого цвета при выполнении работ на дороге могут отступать от требований дорожных знаков и разметки,(2.2, 2.4.-2.6,3.11.-3.14,3.17.2,3.20 дорожных знаков), а так же пунктов 67-71 и 121 правил при условии обеспечения безопасности движения. Другие водители не должны создавать препятствие их работе. Маячок оранжевого или желтого цвета не дает приоритета в движении и служит только для предупреждения других участников движения."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси транспорт воситасининг ҳайдовчиси биринчи навбатда ҳаракатланиш устунлигига эга?",
-                                     "options":  [
-                                                     "F1. Йўл хизмати машинасининг ҳайдовчиси",
-                                                     "F2. Енгил автомобиль ҳайдовчиси"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 16-боби 105-бандига асосан: Тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада рельссиз транспорт воситасининг ҳайдовчиси ўнгдан келаётган транспорт воситаларига йўл бериши шарт.\nЙҲҚ 6-боби 29-бандига асосан: Зарғалдоқ ёки сариқ рангли чироқ-маёқчаси ёқилган транспорт воситаларининг ҳайдовчилари йўл қурилиши, таъмирланиши ва тозаланиши жараёнида ҳамда техник шикастланган, носоз бўлган, шунингдек қонунда кўзда тутилган ҳолларда бошқа транспорт воситаларини ортишда йўл ҳаракати хавфсизлигини таъминлаш шарти билан ушбу Қоидаларнинг йўл белгилари (2.2, 2.4 — 2.6, 3.11 — 3.14, 3.17.2, 3.20 йўл белгиларидан ташқари), йўл чизиқлари ҳамда 67 — 71 ва 121-бандлари талабларидан четга чиқишлари мумкин."
-                                 }
-                     }
+{
+    "questionId": 191,
+    "image": "data/images/q0191.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi transport vositasining haydovchisi birinchi navbatda harakatlanish ustunligiga ega?",
+            "options": [
+                "F1. Yo'l xizmati mashinasining haydovchisi",
+                "F2. Yengil avtomobil haydovchisi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 16-bobi 105-bandiga asosan: Teng ahamiyatga ega bo'lgan yo'llar kesishgan chorrahada relssiz transport vositasining haydovchisi o'ngdan kelayotgan transport vositalariga yo'l berishi shart.\nYHQ 6-bobi 29-bandiga asosan: Zarg'aldoq yoki sariq rangli chiroq-mayoqchasi yoqilgan transport vositalarining haydovchilari yoʻl qurilishi, ta'mirlanishi va tozalanishi jarayonida hamda texnik shikastlangan, nosoz bo'lgan, shuningdek qonunda koʻzda tutilgan hollarda boshqa transport vositalarini ortishda yo'l harakati xavfsizligini ta'minlash sharti bilan ushbu Qoidalarning yo'l belgilari (2.2, 2.4 — 2.6, 3.11 — 3.14, 3.17.2, 3.20 yo'l belgilaridan tashqari), yoʻl chiziqlari hamda 67 — 71 va 121-bandlari talablaridan chetga chiqishlari mumkin."
+        },
+        "ru": {
+            "text": "Водитель какого транспортного средства имеет право на первоочередное движение?",
+            "options": [
+                "F1. Водитель дорожной машины",
+                "F2. Водитель легкового автомобиля"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 105 главы 16 ПДД гласит: на перекрестке равнозначных дорог водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, приближающимся справа.\nПункта 29 главы 6 ПДД гласит: водители транспортных средств дорожной службы с включенным маячком оранжевого или желтого цвета при выполнении работ на дороге могут отступать от требований дорожных знаков и разметки,(2.2, 2.4.-2.6,3.11.-3.14,3.17.2,3.20 дорожных знаков), а так же пунктов 67-71 и 121 правил при условии обеспечения безопасности движения. Другие водители не должны создавать препятствие их работе. Маячок оранжевого или желтого цвета не дает приоритета в движении и служит только для предупреждения других участников движения."
+        },
+        "uzk": {
+            "text": "Қайси транспорт воситасининг ҳайдовчиси биринчи навбатда ҳаракатланиш устунлигига эга?",
+            "options": [
+                "F1. Йўл хизмати машинасининг ҳайдовчиси",
+                "F2. Енгил автомобиль ҳайдовчиси"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 16-боби 105-бандига асосан: Тенг аҳамиятга эга бўлган йўллар кесишган чорраҳада рельссиз транспорт воситасининг ҳайдовчиси ўнгдан келаётган транспорт воситаларига йўл бериши шарт.\nЙҲҚ 6-боби 29-бандига асосан: Зарғалдоқ ёки сариқ рангли чироқ-маёқчаси ёқилган транспорт воситаларининг ҳайдовчилари йўл қурилиши, таъмирланиши ва тозаланиши жараёнида ҳамда техник шикастланган, носоз бўлган, шунингдек қонунда кўзда тутилган ҳолларда бошқа транспорт воситаларини ортишда йўл ҳаракати хавфсизлигини таъминлаш шарти билан ушбу Қоидаларнинг йўл белгилари (2.2, 2.4 — 2.6, 3.11 — 3.14, 3.17.2, 3.20 йўл белгиларидан ташқари), йўл чизиқлари ҳамда 67 — 71 ва 121-бандлари талабларидан четга чиқишлари мумкин."
+        }
+    }
 }

@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  791,
-    "image":  "data/images/q0791.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "To\u0027xtab turish qoidasini kim buzdi?",
-                                    "options":  [
-                                                    "F1. Faqat «Б»",
-                                                    "F2. Faqat «A»",
-                                                    "F3. «A» va «Б»"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1-ilova: 7.6.1 — 7.6.9. «Transport vositasini to\u0027xtab turish joyiga qo\u0027yish usuli». 7.6.1 barcha turdagi transport vositalarini to\u0027xtab turishi uchun yo\u0027lning qatnov qismida, trotuar yoniga qo\u0027yish usulini, 7.6.2 — 7.6.9 trotuar yonidagi to\u0027xtab turish joyiga yengil avtomobillar, mototsikllar, mopedlar va skuterlarni qo\u0027yish usulini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Кто нарушил правило стоянки?",
-                                    "options":  [
-                                                    "F1. Только «Б»",
-                                                    "F2. Только «А»",
-                                                    "F3. «А» и «Б»"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "ПДД приложение № 1: 7.6.1 — 7.6.9. «Способ постановки транспортного средства на стоянку». 7.6.1 указывает способ постановки транспортного средства на проезжую часть, вдоль тротуара, 7.6.2 — 7.6.9. Указывает способ постановки легковых автомобилей, мотоциклы, мопеды и скутеры на околотротуарной стоянке."
-                                },
-                         "uzk":  {
-                                     "text":  "Тўхтаб туриш қоидасини ким бузди?",
-                                     "options":  [
-                                                     "F1. Фақат «Б»",
-                                                     "F2. Фақат «A»",
-                                                     "F3. «A» ва «Б»"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1-илова: 7.6.1 — 7.6.9. «Транспорт воситасини тўхтаб туриш жойига қўйиш усули». 7.6.1 барча турдаги транспорт воситаларини тўхтаб туриши учун йўлнинг қатнов қисмида, тротуар ёнига қўйиш усулини, 7.6.2 — 7.6.9 тротуар ёнидаги тўхтаб туриш жойига енгил автомобиллар, мотоцикллар, мопедлар ва скутерларни қўйиш усулини билдиради."
-                                 }
-                     }
+{
+    "questionId": 791,
+    "image": "data/images/q0791.webp",
+    "translations": {
+        "uz": {
+            "text": "To'xtab turish qoidasini kim buzdi?",
+            "options": [
+                "F1. Faqat «Б»",
+                "F2. Faqat «A»",
+                "F3. «A» va «Б»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilova: 7.6.1 — 7.6.9. «Transport vositasini to'xtab turish joyiga qo'yish usuli». 7.6.1 barcha turdagi transport vositalarini to'xtab turishi uchun yo'lning qatnov qismida, trotuar yoniga qo'yish usulini, 7.6.2 — 7.6.9 trotuar yonidagi to'xtab turish joyiga yengil avtomobillar, mototsikllar, mopedlar va skuterlarni qo'yish usulini bildiradi."
+        },
+        "ru": {
+            "text": "Кто нарушил правило стоянки?",
+            "options": [
+                "F1. Только «Б»",
+                "F2. Только «А»",
+                "F3. «А» и «Б»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД приложение № 1: 7.6.1 — 7.6.9. «Способ постановки транспортного средства на стоянку». 7.6.1 указывает способ постановки транспортного средства на проезжую часть, вдоль тротуара, 7.6.2 — 7.6.9. Указывает способ постановки легковых автомобилей, мотоциклы, мопеды и скутеры на околотротуарной стоянке."
+        },
+        "uzk": {
+            "text": "Тўхтаб туриш қоидасини ким бузди?",
+            "options": [
+                "F1. Фақат «Б»",
+                "F2. Фақат «A»",
+                "F3. «A» ва «Б»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-илова: 7.6.1 — 7.6.9. «Транспорт воситасини тўхтаб туриш жойига қўйиш усули». 7.6.1 барча турдаги транспорт воситаларини тўхтаб туриши учун йўлнинг қатнов қисмида, тротуар ёнига қўйиш усулини, 7.6.2 — 7.6.9 тротуар ёнидаги тўхтаб туриш жойига енгил автомобиллар, мотоцикллар, мопедлар ва скутерларни қўйиш усулини билдиради."
+        }
+    }
 }

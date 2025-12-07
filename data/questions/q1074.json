@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  1074,
-    "image":  "data/images/q1074.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi yo\u0027nalish bo\u0027yicha burilish mumkin?",
-                                    "options":  [
-                                                    "F1. Faqat «A»",
-                                                    "F2. Faqat «Б»",
-                                                    "F3. Ikkala sanab o\u0027tilgan hollarda"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1 ilova: 5.37. “Reversiv harakatlanish yo\u0027liga chiqish”.\n\nYHQ 2 ilova:  1.9 — reversiv harakat tashkil etilgan bo\u0027laklarning chegarasini belgilaydi; reversiv harakatlanish amalga oshirilgan yo\u0027llarda (reversiv svetofori o\u0027chirilgan holatda) qarama-qarshi yo\u0027nalishdagi transport oqimini ajratadi;\n\nYHQ 10-bobi 71-bandi: Reversiv harakatlanishli yo\u0027lga burilishda haydovchi transport vositasini shunday boshqarishi kerakki, bunda transport vositasi qatnov qismlari kesishmasidan chiqishda chetki o\u0027ng qatorni egallashi kerak. Shu yo\u0027nalishdagi boshqa tasmalardan ham harakatlanish ruxsat etilganiga ishonch hosil qilingandan keyingina haydovchiga qayta tizilishga ruxsat etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "В каких направлениях можно поворачивать?",
-                                    "options":  [
-                                                    "F1. Только «А»",
-                                                    "F2. Только «Б»",
-                                                    "F3. В обоих перечисленных случаях"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "ПДД приложение № 1: 5.37 Выезд на дорогу с реверсивным движением.\n\nПДД приложение № 2: 1.9 - обозначает границы полос движения, на которых осуществляется реверсивное движение; разделяет транспортные потоки противоположных направлений (при выключенных реверсивных светофорах) на дорогах, где осуществляется реверсивное движение;\n\nПункта 71 главы 10 ПДД, гласит: При повороте на дорогу с реверсивным движением, выезжая с пересечений проезжих частей, транспортное средство должно занять крайний правый ряд. Перестроение разрешается только после того, как водитель убедится, что движение в данном направлении разрешается и по другим полосам."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси йўналиш бўйича бурилиш мумкин?",
-                                     "options":  [
-                                                     "F1. Фақат «А»",
-                                                     "F2. Фақат «Б»",
-                                                     "F3. Иккала санаб ўтилган ҳолларда"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1 илова: 5.37. “Реверсив ҳаракатланиш йўлига чиқиш”.\n\nЙҲҚ 2 илова: 1.9 — реверсив ҳаракат ташкил этилган бўлакларнинг чегарасини белгилайди; реверсив ҳаракатланиш амалга оширилган йўлларда (реверсив светофори ўчирилган ҳолатда) қарама-қарши йўналишдаги транспорт оқимини ажратади;\n\nЙҲҚ 10-боби 71-банди: Реверсив ҳаракатланишли йўлга бурилишда ҳайдовчи транспорт воситасини шундай бошқариши керакки, бунда транспорт воситаси қатнов қисмлари кесишмасидан чиқишда четки ўнг қаторни эгаллаши керак. Шу йўналишдаги бошқа тасмалардан ҳам ҳаракатланиш рухсат этилганига ишонч ҳосил қилингандан кейингина ҳайдовчига қайта тизилишга рухсат этилади."
-                                 }
-                     }
+{
+    "questionId": 1074,
+    "image": "data/images/q1074.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi yo'nalish bo'yicha burilish mumkin?",
+            "options": [
+                "F1. Faqat «A»",
+                "F2. Faqat «Б»",
+                "F3. Ikkala sanab o'tilgan hollarda"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1 ilova: 5.37. “Reversiv harakatlanish yo'liga chiqish”.\n\nYHQ 2 ilova:  1.9 — reversiv harakat tashkil etilgan bo'laklarning chegarasini belgilaydi; reversiv harakatlanish amalga oshirilgan yo'llarda (reversiv svetofori o'chirilgan holatda) qarama-qarshi yo'nalishdagi transport oqimini ajratadi;\n\nYHQ 10-bobi 71-bandi: Reversiv harakatlanishli yo'lga burilishda haydovchi transport vositasini shunday boshqarishi kerakki, bunda transport vositasi qatnov qismlari kesishmasidan chiqishda chetki o'ng qatorni egallashi kerak. Shu yo'nalishdagi boshqa tasmalardan ham harakatlanish ruxsat etilganiga ishonch hosil qilingandan keyingina haydovchiga qayta tizilishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "В каких направлениях можно поворачивать?",
+            "options": [
+                "F1. Только «А»",
+                "F2. Только «Б»",
+                "F3. В обоих перечисленных случаях"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД приложение № 1: 5.37 Выезд на дорогу с реверсивным движением.\n\nПДД приложение № 2: 1.9 - обозначает границы полос движения, на которых осуществляется реверсивное движение; разделяет транспортные потоки противоположных направлений (при выключенных реверсивных светофорах) на дорогах, где осуществляется реверсивное движение;\n\nПункта 71 главы 10 ПДД, гласит: При повороте на дорогу с реверсивным движением, выезжая с пересечений проезжих частей, транспортное средство должно занять крайний правый ряд. Перестроение разрешается только после того, как водитель убедится, что движение в данном направлении разрешается и по другим полосам."
+        },
+        "uzk": {
+            "text": "Қайси йўналиш бўйича бурилиш мумкин?",
+            "options": [
+                "F1. Фақат «А»",
+                "F2. Фақат «Б»",
+                "F3. Иккала санаб ўтилган ҳолларда"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1 илова: 5.37. “Реверсив ҳаракатланиш йўлига чиқиш”.\n\nЙҲҚ 2 илова: 1.9 — реверсив ҳаракат ташкил этилган бўлакларнинг чегарасини белгилайди; реверсив ҳаракатланиш амалга оширилган йўлларда (реверсив светофори ўчирилган ҳолатда) қарама-қарши йўналишдаги транспорт оқимини ажратади;\n\nЙҲҚ 10-боби 71-банди: Реверсив ҳаракатланишли йўлга бурилишда ҳайдовчи транспорт воситасини шундай бошқариши керакки, бунда транспорт воситаси қатнов қисмлари кесишмасидан чиқишда четки ўнг қаторни эгаллаши керак. Шу йўналишдаги бошқа тасмалардан ҳам ҳаракатланиш рухсат этилганига ишонч ҳосил қилингандан кейингина ҳайдовчига қайта тизилишга рухсат этилади."
+        }
+    }
 }

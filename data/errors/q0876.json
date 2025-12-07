@@ -1,0 +1,36 @@
+{
+    "questionId": 876,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Jaroxatlangan odamni yonboshlatib yotkizib, bo'yin kismi tagiga kattik Yestikcha kuyib, kuzgatmasdan, maxkam boglab shifoxonaga boriladi",
+                "F2. Jarohatlangan odamni tinchlantirib, jarohatlangan joy soxasini sovuk suv, muz kuyish yo'llari bilan sovitish, ogrikni susaytirish va kon ketishini kamaytirish",
+                "F3. Jaroxatlangan odamni kattik va tekis zambilga solib, bo'yin kismi tagiga yostikcha kuyib, kuzgatmasdan, maxkam boglab shifoxonaga yuboriladi"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Jaroxatlangan odamni kattik va tekis zambilga solib, bo'yin kismi tagiga yostikcha kuyib, kuzgatmasdan, maxkam boglab shifoxonaga yuboriladi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Уложить пострадавшего на бок, подложить под шею твердую подушку, туго связать, не шевелясь, и отправиться в больницу",
+                "F2. Успокоить пострадавшего, охладить поврежденное место холодной водой или льдом, уменьшить боль и кровотечение",
+                "F3. Пострадавшего кладут на жесткие и плоские носилки, под шею подкладывают подушку и без движения отправляют в больницу"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пострадавшего кладут на жесткие и плоские носилки, под шею подкладывают подушку и без движения отправляют в больницу."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Жарохатланган одамни ёнбошлатиб ёткизиб, бўйин қисми тагига каттик Естикча куйиб, кузгатмасдан, махкам боглаб шифохонага борилади",
+                "F2. Жароҳатланган одамни тинчлантириб, жароҳатланган жой сохасини совук сув, муз куйиш йўллари билан совитиш, огрикни сусайтириш ва кон кетишини камайтириш",
+                "F3. Жароҳатланган одамни қаттиқ ва текис замбилга солиб, бўйин қисми тагига қаттиқ ёстиқча қўйиб, қўзғатмасдан, маҳкам боғлаб шифохонага юборилади"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Жароҳатланган одамни қаттиқ ва текис замбилга солиб, бўйин қисми тагига қаттиқ ёстиқча қўйиб, қўзғатмасдан, маҳкам боғлаб шифохонага юборилади."
+        }
+    }
+}

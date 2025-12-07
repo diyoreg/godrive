@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  272,
-    "image":  "data/images/q0272.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi «Velosiped yo\u0027lkasi bilan kesishuv»ni bildiradi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 1-bo\u0027limining yigirma yettinchi xatboshisiga asosan: 1.22. «Velosiped yo\u0027lkasi bilan kesishuv»."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак называется «Пересечение с велосипедной дорожкой»?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Предупреждающий знак 1.22 «Пересечение с велосипедной дорожкой»."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги «Велосипед йўлкаси билан кесишув»ни билдиради?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 1-бўлимининг йигирма еттинчи хатбошисига асосан: 1.22. «Велосипед йўлкаси билан кесишуви»."
-                                 }
-                     }
+{
+    "questionId": 272,
+    "image": "data/images/q0272.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi «Velosiped yo'lkasi bilan kesishuv»ni bildiradi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 1-bo'limining yigirma yettinchi xatboshisiga asosan: 1.22. «Velosiped yo'lkasi bilan kesishuv»."
+        },
+        "ru": {
+            "text": "Какой знак называется «Пересечение с велосипедной дорожкой»?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Предупреждающий знак 1.22 «Пересечение с велосипедной дорожкой»."
+        },
+        "uzk": {
+            "text": "Қайси белги «Велосипед йўлкаси билан кесишув»ни билдиради?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 1-бўлимининг йигирма еттинчи хатбошисига асосан: 1.22. «Велосипед йўлкаси билан кесишуви»."
+        }
+    }
 }

@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  635,
-    "image":  "data/images/q0635.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Svetoforning qaysi ishorasida avtomobil haydovchisi qayrilishni tugallashi mumkin?",
-                                    "options":  [
-                                                    "F1. Qizilda",
-                                                    "F2. Yashilda",
-                                                    "F3. Istalganda"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 15-bobi 102-bandiga asosan: Svetoforning ruxsat etuvchi ishorasida chorrahaga kirgan haydovchi, undan chiqishdagi svetofor ishorasidan qat\u0027i nazar, belgilangan yo\u0027nalishda harakatini davom ettirishi kerak. Biroq chorrahada haydovchining harakatlanayotgan yo\u0027lida joylashgan svetoforlar oldida to\u0027xtash chiziqlari (yoki 5.33 yoʻl belgisi) bo\u0027lsa, u har bir svetofor ishorasiga amal qilishi shart."
-                                },
-                         "ru":  {
-                                    "text":  "При каком сигнале светофора водителю автомобиля можно закончить разворот?",
-                                    "options":  [
-                                                    "F1. При красном",
-                                                    "F2. При зеленом",
-                                                    "F3. При любом"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Пункта 102 главы 15 ПДД, гласит: Водитель, въехавший на перекресток при разрешаюшем сигнале светофора, должен выехать в намеченном направлении независимо от сигналов светофора на выходе с него. Однако, если на перекрестке перед светофорами, расположенными на пути следования водителя, имеются стоп-линии (или знак 5.33), водитель обязан руководствоваться сигналами каждого светофора.\nВ данном случае перед вторым светофором есть стоп-линия, соответственно, водитель должен руководствоваться сигналами этого светофора и закончить разворот разрешается только на зеленый свет."
-                                },
-                         "uzk":  {
-                                     "text":  "Светофорнинг қайси ишорасида автомобиль ҳайдовчиси қайрилишни тугаллаши мумкин?",
-                                     "options":  [
-                                                     "F1. Қизилда",
-                                                     "F2. Яшилда",
-                                                     "F3. Исталганда"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 15-боби 102-бандига асосан: Светофорнинг рухсат этувчи ишорасида чорраҳага кирган ҳайдовчи, ундан чиқишдаги светофор ишорасидан қатъи назар, белгиланган йўналишда ҳаракатини давом эттириши керак. Бироқ чорраҳада ҳайдовчининг ҳаракатланаётган йўлида жойлашган светофорлар олдида тўхташ чизиқлари (ёки 5.33 йўл белгиси) бўлса, уҳар бир светофор ишорасига амал қилиши шарт."
-                                 }
-                     }
+{
+    "questionId": 635,
+    "image": "data/images/q0635.webp",
+    "translations": {
+        "uz": {
+            "text": "Svetoforning qaysi ishorasida avtomobil haydovchisi qayrilishni tugallashi mumkin?",
+            "options": [
+                "F1. Qizilda",
+                "F2. Yashilda",
+                "F3. Istalganda"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 15-bobi 102-bandiga asosan: Svetoforning ruxsat etuvchi ishorasida chorrahaga kirgan haydovchi, undan chiqishdagi svetofor ishorasidan qat'i nazar, belgilangan yo'nalishda harakatini davom ettirishi kerak. Biroq chorrahada haydovchining harakatlanayotgan yo'lida joylashgan svetoforlar oldida to'xtash chiziqlari (yoki 5.33 yoʻl belgisi) bo'lsa, u har bir svetofor ishorasiga amal qilishi shart."
+        },
+        "ru": {
+            "text": "При каком сигнале светофора водителю автомобиля можно закончить разворот?",
+            "options": [
+                "F1. При красном",
+                "F2. При зеленом",
+                "F3. При любом"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 102 главы 15 ПДД, гласит: Водитель, въехавший на перекресток при разрешаюшем сигнале светофора, должен выехать в намеченном направлении независимо от сигналов светофора на выходе с него. Однако, если на перекрестке перед светофорами, расположенными на пути следования водителя, имеются стоп-линии (или знак 5.33), водитель обязан руководствоваться сигналами каждого светофора.\nВ данном случае перед вторым светофором есть стоп-линия, соответственно, водитель должен руководствоваться сигналами этого светофора и закончить разворот разрешается только на зеленый свет."
+        },
+        "uzk": {
+            "text": "Светофорнинг қайси ишорасида автомобиль ҳайдовчиси қайрилишни тугаллаши мумкин?",
+            "options": [
+                "F1. Қизилда",
+                "F2. Яшилда",
+                "F3. Исталганда"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 15-боби 102-бандига асосан: Светофорнинг рухсат этувчи ишорасида чорраҳага кирган ҳайдовчи, ундан чиқишдаги светофор ишорасидан қатъи назар, белгиланган йўналишда ҳаракатини давом эттириши керак. Бироқ чорраҳада ҳайдовчининг ҳаракатланаётган йўлида жойлашган светофорлар олдида тўхташ чизиқлари (ёки 5.33 йўл белгиси) бўлса, уҳар бир светофор ишорасига амал қилиши шарт."
+        }
+    }
 }

@@ -1,0 +1,39 @@
+{
+    "questionId": 1009,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 0.7 metrdan kam bo'lmasligi kerak",
+                "F2. 1 metrdan kam bo'lmasligi kerak",
+                "F3. 1.3 metrdan kam bo'lmasligi kerak",
+                "F4. 1.5 metrdan kam bo'lmasligi kerak"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 26-bobi 153-bandi: Odam tashish uchun mo'ljallangan yuk avtomobili yukxonasining borti 1,3 metrdan kam bo'lmasligi shart"
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Не менее 0.7 метра",
+                "F2. Не менее 1.0 метра",
+                "F3. Не менее 1.3 метра",
+                "F4. Не менее 1.5 метра"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 153 главы 26 ПДД, гласит: Багажник грузового автомобиля, предназначенного для перевозки пассажиров, не должен быть меньше 1,3 метра."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. 0.7 метрдан кам бўлмаслиги керак",
+                "F2. 1 метрдан кам бўлмаслиги керак",
+                "F3. 1.3 метрдан кам бўлмаслиги керак",
+                "F4. 1.5 метрдан кам бўлмаслиги керак"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 26-боби 153-банди: Одам ташиш учун мўлжалланган юк автомобили юкхонасининг борти 1,3 метрдан кам бўлмаслиги шарт."
+        }
+    }
+}

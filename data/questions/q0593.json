@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  593,
-    "image":  "data/images/q0593.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Bu belgida qaysi avtomobilga harakatlanishga ruxsat etilgan?",
-                                    "options":  [
-                                                    "F1. Haqiqiy vazni 12 t bo\u0027lgan ikki o\u0027qli yuk avtomobiliga",
-                                                    "F2. Haqiqiy vazni 12 t bo\u0027lgan uch o\u0027qli yuk avtomobiliga"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 3-boʻlimining oʻn to\u0027rtinchi xatboshisiga asosan: 3.12. «O\u0027qqa tushadigan og\u0027irlik cheklangan». Birorta o\u0027qiga tushadigan haqiqiy og\u0027irligi belgida ko\u0027rsatilganidan ortiq boʻlgan transport vositalarining harakatlanishi taqiqlanishini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Какому автомобилю разрешено движение при этом знаке?",
-                                    "options":  [
-                                                    "F1. Двухосному грузовому автомобилю, фактическая масса которого 12 т",
-                                                    "F2. Трехосному грузовому автомобилю, фактическая масса которого 12 т"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Запрещающий знак 3.12 \"Ограничение нагрузки на ось\". Запрещается движение транспортных средств, у которых фактическая нагрузка на какую-либо ось больше указанной на знаке. В данном случае разрешено движение тому транспортному средству, у которого нагрузка на одну ось не более 5 т. У двухосного грузового автомобиля массой 12 т на каждую ось приходится 6 т, а у трехосного массой 12 т- 4 т. Соответственно, при знаке 3.12 разрешено движение трехосному грузовому автомобилю, фактическая масса которого 12 т."
-                                },
-                         "uzk":  {
-                                     "text":  "Бу белгида қайси автомобилга ҳаракатланишга рухсат этилган?",
-                                     "options":  [
-                                                     "F1. Ҳақиқий вазни 12 т бўлган икки ўқли юк автомобилига",
-                                                     "F2. Ҳақиқий вазни 12 т бўлган уч ўкли юк автомобилига"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўн тўртинчи хатбошисига асосан: 3.12. «Уққа тушадиган оғирлик чекланган». Бирорта ўқига тушадиган ҳақиқий оғирлиги белгида кўрсатилганидан ортиқ бўлган транспорт воситаларининг ҳаракатланиши тақиқланишини билдиради."
-                                 }
-                     }
+{
+    "questionId": 593,
+    "image": "data/images/q0593.webp",
+    "translations": {
+        "uz": {
+            "text": "Bu belgida qaysi avtomobilga harakatlanishga ruxsat etilgan?",
+            "options": [
+                "F1. Haqiqiy vazni 12 t bo'lgan ikki o'qli yuk avtomobiliga",
+                "F2. Haqiqiy vazni 12 t bo'lgan uch o'qli yuk avtomobiliga"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 3-boʻlimining oʻn to'rtinchi xatboshisiga asosan: 3.12. «O'qqa tushadigan og'irlik cheklangan». Birorta o'qiga tushadigan haqiqiy og'irligi belgida ko'rsatilganidan ortiq boʻlgan transport vositalarining harakatlanishi taqiqlanishini bildiradi."
+        },
+        "ru": {
+            "text": "Какому автомобилю разрешено движение при этом знаке?",
+            "options": [
+                "F1. Двухосному грузовому автомобилю, фактическая масса которого 12 т",
+                "F2. Трехосному грузовому автомобилю, фактическая масса которого 12 т"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Запрещающий знак 3.12 \"Ограничение нагрузки на ось\". Запрещается движение транспортных средств, у которых фактическая нагрузка на какую-либо ось больше указанной на знаке. В данном случае разрешено движение тому транспортному средству, у которого нагрузка на одну ось не более 5 т. У двухосного грузового автомобиля массой 12 т на каждую ось приходится 6 т, а у трехосного массой 12 т- 4 т. Соответственно, при знаке 3.12 разрешено движение трехосному грузовому автомобилю, фактическая масса которого 12 т."
+        },
+        "uzk": {
+            "text": "Бу белгида қайси автомобилга ҳаракатланишга рухсат этилган?",
+            "options": [
+                "F1. Ҳақиқий вазни 12 т бўлган икки ўқли юк автомобилига",
+                "F2. Ҳақиқий вазни 12 т бўлган уч ўкли юк автомобилига"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг ўн тўртинчи хатбошисига асосан: 3.12. «Уққа тушадиган оғирлик чекланган». Бирорта ўқига тушадиган ҳақиқий оғирлиги белгида кўрсатилганидан ортиқ бўлган транспорт воситаларининг ҳаракатланиши тақиқланишини билдиради."
+        }
+    }
 }

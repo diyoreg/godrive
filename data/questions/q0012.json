@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  12,
-    "image":  "data/images/q0012.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Quyidagi belgilar qaysi yo\u0027nalishlarda harakatlanishga ruxsat beradi?",
-                                    "options":  [
-                                                    "F1. Faqat chapga",
-                                                    "F2. Faqat to\u0027g\u0027riga",
-                                                    "F3. Faqat o\u0027ngga",
-                                                    "F4. To\u0027g\u0027riga, o\u0027ngga va qayrilib olishga"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "IzohYHQ 1-ilovasi 3.2. bandi: «Harakatlanish taqiqlangan». Barcha transport vositalarining harakatlanishi taqiqlanishini bildiradi. 7.3.1— 7.3.3. «Ta\u0027sir yo\u0027nalishlari». Chorraha oldida oʻrnatilgan belgining ta\u0027sir yoʻnalishini yoki bevosita yoʻl yaqinida joylashgan manzillarga harakatlanish yoʻnalishini ko\u0027rsatadi."
-                                },
-                         "ru":  {
-                                    "text":  "Текст вопроса не найден",
-                                    "options":  [
-                                                    "F1. Только налево",
-                                                    "F2. Только прямо",
-                                                    "F3. Только направо",
-                                                    "F4. Прямо, направо и розворот"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Приложение №1 к ПДД пункт 3.2: \"Движение запрещено\" запрещает движение всех транспортных средств. Знаки 7.3.1-7.3.3 \"Направление действия\" указывают направления действия знаков, установленных перед перекрестком. В данном случае действие знака 3.2 \"Движение запрещено\" распространяется на левый поворот. Соответственно движение разрешено прямо, направо и в обратном направлении."
-                                },
-                         "uzk":  {
-                                     "text":  "Қуйидаги белгилар қайси йўналишларда ҳаракатланишга рухсат беради?",
-                                     "options":  [
-                                                     "F1. Фақат чапга",
-                                                     "F2. Фақат тўғрига",
-                                                     "F3. Фақат ўнгга",
-                                                     "F4. Тўғрига, ўнгга ва қайрилиб олишга"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ИзоҳЙҲҚ 1-иловаси 3.2. банди: «Ҳаракатланиш такикланган». Барча транспорт воситаларининг ҳаракатланиши тақиқланишини билдиради. 7.3.1 — 7.3.3. «Таъсир йўналишлари». Чорраҳа олдида ўрнатилган белгининг таъсир йўналишини ёки бевосита йўл яқинида жойлашган манзилларга ҳаракатланиш йўналишини кўрсатади."
-                                 }
-                     }
+{
+    "questionId": 12,
+    "image": "data/images/q0012.webp",
+    "translations": {
+        "uz": {
+            "text": "Quyidagi belgilar qaysi yo'nalishlarda harakatlanishga ruxsat beradi?",
+            "options": [
+                "F1. Faqat chapga",
+                "F2. Faqat to'g'riga",
+                "F3. Faqat o'ngga",
+                "F4. To'g'riga, o'ngga va qayrilib olishga"
+            ],
+            "correctAnswer": 4,
+            "explanation": "IzohYHQ 1-ilovasi 3.2. bandi: «Harakatlanish taqiqlangan». Barcha transport vositalarining harakatlanishi taqiqlanishini bildiradi. 7.3.1— 7.3.3. «Ta'sir yo'nalishlari». Chorraha oldida oʻrnatilgan belgining ta'sir yoʻnalishini yoki bevosita yoʻl yaqinida joylashgan manzillarga harakatlanish yoʻnalishini ko'rsatadi."
+        },
+        "ru": {
+            "text": "Эти знаки разрешают движение",
+            "options": [
+                "F1. Только налево",
+                "F2. Только прямо",
+                "F3. Только направо",
+                "F4. Прямо, направо и разворот"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Приложение №1 к ПДД пункт 3.2: \"Движение запрещено\" запрещает движение всех транспортных средств. Знаки 7.3.1-7.3.3 \"Направление действия\" указывают направления действия знаков, установленных перед перекрестком. В данном случае действие знака 3.2 \"Движение запрещено\" распространяется на левый поворот. Соответственно движение разрешено прямо, направо и в обратном направлении."
+        },
+        "uzk": {
+            "text": "Қуйидаги белгилар қайси йўналишларда ҳаракатланишга рухсат беради?",
+            "options": [
+                "F1. Фақат чапга",
+                "F2. Фақат тўғрига",
+                "F3. Фақат ўнгга",
+                "F4. Тўғрига, ўнгга ва қайрилиб олишга"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ИзоҳЙҲҚ 1-иловаси 3.2. банди: «Ҳаракатланиш такикланган». Барча транспорт воситаларининг ҳаракатланиши тақиқланишини билдиради. 7.3.1 — 7.3.3. «Таъсир йўналишлари». Чорраҳа олдида ўрнатилган белгининг таъсир йўналишини ёки бевосита йўл яқинида жойлашган манзилларга ҳаракатланиш йўналишини кўрсатади."
+        }
+    }
 }

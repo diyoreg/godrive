@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  1117,
-    "image":  "data/images/q1117.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi yo\u0027nalishda qayrilib olishga ruxsat beradi?",
-                                    "options":  [
-                                                    "F1. Faqat «В» yo\u0027nalish bo\u0027ylab",
-                                                    "F2. Faqat «Б» va «В» yo\u0027nalish bo\u0027ylab",
-                                                    "F3. Barcha yo\u0027nalish bo\u0027ylab"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 9-bobi 56-bandiga asosan: Aylanma harakatlanish tashkil qilingan chorrahalarga kirish uchun burilishdan boshqa barcha hollarda, haydovchi o\u0027ngga, chapga burilishi yoki qayrilib olishdan oldinroq shu yo\u0027nalishda harakatlanishi uchun mo\u0027ljallangan qatnov qismining eng chetki holatni egallashi shart."
-                                },
-                         "ru":  {
-                                    "text":  "В каком направлении разрешён разворот?",
-                                    "options":  [
-                                                    "F1. Только в направлении «В»",
-                                                    "F2. Только в направлениях «Б» и «В»",
-                                                    "F3. Во всех направлениях"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 56 главы 9 ПДД, гласит: Перед поворотом направо, налево или разворотом водитель обязан заблаговременно занять соответствующее крайнее положение на проезжей части, предназначенной для движения в данном направлении, кроме случаев, когда совершается поворот при въезде на перекресток с круговым движением."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси йўналишда қайрилиб олишга рухсат беради?",
-                                     "options":  [
-                                                     "F1. Фақат «В» йўналиш бўйлаб",
-                                                     "F2. Фақат «Б» ва «В» йўналиш бўйлаб",
-                                                     "F3. Барча йўналиш бўйлаб"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 9-боби 56-бандига асосан: Айланма ҳаракатланиш ташкил қилинган чорраҳаларга кириш учун бурилишдан бошқа барча ҳолларда, ҳайдовчи ўнгга, чапга бурилиши ёки қайрилиб олишдан олдинроқ шу йўналишда ҳаракатланиши учун мўлжалланган қатнов қисмининг энг четки ҳолатни эгаллаши шарт."
-                                 }
-                     }
+{
+    "questionId": 1117,
+    "image": "data/images/q1117.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi yo'nalishda qayrilib olishga ruxsat beradi?",
+            "options": [
+                "F1. Faqat «В» yo'nalish bo'ylab",
+                "F2. Faqat «Б» va «В» yo'nalish bo'ylab",
+                "F3. Barcha yo'nalish bo'ylab"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 9-bobi 56-bandiga asosan: Aylanma harakatlanish tashkil qilingan chorrahalarga kirish uchun burilishdan boshqa barcha hollarda, haydovchi o'ngga, chapga burilishi yoki qayrilib olishdan oldinroq shu yo'nalishda harakatlanishi uchun mo'ljallangan qatnov qismining eng chetki holatni egallashi shart."
+        },
+        "ru": {
+            "text": "В каком направлении разрешён разворот?",
+            "options": [
+                "F1. Только в направлении «В»",
+                "F2. Только в направлениях «Б» и «В»",
+                "F3. Во всех направлениях"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 56 главы 9 ПДД, гласит: Перед поворотом направо, налево или разворотом водитель обязан заблаговременно занять соответствующее крайнее положение на проезжей части, предназначенной для движения в данном направлении, кроме случаев, когда совершается поворот при въезде на перекресток с круговым движением."
+        },
+        "uzk": {
+            "text": "Қайси йўналишда қайрилиб олишга рухсат беради?",
+            "options": [
+                "F1. Фақат «В» йўналиш бўйлаб",
+                "F2. Фақат «Б» ва «В» йўналиш бўйлаб",
+                "F3. Барча йўналиш бўйлаб"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 9-боби 56-бандига асосан: Айланма ҳаракатланиш ташкил қилинган чорраҳаларга кириш учун бурилишдан бошқа барча ҳолларда, ҳайдовчи ўнгга, чапга бурилиши ёки қайрилиб олишдан олдинроқ шу йўналишда ҳаракатланиши учун мўлжалланган қатнов қисмининг энг четки ҳолатни эгаллаши шарт."
+        }
+    }
 }

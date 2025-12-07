@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  440,
-    "image":  "data/images/q0440.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Mazkur taniqlik belgisi nimani bildiradi?",
-                                    "options":  [
-                                                    "F1. Oldinda qatnovning notekis bo\u0027lgan yo\u0027l qismini",
-                                                    "F2. Oldinda shu yo\u0027nalishda harakatlanish uchun uch tasmali yo\u0027l qismini",
-                                                    "F3. Mexanik transport vositasida tishli turumlangan (shiplar) shinalar o\u0027rnatilganini"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 29-bobi 176-bandining ikkinchi xatboshisiga asosan: «Turumlangan» (tishli, shipli) — turumlangan shinali mexanik transport vositasining orqasiga tomonlari teng, ichiga qora rangda «T» harfi tushirilgan, qizil hoshiyali, oq rangdagi uchburchak shaklidagi belgi. Uchburchakning tomonlari transport vositasining turiga qarab 200 — 300 millimetrgacha, hoshiyaning kengligi uchburchak tomonining 1/10 qismiga teng bo\u0027lishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Что обозначает данный опознавательный знак?",
-                                    "options":  [
-                                                    "F1. Впереди участок дороги, имеющий неровности на проезжей части",
-                                                    "F2. Впереди участок дороги с тремя полосами для движения в данном направлении",
-                                                    "F3. На механическом транспортном средстве установлены шины с шипами"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Опознавательный знак \"Шипы\" - знак в виде равностороннего треугольника белого цвета с каймой красного цвета, в который вписана буква \"T\" черного цвета - сзади механических транспортных средств, имеющих шипованные шины. Стороны треугольника от 200 до 300 мм, в зависимости от вида транспортного средства, ширина каймы равна 1/10 стороны."
-                                },
-                         "uzk":  {
-                                     "text":  "Мазкур таниқлик белгиси нимани билдиради?",
-                                     "options":  [
-                                                     "F1. Олдинда қатновнинг нотекис бўлган йўл ҚИСМИНИ",
-                                                     "F2. Олдинда шу йўналишда ҳаракатланиш учун уч тасмали йўл қисмини",
-                                                     "F3. Механик транспорт воситасида тишли турумланган (шиплар) шиналар ўрнатилганини"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 29-боби 176-бандининг иккинчи хатбошисига асосан: «Турумланган» (тишли, шипли) — турумланган шинали механик транспорт воситасининг орқасига томонлари тенг, ичига қора рангда «T» ҳарфи туширилган, қизил ҳошияли, оқ рангдаги учбурчак шаклидаги белги. Учбурчакнинг томонлари транспорт воситасининг турига қараб 200 — 300 миллиметргача, ҳошиянинг кенглиги учбурчак томонининг 1/10 қисмига тенг бўлиши керак."
-                                 }
-                     }
+{
+    "questionId": 440,
+    "image": "data/images/q0440.webp",
+    "translations": {
+        "uz": {
+            "text": "Mazkur taniqlik belgisi nimani bildiradi?",
+            "options": [
+                "F1. Oldinda qatnovning notekis bo'lgan yo'l qismini",
+                "F2. Oldinda shu yo'nalishda harakatlanish uchun uch tasmali yo'l qismini",
+                "F3. Mexanik transport vositasida tishli turumlangan (shiplar) shinalar o'rnatilganini"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 29-bobi 176-bandining ikkinchi xatboshisiga asosan: «Turumlangan» (tishli, shipli) — turumlangan shinali mexanik transport vositasining orqasiga tomonlari teng, ichiga qora rangda «T» harfi tushirilgan, qizil hoshiyali, oq rangdagi uchburchak shaklidagi belgi. Uchburchakning tomonlari transport vositasining turiga qarab 200 — 300 millimetrgacha, hoshiyaning kengligi uchburchak tomonining 1/10 qismiga teng bo'lishi kerak."
+        },
+        "ru": {
+            "text": "Что обозначает данный опознавательный знак?",
+            "options": [
+                "F1. Впереди участок дороги, имеющий неровности на проезжей части",
+                "F2. Впереди участок дороги с тремя полосами для движения в данном направлении",
+                "F3. На механическом транспортном средстве установлены шины с шипами"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Опознавательный знак \"Шипы\" - знак в виде равностороннего треугольника белого цвета с каймой красного цвета, в который вписана буква \"T\" черного цвета - сзади механических транспортных средств, имеющих шипованные шины. Стороны треугольника от 200 до 300 мм, в зависимости от вида транспортного средства, ширина каймы равна 1/10 стороны."
+        },
+        "uzk": {
+            "text": "Мазкур таниқлик белгиси нимани билдиради?",
+            "options": [
+                "F1. Олдинда қатновнинг нотекис бўлган йўл ҚИСМИНИ",
+                "F2. Олдинда шу йўналишда ҳаракатланиш учун уч тасмали йўл қисмини",
+                "F3. Механик транспорт воситасида тишли турумланган (шиплар) шиналар ўрнатилганини"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 29-боби 176-бандининг иккинчи хатбошисига асосан: «Турумланган» (тишли, шипли) — турумланган шинали механик транспорт воситасининг орқасига томонлари тенг, ичига қора рангда «T» ҳарфи туширилган, қизил ҳошияли, оқ рангдаги учбурчак шаклидаги белги. Учбурчакнинг томонлари транспорт воситасининг турига қараб 200 — 300 миллиметргача, ҳошиянинг кенглиги учбурчак томонининг 1/10 қисмига тенг бўлиши керак."
+        }
+    }
 }

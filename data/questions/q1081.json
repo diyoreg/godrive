@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  1081,
-    "image":  "data/images/q1081.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu vaziyatda avtomobil haydovchisiga qaysi yo\u0027nalishda harakatlanish taqiqlanadi?",
-                                    "options":  [
-                                                    "F1. To\u0027g\u0027riga va chapga",
-                                                    "F2. Chapga va qayrilib olishga",
-                                                    "F3. Qayrilib olishga",
-                                                    "F4. Barcha yo\u0027nalishga"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  ""
-                                },
-                         "ru":  {
-                                    "text":  "В этой ситуации водителю автомобиля запрещено двигаться в каком направлении?",
-                                    "options":  [
-                                                    "F1. Прямо и налево",
-                                                    "F2. Налево и разворот",
-                                                    "F3. Разворот",
-                                                    "F4. Во всех направлениях"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  ""
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу вазиятда автомобил ҳайдовчисига қайси йўналишда ҳаракатланиш тақиқланади?",
-                                     "options":  [
-                                                     "F1. Тўғрига ва чапга",
-                                                     "F2. Чапга ва қайрилиб олишга",
-                                                     "F3. Қайрилиб олишга",
-                                                     "F4. Барча йўналишга"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  ""
-                                 }
-                     }
+{
+    "questionId": 1081,
+    "image": "data/images/q1081.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu vaziyatda avtomobil haydovchisiga qaysi yo'nalishda harakatlanish taqiqlanadi?",
+            "options": [
+                "F1. To'g'riga va chapga",
+                "F2. Chapga va qayrilib olishga",
+                "F3. Qayrilib olishga",
+                "F4. Barcha yo'nalishga"
+            ],
+            "correctAnswer": 3,
+            "explanation": ""
+        },
+        "ru": {
+            "text": "В этой ситуации водителю автомобиля запрещено двигаться в каком направлении?",
+            "options": [
+                "F1. Прямо и налево",
+                "F2. Налево и разворот",
+                "F3. Разворот",
+                "F4. Во всех направлениях"
+            ],
+            "correctAnswer": 3,
+            "explanation": ""
+        },
+        "uzk": {
+            "text": "Ушбу вазиятда автомобил ҳайдовчисига қайси йўналишда ҳаракатланиш тақиқланади?",
+            "options": [
+                "F1. Тўғрига ва чапга",
+                "F2. Чапга ва қайрилиб олишга",
+                "F3. Қайрилиб олишга",
+                "F4. Барча йўналишга"
+            ],
+            "correctAnswer": 3,
+            "explanation": ""
+        }
+    }
 }

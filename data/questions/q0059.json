@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  59,
-    "image":  "data/images/q0059.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu yo\u0027l belgisi nimani bildiradi?",
-                                    "options":  [
-                                                    "F1. Belgida ko\u0027rsatilgandan ortiq yuk ko\u0027taruvchi yuk avtomobillari va transport vositalari tarkibi (tirkamali yuk avtomobillari)ning harakat qilishi taqiqlanadi",
-                                                    "F2. Umumiy haqiqiy vazni (yo\u0027lovchilar va yuk vaznini qo\u0027shgan holda) belgida ko\u0027rsatilgandan ortiq bo\u0027lgan transport vositalari, shu jumladan, tirkamali transport vositalarining harakat qilishi taqiqlanadi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining oʻn uchinchi xatboshisiga asosan: 3.11. «Vazn cheklangan». Haqiqiy umumiy vazni belgida ko\u0027rsatilganidan ortiq boʻlgan transport vositalarining, shuningdek transport vositalari tarkiblarining harakatlanishi taqiqlanishini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Текст вопроса не найден",
-                                    "options":  [
-                                                    "F1. Запрещается движение грузовых автомобилей и составов транспортных средств (грузовых автомобилей с прицепами) грузоподъемностью больше указанной на знаке",
-                                                    "F2. Запрещается движение транспортных средств, в том числе тягачей с прицепами, общая фактическая масса которых (включая массу пассажиров и груза) больше указанной на знаке"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Запрещающий знак 3.11 «Ограничение массы». Запрещается движение транспортных средств, в том числе составов транспортных средств, общая фактическая масса которых больше указанной на знаке."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу йўл белгиси нимани билдиради?",
-                                     "options":  [
-                                                     "F1. Белгида кўрсатилгандан ортиқ юк кўтарувчи юк автомобиллари ва транспорт воситалари таркиби (тиркамали юк автомобиллари)нинг ҳаракат килиши тақиқланади",
-                                                     "F2. Умумий ҳақиқий вазни (йўловчилар ва юк вазнини қўшган ҳолда) белгида кўрсатилгандан ортиқ бўлган транспорт воситалари, шу жумладан, тиркамали транспорт воситаларининг ҳаракат килиши тақиқланади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўн учинчи хатбошисига асосан: 3.11 «Вазн чекланган». Ҳақиқий умумий вазни белгида кўрсатилганидан ортиқ бўлган транспорт воситаларининг, шунингдек, транспорт воситалари таркибларининг ҳаракатланиши тақиқланади."
-                                 }
-                     }
+{
+    "questionId": 59,
+    "image": "data/images/q0059.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu yo'l belgisi nimani bildiradi?",
+            "options": [
+                "F1. Belgida ko'rsatilgandan ortiq yuk ko'taruvchi yuk avtomobillari va transport vositalari tarkibi (tirkamali yuk avtomobillari)ning harakat qilishi taqiqlanadi",
+                "F2. Umumiy haqiqiy vazni (yo'lovchilar va yuk vaznini qo'shgan holda) belgida ko'rsatilgandan ortiq bo'lgan transport vositalari, shu jumladan, tirkamali transport vositalarining harakat qilishi taqiqlanadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 3-bo'limining oʻn uchinchi xatboshisiga asosan: 3.11. «Vazn cheklangan». Haqiqiy umumiy vazni belgida ko'rsatilganidan ortiq boʻlgan transport vositalarining, shuningdek transport vositalari tarkiblarining harakatlanishi taqiqlanishini bildiradi."
+        },
+        "ru": {
+            "text": "Что означает этот дорожный знак?",
+            "options": [
+                "F1. Запрещается движение грузовых автомобилей и составов транспортных средств (грузовых автомобилей с прицепами) грузоподъемностью больше указанной на знаке",
+                "F2. Запрещается движение транспортных средств, в том числе тягачей с прицепами, общая фактическая масса которых (включая массу пассажиров и груза) больше указанной на знаке"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Запрещающий знак 3.11 «Ограничение массы». Запрещается движение транспортных средств, в том числе составов транспортных средств, общая фактическая масса которых больше указанной на знаке."
+        },
+        "uzk": {
+            "text": "Ушбу йўл белгиси нимани билдиради?",
+            "options": [
+                "F1. Белгида кўрсатилгандан ортиқ юк кўтарувчи юк автомобиллари ва транспорт воситалари таркиби (тиркамали юк автомобиллари)нинг ҳаракат килиши тақиқланади",
+                "F2. Умумий ҳақиқий вазни (йўловчилар ва юк вазнини қўшган ҳолда) белгида кўрсатилгандан ортиқ бўлган транспорт воситалари, шу жумладан, тиркамали транспорт воситаларининг ҳаракат килиши тақиқланади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг ўн учинчи хатбошисига асосан: 3.11 «Вазн чекланган». Ҳақиқий умумий вазни белгида кўрсатилганидан ортиқ бўлган транспорт воситаларининг, шунингдек, транспорт воситалари таркибларининг ҳаракатланиши тақиқланади."
+        }
+    }
 }

@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  1050,
-    "image":  "data/images/q1050.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi avtomobil haydovchisi yo\u0027l berishi kerak?",
-                                    "options":  [
-                                                    "F1. Ko\u0027k avtomobil haydovchisi",
-                                                    "F2. Yashil avtomobil haydovchisi"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1 ilova: 5.38. “Turar joy dahasi”. Yo\u0027l harakati qoidalarining turar joy dahalarida harakatlanish tartibi o\u0027rnatilgan yo\u0027l.\nYHQ 9-bobi 60-bandi: Transport vositalarining harakatlanish yo\u0027nalishlari kesishganda va o\u0027tish navbati Qoidalarda nazarda tutilmagan hollarda, haydovchi o\u0027ng tomondan yaqinlashayotgan transport vositasiga yo\u0027l berishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Какой водитель автомобиля должен уступить дорогу?",
-                                    "options":  [
-                                                    "F1. Водитель синего автомобиля",
-                                                    "F2. Водитель зелёного автомобиля"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "ПДД приложение № 1: 5.38 Жилая зона. Дорога на которой действуют требования настоящих Правил дорожного движения, устанавливающие порядок движения в жилой зоне.\nПункта 60 главы 9 ПДД, гласит: В случаях, когда траектории движения транспортных средств пересекаются, а очередность проезда не оговорена Правилами, дорогу должен уступить водитель, к которому транспортное средство приближается справа."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси автомобил ҳайдовчиси йўл бериши керак?",
-                                     "options":  [
-                                                     "F1. Кўк автомобил ҳайдовчиси",
-                                                     "F2. Яшил автомобил ҳайдовчиси"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1 илова: 5.38. “Турар жой даҳаси”. Йўл ҳаракати қоидаларининг турар жой даҳаларида ҳаракатланиш тартиби ўрнатилган йўл.\nЙҲҚ 9-боби 60-банди: Транспорт воситаларининг ҳаракатланиш йўналишлари кесишганда ва ўтиш навбати Қоидаларда назарда тутилмаган ҳолларда, ҳайдовчи ўнг томондан яқинлашаётган транспорт воситасига йўл бериши керак."
-                                 }
-                     }
+{
+    "questionId": 1050,
+    "image": "data/images/q1050.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi avtomobil haydovchisi yo'l berishi kerak?",
+            "options": [
+                "F1. Ko'k avtomobil haydovchisi",
+                "F2. Yashil avtomobil haydovchisi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1 ilova: 5.38. “Turar joy dahasi”. Yo'l harakati qoidalarining turar joy dahalarida harakatlanish tartibi o'rnatilgan yo'l.\nYHQ 9-bobi 60-bandi: Transport vositalarining harakatlanish yo'nalishlari kesishganda va o'tish navbati Qoidalarda nazarda tutilmagan hollarda, haydovchi o'ng tomondan yaqinlashayotgan transport vositasiga yo'l berishi kerak."
+        },
+        "ru": {
+            "text": "Какой водитель автомобиля должен уступить дорогу?",
+            "options": [
+                "F1. Водитель синего автомобиля",
+                "F2. Водитель зелёного автомобиля"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД приложение № 1: 5.38 Жилая зона. Дорога на которой действуют требования настоящих Правил дорожного движения, устанавливающие порядок движения в жилой зоне.\nПункта 60 главы 9 ПДД, гласит: В случаях, когда траектории движения транспортных средств пересекаются, а очередность проезда не оговорена Правилами, дорогу должен уступить водитель, к которому транспортное средство приближается справа."
+        },
+        "uzk": {
+            "text": "Қайси автомобил ҳайдовчиси йўл бериши керак?",
+            "options": [
+                "F1. Кўк автомобил ҳайдовчиси",
+                "F2. Яшил автомобил ҳайдовчиси"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1 илова: 5.38. “Турар жой даҳаси”. Йўл ҳаракати қоидаларининг турар жой даҳаларида ҳаракатланиш тартиби ўрнатилган йўл.\nЙҲҚ 9-боби 60-банди: Транспорт воситаларининг ҳаракатланиш йўналишлари кесишганда ва ўтиш навбати Қоидаларда назарда тутилмаган ҳолларда, ҳайдовчи ўнг томондан яқинлашаётган транспорт воситасига йўл бериши керак."
+        }
+    }
 }

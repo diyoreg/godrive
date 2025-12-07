@@ -1,0 +1,32 @@
+{
+    "questionId": 914,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "N1 toifadagi avtotransport vositalarining boshqaruv qurilmasidagi qanday eng katta lyuft yig'indisiga yo'l qo'yiladi?",
+            "options": [
+                "F1. 25 gradus",
+                "F2. 20 gradus",
+                "F3. 10 gradus"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 3 ilova: 2.1. Boshqaruv qurilmasidagi lyuft yig'indisi reglament (qat’iy belgilangan) sharoitlardagi sinovlarda quyidagi ko'rsatkichdan katta bo'lmasligi kerak: Transport vositasining toifasi Yo'l qo'yilgan lyuft ko'rsatgichi (gradusda)\nM1 - 10%\nM2, M3, N1 - 20%\nN2, N3 - 25%."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [],
+            "correctAnswer": 2,
+            "explanation": "ПДД приложение № 3: 2.1. Суммарный люфт в рулевом управлении в регламентированных условиях испытаний автотранспортного средства не должен превышать следующих значений: Категория транспортногосредства Допустимое значение люфта в градусах не более\nМ1 - 10%\nM2, M3, N1 - 20%\nN2, N3 - 25%."
+        },
+        "uzk": {
+            "text": "N1 тоифадаги автотранспорт воситаларининг бошқарув қурилмасидаги қандай енг катта люфт йиғиндисига йўл қўйилади?",
+            "options": [
+                "F1. 25 градус",
+                "F2. 20 градус",
+                "F3. 10 градус"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 3 илова: 2.1. Бошқарув қурилмасидаги люфт йиғиндиси регламент (қатъий белгиланган) шароитлардаги синовларда қуйидаги кўрсаткичдан катта бўлмаслиги керак: Транспорт воситасининг тоифаси Йўл қўйилган люфт кўрсатгичи (градусда)\nМ1 - 10%\nM2, M3, N1 - 20%\nN2, N3 - 25%."
+        }
+    }
+}

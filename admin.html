@@ -406,6 +406,20 @@
             display: flex;
             align-items: flex-start;
             gap: 8px;
+            padding: 8px;
+            border-radius: 8px;
+            transition: all 0.3s;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+
+        .option-item:hover {
+            background: rgba(96, 165, 250, 0.1);
+        }
+
+        .option-item.correct {
+            background: rgba(34, 197, 94, 0.15);
+            border-color: #22c55e;
         }
 
         .option-number {
@@ -414,10 +428,16 @@
             font-weight: 600;
             min-width: 30px;
             padding-top: 12px;
+            pointer-events: none;
+        }
+
+        .option-item.correct .option-number {
+            color: #22c55e;
         }
 
         .option-item textarea {
             flex: 1;
+            pointer-events: auto;
         }
 
         .options-controls {
@@ -590,7 +610,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label>Варианты ответов:
+                                <label>Варианты ответов (кликните на правильный):
                                     <span class="options-count">(<span id="optionsCount">4</span> варианта)</span>
                                 </label>
                                 <div id="optionsContainer">
@@ -602,15 +622,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
-                                <label>Правильный ответ:</label>
-                                <select id="correctAnswer">
-                                    <option value="1">Вариант 1</option>
-                                    <option value="2">Вариант 2</option>
-                                    <option value="3">Вариант 3</option>
-                                    <option value="4">Вариант 4</option>
-                                </select>
-                            </div>
+                            <input type="hidden" id="correctAnswer" value="1">
 
                             <div class="form-group">
                                 <label>Объяснение:</label>
@@ -714,30 +726,41 @@
             // Render options dynamically
             function renderOptions() {
                 elements.optionsContainer.innerHTML = '';
+                const currentCorrect = parseInt(elements.correctAnswer.value) || 1;
+                
                 for (let i = 1; i <= optionsCount; i++) {
                     const optionItem = document.createElement('div');
                     optionItem.className = 'option-item';
+                    if (i === currentCorrect) {
+                        optionItem.classList.add('correct');
+                    }
+                    optionItem.dataset.optionIndex = i;
                     optionItem.innerHTML = `
                         <span class="option-number">${i}.</span>
                         <textarea id="option${i}" rows="2" placeholder="Вариант ${i}"></textarea>
                     `;
+                    
+                    // Click handler для выбора правильного ответа
+                    optionItem.addEventListener('click', (e) => {
+                        // Игнорировать клик на textarea
+                        if (e.target.tagName === 'TEXTAREA') return;
+                        
+                        // Убрать класс correct у всех опций
+                        document.querySelectorAll('.option-item').forEach(item => {
+                            item.classList.remove('correct');
+                        });
+                        
+                        // Добавить класс correct к текущей опции
+                        optionItem.classList.add('correct');
+                        
+                        // Обновить скрытое поле
+                        elements.correctAnswer.value = i;
+                    });
+                    
                     elements.optionsContainer.appendChild(optionItem);
                 }
                 elements.optionsCount.textContent = optionsCount;
                 elements.removeOptionBtn.disabled = optionsCount <= 2;
-                
-                updateCorrectAnswerOptions();
-            }
-
-            // Update correct answer dropdown
-            function updateCorrectAnswerOptions() {
-                elements.correctAnswer.innerHTML = '';
-                for (let i = 1; i <= optionsCount; i++) {
-                    const option = document.createElement('option');
-                    option.value = i;
-                    option.textContent = `Вариант ${i}`;
-                    elements.correctAnswer.appendChild(option);
-                }
             }
 
             // Validate options count across languages
@@ -788,6 +811,16 @@
                     }
                 }
                 elements.explanation.value = translation.explanation || '';
+                
+                // Обновить подсветку правильного ответа
+                const correctIndex = parseInt(elements.correctAnswer.value) || 1;
+                document.querySelectorAll('.option-item').forEach((item, idx) => {
+                    if (parseInt(item.dataset.optionIndex) === correctIndex) {
+                        item.classList.add('correct');
+                    } else {
+                        item.classList.remove('correct');
+                    }
+                });
             }
 
             // Show status message
@@ -904,6 +937,11 @@
                     
                     // Set options count from loaded data
                     optionsCount = questionData.translations[currentLang].options.length;
+                    
+                    // Set correct answer BEFORE rendering
+                    elements.correctAnswer.value = questionData.translations[currentLang].correctAnswer;
+                    
+                    // Render options (will use correctAnswer value for highlighting)
                     renderOptions();
                     
                     // Set image
@@ -911,7 +949,6 @@
                     
                     // Load translation data
                     loadCurrentLanguageData();
-                    elements.correctAnswer.value = questionData.translations[currentLang].correctAnswer;
                     
                     elements.saveMessage.textContent = '';
                 } catch (error) {

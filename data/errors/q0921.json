@@ -1,0 +1,33 @@
+{
+    "questionId": 921,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Harakatlanayotgan transport vositalariga nisbatan aylanaga kirib kelayotgan transport vositalari ustunlikka ega",
+                "F2. Harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka ega"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 14-bobi 98-bandi: Aylanma harakatlanish chorrahasida harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka (imtiyozga) ega."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Транспортные средства въезжающий на перекресток имеют приоритет (преимущество) по отношению к транспортным средствам движущиеся на перекрестке",
+                "F2. Транспортные средства, движущиеся на перекрестке с круговым движением, имеют приоритет (преимущество) по отношению к транспортным средствам, въезжающим на перекресток"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 98 главы 14 ПДД, гласит: Транспортные средства, движущиеся на перекрестке с круговым движением, имеют приоритет (преимущество) по отношению к транспортным средствам, въезжающим на перекресток."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Ҳаракатланаётган транспорт воситаларига нисбатан айланага кириб келаётган транспорт воситалари устунликка эга",
+                "F2. Ҳаракатланаётган транспорт воситалари айланага кириб келаётган транспорт воситаларига нисбатан устунликка эга"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 14-боби 98-банди: Айланма ҳаракатланиш чорраҳасида ҳаракатланаётган транспорт воситалари айланага кириб келаётган транспорт воситаларига нисбатан устунликка (имтиёзга) эга."
+        }
+    }
+}

@@ -1,30 +1,30 @@
-﻿{
-    "questionId":  925,
-    "image":  "data/images/q0925.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi rasmda ajratuvchi mintaqa ko\u0027rsatilgan?",
-                                    "options":  [
-                                                    "F1. Hech qaysi rasmda ajratuvchi mintaqa yo’q"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1-ilova Umumiy qoidalar: Ajratuvchi mintaqa — yo\u0027lning yonma-yon joylashgan qatnov qismlarini ajratuvchi, transport vositalari harakatlanishi yoki to\u0027xtashi uchun mo\u0027ljallanmagan, yo\u0027l sathidan ko\u0027tarilgan yoki maysazor, ariq, maxsus to\u0027siqlar bilan ajratilgan baland qismi."
-                                },
-                         "ru":  {
-                                    "text":  "На каком рисунков показано разделительная полоса?",
-                                    "options":  [
-                                                    "F1. Ни на одном изображении нет разделительной области"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "ПДД общие положения: Разделительная зона-возвышенный участок дороги, разделяющий прилегающие проезжие части, не предназначенный для движения или остановки транспортных средств, приподнятый над уровнем проезжей части или разделенный газоном, канавой, специальными ограждениями."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси расмда ажратувчи минтақа кўрсатилган?",
-                                     "options":  [
-                                                     "F1. Ҳеч қайси расмда ажратувчи минтақа йўқ"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1-илова Умумий қоидалар: Ажратувчи минтақа — йўлнинг ёнма-ён жойлашган қатнов қисмларини ажратувчи, транспорт воситалари ҳаракатланиши ёки тўхташи учун мўлжалланмаган, йўл сатҳидан кўтарилган ёки майсазор, ариқ, махсус тўсиқлар билан ажратилган баланд қисми."
-                                 }
-                     }
+{
+    "questionId": 925,
+    "image": "data/images/q0925.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi rasmda ajratuvchi mintaqa ko'rsatilgan?",
+            "options": [
+                "F1. Hech qaysi rasmda ajratuvchi mintaqa yo’q"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilova Umumiy qoidalar: Ajratuvchi mintaqa — yo'lning yonma-yon joylashgan qatnov qismlarini ajratuvchi, transport vositalari harakatlanishi yoki to'xtashi uchun mo'ljallanmagan, yo'l sathidan ko'tarilgan yoki maysazor, ariq, maxsus to'siqlar bilan ajratilgan baland qismi."
+        },
+        "ru": {
+            "text": "На каком рисунков показано разделительная полоса?",
+            "options": [
+                "F1. Ни на одном изображении нет разделительной области"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения: Разделительная зона-возвышенный участок дороги, разделяющий прилегающие проезжие части, не предназначенный для движения или остановки транспортных средств, приподнятый над уровнем проезжей части или разделенный газоном, канавой, специальными ограждениями."
+        },
+        "uzk": {
+            "text": "Қайси расмда ажратувчи минтақа кўрсатилган?",
+            "options": [
+                "F1. Ҳеч қайси расмда ажратувчи минтақа йўқ"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-илова Умумий қоидалар: Ажратувчи минтақа — йўлнинг ёнма-ён жойлашган қатнов қисмларини ажратувчи, транспорт воситалари ҳаракатланиши ёки тўхташи учун мўлжалланмаган, йўл сатҳидан кўтарилган ёки майсазор, ариқ, махсус тўсиқлар билан ажратилган баланд қисми."
+        }
+    }
 }

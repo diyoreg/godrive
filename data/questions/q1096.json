@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  1096,
-    "image":  "data/images/q1096.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qizil avtomobil haydovchisi qaysi yo\u0027nalishlarda harakatlanishiga ruxsat berilgan?",
-                                    "options":  [
-                                                    "F1. Faqat chapga",
-                                                    "F2. Chapga va qayrilib olishga",
-                                                    "F3. To\u0027g\u0027riga va chapga"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 2 ilova: Yo\u0027l belgilarining, shu jumladan, vaqtincha yo\u0027l belgilarining va yotiq yo\u0027l chiziqlarining ma’nolari bir-biriga zid kelgan hollarda yoki yo\u0027l chiziqlarini yetarlicha farqlab bo\u0027lmasa, haydovchilar yo\u0027l belgilariga amal qilishlari kerak.\n\nYHQ 1 ilova: 5.8.1. “Tasmalar bo\u0027yicha harakat yo\u0027nalishi”. Tasmalar soni va har biri bo\u0027yicha ruxsat etilgan harakatlanish yo\u0027nalishlari. Boshqa yo\u0027nalishlar bo\u0027yicha harakatlanish taqiqlanadi.\nYo\u0027lning chetki chap bo\u0027lagidan chapga burilishga ruxsat beruvchi 5.8.1 va 5.8.2 belgilari shu tasmadan qayrilishga ham ruxsat beradi."
-                                },
-                         "ru":  {
-                                    "text":  "В каких направлениях разрешено движение водителю красного автомобиля?",
-                                    "options":  [
-                                                    "F1. Только налево",
-                                                    "F2. Налево и в разворот",
-                                                    "F3. Прямо и налево"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "ПДД приложение № 2: В случаях, когда значения временных дорожных знаков, размещаемых на переносной стойке, и линии разметки противоречат друг другу, водители должны руководствоваться знаками.\n\nПДД приложение № 1: 5.8.1. Направления движения по полосам. Число полос и разрешенные направления движения на каждой из них. Движение по другим направлениям запрещается.\\n\\nЗнаки 5.8.1 и 5.8.2, разрешающие поворот налево из крайней левой полосы, разрешают и разворот с этой полосы.\nДействие знаков 5.8.1 и 5.8.2, установленных перед перекрестком, распространяется на весь перекресток, если на нем не установлены другие знаки."
-                                },
-                         "uzk":  {
-                                     "text":  "Қизил автомобил ҳайдовчиси қайси йўналишларда ҳаракатланишига рухсат берилган?",
-                                     "options":  [
-                                                     "F1. Фақат чапга",
-                                                     "F2. Чапга ва қайрилиб олишга",
-                                                     "F3. Тўғрига ва чапга"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 2 илова: Йўл белгиларининг, шу жумладан, вақтинча йўл белгиларининг ва ётиқ йўл чизиқларининг маънолари бир-бирига зид келган ҳолларда ёки йўл чизиқларини етарлича фарқлаб бўлмаса, ҳайдовчилар йўл белгиларига амал қилишлари керак.\n\nЙҲҚ 1 илова: 5.8.1. “Тасмалар бўйича ҳаракат йўналиши”. Тасмалар сони ва ҳар бири бўйича рухсат этилган ҳаракатланиш йўналишлари. Бошқа йўналишлар бўйича ҳаракатланиш тақиқланади.\nЙўлнинг четки чап бўлагидан чапга бурилишга рухсат берувчи 5.8.1 ва 5.8.2 белгилари шу тасмадан қайрилишга ҳам рухсат беради."
-                                 }
-                     }
+{
+    "questionId": 1096,
+    "image": "data/images/q1096.webp",
+    "translations": {
+        "uz": {
+            "text": "Qizil avtomobil haydovchisi qaysi yo'nalishlarda harakatlanishiga ruxsat berilgan?",
+            "options": [
+                "F1. Faqat chapga",
+                "F2. Chapga va qayrilib olishga",
+                "F3. To'g'riga va chapga"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2 ilova: Yo'l belgilarining, shu jumladan, vaqtincha yo'l belgilarining va yotiq yo'l chiziqlarining ma’nolari bir-biriga zid kelgan hollarda yoki yo'l chiziqlarini yetarlicha farqlab bo'lmasa, haydovchilar yo'l belgilariga amal qilishlari kerak.\n\nYHQ 1 ilova: 5.8.1. “Tasmalar bo'yicha harakat yo'nalishi”. Tasmalar soni va har biri bo'yicha ruxsat etilgan harakatlanish yo'nalishlari. Boshqa yo'nalishlar bo'yicha harakatlanish taqiqlanadi.\nYo'lning chetki chap bo'lagidan chapga burilishga ruxsat beruvchi 5.8.1 va 5.8.2 belgilari shu tasmadan qayrilishga ham ruxsat beradi."
+        },
+        "ru": {
+            "text": "В каких направлениях разрешено движение водителю красного автомобиля?",
+            "options": [
+                "F1. Только налево",
+                "F2. Налево и в разворот",
+                "F3. Прямо и налево"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД приложение № 2: В случаях, когда значения временных дорожных знаков, размещаемых на переносной стойке, и линии разметки противоречат друг другу, водители должны руководствоваться знаками.\n\nПДД приложение № 1: 5.8.1. Направления движения по полосам. Число полос и разрешенные направления движения на каждой из них. Движение по другим направлениям запрещается.\\n\\nЗнаки 5.8.1 и 5.8.2, разрешающие поворот налево из крайней левой полосы, разрешают и разворот с этой полосы.\nДействие знаков 5.8.1 и 5.8.2, установленных перед перекрестком, распространяется на весь перекресток, если на нем не установлены другие знаки."
+        },
+        "uzk": {
+            "text": "Қизил автомобил ҳайдовчиси қайси йўналишларда ҳаракатланишига рухсат берилган?",
+            "options": [
+                "F1. Фақат чапга",
+                "F2. Чапга ва қайрилиб олишга",
+                "F3. Тўғрига ва чапга"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2 илова: Йўл белгиларининг, шу жумладан, вақтинча йўл белгиларининг ва ётиқ йўл чизиқларининг маънолари бир-бирига зид келган ҳолларда ёки йўл чизиқларини етарлича фарқлаб бўлмаса, ҳайдовчилар йўл белгиларига амал қилишлари керак.\n\nЙҲҚ 1 илова: 5.8.1. “Тасмалар бўйича ҳаракат йўналиши”. Тасмалар сони ва ҳар бири бўйича рухсат этилган ҳаракатланиш йўналишлари. Бошқа йўналишлар бўйича ҳаракатланиш тақиқланади.\nЙўлнинг четки чап бўлагидан чапга бурилишга рухсат берувчи 5.8.1 ва 5.8.2 белгилари шу тасмадан қайрилишга ҳам рухсат беради."
+        }
+    }
 }

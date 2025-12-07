@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  142,
-    "image":  "data/images/q0142.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi yo\u0027nalishda harakatlanish taqiqlanadi?",
-                                    "options":  [
-                                                    "F1. O\u0027ngga birinchi yo\u0027lga",
-                                                    "F2. O\u0027ngga ikkinchi yo\u0027lga",
-                                                    "F3. O\u0027ngga birinchi va ikkinchi yo\u0027llarga"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 3-Bо\u0027limining yigirma birinchi va qirq ikkinchi xatboshlariga asosan: 3.18.1. «O\u0027ngga burilish taqiqlangan» yo\u0027l belgisi hisoblanadi. 3.18.1 belgisi qatnov qismlarining qaysi kesishmasi oldiga o\u0027rnatilsa, shu kesishmaga tatbiq etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "В каком направлении запрещено движение?",
-                                    "options":  [
-                                                    "F1. Направо в первый проезд",
-                                                    "F2. Направо во второй проезд",
-                                                    "F3. Направо в первый и второй проезды"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Запрещающий знак 3.18.1 \"Поворот направо запрещен\". Действие знака 3.18.1 распространяется на пересечение проезжих частей, перед которыми установлен знак. Соответственно, движение запрещено направо во второй проезд."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси йўналишда ҳаракатланиш тақиқланади?",
-                                     "options":  [
-                                                     "F1. Ўнгга биринчи йўлга",
-                                                     "F2. Унгга иккинчи йўлга",
-                                                     "F3. Ўнгга биринчи ва иккинчи йўлларга"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг йигирма биринчи ва қирқ иккинчи хатбошларига асосан: 3.18.1. «Унгга бурилиш тақиқланган» йўл белгиси ҳисобланади. 3.18.1 белгиси қатнов қисмларининг қайси кесишмаси олдига ўрнатилса, шу кесишмага татбиқ этилади."
-                                 }
-                     }
+{
+    "questionId": 142,
+    "image": "data/images/q0142.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi yo'nalishda harakatlanish taqiqlanadi?",
+            "options": [
+                "F1. O'ngga birinchi yo'lga",
+                "F2. O'ngga ikkinchi yo'lga",
+                "F3. O'ngga birinchi va ikkinchi yo'llarga"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 3-Bо'limining yigirma birinchi va qirq ikkinchi xatboshlariga asosan: 3.18.1. «O'ngga burilish taqiqlangan» yo'l belgisi hisoblanadi. 3.18.1 belgisi qatnov qismlarining qaysi kesishmasi oldiga o'rnatilsa, shu kesishmaga tatbiq etiladi."
+        },
+        "ru": {
+            "text": "В каком направлении запрещено движение?",
+            "options": [
+                "F1. Направо в первый проезд",
+                "F2. Направо во второй проезд",
+                "F3. Направо в первый и второй проезды"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Запрещающий знак 3.18.1 \"Поворот направо запрещен\". Действие знака 3.18.1 распространяется на пересечение проезжих частей, перед которыми установлен знак. Соответственно, движение запрещено направо во второй проезд."
+        },
+        "uzk": {
+            "text": "Қайси йўналишда ҳаракатланиш тақиқланади?",
+            "options": [
+                "F1. Ўнгга биринчи йўлга",
+                "F2. Унгга иккинчи йўлга",
+                "F3. Ўнгга биринчи ва иккинчи йўлларга"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг йигирма биринчи ва қирқ иккинчи хатбошларига асосан: 3.18.1. «Унгга бурилиш тақиқланган» йўл белгиси ҳисобланади. 3.18.1 белгиси қатнов қисмларининг қайси кесишмаси олдига ўрнатилса, шу кесишмага татбиқ этилади."
+        }
+    }
 }

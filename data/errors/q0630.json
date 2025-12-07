@@ -1,0 +1,38 @@
+{
+    "questionId": 630,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Transport vositasining bir o'qiga izlari har xil naqshli shinalar o'rnatishga ruxsat etiladimi?",
+            "options": [
+                "F1. Taqiqlanadi",
+                "F2. Faqat yuk avtomobiliga ruxsat etiladi",
+                "F3. Ruxsat etiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 3-ilova Transport vositalaridan foydalanishni taqiqlovchi shartlar 5.5.-bandi: Transport vositasining bitta oʻqiga har xil o'lchamli va konstruksiyali (dioganalli va radialli, kamerali va kamerasiz), har xil naqshli, sovuqqa chidamli va chidamsiz, yangi va qayta tiklangan, yangi va protektor naqshi chuqurlashtirilgan, turumlangan va turumlanmagan shinalar o'rnatilgan bo'lsa."
+        },
+        "ru": {
+            "text": "Разрешается ли установка шин с различным рисунком протектора на одну ось транспортного средства?",
+            "options": [
+                "F1. Разрешается только на заднюю ось автомобиля с передним ведущим мостом",
+                "F2. Запрещается",
+                "F3. Разрешается только на грузовой автомобиль",
+                "F4. Разрешается"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Условиях, при которых запрещается эксплуатация транспортных средств (приложение №3 к ПДД): 5.5. На одну ось транспортных средств установлены шины различных размеров, конструкций (радиальной, диагональной, камерной, бескамерной), с различными рисунками протектора, морозостойких и неморозостойких, новые и восстановленные, новые и с углубленным рисунком протектора."
+        },
+        "uzk": {
+            "text": "Транспорт воситасининг бир ўқига излари ҳар хил нақшли шиналар ўрнатишга рухсат этиладими?",
+            "options": [
+                "F1. Автомобилнинг фақат орқа ўқига олдинги бошқарувчи кўприк билан бирга рухсат этилади",
+                "F2. Тақиқланади",
+                "F3. Фақат юк автомобилига рухсат этилади",
+                "F4. Рухсат этилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 3-илова Транспорт воситаларидан фойдаланишни тақиқловчи шартлар 5.5.-банди: Транспорт воситасининг битта ўқига ҳар хил ўлчамли ва конструкцияли (диоганалли ва радиалли, камерали ва камерасиз), ҳар хил нақшли, совуққа чидамли ва чидамсиз, янги ва қайта тикланган, янги ва протектор нақши чуқурлаштирилган, турумланган ва турумланмаган шиналар ўрнатилган бўлса."
+        }
+    }
+}

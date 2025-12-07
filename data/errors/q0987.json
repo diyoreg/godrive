@@ -1,0 +1,36 @@
+{
+    "questionId": 987,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Aslahalangan transport vositasining ishlab chiqargan korxona tomonidan belgilangan, yuk, haydovchi va yo'lovchilari bilan birgalikdagi eng yuqori vazni (o'lchovi)",
+                "F2. Transport vositasining yuki, haydovchi va yo'lovchilari bilan birgalikdagi vazni",
+                "F3. Aslahalangan transport vositasining ishlab chiqargan korxona tomonidan belgilangan, yuksiz, haydovchisiz va yo'lovchilarsiz eng yuqori vazni (o'lchovi)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ umumiy qoidalar: Ruxsat etilgan to'liq vazn — jihozlangan transport vositasining ishlab chiqargan korxona tomonidan belgilangan yuk, haydovchi va yo'lovchilari bilan birgalikdagi eng yuqori vazni (o'lchovi)."
+        },
+        "ru": {
+            "text": "Что называется разрешённой максимальной массой транспортного средства?",
+            "options": [
+                "F1. Максимальная масса (величина) снаряженного транспортного средства с грузом, водителем и пассажирами, установленная предприятием-изготовителем",
+                "F2. Масса транспортного средства с грузом, водителем и пассажирами",
+                "F3. Максимальная масса (величина) снаряженного транспортного средства без груза, без водителя и без пассажирами, установленная предприятием-изготовителем"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения: Разрешенная максимальная масса — максимальная масса (величина) снаряженного транспортного средства с грузом, водителем и пассажирами, установленная предприятием-изготовителем."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Аслаҳаланган транспорт воситасининг ишлаб чиқарган корхона томонидан белгиланган, юк, ҳайдовчи ва йўловчилари билан биргаликдаги энг юқори вазни (ўлчови)",
+                "F2. Транспорт воситасининг юки, ҳайдовчи ва йўловчилари билан биргаликдаги вазни",
+                "F3. Аслаҳаланган транспорт воситасининг ишлаб чиқарган корхона томонидан белгиланган, юксиз, ҳайдовчисиз ва йўловчиларсиз энг юқори вазни (ўлчови)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ умумий қоидалар: Рухсат этилган тўлиқ вазн — жиҳозланган транспорт воситасининг ишлаб чиқарган корхона томонидан белгиланган юк, ҳайдовчи ва йўловчилари билан биргаликдаги энг юқори вазни (ўлчови)."
+        }
+    }
+}

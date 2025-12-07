@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  585,
-    "image":  "data/images/q0585.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Svetoforning ushbu ishorasida qaysi transport vositalariga harakatlanishga ruxsat etilgan?",
-                                    "options":  [
-                                                    "F1. Tramvayga va mototsiklga",
-                                                    "F2. Mototsiklga, yengil avtomobil va yuk avtomobiliga",
-                                                    "F3. Yengil va yuk avtomobillariga",
-                                                    "F4. Barcha transport vositalariga"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 7-bobi 32-bandiga asosan: Yo\u0027naltirgich ko\u0027rinishidagi qizil, sariq va yashil rangli svetofor ishoralari ham doira shaklidagi svetofor ishoralari bilan bir xil ma\u0027noga ega bo\u0027ladi. Ular faqat ko\u0027rsatilgan yoʻnalishga ta\u0027sir etadi. Agar tegishli yo\u0027l belgisi bilan qayrilib olish taqiqlanmagan boʻlsa, chapga burilishga ruxsat beruvchi yo\u0027naltirgich qayrilib olishga ham ruxsat beradi. Qo\u0027shimcha tarmoqdagi yashil yo\u0027naltirgich ham xuddi shu ma\u0027noni bildiradi. Qo\u0027shimcha tarmoqdagi ishora oʻchirilgan boʻlsa, shu tarmoq tartibga solayotgan yo\u0027nalishda harakatlanish taqiqlanganligini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Каким транспортным средствам разрешено движение при этом сигнале светофора?",
-                                    "options":  [
-                                                    "F1. Трамваю и мотоциклу",
-                                                    "F2. Мотоциклу, легковому и грузовому автомобилям",
-                                                    "F3. Легковому и грузовому автомобилям",
-                                                    "F4. Всем транспортным средствам"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Aбзацу 3 пункта 32 главы 7 ПДД, гласит: Выключенный сигнал дополнительной секции означает запрещение движения в направлении, регулируемом этой секцией."
-                                },
-                         "uzk":  {
-                                     "text":  "Светофорнинг ушбу ишорасида қайси транспорт воситаларига ҳаракатланишга рухсат этилган?",
-                                     "options":  [
-                                                     "F1. Трамвайга ва мотоциклга",
-                                                     "F2. Мотоциклга, енгил автомобиль ва юк автомобилига",
-                                                     "F3. Енгил ва юк автомобилларига",
-                                                     "F4. Барча транспорт воситаларига"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 7-боби 32-бандига асосан: Йўналтиргич кўринишидаги қизил, сариқ ва яшил рангли светофор ишоралари ҳам доира шаклидаги светофор ишоралари билан бир хил маънога эга бўлади. Улар фақат кўрсатилган йўналишга таъсир этади. Агар тегишли йўл белгиси билан қайрилиб олиш тақиқланмаган бўлса, чапга бурилишга рухсат берувчи йўналтиргич қайрилиб олишга ҳам рухсат беради. Қўшимча тармоқдаги яшил йўналтиргич ҳам худди шу маънони билдиради. Қўшимча тармоқдаги ишора ўчирилган бўлса, шу тармоқ тартибга солаётган йўналишда ҳаракатланиш тақиқланганлигини билдиради."
-                                 }
-                     }
+{
+    "questionId": 585,
+    "image": "data/images/q0585.webp",
+    "translations": {
+        "uz": {
+            "text": "Svetoforning ushbu ishorasida qaysi transport vositalariga harakatlanishga ruxsat etilgan?",
+            "options": [
+                "F1. Tramvayga va mototsiklga",
+                "F2. Mototsiklga, yengil avtomobil va yuk avtomobiliga",
+                "F3. Yengil va yuk avtomobillariga",
+                "F4. Barcha transport vositalariga"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 7-bobi 32-bandiga asosan: Yo'naltirgich ko'rinishidagi qizil, sariq va yashil rangli svetofor ishoralari ham doira shaklidagi svetofor ishoralari bilan bir xil ma'noga ega bo'ladi. Ular faqat ko'rsatilgan yoʻnalishga ta'sir etadi. Agar tegishli yo'l belgisi bilan qayrilib olish taqiqlanmagan boʻlsa, chapga burilishga ruxsat beruvchi yo'naltirgich qayrilib olishga ham ruxsat beradi. Qo'shimcha tarmoqdagi yashil yo'naltirgich ham xuddi shu ma'noni bildiradi. Qo'shimcha tarmoqdagi ishora oʻchirilgan boʻlsa, shu tarmoq tartibga solayotgan yo'nalishda harakatlanish taqiqlanganligini bildiradi."
+        },
+        "ru": {
+            "text": "Каким транспортным средствам разрешено движение при этом сигнале светофора?",
+            "options": [
+                "F1. Трамваю и мотоциклу",
+                "F2. Мотоциклу, легковому и грузовому автомобилям",
+                "F3. Легковому и грузовому автомобилям",
+                "F4. Всем транспортным средствам"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 3 пункта 32 главы 7 ПДД, гласит: Выключенный сигнал дополнительной секции означает запрещение движения в направлении, регулируемом этой секцией."
+        },
+        "uzk": {
+            "text": "Светофорнинг ушбу ишорасида қайси транспорт воситаларига ҳаракатланишга рухсат этилган?",
+            "options": [
+                "F1. Трамвайга ва мотоциклга",
+                "F2. Мотоциклга, енгил автомобиль ва юк автомобилига",
+                "F3. Енгил ва юк автомобилларига",
+                "F4. Барча транспорт воситаларига"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 7-боби 32-бандига асосан: Йўналтиргич кўринишидаги қизил, сариқ ва яшил рангли светофор ишоралари ҳам доира шаклидаги светофор ишоралари билан бир хил маънога эга бўлади. Улар фақат кўрсатилган йўналишга таъсир этади. Агар тегишли йўл белгиси билан қайрилиб олиш тақиқланмаган бўлса, чапга бурилишга рухсат берувчи йўналтиргич қайрилиб олишга ҳам рухсат беради. Қўшимча тармоқдаги яшил йўналтиргич ҳам худди шу маънони билдиради. Қўшимча тармоқдаги ишора ўчирилган бўлса, шу тармоқ тартибга солаётган йўналишда ҳаракатланиш тақиқланганлигини билдиради."
+        }
+    }
 }

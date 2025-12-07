@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  505,
-    "image":  "data/images/q0505.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi transport vositalariga harakatlanish ruxsat etiladi?",
-                                    "options":  [
-                                                    "F1. Sariq va qizil avtomobilga",
-                                                    "F2. Yashil, qizil va oq avtomobilga",
-                                                    "F3. Oq va yashil avtomobilga"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining qo\u0027llari yon tomonga uzatilganda yoki tushirilganda: chap va oʻng yon tomonidan tramvayga bo\u0027g\u0027riga, relssiz transport vositalariga to\u0027g\u0027riga va o\u0027ngga harakatlanishga, piyodalarga qatnov qismini kesib oʻtishga ruxsat beriladi;\nold va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi."
-                                },
-                         "ru":  {
-                                    "text":  "Каким транспортным средствам разрешено движение?",
-                                    "options":  [
-                                                    "F1. Желтому и красному автомобилям",
-                                                    "F2. Зеленому, красному и белому автомобилям",
-                                                    "F3. Белому и зеленому автомобилям"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункту 38 главы 7 ПДД, гласит: РУКИ РЕГУЛИРОВЩИКА ВЫТЯНУТЫЕ В СТОРОНЫ ИЛИ ОПУЩЕНЫ означают что, со стороны левого и правого бока разрешено движение трамваю прямо, безрельсовым транспортным средствам прямо и направо, пешеходам разрешено переходить проезжую часть. Со стороны груди и спины движение всех транспортных средств и пешеходов запрещено."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси транспорт воситаларига ҳаракатланиш рухсат этилади?",
-                                     "options":  [
-                                                     "F1. Сариқ ва қизил автомобилга",
-                                                     "F2. Яшил, қизил ва оқ автомобилга",
-                                                     "F3. Ок ва яшил автомобилга"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 7-боби 38-бандига асосан, тартибга солувчининг қўллари ён томонга узатилганда ёки туширилганда: yan ва ўнг ён томонидан трамвайга тўғрига, релъссиз транспорт воситаларига тўғрига ва ўнгга ҳаракатланишга, пиёдаларга қатнов қисмини кесиб ўтишга рухсат берилади;\nолд ва орқа томонидан барча транспорт воситалари ва пиёдаларнинг ҳаракатланиши тақиқланади."
-                                 }
-                     }
+{
+    "questionId": 505,
+    "image": "data/images/q0505.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi transport vositalariga harakatlanish ruxsat etiladi?",
+            "options": [
+                "F1. Sariq va qizil avtomobilga",
+                "F2. Yashil, qizil va oq avtomobilga",
+                "F3. Oq va yashil avtomobilga"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 7-bobi 38-bandiga asosan, tartibga soluvchining qo'llari yon tomonga uzatilganda yoki tushirilganda: chap va oʻng yon tomonidan tramvayga bo'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib oʻtishga ruxsat beriladi;\nold va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi."
+        },
+        "ru": {
+            "text": "Каким транспортным средствам разрешено движение?",
+            "options": [
+                "F1. Желтому и красному автомобилям",
+                "F2. Зеленому, красному и белому автомобилям",
+                "F3. Белому и зеленому автомобилям"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункту 38 главы 7 ПДД, гласит: РУКИ РЕГУЛИРОВЩИКА ВЫТЯНУТЫЕ В СТОРОНЫ ИЛИ ОПУЩЕНЫ означают что, со стороны левого и правого бока разрешено движение трамваю прямо, безрельсовым транспортным средствам прямо и направо, пешеходам разрешено переходить проезжую часть. Со стороны груди и спины движение всех транспортных средств и пешеходов запрещено."
+        },
+        "uzk": {
+            "text": "Қайси транспорт воситаларига ҳаракатланиш рухсат этилади?",
+            "options": [
+                "F1. Сариқ ва қизил автомобилга",
+                "F2. Яшил, қизил ва оқ автомобилга",
+                "F3. Ок ва яшил автомобилга"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 7-боби 38-бандига асосан, тартибга солувчининг қўллари ён томонга узатилганда ёки туширилганда: yan ва ўнг ён томонидан трамвайга тўғрига, релъссиз транспорт воситаларига тўғрига ва ўнгга ҳаракатланишга, пиёдаларга қатнов қисмини кесиб ўтишга рухсат берилади;\nолд ва орқа томонидан барча транспорт воситалари ва пиёдаларнинг ҳаракатланиши тақиқланади."
+        }
+    }
 }

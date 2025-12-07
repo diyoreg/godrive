@@ -1,42 +1,42 @@
-﻿{
-    "questionId":  1118,
-    "image":  "data/images/q1118.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Quyidagi 3.24. «Yuqori tezlik cheklangan» yo\u0027l belgisining tasirini qaysi belgilar bekor qiladi?",
-                                    "options":  [
-                                                    "F1. Faqat birinchisi",
-                                                    "F2. Faqat ikkinchisi",
-                                                    "F3. Faqat uchinchisi",
-                                                    "F4. Faqat to\u0027rtinchisi",
-                                                    "F5. Barcha javoblar to\u0027g\u0027ri"
-                                                ],
-                                    "correctAnswer":  5,
-                                    "explanation":  "YHQ 1 ilova: 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30 belgilarining ta\u0027siri belgi o\u0027rnatilgan joydan keyingi eng yaqin chorrahagacha, ular bo\u0027lmaganda — aholi punktining oxirigacha ta\u0027siri qiladi.\n\nAholi punktlariga yetmasdan o\u0027rnatilgan 3.24 belgisining ta\u0027siri 5.22 belgisigacha kuchini saqlaydi.\n\n5.23. “Aholi punktining oxiri”. Ushbu Qoidalarning aholi punktlarida harakatlanish tartib-talablari bekor qilingan joyni bildiradi.\n\n3.25. “Yuqori tezlik cheklangan hududning oxiri”.\n\n3.31. “Barcha cheklovlarning oxiri”. 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30 belgilaridan bir nechtasiga bir vaqtda amal qiladigan hududlarning oxiri."
-                                },
-                         "ru":  {
-                                    "text":  "Действие дорожного знака 3.24 «Ограничение максимальной скорости» отменяется какими знаками?",
-                                    "options":  [
-                                                    "F1. Только первый",
-                                                    "F2. Только второй",
-                                                    "F3. Только третий",
-                                                    "F4. Только четвёртый",
-                                                    "F5. Все ответы верны"
-                                                ],
-                                    "correctAnswer":  5,
-                                    "explanation":  "ПДД приложение № 1: Зона действия знаков 3.16, 3.20, 3.22, 3.24, 3.26-3.30 - от места установки знака до ближайшего перекрестка, а в населенных пунктах при их отсутствии — до конца населенного пункта.\n\nДействие знака 3.24, установленного перед населенным пунктом, распространяется до знака 5.22.\n\nЗнак 5.23 Конец населенного пункта.\n\nЗнак 3.25 Конец зоны ограничения максимальной скорости.\n\nЗнак 3.31 Конец зоны всех ограничений."
-                                },
-                         "uzk":  {
-                                     "text":  "Қуйидаги 3.24. «Юқори тезлик чекланган» йўл белгисининг тасирини қайси белгилар бекор қилади?",
-                                     "options":  [
-                                                     "F1. Фақат биринчиси",
-                                                     "F2. Фақат иккинчиси",
-                                                     "F3. Фақат учинчиси",
-                                                     "F4. Фақат тўртинчиси",
-                                                     "F5. Барча жавоблар тўғри"
-                                                 ],
-                                     "correctAnswer":  5,
-                                     "explanation":  "ЙҲҚ 1 илова: 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30 белгиларининг таъсири белги ўрнатилган жойдан кейинги энг яқин чорраҳагача, улар бўлмаганда — аҳоли пунктининг охиригача таъсири қилади.\n\nАҳоли пунктларига етмасдан ўрнатилган 3.24 белгисининг таъсири 5.22 белгисигача кучини сақлайди.\n\n5.23. “Аҳоли пунктининг охири”. Ушбу Қоидаларнинг аҳоли пунктларида ҳаракатланиш тартиб-талаблари бекор қилинган жойни билдиради.\n\n3.25. “Юқори тезлик чекланган ҳудуднинг охири”.\n\n3.31. “Барча чекловларнинг охири”. 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30 белгиларидан бир нечтасига бир вақтда амал қиладиган ҳудудларнинг охири."
-                                 }
-                     }
+{
+    "questionId": 1118,
+    "image": "data/images/q1118.webp",
+    "translations": {
+        "uz": {
+            "text": "Quyidagi 3.24. «Yuqori tezlik cheklangan» yo'l belgisining tasirini qaysi belgilar bekor qiladi?",
+            "options": [
+                "F1. Faqat birinchisi",
+                "F2. Faqat ikkinchisi",
+                "F3. Faqat uchinchisi",
+                "F4. Faqat to'rtinchisi",
+                "F5. Barcha javoblar to'g'ri"
+            ],
+            "correctAnswer": 5,
+            "explanation": "YHQ 1 ilova: 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30 belgilarining ta'siri belgi o'rnatilgan joydan keyingi eng yaqin chorrahagacha, ular bo'lmaganda — aholi punktining oxirigacha ta'siri qiladi.\n\nAholi punktlariga yetmasdan o'rnatilgan 3.24 belgisining ta'siri 5.22 belgisigacha kuchini saqlaydi.\n\n5.23. “Aholi punktining oxiri”. Ushbu Qoidalarning aholi punktlarida harakatlanish tartib-talablari bekor qilingan joyni bildiradi.\n\n3.25. “Yuqori tezlik cheklangan hududning oxiri”.\n\n3.31. “Barcha cheklovlarning oxiri”. 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30 belgilaridan bir nechtasiga bir vaqtda amal qiladigan hududlarning oxiri."
+        },
+        "ru": {
+            "text": "Действие дорожного знака 3.24 «Ограничение максимальной скорости» отменяется какими знаками?",
+            "options": [
+                "F1. Только первый",
+                "F2. Только второй",
+                "F3. Только третий",
+                "F4. Только четвёртый",
+                "F5. Все ответы верны"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ПДД приложение № 1: Зона действия знаков 3.16, 3.20, 3.22, 3.24, 3.26-3.30 - от места установки знака до ближайшего перекрестка, а в населенных пунктах при их отсутствии — до конца населенного пункта.\n\nДействие знака 3.24, установленного перед населенным пунктом, распространяется до знака 5.22.\n\nЗнак 5.23 Конец населенного пункта.\n\nЗнак 3.25 Конец зоны ограничения максимальной скорости.\n\nЗнак 3.31 Конец зоны всех ограничений."
+        },
+        "uzk": {
+            "text": "Қуйидаги 3.24. «Юқори тезлик чекланган» йўл белгисининг тасирини қайси белгилар бекор қилади?",
+            "options": [
+                "F1. Фақат биринчиси",
+                "F2. Фақат иккинчиси",
+                "F3. Фақат учинчиси",
+                "F4. Фақат тўртинчиси",
+                "F5. Барча жавоблар тўғри"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ЙҲҚ 1 илова: 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30 белгиларининг таъсири белги ўрнатилган жойдан кейинги энг яқин чорраҳагача, улар бўлмаганда — аҳоли пунктининг охиригача таъсири қилади.\n\nАҳоли пунктларига етмасдан ўрнатилган 3.24 белгисининг таъсири 5.22 белгисигача кучини сақлайди.\n\n5.23. “Аҳоли пунктининг охири”. Ушбу Қоидаларнинг аҳоли пунктларида ҳаракатланиш тартиб-талаблари бекор қилинган жойни билдиради.\n\n3.25. “Юқори тезлик чекланган ҳудуднинг охири”.\n\n3.31. “Барча чекловларнинг охири”. 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30 белгиларидан бир нечтасига бир вақтда амал қиладиган ҳудудларнинг охири."
+        }
+    }
 }

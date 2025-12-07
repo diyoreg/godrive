@@ -1,0 +1,36 @@
+{
+    "questionId": 872,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Taxminan 0,2 sekund",
+                "F2. Taxminan 5 sekund",
+                "F3. Taxminan 1 sekund"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Haydovchilarning reaksiya vaqti turlicha boʻlib u yoshiga, kasbiga va malakasiga bog'liq. Shunga qaramay o'rtacha reaksiya vaqti haydovchilar uchun tajribaga asosan 1 sekund deb qabul qilingan. 1 sekun juda qisqa vaqt “yigirma ikki” deguncha bir sekund vaqt o'tdi. Reaksiya vaqtini oshirishning “oson yo'li” tezlikni kamaytirishdir."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Примерно 0,2 секунды",
+                "F2. Примерно 5 секунды",
+                "F3. Примерно 1 секунду"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Время реакции у каждого водителя различно и постоянной величиной не является. Экспериментально выведено, что среднее время реакции водителей примерно равно 1 секунде. Что такое секунда – произнесите сочетание слов «двадцать два». Время секунды прошло. При увеличении индивидуального времени реакции ее следует компенсировать снижением средней скорости движения транспортного средства."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Тахминан 0,2 секунд",
+                "F2. Тахминан 5 секунд",
+                "F3. Тахминан 1 секунд"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Ҳайдовчиларнинг реакция вакти турлича бўлиб у ёшига, касбига ва малакасига боғлиқ. Шунга қарамай ўртача реакция вақти ҳайдовчилар учун тажрибага асосан 1 секунд деб қабул қилинган. 1 секун жуда қисқа вақт \"йигирма икки\" дегунча бир секунд вақт ўтди. Реакция вақтини оширишнинг \"осон йўли\" тезликни камайтиришдир."
+        }
+    }
+}

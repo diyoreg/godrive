@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  1084,
-    "image":  "data/images/q1084.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Harakatlanish vaqtida velosipedchi bilan avtomobil yo\u0027llari kesishganda kim yo\u0027l berishi kerak?",
-                                    "options":  [
-                                                    "F1. Avtomobil",
-                                                    "F2. Velosipedchilar",
-                                                    "F3. O\u0027zaro kelishib o\u0027tishadi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 28-bobi 169-bandi: Chorrahadan tashqaridagi tartibga solinmagan velosiped yo\u0027lkasi bilan yo\u0027l kesishmasida velosiped va individual harakatlanish vositalari yo\u0027lda harakatlanayotgan boshqa transport vositalariga yo\u0027l berishlari kerak.\nVelosiped yo\u0027lkasi va piyodalar yo\u0027lkasi (trotuar) o\u0027zaro kesishgan holatlarda velosiped va individual harakatlanish vositasi piyodaga yo\u0027l berishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Кто должен уступить дорогу при пересечении автомобильных дорог с велосипедистом во время движения?",
-                                    "options":  [
-                                                    "F1. Автомобиль",
-                                                    "F2. Велосипедисты",
-                                                    "F3. По взаимной согласование"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Пункта 169 главы 28 ПДД, гласит: Вне перекрестков, на нерегулируемом пересечении велосипедной дорожки с дорогой, велосипедисты и индивидуальные транспортных средства должны уступить дорогу транспортным средствам, движущимся по этой дороге.\n\nПри взаимном пересечении велосипедной и пешеходной дорожек (тротуара) велосипедист и индивидуальные транспортных средства должен уступить дорогу пешеходу."
-                                },
-                         "uzk":  {
-                                     "text":  "Ҳаракатланиш вақтида велосипедчи билан автомобил йўллари кесишганда ким йўл бериши керак?",
-                                     "options":  [
-                                                     "F1. Автомобил",
-                                                     "F2. Велосипедчилар",
-                                                     "F3. Ўзаро келишиб ўтишади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 28-боби 169-банди: Чорраҳадан ташқаридаги тартибга солинмаган велосипед йўлкаси билан йўл кесишмасида велосипед ва индивидуал ҳаракатланиш воситалари йўлда ҳаракатланаётган бошқа транспорт воситаларига йўл беришлари керак.\nВелосипед йўлкаси ва пиёдалар йўлкаси (тротуар) ўзаро кесишган ҳолатларда велосипед ва индивидуал ҳаракатланиш воситаси пиёдага йўл бериши керак."
-                                 }
-                     }
+{
+    "questionId": 1084,
+    "image": "data/images/q1084.webp",
+    "translations": {
+        "uz": {
+            "text": "Harakatlanish vaqtida velosipedchi bilan avtomobil yo'llari kesishganda kim yo'l berishi kerak?",
+            "options": [
+                "F1. Avtomobil",
+                "F2. Velosipedchilar",
+                "F3. O'zaro kelishib o'tishadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 28-bobi 169-bandi: Chorrahadan tashqaridagi tartibga solinmagan velosiped yo'lkasi bilan yo'l kesishmasida velosiped va individual harakatlanish vositalari yo'lda harakatlanayotgan boshqa transport vositalariga yo'l berishlari kerak.\nVelosiped yo'lkasi va piyodalar yo'lkasi (trotuar) o'zaro kesishgan holatlarda velosiped va individual harakatlanish vositasi piyodaga yo'l berishi kerak."
+        },
+        "ru": {
+            "text": "Кто должен уступить дорогу при пересечении автомобильных дорог с велосипедистом во время движения?",
+            "options": [
+                "F1. Автомобиль",
+                "F2. Велосипедисты",
+                "F3. По взаимной согласование"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 169 главы 28 ПДД, гласит: Вне перекрестков, на нерегулируемом пересечении велосипедной дорожки с дорогой, велосипедисты и индивидуальные транспортных средства должны уступить дорогу транспортным средствам, движущимся по этой дороге.\n\nПри взаимном пересечении велосипедной и пешеходной дорожек (тротуара) велосипедист и индивидуальные транспортных средства должен уступить дорогу пешеходу."
+        },
+        "uzk": {
+            "text": "Ҳаракатланиш вақтида велосипедчи билан автомобил йўллари кесишганда ким йўл бериши керак?",
+            "options": [
+                "F1. Автомобил",
+                "F2. Велосипедчилар",
+                "F3. Ўзаро келишиб ўтишади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 28-боби 169-банди: Чорраҳадан ташқаридаги тартибга солинмаган велосипед йўлкаси билан йўл кесишмасида велосипед ва индивидуал ҳаракатланиш воситалари йўлда ҳаракатланаётган бошқа транспорт воситаларига йўл беришлари керак.\nВелосипед йўлкаси ва пиёдалар йўлкаси (тротуар) ўзаро кесишган ҳолатларда велосипед ва индивидуал ҳаракатланиш воситаси пиёдага йўл бериши керак."
+        }
+    }
 }

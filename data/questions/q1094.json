@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  1094,
-    "image":  "data/images/q1094.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu yotiq yo\u0027l chizig\u0027i qaysi guruh yo\u0027l belgilarini takrorlaydi?",
-                                    "options":  [
-                                                    "F1. Imtiyoz belgilarni",
-                                                    "F2. Ogohlantiruvchi belgilarni",
-                                                    "F3. Taqiqlovchi belgilarni",
-                                                    "F4. Axborot-ko\u0027rsatgich belgilarni"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 2 ilova: 1.27 — ogohlantiruvchi yo\u0027l belgilarini takrorlovchi yo\u0027l chizig\u0027i;\n\nYHQ 1 ilova: 1.18.1 — 1.18.3. “Yo\u0027lning torayishi”. 1.18.1 — ikki tomonlama torayish; 1.18.2 — o\u0027ngga torayish va 1.18.3 — chapga torayishni bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Какая группа дорожных знаков повторяется этой горизонтальной дорожной разметкой?",
-                                    "options":  [
-                                                    "F1. Знаки приоритета",
-                                                    "F2. Предупреждающие знаки",
-                                                    "F3. Запрещающие знаки",
-                                                    "F4. Информационно-указательные знаки"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "ПДД приложение № 2: 1.27 дорожная разметка, дублирующая предупреждающие знаки;\n\nПДД приложение № 1: 1.18.1 Сужение дороги. Сужение с обеих сторон — 1.18.1"
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу ётиқ йўл чизиғи қайси гуруҳ йўл белгиларини такрорлайди?",
-                                     "options":  [
-                                                     "F1. Имтиёз белгиларни",
-                                                     "F2. Огоҳлантирувчи белгиларни",
-                                                     "F3. Тақиқловчи белгиларни",
-                                                     "F4. Ахборот-кўрсатгич белгиларни"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 2 илова: 1.27 — огоҳлантирувчи йўл белгиларини такрорловчи йўл чизиғи;\n\nЙҲҚ 1 илова: 1.18.1 — 1.18.3. “Йўлнинг торайиши”. 1.18.1 — икки томонлама торайиш; 1.18.2 — ўнгга торайиш ва 1.18.3 — чапга торайишни билдиради."
-                                 }
-                     }
+{
+    "questionId": 1094,
+    "image": "data/images/q1094.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu yotiq yo'l chizig'i qaysi guruh yo'l belgilarini takrorlaydi?",
+            "options": [
+                "F1. Imtiyoz belgilarni",
+                "F2. Ogohlantiruvchi belgilarni",
+                "F3. Taqiqlovchi belgilarni",
+                "F4. Axborot-ko'rsatgich belgilarni"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 2 ilova: 1.27 — ogohlantiruvchi yo'l belgilarini takrorlovchi yo'l chizig'i;\n\nYHQ 1 ilova: 1.18.1 — 1.18.3. “Yo'lning torayishi”. 1.18.1 — ikki tomonlama torayish; 1.18.2 — o'ngga torayish va 1.18.3 — chapga torayishni bildiradi."
+        },
+        "ru": {
+            "text": "Какая группа дорожных знаков повторяется этой горизонтальной дорожной разметкой?",
+            "options": [
+                "F1. Знаки приоритета",
+                "F2. Предупреждающие знаки",
+                "F3. Запрещающие знаки",
+                "F4. Информационно-указательные знаки"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД приложение № 2: 1.27 дорожная разметка, дублирующая предупреждающие знаки;\n\nПДД приложение № 1: 1.18.1 Сужение дороги. Сужение с обеих сторон — 1.18.1"
+        },
+        "uzk": {
+            "text": "Ушбу ётиқ йўл чизиғи қайси гуруҳ йўл белгиларини такрорлайди?",
+            "options": [
+                "F1. Имтиёз белгиларни",
+                "F2. Огоҳлантирувчи белгиларни",
+                "F3. Тақиқловчи белгиларни",
+                "F4. Ахборот-кўрсатгич белгиларни"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 2 илова: 1.27 — огоҳлантирувчи йўл белгиларини такрорловчи йўл чизиғи;\n\nЙҲҚ 1 илова: 1.18.1 — 1.18.3. “Йўлнинг торайиши”. 1.18.1 — икки томонлама торайиш; 1.18.2 — ўнгга торайиш ва 1.18.3 — чапга торайишни билдиради."
+        }
+    }
 }

@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  933,
-    "image":  "data/images/q0933.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgilar axborot-ko\u0027rsatkich belgilari?",
-                                    "options":  [
-                                                    "F1. 2 va 3",
-                                                    "F2. 1 va 2",
-                                                    "F3. 1 va 4",
-                                                    "F4. 3 va 4"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1 ilova: Axborot-ishora belgilari"
-                                },
-                         "ru":  {
-                                    "text":  "Какие знаки являются информационно-указательным?",
-                                    "options":  [
-                                                    "F1. 2 и 3",
-                                                    "F2. 1 и 2",
-                                                    "F3. 1 и 4",
-                                                    "F4. 3 и 4"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Приложение № 1: к ПДД Информационно-указательные знаки"
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белгилар ахборот-кўрсаткич белгилари?",
-                                     "options":  [
-                                                     "F1. 2 ва 3",
-                                                     "F2. 1 ва 2",
-                                                     "F3. 1 ва 4",
-                                                     "F4. 3 ва 4"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1 илова: Ахборот-ишора белгилари"
-                                 }
-                     }
+{
+    "questionId": 933,
+    "image": "data/images/q0933.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgilar axborot-ko'rsatkich belgilari?",
+            "options": [
+                "F1. 2 va 3",
+                "F2. 1 va 2",
+                "F3. 1 va 4",
+                "F4. 3 va 4"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1 ilova: Axborot-ishora belgilari"
+        },
+        "ru": {
+            "text": "Какие знаки являются информационно-указательным?",
+            "options": [
+                "F1. 2 и 3",
+                "F2. 1 и 2",
+                "F3. 1 и 4",
+                "F4. 3 и 4"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Приложение № 1: к ПДД Информационно-указательные знаки"
+        },
+        "uzk": {
+            "text": "Қайси белгилар ахборот-кўрсаткич белгилари?",
+            "options": [
+                "F1. 2 ва 3",
+                "F2. 1 ва 2",
+                "F3. 1 ва 4",
+                "F4. 3 ва 4"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1 илова: Ахборот-ишора белгилари"
+        }
+    }
 }

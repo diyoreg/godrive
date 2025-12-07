@@ -1,39 +1,33 @@
-﻿{
-    "questionId":  36,
-    "image":  "data/images/q0036.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi transport vositasining haydovchisi yo\u0027l berishi kerak?",
-                                    "options":  [
-                                                    "F1. Mototsikl haydovchisi",
-                                                    "F2. Avtomobil haydovchisi",
-                                                    "F3. Вариант 3",
-                                                    "F4. Вариант 4"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "IzohYHQ 15-bobi 100-bandi: Svetoforning taqiqlovchi qizil yoki sariq ishorasi bilan bir vaqtda yongan qoʻshimcha tarmoqning ko\u0027rsatkichli yashil ishorasi yoʻnalishida harakatlanayotgan haydovchi boshqa yo\u0027nalishlardan harakatlanayotgan transport vositalariga yoʻl berishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Водитель какого транспортного средства должен уступить дорогу?",
-                                    "options":  [
-                                                    "F1. Водитель мотоцикла",
-                                                    "F2. Водитель автомобиля",
-                                                    "F3. Вариант 3",
-                                                    "F4. Вариант 4"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Пункта 100 главы 15 ПДД, гласит: При движении в направлении зеленой стрелки, включенной в дополнительной секции одновременно с желтым или красным сигналом светофора, водитель транспортного средства должен уступить дорогу транспортным средствам, движущимся с других направлений.\nВ данном случае водитель трамвая обязан уступить дорогу автомобилю, т.к. он движется в направлении зеленой стрелки, включенной в дополнительной секции."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси транспорт воситасининг ҳайдовчиси йўл бериши керак?",
-                                     "options":  [
-                                                     "F1. Мотоцикл ҳайдовчиси",
-                                                     "F2. Автомобиль ҳайдовчиси",
-                                                     "F3. Вариант 3",
-                                                     "F4. Вариант 4"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ИзоҳЙҲҚ 15-боби 100-банди: Светофорнинг тақиқловчи қизил ёки сариқ ишораси билан бир вақтда ёнган қўшимча тармоқнинг кўрсаткичли яшил ишораси йўналишида ҳаракатланаётган ҳайдовчи бошқа йўналишлардан ҳаракатланаётган транспорт воситаларига йўл бериши керак."
-                                 }
-                     }
+{
+    "questionId": 36,
+    "image": "data/images/q0036.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi transport vositasining haydovchisi yo'l berishi kerak?",
+            "options": [
+                "F1. Mototsikl haydovchisi",
+                "F2. Avtomobil haydovchisi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "IzohYHQ 15-bobi 100-bandi: Svetoforning taqiqlovchi qizil yoki sariq ishorasi bilan bir vaqtda yongan qoʻshimcha tarmoqning ko'rsatkichli yashil ishorasi yoʻnalishida harakatlanayotgan haydovchi boshqa yo'nalishlardan harakatlanayotgan transport vositalariga yoʻl berishi kerak."
+        },
+        "ru": {
+            "text": "Водитель какого транспортного средства должен уступить дорогу?",
+            "options": [
+                "F1. Водитель мотоцикла",
+                "F2. Водитель автомобиля"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункта 100 главы 15 ПДД, гласит: При движении в направлении зеленой стрелки, включенной в дополнительной секции одновременно с желтым или красным сигналом светофора, водитель транспортного средства должен уступить дорогу транспортным средствам, движущимся с других направлений.\nВ данном случае водитель трамвая обязан уступить дорогу автомобилю, т.к. он движется в направлении зеленой стрелки, включенной в дополнительной секции."
+        },
+        "uzk": {
+            "text": "Қайси транспорт воситасининг ҳайдовчиси йўл бериши керак?",
+            "options": [
+                "F1. Мотоцикл ҳайдовчиси",
+                "F2. Автомобиль ҳайдовчиси"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ИзоҳЙҲҚ 15-боби 100-банди: Светофорнинг тақиқловчи қизил ёки сариқ ишораси билан бир вақтда ёнган қўшимча тармоқнинг кўрсаткичли яшил ишораси йўналишида ҳаракатланаётган ҳайдовчи бошқа йўналишлардан ҳаракатланаётган транспорт воситаларига йўл бериши керак."
+        }
+    }
 }

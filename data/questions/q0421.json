@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  421,
-    "image":  "data/images/q0421.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Bu joyda quvib o\u0027tishga ruxsat etilganmi?",
-                                    "options":  [
-                                                    "F1. Quvib o\u0027tilayotgan transport vositasi 40 km/soatdan kam tezlik bilan harakatlanganda ruxsat etiladi",
-                                                    "F2. Taqiqlanadi",
-                                                    "F3. Agar quvib o\u0027tish temir yo\u0027l kesishmasigacha tugasa, ruxsat etiladi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 12-bobi 86-bandining to\u0027rtinchi xatboshisiga asosan, quvib o\u0027tish quyidagi hollarda taqiqlanadi: temir yo\u0027l kesishmalarida va ulargacha 100 metrdan kam masofa qolganda."
-                                },
-                         "ru":  {
-                                    "text":  "Разрешается ли обгон на этом участке дороги?",
-                                    "options":  [
-                                                    "F1. Разрешается, если обгоняемый автомобиль движется со скоростью меньше чем 40 км/ч",
-                                                    "F2. Запрещается",
-                                                    "F3. Разрешается, если обгон завершается до железнодорожного переезда"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Предупреждающий знак 1.2 \"Железнодорожный переезд без шлагбаума\". Предупреждающие знаки 1.1, 1.2, 1.5-1.30 устанавливаются в населенных пунктах - на расстоянии 50-100 м, а вне населенных пунктов - на расстоянии 150-300 м до начала опасного участка. Пункта 86 главы 12 ПДД гласит: Обгон запрещен:  В данном случае знак 1.2 означает, что до железнодорожного переезда менее 50-100 м, поэтому обгон на этом участке дороги запрещен."
-                                },
-                         "uzk":  {
-                                     "text":  "Бу жойда қувиб ўтишга рухсат этилганми?",
-                                     "options":  [
-                                                     "F1. Қувиб ўтилаётган транспорт воситаси 40 км/ соатдан кам тезлик билан ҳаракатланганда рухсат этилади",
-                                                     "F2. Тақиқланади",
-                                                     "F3. Агар қувиб ўтиш темир йўл кесишмасигача тугаса, рухсат этилади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 12-боби 86-бандининг тўртинчи хатбошисига асосан, қувиб ўтиш қуйидаги ҳолларда тақиқланади: темир йўл кесишмаларида ва уларгача 100 метрдан кам масофа қолганда."
-                                 }
-                     }
+{
+    "questionId": 421,
+    "image": "data/images/q0421.webp",
+    "translations": {
+        "uz": {
+            "text": "Bu joyda quvib o'tishga ruxsat etilganmi?",
+            "options": [
+                "F1. Quvib o'tilayotgan transport vositasi 40 km/soatdan kam tezlik bilan harakatlanganda ruxsat etiladi",
+                "F2. Taqiqlanadi",
+                "F3. Agar quvib o'tish temir yo'l kesishmasigacha tugasa, ruxsat etiladi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 12-bobi 86-bandining to'rtinchi xatboshisiga asosan, quvib o'tish quyidagi hollarda taqiqlanadi: temir yo'l kesishmalarida va ulargacha 100 metrdan kam masofa qolganda."
+        },
+        "ru": {
+            "text": "Разрешается ли обгон на этом участке дороги?",
+            "options": [
+                "F1. Разрешается, если обгоняемый автомобиль движется со скоростью меньше чем 40 км/ч",
+                "F2. Запрещается",
+                "F3. Разрешается, если обгон завершается до железнодорожного переезда"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Предупреждающий знак 1.2 \"Железнодорожный переезд без шлагбаума\". Предупреждающие знаки 1.1, 1.2, 1.5-1.30 устанавливаются в населенных пунктах - на расстоянии 50-100 м, а вне населенных пунктов - на расстоянии 150-300 м до начала опасного участка. Пункта 86 главы 12 ПДД гласит: Обгон запрещен:  В данном случае знак 1.2 означает, что до железнодорожного переезда менее 50-100 м, поэтому обгон на этом участке дороги запрещен."
+        },
+        "uzk": {
+            "text": "Бу жойда қувиб ўтишга рухсат этилганми?",
+            "options": [
+                "F1. Қувиб ўтилаётган транспорт воситаси 40 км/ соатдан кам тезлик билан ҳаракатланганда рухсат этилади",
+                "F2. Тақиқланади",
+                "F3. Агар қувиб ўтиш темир йўл кесишмасигача тугаса, рухсат этилади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 12-боби 86-бандининг тўртинчи хатбошисига асосан, қувиб ўтиш қуйидаги ҳолларда тақиқланади: темир йўл кесишмаларида ва уларгача 100 метрдан кам масофа қолганда."
+        }
+    }
 }

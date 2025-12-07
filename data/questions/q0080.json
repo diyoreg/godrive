@@ -7,7 +7,8 @@
             "options": [
                 "F1. Qo'shaloq shinalar orasiga xavf-xatar tug'diruvchi begona jismlar tiqilib qolgan",
                 "F2. Shina o'lchamlari yoki cheklangan og'irlik transport vositasining turiga mos kelmaydi",
-                "F3. Barcha sanab o'tilgan hollarda ruxsat etiladi"
+                "F3. M1; M2, M3 toifali 1 klass avtotransport vositalarining oldingi o'qiga 1 klassda ta'mirlangan shinalar qo'yilgan",
+                "F4. Barcha sanab o'tilgan hollarda ruxsat etiladi "
             ],
             "correctAnswer": 3,
             "explanation": "YHQ 3-ilovasi 5-Bо'limining 5.7-bandiga asosan: М1, M2, МЗ toifalarni I klassidagi avtotransport vositalarini oldingi o'qiga, МЗ toifani II va III klassidagi avtotransport vositalarini oʻrta va orqa o'qlariga ikkinchi ta'mirlash klassi boʻyicha qayta tiklangan shinalar oʻrnatilgan boʻlsa foydalanish taqiqlanadi."

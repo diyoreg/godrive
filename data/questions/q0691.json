@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  691,
-    "image":  "data/images/q0691.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi transport vositasining haydovchisi quvib o\u0027tishni to\u0027g\u0027ri bajarmoqda?",
-                                    "options":  [
-                                                    "F1. Yashil avtomobil haydovchisi",
-                                                    "F2. Ko\u0027k avtomobil haydovchisi",
-                                                    "F3. Ikkala haydovchi to\u0027g\u0027ri bajarmoqda",
-                                                    "F4. Ikkala haydovchilarga quvib o\u0027tish taqiqlangan"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 10-bobi 66-bandiga asosan: Harakat ikki tomonlama bo\u0027lgan va chiziqlar bilan belgilangan (1.9 yo\u0027l chizig\u0027i bilan belgilanganidan tashqari) uchta tasmali yo\u0027llarda, ikki yo\u0027nalishda harakatlanish uchun mo\u0027ljallangan o\u0027rta qatorga faqat quvib o\u0027tish, aylanib o\u0027tish, chapga burilish va qayrilib olish uchungina chiqishga ruxsat etiladi. Qarama-qarshi yo\u0027nalishda harakatlanish uchun mo\u0027ljallangan chetki chap qatorni egallash taqiqlanadi."
-                                },
-                         "ru":  {
-                                    "text":  "Водитель какого транспортного средства правильно выполняет обгон?",
-                                    "options":  [
-                                                    "F1. Водитель зеленого автомобиля",
-                                                    "F2. Водитель синего автомобиля",
-                                                    "F3. Оба водителя правильно обгоняют",
-                                                    "F4. Обоим водителям обгон запрещен"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 66 главы 10 ПДД, гласит: На дорогах с двусторонним движением, имеющих три полосы, обозначенные разметкой (за исключением дорожной разметки 1.9), из которых средняя используется для движения в обоих направлениях, разрешается выезжать на эту полосу только для обгона, объезда, поворота налево или разворота. Выезжать на крайнюю левую полосу, предназначенную для встречного движения, запрещается."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси транспорт воситасининг ҳайдовчиси қувиб ўтишни тўғри бажармоқда?",
-                                     "options":  [
-                                                     "F1. Яшил автомобиль ҳайдовчиси",
-                                                     "F2. Кўк автомобиль ҳайдовчиси",
-                                                     "F3. Иккала ҳайдовчи тўғри бажармокда",
-                                                     "F4. Иккала ҳайдовчиларга қувиб ўтиш тақиқланган"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 10-боби 66-бандига асосан: Ҳаракат икки томонлама бўлган ва чизиқлар билан белгиланган (1.9 йўл чизиғи билан белгиланганидан ташқари) учта тасмали йўлларда, икки йўналишда ҳаракатланиш учун мўлжалланган ўрта қаторга фақат қувиб ўтиш, айланиб ўтиш, чапга бурилиш ва қайрилиб олиш учунгина чиқишга рухсат етилади. Қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган четки чап қаторни егаллаш тақиқланади."
-                                 }
-                     }
+{
+    "questionId": 691,
+    "image": "data/images/q0691.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi transport vositasining haydovchisi quvib o'tishni to'g'ri bajarmoqda?",
+            "options": [
+                "F1. Yashil avtomobil haydovchisi",
+                "F2. Ko'k avtomobil haydovchisi",
+                "F3. Ikkala haydovchi to'g'ri bajarmoqda",
+                "F4. Ikkala haydovchilarga quvib o'tish taqiqlangan"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 10-bobi 66-bandiga asosan: Harakat ikki tomonlama bo'lgan va chiziqlar bilan belgilangan (1.9 yo'l chizig'i bilan belgilanganidan tashqari) uchta tasmali yo'llarda, ikki yo'nalishda harakatlanish uchun mo'ljallangan o'rta qatorga faqat quvib o'tish, aylanib o'tish, chapga burilish va qayrilib olish uchungina chiqishga ruxsat etiladi. Qarama-qarshi yo'nalishda harakatlanish uchun mo'ljallangan chetki chap qatorni egallash taqiqlanadi."
+        },
+        "ru": {
+            "text": "Водитель какого транспортного средства правильно выполняет обгон?",
+            "options": [
+                "F1. Водитель зеленого автомобиля",
+                "F2. Водитель синего автомобиля",
+                "F3. Оба водителя правильно обгоняют",
+                "F4. Обоим водителям обгон запрещен"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 66 главы 10 ПДД, гласит: На дорогах с двусторонним движением, имеющих три полосы, обозначенные разметкой (за исключением дорожной разметки 1.9), из которых средняя используется для движения в обоих направлениях, разрешается выезжать на эту полосу только для обгона, объезда, поворота налево или разворота. Выезжать на крайнюю левую полосу, предназначенную для встречного движения, запрещается."
+        },
+        "uzk": {
+            "text": "Қайси транспорт воситасининг ҳайдовчиси қувиб ўтишни тўғри бажармоқда?",
+            "options": [
+                "F1. Яшил автомобиль ҳайдовчиси",
+                "F2. Кўк автомобиль ҳайдовчиси",
+                "F3. Иккала ҳайдовчи тўғри бажармокда",
+                "F4. Иккала ҳайдовчиларга қувиб ўтиш тақиқланган"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 10-боби 66-бандига асосан: Ҳаракат икки томонлама бўлган ва чизиқлар билан белгиланган (1.9 йўл чизиғи билан белгиланганидан ташқари) учта тасмали йўлларда, икки йўналишда ҳаракатланиш учун мўлжалланган ўрта қаторга фақат қувиб ўтиш, айланиб ўтиш, чапга бурилиш ва қайрилиб олиш учунгина чиқишга рухсат етилади. Қарама-қарши йўналишда ҳаракатланиш учун мўлжалланган четки чап қаторни егаллаш тақиқланади."
+        }
+    }
 }

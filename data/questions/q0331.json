@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  331,
-    "image":  "data/images/q0331.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu yotiq chiziq nimani anglatadi?",
-                                    "options":  [
-                                                    "F1. Transport vositalari oqimi qo\u0027shiladigan joylardagi yo\u0027naltiruvchi orolchani",
-                                                    "F2. Qatnov qismidagi xavfli joylarda piyodalar uchun orolchani",
-                                                    "F3. Transport vositalari to\u0027xtab turish qatnov chegarasini",
-                                                    "F4. Transport vositalari oqimi ajraladigan joydagi yo\u0027naltiruvchi orolchani"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 2-ilovasi 1-bo\u0027limining yigirmanchi xatboshisiga asosan: 1.16.3 — transport vositalari oqimi qo\u0027shiladigan joylardagi yo\u0027ʻnaltiruvchi orolchani bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Что обозначает эта разметка?",
-                                    "options":  [
-                                                    "F1. Направляющий островок в месте слияния транспортных потоков",
-                                                    "F2. Островок для пешеходов на опасных участках движения",
-                                                    "F3. Границу места стоянки транспортных средств",
-                                                    "F4. Островок, обозначающий место разделения транспортных потоков"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Горизонтальная разметка 16.3 - обозначает направляющие островки в местах разделения или слияния транспортных потоков."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу ётиқ чизиқ нимани англатади?",
-                                     "options":  [
-                                                     "F1. Транспорт воситалари оқими қўшиладиган жойлардаги йўналтирувчи оролчани",
-                                                     "F2. Қатнов қисмидаги хавфли жойларда пиёдалар учун оролчани",
-                                                     "F3. Транспорт воситалари тўхтаб туриш қатнов чегарасини",
-                                                     "F4. Транспорт воситалари оқими ажраладиган жойдаги йўналтирувчи оролчани"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 2-иловаси 1-бўлимининг йигирманчи хатбошисига асосан: 1.16.3 — транспорт воситалари оқими қўшиладиган жойлардаги йўналтирувчи оролчани билдиради."
-                                 }
-                     }
+{
+    "questionId": 331,
+    "image": "data/images/q0331.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu yotiq chiziq nimani anglatadi?",
+            "options": [
+                "F1. Transport vositalari oqimi qo'shiladigan joylardagi yo'naltiruvchi orolchani",
+                "F2. Qatnov qismidagi xavfli joylarda piyodalar uchun orolchani",
+                "F3. Transport vositalari to'xtab turish qatnov chegarasini",
+                "F4. Transport vositalari oqimi ajraladigan joydagi yo'naltiruvchi orolchani"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 2-ilovasi 1-bo'limining yigirmanchi xatboshisiga asosan: 1.16.3 — transport vositalari oqimi qo'shiladigan joylardagi yo'ʻnaltiruvchi orolchani bildiradi."
+        },
+        "ru": {
+            "text": "Что обозначает эта разметка?",
+            "options": [
+                "F1. Направляющий островок в месте слияния транспортных потоков",
+                "F2. Островок для пешеходов на опасных участках движения",
+                "F3. Границу места стоянки транспортных средств",
+                "F4. Островок, обозначающий место разделения транспортных потоков"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Горизонтальная разметка 16.3 - обозначает направляющие островки в местах разделения или слияния транспортных потоков."
+        },
+        "uzk": {
+            "text": "Ушбу ётиқ чизиқ нимани англатади?",
+            "options": [
+                "F1. Транспорт воситалари оқими қўшиладиган жойлардаги йўналтирувчи оролчани",
+                "F2. Қатнов қисмидаги хавфли жойларда пиёдалар учун оролчани",
+                "F3. Транспорт воситалари тўхтаб туриш қатнов чегарасини",
+                "F4. Транспорт воситалари оқими ажраладиган жойдаги йўналтирувчи оролчани"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 2-иловаси 1-бўлимининг йигирманчи хатбошисига асосан: 1.16.3 — транспорт воситалари оқими қўшиладиган жойлардаги йўналтирувчи оролчани билдиради."
+        }
+    }
 }

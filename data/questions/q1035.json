@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  1035,
-    "image":  "data/images/q1035.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "To\u0027xtab turish joyidan chiqayotganda boshqa transport vositasi bilan yo\u0027llaringiz kesishganda qanday harakat qilishingiz kerak?",
-                                    "options":  [
-                                                    "F1. Yo\u0027l berish",
-                                                    "F2. Birinchi o\u0027tish",
-                                                    "F3. O\u0027zaro kelishuvga binoan harakatlanish"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 9-bobi 60-bandi: Transport vositalarining harakatlanish yo\u0027nalishlari kesishganda va o\u0027tish navbati Qoidalarda nazarda tutilmagan hollarda, haydovchi o\u0027ng tomondan yaqinlashayotgan transport vositasiga yo\u0027l berishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Как Вам следует действовать, выезжая с места стоянки одновременно с другим автомобилем?",
-                                    "options":  [
-                                                    "F1. Уступить дорогу",
-                                                    "F2. Проехать первым",
-                                                    "F3. По взаимной договоренности с водителем этого автомобиля"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 60 главы 9 ПДД, гласит: В случаях, когда траектории движения транспортных средств пересекаются, а очередность проезда не оговорена Правилами, дорогу должен уступить водитель, к которому транспортное средство приближается справа."
-                                },
-                         "uzk":  {
-                                     "text":  "Тўхтаб туриш жойидан чиқаётганда бошқа транспорт воситаси билан йўлларингиз кесишганда қандай ҳаракат қилишингиз керак?",
-                                     "options":  [
-                                                     "F1. Йўл бериш",
-                                                     "F2. Биринчи ўтиш",
-                                                     "F3. Ўзаро келишувга биноан ҳаракатланиш"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 9-боби 60-банди: Транспорт воситаларининг ҳаракатланиш йўналишлари кесишганда ва ўтиш навбати Қоидаларда назарда тутилмаган ҳолларда, ҳайдовчи ўнг томондан яқинлашаётган транспорт воситасига йўл бериши керак."
-                                 }
-                     }
+{
+    "questionId": 1035,
+    "image": "data/images/q1035.webp",
+    "translations": {
+        "uz": {
+            "text": "To'xtab turish joyidan chiqayotganda boshqa transport vositasi bilan yo'llaringiz kesishganda qanday harakat qilishingiz kerak?",
+            "options": [
+                "F1. Yo'l berish",
+                "F2. Birinchi o'tish",
+                "F3. O'zaro kelishuvga binoan harakatlanish"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 9-bobi 60-bandi: Transport vositalarining harakatlanish yo'nalishlari kesishganda va o'tish navbati Qoidalarda nazarda tutilmagan hollarda, haydovchi o'ng tomondan yaqinlashayotgan transport vositasiga yo'l berishi kerak."
+        },
+        "ru": {
+            "text": "Как Вам следует действовать, выезжая с места стоянки одновременно с другим автомобилем?",
+            "options": [
+                "F1. Уступить дорогу",
+                "F2. Проехать первым",
+                "F3. По взаимной договоренности с водителем этого автомобиля"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 60 главы 9 ПДД, гласит: В случаях, когда траектории движения транспортных средств пересекаются, а очередность проезда не оговорена Правилами, дорогу должен уступить водитель, к которому транспортное средство приближается справа."
+        },
+        "uzk": {
+            "text": "Тўхтаб туриш жойидан чиқаётганда бошқа транспорт воситаси билан йўлларингиз кесишганда қандай ҳаракат қилишингиз керак?",
+            "options": [
+                "F1. Йўл бериш",
+                "F2. Биринчи ўтиш",
+                "F3. Ўзаро келишувга биноан ҳаракатланиш"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 9-боби 60-банди: Транспорт воситаларининг ҳаракатланиш йўналишлари кесишганда ва ўтиш навбати Қоидаларда назарда тутилмаган ҳолларда, ҳайдовчи ўнг томондан яқинлашаётган транспорт воситасига йўл бериши керак."
+        }
+    }
 }

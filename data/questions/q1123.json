@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  1123,
-    "image":  "data/images/q1123.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Quyidagi holatda qizil avtomobilga quvib o\u0027tishga ruxsat beriladimi?",
-                                    "options":  [
-                                                    "F1. Ruxsat beriladi",
-                                                    "F2. Taqiqlanadi"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1 ilova: 3.20. “Quvib o\u0027tish taqiqlangan”. Soatiga 40 km dan kam tezlikda harakatlanayotgan yakka transport vositasidan boshqa transport vositalarini quvib o\u0027tish taqiqlanishini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Разрешён ли обгон для красного автомобиля в данной ситуации?",
-                                    "options":  [
-                                                    "F1. Разрешается",
-                                                    "F2. Запрещается"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "ПДД приложение № 1: Знак 3.20 Обгон запрещен. Запрещается обгон всех транспортных средств, кроме одиночных, движущихся со скоростью менее 40 км/ч."
-                                },
-                         "uzk":  {
-                                     "text":  "Қуйидаги ҳолатда қизил автомобилга қувиб ўтишга рухсат бериладими?",
-                                     "options":  [
-                                                     "F1. Рухсат берилади",
-                                                     "F2. Тақиқланади"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1 илова: 3.20. “Қувиб ўтиш тақиқланган”. Соатига 40 км дан кам тезликда ҳаракатланаётган якка транспорт воситасидан бошқа транспорт воситаларини қувиб ўтиш тақиқланишини билдиради."
-                                 }
-                     }
+{
+    "questionId": 1123,
+    "image": "data/images/q1123.webp",
+    "translations": {
+        "uz": {
+            "text": "Quyidagi holatda qizil avtomobilga quvib o'tishga ruxsat beriladimi?",
+            "options": [
+                "F1. Ruxsat beriladi",
+                "F2. Taqiqlanadi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1 ilova: 3.20. “Quvib o'tish taqiqlangan”. Soatiga 40 km dan kam tezlikda harakatlanayotgan yakka transport vositasidan boshqa transport vositalarini quvib o'tish taqiqlanishini bildiradi."
+        },
+        "ru": {
+            "text": "Разрешён ли обгон для красного автомобиля в данной ситуации?",
+            "options": [
+                "F1. Разрешается",
+                "F2. Запрещается"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД приложение № 1: Знак 3.20 Обгон запрещен. Запрещается обгон всех транспортных средств, кроме одиночных, движущихся со скоростью менее 40 км/ч."
+        },
+        "uzk": {
+            "text": "Қуйидаги ҳолатда қизил автомобилга қувиб ўтишга рухсат бериладими?",
+            "options": [
+                "F1. Рухсат берилади",
+                "F2. Тақиқланади"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1 илова: 3.20. “Қувиб ўтиш тақиқланган”. Соатига 40 км дан кам тезликда ҳаракатланаётган якка транспорт воситасидан бошқа транспорт воситаларини қувиб ўтиш тақиқланишини билдиради."
+        }
+    }
 }

@@ -1,0 +1,32 @@
+{
+    "questionId": 1058,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Qoidalarda nechta asosiy tushuncha va atamalardan foydalaniladi?",
+            "options": [
+                "F1. 65 ta",
+                "F2. 56 ta",
+                "F3. 76 ta"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ umumiy qoidalar 6-bandi: avariya holatini yuzaga keltirish, avtomagistral, avtopoyezd va boshqalar (umumiy 76 ta)."
+        },
+        "ru": {
+            "text": "Сколько основные понятий и терминов используется в Правилах?",
+            "options": [],
+            "correctAnswer": 3,
+            "explanation": "ПДД Общие положения пункт 6: Создание аварийной ситуации, Автомагистраль, Автопоезд и другие (общие 76)."
+        },
+        "uzk": {
+            "text": "Қоидаларда нечта асосий тушунча ва атамалардан фойдаланилади?",
+            "options": [
+                "F1. 65 та",
+                "F2. 56 та",
+                "F3. 76 та"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ умумий қоидалар 6-банди: авария ҳолатини юзага келтириш, автомагистрал, автопоезд ва бошқалар (умумий 76 та)."
+        }
+    }
+}

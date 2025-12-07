@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  1089,
-    "image":  "data/images/q1089.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu belgi qanday nomlanadi?",
-                                    "options":  [
-                                                    "F1. Piyodalarning harakati taqiqlangan",
-                                                    "F2. Individual harakatlanish vositalarini boshqarish taqiqlangan",
-                                                    "F3. Bolalar uchishi taqiqlangan",
-                                                    "F4. Ko\u0027rsatilgan barcha javoblar to\u0027g\u0027ri"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1 ilova: 3.34. “Individual harakatlanish vositalarini boshqarish taqiqlangan”."
-                                },
-                         "ru":  {
-                                    "text":  "Как называется этот знак?",
-                                    "options":  [
-                                                    "F1. Движение пешеходов запрещено",
-                                                    "F2. Движение индивидуальным транспортным средствам запрещено",
-                                                    "F3. Пребывание детей запрещено",
-                                                    "F4. Все указанные ответы верны"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "ПДД приложение № 1: 3.34. Движение индивидуальным транспортным средствам запрещено"
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу белги қандай номланади?",
-                                     "options":  [
-                                                     "F1. Пиёдаларнинг ҳаракати тақиқланган",
-                                                     "F2. Индивидуал ҳаракатланиш воситаларини бошқариш тақиқланган",
-                                                     "F3. Болалар учиши тақиқланган",
-                                                     "F4. Кўрсатилган барча жавоблар тўғри"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1 илова: 3.34. “Индивидуал ҳаракатланиш воситаларини бошқариш тақиқланган”."
-                                 }
-                     }
+{
+    "questionId": 1089,
+    "image": "data/images/q1089.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu belgi qanday nomlanadi?",
+            "options": [
+                "F1. Piyodalarning harakati taqiqlangan",
+                "F2. Individual harakatlanish vositalarini boshqarish taqiqlangan",
+                "F3. Bolalar uchishi taqiqlangan",
+                "F4. Ko'rsatilgan barcha javoblar to'g'ri"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1 ilova: 3.34. “Individual harakatlanish vositalarini boshqarish taqiqlangan”."
+        },
+        "ru": {
+            "text": "Как называется этот знак?",
+            "options": [
+                "F1. Движение пешеходов запрещено",
+                "F2. Движение индивидуальным транспортным средствам запрещено",
+                "F3. Пребывание детей запрещено",
+                "F4. Все указанные ответы верны"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ПДД приложение № 1: 3.34. Движение индивидуальным транспортным средствам запрещено"
+        },
+        "uzk": {
+            "text": "Ушбу белги қандай номланади?",
+            "options": [
+                "F1. Пиёдаларнинг ҳаракати тақиқланган",
+                "F2. Индивидуал ҳаракатланиш воситаларини бошқариш тақиқланган",
+                "F3. Болалар учиши тақиқланган",
+                "F4. Кўрсатилган барча жавоблар тўғри"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1 илова: 3.34. “Индивидуал ҳаракатланиш воситаларини бошқариш тақиқланган”."
+        }
+    }
 }

@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  491,
-    "image":  "data/images/q0491.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi agar yuk avtomobilining tirkamasi bilan birga ruxsat etilgan to\u0027liq vazni 7 tonnaga teng bo\u0027lsa, tirkamali avtomobillarning harakatlanishini taqiqlaydi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining to\u0027qqizinchi xatboshisiga asosan: 3.7. «Tirkama bilan harakatlanish taqiqlanadi». Yuk tashuvchi transport vositalari, traktorlarning barcha turdagi tirkamalar bilan harakatlanishi, shuningdek mexanik transport vositalarini har qanday usulda shatakka olish taqiqlanishini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак запрещает движение грузового автомобиля с прицепом, если суммарная разрешенная максимальная масса автомобиля и прицепа равна 7 т?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Запрещающий знак 3.7 \"Движение с прицепом запрещено\". Запрещается движение грузовых автомобилей и тракторов с прицепами любого типа, а также всякая буксировка механических транспортных средств."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги агар юк автомобилининг тиркамаси билан бирга рухсат этилган тўлиқ вазни 7 тоннага тенг бўлса, тиркамали автомобилларнинг ҳаракатланишини тақиқлайди?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг тўққизинчи хатбошисига асосан: 3.7. «Тиркама билан ҳаракатланиш такикланади». Юк ташувчи транспорт воситалари, тракторларнинг барча турдаги тиркамалар билан ҳаракатланиши, шунингдек механик транспорт воситаларини ҳар қандай усулда шатакка олиш тақиқланишини билдиради."
-                                 }
-                     }
+{
+    "questionId": 491,
+    "image": "data/images/q0491.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi agar yuk avtomobilining tirkamasi bilan birga ruxsat etilgan to'liq vazni 7 tonnaga teng bo'lsa, tirkamali avtomobillarning harakatlanishini taqiqlaydi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 1-ilovasi 3-bo'limining to'qqizinchi xatboshisiga asosan: 3.7. «Tirkama bilan harakatlanish taqiqlanadi». Yuk tashuvchi transport vositalari, traktorlarning barcha turdagi tirkamalar bilan harakatlanishi, shuningdek mexanik transport vositalarini har qanday usulda shatakka olish taqiqlanishini bildiradi."
+        },
+        "ru": {
+            "text": "Какой знак запрещает движение грузового автомобиля с прицепом, если суммарная разрешенная максимальная масса автомобиля и прицепа равна 7 т?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Запрещающий знак 3.7 \"Движение с прицепом запрещено\". Запрещается движение грузовых автомобилей и тракторов с прицепами любого типа, а также всякая буксировка механических транспортных средств."
+        },
+        "uzk": {
+            "text": "Қайси белги агар юк автомобилининг тиркамаси билан бирга рухсат этилган тўлиқ вазни 7 тоннага тенг бўлса, тиркамали автомобилларнинг ҳаракатланишини тақиқлайди?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг тўққизинчи хатбошисига асосан: 3.7. «Тиркама билан ҳаракатланиш такикланади». Юк ташувчи транспорт воситалари, тракторларнинг барча турдаги тиркамалар билан ҳаракатланиши, шунингдек механик транспорт воситаларини ҳар қандай усулда шатакка олиш тақиқланишини билдиради."
+        }
+    }
 }

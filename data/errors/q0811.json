@@ -1,0 +1,39 @@
+{
+    "questionId": 811,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Hushdan ketish bir necha soniyadan bir necha soatgacha bo'lishi mumkin",
+                "F2. Qayt qilish bir-ikki marta, og'ir holatlarda ko'proq bo'lishi mumkin",
+                "F3. Amneziya - xotiraning yo'qolishi sodir bo'lgan jarohatlanish bilan bog'liq va hayotidagi ba’zi voqealar xotirasidan o'chadi",
+                "F4. Yuqoridagi barcha holatlar"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Yuqoridagi barcha holatlar."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Потеря сознания может длится от нескольких секунд до нескольких часов",
+                "F2. Рвота два-три раза, в тяжёлых случаях больше",
+                "F3. Амнезия - потеря памяти связанная с полученной травмой и некоторые события жизни стираются из памяти",
+                "F4. Все вышеперечисленные ситуации"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Все вышеперечисленные ситуации."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Ҳушдан кетиш бир неча сониядан бир неча соатгача бўлиши мумкин",
+                "F2. Қайт қилиш бир-икки марта, оғир ҳолатларда кўпроқ бўлиши мумкин",
+                "F3. Амнезия - хотиранинг йўқолиши, содир бўлган жароҳатланиш билан боғлиқ ва ҳаётидаги баъзи воқеалар хотирасидан ўчади",
+                "F4. Юқоридаги барча ҳолатлар"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Юқоридаги барча ҳолатлар."
+        }
+    }
+}

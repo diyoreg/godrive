@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  92,
-    "image":  "data/images/q0092.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Mazkur belgi bilan belgilangan hududda qanday cheklovlar o\u0027rnatilgan?",
-                                    "options":  [
-                                                    "F1. Harakat tezligini 5 km/s dan oshmasligi kerakligini bildiradi",
-                                                    "F2. Transport vositalarini boshqarishni o\u0027rgatish",
-                                                    "F3. Kirib, chiqib ketish harakati taqiqlanadi",
-                                                    "F4. Yengil avtomobillarni tunda to\u0027xtab turishini taqiqlaydi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 20-bobi 124-bandining birinchi xatboshisiga asosan, turar joy dahalarida quyidagilar taqiqlanadi: mexanik transport vositalarini boshqarishni o\u0027rgatish."
-                                },
-                         "ru":  {
-                                    "text":  "Какие ограничения установлены на территории, обозначенной указанным знаком?",
-                                    "options":  [
-                                                    "F1. Запрещается движение со скоростью более 5км/ч",
-                                                    "F2. Обучение вождению транспортных средств",
-                                                    "F3. Запрещается сквозное движение",
-                                                    "F4. Запрещается стоянка в ночное время легковых автомобилей"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Информационно-указательный знак 5.38 \"Жилая зона\". Дорога, на которой действуют требования Правил, устанавливающие порядок движения в жилой зоне.\nПункта 124 главы 20 ПДД, гласит: В жилой зоне запрещается: - учебная езда на механических транспортных средствах."
-                                },
-                         "uzk":  {
-                                     "text":  "Мазкур белги билан белгиланган ҳудудда қандай чекловлар ўрнатилган?",
-                                     "options":  [
-                                                     "F1. Ҳаракат тезлигини 5 км/с дан ошмаслиги кераклигини билдиради",
-                                                     "F2. Транспорт воситаларини бошқаришни ўргатиш",
-                                                     "F3. Кириб, чиқиб кетиш ҳаракати тақиқланади",
-                                                     "F4. Енгил автомобилларни тунда тўхтаб туришини тақиқлайди"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 20-боби 124-бандининг биринчи хатбошисига асосан, турар жой даҳаларида қуйидагилар тақиқланади: механик транспорт воситаларини бошқаришни ўргатиш."
-                                 }
-                     }
+{
+    "questionId": 92,
+    "image": "data/images/q0092.webp",
+    "translations": {
+        "uz": {
+            "text": "Mazkur belgi bilan belgilangan hududda qanday cheklovlar o'rnatilgan?",
+            "options": [
+                "F1. Harakat tezligini 5 km/s dan oshmasligi kerakligini bildiradi",
+                "F2. Transport vositalarini boshqarishni o'rgatish",
+                "F3. Kirib, chiqib ketish harakati taqiqlanadi",
+                "F4. Yengil avtomobillarni tunda to'xtab turishini taqiqlaydi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 20-bobi 124-bandining birinchi xatboshisiga asosan, turar joy dahalarida quyidagilar taqiqlanadi: mexanik transport vositalarini boshqarishni o'rgatish."
+        },
+        "ru": {
+            "text": "Какие ограничения установлены на территории, обозначенной указанным знаком?",
+            "options": [
+                "F1. Запрещается движение со скоростью более 5км/ч",
+                "F2. Обучение вождению транспортных средств",
+                "F3. Запрещается сквозное движение",
+                "F4. Запрещается стоянка в ночное время легковых автомобилей"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Информационно-указательный знак 5.38 \"Жилая зона\". Дорога, на которой действуют требования Правил, устанавливающие порядок движения в жилой зоне.\nПункта 124 главы 20 ПДД, гласит: В жилой зоне запрещается: - учебная езда на механических транспортных средствах."
+        },
+        "uzk": {
+            "text": "Мазкур белги билан белгиланган ҳудудда қандай чекловлар ўрнатилган?",
+            "options": [
+                "F1. Ҳаракат тезлигини 5 км/с дан ошмаслиги кераклигини билдиради",
+                "F2. Транспорт воситаларини бошқаришни ўргатиш",
+                "F3. Кириб, чиқиб кетиш ҳаракати тақиқланади",
+                "F4. Енгил автомобилларни тунда тўхтаб туришини тақиқлайди"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 20-боби 124-бандининг биринчи хатбошисига асосан, турар жой даҳаларида қуйидагилар тақиқланади: механик транспорт воситаларини бошқаришни ўргатиш."
+        }
+    }
 }

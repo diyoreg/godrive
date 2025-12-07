@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  995,
-    "image":  "data/images/q0995.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ko\u0027rsatilgan belgilardan qaysilarining talabi bevosita o\u0027rnatilgan joyidan kuchga kiradi?",
-                                    "options":  [
-                                                    "F1. «A» va «Б»",
-                                                    "F2. Hammasi"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 1-ilova: 3.24 yo\u0027l belgisi belgi o\u0027rnatilgan joydan keyingi eng yaqin chorrahagacha, chorrahasi bo\u0027lmagan aholi punktlarida aholi yashaydigan hududning oxirigacha ta\u0027sir qiladi (“B”). Belgining ta\u0027sir doirasi 7.2.1 qo\u0027shimcha axborot belgisi bilan aniqlashtirilishi mumkin (“A”). Bunda belgining tasir doirasi belgi o\u0027rnatilgan joydan 100 m gacha davom yetadi. (“V”) belgi ostidagi 7.1.1 «Ob\u0027ektgacha bo\u0027lgan masofa» qo\u0027shimcha axborot belgisi belgi oʻrnatilgan joydan tasir doirasi kuchga kiradigan joygacha boʻlgan masofani bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Требования каких знаков из указанных вступают в силу непосредственно в том месте, где они установлены?",
-                                    "options":  [
-                                                    "F1. «A» va «Б»",
-                                                    "F2. Всех"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Приложение №1 к ПДД: Действие запрещающего знака 3.24 «Ограничение максимальной скорости» распространяется от места установки до ближайшего перекрёстка, а при отсутствии перекрёстка - до конца населённого пункта («Б»). Зона действия может ограничиваться, например, табличкой 7.2.1 «Зона действия» («А»). Знак действует 100 м от его места установки. Табличка 7.1.1 под знаком («В») «Расстояние до объекта» указывает расстояние от знака до места начала его действия. («Дорожные знаки»)."
-                                },
-                         "uzk":  {
-                                     "text":  "Кўрсатилган белгилардан қайсиларининг талаби бевосита ўрнатилган жойидан кучга киради?",
-                                     "options":  [
-                                                     "F1. «A» ва «Б»",
-                                                     "F2. Ҳаммаси"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 1-илова: 3.24 йўл белгиси белги ўрнатилган жойдан кейинги энг яқин чорраҳагача, чорраҳаси бўлмаган аҳоли пунктларида аҳоли яшайдиган ҳудуднинг охиригача таъсир қилади (\"Б\"). Белгининг таъсир доираси 7.2.1 қўшимча ахборот белгиси билан аниқлаштирилиши мумкин (\"А\"). Бунда белгининг тасир доираси белги ўрнатилган жойдан 100 мгача давом етади. (“B”) белги остидаги 7.1.1 «Объектгача бўлган масофа қўшимча ахборот белгиси белги ўрнатилган жойдан тасир доираси кучга кирадиган жойгача бўлган масофани билдиради."
-                                 }
-                     }
+{
+    "questionId": 995,
+    "image": "data/images/q0995.webp",
+    "translations": {
+        "uz": {
+            "text": "Ko'rsatilgan belgilardan qaysilarining talabi bevosita o'rnatilgan joyidan kuchga kiradi?",
+            "options": [
+                "F1. «A» va «Б»",
+                "F2. Hammasi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilova: 3.24 yo'l belgisi belgi o'rnatilgan joydan keyingi eng yaqin chorrahagacha, chorrahasi bo'lmagan aholi punktlarida aholi yashaydigan hududning oxirigacha ta'sir qiladi (“B”). Belgining ta'sir doirasi 7.2.1 qo'shimcha axborot belgisi bilan aniqlashtirilishi mumkin (“A”). Bunda belgining tasir doirasi belgi o'rnatilgan joydan 100 m gacha davom yetadi. (“V”) belgi ostidagi 7.1.1 «Ob'ektgacha bo'lgan masofa» qo'shimcha axborot belgisi belgi oʻrnatilgan joydan tasir doirasi kuchga kiradigan joygacha boʻlgan masofani bildiradi."
+        },
+        "ru": {
+            "text": "Требования каких знаков из указанных вступают в силу непосредственно в том месте, где они установлены?",
+            "options": [
+                "F1. «A» va «Б»",
+                "F2. Всех"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Приложение №1 к ПДД: Действие запрещающего знака 3.24 «Ограничение максимальной скорости» распространяется от места установки до ближайшего перекрёстка, а при отсутствии перекрёстка - до конца населённого пункта («Б»). Зона действия может ограничиваться, например, табличкой 7.2.1 «Зона действия» («А»). Знак действует 100 м от его места установки. Табличка 7.1.1 под знаком («В») «Расстояние до объекта» указывает расстояние от знака до места начала его действия. («Дорожные знаки»)."
+        },
+        "uzk": {
+            "text": "Кўрсатилган белгилардан қайсиларининг талаби бевосита ўрнатилган жойидан кучга киради?",
+            "options": [
+                "F1. «A» ва «Б»",
+                "F2. Ҳаммаси"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-илова: 3.24 йўл белгиси белги ўрнатилган жойдан кейинги энг яқин чорраҳагача, чорраҳаси бўлмаган аҳоли пунктларида аҳоли яшайдиган ҳудуднинг охиригача таъсир қилади (\"Б\"). Белгининг таъсир доираси 7.2.1 қўшимча ахборот белгиси билан аниқлаштирилиши мумкин (\"А\"). Бунда белгининг тасир доираси белги ўрнатилган жойдан 100 мгача давом етади. (“B”) белги остидаги 7.1.1 «Объектгача бўлган масофа қўшимча ахборот белгиси белги ўрнатилган жойдан тасир доираси кучга кирадиган жойгача бўлган масофани билдиради."
+        }
+    }
 }

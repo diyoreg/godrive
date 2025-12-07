@@ -1,42 +1,42 @@
-﻿{
-    "questionId":  57,
-    "image":  "data/images/q0057.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Tirkamali yengil avtomobillarga yo\u0027lning shu yo\u0027l belgisi o\u0027rnatilgan qismida qanday eng katta tezlik bilan harakatlanishga ruxsat etiladi?",
-                                    "options":  [
-                                                    "F1. 60 km/s",
-                                                    "F2. 70 km/s",
-                                                    "F3. 80 km/s",
-                                                    "F4. 100 km/s",
-                                                    "F5. 110 km/s"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 11-bobi 79-bandining uchinchi xatboshisiga asosan: Aholi punktlaridan tashqarida:\nyengil avtomobillarga va ruxsat etilgan to\u0027liq vazni 3,5 tonnadan oshmaydigan yuk avtomobillariga tezlikni soatiga 100 kilometrdan oshirmasdan;\nshaharlararo qatnaydigan avtobuslarga va mikroavtobuslarga tezlikni soatiga 90 kilometrdan oshirmasdan;\nboshqa avtobuslar, tirkamali yengil avtomobillar, mototsikllar, elektromototsikllar ruxsat etilgan to\u0027liq vazni 3,5 tonnadan ortiq bo\u0027lgan yuk avtomobillariga tezlikni soatiga 80 kilometrdan oshirmasdan;\ntirkamali yuk avtomobillariga tezlikni soatiga 70 kilometrdan oshirmasdan harakatlanish ruxsat etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "С какой максимальной скоростью разрешается движение легковых автомобилей с прицепом на участках дорог, обозначенных таким дорожным знаком?",
-                                    "options":  [
-                                                    "F1. 60 км/ч",
-                                                    "F2. 70 км/ч",
-                                                    "F3. 80 км/ч",
-                                                    "F4. 100 км/ч",
-                                                    "F5. 110 км/ч"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Информационно-указательный знак 5.24 \"Начало населенного пункта\". Наименование и начало населенного пункта, в котором на данной дороге не действуют требования Правил дорожного движения, устанавливающие порядок движения в населенных пунктах.\nПункта 79 главы 11 ПДД, гласит: Вне населенных пунктов разрешается движение: - легковым, а также грузовым автомобилям с разрешенной максимальной массой не более 3,5 т со скоростью не более 100 км/ч;\n- междугородним автобусам и микроавтобусам - не более 90 км/ч;\n- другим автобусам, легковым автомобилям при буксировке прицепа, мотоциклам, электромотоциклам, грузовым автомобилям с разрешенной максимальной массой более 3,5 т - не более 80 км/ч;\n- грузовым автомобилям при буксировке прицепа - не более 70 км/час."
-                                },
-                         "uzk":  {
-                                     "text":  "Тиркамали енгил автомобилларга йўлнинг шу йўл белгиси ўрнатилган қисмида қандай энг катта тезлик билан ҳаракатланишга рухсат этилади?",
-                                     "options":  [
-                                                     "F1. 60 км/с",
-                                                     "F2. 70 км/с",
-                                                     "F3. 80 км/с",
-                                                     "F4. 100 км/с",
-                                                     "F5. 110 км/с"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 11-боби 79-бандининг учинчи хатбошисига асосан: Аҳоли пунктларидан ташқарида:\nенгил автомобилларга ва рухсат этилган тўлиқ вазни 3,5 тоннадан ошмайдиган юк автомобилларига тезликни соатига 100 километрдан оширмасдан;\nшаҳарлараро қатнайдиган автобусларга ва микроавтобусларга тезликни соатига 90 километрдан оширмасдан;\nбошқа автобуслар, тиркамали енгил автомобиллар, мотоцикллар, электромотоцикллар рухсат этилган тўлиқ вазни 3,5 тоннадан ортиқ бўлган юк автомобилларига тезликни соатига 80 километрдан оширмасдан;\nтиркамали юк автомобилларига тезликни соатига 70 километрдан оширмасдан ҳаракатланиш рухсат этилади."
-                                 }
-                     }
+{
+    "questionId": 57,
+    "image": "data/images/q0057.webp",
+    "translations": {
+        "uz": {
+            "text": "Tirkamali yengil avtomobillarga yo'lning shu yo'l belgisi o'rnatilgan qismida qanday eng katta tezlik bilan harakatlanishga ruxsat etiladi?",
+            "options": [
+                "F1. 60 km/s",
+                "F2. 70 km/s",
+                "F3. 80 km/s",
+                "F4. 100 km/s",
+                "F5. 110 km/s"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 11-bobi 79-bandining uchinchi xatboshisiga asosan: Aholi punktlaridan tashqarida:\nyengil avtomobillarga va ruxsat etilgan to'liq vazni 3,5 tonnadan oshmaydigan yuk avtomobillariga tezlikni soatiga 100 kilometrdan oshirmasdan;\nshaharlararo qatnaydigan avtobuslarga va mikroavtobuslarga tezlikni soatiga 90 kilometrdan oshirmasdan;\nboshqa avtobuslar, tirkamali yengil avtomobillar, mototsikllar, elektromototsikllar ruxsat etilgan to'liq vazni 3,5 tonnadan ortiq bo'lgan yuk avtomobillariga tezlikni soatiga 80 kilometrdan oshirmasdan;\ntirkamali yuk avtomobillariga tezlikni soatiga 70 kilometrdan oshirmasdan harakatlanish ruxsat etiladi."
+        },
+        "ru": {
+            "text": "С какой максимальной скоростью разрешается движение легковых автомобилей с прицепом на участках дорог, обозначенных таким дорожным знаком?",
+            "options": [
+                "F1. 60 км/ч",
+                "F2. 70 км/ч",
+                "F3. 80 км/ч",
+                "F4. 100 км/ч",
+                "F5. 110 км/ч"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Информационно-указательный знак 5.24 \"Начало населенного пункта\". Наименование и начало населенного пункта, в котором на данной дороге не действуют требования Правил дорожного движения, устанавливающие порядок движения в населенных пунктах.\nПункта 79 главы 11 ПДД, гласит: Вне населенных пунктов разрешается движение: - легковым, а также грузовым автомобилям с разрешенной максимальной массой не более 3,5 т со скоростью не более 100 км/ч;\n- междугородним автобусам и микроавтобусам - не более 90 км/ч;\n- другим автобусам, легковым автомобилям при буксировке прицепа, мотоциклам, электромотоциклам, грузовым автомобилям с разрешенной максимальной массой более 3,5 т - не более 80 км/ч;\n- грузовым автомобилям при буксировке прицепа - не более 70 км/час."
+        },
+        "uzk": {
+            "text": "Тиркамали енгил автомобилларга йўлнинг шу йўл белгиси ўрнатилган қисмида қандай энг катта тезлик билан ҳаракатланишга рухсат этилади?",
+            "options": [
+                "F1. 60 км/с",
+                "F2. 70 км/с",
+                "F3. 80 км/с",
+                "F4. 100 км/с",
+                "F5. 110 км/с"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 11-боби 79-бандининг учинчи хатбошисига асосан: Аҳоли пунктларидан ташқарида:\nенгил автомобилларга ва рухсат этилган тўлиқ вазни 3,5 тоннадан ошмайдиган юк автомобилларига тезликни соатига 100 километрдан оширмасдан;\nшаҳарлараро қатнайдиган автобусларга ва микроавтобусларга тезликни соатига 90 километрдан оширмасдан;\nбошқа автобуслар, тиркамали енгил автомобиллар, мотоцикллар, электромотоцикллар рухсат этилган тўлиқ вазни 3,5 тоннадан ортиқ бўлган юк автомобилларига тезликни соатига 80 километрдан оширмасдан;\nтиркамали юк автомобилларига тезликни соатига 70 километрдан оширмасдан ҳаракатланиш рухсат этилади."
+        }
+    }
 }

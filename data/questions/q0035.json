@@ -1,39 +1,42 @@
-﻿{
-    "questionId":  35,
-    "image":  "data/images/q0035.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi transport vositasiga harakatlanish ruxsat etiladi?",
-                                    "options":  [
-                                                    "F1. Mototsiklga",
-                                                    "F2. Yuk avtomobiliga",
-                                                    "F3. Avtobusga",
-                                                    "F4. Yengil avtomobilga"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "IzohYHQ 7-bobi 38-bandi: Tartibga soluvchining ishoralari quyidagi ma’noni bildiradi:\nQo\u0027llari yon tomonga uzatilganda yoki tushirilganda:\nchap va o\u0027ng yon tomonidan tramvayga to\u0027g\u0027riga, relssiz transport vositalariga to\u0027g\u0027riga va o\u0027ngga harakatlanishga, piyodalarga qatnov qismini kesib o\u0027tishga ruxsat beriladi;\nold va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi.\no\u0027ng qo\u0027li oldinga uzatilganda:\nchap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo\u0027nalishlarda;\noldi tomonidan barcha transport vositalariga faqat o\u0027ngga harakatlanishga ruxsat beriladi;\norqa tomonidan va o\u0027ng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi;\npiyodalarga tartibga soluvchining orqa tomonida qatnov qismini kesib o\u0027tishga ruxsat etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "Каким транспортным средствам разрешено движение?",
-                                    "options":  [
-                                                    "F1. Мотоцикл",
-                                                    "F2. Грузовой автомобиль",
-                                                    "F3. Автобус",
-                                                    "F4. Легковой автомобиль"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Пункта 38 главы 7 ПДД, гласит: Сигналы регулировщика имеют следующие значения: руки вытянуты в стороны или опущены: со стороны левого и правого бока — разрешено движение трамваю прямо, безрельсовым транспортным средствам — прямо и направо, пешеходам разрешено переходить проезжую часть;\nсо стороны груди и спины — движение всех транспортных средств и пешеходов запрещено;\nправая рука вытянута вперед: со стороны левого бока — разрешено движение трамваю налево, безрельсовым транспортным средствам — во всех направлениях;\nсо стороны груди — всем транспортным средствам разрешено движение только направо;\nсо стороны правого бока и спины — движение всех транспортных средств запрещено;\nпешеходам разрешено переходить проезжую часть за спиной регулировщика;\nВ данном случае автобус и мотоцикл находятся со стороны груди и спины регулировщика, значит движение им запрещено. Грузовой автомобиль поворачивает налево, что также запрещено (только прямо и направо). Соответственно, движение разрешено только легковому автомобилю, т.к. он движется прямо со стороны правого бока регулировщика."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси транспорт воситасига ҳаракатланиш рухсат этилади?",
-                                     "options":  [
-                                                     "F1. Мотоциклга",
-                                                     "F2. Юк автомобилига",
-                                                     "F3. Автобусга",
-                                                     "F4. Енгил автомобилга"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ИзоҳЙҲҚ 7-боби 38-банди: Тартибга солувчининг ишоралари қуйидаги маънони билдиради:\nҚўллари ён томонга узатилганда ёки туширилганда:\nчап ва ўнг ён томонидан трамвайга тўғрига, рельссиз транспорт воситаларига тўғрига ва ўнгга ҳаракатланишга, пиёдаларга қатнов қисмини кесиб ўтишга рухсат берилади;\nолд ва орқа томонидан барча транспорт воситалари ва пиёдаларнинг ҳаракатланиши тақиқланади.\nЎнг қўли олдинга узатилганда:\nчап ёнидан трамвайга чапга, рельссиз транспорт воситаларига барча йўналишларда;\nолди томонидан барча транспорт воситаларига фақат ўнгга ҳаракатланишга рухсат берилади;\nорқа томонидан ва ўнг ёнидан барча транспорт воситаларининг ҳаракатланиши тақиқланади;\nпиёдаларга тартибга солувчининг орқа томонида қатнов қисмини кесиб ўтишга рухсат этилади."
-                                 }
-                     }
+{
+    "questionId": 35,
+    "image": "data/images/q0035.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi transport vositasiga harakatlanish ruxsat etiladi?",
+            "options": [
+                "F1. Mototsiklga",
+                "F2. Yuk avtomobiliga",
+                "F3. Avtobusga",
+                "F4. Yengil avtomobilga",
+                "F5. Yengil va yuk avtomobillariga"
+            ],
+            "correctAnswer": 4,
+            "explanation": "IzohYHQ 7-bobi 38-bandi: Tartibga soluvchining ishoralari quyidagi ma’noni bildiradi:\nQo'llari yon tomonga uzatilganda yoki tushirilganda:\nchap va o'ng yon tomonidan tramvayga to'g'riga, relssiz transport vositalariga to'g'riga va o'ngga harakatlanishga, piyodalarga qatnov qismini kesib o'tishga ruxsat beriladi;\nold va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi.\no'ng qo'li oldinga uzatilganda:\nchap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo'nalishlarda;\noldi tomonidan barcha transport vositalariga faqat o'ngga harakatlanishga ruxsat beriladi;\norqa tomonidan va o'ng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi;\npiyodalarga tartibga soluvchining orqa tomonida qatnov qismini kesib o'tishga ruxsat etiladi."
+        },
+        "ru": {
+            "text": "Каким транспортным средствам разрешено движение?",
+            "options": [
+                "F1. Мотоцикл",
+                "F2. Грузовой автомобиль",
+                "F3. Автобус",
+                "F4. Легковой автомобиль",
+                "F5. Легковой и грузовой автомобили"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 38 главы 7 ПДД, гласит: Сигналы регулировщика имеют следующие значения: руки вытянуты в стороны или опущены: со стороны левого и правого бока — разрешено движение трамваю прямо, безрельсовым транспортным средствам — прямо и направо, пешеходам разрешено переходить проезжую часть;\nсо стороны груди и спины — движение всех транспортных средств и пешеходов запрещено;\nправая рука вытянута вперед: со стороны левого бока — разрешено движение трамваю налево, безрельсовым транспортным средствам — во всех направлениях;\nсо стороны груди — всем транспортным средствам разрешено движение только направо;\nсо стороны правого бока и спины — движение всех транспортных средств запрещено;\nпешеходам разрешено переходить проезжую часть за спиной регулировщика;\nВ данном случае автобус и мотоцикл находятся со стороны груди и спины регулировщика, значит движение им запрещено. Грузовой автомобиль поворачивает налево, что также запрещено (только прямо и направо). Соответственно, движение разрешено только легковому автомобилю, т.к. он движется прямо со стороны правого бока регулировщика."
+        },
+        "uzk": {
+            "text": "Қайси транспорт воситасига ҳаракатланиш рухсат этилади?",
+            "options": [
+                "F1. Мотоциклга",
+                "F2. Юк автомобилига",
+                "F3. Автобусга",
+                "F4. Енгил автомобилга",
+                "F5. Енгил ва юк автомобилларига"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ИзоҳЙҲҚ 7-боби 38-банди: Тартибга солувчининг ишоралари қуйидаги маънони билдиради:\nҚўллари ён томонга узатилганда ёки туширилганда:\nчап ва ўнг ён томонидан трамвайга тўғрига, рельссиз транспорт воситаларига тўғрига ва ўнгга ҳаракатланишга, пиёдаларга қатнов қисмини кесиб ўтишга рухсат берилади;\nолд ва орқа томонидан барча транспорт воситалари ва пиёдаларнинг ҳаракатланиши тақиқланади.\nЎнг қўли олдинга узатилганда:\nчап ёнидан трамвайга чапга, рельссиз транспорт воситаларига барча йўналишларда;\nолди томонидан барча транспорт воситаларига фақат ўнгга ҳаракатланишга рухсат берилади;\nорқа томонидан ва ўнг ёнидан барча транспорт воситаларининг ҳаракатланиши тақиқланади;\nпиёдаларга тартибга солувчининг орқа томонида қатнов қисмини кесиб ўтишга рухсат этилади."
+        }
+    }
 }

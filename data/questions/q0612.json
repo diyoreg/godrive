@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  612,
-    "image":  "data/images/q0612.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Belgilardan qaysi birining belgilangan yo\u0027nalishdagi transport vositalariga daxli yo\u0027q?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining o\u0027ttiz birinchi va o\u0027ttiz sakkizinchi xatboshlariga asosan: 3.27. «To\u0027xtash taqiqlangan». Transport vositalarining to\u0027xtashi va to\u0027xtab turishi taqiqlanishini bildiradi. 3.27 belgisiga amal qilish уо па 551 transport vositalariga ta\u0027sir qilmaydi."
-                                },
-                         "ru":  {
-                                    "text":  "Действие какого из знаков не распространяется на маршрутные транспортные средства?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Запрещающий знак 3.27 \"Остановка запрещена\". Запрещается остановка и стоянка транспортных средств."
-                                },
-                         "uzk":  {
-                                     "text":  "Белгилардан қайси бирининг белгиланган йўналишдаги транспорт воситаларига дахли йўқ?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўттиз биринчи ва ўттиз саккизинчи хатбошларига асосан: 3.27. «Тухташ тақиқланган». Транспорт воситаларининг тўхташи ва тўхтаб туриши тақиқланишини билдиради. 3.27 белгисига амал қилиш йўналишли транспорт воситаларига таъсир қилмайди."
-                                 }
-                     }
+{
+    "questionId": 612,
+    "image": "data/images/q0612.webp",
+    "translations": {
+        "uz": {
+            "text": "Belgilardan qaysi birining belgilangan yo'nalishdagi transport vositalariga daxli yo'q?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 1-ilovasi 3-bo'limining o'ttiz birinchi va o'ttiz sakkizinchi xatboshlariga asosan: 3.27. «To'xtash taqiqlangan». Transport vositalarining to'xtashi va to'xtab turishi taqiqlanishini bildiradi. 3.27 belgisiga amal qilish уо па 551 transport vositalariga ta'sir qilmaydi."
+        },
+        "ru": {
+            "text": "Действие какого из знаков не распространяется на маршрутные транспортные средства?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Запрещающий знак 3.27 \"Остановка запрещена\". Запрещается остановка и стоянка транспортных средств."
+        },
+        "uzk": {
+            "text": "Белгилардан қайси бирининг белгиланган йўналишдаги транспорт воситаларига дахли йўқ?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг ўттиз биринчи ва ўттиз саккизинчи хатбошларига асосан: 3.27. «Тухташ тақиқланган». Транспорт воситаларининг тўхташи ва тўхтаб туриши тақиқланишини билдиради. 3.27 белгисига амал қилиш йўналишли транспорт воситаларига таъсир қилмайди."
+        }
+    }
 }

@@ -1,0 +1,36 @@
+{
+    "questionId": 135,
+    "image": "data/images/q0135.webp",
+    "translations": {
+        "uz": {
+            "text": "Avtomobillar chorrahadan quyidagi tartibda o'tadilar:",
+            "options": [
+                "F1. Ko'k, yashil, qizil",
+                "F2. Ko'k, yashil bilan bir vaqtda qizil",
+                "F3. Yashil, qizil, ko'k bilan bir vaqtda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng ahamiyatga ega boʻlmagan yo'llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yoʻldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo'nalishidan qat'i nazar, yoʻl berishi kerak.\nYHQ 16-bobi 106-bandiga asosan: Asosiy yoʻlning yoʻnalishi chorrahada o'zgarganda asosiy yo'lda harakatlanayotgan haydovchilar oʻzaro teng ahamiyatli yo'llar chorrahasidan o'tish qoidasiga amal qilishlari kerak. Ikkinchi darajali yo'llarda harakatlanayotgan haydovchilar ham o'zaro shu qoidaga amal qilishlari kerak."
+        },
+        "ru": {
+            "text": "Автомобили проедут перекресток в следующем порядке:",
+            "options": [
+                "F1. Синий, зеленый, красный",
+                "F2. Синий одновременно с зеленым, красный",
+                "F3. Зеленый, красный одновременно с синим"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Знак приоритета 2.1 \"Главная дорога\". Начало дороги, на которой предоставлено право на первоочередное движение перед транспортными средствами, движущимися по второстепенной дороге через нерегулируемые перекрестки. Знак дополнительной информации 7.13 \"Направление главной дороги\".\nВ данном случае зеленый автомобиль движется по главной дороге, поэтому имеет приоритет перед остальными, соответственно, зеленый автомобиль проедет перекресток первым. Красный и синий автомобили проедут перекресток одновременно, т.к. не являются помехой друг для друга."
+        },
+        "uzk": {
+            "text": "Автомобиллар чорраҳадан қуйидаги тартибда ўтадилар",
+            "options": [
+                "F1. Кўк, яшил, қизил",
+                "F2. Кўк, яшил билан бир вақтда қизил",
+                "F3. Яшил, қизил, кўк билан бир вақтда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 16-боби 104-бандининг биринчи хатбошисига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак.\nЙҲҚ 16-боби 106-бандига асосан: Асосий йўлнинг йўналиши чорраҳада ўзгарганда асосий йўлда ҳаракатланаётган ҳайдовчилар ўзаро тенг аҳамиятли йўллар чорраҳасидан ўтиш қоидасига амал қилишлари керак. Иккинчи даражали йўлларда ҳаракатланаётган ҳайдовчилар ҳам ўзаро шу қоидага амал қилишлари керак."
+        }
+    }
+}

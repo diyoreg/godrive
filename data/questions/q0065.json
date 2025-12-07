@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  65,
-    "image":  "data/images/q0065.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Текст вопроса не найден",
-                                    "options":  [
-                                                    "F1. Mototsikl, tramvay va avtomobil",
-                                                    "F2. Tramvay, mototsikl, avtomobil",
-                                                    "F3. Tramvay va avtomobil, mototsikl"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 16-bobi 104-bandiga asosan: Teng ahamiyatga ega bo\u0027lmagan yo\u0027llar kesishgan chorrahada ikkinchi darajali yo\u0027ldan harakatlanayotgan transport vositasining haydovchisi asosiy yo\u0027ldan yaqinlashayotgan transport vositalariga ularning keyingi harakatlanish yo\u0027nalishidan qat’iy nazar, yo\u0027l berishi kerak.\nBunday chorrahalarda tramvay harakatlanish yo\u0027nalishidan qat’iy nazar, teng ahamiyatli yo\u0027lda bir yo\u0027nalishda yoki qarama-qarshi yo\u0027nalishda harakatlanayotgan relssiz transport vositalariga nisbatan imtiyozga ega."
-                                },
-                         "ru":  {
-                                    "text":  "Текст вопроса не найден",
-                                    "options":  [
-                                                    "F1. Мотоцикл, трамвай и автомобиль",
-                                                    "F2. Трамвай, мотоцикл, автомобиль",
-                                                    "F3. Трамвай и автомобиль, мотоцикл"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 104 главы 16 ПДД, гласит:  На перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения. На таких перекрестках трамвай имеет приоритет перед безрельсовыми транспортными средствами, движущимися в попутном или встречном направлении по равнозначной дороге, независимо от направления его движения."
-                                },
-                         "uzk":  {
-                                     "text":  "Текст вопроса не найден",
-                                     "options":  [
-                                                     "F1. Мотоцикл, трамвай ва автомобиль",
-                                                     "F2. Трамвай, мотоцикл, автомобиль",
-                                                     "F3. Трамвай ва автомобиль, мотоцикл"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 16-боби 104-бандига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада иккинчи даражали йўлдан ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига уларнинг кейинги ҳаракатланиш йўналишидан қатъий назар, йўл бериши керак.\nБундай чорраҳаларда трамвай ҳаракатланиш йўналишидан қатъий назар, тенг аҳамиятли йўлда бир йўналишда ёки қарама-қарши йўналишда ҳаракатланаётган рельссиз транспорт воситаларига нисбатан имтиёзга эга."
-                                 }
-                     }
+{
+    "questionId": 65,
+    "image": "data/images/q0065.webp",
+    "translations": {
+        "uz": {
+            "text": "Transport vositalari chorrahadan quyidagi tartibda o'tadilar:",
+            "options": [
+                "F1. Mototsikl, tramvay va avtomobil",
+                "F2. Tramvay, mototsikl, avtomobil",
+                "F3. Tramvay va avtomobil, mototsikl"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 16-bobi 104-bandiga asosan: Teng ahamiyatga ega bo'lmagan yo'llar kesishgan chorrahada ikkinchi darajali yo'ldan harakatlanayotgan transport vositasining haydovchisi asosiy yo'ldan yaqinlashayotgan transport vositalariga ularning keyingi harakatlanish yo'nalishidan qat’iy nazar, yo'l berishi kerak.\nBunday chorrahalarda tramvay harakatlanish yo'nalishidan qat’iy nazar, teng ahamiyatli yo'lda bir yo'nalishda yoki qarama-qarshi yo'nalishda harakatlanayotgan relssiz transport vositalariga nisbatan imtiyozga ega."
+        },
+        "ru": {
+            "text": "Транспортные средства проедут перекресток в следующем порядке:",
+            "options": [
+                "F1. Мотоцикл, трамвай и автомобиль",
+                "F2. Трамвай, мотоцикл, автомобиль",
+                "F3. Трамвай и автомобиль, мотоцикл"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 104 главы 16 ПДД, гласит:  На перекрестках неравнозначных дорог водитель транспортного средства, движущегося по второстепенной дороге, должен уступить дорогу транспортному средству, движущемуся по главной дороге, независимо от направления их дальнейшего движения. На таких перекрестках трамвай имеет приоритет перед безрельсовыми транспортными средствами, движущимися в попутном или встречном направлении по равнозначной дороге, независимо от направления его движения."
+        },
+        "uzk": {
+            "text": "Транспорт воситалари чорраҳадан қуйидаги тартибда ўтадилар:",
+            "options": [
+                "F1. Мотоцикл, трамвай ва автомобиль",
+                "F2. Трамвай, мотоцикл, автомобиль",
+                "F3. Трамвай ва автомобиль, мотоцикл"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 16-боби 104-бандига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада иккинчи даражали йўлдан ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига уларнинг кейинги ҳаракатланиш йўналишидан қатъий назар, йўл бериши керак.\nБундай чорраҳаларда трамвай ҳаракатланиш йўналишидан қатъий назар, тенг аҳамиятли йўлда бир йўналишда ёки қарама-қарши йўналишда ҳаракатланаётган рельссиз транспорт воситаларига нисбатан имтиёзга эга."
+        }
+    }
 }

@@ -1,42 +1,42 @@
-﻿{
-    "questionId":  1048,
-    "image":  "data/images/q1048.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi rasmda piyoda(lar) yo\u0027lni qoidani buzgan holda kesib o\u0027tmoqda?",
-                                    "options":  [
-                                                    "F1. Uchinchi va to\u0027rtinchi rasmlarda",
-                                                    "F2. Ikkinchi va uchinchi rasmlarda",
-                                                    "F3. Ikkinchi rasmda",
-                                                    "F4. Uchinchi rasmda",
-                                                    "F5. Ikkinchi, uchinchi va to\u0027rtinchi rasmlarda"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "YHQ 4-bobi 17-bandi: Piyodalar yo\u0027lning qatnov qismini piyodalar o\u0027tish joylaridan, shuningdek, yer osti va yer usti o\u0027tish joylaridan, ular bo\u0027lmaganda esa chorrahalarda trotuar chiziqlari yoki yo\u0027l yoqasi bo\u0027ylab kesib o\u0027tishlari kerak.\nPiyodalarga ko\u0027rinadigan oraliqda o\u0027tish joyi yoki chorraha bo\u0027lmasa, ajratuvchi mintaqasiz va to\u0027siqsiz yo\u0027llardan yo\u0027lning ikki tomoni yaxshi ko\u0027rinadigan joyidan, qatnov qismining chetiga nisbatan to\u0027g\u0027ri burchak ostida kesib o\u0027tish ruxsat etiladi."
-                                },
-                         "ru":  {
-                                    "text":  "На каком изображении пешеход(ы) переходят дорогу с нарушением правил?",
-                                    "options":  [
-                                                    "F1. На третьем и четвёртом изображениях",
-                                                    "F2. На втором и третьем изображениях",
-                                                    "F3. На втором изображении",
-                                                    "F4. На третьем изображении",
-                                                    "F5. На втором, третьем и четвёртом изображениях"
-                                                ],
-                                    "correctAnswer":  4,
-                                    "explanation":  "Пункта 17 главы 4 ПДД, гласит: Пешеходы должны пересекать проезжую часть дороги по пешеходным переходам, а также по подземным и надземным, а при их отсутствии — на перекрестках — по линии тротуаров или обочин.\nПри отсутствии в зоне видимости перехода или перекрестка разрешается переходить дорогу под прямым углом к краю проезжей части на участках без разделительной полосы и ограждений там, где она хорошо просматривается в обе стороны."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси расмда пиёда(лар) йўлни қоидани бузган ҳолда кесиб ўтмоқда?",
-                                     "options":  [
-                                                     "F1. Учинчи ва тўртинчи расмларда",
-                                                     "F2. Иккинчи ва учинчи расмларда",
-                                                     "F3. Иккинчи расмда",
-                                                     "F4. Учинчи расмда",
-                                                     "F5. Иккинчи, учинчи ва тўртинчи расмларда"
-                                                 ],
-                                     "correctAnswer":  4,
-                                     "explanation":  "ЙҲҚ 4-боби 17-банди: Пиёдалар йўлнинг қатнов қисмини пиёдалар ўтиш жойларидан, шунингдек, ер ости ва ер усти ўтиш жойларидан, улар бўлмаганда эса чорраҳаларда тротуар чизиқлари ёки йўл ёқаси бўйлаб кесиб ўтишлари керак.\nПиёдаларга кўринадиган оралиқда ўтиш жойи ёки чорраҳа бўлмаса, ажратувчи минтақасиз ва тўсиқсиз йўллардан йўлнинг икки томони яхши кўринадиган жойидан, қатнов қисмининг четига нисбатан тўғри бурчак остида кесиб ўтиш рухсат этилади."
-                                 }
-                     }
+{
+    "questionId": 1048,
+    "image": "data/images/q1048.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi rasmda piyoda(lar) yo'lni qoidani buzgan holda kesib o'tmoqda?",
+            "options": [
+                "F1. Uchinchi va to'rtinchi rasmlarda",
+                "F2. Ikkinchi va uchinchi rasmlarda",
+                "F3. Ikkinchi rasmda",
+                "F4. Uchinchi rasmda",
+                "F5. Ikkinchi, uchinchi va to'rtinchi rasmlarda"
+            ],
+            "correctAnswer": 4,
+            "explanation": "YHQ 4-bobi 17-bandi: Piyodalar yo'lning qatnov qismini piyodalar o'tish joylaridan, shuningdek, yer osti va yer usti o'tish joylaridan, ular bo'lmaganda esa chorrahalarda trotuar chiziqlari yoki yo'l yoqasi bo'ylab kesib o'tishlari kerak.\nPiyodalarga ko'rinadigan oraliqda o'tish joyi yoki chorraha bo'lmasa, ajratuvchi mintaqasiz va to'siqsiz yo'llardan yo'lning ikki tomoni yaxshi ko'rinadigan joyidan, qatnov qismining chetiga nisbatan to'g'ri burchak ostida kesib o'tish ruxsat etiladi."
+        },
+        "ru": {
+            "text": "На каком изображении пешеход(ы) переходят дорогу с нарушением правил?",
+            "options": [
+                "F1. На третьем и четвёртом изображениях",
+                "F2. На втором и третьем изображениях",
+                "F3. На втором изображении",
+                "F4. На третьем изображении",
+                "F5. На втором, третьем и четвёртом изображениях"
+            ],
+            "correctAnswer": 4,
+            "explanation": "Пункта 17 главы 4 ПДД, гласит: Пешеходы должны пересекать проезжую часть дороги по пешеходным переходам, а также по подземным и надземным, а при их отсутствии — на перекрестках — по линии тротуаров или обочин.\nПри отсутствии в зоне видимости перехода или перекрестка разрешается переходить дорогу под прямым углом к краю проезжей части на участках без разделительной полосы и ограждений там, где она хорошо просматривается в обе стороны."
+        },
+        "uzk": {
+            "text": "Қайси расмда пиёда(лар) йўлни қоидани бузган ҳолда кесиб ўтмоқда?",
+            "options": [
+                "F1. Учинчи ва тўртинчи расмларда",
+                "F2. Иккинчи ва учинчи расмларда",
+                "F3. Иккинчи расмда",
+                "F4. Учинчи расмда",
+                "F5. Иккинчи, учинчи ва тўртинчи расмларда"
+            ],
+            "correctAnswer": 4,
+            "explanation": "ЙҲҚ 4-боби 17-банди: Пиёдалар йўлнинг қатнов қисмини пиёдалар ўтиш жойларидан, шунингдек, ер ости ва ер усти ўтиш жойларидан, улар бўлмаганда эса чорраҳаларда тротуар чизиқлари ёки йўл ёқаси бўйлаб кесиб ўтишлари керак.\nПиёдаларга кўринадиган оралиқда ўтиш жойи ёки чорраҳа бўлмаса, ажратувчи минтақасиз ва тўсиқсиз йўллардан йўлнинг икки томони яхши кўринадиган жойидан, қатнов қисмининг четига нисбатан тўғри бурчак остида кесиб ўтиш рухсат этилади."
+        }
+    }
 }

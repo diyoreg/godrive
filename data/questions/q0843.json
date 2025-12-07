@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  843,
-    "image":  "data/images/q0843.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ko\u0027rsatilgan qaysi belgi yo\u0027lning o\u0027ta sirpanchiq bo\u0027lgan qismini bildiradi?",
-                                    "options":  [
-                                                    "F1. Faqat «A»",
-                                                    "F2. «A» va «Б»",
-                                                    "F3. Faqat «B»"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ, 1.15. «Sirpanchiq yo\u0027l». Yo\u0027lning o\u0027ta sirpanchiq bo\u0027lgan qismini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой из показанных знаков указывает на очень скользкий участок дороги?",
-                                    "options":  [
-                                                    "F1. Только «А»",
-                                                    "F2. «А» и «Б»",
-                                                    "F3. Только «В»"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "ПДД, Знак 1.15. «Скользкая дорога». Участок дороги с повышенной скользкостью проезжей части."
-                                },
-                         "uzk":  {
-                                     "text":  "Кўрсатилган қайси белги йўлнинг ўта сирпанчиқ бўлган қисмини билдиради?",
-                                     "options":  [
-                                                     "F1. Фақат «A»",
-                                                     "F2. «A» ва «Б»",
-                                                     "F3. Фақат «В»"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ, 1.15. «Сирпанчиқ йўл». Йўлнинг ўта сирпанчиқ бўлган қисмини билдиради."
-                                 }
-                     }
+{
+    "questionId": 843,
+    "image": "data/images/q0843.webp",
+    "translations": {
+        "uz": {
+            "text": "Ko'rsatilgan qaysi belgi yo'lning o'ta sirpanchiq bo'lgan qismini bildiradi?",
+            "options": [
+                "F1. Faqat «A»",
+                "F2. «A» va «Б»",
+                "F3. Faqat «B»"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ, 1.15. «Sirpanchiq yo'l». Yo'lning o'ta sirpanchiq bo'lgan qismini bildiradi."
+        },
+        "ru": {
+            "text": "Какой из показанных знаков указывает на очень скользкий участок дороги?",
+            "options": [
+                "F1. Только «А»",
+                "F2. «А» и «Б»",
+                "F3. Только «В»"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ПДД, Знак 1.15. «Скользкая дорога». Участок дороги с повышенной скользкостью проезжей части."
+        },
+        "uzk": {
+            "text": "Кўрсатилган қайси белги йўлнинг ўта сирпанчиқ бўлган қисмини билдиради?",
+            "options": [
+                "F1. Фақат «A»",
+                "F2. «A» ва «Б»",
+                "F3. Фақат «В»"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ, 1.15. «Сирпанчиқ йўл». Йўлнинг ўта сирпанчиқ бўлган қисмини билдиради."
+        }
+    }
 }

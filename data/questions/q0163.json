@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  163,
-    "image":  "data/images/q0163.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi garbarit uzunligi belgisida ko\u0027rsatilganidan uzunroq bo\u0027lgan transport vositalarining harakatlanishini taqiqlaydi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining o\u0027n yettinchi xatboshisiga asosan: 3.15. «Cheklangan uzunlik». Gabarit uzunligi (yuk bilan yoki yuksiz) belgida ko\u0027rsatilganidan ortiq boʻlgan transport vositalari (transport vositalari tarkiblari)ning harakatlanishi taqiqlanishini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак запрещает движение транспортных средств, габаритная длина которых больше указанной на знаке?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Запрещающий знак 3.15 \"Ограничение длины\". Запрещается движение транспортных средств (составов транспортных средств), габаритная длина которых (с грузом или без груза) больше указанной на знаке."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги гарбарит узунлиги белгисида кўрсатилганидан узунроқ бўлган транспорт воситаларининг ҳаракатланишини тақиқлайди?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўн еттинчи хатбошисига асосан: 3.15. «Чекланган узунлик». Габарит узунлиги (юк билан ёки юксиз) белгида курсатилганидан ортик булган транспорт воситалари (транспорт воситалари таркиблари)нинг харакатланиши такикланишини билдиради."
-                                 }
-                     }
+{
+    "questionId": 163,
+    "image": "data/images/q0163.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi garbarit uzunligi belgisida ko'rsatilganidan uzunroq bo'lgan transport vositalarining harakatlanishini taqiqlaydi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 3-bo'limining o'n yettinchi xatboshisiga asosan: 3.15. «Cheklangan uzunlik». Gabarit uzunligi (yuk bilan yoki yuksiz) belgida ko'rsatilganidan ortiq boʻlgan transport vositalari (transport vositalari tarkiblari)ning harakatlanishi taqiqlanishini bildiradi."
+        },
+        "ru": {
+            "text": "Какой знак запрещает движение транспортных средств, габаритная длина которых больше указанной на знаке?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Запрещающий знак 3.15 \"Ограничение длины\". Запрещается движение транспортных средств (составов транспортных средств), габаритная длина которых (с грузом или без груза) больше указанной на знаке."
+        },
+        "uzk": {
+            "text": "Қайси белги гарбарит узунлиги белгисида кўрсатилганидан узунроқ бўлган транспорт воситаларининг ҳаракатланишини тақиқлайди?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг ўн еттинчи хатбошисига асосан: 3.15. «Чекланган узунлик». Габарит узунлиги (юк билан ёки юксиз) белгида курсатилганидан ортик булган транспорт воситалари (транспорт воситалари таркиблари)нинг харакатланиши такикланишини билдиради."
+        }
+    }
 }

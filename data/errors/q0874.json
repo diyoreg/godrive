@@ -1,0 +1,36 @@
+{
+    "questionId": 874,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Bevosita yo'lga tutashgan va transport vositalari o'tib ketishi uchun mo'ljallanmagan xudud (hovlilar, turar joy dahalari, avtomobil to'xtab turish joylari, yonilgi kuyish shoxobchalari, korxona va shunga o'xshashlari)",
+                "F2. Yo'lning relssiz transport vositalari harakati uchun mo'ljallangan qismi",
+                "F3. Yo'llarning o'zaro bir sathda kesishadigan, tutashadigan va ayriladigan joyi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilova Umumiy qoidalar: Yondosh hudud — bevosita yo'lga tutashgan va transport vositalari o'tib ketishi uchun mo'ljallanmagan hudud (hovlilar, turar joy dahalari, avtomobil to'xtab turish joylari, yonilg'i quyish shoxobchalari, korxona va shunga o'xshashlar)."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Территория, непосредственно прилегающая к дороге и не предназначенная для сквозного движения транспортных средств (дворы, жилые массивы, автостоянки, автозаправочные станции, предприятия и т. п.)",
+                "F2. Часть дороги, предназначенная для движения безрельсовых транспортных средств",
+                "F3. Место, где дороги пересекаются и разветвляются на одном уровне"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения: Прилегающая территория — территория, непосредственно прилегающая к дороге и не предназначенная для сквозного движения транспортных средств (дворы, жилые массивы, автостоянки, автозаправочные станции, предприятия и т. п.)."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Бевосита йўлга туташган ва транспорт воситалари ўтиб кетиши учун мулжалланган ҳудуд (ҳовлилар, турар жой даҳалари, автомобиль тўхтаб туриш жойлари, ёнилги куйиш шохобчалари, корхона ва шунга ўхшашлари)",
+                "F2. Йўлнинг рельссиз транспорт воситалари ҳаракати учун мўлжалланган қисми",
+                "F3. Йўлларнинг ўзаро бир сатҳда кесишадиган, туташадиган ва айриладиган жойи"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-илова Умумий қоидалар: Ёндош ҳудуд — бевосита йўлга туташган ва транспорт воситалари ўтиб кетиши учун мўлжалланмаган ҳудуд (ҳовлилар, турар жой даҳалари, автомобиль тўхтаб туриш жойлари, ёнилғи қуйиш шохобчалари, корхона ва шунга ўхшашлар)."
+        }
+    }
+}

@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  13,
-    "image":  "data/images/q0013.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Mazkur chiziq nima haqida ogohlantiradi?",
-                                    "options":  [
-                                                    "F1. Transport vositalarining majburiy to\u0027xtash joyiga yaqinlashayotganligini",
-                                                    "F2. «To\u0027xtamasdan harakatlanish taqiqlangan» belgisi bilan birga qo\u0027llanilganda, haydovchini «To\u0027xtash» chizig\u0027iga yaqinlashayotganligini",
-                                                    "F3. Transport vositasi piyodalarga yo\u0027l berishi kerak bo\u0027lgan joyni ko\u0027rsatadi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "IzohYHQ 2-ilovasi: 1.21 («STOP» — Toʻxtang! yozuvi) — 2.5 belgisi bilan birga qo\u0027llanilganda haydovchini 1.12 chizig\u0027iga yaqinlashayotganligi haqida ogohlantiradi."
-                                },
-                         "ru":  {
-                                    "text":  "О чем предупреждает данная разметка?",
-                                    "options":  [
-                                                    "F1. О приближении к месту обязательной остановки транспортных средств",
-                                                    "F2. О приближении транспортных средств к «СТОП-ЛИНИИ», когда она применяется в сочетании со знаком «Движение без остановки запрещено»",
-                                                    "F3. Указывает место, где транспортное средство должно уступить дорогу пешеходам"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Приложение №2 пункт 1.21: (надпись «STOP») — предупреждает о приближении к разметке 1.12, когда она применяется в сочетании со знаком 2.5 \"Движение без остановки запрещено\"."
-                                },
-                         "uzk":  {
-                                     "text":  "Мазкур чизиқ нима ҳақида огоҳлантиради?",
-                                     "options":  [
-                                                     "F1. Транспорт воситаларининг мажбурий тўхташ жойига яқинлашаётганлигини",
-                                                     "F2. «Тўхтамасдан ҳаракатланиш тақиқланган» белгиси билан бирга қўлланилганда, ҳайдовчини «Тўхташ» чизиғига яқинлашаётганлигини",
-                                                     "F3. Транспорт воситаси пиёдаларга йўл бериши керак бўлган жойни кўрсатади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ИзоҳЙҲҚ 2-иловаси: 1.21 («STOP» — Тухтанг! ёзуви) — 2.5 белгиси билан бирга қўлланилганда ҳайдовчини 1.12 чизиғига яқинлашаётганлиги ҳақида огоҳлантиради."
-                                 }
-                     }
+{
+    "questionId": 13,
+    "image": "data/images/q0013.webp",
+    "translations": {
+        "uz": {
+            "text": "Mazkur chiziq nima haqida ogohlantiradi?",
+            "options": [
+                "F1. Transport vositalarining majburiy to'xtash joyiga yaqinlashayotganligini",
+                "F2. «To'xtamasdan harakatlanish taqiqlangan» belgisi bilan birga qo'llanilganda, haydovchini «To'xtash» chizig'iga yaqinlashayotganligini",
+                "F3. Transport vositasi piyodalarga yo'l berishi kerak bo'lgan joyni ko'rsatadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "IzohYHQ 2-ilovasi: 1.21 («STOP» — Toʻxtang! yozuvi) — 2.5 belgisi bilan birga qo'llanilganda haydovchini 1.12 chizig'iga yaqinlashayotganligi haqida ogohlantiradi."
+        },
+        "ru": {
+            "text": "О чем предупреждает данная разметка?",
+            "options": [
+                "F1. О приближении к месту обязательной остановки транспортных средств",
+                "F2. О приближении транспортных средств к «СТОП-ЛИНИИ», когда она применяется в сочетании со знаком «Движение без остановки запрещено»",
+                "F3. Указывает место, где транспортное средство должно уступить дорогу пешеходам"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Приложение №2 пункт 1.21: (надпись «STOP») — предупреждает о приближении к разметке 1.12, когда она применяется в сочетании со знаком 2.5 \"Движение без остановки запрещено\"."
+        },
+        "uzk": {
+            "text": "Мазкур чизиқ нима ҳақида огоҳлантиради?",
+            "options": [
+                "F1. Транспорт воситаларининг мажбурий тўхташ жойига яқинлашаётганлигини",
+                "F2. «Тўхтамасдан ҳаракатланиш тақиқланган» белгиси билан бирга қўлланилганда, ҳайдовчини «Тўхташ» чизиғига яқинлашаётганлигини",
+                "F3. Транспорт воситаси пиёдаларга йўл бериши керак бўлган жойни кўрсатади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ИзоҳЙҲҚ 2-иловаси: 1.21 («STOP» — Тухтанг! ёзуви) — 2.5 белгиси билан бирга қўлланилганда ҳайдовчини 1.12 чизиғига яқинлашаётганлиги ҳақида огоҳлантиради."
+        }
+    }
 }

@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  708,
-    "image":  "data/images/q0708.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Siz chorrahada to\u0027g\u0027riga o\u0027tmoqchisiz. Ushbu vaziyatda Sizning harakatingiz?",
-                                    "options":  [
-                                                    "F1. Qizil avtomobil yo\u0027l berayotganiga ishonch xosil qilib chorrahadan birinchi o\u0027tish",
-                                                    "F2. Chorrahaga birinchi kirgan qizil avtomobilga yo\u0027l berish"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 16-bobi 107-bandi: Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yo\u0027ldan qarama-qarshi yo\u0027nalishdan to\u0027g\u0027riga yoki o\u0027ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib oʻtayotgan transport vositalariga yo\u0027l berishi shart. Bu qoidaga tramvay haydovchilari ham o\u0027zaro amal qilishlari kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Вы намерены проехать перекресток в прямом направлении. Ваши действия?",
-                                    "options":  [
-                                                    "F1. Убедитесь, что красный автомобиль уступает дорогу, и проедете перекресток первым",
-                                                    "F2. Уступите дорогу красному автомобилю, поскольку он первым въехал на перекресток"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 107 главы 16 ПДД, гласит: При повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
-                                },
-                         "uzk":  {
-                                     "text":  "Сиз чорраҳада тўғрига ўтмоқчисиз. Ушбу вазиятда Сизнинг ҳаракатингиз?",
-                                     "options":  [
-                                                     "F1. Қизил автомобиль йўл бераётганига ишонч хосил қилиб чорраҳадан биринчи ўтиш",
-                                                     "F2. Чорраҳага биринчи кирган қизил автомобилга йўл бериш"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 16-боби 107-банди: Чапга бурилишда ёки қайрилиб олишда релъссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак."
-                                 }
-                     }
+{
+    "questionId": 708,
+    "image": "data/images/q0708.webp",
+    "translations": {
+        "uz": {
+            "text": "Siz chorrahada to'g'riga o'tmoqchisiz. Ushbu vaziyatda Sizning harakatingiz?",
+            "options": [
+                "F1. Qizil avtomobil yo'l berayotganiga ishonch xosil qilib chorrahadan birinchi o'tish",
+                "F2. Chorrahaga birinchi kirgan qizil avtomobilga yo'l berish"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 16-bobi 107-bandi: Chapga burilishda yoki qayrilib olishda relssiz transport vositasining haydovchisi teng ahamiyatli yo'ldan qarama-qarshi yo'nalishdan to'g'riga yoki o'ngga harakatlanayotgan, shuningdek ruxsat etilgan hollarda quvib oʻtayotgan transport vositalariga yo'l berishi shart. Bu qoidaga tramvay haydovchilari ham o'zaro amal qilishlari kerak."
+        },
+        "ru": {
+            "text": "Вы намерены проехать перекресток в прямом направлении. Ваши действия?",
+            "options": [
+                "F1. Убедитесь, что красный автомобиль уступает дорогу, и проедете перекресток первым",
+                "F2. Уступите дорогу красному автомобилю, поскольку он первым въехал на перекресток"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 107 главы 16 ПДД, гласит: При повороте налево или развороте водитель безрельсового транспортного средства обязан уступить дорогу транспортным средствам, движущимся по равнозначной дороге со встречного направления прямо или направо, а также производящим обгон в разрешенных случаях. Этим же правилом должны руководствоваться между собой водители трамваев."
+        },
+        "uzk": {
+            "text": "Сиз чорраҳада тўғрига ўтмоқчисиз. Ушбу вазиятда Сизнинг ҳаракатингиз?",
+            "options": [
+                "F1. Қизил автомобиль йўл бераётганига ишонч хосил қилиб чорраҳадан биринчи ўтиш",
+                "F2. Чорраҳага биринчи кирган қизил автомобилга йўл бериш"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 16-боби 107-банди: Чапга бурилишда ёки қайрилиб олишда релъссиз транспорт воситасининг ҳайдовчиси тенг аҳамиятли йўлдан қарама-қарши йўналишдан тўғрига ёки ўнгга ҳаракатланаётган, шунингдек рухсат этилган ҳолларда қувиб ўтаётган транспорт воситаларига йўл бериши шарт. Бу қоидага трамвай ҳайдовчилари ҳам ўзаро амал қилишлари керак."
+        }
+    }
 }

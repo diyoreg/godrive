@@ -1,42 +1,42 @@
-﻿{
-    "questionId":  1080,
-    "image":  "data/images/q1080.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Yo\u0027naltirgichlar bilan ko\u0027rsatilgan qaysi yo\u0027nalishlarda harakat ruxsat etilgan?",
-                                    "options":  [
-                                                    "F1. Faqat to\u0027g\u0027riga",
-                                                    "F2. Faqat o\u0027ngga",
-                                                    "F3. Faqat chapga",
-                                                    "F4. Faqat to\u0027g\u0027riga va o\u0027ngga",
-                                                    "F5. Barcha yo\u0027nalishlarga"
-                                                ],
-                                    "correctAnswer":  5,
-                                    "explanation":  "YHQ 1 ilova: 4.1.4. “Harakatlanish to\u0027g\u0027riga yoki o\u0027ngga”. Faqat belgilarda ko\u0027rsatilgan ko\u0027rsatkichlar yo\u0027nalishlarida harakatlanishga ruxsat etiladi. Chapga burilishga ruxsat beruvchi belgilar qayrilib olishga ham ruxsat beradi. (Muayyan kesishmada talab etilgan harakatlanish yo\u0027nalishiga tegishli ko\u0027rsatkichlarning shakli tushirilgan 4.1.1 — 4.1.6 belgilarini qo\u0027llash mumkin).\n4.1.1 — 4.1.6 belgilarining ta’siri yo\u0027nalishli transport vositalariga joriy qilinmaydi.\n4.1.1 — 4.1.6 yo\u0027l belgilari qatnov qismlarining qaysi kesishmasidan oldin o\u0027rnatilsa, belgining ta’siri shu kesishmaga joriy qilinadi.\nYo\u0027lning qismi boshlanishida o\u0027rnatilgan 4.1.1 belgisining ta’siri yaqin chorrahagacha joriy qilinadi. Belgi o\u0027ng tomonda joylashgan hovlilarga va yo\u0027lga yondosh boshqa hududlarga burilishni taqiqlamaydi."
-                                },
-                         "ru":  {
-                                    "text":  "В каких направлениях, обозначенных стрелкам разрешено движение?",
-                                    "options":  [
-                                                    "F1. Только прямо",
-                                                    "F2. Только направо",
-                                                    "F3. Только налево",
-                                                    "F4. Только прямо и направо",
-                                                    "F5. Во всех направлениях"
-                                                ],
-                                    "correctAnswer":  5,
-                                    "explanation":  "ПДД приложение № 1: 4.1.4 Движение прямо или направо\nРазрешается движение только в направлениях, указанных на знаках стрелками. Знаки, разрешающие поворот налево, разрешают и разворот (могут быть применены знаки 4.1.1-4.1.6 с конфигурацией стрелок, соответствующей требуемым направлениям движения на конкретном пересечении)\nДействие знаков 4.1.1-4.1.6 не распространяется на маршрутные транспортные средства.\nДействие знаков 4.1.1-4.1.6 распространяется на пересечение проезжих частей, перед которым установлен знак.\nДействие знака 4.1.1, установленного в начале участка дороги, распространяется до ближайшего перекрестка. Знак не запрещает поворот направо на прилегающие к дороге территории."
-                                },
-                         "uzk":  {
-                                     "text":  "Йўналтиргичлар билан кўрсатилган қайси йўналишларда ҳаракат рухсат этилган?",
-                                     "options":  [
-                                                     "F1. Фақат тўғрига",
-                                                     "F2. Фақат ўнгга",
-                                                     "F3. Фақат чапга",
-                                                     "F4. Фақат тўғрига ва ўнгга",
-                                                     "F5. Барча йўналишларга"
-                                                 ],
-                                     "correctAnswer":  5,
-                                     "explanation":  "ЙҲҚ 1 илова: 4.1.4. “Ҳаракатланиш тўғрига ёки ўнгга”. Фақат белгиларда кўрсатилган кўрсаткичлар йўналишларида ҳаракатланишга рухсат этилади. Чапга бурилишга рухсат берувчи белгилар қайрилиб олишга ҳам рухсат беради. (Муайян кесишмада талаб этилган ҳаракатланиш йўналишига тегишли кўрсаткичларнинг шакли туширилган 4.1.1 — 4.1.6 белгиларини қўллаш мумкин).\n4.1.1 — 4.1.6 белгиларининг таъсири йўналишли транспорт воситаларига жорий қилинмайди.\n4.1.1 — 4.1.6 йўл белгилари қатнов қисмларининг қайси кесишмасидан олдин ўрнатилса, белгининг таъсири шу кесишмага жорий қилинади.\nЙўлнинг қисми бошланишида ўрнатилган 4.1.1 белгисининг таъсири яқин чорраҳагача жорий қилинади. Белги ўнг томонда жойлашган ҳовлиларга ва йўлга ёндош бошқа ҳудудларга бурилишни тақиқламайди."
-                                 }
-                     }
+{
+    "questionId": 1080,
+    "image": "data/images/q1080.webp",
+    "translations": {
+        "uz": {
+            "text": "Yo'naltirgichlar bilan ko'rsatilgan qaysi yo'nalishlarda harakat ruxsat etilgan?",
+            "options": [
+                "F1. Faqat to'g'riga",
+                "F2. Faqat o'ngga",
+                "F3. Faqat chapga",
+                "F4. Faqat to'g'riga va o'ngga",
+                "F5. Barcha yo'nalishlarga"
+            ],
+            "correctAnswer": 5,
+            "explanation": "YHQ 1 ilova: 4.1.4. “Harakatlanish to'g'riga yoki o'ngga”. Faqat belgilarda ko'rsatilgan ko'rsatkichlar yo'nalishlarida harakatlanishga ruxsat etiladi. Chapga burilishga ruxsat beruvchi belgilar qayrilib olishga ham ruxsat beradi. (Muayyan kesishmada talab etilgan harakatlanish yo'nalishiga tegishli ko'rsatkichlarning shakli tushirilgan 4.1.1 — 4.1.6 belgilarini qo'llash mumkin).\n4.1.1 — 4.1.6 belgilarining ta’siri yo'nalishli transport vositalariga joriy qilinmaydi.\n4.1.1 — 4.1.6 yo'l belgilari qatnov qismlarining qaysi kesishmasidan oldin o'rnatilsa, belgining ta’siri shu kesishmaga joriy qilinadi.\nYo'lning qismi boshlanishida o'rnatilgan 4.1.1 belgisining ta’siri yaqin chorrahagacha joriy qilinadi. Belgi o'ng tomonda joylashgan hovlilarga va yo'lga yondosh boshqa hududlarga burilishni taqiqlamaydi."
+        },
+        "ru": {
+            "text": "В каких направлениях, обозначенных стрелкам разрешено движение?",
+            "options": [
+                "F1. Только прямо",
+                "F2. Только направо",
+                "F3. Только налево",
+                "F4. Только прямо и направо",
+                "F5. Во всех направлениях"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ПДД приложение № 1: 4.1.4 Движение прямо или направо\nРазрешается движение только в направлениях, указанных на знаках стрелками. Знаки, разрешающие поворот налево, разрешают и разворот (могут быть применены знаки 4.1.1-4.1.6 с конфигурацией стрелок, соответствующей требуемым направлениям движения на конкретном пересечении)\nДействие знаков 4.1.1-4.1.6 не распространяется на маршрутные транспортные средства.\nДействие знаков 4.1.1-4.1.6 распространяется на пересечение проезжих частей, перед которым установлен знак.\nДействие знака 4.1.1, установленного в начале участка дороги, распространяется до ближайшего перекрестка. Знак не запрещает поворот направо на прилегающие к дороге территории."
+        },
+        "uzk": {
+            "text": "Йўналтиргичлар билан кўрсатилган қайси йўналишларда ҳаракат рухсат этилган?",
+            "options": [
+                "F1. Фақат тўғрига",
+                "F2. Фақат ўнгга",
+                "F3. Фақат чапга",
+                "F4. Фақат тўғрига ва ўнгга",
+                "F5. Барча йўналишларга"
+            ],
+            "correctAnswer": 5,
+            "explanation": "ЙҲҚ 1 илова: 4.1.4. “Ҳаракатланиш тўғрига ёки ўнгга”. Фақат белгиларда кўрсатилган кўрсаткичлар йўналишларида ҳаракатланишга рухсат этилади. Чапга бурилишга рухсат берувчи белгилар қайрилиб олишга ҳам рухсат беради. (Муайян кесишмада талаб этилган ҳаракатланиш йўналишига тегишли кўрсаткичларнинг шакли туширилган 4.1.1 — 4.1.6 белгиларини қўллаш мумкин).\n4.1.1 — 4.1.6 белгиларининг таъсири йўналишли транспорт воситаларига жорий қилинмайди.\n4.1.1 — 4.1.6 йўл белгилари қатнов қисмларининг қайси кесишмасидан олдин ўрнатилса, белгининг таъсири шу кесишмага жорий қилинади.\nЙўлнинг қисми бошланишида ўрнатилган 4.1.1 белгисининг таъсири яқин чорраҳагача жорий қилинади. Белги ўнг томонда жойлашган ҳовлиларга ва йўлга ёндош бошқа ҳудудларга бурилишни тақиқламайди."
+        }
+    }
 }

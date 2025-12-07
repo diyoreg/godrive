@@ -1,0 +1,36 @@
+{
+    "questionId": 386,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Uni aylanib o'tayotgan transport vositasiga yo'l berishi kerak",
+                "F2. Imtiyozdan foydalanib, belgilangan yo'nalishda harakatni boshlashi kerak",
+                "F3. Unga yo'l berilganligiga ishonch hosil qilgach harakatni boshlashi kerak"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 22-bobi 133-bandiga asosan: Haydovchilar aholi yashash joylarida bekatdan harakatlanishni boshlayotgan avtobus va trolleybuslarga yo'l berishlari kerak. O'z navbatida avtobus va trolleybus haydovchilari oʻzlariga yo'l berilganligiga ishonch hosil qilganliklaridan keyingina harakatlanishni boshlashlari mumkin."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Уступить дорогу объезжающему его транспортному средству",
+                "F2. Используя преимущество, начинать движение в намеченном направлении",
+                "F3. Начинать движение, только убедившись, что ему уступают дорогу"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Пункта 133 главы 22 ПДД, гласит: В населенных пунктах водители должны уступать дорогу автобусам и троллейбусам, начинающим движение от остановки. В свою очередь, водители автобусов и троллейбусов могут начинать движение, только убедившись, что им уступают дорогу."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Уни айланиб ўтаëтган транспорт воситасига йўл бериши керак",
+                "F2. Имтиёздан фойдаланиб, белгиланган йўналишда ҳаракатни бошлаши керак",
+                "F3. Унга йўл берилганлигига ишонч ҳосил килгач ҳаракатни бошлаши керак"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 22-боби 133-бандига асосан: Ҳайдовчилар аҳоли яшаш жойларида бекатдан ҳаракатланишни бошлаётган автобус ва троллейбусларга йўл беришлари керак. Уз навбатида автобус ва троллейбус ҳайдовчилари ўзларига йўл берилганлигига ишонч ҳосил қилганликларидан кейингина ҳаракатланишни бошлашлари мумкин."
+        }
+    }
+}

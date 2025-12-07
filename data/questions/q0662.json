@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  662,
-    "image":  "data/images/q0662.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Bunday avtopoyezdning ko\u0027prikdan o\u0027tishiga ruxsat etiladimi?",
-                                    "options":  [
-                                                    "F1. Ruxsat etiladi",
-                                                    "F2. Taqiqlanadi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 3-bo\u0027limining oʻn uchinchi xatboshisiga asosan: 3.11. «Vazn cheklangan». Haqiqiy umumiy vazni belgida ko\u0027rsatilganidan ortiq boʻlgan transport vositalarining, shuningdek transport vositalari tarkiblarining harakatlanishi taqiqlanishini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Разрешается ли такому автопоезду проехать по мосту?",
-                                    "options":  [
-                                                    "F1. Разрешается",
-                                                    "F2. Запрещается"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Запрещающий знак 3.11 \"Ограничение массы\". Запрещается движение транспортных средств, в том числе составов транспортных средств, общая фактическая масса которых больше указанной на знаке."
-                                },
-                         "uzk":  {
-                                     "text":  "Бундай автопоезднинг кўприкдан ўтишига рухсат этиладими?",
-                                     "options":  [
-                                                     "F1. Рухсат этилади",
-                                                     "F2. Тақиқланади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 3-бўлимининг ўн учинчи хатбошисига асосан: 3.11. «Вазн чекланган». Ҳақиқий умумий вазни белгида кўрсатилганидан ортиқ бўлган транспорт воситаларининг, шунингдек транспорт воситалари таркибларининг ҳаракатланиши тақиқланишини билдиради."
-                                 }
-                     }
+{
+    "questionId": 662,
+    "image": "data/images/q0662.webp",
+    "translations": {
+        "uz": {
+            "text": "Bunday avtopoyezdning ko'prikdan o'tishiga ruxsat etiladimi?",
+            "options": [
+                "F1. Ruxsat etiladi",
+                "F2. Taqiqlanadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 3-bo'limining oʻn uchinchi xatboshisiga asosan: 3.11. «Vazn cheklangan». Haqiqiy umumiy vazni belgida ko'rsatilganidan ortiq boʻlgan transport vositalarining, shuningdek transport vositalari tarkiblarining harakatlanishi taqiqlanishini bildiradi."
+        },
+        "ru": {
+            "text": "Разрешается ли такому автопоезду проехать по мосту?",
+            "options": [
+                "F1. Разрешается",
+                "F2. Запрещается"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Запрещающий знак 3.11 \"Ограничение массы\". Запрещается движение транспортных средств, в том числе составов транспортных средств, общая фактическая масса которых больше указанной на знаке."
+        },
+        "uzk": {
+            "text": "Бундай автопоезднинг кўприкдан ўтишига рухсат этиладими?",
+            "options": [
+                "F1. Рухсат этилади",
+                "F2. Тақиқланади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 3-бўлимининг ўн учинчи хатбошисига асосан: 3.11. «Вазн чекланган». Ҳақиқий умумий вазни белгида кўрсатилганидан ортиқ бўлган транспорт воситаларининг, шунингдек транспорт воситалари таркибларининг ҳаракатланиши тақиқланишини билдиради."
+        }
+    }
 }

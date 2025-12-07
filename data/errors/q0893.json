@@ -1,0 +1,36 @@
+{
+    "questionId": 893,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Yo'lning yonma-yon joylashgan qatnov qismlarini ajratuvchi, transport vositalari harakatlanishi yoki to'xtashi uchun mo'ljallanmagan, yo'l sathidan ko'tarilgan yoki maysazor, ariq, maxsus to'siqlar bilan ajratilgan baland qismi",
+                "F2. Yo'lning relssiz transport vositalari harakati uchun mo'ljallangan qismi",
+                "F3. Avtomobillarning bir qator bo'lib harakatlanishi uchun yetarlicha keng bo'lgan, yo'l chiziqlari bilan belgilangan yoki belgilanmagan yo'l qatnov qismining har qanday bo'ylama mintaqa"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilova Umumiy qoidalar: Ajratuvchi mintaqa — yo'lning yonma-yon joylashgan qatnov qismlarini ajratuvchi, transport vositalari harakatlanishi yoki to'xtashi uchun mo'ljallanmagan, yo'l sathidan ko'tarilgan yoki maysazor, ariq, maxsus to'siqlar bilan ajratilgan baland qismi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Элемент дороги, разделяющий смежные проезжие части и не предназначенный для движения и остановки транспортных средств, расположенный выше уровня дороги и (или) обозначенный дорожной разметкой 1.1.",
+                "F2. Часть дороги, предназначенная для движения безрельсовых транспортных средств",
+                "F3. Любая из продольных полос проезжей части, обозначенная или необозначенная дорожной разметкой и имеющая ширину, достаточную для движения автомобилей в один ряд"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения: Разделительная зона-возвышенный участок дороги, разделяющий прилегающие проезжие части, не предназначенный для движения или остановки транспортных средств, приподнятый над уровнем проезжей части или разделенный газоном, канавой, специальными ограждениями."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Йўлнинг ёнма-ён жойлашган қатнов қисмларини ажратувчи, транспорт воситалари ҳаракатланиши ёки тўхташи учун мўлжалланмаган, йўл сатҳидан кўтарилган ёки майсазор, ариқ, махсус тўсиқлар билан ажратилган баланд қисми",
+                "F2. Йўлнинг рельссиз транспорт воситалари ҳаракати учун мўлжалланган қисми",
+                "F3. Автомобилларнинг бир қатор бўлиб ҳаракатланиши учун етарлича кенг бўлган, йўл чизиқлари билан белгиланган ёки белгиланмаган йўл қатнов қисмининг ҳар қандай бўйлама минтақа"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-илова Умумий қоидалар: Ажратувчи минтақа — йўлнинг ёнма-ён жойлашган қатнов қисмларини ажратувчи, транспорт воситалари ҳаракатланиши ёки тўхташи учун мўлжалланмаган, йўл сатҳидан кўтарилган ёки майсазор, ариқ, махсус тўсиқлар билан ажратилган баланд қисми."
+        }
+    }
+}

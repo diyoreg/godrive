@@ -1,0 +1,33 @@
+{
+    "questionId": 910,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Mo'ljallangan yo'nalishda boshqa yo'l harakati qatnashchilariga nisbatan oldin harakatlanish huquqi",
+                "F2. Yo'l harakati katnashchilariga nisbatan imtiyozi bo'lgan boshqa yo'l harakati katnashchisining harakat yo'nalishi yoki tezligini o'zgartirishga majbur etishi mumkin bo'lgan hollarda harakatni davom ettirmasligini yoki boshlamasligini, biror-bir manyovr bajarishi mumkin emasligini bildiruvchi talab"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilova Umumiy qoidalar: Imtiyoz — mo'ljallangan yo'nalishda boshqa yo'l harakati qatnashchilariga nisbatan oldin harakatlanish huquqi."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Право на первоочередное движение в намеченном направлении по отношению к другим участникам движения",
+                "F2. Требование о том, что они не могут продолжать или начинать движение, совершать какие-либо маневры, в случаях, когда они могут вынудить другого участника дорожного движения, имеющего преимущественное право проезда, изменить направление или скорость движения"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения: Приоритет — право на первоочередное движение в намеченном направлении по отношению к другим участникам движения."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Мўлжалланган йўналишда бошқа йўл ҳаракати катнашчиларига нисбатан олдин ҳаракатланиш ҳукуки",
+                "F2. Йўл ҳаракати катнашчиларига нисбатан имтиёзи бўлган бошқа йўл ҳаракати катнашчисининг ҳаракат йўналиши ёки тезлигини ўзгартиришга мажбур этиши мумкин бўлган ҳолларда ҳаракатни давом эттирмаслигини ёки бошламаслигини, бирор-бир манёвр бажариши мумкин эмаслигини билдирувчи талаб"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-илова Умумий қоидалар:  Имтиёз — мўлжалланган йўналишда бошқа йўл ҳаракати қатнашчиларига нисбатан олдин ҳаракатланиш ҳуқуқи."
+        }
+    }
+}

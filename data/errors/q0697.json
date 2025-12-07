@@ -1,0 +1,36 @@
+{
+    "questionId": 697,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Yo'lning xavfli burilishlarida va qatnov qismida ko'rinish masofasi 100 metrdan kam bo'lgan yo'l do'ngliklari yaqinida",
+                "F2. Bir yo'nalishda harakatlanish uchun uchtadan kam tasmaga ega bo'lgan ko'prik, yo'l o'tkazgich va estakadalarning ustida",
+                "F3. Sanab o'tilgan barcha hollarda"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 13-bobi 91-bandining uchinchi va yettinchi xatboshlariga asosan, quyidagi joy va holatlarda to'xtash taqiqlanadi: bir yoʻnalishda harakatlanish uchun uchtadan kam bo'lagi bo'lgan koʻprik, yoʻl o'tkazgich va estakada hamda ularning ostida (tegishli yo'l belgilari bilan toʻxtab turish ruxsat berilgan yo'l qismlari bundan mustasno);\nqatnov qismida ko'rinish masofasi 100 metrdan kam bo'lgan yo'l do'ngliklari yaqinida va xavfli burilishlarda;."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Вблизи опасных поворотов и выпуклых переломов продольного профиля дороги с видимостью дороги менее 100 м в одном направлении",
+                "F2. На мостах, эстакадах и путепроводах, имеющие менее 3 полос движения",
+                "F3. Во всех перечисленных случаях"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Aбзацу 3 пункта 91 главы 13 ПДД, остановка запрещается в следующих местах: на мостах, эстакадах, путепроводах (если для движения в одном направлении имеется менее трех полос) и под ними;\nв близи выпуклых переломов продольного профиля дороги, при видимости дороги менее 100 м хотя бы в одном направлении."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Йўлнинг хавфли бурилишларида ва қатнов қисмида кўриниш масофаси 100 метрдан кам бўлган йўл дўнгликлари яқинида",
+                "F2. Бир йўналишда ҳаракатланиш учун учтадан кам тасмага ега бўлган кўприк, йўл ўтказгич ва естакадаларнинг устида",
+                "F3. Санаб ўтилган барча ҳолларда"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 13-боби 91-бандининг учинчи ва еттинчи хатбошларига асосан, қуйидаги жой ва ҳолатларда тўхташ тақиқланади: бир йўналишда ҳаракатланиш учун учтадан кам бўлаги бўлган кўприк, йўл ўтказгич ва эстакада ҳамда уларнинг остида (тегишли йўл белгилари билан тўхтаб туриш рухсат берилган йўл қисмлари бундан мустасно);\nқатнов қисмида кўриниш масофаси 100 метрдан кам бўлган йўл дўнгликлари яқинида ва хавфли бурилишларда;"
+        }
+    }
+}

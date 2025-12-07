@@ -1,39 +1,39 @@
-﻿{
-    "questionId":  282,
-    "image":  "data/images/q0282.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi belgi 50 km/soatdan kam tezlikda harakatlanishni taqiqlaydi?",
-                                    "options":  [
-                                                    "F1. AvtoImtihon",
-                                                    "F2. Noto\u0027g\u0027ri:",
-                                                    "F3. Yakunlash",
-                                                    "F4. To\u0027g\u0027ri:"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "YHQ 1-ilovasi 4-bo\u0027limining yigirma to\u0027rtinchi xatboshisiga asosan: 4.7. «Eng kam tezlik». Faqat belgida koʻrsatilgan yoki undan yuqori tezlikda (km/soat) harakatlanishga ruxsat etilishini bildiradi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой знак запрещает движение со скоростью менее 50 км/час?",
-                                    "options":  [
-                                                    "F1. Неправильно:",
-                                                    "F2. AvtoImtihon",
-                                                    "F3. Правильно:",
-                                                    "F4. Завершить"
-                                                ],
-                                    "correctAnswer":  3,
-                                    "explanation":  "Предписывающий знак 4.7 \"Ограничение минимальной скорости\". Разрешается движение только с указанной или большей скоростью (км/ч)."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси белги 50 км/соатдан кам тезликда ҳаракатланишни тақиқлайди?",
-                                     "options":  [
-                                                     "F1. AvtoImtihon",
-                                                     "F2. Нотўғри:",
-                                                     "F3. Якунлаш",
-                                                     "F4. Кейинги"
-                                                 ],
-                                     "correctAnswer":  3,
-                                     "explanation":  "ЙҲҚ 1-иловаси 4-бўлимининг йигирма тўртинчи хатбошисига асосан: 4.7. «Энг кам тезлик». Фақат белгида кўрсатилган ёки ундан юқори тезликда (км/соат) ҳаракатланишга рухсат этилишини билдиради."
-                                 }
-                     }
+{
+    "questionId": 282,
+    "image": "data/images/q0282.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi belgi 50 km/soatdan kam tezlikda harakatlanishni taqiqlaydi?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Noto'g'ri:",
+                "F3. Yakunlash",
+                "F4. To'g'ri:"
+            ],
+            "correctAnswer": 3,
+            "explanation": "YHQ 1-ilovasi 4-bo'limining yigirma to'rtinchi xatboshisiga asosan: 4.7. «Eng kam tezlik». Faqat belgida koʻrsatilgan yoki undan yuqori tezlikda (km/soat) harakatlanishga ruxsat etilishini bildiradi."
+        },
+        "ru": {
+            "text": "Какой знак запрещает движение со скоростью менее 50 км/час?",
+            "options": [
+                "F1. Неправильно:",
+                "F2. AvtoImtihon",
+                "F3. Правильно:",
+                "F4. Завершить"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Предписывающий знак 4.7 \"Ограничение минимальной скорости\". Разрешается движение только с указанной или большей скоростью (км/ч)."
+        },
+        "uzk": {
+            "text": "Қайси белги 50 км/соатдан кам тезликда ҳаракатланишни тақиқлайди?",
+            "options": [
+                "F1. AvtoImtihon",
+                "F2. Нотўғри:",
+                "F3. Якунлаш",
+                "F4. Кейинги"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ЙҲҚ 1-иловаси 4-бўлимининг йигирма тўртинчи хатбошисига асосан: 4.7. «Энг кам тезлик». Фақат белгида кўрсатилган ёки ундан юқори тезликда (км/соат) ҳаракатланишга рухсат этилишини билдиради."
+        }
+    }
 }

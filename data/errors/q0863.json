@@ -1,0 +1,36 @@
+{
+    "questionId": 863,
+    "image": "data/images/defaultpic.jpg",
+    "translations": {
+        "uz": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Dvigatel bilan harakatga keltiriladigan transport vositasi. Bu atama barcha traktor va o'ziyurar moslamalarga ham taalluklidir",
+                "F2. Odamlarni, yuklarni tashishga yoki maxsus ishlarni bajarishga mo'ljallangan qurilma",
+                "F3. Mexanik transport vositasi tarkibida xarakatlanishga mo'ljallangan, dvigatel bilan jihozlanmagan transport vositasi. Bu atama yarim tirkama va uzaytiriladigan tirkamalarga ham taalluklidir"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 1-ilova Umumiy qoidalar: Mexanik transport vositasi — dvigatel bilan harakatga keltiriladigan transport vositasi. Bu atama barcha traktor va o'zi yurar moslamalarga ham taalluqlidir."
+        },
+        "ru": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Транспортное средство приводимое в движение двигателем. Термин распространяется на любые трактора и самоходные механизмы",
+                "F2. Устройство, предназначенное для перевозки людей, грузов или выполнения специальных задач",
+                "F3. Транспортное средство, не оборудованное двигателем, предназначенное для движения в составе механического транспортного средства. Этот термин также применяется к полуприцепам и раздвижным прицепам."
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД общие положения: Механическое транспортное средство — транспортное средство, приводимое в движение двигателем. Термин распространяется на любые тракторы и самоходные механизмы."
+        },
+        "uzk": {
+            "text": "Текст вопроса не найден",
+            "options": [
+                "F1. Двигатель билан ҳаракатга келтириладиган транспорт воситаси. Бу атама барча трактор ва ўзиюрар мосламаларга ҳам тааллуклидир",
+                "F2. Одамларни, юкларни ташишга ёки махсус ишларни бажаришга мўлжалланган қурилма",
+                "F3. Механик транспорт воситаси таркибида харакатланишга мўлжалланган, двигатель билан жиҳозланмаган транспорт воситаси. Бу атама ярим тиркама ва узайтириладиган тиркамаларга ҳам тааллуклидир"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 1-илова Умумий қоидалар: Механик транспорт воситаси — двигатель билан ҳаракатга келтириладиган транспорт воситаси. Бу атама барча трактор ва ўзиюрар мосламаларга ҳам тааллуқлидир."
+        }
+    }
+}

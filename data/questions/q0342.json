@@ -1,36 +1,36 @@
-﻿{
-    "questionId":  342,
-    "image":  "data/images/q0342.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Belgi va uning ostidagi qo\u0027shimcha axborot belgisi nima haqida ogohlantiradi?",
-                                    "options":  [
-                                                    "F1. Olib borilayotgan ishlar munosabati bilan yo\u0027l chetida to\u0027xtash taqiqlanadi",
-                                                    "F2. Yo\u0027l yoqasida ta\u0027mirlash ishlari olib borilayotganligi munosabati bilan unga yaqin kelish xavfli",
-                                                    "F3. Yo\u0027lda ta\u0027mirlash ishlari olib borilayotganda yo\u0027l chetida to\u0027xtab turish taqiqlanadi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 1-bo\u0027limining yigirma sakkizinchi xatboshisiga asosan: 1.23. «Ta\u0027mirlash ishlari». YHQ 1-ilovasi 7-bo\u0027limining yigirma beshinchi xatboshisiga asosan: 7.12. «Xavfli yo\u0027l yoqasi». Yo\u0027l ishlari bajarilayotgani sababli yoʻl yoqasiga chiqish xavfli ekanligi haqida ogohlantiradi. 1.23 belgisi bilan qo\u0027llaniladi."
-                                },
-                         "ru":  {
-                                    "text":  "О чем предупреждают знак и табличка под ним?",
-                                    "options":  [
-                                                    "F1. Остановка на обочине запрещена в связи с работами",
-                                                    "F2. Съезд на обочину опасен в связи с проведением на ней ремонтных работ",
-                                                    "F3. Стоянка на обочине запрещена в связи с ремонтными работами на дороге"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Предупреждающий знак 1.23 \"Дорожные работы\". Знак дополнительной информации 7.12 \"Опасная обочина\". Предупреждает, что съезд на обочину опасен в связи с проведением на ней ремонтных работ. Применяется со знаком 1.23."
-                                },
-                         "uzk":  {
-                                     "text":  "Белги ва унинг остидаги қўшимча ахборот белгиси нима ҳақида огоҳлантиради?",
-                                     "options":  [
-                                                     "F1. Олиб борилаëтган ишлар муносабати билан йўл четида тўхташ тақиқланади",
-                                                     "F2. Йўл ёқасида таъмирлаш ишлари олиб борилаётганлиги муносабати билан унга чикиш хавфли",
-                                                     "F3. Йўлда таъмирлаш ишлари олиб борилаётганда йўл четида тўхтаб туриш тақиқланади"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 1-бўлимининг йигирма саккизинчи хатбошисига асосан: 1.23. кТаъмирлаш ишлари. ЙҲҚ 1-иловаси 7-бўлимининг йигирма бешинчи хатбошисига асосан: 7.12. «Хавфли йўл ёқасиз. Йўл ишлари бажарилаётгани сабабли йўл ёқасига чиқиш хавфли эканлиги ҳақида огоҳлантиради. 1.23 белгиси билан қўлланилади."
-                                 }
-                     }
+{
+    "questionId": 342,
+    "image": "data/images/q0342.webp",
+    "translations": {
+        "uz": {
+            "text": "Belgi va uning ostidagi qo'shimcha axborot belgisi nima haqida ogohlantiradi?",
+            "options": [
+                "F1. Olib borilayotgan ishlar munosabati bilan yo'l chetida to'xtash taqiqlanadi",
+                "F2. Yo'l yoqasida ta'mirlash ishlari olib borilayotganligi munosabati bilan unga yaqin kelish xavfli",
+                "F3. Yo'lda ta'mirlash ishlari olib borilayotganda yo'l chetida to'xtab turish taqiqlanadi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 1-bo'limining yigirma sakkizinchi xatboshisiga asosan: 1.23. «Ta'mirlash ishlari». YHQ 1-ilovasi 7-bo'limining yigirma beshinchi xatboshisiga asosan: 7.12. «Xavfli yo'l yoqasi». Yo'l ishlari bajarilayotgani sababli yoʻl yoqasiga chiqish xavfli ekanligi haqida ogohlantiradi. 1.23 belgisi bilan qo'llaniladi."
+        },
+        "ru": {
+            "text": "О чем предупреждают знак и табличка под ним?",
+            "options": [
+                "F1. Остановка на обочине запрещена в связи с работами",
+                "F2. Съезд на обочину опасен в связи с проведением на ней ремонтных работ",
+                "F3. Стоянка на обочине запрещена в связи с ремонтными работами на дороге"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Предупреждающий знак 1.23 \"Дорожные работы\". Знак дополнительной информации 7.12 \"Опасная обочина\". Предупреждает, что съезд на обочину опасен в связи с проведением на ней ремонтных работ. Применяется со знаком 1.23."
+        },
+        "uzk": {
+            "text": "Белги ва унинг остидаги қўшимча ахборот белгиси нима ҳақида огоҳлантиради?",
+            "options": [
+                "F1. Олиб борилаëтган ишлар муносабати билан йўл четида тўхташ тақиқланади",
+                "F2. Йўл ёқасида таъмирлаш ишлари олиб борилаётганлиги муносабати билан унга чикиш хавфли",
+                "F3. Йўлда таъмирлаш ишлари олиб борилаётганда йўл четида тўхтаб туриш тақиқланади"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 1-бўлимининг йигирма саккизинчи хатбошисига асосан: 1.23. кТаъмирлаш ишлари. ЙҲҚ 1-иловаси 7-бўлимининг йигирма бешинчи хатбошисига асосан: 7.12. «Хавфли йўл ёқасиз. Йўл ишлари бажарилаётгани сабабли йўл ёқасига чиқиш хавфли эканлиги ҳақида огоҳлантиради. 1.23 белгиси билан қўлланилади."
+        }
+    }
 }

@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  297,
-    "image":  "data/images/q0297.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Kim yo\u0027l berishi kerak?",
-                                    "options":  [
-                                                    "F1. Yuk avtomobil haydovchisi",
-                                                    "F2. Yengil avtomobil haydovchisi"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 21-bobi 128-bandga asosan: Yo\u0027lning 1.13 va 1.14 yo\u0027l belgilari bilan belgilangan qiyaliklarida, qarama-qarshi yo\u0027nalishlarda harakatlanishni qiyinlashtiradigan biron-bir to\u0027siq boʻlsa, nishablikka harakatlanayotgan transport vositasining haydovchisi yoʻl berishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Кто должен уступить дорогу?",
-                                    "options":  [
-                                                    "F1. Водитель грузового автомобиля",
-                                                    "F2. Водитель легкового автомобиля"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Предупреждающий знак 1.14 \"Крутой подъем\".\nПункту 128 главы 21 ПДД гласит: На уклонах, обозначенных знаками 1.13 и 1.14, при наличии препятствия, затрудняющего движение в противоположных направлениях, уступить дорогу должен водитель транспортного средства, движущегося на спуск. В данном случае водитель грузового автомобиля движется на спуск, поэтому он должен уступить дорогу."
-                                },
-                         "uzk":  {
-                                     "text":  "Ким йўл бериши керак?",
-                                     "options":  [
-                                                     "F1. Юк автомобиль ҳайдовчиси",
-                                                     "F2. Енгил автомобиль ҳайдовчиси"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 21-боби 128-бандга асосан: Йўлнинг 1.13 ва 1.14 йўл белгилари билан белгиланган қияликларида, қарама-қарши йўналишларда ҳаракатланишни қийинлаштирадиган бирон-бир тўсиқ бўлса, нишабликка ҳаракатланаётган транспорт воситасининг ҳайдовчиси йўл бериши керак."
-                                 }
-                     }
+{
+    "questionId": 297,
+    "image": "data/images/q0297.webp",
+    "translations": {
+        "uz": {
+            "text": "Kim yo'l berishi kerak?",
+            "options": [
+                "F1. Yuk avtomobil haydovchisi",
+                "F2. Yengil avtomobil haydovchisi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 21-bobi 128-bandga asosan: Yo'lning 1.13 va 1.14 yo'l belgilari bilan belgilangan qiyaliklarida, qarama-qarshi yo'nalishlarda harakatlanishni qiyinlashtiradigan biron-bir to'siq boʻlsa, nishablikka harakatlanayotgan transport vositasining haydovchisi yoʻl berishi kerak."
+        },
+        "ru": {
+            "text": "Кто должен уступить дорогу?",
+            "options": [
+                "F1. Водитель грузового автомобиля",
+                "F2. Водитель легкового автомобиля"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Предупреждающий знак 1.14 \"Крутой подъем\".\nПункту 128 главы 21 ПДД гласит: На уклонах, обозначенных знаками 1.13 и 1.14, при наличии препятствия, затрудняющего движение в противоположных направлениях, уступить дорогу должен водитель транспортного средства, движущегося на спуск. В данном случае водитель грузового автомобиля движется на спуск, поэтому он должен уступить дорогу."
+        },
+        "uzk": {
+            "text": "Ким йўл бериши керак?",
+            "options": [
+                "F1. Юк автомобиль ҳайдовчиси",
+                "F2. Енгил автомобиль ҳайдовчиси"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 21-боби 128-бандга асосан: Йўлнинг 1.13 ва 1.14 йўл белгилари билан белгиланган қияликларида, қарама-қарши йўналишларда ҳаракатланишни қийинлаштирадиган бирон-бир тўсиқ бўлса, нишабликка ҳаракатланаётган транспорт воситасининг ҳайдовчиси йўл бериши керак."
+        }
+    }
 }

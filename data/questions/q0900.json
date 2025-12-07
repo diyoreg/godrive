@@ -1,30 +1,30 @@
-﻿{
-    "questionId":  900,
-    "image":  "data/images/q0900.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu belgilardan qaysi biri oldinda yo\u0027l qoplamasi ustida sun\u0027iy notekislik borligi haqida ogohlantiradi?",
-                                    "options":  [
-                                                    "F1. «A» va «C»"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ, 1.31. «Sun’iy yo\u0027l notekisligi» belgisi."
-                                },
-                         "ru":  {
-                                    "text":  "Какой из этих знаков предупреждает о наличии впереди искусственной неровности дорожного покрытия?",
-                                    "options":  [
-                                                    "F1. «A» и «C»"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "ПДД, Знак 1.31. \"Искусственная неровность дороги»."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу белгилардан қайси бири олдинда йўл қопламаси устида сунъий нотекислик борлиги ҳақида огоҳлантиради?",
-                                     "options":  [
-                                                     "F1. «A» ва «C»"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ, 1.31. «Сунъий йўл нотекислиги» белгиси."
-                                 }
-                     }
+{
+    "questionId": 900,
+    "image": "data/images/q0900.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu belgilardan qaysi biri oldinda yo'l qoplamasi ustida sun'iy notekislik borligi haqida ogohlantiradi?",
+            "options": [
+                "F1. «A» va «C»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ, 1.31. «Sun’iy yo'l notekisligi» belgisi."
+        },
+        "ru": {
+            "text": "Какой из этих знаков предупреждает о наличии впереди искусственной неровности дорожного покрытия?",
+            "options": [
+                "F1. «A» и «C»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ПДД, Знак 1.31. \"Искусственная неровность дороги»."
+        },
+        "uzk": {
+            "text": "Ушбу белгилардан қайси бири олдинда йўл қопламаси устида сунъий нотекислик борлиги ҳақида огоҳлантиради?",
+            "options": [
+                "F1. «A» ва «C»"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ, 1.31. «Сунъий йўл нотекислиги» белгиси."
+        }
+    }
 }

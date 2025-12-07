@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  384,
-    "image":  "data/images/q0384.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Qaysi transport vositasi haydovchisi birinchi bo\u0027lib harakatlanish huquqiga ega?",
-                                    "options":  [
-                                                    "F1. Avtomobil haydovchisi",
-                                                    "F2. Velosiped haydovchisi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng ahamiyatga ega bo\u0027lmagan yo\u0027llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yo\u0027ldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo\u0027nalishidan qat\u0027i nazar, yo\u0027l berishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Водитель какого транспортного средства имеет право на первоочередное движение?",
-                                    "options":  [
-                                                    "F1. Водитель автомобиля",
-                                                    "F2. Водитель велосипеда"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Пункт 104 главы 16 ПДД гласит: Eсли главная дорога на перекрестке меняет направление, водители, движущиеся по главной дороге, должны руководствоваться между собой правилами проезда перекрестков равнозначных дорог. Этим же правилом должны руководствоваться между собой и водители, движущиеся по второстепенным дорогам."
-                                },
-                         "uzk":  {
-                                     "text":  "Қайси транспорт воситаси ҳайдовчиси биринчи бўлиб ҳаракатланиш ҳуқуқига эга?",
-                                     "options":  [
-                                                     "F1. Автомобиль ҳайдовчиси",
-                                                     "F2. Велосипед ҳайдовчиси"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 16-боби 104-бандининг биринчи хатбошисига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак."
-                                 }
-                     }
+{
+    "questionId": 384,
+    "image": "data/images/q0384.webp",
+    "translations": {
+        "uz": {
+            "text": "Qaysi transport vositasi haydovchisi birinchi bo'lib harakatlanish huquqiga ega?",
+            "options": [
+                "F1. Avtomobil haydovchisi",
+                "F2. Velosiped haydovchisi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 16-bobi 104-bandining birinchi xatboshisiga asosan: Teng ahamiyatga ega bo'lmagan yo'llar kesishgan chorrahada, ikkinchi darajali yoʻlda harakatlanayotgan transport vositasining haydovchisi asosiy yo'ldan yaqinlashayotgan transport vositalariga, ularning keyingi harakat yo'nalishidan qat'i nazar, yo'l berishi kerak."
+        },
+        "ru": {
+            "text": "Водитель какого транспортного средства имеет право на первоочередное движение?",
+            "options": [
+                "F1. Водитель автомобиля",
+                "F2. Водитель велосипеда"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Пункт 104 главы 16 ПДД гласит: Eсли главная дорога на перекрестке меняет направление, водители, движущиеся по главной дороге, должны руководствоваться между собой правилами проезда перекрестков равнозначных дорог. Этим же правилом должны руководствоваться между собой и водители, движущиеся по второстепенным дорогам."
+        },
+        "uzk": {
+            "text": "Қайси транспорт воситаси ҳайдовчиси биринчи бўлиб ҳаракатланиш ҳуқуқига эга?",
+            "options": [
+                "F1. Автомобиль ҳайдовчиси",
+                "F2. Велосипед ҳайдовчиси"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 16-боби 104-бандининг биринчи хатбошисига асосан: Тенг аҳамиятга эга бўлмаган йўллар кесишган чорраҳада, иккинчи даражали йўлда ҳаракатланаётган транспорт воситасининг ҳайдовчиси асосий йўлдан яқинлашаётган транспорт воситаларига, уларнинг кейинги ҳаракат йўналишидан қатъи назар, йўл бериши керак."
+        }
+    }
 }

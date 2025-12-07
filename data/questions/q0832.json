@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  832,
-    "image":  "data/images/q0832.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Ushbu holatda qaysi transport vositasi yo\u0027l berishi kerak?",
-                                    "options":  [
-                                                    "F1. Avtobus",
-                                                    "F2. Yengil avtomobil"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "YHQ 9-bobi 53-bandi: Haydovchi harakatlanishni boshlash, manyovr qilish (qayta tizilish, burilish, qayrilib olish, quvib o\u0027tish va aylanib o\u0027tish) va to\u0027xtashdan oldin bajarilayotgan manyovr boshqa yo\u0027l harakati ishtirokchilarini harakatlanishiga xavf tug\u0027dirmasligi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "Какое транспортное средство должен уступить дорогу?",
-                                    "options":  [
-                                                    "F1. Автобус",
-                                                    "F2. Легковой автомобиль"
-                                                ],
-                                    "correctAnswer":  1,
-                                    "explanation":  "Пункта 53 главы 9 ПДД, гласит: Перед началом движения и маневром (перестроение, поворот, разворот, обгон, объезд) и остановкой водитель должен убедиться в том, что маневр безопасен и не создает помех другим участникам движения."
-                                },
-                         "uzk":  {
-                                     "text":  "Ушбу ҳолатда қайси транспорт воситаси йўл бериши керак?",
-                                     "options":  [
-                                                     "F1. Aвтобус",
-                                                     "F2. Енгил автомобиль"
-                                                 ],
-                                     "correctAnswer":  1,
-                                     "explanation":  "ЙҲҚ 9-боби 53-банди: Ҳайдовчи ҳаракатланишни бошлаш, манёвр қилиш (қайта тизилиш, бурилиш, қайрилиб олиш, қувиб ўтиш ва айланиб ўтиш) ва тўхташдан олдин бажарилаётган манёвр бошқа йўл ҳаракати иштирокчиларини ҳаракатланишига хавф туғдирмаслиги керак."
-                                 }
-                     }
+{
+    "questionId": 832,
+    "image": "data/images/q0832.webp",
+    "translations": {
+        "uz": {
+            "text": "Ushbu holatda qaysi transport vositasi yo'l berishi kerak?",
+            "options": [
+                "F1. Avtobus",
+                "F2. Yengil avtomobil"
+            ],
+            "correctAnswer": 1,
+            "explanation": "YHQ 9-bobi 53-bandi: Haydovchi harakatlanishni boshlash, manyovr qilish (qayta tizilish, burilish, qayrilib olish, quvib o'tish va aylanib o'tish) va to'xtashdan oldin bajarilayotgan manyovr boshqa yo'l harakati ishtirokchilarini harakatlanishiga xavf tug'dirmasligi kerak."
+        },
+        "ru": {
+            "text": "Какое транспортное средство должен уступить дорогу?",
+            "options": [
+                "F1. Автобус",
+                "F2. Легковой автомобиль"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Пункта 53 главы 9 ПДД, гласит: Перед началом движения и маневром (перестроение, поворот, разворот, обгон, объезд) и остановкой водитель должен убедиться в том, что маневр безопасен и не создает помех другим участникам движения."
+        },
+        "uzk": {
+            "text": "Ушбу ҳолатда қайси транспорт воситаси йўл бериши керак?",
+            "options": [
+                "F1. Aвтобус",
+                "F2. Енгил автомобиль"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ЙҲҚ 9-боби 53-банди: Ҳайдовчи ҳаракатланишни бошлаш, манёвр қилиш (қайта тизилиш, бурилиш, қайрилиб олиш, қувиб ўтиш ва айланиб ўтиш) ва тўхташдан олдин бажарилаётган манёвр бошқа йўл ҳаракати иштирокчиларини ҳаракатланишига хавф туғдирмаслиги керак."
+        }
+    }
 }

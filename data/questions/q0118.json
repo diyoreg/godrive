@@ -3,7 +3,7 @@
     "image": "data/images/defaultpic.jpg",
     "translations": {
         "uz": {
-            "text": "Текст вопроса не найден",
+            "text": "Yuk tashish taqiqlanadi, agar:",
             "options": [
                 "F1. Yuk transport vositasining gabaritlaridan 1 metrdan ortiq chiqib tursa",
                 "F2. Tashilayotgan yuk vazni shu transport vositasi uchun ishlab chiqargan korxona belgilagan kattalikdan ortiq bo'lsa",
@@ -13,7 +13,7 @@
             "explanation": "YHQ 27-bobi 160-bandiga asosan: Tashilayotgan yukning vazni va o'qlarga tushadigan og'irlik miqdorining taqsimlanishi ishlab chiqargan korxona tomonidan ushbu transport vositasi uchun belgilangan miqdordan oshmasligi kerak."
         },
         "ru": {
-            "text": "Текст вопроса не найден",
+            "text": "Перевозка грузов запрещается, если:",
             "options": [
                 "F1. Крайняя точка груза по ширине находится на расстоянии (выступает) более 0,4 от внешнего края переднего или заднего габаритного огня",
                 "F2. Груз выступает за габариты автомобиля более чем на 1 м",
@@ -24,7 +24,7 @@
             "explanation": "Пункта 160 главы 27 ПДД, гласит: Масса перевозимого груза и распределение нагрузки по осям не должны превышать величин, установленных предприятием- изготовителем для данного транспортного средства."
         },
         "uzk": {
-            "text": "Текст вопроса не найден",
+            "text": "Юк ташиш тақиқланади, агар:",
             "options": [
                 "F1. Юк энининг чекка нуқтаси олдинги ëки орқа габарит чироғининг ташқи чеккасидан 0,4 метрдан ортиқ чиқиб турса",
                 "F2. Юк транспорт воситасининг габаритларидан 1 метрдан ортиқ чиқиб турса",

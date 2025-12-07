@@ -1,33 +1,33 @@
-﻿{
-    "questionId":  412,
-    "image":  "data/images/q0412.webp",
-    "translations":  {
-                         "uz":  {
-                                    "text":  "Haydovchi qanday holda bu belgining talablarini to\u0027g\u0027ri bajaradi?",
-                                    "options":  [
-                                                    "F1. Kesishadigan yo\u0027l bo\u0027ylab harakat qilayotgan mexanik transport vositalariga yo\u0027l beradi",
-                                                    "F2. Kesishadigan yo\u0027l bo\u0027ylab harakat qilayotgan transport vositalariga yo\u0027l beradi"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "YHQ 1-ilovasi 2-bo\u0027limining yettinchi xatboshisiga asosan: 2.4. «Yo\u0027l bering!». Haydovchi kesib o\u0027tilayotgan yo\u0027ldan, 7.13 qoʻshimcha-axborot belgisi bo\u0027lganda esa asosiy yo\u0027ldan harakatlanayotgan transport vositasiga yo\u0027l berishi kerak."
-                                },
-                         "ru":  {
-                                    "text":  "В каком случае водитель правильно выполнил требования этого знака?",
-                                    "options":  [
-                                                    "F1. Уступил дорогу механическим транспортным средствам, движущимся по пересекаемой дороге",
-                                                    "F2. Уступил дорогу транспортным средствам, движущимся по пересекаемой дороге"
-                                                ],
-                                    "correctAnswer":  2,
-                                    "explanation":  "Знак приоритета 2.4 \"Уступите дорогу\". Водитель должен уступить дорогу транспортным средствам, движущимся по пересекаемой дороге, а при наличии дополнительного знака 7.13 - по главной. Необходимо уступить дорогу не только механическим, но и любым другим транспортным средствам."
-                                },
-                         "uzk":  {
-                                     "text":  "Ҳайдовчи қандай ҳолда бу белгининг талабларини тўғри бажаради?",
-                                     "options":  [
-                                                     "F1. Кесишадиган йўл бўйлаб ҳаракат қилаётган механик транспорт воситаларига йўл беради",
-                                                     "F2. Кесишадиган йўл бўйлаб ҳаракат қилаётган транспорт воситаларига йўл беради"
-                                                 ],
-                                     "correctAnswer":  2,
-                                     "explanation":  "ЙҲҚ 1-иловаси 2-бўлимининг еттинчи хатбошисига асосан: 2.4. «Йўл беринг!». Ҳайдовчи кесиб ўтилаётган йўлдан, 7.13 қўшимча-ахборот белгиси бўлганда эса асосий йўлдан ҳаракатланаётган транспорт воситасига йўл бериши керак."
-                                 }
-                     }
+{
+    "questionId": 412,
+    "image": "data/images/q0412.webp",
+    "translations": {
+        "uz": {
+            "text": "Haydovchi qanday holda bu belgining talablarini to'g'ri bajaradi?",
+            "options": [
+                "F1. Kesishadigan yo'l bo'ylab harakat qilayotgan mexanik transport vositalariga yo'l beradi",
+                "F2. Kesishadigan yo'l bo'ylab harakat qilayotgan transport vositalariga yo'l beradi"
+            ],
+            "correctAnswer": 2,
+            "explanation": "YHQ 1-ilovasi 2-bo'limining yettinchi xatboshisiga asosan: 2.4. «Yo'l bering!». Haydovchi kesib o'tilayotgan yo'ldan, 7.13 qoʻshimcha-axborot belgisi bo'lganda esa asosiy yo'ldan harakatlanayotgan transport vositasiga yo'l berishi kerak."
+        },
+        "ru": {
+            "text": "В каком случае водитель правильно выполнил требования этого знака?",
+            "options": [
+                "F1. Уступил дорогу механическим транспортным средствам, движущимся по пересекаемой дороге",
+                "F2. Уступил дорогу транспортным средствам, движущимся по пересекаемой дороге"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Знак приоритета 2.4 \"Уступите дорогу\". Водитель должен уступить дорогу транспортным средствам, движущимся по пересекаемой дороге, а при наличии дополнительного знака 7.13 - по главной. Необходимо уступить дорогу не только механическим, но и любым другим транспортным средствам."
+        },
+        "uzk": {
+            "text": "Ҳайдовчи қандай ҳолда бу белгининг талабларини тўғри бажаради?",
+            "options": [
+                "F1. Кесишадиган йўл бўйлаб ҳаракат қилаётган механик транспорт воситаларига йўл беради",
+                "F2. Кесишадиган йўл бўйлаб ҳаракат қилаётган транспорт воситаларига йўл беради"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ЙҲҚ 1-иловаси 2-бўлимининг еттинчи хатбошисига асосан: 2.4. «Йўл беринг!». Ҳайдовчи кесиб ўтилаётган йўлдан, 7.13 қўшимча-ахборот белгиси бўлганда эса асосий йўлдан ҳаракатланаётган транспорт воситасига йўл бериши керак."
+        }
+    }
 }
