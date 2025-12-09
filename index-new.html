@@ -41,20 +41,21 @@
             display: flex;
             align-items: center;
             gap: 0.5rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #fff;
             text-decoration: none;
         }
 
-        .logo img {
-            height: 40px;
-            width: auto;
-            object-fit: contain;
-            filter: brightness(0) invert(1);
-            opacity: 0.9;
-            transition: opacity 0.3s ease;
-        }
-
-        .logo:hover img {
-            opacity: 1;
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
         }
 
         .nav-right {
@@ -402,7 +403,8 @@
     <!-- Top Navigation -->
     <nav class="top-nav">
         <a href="index.html" class="logo">
-            <img src="images/textLogo.png" alt="GoDrive">
+            <div class="logo-icon">🚗</div>
+            <span>GoDrive</span>
         </a>
         <div class="nav-right">
             <button class="nav-button" id="languageBtn">

@@ -43,7 +43,7 @@ router.post('/login', async (req, res) => {
             message: 'Успешная авторизация',
             data: {
                 token,
-                user: user.toSafeObject(),
+                user: user.toJSON ? user.toJSON() : user,
                 settings
             }
         });
@@ -98,7 +98,7 @@ router.post('/register', authenticateToken, async (req, res) => {
             success: true,
             message: 'Пользователь успешно создан',
             data: {
-                user: newUser.toSafeObject()
+                user: newUser.toJSON ? newUser.toJSON() : newUser
             }
         });
         
@@ -119,7 +119,7 @@ router.get('/profile', authenticateToken, async (req, res) => {
         res.json({
             success: true,
             data: {
-                user: req.user.toSafeObject(),
+                user: req.user.toJSON ? req.user.toJSON() : req.user,
                 settings
             }
         });
@@ -151,12 +151,12 @@ router.put('/profile', authenticateToken, async (req, res) => {
             success: true,
             message: 'Профиль успешно обновлен',
             data: {
-                user: req.user.toSafeObject()
+                user: req.user.toJSON ? req.user.toJSON() : req.user
             }
         });
         
     } catch (error) {
-        console.error('Ошибка обновления профиля:', error);
+        console.error('❌ Ошибка обновления профиля:', error);
         res.status(500).json({
             success: false,
             message: 'Ошибка сервера при обновлении профиля'
@@ -226,7 +226,7 @@ router.get('/verify', authenticateToken, (req, res) => {
         success: true,
         message: 'Токен действителен',
         data: {
-            user: req.user.toSafeObject()
+            user: req.user.toJSON ? req.user.toJSON() : req.user
         }
     });
 });

@@ -1,7 +1,7 @@
 // 📊 Система управления билетами с API интеграцией  
 class TicketDashboard {
     constructor() {
-        this.totalTickets = 1;
+        this.totalTickets = 113; // 1130 вопросов / 10 вопросов на билет
         this.api = window.api;
         this.authSystem = window.authSystem;
         this.ticketLoader = window.ticketLoader;
@@ -23,16 +23,8 @@ class TicketDashboard {
             return;
         }
         
-        // Получить общее количество билетов из файловой системы
-        if (this.ticketLoader) {
-            try {
-                this.totalTickets = await this.ticketLoader.getTicketsCount();
-                console.log(`📊 Найдено билетов: ${this.totalTickets}`);
-            } catch (error) {
-                console.error('Ошибка получения количества билетов:', error);
-                this.totalTickets = 1; // fallback
-            }
-        }
+        // Используем фиксированное количество билетов (генерируются динамически из БД)
+        console.log(`📊 Всего билетов: ${this.totalTickets} (генерируются из 1130 вопросов)`);
         
         this.generateTicketGrid();
         this.setupEventListeners();

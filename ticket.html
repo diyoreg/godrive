@@ -816,32 +816,26 @@
 
             async loadQuestions() {
                 try {
-                    const startQuestion = (this.ticketNumber - 1) * 10 + 1;
-                    const endQuestion = startQuestion + 9;
+                    // Генерируем ID вопросов для билета (детерминированно)
+                    const questionIds = this.generateTicketQuestionIds(this.ticketNumber);
                     
-                    console.log(`📚 Загрузка вопросов ${startQuestion}-${endQuestion}`);
+                    console.log(`📚 Загрузка вопросов для билета #${this.ticketNumber}: ${questionIds.join(', ')}`);
                     
-                    const promises = [];
-                    for (let i = startQuestion; i <= endQuestion; i++) {
-                        const filename = `q${String(i).padStart(4, '0')}.json`;
-                        promises.push(
-                            fetch(`data/questions/${filename}`)
-                                .then(res => res.json())
-                                .catch(err => {
-                                    console.error(`❌ Ошибка загрузки ${filename}:`, err);
-                                    return null;
-                                })
-                        );
+                    // Загружаем все вопросы через batch API
+                    const response = await fetch(`/api/questions/batch?ids=${questionIds.join(',')}&lang=${this.currentLanguage}`);
+                    
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
                     }
                     
-                    this.questions = await Promise.all(promises);
-                    this.questions = this.questions.filter(q => q !== null);
+                    const data = await response.json();
+                    this.questions = data.questions;
                     
                     if (this.questions.length === 0) {
                         throw new Error('Не удалось загрузить ни одного вопроса');
                     }
                     
-                    console.log(`✅ Загружено ${this.questions.length} вопросов`);
+                    console.log(`✅ Загружено ${this.questions.length} вопросов из API`);
                     
                     document.getElementById('loadingContainer').style.display = 'none';
                     document.getElementById('errorContainer').style.display = 'none';
@@ -852,6 +846,21 @@
                     document.getElementById('errorContainer').style.display = 'block';
                     document.getElementById('errorContainer').textContent = `Ошибка: ${error.message}`;
                 }
+            }
+
+            // Генерирует детерминированный список ID вопросов для билета
+            generateTicketQuestionIds(ticketNumber) {
+                const totalQuestions = 1130;
+                const questionsPerTicket = 10;
+                const questionIds = [];
+                const startId = ((ticketNumber - 1) * questionsPerTicket) % totalQuestions;
+                
+                for (let i = 0; i < questionsPerTicket; i++) {
+                    const questionId = ((startId + i) % totalQuestions) + 1;
+                    questionIds.push(questionId);
+                }
+                
+                return questionIds;
             }
 
             initUI() {
@@ -930,12 +939,9 @@
                 
                 this.currentQuestionIndex = index;
                 const question = this.questions[index];
-                const translation = question.translations[this.currentLanguage];
                 
-                if (!translation) {
-                    console.error(`❌ Нет перевода для языка ${this.currentLanguage}`);
-                    return;
-                }
+                // API возвращает плоскую структуру (уже на выбранном языке)
+                // Нет question.translations, данные сразу в question
                 
                 // Показываем контейнер вопроса
                 const questionContainer = document.getElementById('questionContainer');
@@ -959,21 +965,21 @@
                 document.getElementById('explanationTitle').textContent = explanationTitles[this.currentLanguage] || explanationTitles.uz;
                 
                 // Текст вопроса
-                document.getElementById('questionText').textContent = translation.text;
+                document.getElementById('questionText').textContent = question.question_text;
                 
                 // Изображение
                 const imgElement = document.getElementById('questionImage');
-                imgElement.src = question.image;
+                imgElement.src = question.image_url;
                 imgElement.style.display = 'block';
                 
                 // Варианты ответов
                 const optionsContainer = document.getElementById('optionsContainer');
                 optionsContainer.innerHTML = '';
                 
-                const userAnswer = this.userAnswers[question.questionId];
+                const userAnswer = this.userAnswers[question.question_id];
                 const isAnswered = userAnswer !== undefined;
                 
-                translation.options.forEach((option, optIndex) => {
+                question.options.forEach((option, optIndex) => {
                     const optionDiv = document.createElement('div');
                     optionDiv.className = 'option-item';
                     optionDiv.textContent = option;
@@ -983,20 +989,20 @@
                         optionDiv.classList.add('disabled');
                         
                         // Правильный ответ (correctAnswer в 1-based индексе)
-                        if (optIndex + 1 === translation.correctAnswer) {
+                        if (optIndex + 1 === question.correct_answer) {
                             optionDiv.classList.add('correct');
                         }
                         
                         // Выбор пользователя
                         if (optIndex + 1 === userAnswer) {
-                            if (userAnswer !== translation.correctAnswer) {
+                            if (userAnswer !== question.correct_answer) {
                                 optionDiv.classList.add('incorrect');
                             }
                         }
                     } else {
                         // Можно выбрать ответ
                         optionDiv.addEventListener('click', () => {
-                            this.selectAnswer(question.questionId, optIndex + 1);
+                            this.selectAnswer(question.question_id, optIndex + 1);
                         });
                     }
                     
@@ -1007,8 +1013,8 @@
                 const explanationContainer = document.getElementById('explanationContainer');
                 const explanationText = document.getElementById('explanationText');
                 
-                if (translation.explanation) {
-                    explanationText.textContent = translation.explanation;
+                if (question.explanation) {
+                    explanationText.textContent = question.explanation;
                     
                     // Если пользователь уже ответил - показываем объяснение, иначе скрываем (spoiler)
                     if (isAnswered) {
@@ -1055,12 +1061,11 @@
                     
                     // Отвеченные вопросы
                     const question = this.questions[index];
-                    const userAnswer = this.userAnswers[question.questionId];
+                    const userAnswer = this.userAnswers[question.question_id];
                     
                     if (userAnswer !== undefined) {
-                        const translation = question.translations[this.currentLanguage];
-                        
-                        if (userAnswer === translation.correctAnswer) {
+                        // API возвращает плоскую структуру
+                        if (userAnswer === question.correct_answer) {
                             btn.classList.add('correct');
                         } else {
                             btn.classList.add('incorrect');

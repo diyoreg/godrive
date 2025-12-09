@@ -9,6 +9,7 @@ const path = require('path');
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/users');
 const progressRoutes = require('./routes/progress');
+const questionsRoutes = require('./routes/questions');
 
 // Инициализация приложения
 const app = express();
@@ -23,7 +24,7 @@ app.use(helmet({
             styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
             fontSrc: ["'self'", "https://fonts.gstatic.com"],
             scriptSrc: ["'self'", "'unsafe-inline'"],
-            imgSrc: ["'self'", "data:", "https:"]
+            imgSrc: ["'self'", "data:", "https:", "https://pub-eb6a742d1f3d48568bcc6d3c14150eaf.r2.dev"]
         }
     }
 }));
@@ -132,6 +133,7 @@ app.use((req, res, next) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/progress', progressRoutes);
+app.use('/api/questions', questionsRoutes);
 
 // Маршрут для проверки здоровья сервера
 app.get('/api/health', (req, res) => {
