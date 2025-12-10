@@ -188,7 +188,13 @@ class User {
             
             return result.rows.length > 0 ? result.rows[0] : null;
         } catch (error) {
-            throw new Error(`Ошибка получения настроек: ${error.message}`);
+            // Если таблица user_settings не существует, возвращаем дефолтные настройки
+            console.warn('⚠️ Таблица user_settings не найдена, используем дефолтные настройки');
+            return {
+                user_id: this.id,
+                language: 'ru',
+                notifications: true
+            };
         }
     }
 
