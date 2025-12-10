@@ -202,12 +202,12 @@ async function startServer() {
             console.log('✅ База данных инициализирована');
         }
         
-        // Запускаем сервер
-        app.listen(PORT, () => {
+        // Запускаем сервер на 0.0.0.0 для Railway
+        app.listen(PORT, '0.0.0.0', () => {
             console.log('🚀 ========================================');
             console.log('🚀  GoDrive Backend Server запущен!');
             console.log('🚀 ========================================');
-            console.log(`🌐 Сервер: http://localhost:${PORT}`);
+            console.log(`🌐 Сервер: http://0.0.0.0:${PORT}`);
             console.log(`🔗 API: http://localhost:${PORT}/api/health`);
             console.log(`📱 Frontend: http://localhost:${PORT}`);
             console.log('🚀 ========================================');
