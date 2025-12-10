@@ -1,38 +1,23 @@
-const sqlite3 = require('sqlite3').verbose();
-const fs = require('fs');
-const path = require('path');
 const bcrypt = require('bcryptjs');
-
-const DB_PATH = path.join(__dirname, 'godrive.db');
-const SCHEMA_PATH = path.join(__dirname, 'schema.sql');
+const pool = require('./connection');
 
 class DatabaseInitializer {
     constructor() {
-        this.db = null;
+        this.pool = pool;
     }
 
     async initializeDatabase() {
         try {
-            console.log('🗄️  Инициализация базы данных SQLite...');
+            console.log('🗄️  Инициализация базы данных PostgreSQL...');
             
-            // Создаем подключение к БД
-            this.db = new sqlite3.Database(DB_PATH, (err) => {
-                if (err) {
-                    console.error('❌ Ошибка подключения к БД:', err.message);
-                    throw err;
-                }
-                console.log('✅ Подключение к SQLite установлено');
-            });
-
-            // Читаем и выполняем схему БД
-            const schema = fs.readFileSync(SCHEMA_PATH, 'utf8');
-            await this.executeSql(schema);
+            // Создаем таблицы
+            await this.createTables();
             
             // Создаем администратора по умолчанию
             await this.createDefaultAdmin();
             
-            // Создаем тестовых пользователей
-            await this.createTestUsers();
+            // Создаем тестового пользователя
+            await this.createTestUser();
             
             console.log('🎉 База данных успешно инициализирована!');
             
@@ -42,80 +27,94 @@ class DatabaseInitializer {
         }
     }
 
-    executeSql(sql) {
-        return new Promise((resolve, reject) => {
-            this.db.exec(sql, (err) => {
-                if (err) {
-                    reject(err);
-                } else {
-                    resolve();
-                }
-            });
-        });
+    async createTables() {
+        const schema = `
+            -- Таблица пользователей
+            CREATE TABLE IF NOT EXISTS users (
+                id SERIAL PRIMARY KEY,
+                username VARCHAR(255) UNIQUE NOT NULL,
+                password VARCHAR(255) NOT NULL,
+                name VARCHAR(255) NOT NULL,
+                role VARCHAR(50) DEFAULT 'user' CHECK (role IN ('user', 'admin')),
+                favorites JSONB DEFAULT '[]'::jsonb,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            );
+
+            -- Таблица прогресса пользователей
+            CREATE TABLE IF NOT EXISTS user_progress (
+                id SERIAL PRIMARY KEY,
+                user_id INTEGER NOT NULL,
+                ticket_id INTEGER NOT NULL,
+                completed BOOLEAN DEFAULT FALSE,
+                score INTEGER DEFAULT 0,
+                total_questions INTEGER DEFAULT 10,
+                answers JSONB,
+                started_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                completed_at TIMESTAMP,
+                FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE,
+                UNIQUE(user_id, ticket_id)
+            );
+
+            -- Индексы
+            CREATE INDEX IF NOT EXISTS idx_user_progress_user_id ON user_progress(user_id);
+            CREATE INDEX IF NOT EXISTS idx_user_progress_ticket_id ON user_progress(ticket_id);
+            CREATE INDEX IF NOT EXISTS idx_users_username ON users(username);
+        `;
+
+        await this.pool.query(schema);
+        console.log('✅ Таблицы созданы');
     }
 
     async createDefaultAdmin() {
-        const hashedPassword = await bcrypt.hash('admin', 10);
-        
-        return new Promise((resolve, reject) => {
+        try {
+            const hashedPassword = await bcrypt.hash('admin', 10);
+            
             const query = `
-                INSERT OR IGNORE INTO users (username, password, name, role)
-                VALUES (?, ?, ?, ?)
+                INSERT INTO users (username, password, name, role)
+                VALUES ($1, $2, $3, $4)
+                ON CONFLICT (username) DO NOTHING
+                RETURNING id
             `;
             
-            this.db.run(query, ['admin', hashedPassword, 'Администратор', 'admin'], function(err) {
-                if (err) {
-                    reject(err);
-                } else {
-                    console.log('👤 Администратор создан (ID:', this.lastID, ')');
-                    resolve(this.lastID);
-                }
-            });
-        });
+            const result = await this.pool.query(query, ['admin', hashedPassword, 'Администратор', 'admin']);
+            
+            if (result.rows.length > 0) {
+                console.log('👤 Администратор создан (admin/admin)');
+            } else {
+                console.log('ℹ️  Администратор уже существует');
+            }
+        } catch (error) {
+            console.error('❌ Ошибка создания администратора:', error.message);
+        }
     }
 
-    async createTestUsers() {
-        const testUsers = [
-            { username: 'user', password: 'user', name: 'Пользователь' }
-        ];
-
-        for (const user of testUsers) {
-            try {
-                const hashedPassword = await bcrypt.hash(user.password, 10);
-                
-                await new Promise((resolve, reject) => {
-                    const query = `
-                        INSERT OR IGNORE INTO users (username, password, name, role)
-                        VALUES (?, ?, ?, ?)
-                    `;
-                    
-                    this.db.run(query, [user.username, hashedPassword, user.name, 'user'], function(err) {
-                        if (err) {
-                            reject(err);
-                        } else {
-                            if (this.lastID > 0) {
-                                console.log(`👤 Пользователь ${user.username} создан (ID: ${this.lastID})`);
-                            }
-                            resolve(this.lastID);
-                        }
-                    });
-                });
-            } catch (error) {
-                console.error(`❌ Ошибка создания пользователя ${user.username}:`, error);
+    async createTestUser() {
+        try {
+            const hashedPassword = await bcrypt.hash('user', 10);
+            
+            const query = `
+                INSERT INTO users (username, password, name, role)
+                VALUES ($1, $2, $3, $4)
+                ON CONFLICT (username) DO NOTHING
+                RETURNING id
+            `;
+            
+            const result = await this.pool.query(query, ['user', hashedPassword, 'Пользователь', 'user']);
+            
+            if (result.rows.length > 0) {
+                console.log('👤 Пользователь создан (user/user)');
+            } else {
+                console.log('ℹ️  Пользователь user уже существует');
             }
+        } catch (error) {
+            console.error('❌ Ошибка создания пользователя:', error.message);
         }
     }
 
     close() {
-        if (this.db) {
-            this.db.close((err) => {
-                if (err) {
-                    console.error('❌ Ошибка закрытия БД:', err.message);
-                } else {
-                    console.log('✅ Соединение с БД закрыто');
-                }
-            });
-        }
+        // PostgreSQL pool закрывается автоматически
+        console.log('✅ Инициализация завершена');
     }
 }
 
