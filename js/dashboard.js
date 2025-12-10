@@ -32,6 +32,7 @@ class TicketDashboard {
         // Загрузить данные через API
         await this.loadUserProgress();
         await this.loadUserStats();
+        await this.loadFavoritesCount();
         await this.displayUserName();
         this.checkAdminAccess();
     }
@@ -40,11 +41,7 @@ class TicketDashboard {
         if (window.LanguageManager) {
             this.languageManager = new window.LanguageManager();
             
-            // Создать кнопки переключения языка
-            const body = document.body;
-            this.languageManager.createLanguageButtons(body);
-            
-            // Применить переводы
+            // Применить переводы (без кнопок смены языка)
             this.languageManager.updateInterface();
         }
     }
@@ -64,21 +61,14 @@ class TicketDashboard {
             ticketNumber.className = 'ticket-number';
             ticketNumber.textContent = i;
             
-            // Create ticket status with translation
+            // Create ticket status (will be updated by loadUserProgress)
             const ticketStatus = document.createElement('div');
             ticketStatus.className = 'ticket-status';
-            const isCompleted = this.isTicketCompleted(i);
-            ticketStatus.setAttribute('data-translate', isCompleted ? 'ticketCompleted' : 'ticketNotCompleted');
-            ticketStatus.textContent = isCompleted ? '✓ Пройден' : 'Не пройден';
+            ticketStatus.textContent = '';
             
             ticketElement.appendChild(ticketNumber);
             ticketElement.appendChild(ticketStatus);
             ticketElement.dataset.ticketNumber = i;
-            
-            // Проверить, пройден ли билет
-            if (isCompleted) {
-                ticketElement.classList.add('completed');
-            }
             
             ticketElement.addEventListener('click', () => this.openTicket(i));
             ticketsGrid.appendChild(ticketElement);
@@ -109,6 +99,13 @@ class TicketDashboard {
         if (adminBtn) {
             adminBtn.addEventListener('click', () => {
                 window.location.href = 'admin.html';
+            });
+        }
+        
+        const favoritesBtn = document.getElementById('favoritesBtn');
+        if (favoritesBtn) {
+            favoritesBtn.addEventListener('click', () => {
+                window.location.href = 'favorites.html';
             });
         }
     }
@@ -170,29 +167,117 @@ class TicketDashboard {
     }
     
     async loadUserProgress() {
-        if (!this.api || !this.authSystem.isLoggedIn()) return;
+        console.log('📊 Загрузка прогресса пользователя...');
         
         try {
-            // Загружаем прогресс через API
-            this.userProgress = await this.api.getProgress();
+            // Получаем токен для запроса
+            const token = localStorage.getItem('authToken');
+            if (!token) {
+                console.log('⚠️ Нет токена авторизации');
+                return;
+            }
             
-            // Обновляем отображение пройденных билетов
-            if (this.userProgress) {
-                Object.keys(this.userProgress).forEach(ticketId => {
-                    const ticketData = this.userProgress[ticketId];
-                    if (ticketData.completed) {
-                        const ticketElement = document.querySelector(`[data-ticket-number="${ticketId}"]`);
-                        if (ticketElement) {
-                            ticketElement.classList.add('completed');
-                        }
-                    }
+            // Запрос прогресса напрямую к API
+            const response = await fetch('/api/progress', {
+                method: 'GET',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                }
+            });
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const progressData = await response.json();
+            console.log('✅ Прогресс загружен:', progressData);
+            
+            // Сохраняем прогресс
+            this.userProgress = {};
+            
+            // Обрабатываем массив прогресса - API возвращает data.progress
+            if (progressData.data && progressData.data.progress && Array.isArray(progressData.data.progress)) {
+                progressData.data.progress.forEach(item => {
+                    this.userProgress[item.ticket_id] = item;
+                });
+            } else if (progressData.progress && Array.isArray(progressData.progress)) {
+                // Fallback на старую структуру
+                progressData.progress.forEach(item => {
+                    this.userProgress[item.ticket_id] = item;
                 });
             }
+            
+            console.log('📋 Обработанный прогресс:', this.userProgress);
+            
+            // Обновляем визуальное отображение билетов
+            this.updateTicketVisuals();
+            
         } catch (error) {
-            console.error('Ошибка загрузки прогресса:', error);
+            console.error('❌ Ошибка загрузки прогресса:', error);
             // Fallback к localStorage
             this.loadProgressFromLocalStorage();
         }
+    }
+    
+    updateTicketVisuals() {
+        console.log('🎨 Обновление визуального отображения билетов...');
+        
+        if (!this.userProgress) return;
+        
+        Object.keys(this.userProgress).forEach(ticketId => {
+            const ticketData = this.userProgress[ticketId];
+            const ticketElement = document.querySelector(`[data-ticket-number="${ticketId}"]`);
+            
+            if (ticketElement) {
+                // Удаляем старые классы
+                ticketElement.classList.remove('completed', 'completed-low', 'in-progress');
+                
+                // Определяем статус билета
+                if (ticketData.completed) {
+                    // Билет завершен (все вопросы отвечены)
+                    const score = ticketData.score || 0;
+                    const total = ticketData.total_questions || 10;
+                    const percentage = Math.round((score / total) * 100);
+                    
+                    // Выбираем цвет в зависимости от процента
+                    if (percentage >= 90) {
+                        ticketElement.classList.add('completed'); // Зеленый
+                    } else {
+                        ticketElement.classList.add('completed-low'); // Оранжевый
+                    }
+                    
+                    // Обновляем текст статуса - только процент
+                    const statusElement = ticketElement.querySelector('.ticket-status');
+                    if (statusElement) {
+                        statusElement.textContent = `${percentage}%`;
+                    }
+                    
+                    console.log(`✅ Билет ${ticketId} завершен: ${percentage}%`);
+                } else if (ticketData.answers && Object.keys(ticketData.answers).length > 0) {
+                    // Билет начат, но не завершен
+                    const answeredCount = Object.keys(ticketData.answers).length;
+                    const score = ticketData.score || 0;
+                    const total = ticketData.total_questions || 10;
+                    const percentage = Math.round((score / total) * 100);
+                    
+                    // Выбираем цвет в зависимости от процента
+                    if (percentage >= 90) {
+                        ticketElement.classList.add('completed'); // Зеленый
+                    } else {
+                        ticketElement.classList.add('completed-low'); // Оранжевый
+                    }
+                    
+                    // Обновляем текст статуса - только процент
+                    const statusElement = ticketElement.querySelector('.ticket-status');
+                    if (statusElement) {
+                        statusElement.textContent = `${percentage}%`;
+                    }
+                    
+                    console.log(`⏳ Билет ${ticketId} в процессе: ${percentage}% (${answeredCount}/10)`);
+                }
+            }
+        });
     }
 
     loadProgressFromLocalStorage() {
@@ -284,6 +369,31 @@ class TicketDashboard {
             this.updateStatsDisplay(stats);
         } catch (error) {
             console.error('Ошибка загрузки статистики:', error);
+        }
+    }
+
+    async loadFavoritesCount() {
+        if (!this.authSystem || !this.authSystem.isLoggedIn()) return;
+        
+        try {
+            const token = localStorage.getItem('authToken');
+            const response = await fetch('/api/favorites', {
+                headers: { 'Authorization': `Bearer ${token}` }
+            });
+            
+            if (response.ok) {
+                const data = await response.json();
+                const count = data.favorites?.length || 0;
+                
+                const badge = document.getElementById('favoritesCountBadge');
+                if (badge) {
+                    badge.textContent = count;
+                }
+                
+                console.log(`⭐ Избранных вопросов: ${count}`);
+            }
+        } catch (error) {
+            console.error('Ошибка загрузки счетчика избранного:', error);
         }
     }
 

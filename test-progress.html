@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Progress API</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        pre {
+            background: #0f172a;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+        }
+        .success { color: #10b981; }
+        .error { color: #ef4444; }
+    </style>
+</head>
+<body>
+    <h1>Test Progress API</h1>
+    
+    <div>
+        <button id="btnGetProgress">1. GET /api/progress</button>
+        <button id="btnSaveProgress">2. POST /api/progress/ticket/1</button>
+        <button id="btnGetTicketProgress">3. GET /api/progress/ticket/1</button>
+        <button id="btnClear">Clear</button>
+    </div>
+    
+    <pre id="output"></pre>
+    
+    <script>
+        const output = document.getElementById('output');
+        
+        function log(message, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            const className = type === 'error' ? 'error' : type === 'success' ? 'success' : '';
+            output.innerHTML += `<span class="${className}">[${timestamp}] ${message}</span>\n`;
+        }
+        
+        function clearOutput() {
+            output.innerHTML = '';
+        }
+        
+        async function testGetProgress() {
+            log('📊 Тестируем GET /api/progress...');
+            
+            const token = localStorage.getItem('authToken');
+            if (!token) {
+                log('❌ Нет токена авторизации! Пожалуйста, войдите в систему.', 'error');
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/progress', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    log('✅ Прогресс успешно получен:', 'success');
+                    log(JSON.stringify(data, null, 2));
+                } else {
+                    log(`❌ Ошибка: ${response.status}`, 'error');
+                    log(JSON.stringify(data, null, 2), 'error');
+                }
+            } catch (error) {
+                log(`❌ Ошибка сети: ${error.message}`, 'error');
+            }
+        }
+        
+        async function testSaveProgress() {
+            log('💾 Тестируем POST /api/progress/ticket/1...');
+            
+            const token = localStorage.getItem('authToken');
+            if (!token) {
+                log('❌ Нет токена авторизации!', 'error');
+                return;
+            }
+            
+            const progressData = {
+                completed: true,
+                score: 8,
+                totalQuestions: 10,
+                answers: {
+                    '1': { selected: 2, correct: 2, isCorrect: true, timestamp: new Date().toISOString() },
+                    '2': { selected: 1, correct: 3, isCorrect: false, timestamp: new Date().toISOString() },
+                    '3': { selected: 4, correct: 4, isCorrect: true, timestamp: new Date().toISOString() },
+                    '4': { selected: 2, correct: 2, isCorrect: true, timestamp: new Date().toISOString() },
+                    '5': { selected: 3, correct: 3, isCorrect: true, timestamp: new Date().toISOString() },
+                    '6': { selected: 1, correct: 2, isCorrect: false, timestamp: new Date().toISOString() },
+                    '7': { selected: 3, correct: 3, isCorrect: true, timestamp: new Date().toISOString() },
+                    '8': { selected: 4, correct: 4, isCorrect: true, timestamp: new Date().toISOString() },
+                    '9': { selected: 2, correct: 2, isCorrect: true, timestamp: new Date().toISOString() },
+                    '10': { selected: 1, correct: 1, isCorrect: true, timestamp: new Date().toISOString() }
+                },
+                stats: {
+                    correct: 8,
+                    incorrect: 2,
+                    unanswered: 0,
+                    percentage: 80
+                }
+            };
+            
+            try {
+                const response = await fetch('/api/progress/ticket/1', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(progressData)
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    log('✅ Прогресс успешно сохранен:', 'success');
+                    log(JSON.stringify(data, null, 2));
+                } else {
+                    log(`❌ Ошибка: ${response.status}`, 'error');
+                    log(JSON.stringify(data, null, 2), 'error');
+                }
+            } catch (error) {
+                log(`❌ Ошибка сети: ${error.message}`, 'error');
+            }
+        }
+        
+        async function testGetTicketProgress() {
+            log('📋 Тестируем GET /api/progress/ticket/1...');
+            
+            const token = localStorage.getItem('authToken');
+            if (!token) {
+                log('❌ Нет токена авторизации!', 'error');
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/progress/ticket/1', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    log('✅ Прогресс билета получен:', 'success');
+                    log(JSON.stringify(data, null, 2));
+                } else {
+                    log(`❌ Ошибка: ${response.status}`, 'error');
+                    log(JSON.stringify(data, null, 2), 'error');
+                }
+            } catch (error) {
+                log(`❌ Ошибка сети: ${error.message}`, 'error');
+            }
+        }
+        
+        // Проверяем авторизацию при загрузке
+        window.addEventListener('load', () => {
+            const token = localStorage.getItem('authToken');
+            if (token) {
+                log('✅ Токен авторизации найден', 'success');
+            } else {
+                log('⚠️ Токен авторизации не найден. Войдите через login.html', 'error');
+            }
+            
+            // Добавляем обработчики событий
+            document.getElementById('btnGetProgress').addEventListener('click', testGetProgress);
+            document.getElementById('btnSaveProgress').addEventListener('click', testSaveProgress);
+            document.getElementById('btnGetTicketProgress').addEventListener('click', testGetTicketProgress);
+            document.getElementById('btnClear').addEventListener('click', clearOutput);
+        });
+    </script>
+</body>
+</html>

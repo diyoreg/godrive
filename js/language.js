@@ -217,14 +217,14 @@ const translations = {
 // Система управления языком
 class LanguageManager {
     constructor() {
-        this.currentLanguage = localStorage.getItem('selectedLanguage') || 'ru';
+        this.currentLanguage = localStorage.getItem('language') || 'uz';
         this.translations = translations;
     }
     
     setLanguage(language) {
         if (this.translations[language]) {
             this.currentLanguage = language;
-            localStorage.setItem('selectedLanguage', language);
+            localStorage.setItem('language', language);
             this.updateInterface();
             
             // Генерируем событие смены языка для других компонентов

@@ -152,16 +152,18 @@
             background: rgba(51, 65, 85, 0.6);
             border: 2px solid rgba(148, 163, 184, 0.2);
             border-radius: 12px;
-            padding: 1rem;
+            padding: 0.75rem;
             text-align: center;
             cursor: pointer;
             transition: all 0.3s ease;
-            aspect-ratio: 1;
+            aspect-ratio: 1 / 1;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 0.5rem;
+            gap: 0.25rem;
+            position: relative;
+            overflow: visible;
         }
 
         .ticket-card:hover {
@@ -175,10 +177,30 @@
             background: linear-gradient(135deg, #10b981, #34d399);
             border-color: transparent;
         }
+        
+        .ticket-card.completed:hover {
+            background: linear-gradient(135deg, #059669, #10b981);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
+        }
+        
+        .ticket-card.completed-low {
+            background: linear-gradient(135deg, #f59e0b, #fbbf24);
+            border-color: transparent;
+        }
+        
+        .ticket-card.completed-low:hover {
+            background: linear-gradient(135deg, #d97706, #f59e0b);
+            box-shadow: 0 10px 30px rgba(245, 158, 11, 0.4);
+        }
 
         .ticket-card.in-progress {
             background: linear-gradient(135deg, #f59e0b, #fbbf24);
             border-color: transparent;
+        }
+        
+        .ticket-card.in-progress:hover {
+            background: linear-gradient(135deg, #d97706, #f59e0b);
+            box-shadow: 0 10px 30px rgba(245, 158, 11, 0.4);
         }
 
         .ticket-number {
@@ -186,13 +208,27 @@
             font-size: 1.5rem;
             font-weight: 700;
             line-height: 1;
+            flex-shrink: 0;
         }
 
         .ticket-status {
             color: rgba(255, 255, 255, 0.9);
             font-size: 0.7rem;
-            line-height: 1.2;
+            line-height: 1;
             font-weight: 500;
+            white-space: nowrap;
+            overflow: visible;
+            text-overflow: ellipsis;
+            max-width: 100%;
+            flex-shrink: 0;
+            display: block;
+        }
+
+        /* Скрываем кнопки смены языка, если они добавляются */
+        .language-btn,
+        .language-switcher,
+        .language-switcher-header {
+            display: none !important;
         }
 
         @keyframes fadeInUp {
@@ -216,6 +252,40 @@
                 padding: 0 1rem 1rem;
             }
             
+            .header {
+                padding: 1rem;
+                flex-wrap: wrap;
+                gap: 0.75rem;
+            }
+            
+            .header h1 {
+                order: 1;
+                font-size: 1.25rem;
+            }
+            
+            .header-logo {
+                height: 30px;
+            }
+            
+            .header-title {
+                position: static;
+                transform: none;
+                order: 3;
+                width: 100%;
+                text-align: center;
+                font-size: 18px;
+            }
+            
+            .header-actions {
+                order: 2;
+                margin-left: auto;
+            }
+            
+            .header-actions button {
+                padding: 0.5rem 0.75rem;
+                font-size: 0.75rem;
+            }
+            
             .tickets-grid {
                 grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
                 gap: 0.75rem;
@@ -232,14 +302,9 @@
             </h1>
             <div class="header-title" id="headerTitle" data-translate="ticketsListTitle">Список всех билетов</div>
             <div class="header-actions">
-                <div class="language-dropdown">
-                    <button class="globe-btn" id="globeBtn">🌐</button>
-                    <div class="language-switcher" id="langSwitcher">
-                        <button class="lang-btn active" data-lang="uz">O'zbekcha</button>
-                        <button class="lang-btn" data-lang="ru">Русский</button>
-                        <button class="lang-btn" data-lang="uzk">Ўзбекча</button>
-                    </div>
-                </div>
+                <button id="favoritesBtn" class="nav-btn" style="background: rgba(251, 191, 36, 0.2); border-color: rgba(251, 191, 36, 0.4); color: #fbbf24;">
+                    ⭐ Избранное <span id="favoritesCountBadge" style="background: rgba(251, 191, 36, 0.3); padding: 2px 8px; border-radius: 6px; margin-left: 4px; font-size: 12px;">0</span>
+                </button>
                 <button id="backToHome" class="nav-btn" data-translate="mainTitle">Главная</button>
             </div>
         </header>
@@ -256,51 +321,20 @@
     <script src="js/dashboard.js"></script>
     
     <script>
-        // Language switching
-        const currentLang = localStorage.getItem('language') || 'uz';
-        
-        function updateLanguage(lang) {
-            localStorage.setItem('language', lang);
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
-            });
-            if (window.LanguageManager) {
-                const langManager = new window.LanguageManager();
-                langManager.setLanguage(lang);
-                window.location.reload();
-            }
-        }
-
         // Обеспечиваем правильную инициализацию
         window.addEventListener('DOMContentLoaded', function() {
             console.log('🔄 DOMContentLoaded - инициализируем системы...');
             
+            // Применяем сохраненный язык сразу
+            const savedLang = localStorage.getItem('language') || 'uz';
+            if (window.LanguageManager) {
+                const langManager = new window.LanguageManager();
+                langManager.setLanguage(savedLang);
+            }
+            
             // Logo navigation
             document.querySelector('.header-logo')?.addEventListener('click', () => {
                 window.location.href = 'index.html';
-            });
-
-            // Globe button dropdown toggle
-            const globeBtn = document.getElementById('globeBtn');
-            const langSwitcher = document.getElementById('langSwitcher');
-            
-            globeBtn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                langSwitcher.classList.toggle('show');
-            });
-
-            document.addEventListener('click', (e) => {
-                if (!langSwitcher.contains(e.target) && e.target !== globeBtn) {
-                    langSwitcher.classList.remove('show');
-                }
-            });
-
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
-                btn.addEventListener('click', () => {
-                    updateLanguage(btn.getAttribute('data-lang'));
-                    langSwitcher.classList.remove('show');
-                });
             });
 
             // Back to home button

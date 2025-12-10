@@ -275,31 +275,51 @@
             backdrop-filter: blur(20px);
             border: 1px solid rgba(148, 163, 184, 0.1);
             border-radius: 16px;
-            padding: 1.5rem;
+            padding: 1.75rem;
             display: flex;
+            flex-direction: row;
             align-items: center;
-            gap: 1rem;
+            justify-content: flex-start;
+            gap: 1.25rem;
+            min-height: 140px;
         }
 
         .stat-icon {
-            font-size: 2rem;
+            font-size: 2.5rem;
+            flex-shrink: 0;
+            width: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .stat-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1;
         }
 
         .stat-content h4 {
             font-size: 0.875rem;
             color: #94a3b8;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.625rem;
+            font-weight: 500;
+            line-height: 1.2;
         }
 
         .stat-content .stat-value {
             font-size: 2rem;
             font-weight: 700;
             color: #fff;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
         }
 
         .stat-content .stat-desc {
             font-size: 0.75rem;
             color: #64748b;
+            line-height: 1.4;
         }
 
         /* Quick Actions */
@@ -407,15 +427,15 @@
         <div class="nav-right">
             <button class="nav-button" id="languageBtn">
                 <span>🌐</span>
-                <span>O'zbekcha</span>
+                <span id="currentLangText">O'zbekcha</span>
             </button>
             <button class="nav-button" id="profileBtn">
                 <span>👤</span>
-                <span>Profile</span>
+                <span data-translate="profile">Profil</span>
             </button>
             <button class="nav-button logout-btn" id="logoutBtn">
                 <span>🚪</span>
-                <span>Logout</span>
+                <span data-translate="logout">Chiqish</span>
             </button>
         </div>
     </nav>
@@ -424,50 +444,50 @@
     <div class="container">
         <!-- Hero Section -->
         <div class="hero">
-            <h1>Welcome, Akmal! 👋</h1>
-            <p>Ready to master your driving exam? Choose your preferred learning mode and start your journey to success.</p>
+            <h1><span data-translate="welcome">Xush kelibsiz</span>, <span id="userName">Akmal</span>!</h1>
+            <p data-translate="heroDesc">Haydovchilik imtihonini mukammal egallashga tayyormisiz? O'zingizga mos ta'lim rejimini tanlang va muvaffaqiyatga yo'l oching.</p>
         </div>
 
         <!-- Mode Cards -->
         <div class="modes-grid">
             <!-- Practice Tickets -->
-            <div class="mode-card blue" onclick="window.location.href='dashboard.html'">
+            <div class="mode-card blue" id="practiceTicketsCard">
                 <div class="mode-icon">📚</div>
-                <h3>Practice Tickets</h3>
-                <p>113 official exam tickets organized for systematic learning</p>
-                <div class="mode-badge">95/113 Completed</div>
+                <h3 data-translate="practiceTickets">Imtihon Biletlari</h3>
+                <p data-translate="practiceTicketsDesc">Tizimli o'rganish uchun tashkil etilgan 113 ta rasmiy imtihon biletlari</p>
+                <div class="mode-badge"><span data-translate="completed">Bajarildi</span>: <span id="ticketsProgress">0/113</span></div>
                 <div class="progress-bar">
-                    <div class="progress-fill" style="width: 84%;"></div>
+                    <div class="progress-fill" id="ticketsProgressBar" style="width: 0%;"></div>
                 </div>
             </div>
 
             <!-- Exam Mode -->
-            <div class="mode-card green" onclick="alert('Exam Mode - Coming Soon!')">
+            <div class="mode-card green" id="examModeCard">
                 <div class="mode-icon">🎯</div>
-                <h3>Exam Mode</h3>
-                <p>Real exam simulation with 20 random questions</p>
-                <div class="mode-badge">Last Score: 18/20</div>
-                <div style="font-size: 0.75rem; color: #64748b; margin-top: 0.5rem;">⏱️ 20 minutes</div>
+                <h3 data-translate="examMode">Imtihon Rejimi</h3>
+                <p data-translate="examModeDesc">20 ta tasodifiy savol bilan haqiqiy imtihon simulyatsiyasi</p>
+                <div class="mode-badge"><span data-translate="lastScore">Oxirgi natija</span>: 18/20</div>
+                <div style="font-size: 0.75rem; color: #64748b; margin-top: 0.5rem;"><span data-translate="minutes">⏱️ 20 daqiqa</span></div>
             </div>
 
             <!-- Rapid Mode -->
-            <div class="mode-card orange" onclick="alert('Rapid Mode - Coming Soon!')">
+            <div class="mode-card orange" id="rapidModeCard">
                 <div class="mode-icon">⚡</div>
-                <h3>Rapid Mode</h3>
-                <p>All 1130 questions in sequential order</p>
-                <div class="mode-badge">450/1130 Done</div>
+                <h3 data-translate="rapidMode">Tezkor Rejim</h3>
+                <p data-translate="rapidModeDesc">Barcha 1130 ta savol ketma-ket tartibda</p>
+                <div class="mode-badge"><span data-translate="done">Bajarildi</span>: 450/1130</div>
                 <div class="progress-bar">
                     <div class="progress-fill" style="width: 40%; background: linear-gradient(90deg, #f59e0b, #fbbf24);"></div>
                 </div>
             </div>
 
             <!-- Random Rapid -->
-            <div class="mode-card purple" onclick="alert('Random Rapid - Coming Soon!')">
+            <div class="mode-card purple" id="randomRapidCard">
                 <div class="mode-icon">🎲</div>
-                <h3>Random Rapid</h3>
-                <p>All questions in randomized order for variety</p>
-                <div class="mode-badge">Challenge Mode</div>
-                <div style="font-size: 0.75rem; color: #64748b; margin-top: 0.5rem;">🔀 Shuffled Order</div>
+                <h3 data-translate="randomRapid">Tasodifiy Tezkor</h3>
+                <p data-translate="randomRapidDesc">Xilma-xillik uchun tasodifiy tartibda barcha savollar</p>
+                <div class="mode-badge" data-translate="challengeMode">Qiyin Rejim</div>
+                <div style="font-size: 0.75rem; color: #64748b; margin-top: 0.5rem;" data-translate="shuffled">🔀 Aralash tartib</div>
             </div>
         </div>
 
@@ -476,67 +496,376 @@
             <div class="stat-card">
                 <div class="stat-icon">📊</div>
                 <div class="stat-content">
-                    <h4>Overall Accuracy</h4>
-                    <div class="stat-value" style="color: #10b981;">87.5%</div>
-                    <div class="stat-desc">Based on 1,247 answered questions</div>
+                    <h4 data-translate="overallAccuracy">Umumiy Aniqlik</h4>
+                    <div id="accuracyValue" class="stat-value" style="color: #10b981;">0%</div>
+                    <div id="accuracyDesc" class="stat-desc" data-translate="accuracyDesc">0 ta javob berilgan savollar asosida</div>
                 </div>
             </div>
 
             <div class="stat-card">
                 <div class="stat-icon">⏰</div>
                 <div class="stat-content">
-                    <h4>Study Time</h4>
-                    <div class="stat-value" style="color: #60a5fa;">24h 15m</div>
-                    <div class="stat-desc">Total time spent learning</div>
+                    <h4 data-translate="studyTime">O'rganish Vaqti</h4>
+                    <div id="timeValue" class="stat-value" style="color: #60a5fa;">0ч 0м</div>
+                    <div class="stat-desc" data-translate="studyTimeDesc">Jami o'rganish vaqti</div>
                 </div>
             </div>
 
             <div class="stat-card">
-                <div class="stat-icon">🔥</div>
+                <div class="stat-icon">📅</div>
                 <div class="stat-content">
-                    <h4>Current Streak</h4>
-                    <div class="stat-value" style="color: #f59e0b;">12 days</div>
-                    <div class="stat-desc">Keep up the great work!</div>
+                    <h4 data-translate="joinDate">Platformada</h4>
+                    <div id="daysValue" class="stat-value" style="color: #f59e0b;">0 <span data-translate="days">kun</span></div>
+                    <div class="stat-desc" data-translate="joinDateDesc">Ro'yxatdan o'tganingizdan beri</div>
                 </div>
             </div>
         </div>
 
         <!-- Quick Actions -->
         <div class="quick-actions">
-            <h2>Quick Actions</h2>
+            <h2 data-translate="quickActions">Tezkor Harakatlar</h2>
             <div class="actions-grid">
-                <button class="action-btn" onclick="alert('Resume Last Session')">
+                <button class="action-btn" onclick="alert(translations[currentLang].comingSoon)">
                     <span>↻</span>
-                    <span>Resume Last Session</span>
+                    <span data-translate="resumeSession">Oxirgi Seansni Davom Ettirish</span>
                 </button>
-                <button class="action-btn" onclick="alert('Review Favorites')">
+                <button class="action-btn" onclick="alert(translations[currentLang].comingSoon)">
                     <span>⭐</span>
-                    <span>Review Favorites</span>
+                    <span data-translate="reviewFavorites">Sevimlilarni Ko'rib Chiqish</span>
                 </button>
-                <button class="action-btn" onclick="alert('Wrong Answers')">
+                <button class="action-btn" onclick="alert(translations[currentLang].comingSoon)">
                     <span>❌</span>
-                    <span>Wrong Answers</span>
+                    <span data-translate="wrongAnswers">Noto'g'ri Javoblar</span>
                 </button>
-                <button class="action-btn" onclick="alert('Settings')">
+                <button class="action-btn" onclick="alert(translations[currentLang].comingSoon)">
                     <span>⚙️</span>
-                    <span>Settings</span>
+                    <span data-translate="settings">Sozlamalar</span>
                 </button>
             </div>
         </div>
     </div>
 
     <script>
+        // Translations
+        const translations = {
+            uz: {
+                currentLang: "O'zbekcha",
+                profile: "Profil",
+                logout: "Chiqish",
+                welcome: "Xush kelibsiz",
+                heroDesc: "Haydovchilik imtihonini mukammal egallashga tayyormisiz? O'zingizga mos ta'lim rejimini tanlang va muvaffaqiyatga yo'l oching.",
+                practiceTickets: "Biletlar",
+                practiceTicketsDesc: "Tizimli o'rganish uchun tashkil etilgan 113 ta rasmiy imtihon biletlari",
+                completed: "Bajarildi",
+                examMode: "Imtihon",
+                examModeDesc: "20 ta tasodifiy savol bilan haqiqiy imtihon simulyatsiyasi",
+                lastScore: "Oxirgi natija",
+                minutes: "⏱️ 20 daqiqa",
+                rapidMode: "Rapid",
+                rapidModeDesc: "Barcha 1130 ta savol ketma-ket tartibda",
+                done: "Bajarildi",
+                randomRapid: "Tasodifiy Rapid",
+                randomRapidDesc: "Xilma-xillik uchun tasodifiy tartibda barcha savollar",
+                challengeMode: "Qiyin Rejim",
+                shuffled: "🔀 Aralash tartib",
+                overallAccuracy: "Umumiy Aniqlik",
+                accuracyDesc: "1,247 ta javob berilgan savollar asosida",
+                studyTime: "O'rganish Vaqti",
+                studyTimeDesc: "Jami o'rganish vaqti",
+                joinDate: "Platformada",
+                days: "kun",
+                joinDateDesc: "Biz bilansiz",
+                quickActions: "Tezkor Harakatlar",
+                resumeSession: "Oxirgi Seansni Davom Ettirish",
+                reviewFavorites: "Sevimlilarni Ko'rib Chiqish",
+                wrongAnswers: "Noto'g'ri Javoblar",
+                settings: "Sozlamalar",
+                comingSoon: "Tez orada!"
+            },
+            ru: {
+                currentLang: "Русский",
+                profile: "Профиль",
+                logout: "Выйти",
+                welcome: "Добро пожаловать",
+                heroDesc: "Готовы освоить экзамен по вождению? Выберите предпочитаемый режим обучения и начните свой путь к успеху.",
+                practiceTickets: "Билеты",
+                practiceTicketsDesc: "113 официальных экзаменационных билетов для систематического обучения",
+                completed: "Завершено",
+                examMode: "Экзамен",
+                examModeDesc: "Реальная симуляция экзамена с 20 случайными вопросами",
+                lastScore: "Последний результат",
+                minutes: "⏱️ 20 минут",
+                rapidMode: "Рапид",
+                rapidModeDesc: "Все 1130 вопросов в последовательном порядке",
+                done: "Выполнено",
+                randomRapid: "Случайный Рапид",
+                randomRapidDesc: "Все вопросы в случайном порядке для разнообразия",
+                challengeMode: "Режим Испытания",
+                shuffled: "🔀 Перемешанный порядок",
+                overallAccuracy: "Общая Точность",
+                accuracyDesc: "На основе 1,247 отвеченных вопросов",
+                studyTime: "Время Обучения",
+                studyTimeDesc: "Общее время обучения",
+                joinDate: "На платформе",
+                days: "дней",
+                joinDateDesc: "Вы с нами",
+                quickActions: "Быстрые Действия",
+                resumeSession: "Продолжить Сессию",
+                reviewFavorites: "Просмотр Избранного",
+                wrongAnswers: "Неправильные Ответы",
+                settings: "Настройки",
+                comingSoon: "Скоро!"
+            },
+            uzk: {
+                currentLang: "Ўзбекча",
+                profile: "Профил",
+                logout: "Чиқиш",
+                welcome: "Хуш келибсиз",
+                heroDesc: "Ҳайдовчилик имтиҳонини мукаммал эгаллашга тайёрмисиз? Ўзингизга мос таълим режимини танланг ва муваффақиятга йўл очинг.",
+                practiceTickets: "Билетлар",
+                practiceTicketsDesc: "Тизимли ўрганиш учун ташкил этилган 113 та расмий имтиҳон билетлари",
+                completed: "Бажарилди",
+                examMode: "Имтиҳон",
+                examModeDesc: "20 та тасодифий савол билан ҳақиқий имтиҳон симуляцияси",
+                lastScore: "Охирги натижа",
+                minutes: "⏱️ 20 дақиқа",
+                rapidMode: "Рапид",
+                rapidModeDesc: "Барча 1130 та савол кетма-кет тартибда",
+                done: "Бажарилди",
+                randomRapid: "Тасодифий Рапид",
+                randomRapidDesc: "Хилма-хиллик учун тасодифий тартибда барча саволлар",
+                challengeMode: "Қийин Режим",
+                shuffled: "🔀 Аралаш тартиб",
+                overallAccuracy: "Умумий Аниқлик",
+                accuracyDesc: "1,247 та жавоб берилган саволлар асосида",
+                studyTime: "Ўрганиш Вақти",
+                studyTimeDesc: "Жами ўрганиш вақти",
+                joinDate: "Платформада",
+                days: "кун",
+                joinDateDesc: "Биз билансиз",
+                quickActions: "Тезкор Ҳаракатлар",
+                resumeSession: "Охирги Сеансни Давом Еттириш",
+                reviewFavorites: "Севимлиларни Кўриб Чиқиш",
+                wrongAnswers: "Нотўғри Жавоблар",
+                settings: "Созламалар",
+                comingSoon: "Тез орада!"
+            }
+        };
+
+        // Current language
+        let currentLang = localStorage.getItem('language') || 'uz';
+
+        // Function to update all translations
+        function updateLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('language', lang);
+
+            // Update all elements with data-translate attribute
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (translations[lang][key]) {
+                    element.textContent = translations[lang][key];
+                }
+            });
+
+            // Update current language button text
+            document.getElementById('currentLangText').textContent = translations[lang].currentLang;
+
+            // Update user name in hero
+            const currentUser = JSON.parse(localStorage.getItem('currentUser') || '{}');
+            const userName = currentUser.name || currentUser.username || 'User';
+            document.getElementById('userName').textContent = userName;
+        }
+
         // Check authentication
         const token = localStorage.getItem('authToken');
         if (!token) {
             window.location.href = 'login.html';
         }
 
-        // Get user info
-        const currentUser = JSON.parse(localStorage.getItem('currentUser') || '{}');
-        if (currentUser.name) {
-            document.querySelector('.hero h1').textContent = `Welcome, ${currentUser.name}! 👋`;
+        // Load user statistics
+        async function loadUserStats() {
+            try {
+                const token = localStorage.getItem('authToken');
+                if (!token) return;
+
+                const response = await fetch('/api/stats', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    const stats = result.data;
+                    
+                    console.log('📊 Статистика загружена:', stats);
+                    
+                    // Обновляем точность
+                    const accuracyValue = document.getElementById('accuracyValue');
+                    if (accuracyValue) {
+                        accuracyValue.textContent = `${stats.accuracy}%`;
+                        
+                        // Меняем цвет в зависимости от точности
+                        if (stats.accuracy >= 90) {
+                            accuracyValue.style.color = '#10b981'; // зелёный
+                        } else if (stats.accuracy >= 70) {
+                            accuracyValue.style.color = '#f59e0b'; // оранжевый
+                        } else {
+                            accuracyValue.style.color = '#ef4444'; // красный
+                        }
+                    }
+                    
+                    // Обновляем описание точности
+                    const accuracyDesc = document.getElementById('accuracyDesc');
+                    if (accuracyDesc) {
+                        const descTranslations = {
+                            uz: `${stats.totalQuestionsAnswered} ta javob berilgan savollar asosida`,
+                            ru: `На основе ${stats.totalQuestionsAnswered} отвеченных вопросов`,
+                            uzk: `${stats.totalQuestionsAnswered} та жавоб берилган саволлар асосида`
+                        };
+                        accuracyDesc.textContent = descTranslations[currentLang] || descTranslations.uz;
+                    }
+                    
+                    // Обновляем время
+                    const timeValue = document.getElementById('timeValue');
+                    if (timeValue) {
+                        timeValue.textContent = stats.timeSpentFormatted;
+                    }
+                    
+                    // Обновляем количество дней на платформе
+                    const daysValue = document.getElementById('daysValue');
+                    if (daysValue && stats.daysSinceJoin !== undefined) {
+                        const daysTranslations = {
+                            uz: 'kun',
+                            ru: stats.daysSinceJoin === 1 ? 'день' : (stats.daysSinceJoin < 5 ? 'дня' : 'дней'),
+                            uzk: 'кун'
+                        };
+                        daysValue.innerHTML = `${stats.daysSinceJoin} <span data-translate="days">${daysTranslations[currentLang]}</span>`;
+                    }
+                    
+                } else {
+                    console.error('❌ Ошибка загрузки статистики:', response.status);
+                }
+            } catch (error) {
+                console.error('❌ Ошибка при загрузке статистики:', error);
+            }
         }
+
+        // Load tickets progress
+        async function loadTicketsProgress() {
+            try {
+                const token = localStorage.getItem('authToken');
+                if (!token) return;
+
+                const response = await fetch('/api/progress', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    const progressData = result.data;
+                    
+                    console.log('🎫 Прогресс билетов загружен:', progressData);
+                    
+                    // Считаем билеты, которые отображаются цветными в dashboard
+                    // Это билеты, которые либо завершены (completed=true), 
+                    // либо имеют хотя бы один ответ (показываются цветными в dashboard)
+                    let completedCount = 0;
+                    const coloredTickets = [];
+                    
+                    if (progressData.progress && Array.isArray(progressData.progress)) {
+                        progressData.progress.forEach(item => {
+                            // Билет считается "пройденным" для отображения, если:
+                            // 1. completed = true ИЛИ
+                            // 2. есть хотя бы один ответ (answers не пустой)
+                            const hasAnswers = item.answers && Object.keys(item.answers).length > 0;
+                            if (item.completed || hasAnswers) {
+                                completedCount++;
+                                coloredTickets.push({
+                                    id: item.ticket_id,
+                                    completed: item.completed,
+                                    answersCount: hasAnswers ? Object.keys(item.answers).length : 0
+                                });
+                            }
+                        });
+                    }
+                    
+                    const totalTickets = 113;
+                    const percentage = Math.round((completedCount / totalTickets) * 100);
+                    
+                    console.log(`📊 Пройденных билетов (с ответами): ${completedCount}/${totalTickets}`);
+                    console.log('📋 Цветные билеты:', coloredTickets);
+                    
+                    // Обновляем badge
+                    const ticketsProgress = document.getElementById('ticketsProgress');
+                    if (ticketsProgress) {
+                        ticketsProgress.textContent = `${completedCount}/${totalTickets}`;
+                    }
+                    
+                    // Обновляем progress bar
+                    const progressBar = document.getElementById('ticketsProgressBar');
+                    if (progressBar) {
+                        progressBar.style.width = `${percentage}%`;
+                    }
+                    
+                } else {
+                    console.error('❌ Ошибка загрузки прогресса билетов:', response.status);
+                }
+            } catch (error) {
+                console.error('❌ Ошибка при загрузке прогресса билетов:', error);
+            }
+        }
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            // Get user info
+            const currentUser = JSON.parse(localStorage.getItem('currentUser') || '{}');
+            const userName = currentUser.name || currentUser.username || 'User';
+            document.getElementById('userName').textContent = userName;
+
+            // Apply saved language
+            updateLanguage(currentLang);
+
+            // Load user statistics and tickets progress
+            loadUserStats();
+            loadTicketsProgress();
+
+            // Animate progress bars (delayed to allow data to load first)
+            setTimeout(() => {
+                document.querySelectorAll('.progress-fill').forEach(bar => {
+                    const width = bar.style.width;
+                    const originalWidth = width;
+                    bar.style.width = '0';
+                    setTimeout(() => {
+                        bar.style.width = originalWidth;
+                    }, 100);
+                });
+            }, 300);
+
+            // Mode card click handlers
+            document.getElementById('practiceTicketsCard').addEventListener('click', () => {
+                window.location.href = 'dashboard.html';
+            });
+
+            document.getElementById('examModeCard').addEventListener('click', () => {
+                alert(translations[currentLang].comingSoon);
+            });
+
+            document.getElementById('rapidModeCard').addEventListener('click', () => {
+                alert(translations[currentLang].comingSoon);
+            });
+
+            document.getElementById('randomRapidCard').addEventListener('click', () => {
+                alert(translations[currentLang].comingSoon);
+            });
+        });
 
         // Logout handler
         document.getElementById('logoutBtn').addEventListener('click', () => {
@@ -550,20 +879,99 @@
             window.location.href = 'profile.html';
         });
 
-        // Language switcher
-        document.getElementById('languageBtn').addEventListener('click', () => {
-            alert('Language switcher - Coming soon!');
+        // Language switcher with dropdown
+        let languageMenuOpen = false;
+        document.getElementById('languageBtn').addEventListener('click', (e) => {
+            e.stopPropagation();
+            
+            // Remove existing dropdown if any
+            const existingDropdown = document.querySelector('.language-dropdown-menu');
+            if (existingDropdown) {
+                existingDropdown.remove();
+                languageMenuOpen = false;
+                return;
+            }
+
+            // Create dropdown menu
+            const dropdown = document.createElement('div');
+            dropdown.className = 'language-dropdown-menu';
+            dropdown.style.cssText = `
+                position: absolute;
+                top: 100%;
+                right: 0;
+                margin-top: 0.5rem;
+                background: rgba(30, 41, 59, 0.95);
+                backdrop-filter: blur(20px);
+                border: 1px solid rgba(148, 163, 184, 0.2);
+                border-radius: 12px;
+                padding: 0.5rem;
+                min-width: 150px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                z-index: 1000;
+            `;
+
+            const languages = [
+                { code: 'uz', name: "O'zbekcha", flag: '🇺🇿' },
+                { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+                { code: 'uzk', name: 'Ўзбекча', flag: '🇺🇿' }
+            ];
+
+            languages.forEach(({ code, name, flag }) => {
+                const btn = document.createElement('button');
+                btn.textContent = `${flag} ${name}`;
+                btn.style.cssText = `
+                    width: 100%;
+                    padding: 0.75rem 1rem;
+                    background: ${currentLang === code ? 'rgba(59, 130, 246, 0.2)' : 'transparent'};
+                    border: none;
+                    border-radius: 8px;
+                    color: #e2e8f0;
+                    font-size: 0.875rem;
+                    font-weight: ${currentLang === code ? '600' : '400'};
+                    cursor: pointer;
+                    transition: all 0.2s ease;
+                    text-align: left;
+                    font-family: 'Inter', sans-serif;
+                `;
+                
+                btn.addEventListener('mouseenter', () => {
+                    if (currentLang !== code) {
+                        btn.style.background = 'rgba(51, 65, 85, 0.6)';
+                    }
+                });
+                
+                btn.addEventListener('mouseleave', () => {
+                    if (currentLang !== code) {
+                        btn.style.background = 'transparent';
+                    }
+                });
+
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    updateLanguage(code);
+                    dropdown.remove();
+                    languageMenuOpen = false;
+                });
+
+                dropdown.appendChild(btn);
+            });
+
+            // Position relative to language button
+            const languageBtn = document.getElementById('languageBtn');
+            languageBtn.style.position = 'relative';
+            languageBtn.appendChild(dropdown);
+            languageMenuOpen = true;
         });
 
-        // Animate progress bars on load
-        window.addEventListener('load', () => {
-            document.querySelectorAll('.progress-fill').forEach(bar => {
-                const width = bar.style.width;
-                bar.style.width = '0';
-                setTimeout(() => {
-                    bar.style.width = width;
-                }, 100);
-            });
+        // Close dropdown when clicking outside
+        document.addEventListener('click', () => {
+            if (languageMenuOpen) {
+                const dropdown = document.querySelector('.language-dropdown-menu');
+                if (dropdown) {
+                    dropdown.remove();
+                    languageMenuOpen = false;
+                }
+            }
         });
     </script>
 </body>

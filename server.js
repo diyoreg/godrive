@@ -10,6 +10,8 @@ const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/users');
 const progressRoutes = require('./routes/progress');
 const questionsRoutes = require('./routes/questions');
+const statsRoutes = require('./routes/stats');
+const favoritesRoutes = require('./routes/favorites');
 
 // Инициализация приложения
 const app = express();
@@ -134,6 +136,8 @@ app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/progress', progressRoutes);
 app.use('/api/questions', questionsRoutes);
+app.use('/api/stats', statsRoutes);
+app.use('/api/favorites', favoritesRoutes);
 
 // Маршрут для проверки здоровья сервера
 app.get('/api/health', (req, res) => {

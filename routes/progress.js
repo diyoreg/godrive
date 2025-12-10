@@ -6,18 +6,20 @@ const { authenticateToken } = require('../middleware/auth');
 // GET /api/progress - Получение прогресса текущего пользователя
 router.get('/', authenticateToken, async (req, res) => {
     try {
-        const progress = await Progress.getByUser(req.user.id);
+        const progress = await Progress.findByUser(req.user.id);
         const stats = await Progress.getUserStats(req.user.id);
         const completedTickets = await Progress.getCompletedTickets(req.user.id);
-        const inProgressTickets = await Progress.getInProgressTickets(req.user.id);
+        
+        // Получаем билеты в процессе (не завершенные, но с ответами)
+        const inProgressTickets = progress.filter(p => !p.completed && p.answers && Object.keys(p.answers).length > 0);
         
         res.json({
             success: true,
             data: {
-                progress: progress.map(p => p.toObject()),
+                progress: progress,
                 stats,
                 completedTickets,
-                inProgressTickets
+                inProgressTickets: inProgressTickets.map(p => p.ticket_id)
             }
         });
         
@@ -42,12 +44,12 @@ router.get('/ticket/:id', authenticateToken, async (req, res) => {
             });
         }
         
-        const progress = await Progress.getByUserAndTicket(req.user.id, ticketId);
+        const progress = await Progress.findByUserAndTicket(req.user.id, ticketId);
         
         res.json({
             success: true,
             data: {
-                progress: progress ? progress.toObject() : null,
+                progress: progress,
                 ticketId
             }
         });
@@ -97,19 +99,21 @@ router.post('/ticket/:id', authenticateToken, async (req, res) => {
         }
         
         const progressData = {
+            user_id: req.user.id,
+            ticket_id: ticketId,
             completed,
             score,
-            answers,
-            totalQuestions: totalQuestions || 10
+            total_questions: totalQuestions || 10,
+            answers
         };
         
-        const savedProgress = await Progress.saveProgress(req.user.id, ticketId, progressData);
+        const savedProgress = await Progress.upsert(progressData);
         
         res.json({
             success: true,
             message: completed ? 'Билет завершен' : 'Прогресс сохранен',
             data: {
-                progress: savedProgress.toObject()
+                progress: savedProgress
             }
         });
         

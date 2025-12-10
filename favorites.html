@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Избранные вопросы - GoDrive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #1e3a8a 100%);
+            min-height: 100vh;
+            padding: 0;
+            overflow-x: hidden;
+            color: #e2e8f0;
+        }
+
+        .ticket-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0.75rem;
+        }
+
+        .ticket-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            padding: 0.625rem 1.25rem;
+            background: rgba(30, 41, 59, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            border-radius: 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .ticket-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.3;
+        }
+
+        .ticket-actions {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .back-btn {
+            background: rgba(51, 65, 85, 0.6);
+            color: #e2e8f0;
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            padding: 0.4rem 0.875rem;
+            border-radius: 8px;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background: rgba(51, 65, 85, 0.8);
+            border-color: rgba(148, 163, 184, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .question-card {
+            background: rgba(30, 41, 59, 0.6);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            border-radius: 16px;
+            padding: 1.25rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .question-number {
+            font-size: 0.875rem;
+            color: #94a3b8;
+            font-weight: 500;
+            margin-bottom: -0.5rem;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .question-text {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.3;
+            margin-bottom: 0.375rem;
+        }
+
+        .favorite-btn {
+            background: rgba(51, 65, 85, 0.4);
+            border: 2px solid rgba(148, 163, 184, 0.2);
+            color: #94a3b8;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .favorite-btn:hover {
+            background: rgba(51, 65, 85, 0.6);
+            border-color: rgba(251, 191, 36, 0.4);
+            transform: translateY(-2px) scale(1.05);
+        }
+
+        .favorite-btn.active {
+            background: rgba(251, 191, 36, 0.2);
+            border-color: rgba(251, 191, 36, 0.6);
+            color: #fbbf24;
+            animation: favoritePulse 0.5s ease;
+        }
+
+        @keyframes favoritePulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        .question-main-content {
+            display: flex;
+            gap: 1.25rem;
+            align-items: flex-start;
+        }
+
+        .question-options-wrapper {
+            flex: 0 0 38%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.625rem;
+        }
+
+        .option-item {
+            padding: 0.625rem 0.875rem;
+            background: rgba(51, 65, 85, 0.4);
+            border: 2px solid rgba(148, 163, 184, 0.2);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.875rem;
+            color: #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .option-item::before {
+            content: '';
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(148, 163, 184, 0.4);
+            border-radius: 50%;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+
+        .option-item:hover {
+            background: rgba(51, 65, 85, 0.6);
+            border-color: rgba(96, 165, 250, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(96, 165, 250, 0.1);
+        }
+
+        .option-item.selected::before {
+            background: #60a5fa;
+            border-color: #60a5fa;
+            box-shadow: 0 0 0 4px rgba(96, 165, 250, 0.2);
+        }
+
+        .option-item.selected {
+            background: rgba(96, 165, 250, 0.2);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        .option-item.correct::before {
+            content: '✓';
+            background: #10b981;
+            border-color: #10b981;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+            box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.2);
+        }
+
+        .option-item.correct {
+            background: rgba(16, 185, 129, 0.2);
+            border-color: rgba(16, 185, 129, 0.5);
+            color: #6ee7b7;
+        }
+
+        .option-item.incorrect {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: rgba(239, 68, 68, 0.5);
+            color: #fca5a5;
+        }
+
+        .option-item.disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        .question-image-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+            border-radius: 0;
+            padding: 0;
+            border: none;
+        }
+
+        .question-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: contain;
+            border-radius: 12px;
+            display: block;
+        }
+        
+        .question-image-container img {
+            border-radius: 12px !important;
+        }
+
+        .explanation-container {
+            background: rgba(245, 158, 11, 0.15);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            border-left: 4px solid #f59e0b;
+            padding: 0.875rem 1rem;
+            border-radius: 10px;
+            margin-top: 0.875rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.875rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .explanation-container:hover {
+            background: rgba(245, 158, 11, 0.2);
+            border-color: rgba(245, 158, 11, 0.4);
+        }
+
+        .explanation-container.collapsed .explanation-text {
+            display: none;
+        }
+
+        .explanation-container:not(.collapsed) .explanation-text.spoiler {
+            color: #e2e8f0;
+            text-shadow: none;
+            filter: blur(0);
+        }
+
+        .explanation-container.collapsed .explanation-text.spoiler {
+            color: transparent;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            filter: blur(5px);
+        }
+
+        .explanation-icon {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            margin-top: 0.125rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .explanation-icon:hover {
+            transform: scale(1.2);
+            filter: brightness(1.3);
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                filter: brightness(1);
+            }
+            50% {
+                transform: scale(1.1);
+                filter: brightness(1.2) drop-shadow(0 0 8px rgba(251, 191, 36, 0.6));
+            }
+        }
+
+        .explanation-content {
+            flex: 1;
+        }
+
+        .explanation-title {
+            font-weight: 600;
+            color: #fbbf24;
+            margin-bottom: 0.5rem;
+            font-size: 0.9375rem;
+            user-select: none;
+        }
+
+        .explanation-text {
+            color: #e2e8f0;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            font-size: 0.875rem;
+            position: relative;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.3s ease;
+        }
+
+        .explanation-text.spoiler {
+            color: transparent;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            filter: blur(5px);
+        }
+
+        .explanation-text.spoiler:hover {
+            filter: blur(3px);
+        }
+
+        .explanation-text.revealed {
+            animation: revealText 0.4s ease;
+        }
+
+        @keyframes revealText {
+            0% {
+                filter: blur(5px);
+                opacity: 0.5;
+            }
+            100% {
+                filter: blur(0);
+                opacity: 1;
+            }
+        }
+
+        .question-navigation {
+            overflow-x: auto;
+            overflow-y: hidden;
+            margin-bottom: 0.75rem;
+            padding: 0.5rem 0;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(96, 165, 250, 0.5) rgba(30, 41, 59, 0.3);
+        }
+
+        .question-navigation::-webkit-scrollbar {
+            height: 6px;
+        }
+
+        .question-navigation::-webkit-scrollbar-track {
+            background: rgba(30, 41, 59, 0.3);
+            border-radius: 3px;
+        }
+
+        .question-navigation::-webkit-scrollbar-thumb {
+            background: rgba(96, 165, 250, 0.5);
+            border-radius: 3px;
+        }
+
+        .question-navigation::-webkit-scrollbar-thumb:hover {
+            background: rgba(96, 165, 250, 0.7);
+        }
+
+        #questionButtons {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            padding: 0 0.5rem;
+        }
+
+        .ticket-nav-btn {
+            position: static;
+            transform: none;
+            background: rgba(51, 65, 85, 0.6);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            color: #e2e8f0;
+            width: 38px;
+            height: 38px;
+            padding: 0;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ticket-nav-btn:hover:not(:disabled) {
+            background: rgba(51, 65, 85, 0.8);
+            border-color: rgba(96, 165, 250, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .ticket-nav-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .question-btn {
+            width: 38px;
+            height: 38px;
+            border-radius: 8px;
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            background: rgba(51, 65, 85, 0.4);
+            color: #e2e8f0;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .question-btn:hover {
+            background: rgba(51, 65, 85, 0.6);
+            border-color: rgba(96, 165, 250, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .question-btn.active {
+            background: linear-gradient(135deg, #3b82f6, #60a5fa);
+            border-color: #60a5fa;
+            color: white;
+            box-shadow: 0 4px 16px rgba(96, 165, 250, 0.4);
+        }
+
+        .question-btn.answered {
+            background: rgba(96, 165, 250, 0.25);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+
+        .question-btn.correct {
+            background: rgba(16, 185, 129, 0.25);
+            border-color: rgba(16, 185, 129, 0.5);
+            color: #6ee7b7;
+        }
+
+        .question-btn.correct::after {
+            content: '✓';
+            position: absolute;
+            top: -6px;
+            right: -6px;
+            width: 16px;
+            height: 16px;
+            background: #10b981;
+            border-radius: 50%;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+        }
+
+        .question-btn.incorrect {
+            background: rgba(239, 68, 68, 0.25);
+            border-color: rgba(239, 68, 68, 0.5);
+            color: #fca5a5;
+        }
+
+        .question-btn.incorrect::after {
+            content: '✕';
+            position: absolute;
+            top: -6px;
+            right: -6px;
+            width: 16px;
+            height: 16px;
+            background: #ef4444;
+            border-radius: 50%;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            box-shadow: 0 2px 8px rgba(239, 68, 68, 0.4);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: rgba(30, 41, 59, 0.6);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            border-radius: 16px;
+        }
+
+        .empty-icon {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.5;
+        }
+
+        .empty-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: #f1f5f9;
+        }
+
+        .empty-text {
+            color: #94a3b8;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: #94a3b8;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(148, 163, 184, 0.2);
+            border-top-color: #60a5fa;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .question-card {
+            animation: fadeInUp 0.5s ease forwards;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .question-main-content {
+                flex-direction: column;
+            }
+
+            .question-options-wrapper {
+                flex: 1;
+                width: 100%;
+            }
+
+            .question-image-container {
+                flex: 1;
+                width: 100%;
+                max-height: 350px;
+            }
+        }
+
+        @media (min-width: 1025px) and (max-height: 900px) {
+            .question-image {
+                max-height: 350px;
+            }
+            .question-card {
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .ticket-container {
+                padding: 0.5rem;
+            }
+
+            .ticket-header {
+                padding: 0.5rem 0.75rem;
+                margin-bottom: 0.5rem;
+                gap: 0.5rem;
+            }
+
+            .ticket-title {
+                font-size: 0.875rem;
+            }
+
+            .question-navigation {
+                gap: 0.25rem;
+            }
+
+            .back-btn {
+                padding: 0.3rem 0.625rem;
+                font-size: 0.75rem;
+            }
+
+            .question-card {
+                padding: 1rem;
+            }
+
+            .question-text {
+                font-size: 1.125rem;
+            }
+
+            .question-image {
+                max-height: 300px;
+            }
+
+            .ticket-nav-btn {
+                width: 30px;
+                height: 30px;
+                font-size: 0.875rem;
+            }
+
+            .question-btn {
+                width: 30px;
+                height: 30px;
+                font-size: 0.75rem;
+            }
+
+            .option-item {
+                font-size: 0.875rem;
+                padding: 0.625rem 0.875rem;
+            }
+
+            .explanation-container {
+                padding: 0.875rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket-container">
+        <!-- Header -->
+        <div class="ticket-header">
+            <div class="ticket-title" id="ticketTitle">⭐ Избранные вопросы</div>
+            <div class="ticket-actions">
+                <button class="ticket-nav-btn" id="prevBtn" style="display: none;">←</button>
+                <button class="back-btn" id="backBtn">← Назад</button>
+                <button class="ticket-nav-btn" id="nextBtn" style="display: none;">→</button>
+            </div>
+        </div>
+
+        <!-- Navigation Container -->
+        <div id="navigationContainer" class="question-navigation" style="display: none;">
+            <div id="questionButtons"></div>
+        </div>
+
+        <!-- Loading State -->
+        <div class="loading" id="loadingState">
+            <div class="spinner"></div>
+            <p style="margin-top: 1rem;">Загрузка избранных вопросов...</p>
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <div class="empty-icon">☆</div>
+            <h2 class="empty-title">Нет избранных вопросов</h2>
+            <p class="empty-text">Добавьте вопросы в избранное, чтобы быстро к ним возвращаться</p>
+            <button class="back-btn" id="emptyBackBtn">Перейти к билетам</button>
+        </div>
+
+        <!-- Question Container -->
+        <div id="questionContainer" class="question-card" style="display: none;">
+            <div class="question-number" id="questionNumber">Савол 1/10:</div>
+            <div class="question-header">
+                <div id="questionText" class="question-text"></div>
+                <button class="favorite-btn active" id="favoriteBtn" title="Удалить из избранного">★</button>
+            </div>
+            <div class="question-main-content">
+                <div class="question-image-container" id="imageContainer">
+                    <img id="questionImage" class="question-image" alt="Question Image">
+                </div>
+                <div class="question-options-wrapper">
+                    <div class="options-container" id="optionsContainer"></div>
+                </div>
+            </div>
+            <div id="explanationContainer" class="explanation-container collapsed">
+                <div class="explanation-icon" id="explanationIcon">💡</div>
+                <div class="explanation-content">
+                    <div class="explanation-title" id="explanationTitle">Изоҳ</div>
+                    <div class="explanation-text" id="explanationText"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class FavoritesPage {
+            constructor() {
+                this.currentLanguage = localStorage.getItem('language') || 'uz';
+                this.questions = [];
+                this.favoriteIds = [];
+                this.currentQuestionIndex = 0;
+                this.userAnswers = {};
+            }
+
+            async init() {
+                console.log('🚀 Инициализация страницы избранного...');
+                console.log('🌍 Текущий язык:', this.currentLanguage);
+                
+                // Проверяем авторизацию
+                const token = localStorage.getItem('authToken');
+                console.log('Token:', token ? 'Есть' : 'Нет');
+                if (!token) {
+                    console.log('❌ Нет токена, редирект на login');
+                    window.location.href = 'login.html';
+                    return;
+                }
+
+                await this.loadFavorites();
+                this.setupEventListeners();
+                console.log('✅ Инициализация завершена');
+            }
+
+            async loadFavorites() {
+                try {
+                    const token = localStorage.getItem('authToken');
+                    
+                    // Получаем список избранных ID
+                    const response = await fetch('/api/favorites', {
+                        headers: { 'Authorization': `Bearer ${token}` }
+                    });
+
+                    if (!response.ok) throw new Error('Ошибка загрузки избранного');
+
+                    const data = await response.json();
+                    this.favoriteIds = data.favorites || [];
+
+                    console.log(`📂 Загружено ${this.favoriteIds.length} избранных вопросов`);
+
+                    if (this.favoriteIds.length === 0) {
+                        this.showEmptyState();
+                        return;
+                    }
+
+                    // Загружаем данные вопросов
+                    await this.loadQuestionsData();
+                    this.showQuestion(0);
+
+                } catch (error) {
+                    console.error('❌ Ошибка загрузки избранного:', error);
+                    this.showEmptyState();
+                }
+            }
+
+            async loadQuestionsData() {
+                console.log('📚 Загрузка данных вопросов из API...');
+                console.log('IDs избранных:', this.favoriteIds);
+                
+                try {
+                    // Загружаем вопросы через API батчем
+                    const ids = this.favoriteIds.join(',');
+                    const url = `/api/questions/batch?ids=${ids}&lang=${this.currentLanguage}`;
+                    console.log(`Загрузка: ${url}`);
+                    
+                    const response = await fetch(url);
+                    
+                    if (!response.ok) {
+                        throw new Error(`API вернул статус ${response.status}`);
+                    }
+                    
+                    const data = await response.json();
+                    this.questions = data.questions || [];
+                    
+                    console.log(`✅ Загружено ${this.questions.length} вопросов из ${this.favoriteIds.length}`);
+
+                    if (this.questions.length === 0) {
+                        console.error('⚠️ Ни один вопрос не загрузился!');
+                        this.showEmptyState();
+                        return;
+                    }
+
+                    // Скрываем loading и показываем контейнеры
+                    document.getElementById('loadingState').style.display = 'none';
+                    document.getElementById('navigationContainer').style.display = 'flex';
+                } catch (error) {
+                    console.error('❌ Ошибка загрузки вопросов:', error);
+                    this.showEmptyState();
+                }
+            }
+
+            showQuestion(index) {
+                console.log(`📄 showQuestion(${index}), всего вопросов: ${this.questions.length}`);
+                if (index < 0 || index >= this.questions.length) {
+                    console.log('❌ Некорректный индекс');
+                    return;
+                }
+
+                this.currentQuestionIndex = index;
+                const question = this.questions[index];
+                console.log('📝 Вопрос:', question);
+
+                // Показываем контейнер вопроса
+                const questionContainer = document.getElementById('questionContainer');
+                questionContainer.style.display = 'flex';
+                console.log('✅ questionContainer.style.display установлен в flex');
+
+                // Обновляем номер вопроса
+                const questionNumberTexts = {
+                    ru: 'Вопрос',
+                    uz: 'Savol',
+                    uzk: 'Савол'
+                };
+                const questionNumberText = questionNumberTexts[this.currentLanguage] || questionNumberTexts.uz;
+                document.getElementById('questionNumber').textContent = 
+                    `${questionNumberText} ${index + 1}/${this.questions.length}:`;
+
+                // Обновляем заголовок объяснения
+                const explanationTitleTexts = {
+                    ru: 'Объяснение',
+                    uz: 'Izoh',
+                    uzk: 'Изоҳ'
+                };
+                const explanationTitleText = explanationTitleTexts[this.currentLanguage] || explanationTitleTexts.uz;
+                document.getElementById('explanationTitle').textContent = explanationTitleText;
+
+                // Обновляем текст вопроса
+                const questionText = question.question_text || '';
+                console.log('📋 Текст вопроса:', questionText);
+                document.getElementById('questionText').textContent = questionText;
+
+                // Обновляем изображение
+                const imageContainer = document.getElementById('imageContainer');
+                const questionImage = document.getElementById('questionImage');
+                console.log('🖼️ URL изображения:', question.image_url);
+                if (question.image_url) {
+                    questionImage.src = question.image_url;
+                    imageContainer.style.display = 'flex';
+                    console.log('✅ Изображение показано');
+                } else {
+                    imageContainer.style.display = 'none';
+                    console.log('⚠️ Нет изображения');
+                }
+
+                // Обновляем варианты ответов
+                this.renderOptions(question);
+
+                // Обновляем объяснение
+                this.updateExplanation(question);
+
+                // Обновляем навигацию
+                this.updateNavigation();
+
+                // Обновляем кнопку избранного
+                this.updateFavoriteButton(question.question_id);
+            }
+
+            renderOptions(question) {
+                const optionsContainer = document.getElementById('optionsContainer');
+                // API возвращает options как массив строк напрямую
+                const options = Array.isArray(question.options) ? question.options : [];
+                const userAnswer = this.userAnswers[question.question_id];
+
+                optionsContainer.innerHTML = options.map((option, index) => {
+                    let classes = 'option-item';
+                    
+                    if (userAnswer !== undefined) {
+                        if (index === question.correct_option) {
+                            classes += ' correct';
+                        } else if (index === userAnswer) {
+                            classes += ' incorrect';
+                        }
+                    } else if (userAnswer === index) {
+                        classes += ' selected';
+                    }
+
+                    return `
+                        <div class="${classes}" data-index="${index}">
+                            ${option}
+                        </div>
+                    `;
+                }).join('');
+
+                // Добавляем обработчики
+                optionsContainer.querySelectorAll('.option-item').forEach(opt => {
+                    opt.addEventListener('click', (e) => {
+                        const index = parseInt(e.currentTarget.dataset.index);
+                        this.selectOption(question, index);
+                    });
+                });
+            }
+
+            selectOption(question, optionIndex) {
+                // Сохраняем ответ
+                this.userAnswers[question.question_id] = optionIndex;
+
+                // Перерисовываем опции
+                this.renderOptions(question);
+
+                // Показываем объяснение
+                this.showExplanation(question);
+            }
+
+            updateExplanation(question) {
+                const explanationContainer = document.getElementById('explanationContainer');
+                const explanationText = document.getElementById('explanationText');
+                const explanation = question.explanation_text || '';
+
+                if (explanation && this.userAnswers[question.question_id] !== undefined) {
+                    // Есть объяснение и дан ответ - показываем
+                    explanationText.textContent = explanation;
+                    explanationContainer.style.display = 'flex';
+                    explanationContainer.classList.remove('collapsed');
+                } else {
+                    // Нет объяснения или не дан ответ - скрываем
+                    explanationContainer.style.display = 'none';
+                }
+            }
+
+            showExplanation(question) {
+                const explanationContainer = document.getElementById('explanationContainer');
+                explanationContainer.style.display = 'flex';
+                explanationContainer.classList.remove('collapsed');
+            }
+
+            updateNavigation() {
+                // Обновляем кнопки prev/next
+                const prevBtn = document.getElementById('prevBtn');
+                const nextBtn = document.getElementById('nextBtn');
+
+                if (this.questions.length > 1) {
+                    prevBtn.style.display = 'flex';
+                    nextBtn.style.display = 'flex';
+                    prevBtn.disabled = this.currentQuestionIndex === 0;
+                    nextBtn.disabled = this.currentQuestionIndex === this.questions.length - 1;
+                } else {
+                    prevBtn.style.display = 'none';
+                    nextBtn.style.display = 'none';
+                }
+
+                // Обновляем кнопки вопросов
+                const questionButtons = document.getElementById('questionButtons');
+                questionButtons.innerHTML = this.questions.map((q, index) => {
+                    let classes = 'question-btn';
+                    if (index === this.currentQuestionIndex) classes += ' active';
+                    if (this.userAnswers[q.question_id] !== undefined) classes += ' answered';
+
+                    return `<button class="${classes}" data-index="${index}">${index + 1}</button>`;
+                }).join('');
+
+                // Добавляем обработчики
+                questionButtons.querySelectorAll('.question-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        const index = parseInt(e.currentTarget.dataset.index);
+                        this.showQuestion(index);
+                    });
+                });
+
+                // Прокручиваем к активной кнопке
+                setTimeout(() => {
+                    const activeBtn = questionButtons.querySelector('.question-btn.active');
+                    if (activeBtn) {
+                        activeBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                    }
+                }, 100);
+            }
+
+            updateFavoriteButton(questionId) {
+                const favoriteBtn = document.getElementById('favoriteBtn');
+                // Всегда показываем как избранное (активное)
+                favoriteBtn.textContent = '★';
+                favoriteBtn.classList.add('active');
+                favoriteBtn.title = 'Удалить из избранного';
+                
+                // Обновляем обработчик
+                const newBtn = favoriteBtn.cloneNode(true);
+                favoriteBtn.parentNode.replaceChild(newBtn, favoriteBtn);
+                
+                newBtn.addEventListener('click', () => this.removeFavorite(questionId));
+            }
+
+            async removeFavorite(questionId) {
+                if (!confirm('Удалить вопрос из избранного?')) return;
+
+                try {
+                    const token = localStorage.getItem('authToken');
+                    const response = await fetch('/api/favorites', {
+                        method: 'DELETE',
+                        headers: {
+                            'Authorization': `Bearer ${token}`,
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ questionId })
+                    });
+
+                    if (response.ok) {
+                        console.log('✅ Вопрос удалён из избранного');
+                        
+                        // Удаляем из массивов
+                        const questionIndex = this.questions.findIndex(q => q.question_id === questionId);
+                        this.questions.splice(questionIndex, 1);
+                        this.favoriteIds = this.favoriteIds.filter(id => id !== questionId);
+
+                        // Если остались вопросы, показываем следующий
+                        if (this.questions.length > 0) {
+                            if (this.currentQuestionIndex >= this.questions.length) {
+                                this.currentQuestionIndex = this.questions.length - 1;
+                            }
+                            this.showQuestion(this.currentQuestionIndex);
+                        } else {
+                            // Если вопросов не осталось, показываем пустое состояние
+                            this.showEmptyState();
+                        }
+                    }
+                } catch (error) {
+                    console.error('❌ Ошибка удаления:', error);
+                }
+            }
+
+            showEmptyState() {
+                document.getElementById('loadingState').style.display = 'none';
+                document.getElementById('questionContainer').style.display = 'none';
+                document.getElementById('navigationContainer').style.display = 'none';
+                document.getElementById('emptyState').style.display = 'block';
+            }
+
+            setupEventListeners() {
+                // Кнопки назад
+                document.getElementById('backBtn').addEventListener('click', () => {
+                    window.location.href = 'dashboard.html';
+                });
+
+                const emptyBackBtn = document.getElementById('emptyBackBtn');
+                if (emptyBackBtn) {
+                    emptyBackBtn.addEventListener('click', () => {
+                        window.location.href = 'dashboard.html';
+                    });
+                }
+
+                // Кнопки навигации
+                document.getElementById('prevBtn').addEventListener('click', () => {
+                    this.showQuestion(this.currentQuestionIndex - 1);
+                });
+
+                document.getElementById('nextBtn').addEventListener('click', () => {
+                    this.showQuestion(this.currentQuestionIndex + 1);
+                });
+
+                // Клик на иконку объяснения для сворачивания/разворачивания
+                const explanationIcon = document.getElementById('explanationIcon');
+                if (explanationIcon) {
+                    explanationIcon.addEventListener('click', () => {
+                        const container = document.getElementById('explanationContainer');
+                        container.classList.toggle('collapsed');
+                    });
+                }
+            }
+        }
+
+        // Инициализация
+        const favoritesPage = new FavoritesPage();
+        document.addEventListener('DOMContentLoaded', () => favoritesPage.init());
+    </script>
+</body>
+</html>
