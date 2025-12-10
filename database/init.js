@@ -10,6 +10,11 @@ class DatabaseInitializer {
         try {
             console.log('🗄️  Инициализация базы данных PostgreSQL...');
             
+            // Проверяем подключение
+            console.log('🔌 Проверка подключения к PostgreSQL...');
+            await this.pool.query('SELECT NOW()');
+            console.log('✅ Подключение к PostgreSQL успешно');
+            
             // Создаем таблицы
             await this.createTables();
             
@@ -22,7 +27,8 @@ class DatabaseInitializer {
             console.log('🎉 База данных успешно инициализирована!');
             
         } catch (error) {
-            console.error('❌ Ошибка инициализации БД:', error);
+            console.error('❌ Ошибка инициализации БД:', error.message);
+            console.error('❌ Stack:', error.stack);
             throw error;
         }
     }
