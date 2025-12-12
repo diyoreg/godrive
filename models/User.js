@@ -21,7 +21,6 @@ class User {
         this.username = data.username;
         this.password = data.password;
         this.name = data.name;
-        this.email = data.email;
         this.role = data.role || 'user';
         this.created_at = data.created_at;
         this.updated_at = data.updated_at;
@@ -30,16 +29,16 @@ class User {
     // Создание нового пользователя
     static async create(userData) {
         try {
-            const { username, password, name, email, role = 'user' } = userData;
+            const { username, password, name, role = 'user' } = userData;
             
             // Хешируем пароль
             const hashedPassword = await bcrypt.hash(password, 10);
             
             const result = await pool.query(`
-                INSERT INTO users (username, password, name, email, role)
-                VALUES ($1, $2, $3, $4, $5)
+                INSERT INTO users (username, password, name, role)
+                VALUES ($1, $2, $3, $4)
                 RETURNING *
-            `, [username, hashedPassword, name, email || null, role]);
+            `, [username, hashedPassword, name, role]);
             
             const userId = result.rows[0].id;
             
@@ -78,21 +77,11 @@ class User {
         }
     }
 
-    // Поиск пользователя по email
-    static async findByEmail(email) {
-        try {
-            const result = await pool.query('SELECT * FROM users WHERE email = $1', [email]);
-            return result.rows.length > 0 ? new User(result.rows[0]) : null;
-        } catch (error) {
-            throw new Error(`Ошибка поиска пользователя по email: ${error.message}`);
-        }
-    }
-
     // Получение всех пользователей
     static async findAll() {
         try {
             const result = await pool.query(`
-                SELECT id, username, name, email, role, created_at 
+                SELECT id, username, name, role, created_at 
                 FROM users 
                 ORDER BY created_at DESC
             `);
@@ -124,18 +113,17 @@ class User {
     // Обновление профиля пользователя
     async updateProfile(updateData) {
         try {
-            const { name, email } = updateData;
+            const { name } = updateData;
             
             const result = await pool.query(`
                 UPDATE users 
-                SET name = $1, email = $2, updated_at = CURRENT_TIMESTAMP
-                WHERE id = $3
+                SET name = $1, updated_at = CURRENT_TIMESTAMP
+                WHERE id = $2
                 RETURNING *
-            `, [name, email || this.email, this.id]);
+            `, [name, this.id]);
             
             if (result.rows.length > 0) {
                 this.name = result.rows[0].name;
-                this.email = result.rows[0].email;
                 this.updated_at = result.rows[0].updated_at;
             }
             
@@ -242,7 +230,6 @@ class User {
             id: this.id,
             username: this.username,
             name: this.name,
-            email: this.email,
             role: this.role,
             created_at: this.created_at,
             updated_at: this.updated_at

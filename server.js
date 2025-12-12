@@ -190,22 +190,12 @@ async function startServer() {
         // Проверяем подключение к БД
         const db = require('./database/connection');
         
-        // Проверяем наличие таблиц
-        let tablesExist = false;
-        try {
-            tablesExist = await db.checkTables();
-        } catch (error) {
-            tablesExist = false;
-        }
-        
-        // Если таблиц нет - инициализируем БД
-        if (!tablesExist) {
-            console.log('⚠️  Таблицы не найдены, запуск инициализации базы данных...');
-            const DatabaseInitializer = require('./database/init');
-            const initializer = new DatabaseInitializer();
-            await initializer.initializeDatabase();
-            console.log('✅ База данных инициализирована');
-        }
+        // Всегда запускаем инициализацию БД (она сама проверит что нужно создать)
+        console.log('🔧 Запуск инициализации/проверки базы данных...');
+        const DatabaseInitializer = require('./database/init');
+        const initializer = new DatabaseInitializer();
+        await initializer.initializeDatabase();
+        console.log('✅ База данных проверена и готова к работе');
         
         // Запускаем сервер на 0.0.0.0 для Railway
         app.listen(PORT, '0.0.0.0', () => {
