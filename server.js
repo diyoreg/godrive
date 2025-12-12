@@ -190,15 +190,20 @@ async function startServer() {
         // Проверяем подключение к БД
         const db = require('./database/connection');
         
+        // Проверяем наличие таблиц
+        let tablesExist = false;
         try {
-            await db.checkTables();
+            tablesExist = await db.checkTables();
         } catch (error) {
-            // Если таблиц нет - инициализируем БД
-            console.log('⚠️  Таблицы не найдены, инициализация базы данных...');
+            tablesExist = false;
+        }
+        
+        // Если таблиц нет - инициализируем БД
+        if (!tablesExist) {
+            console.log('⚠️  Таблицы не найдены, запуск инициализации базы данных...');
             const DatabaseInitializer = require('./database/init');
             const initializer = new DatabaseInitializer();
             await initializer.initializeDatabase();
-            initializer.close();
             console.log('✅ База данных инициализирована');
         }
         

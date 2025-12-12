@@ -202,6 +202,14 @@
             background: linear-gradient(135deg, #d97706, #f59e0b);
             box-shadow: 0 10px 30px rgba(245, 158, 11, 0.4);
         }
+        
+        .ticket-card.keyboard-selected {
+            outline: 3px solid #60a5fa;
+            outline-offset: 3px;
+            box-shadow: 0 0 0 6px rgba(96, 165, 250, 0.3), 0 10px 30px rgba(59, 130, 246, 0.4);
+            transform: translateY(-4px) scale(1.05);
+            z-index: 10;
+        }
 
         .ticket-number {
             color: white;
@@ -340,6 +348,90 @@
             // Back to home button
             document.getElementById('backToHome')?.addEventListener('click', () => {
                 window.location.href = 'index.html';
+            });
+            
+            // Keyboard navigation for tickets
+            let selectedTicketIndex = -1;
+            const ticketsPerRow = () => {
+                const grid = document.getElementById('ticketsGrid');
+                if (!grid) return 10;
+                const gridWidth = grid.offsetWidth;
+                const cardWidth = 90 + 16; // 90px + 1rem gap
+                return Math.floor(gridWidth / cardWidth) || 10;
+            };
+            
+            const updateSelectedTicket = (index) => {
+                const tickets = document.querySelectorAll('.ticket-card');
+                tickets.forEach(t => t.classList.remove('keyboard-selected'));
+                
+                if (index >= 0 && index < tickets.length) {
+                    tickets[index].classList.add('keyboard-selected');
+                    tickets[index].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    selectedTicketIndex = index;
+                }
+            };
+            
+            document.addEventListener('keydown', (e) => {
+                // Игнорируем если фокус на input/textarea
+                if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+                    return;
+                }
+                
+                const tickets = document.querySelectorAll('.ticket-card');
+                const totalTickets = tickets.length;
+                const cols = ticketsPerRow();
+                
+                // Backspace - back to home
+                if (e.key === 'Backspace') {
+                    e.preventDefault();
+                    const backBtn = document.getElementById('backToHome');
+                    if (backBtn) {
+                        backBtn.click();
+                    }
+                    return;
+                }
+                
+                // Enter - open selected ticket
+                if (e.key === 'Enter' && selectedTicketIndex >= 0) {
+                    e.preventDefault();
+                    tickets[selectedTicketIndex].click();
+                    return;
+                }
+                
+                // Arrow navigation
+                if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) {
+                    e.preventDefault();
+                    
+                    // Инициализируем выбор, если еще не выбрано
+                    if (selectedTicketIndex === -1) {
+                        updateSelectedTicket(0);
+                        return;
+                    }
+                    
+                    let newIndex = selectedTicketIndex;
+                    
+                    if (e.key === 'ArrowRight') {
+                        newIndex = Math.min(selectedTicketIndex + 1, totalTickets - 1);
+                    } else if (e.key === 'ArrowLeft') {
+                        newIndex = Math.max(selectedTicketIndex - 1, 0);
+                    } else if (e.key === 'ArrowDown') {
+                        newIndex = Math.min(selectedTicketIndex + cols, totalTickets - 1);
+                    } else if (e.key === 'ArrowUp') {
+                        newIndex = Math.max(selectedTicketIndex - cols, 0);
+                    }
+                    
+                    updateSelectedTicket(newIndex);
+                }
+            });
+            
+            // Сброс выделения при клике мышью
+            document.getElementById('ticketsGrid')?.addEventListener('click', (e) => {
+                if (e.target.closest('.ticket-card')) {
+                    selectedTicketIndex = -1;
+                    document.querySelectorAll('.ticket-card').forEach(t => 
+                        t.classList.remove('keyboard-selected')
+                    );
+                }
             });
             
             // Создаем глобальные объекты если их нет

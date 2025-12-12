@@ -385,9 +385,14 @@ class TicketDashboard {
                 const data = await response.json();
                 const count = data.favorites?.length || 0;
                 
-                const badge = document.getElementById('favoritesCountBadge');
-                if (badge) {
-                    badge.textContent = count;
+                // Обновляем кнопку через языковой менеджер для сохранения локализации
+                if (this.languageManager) {
+                    const badge = document.getElementById('favoritesCountBadge');
+                    if (badge) {
+                        badge.textContent = count;
+                    }
+                    // Перерисовываем кнопку с правильным переводом
+                    this.languageManager.updateFavoritesButton();
                 }
                 
                 console.log(`⭐ Избранных вопросов: ${count}`);

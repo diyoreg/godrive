@@ -57,6 +57,7 @@ const translations = {
         adminPanelTitle: "Админ панель",
         mainTitle: "Главная",
         backToHome: "Главная",
+        favoritesButton: "Избранное",
         addUserTitle: "Добавить пользователя",
         usersListTitle: "Список пользователей",
         usernamePlaceholder: "Логин",
@@ -128,6 +129,7 @@ const translations = {
         adminPanelTitle: "Admin panel",
         mainTitle: "Bosh sahifa",
         backToHome: "Bosh sahifa",
+        favoritesButton: "Tanlanganlar",
         addUserTitle: "Foydalanuvchi qo'shish",
         usersListTitle: "Foydalanuvchilar ro'yxati",
         usernamePlaceholder: "Login",
@@ -195,10 +197,11 @@ const translations = {
         profileButton: "Профил",
         
         // Админ панель
-        adminPanel: "Админ панел",
-        adminPanelTitle: "Админ панел",
+        adminPanel: "Админ панель",
+        adminPanelTitle: "Админ панель",
         mainTitle: "Бош саҳифа",
         backToHome: "Бош саҳифа",
+        favoritesButton: "Танланганлар",
         addUserTitle: "Фойдаланувчи қўшиш",
         usersListTitle: "Фойдаланувчилар рўйхати",
         usernamePlaceholder: "Логин",
@@ -259,6 +262,9 @@ class LanguageManager {
         // Обновить активную языковую кнопку
         this.updateLanguageButtons();
         
+        // Обновить кнопку избранного
+        this.updateFavoritesButton();
+        
         // Если находимся на странице теста, обновить контент теста
         if (window.testSystem) {
             window.testSystem.updateLanguage();
@@ -273,6 +279,18 @@ class LanguageManager {
                 btn.classList.add('active');
             }
         });
+    }
+    
+    updateFavoritesButton() {
+        const favoritesBtn = document.getElementById('favoritesBtn');
+        if (favoritesBtn) {
+            const badge = document.getElementById('favoritesCountBadge');
+            const count = badge ? badge.textContent : '0';
+            const translation = this.translate('favoritesButton');
+            
+            // Обновляем только текст, сохраняя badge
+            favoritesBtn.innerHTML = `⭐ ${translation} <span id="favoritesCountBadge" style="background: rgba(251, 191, 36, 0.3); padding: 2px 8px; border-radius: 6px; margin-left: 4px; font-size: 12px;">${count}</span>`;
+        }
     }
     
     createLanguageButtons(container) {

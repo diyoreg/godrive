@@ -673,9 +673,7 @@
         <div class="ticket-header">
             <div class="ticket-title" id="ticketTitle">⭐ Избранные вопросы</div>
             <div class="ticket-actions">
-                <button class="ticket-nav-btn" id="prevBtn" style="display: none;">←</button>
                 <button class="back-btn" id="backBtn">← Назад</button>
-                <button class="ticket-nav-btn" id="nextBtn" style="display: none;">→</button>
             </div>
         </div>
 
@@ -731,24 +729,128 @@
                 this.favoriteIds = [];
                 this.currentQuestionIndex = 0;
                 this.userAnswers = {};
+                
+                // Таймер для отслеживания времени
+                this.startTime = Date.now();
+                this.timeSpentSeconds = 0;
+                
+                // Статистика для текущей сессии
+                this.sessionStats = {
+                    totalAnswered: 0,
+                    correctAnswers: 0
+                };
+                
+                // Флаг для предотвращения дублирования отправки статистики
+                this.statsSaved = false;
             }
 
             async init() {
-                console.log('🚀 Инициализация страницы избранного...');
-                console.log('🌍 Текущий язык:', this.currentLanguage);
-                
                 // Проверяем авторизацию
                 const token = localStorage.getItem('authToken');
-                console.log('Token:', token ? 'Есть' : 'Нет');
                 if (!token) {
-                    console.log('❌ Нет токена, редирект на login');
                     window.location.href = 'login.html';
                     return;
                 }
 
+                this.updatePageTitle();
                 await this.loadFavorites();
                 this.setupEventListeners();
-                console.log('✅ Инициализация завершена');
+                this.initKeyboardNavigation();
+            }
+
+            updatePageTitle() {
+                const titleTexts = {
+                    ru: '⭐ Избранные вопросы',
+                    uz: '⭐ Tanlangan savollar',
+                    uzk: '⭐ Танланган саволлар'
+                };
+                document.getElementById('ticketTitle').textContent = titleTexts[this.currentLanguage] || titleTexts.uz;
+                
+                // Обновляем кнопку "Назад"
+                const backBtnTexts = {
+                    ru: '← Назад',
+                    uz: '← Orqaga',
+                    uzk: '← Орқага'
+                };
+                const backBtn = document.getElementById('backBtn');
+                if (backBtn) {
+                    backBtn.textContent = backBtnTexts[this.currentLanguage] || backBtnTexts.uz;
+                }
+                
+                const emptyBackBtn = document.getElementById('emptyBackBtn');
+                if (emptyBackBtn) {
+                    const emptyBackBtnTexts = {
+                        ru: 'Перейти к билетам',
+                        uz: 'Biletlarga o\'tish',
+                        uzk: 'Билетларга ўтиш'
+                    };
+                    emptyBackBtn.textContent = emptyBackBtnTexts[this.currentLanguage] || emptyBackBtnTexts.uz;
+                }
+            }
+
+            initKeyboardNavigation() {
+                document.addEventListener('keydown', (e) => {
+                    // Игнорируем если фокус на input/textarea
+                    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+                        return;
+                    }
+                    
+                    // Backspace - нажимаем кнопку "Назад"
+                    if (e.key === 'Backspace') {
+                        e.preventDefault();
+                        const backBtn = document.getElementById('backBtn');
+                        if (backBtn) {
+                            backBtn.click();
+                        }
+                        return;
+                    }
+                    
+                    // Игнорируем если нет вопросов
+                    if (this.questions.length === 0) {
+                        return;
+                    }
+                    
+                    // Цифры 1-4 (обычные и NUMPAD) - выбор варианта ответа
+                    const keyMap = {
+                        '1': 0, '2': 1, '3': 2, '4': 3,
+                        'Numpad1': 0, 'Numpad2': 1, 'Numpad3': 2, 'Numpad4': 3
+                    };
+                    
+                    if (keyMap.hasOwnProperty(e.key)) {
+                        e.preventDefault();
+                        
+                        const currentQuestion = this.questions[this.currentQuestionIndex];
+                        const questionId = currentQuestion.question_id;
+                        const optionIndex = keyMap[e.key];
+                        
+                        // Проверяем, что вариант существует
+                        const options = Array.isArray(currentQuestion.options) ? currentQuestion.options : [];
+                        if (optionIndex < options.length) {
+                            // Проверяем, что ответ еще не был дан
+                            if (this.userAnswers[questionId] === undefined) {
+                                this.selectOption(currentQuestion, optionIndex);
+                            }
+                        }
+                        // Если вариант не существует - молча игнорируем
+                        return;
+                    }
+                    
+                    // Стрелка вправо - следующий вопрос
+                    if (e.key === 'ArrowRight') {
+                        e.preventDefault();
+                        if (this.currentQuestionIndex < this.questions.length - 1) {
+                            this.showQuestion(this.currentQuestionIndex + 1);
+                        }
+                    }
+                    
+                    // Стрелка влево - предыдущий вопрос
+                    if (e.key === 'ArrowLeft') {
+                        e.preventDefault();
+                        if (this.currentQuestionIndex > 0) {
+                            this.showQuestion(this.currentQuestionIndex - 1);
+                        }
+                    }
+                });
             }
 
             async loadFavorites() {
@@ -764,8 +866,6 @@
 
                     const data = await response.json();
                     this.favoriteIds = data.favorites || [];
-
-                    console.log(`📂 Загружено ${this.favoriteIds.length} избранных вопросов`);
 
                     if (this.favoriteIds.length === 0) {
                         this.showEmptyState();
@@ -783,14 +883,10 @@
             }
 
             async loadQuestionsData() {
-                console.log('📚 Загрузка данных вопросов из API...');
-                console.log('IDs избранных:', this.favoriteIds);
-                
                 try {
                     // Загружаем вопросы через API батчем
                     const ids = this.favoriteIds.join(',');
                     const url = `/api/questions/batch?ids=${ids}&lang=${this.currentLanguage}`;
-                    console.log(`Загрузка: ${url}`);
                     
                     const response = await fetch(url);
                     
@@ -800,11 +896,8 @@
                     
                     const data = await response.json();
                     this.questions = data.questions || [];
-                    
-                    console.log(`✅ Загружено ${this.questions.length} вопросов из ${this.favoriteIds.length}`);
 
                     if (this.questions.length === 0) {
-                        console.error('⚠️ Ни один вопрос не загрузился!');
                         this.showEmptyState();
                         return;
                     }
@@ -819,20 +912,16 @@
             }
 
             showQuestion(index) {
-                console.log(`📄 showQuestion(${index}), всего вопросов: ${this.questions.length}`);
                 if (index < 0 || index >= this.questions.length) {
-                    console.log('❌ Некорректный индекс');
                     return;
                 }
 
                 this.currentQuestionIndex = index;
                 const question = this.questions[index];
-                console.log('📝 Вопрос:', question);
 
                 // Показываем контейнер вопроса
                 const questionContainer = document.getElementById('questionContainer');
                 questionContainer.style.display = 'flex';
-                console.log('✅ questionContainer.style.display установлен в flex');
 
                 // Обновляем номер вопроса
                 const questionNumberTexts = {
@@ -855,20 +944,16 @@
 
                 // Обновляем текст вопроса
                 const questionText = question.question_text || '';
-                console.log('📋 Текст вопроса:', questionText);
                 document.getElementById('questionText').textContent = questionText;
 
                 // Обновляем изображение
                 const imageContainer = document.getElementById('imageContainer');
                 const questionImage = document.getElementById('questionImage');
-                console.log('🖼️ URL изображения:', question.image_url);
                 if (question.image_url) {
                     questionImage.src = question.image_url;
                     imageContainer.style.display = 'flex';
-                    console.log('✅ Изображение показано');
                 } else {
                     imageContainer.style.display = 'none';
-                    console.log('⚠️ Нет изображения');
                 }
 
                 // Обновляем варианты ответов
@@ -889,18 +974,19 @@
                 // API возвращает options как массив строк напрямую
                 const options = Array.isArray(question.options) ? question.options : [];
                 const userAnswer = this.userAnswers[question.question_id];
+                const correctAnswer = question.correct_answer || question.correct_option;
 
                 optionsContainer.innerHTML = options.map((option, index) => {
                     let classes = 'option-item';
                     
                     if (userAnswer !== undefined) {
-                        if (index === question.correct_option) {
+                        classes += ' disabled';
+                        if (index === correctAnswer) {
                             classes += ' correct';
-                        } else if (index === userAnswer) {
+                        }
+                        if (index === userAnswer && index !== correctAnswer) {
                             classes += ' incorrect';
                         }
-                    } else if (userAnswer === index) {
-                        classes += ' selected';
                     }
 
                     return `
@@ -910,69 +996,99 @@
                     `;
                 }).join('');
 
-                // Добавляем обработчики
-                optionsContainer.querySelectorAll('.option-item').forEach(opt => {
-                    opt.addEventListener('click', (e) => {
-                        const index = parseInt(e.currentTarget.dataset.index);
-                        this.selectOption(question, index);
+                // Добавляем обработчики только если еще не отвечено
+                if (userAnswer === undefined) {
+                    optionsContainer.querySelectorAll('.option-item').forEach(opt => {
+                        opt.addEventListener('click', (e) => {
+                            const index = parseInt(e.currentTarget.dataset.index);
+                            this.selectOption(question, index);
+                        });
                     });
-                });
+                }
             }
 
             selectOption(question, optionIndex) {
+                // Проверяем, первый ли раз отвечаем на этот вопрос
+                const isFirstAnswer = this.userAnswers[question.question_id] === undefined;
+                
                 // Сохраняем ответ
+                const correctAnswer = question.correct_answer || question.correct_option;
+                const isCorrect = optionIndex === correctAnswer;
+                
                 this.userAnswers[question.question_id] = optionIndex;
+                
+                // Обновляем статистику сессии только при первом ответе на вопрос
+                if (isFirstAnswer) {
+                    this.sessionStats.totalAnswered++;
+                    if (isCorrect) {
+                        this.sessionStats.correctAnswers++;
+                    }
+                }
 
                 // Перерисовываем опции
                 this.renderOptions(question);
 
                 // Показываем объяснение
                 this.showExplanation(question);
+                
+                // Обновляем навигацию
+                this.updateNavigation();
             }
 
             updateExplanation(question) {
                 const explanationContainer = document.getElementById('explanationContainer');
                 const explanationText = document.getElementById('explanationText');
-                const explanation = question.explanation_text || '';
+                const explanation = question.explanation_text || question.explanation || '';
 
-                if (explanation && this.userAnswers[question.question_id] !== undefined) {
-                    // Есть объяснение и дан ответ - показываем
+                if (this.userAnswers[question.question_id] !== undefined) {
+                    // Дан ответ - показываем объяснение
                     explanationText.textContent = explanation;
+                    explanationText.classList.remove('spoiler');
+                    explanationText.classList.add('revealed');
                     explanationContainer.style.display = 'flex';
                     explanationContainer.classList.remove('collapsed');
                 } else {
-                    // Нет объяснения или не дан ответ - скрываем
+                    // Не дан ответ - скрываем
                     explanationContainer.style.display = 'none';
                 }
             }
 
             showExplanation(question) {
                 const explanationContainer = document.getElementById('explanationContainer');
+                const explanationText = document.getElementById('explanationText');
+                
+                const explanation = question.explanation_text || question.explanation || '';
+                
+                // Устанавливаем текст объяснения
+                explanationText.textContent = explanation;
+                
+                // Убираем эффект размытия
+                explanationText.classList.remove('spoiler');
+                explanationText.classList.add('revealed');
+                
+                // Показываем контейнер
                 explanationContainer.style.display = 'flex';
                 explanationContainer.classList.remove('collapsed');
             }
 
             updateNavigation() {
-                // Обновляем кнопки prev/next
-                const prevBtn = document.getElementById('prevBtn');
-                const nextBtn = document.getElementById('nextBtn');
-
-                if (this.questions.length > 1) {
-                    prevBtn.style.display = 'flex';
-                    nextBtn.style.display = 'flex';
-                    prevBtn.disabled = this.currentQuestionIndex === 0;
-                    nextBtn.disabled = this.currentQuestionIndex === this.questions.length - 1;
-                } else {
-                    prevBtn.style.display = 'none';
-                    nextBtn.style.display = 'none';
-                }
-
                 // Обновляем кнопки вопросов
                 const questionButtons = document.getElementById('questionButtons');
                 questionButtons.innerHTML = this.questions.map((q, index) => {
                     let classes = 'question-btn';
                     if (index === this.currentQuestionIndex) classes += ' active';
-                    if (this.userAnswers[q.question_id] !== undefined) classes += ' answered';
+                    
+                    const userAnswer = this.userAnswers[q.question_id];
+                    const correctAnswer = q.correct_answer || q.correct_option;
+                    
+                    if (userAnswer !== undefined) {
+                        // Проверяем правильность ответа
+                        if (userAnswer === correctAnswer) {
+                            classes += ' correct';
+                        } else {
+                            classes += ' incorrect';
+                        }
+                    }
 
                     return `<button class="${classes}" data-index="${index}">${index + 1}</button>`;
                 }).join('');
@@ -1023,8 +1139,6 @@
                     });
 
                     if (response.ok) {
-                        console.log('✅ Вопрос удалён из избранного');
-                        
                         // Удаляем из массивов
                         const questionIndex = this.questions.findIndex(q => q.question_id === questionId);
                         this.questions.splice(questionIndex, 1);
@@ -1037,7 +1151,8 @@
                             }
                             this.showQuestion(this.currentQuestionIndex);
                         } else {
-                            // Если вопросов не осталось, показываем пустое состояние
+                            // Если вопросов не осталось, сохраняем статистику и показываем пустое состояние
+                            await this.saveStatistics();
                             this.showEmptyState();
                         }
                     }
@@ -1046,34 +1161,98 @@
                 }
             }
 
+            async saveStatistics() {
+                // Сохраняем глобальную статистику только если были ответы
+                if (this.sessionStats.totalAnswered === 0) {
+                    return;
+                }
+                
+                // Проверяем флаг - если уже сохраняли, не делаем повторно
+                if (this.statsSaved) {
+                    return;
+                }
+                
+                // Устанавливаем флаг, чтобы больше не сохранять
+                this.statsSaved = true;
+                
+                try {
+                    const token = localStorage.getItem('authToken');
+                    if (!token) {
+                        return;
+                    }
+                    
+                    // Подсчитываем время
+                    const endTime = Date.now();
+                    this.timeSpentSeconds = Math.floor((endTime - this.startTime) / 1000);
+                    
+                    const statsResponse = await fetch('/api/stats/update', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${token}`
+                        },
+                        body: JSON.stringify({
+                            timeSeconds: this.timeSpentSeconds,
+                            totalAnswered: this.sessionStats.totalAnswered,
+                            correctAnswers: this.sessionStats.correctAnswers
+                        })
+                    });
+                    
+                    if (statsResponse.ok) {
+                        const statsResult = await statsResponse.json();
+                        console.log('✅ Статистика избранного сохранена:', statsResult.data);
+                    }
+                } catch (error) {
+                    console.error('❌ Ошибка сохранения статистики:', error);
+                }
+            }
+
             showEmptyState() {
                 document.getElementById('loadingState').style.display = 'none';
                 document.getElementById('questionContainer').style.display = 'none';
                 document.getElementById('navigationContainer').style.display = 'none';
                 document.getElementById('emptyState').style.display = 'block';
+                
+                // Обновляем локализацию пустого состояния
+                const emptyTitleTexts = {
+                    ru: 'Нет избранных вопросов',
+                    uz: 'Tanlangan savollar yo\'q',
+                    uzk: 'Танланган саволлар йўқ'
+                };
+                const emptyTextTexts = {
+                    ru: 'Добавьте вопросы в избранное, чтобы быстро к ним возвращаться',
+                    uz: 'Tez qaytish uchun savollarni tanlanganlar ro\'yxatiga qo\'shing',
+                    uzk: 'Тез қайтиш учун саволларни танланганлар рўйхатига қўшинг'
+                };
+                
+                const emptyTitle = document.querySelector('.empty-title');
+                const emptyText = document.querySelector('.empty-text');
+                
+                if (emptyTitle) {
+                    emptyTitle.textContent = emptyTitleTexts[this.currentLanguage] || emptyTitleTexts.uz;
+                }
+                if (emptyText) {
+                    emptyText.textContent = emptyTextTexts[this.currentLanguage] || emptyTextTexts.uz;
+                }
+                
+                // Обновляем кнопку
+                this.updatePageTitle();
             }
 
             setupEventListeners() {
                 // Кнопки назад
-                document.getElementById('backBtn').addEventListener('click', () => {
+                document.getElementById('backBtn').addEventListener('click', async () => {
+                    await this.saveStatistics();
                     window.location.href = 'dashboard.html';
                 });
 
                 const emptyBackBtn = document.getElementById('emptyBackBtn');
                 if (emptyBackBtn) {
-                    emptyBackBtn.addEventListener('click', () => {
+                    emptyBackBtn.addEventListener('click', async () => {
+                        await this.saveStatistics();
                         window.location.href = 'dashboard.html';
                     });
                 }
-
-                // Кнопки навигации
-                document.getElementById('prevBtn').addEventListener('click', () => {
-                    this.showQuestion(this.currentQuestionIndex - 1);
-                });
-
-                document.getElementById('nextBtn').addEventListener('click', () => {
-                    this.showQuestion(this.currentQuestionIndex + 1);
-                });
 
                 // Клик на иконку объяснения для сворачивания/разворачивания
                 const explanationIcon = document.getElementById('explanationIcon');
@@ -1083,6 +1262,39 @@
                         container.classList.toggle('collapsed');
                     });
                 }
+                
+                // Сохранение статистики при уходе со страницы (beforeunload)
+                window.addEventListener('beforeunload', () => {
+                    // Используем fetch с keepalive для надежной отправки при закрытии
+                    if (this.sessionStats.totalAnswered > 0 && !this.statsSaved) {
+                        const token = localStorage.getItem('authToken');
+                        if (token) {
+                            this.statsSaved = true;
+                            
+                            const endTime = Date.now();
+                            this.timeSpentSeconds = Math.floor((endTime - this.startTime) / 1000);
+                            
+                            fetch('/api/stats/update', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                    'Authorization': `Bearer ${token}`
+                                },
+                                body: JSON.stringify({
+                                    timeSeconds: this.timeSpentSeconds,
+                                    totalAnswered: this.sessionStats.totalAnswered,
+                                    correctAnswers: this.sessionStats.correctAnswers
+                                }),
+                                keepalive: true
+                            });
+                        }
+                    }
+                });
+                
+                // Сохранение при закрытии вкладки (pagehide для мобильных)
+                window.addEventListener('pagehide', async () => {
+                    await this.saveStatistics();
+                });
             }
         }
 

@@ -879,6 +879,9 @@
                 // Инициализируем раскрывающееся объяснение
                 this.initExplanationToggle();
                 
+                // Инициализируем навигацию стрелками клавиатуры
+                this.initKeyboardNavigation();
+                
                 // Обновляем интерфейс с текущим языком
                 this.updateTicketTitle();
                 
@@ -987,6 +990,90 @@
                     if (!explanationContainer.classList.contains('collapsed')) {
                         explanationText.classList.remove('spoiler');
                         explanationText.classList.add('revealed');
+                    }
+                });
+            }
+
+            initKeyboardNavigation() {
+                document.addEventListener('keydown', (e) => {
+                    // Игнорируем если фокус на input/textarea
+                    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+                        return;
+                    }
+                    
+                    // Backspace - нажимаем кнопку "Назад"
+                    if (e.key === 'Backspace') {
+                        e.preventDefault();
+                        const backBtn = document.getElementById('backBtn');
+                        if (backBtn) {
+                            backBtn.click();
+                        }
+                        return;
+                    }
+                    
+                    // Цифры 1-4 (обычные и NUMPAD) - выбор варианта ответа
+                    const keyMap = {
+                        '1': 0, '2': 1, '3': 2, '4': 3,
+                        'Numpad1': 0, 'Numpad2': 1, 'Numpad3': 2, 'Numpad4': 3
+                    };
+                    
+                    if (keyMap.hasOwnProperty(e.key)) {
+                        e.preventDefault();
+                        
+                        if (this.questions.length === 0) return;
+                        
+                        const currentQuestion = this.questions[this.currentQuestionIndex];
+                        const questionId = currentQuestion.question_id;
+                        const optionIndex = keyMap[e.key];
+                        
+                        // Проверяем, что вариант существует
+                        const options = Array.isArray(currentQuestion.options) ? currentQuestion.options : [];
+                        if (optionIndex < options.length) {
+                            // Проверяем, что ответ еще не был дан
+                            const answerData = this.userAnswers[questionId];
+                            if (answerData === undefined || answerData.selected === undefined) {
+                                // ticket.html использует 1-based индексацию для selectAnswer
+                                this.selectAnswer(questionId, optionIndex + 1);
+                            }
+                        }
+                        // Если вариант не существует - молча игнорируем
+                        return;
+                    }
+                    
+                    // Ctrl + Стрелка вправо - следующий билет
+                    if (e.ctrlKey && e.key === 'ArrowRight') {
+                        e.preventDefault();
+                        const nextBtn = document.getElementById('nextTicketBtn');
+                        if (nextBtn && !nextBtn.disabled) {
+                            nextBtn.click();
+                        }
+                        return;
+                    }
+                    
+                    // Ctrl + Стрелка влево - предыдущий билет
+                    if (e.ctrlKey && e.key === 'ArrowLeft') {
+                        e.preventDefault();
+                        const prevBtn = document.getElementById('prevTicketBtn');
+                        if (prevBtn && !prevBtn.disabled) {
+                            prevBtn.click();
+                        }
+                        return;
+                    }
+                    
+                    // Стрелка вправо (без Ctrl) - следующий вопрос
+                    if (e.key === 'ArrowRight' && !e.ctrlKey) {
+                        e.preventDefault();
+                        if (this.currentQuestionIndex < this.questions.length - 1) {
+                            this.showQuestion(this.currentQuestionIndex + 1);
+                        }
+                    }
+                    
+                    // Стрелка влево (без Ctrl) - предыдущий вопрос
+                    if (e.key === 'ArrowLeft' && !e.ctrlKey) {
+                        e.preventDefault();
+                        if (this.currentQuestionIndex > 0) {
+                            this.showQuestion(this.currentQuestionIndex - 1);
+                        }
                     }
                 });
             }

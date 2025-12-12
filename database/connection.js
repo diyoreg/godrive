@@ -119,20 +119,24 @@ class Database {
 
     // Проверка наличия таблиц
     async checkTables() {
-        const query = `
-            SELECT EXISTS (
-                SELECT FROM information_schema.tables 
-                WHERE table_schema = 'public' 
-                AND table_name = 'users'
-            );
-        `;
-        const result = await this.pool.query(query);
-        
-        if (!result.rows[0].exists) {
+        try {
+            const query = `
+                SELECT EXISTS (
+                    SELECT FROM information_schema.tables 
+                    WHERE table_schema = 'public' 
+                    AND table_name = 'users'
+                );
+            `;
+            const result = await this.pool.query(query);
+            
+            if (!result.rows[0].exists) {
+                throw new Error('Таблица users не найдена');
+            }
+            
+            return true;
+        } catch (error) {
             throw new Error('Таблица users не найдена');
         }
-        
-        return true;
     }
 }
 
