@@ -92,6 +92,50 @@
             background: rgba(239, 68, 68, 0.4);
         }
 
+        .hamburger-btn {
+            display: none;
+        }
+
+        .mobile-menu-dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 0.5rem;
+            background: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 12px;
+            padding: 0.5rem;
+            min-width: 180px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        .mobile-menu-dropdown button {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: transparent;
+            border: none;
+            border-radius: 8px;
+            color: #e2e8f0;
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .mobile-menu-dropdown button:hover {
+            background: rgba(51, 65, 85, 0.6);
+        }
+
+        .mobile-menu-dropdown button.logout-item:hover {
+            background: rgba(239, 68, 68, 0.3);
+        }
+
         /* Main Container */
         .container {
             max-width: 1400px;
@@ -388,11 +432,35 @@
             }
 
             .top-nav {
-                padding: 1rem;
+                padding: 0.75rem 1rem;
             }
-
-            .nav-button span {
+            
+            .logo img {
+                height: 32px;
+            }
+            
+            .nav-right {
+                gap: 0.5rem;
+                position: relative;
+            }
+            
+            #profileBtn,
+            #logoutBtn {
                 display: none;
+            }
+            
+            .hamburger-btn {
+                display: flex !important;
+            }
+            
+            .nav-button {
+                padding: 0.4rem 0.75rem;
+                font-size: 0.75rem;
+                gap: 0.25rem;
+            }
+            
+            .nav-button span:first-child {
+                font-size: 1rem;
             }
         }
 
@@ -436,6 +504,9 @@
             <button class="nav-button logout-btn" id="logoutBtn">
                 <span>🚪</span>
                 <span data-translate="logout">Chiqish</span>
+            </button>
+            <button class="nav-button hamburger-btn" id="hamburgerBtn">
+                <span style="font-size: 1.25rem;">☰</span>
             </button>
         </div>
     </nav>
@@ -970,6 +1041,62 @@
                 if (dropdown) {
                     dropdown.remove();
                     languageMenuOpen = false;
+                }
+            }
+        });
+
+        // Hamburger menu handler
+        let mobileMenuOpen = false;
+        document.getElementById('hamburgerBtn').addEventListener('click', (e) => {
+            e.stopPropagation();
+            
+            // Remove existing dropdown if any
+            const existingDropdown = document.querySelector('.mobile-menu-dropdown');
+            if (existingDropdown) {
+                existingDropdown.remove();
+                mobileMenuOpen = false;
+                return;
+            }
+
+            // Create dropdown menu
+            const dropdown = document.createElement('div');
+            dropdown.className = 'mobile-menu-dropdown';
+
+            // Profile button
+            const profileBtn = document.createElement('button');
+            profileBtn.innerHTML = '<span>👤</span><span data-translate="profile">' + translations[currentLang].profile + '</span>';
+            profileBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                window.location.href = 'profile.html';
+            });
+            dropdown.appendChild(profileBtn);
+
+            // Logout button
+            const logoutBtn = document.createElement('button');
+            logoutBtn.className = 'logout-item';
+            logoutBtn.innerHTML = '<span>🚪</span><span data-translate="logout">' + translations[currentLang].logout + '</span>';
+            logoutBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                localStorage.removeItem('authToken');
+                localStorage.removeItem('currentUser');
+                window.location.href = 'login.html';
+            });
+            dropdown.appendChild(logoutBtn);
+
+            // Position relative to hamburger button
+            const hamburgerBtn = document.getElementById('hamburgerBtn');
+            hamburgerBtn.style.position = 'relative';
+            hamburgerBtn.appendChild(dropdown);
+            mobileMenuOpen = true;
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', () => {
+            if (mobileMenuOpen) {
+                const dropdown = document.querySelector('.mobile-menu-dropdown');
+                if (dropdown) {
+                    dropdown.remove();
+                    mobileMenuOpen = false;
                 }
             }
         });

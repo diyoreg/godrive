@@ -202,6 +202,74 @@
             border-color: rgba(239, 68, 68, 0.5);
         }
 
+        /* Мобильная адаптация */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header {
+                flex-direction: column;
+                gap: 16px;
+                padding: 16px;
+                align-items: stretch;
+            }
+
+            .header h1 {
+                font-size: 20px;
+                justify-content: center;
+            }
+
+            .header-logo {
+                height: 32px;
+            }
+
+            .header-actions {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 8px;
+            }
+
+            .header-actions button:not(.lang-btn):not(.globe-btn) {
+                padding: 0.4rem 0.75rem;
+                font-size: 0.75rem;
+                flex: 1 1 auto;
+                min-width: fit-content;
+            }
+
+            .profile-card {
+                padding: 20px;
+            }
+
+            .profile-card h2 {
+                font-size: 18px;
+            }
+
+            .modal-content {
+                padding: 24px;
+                width: 95%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-actions {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .header-actions button:not(.lang-btn):not(.globe-btn) {
+                width: 100%;
+            }
+
+            .language-dropdown {
+                width: 100%;
+            }
+
+            .globe-btn {
+                width: 100%;
+            }
+        }
+
         .modal {
             position: fixed;
             top: 0;
